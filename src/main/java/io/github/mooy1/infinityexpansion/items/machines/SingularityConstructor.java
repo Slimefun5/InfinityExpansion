@@ -8,9 +8,6 @@ import java.util.Map;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
-import lombok.AllArgsConstructor;
-import lombok.Setter;
-
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
@@ -59,8 +56,12 @@ public final class SingularityConstructor extends AbstractMachineBlock implement
     private static final int[] INPUT_SLOT = {10};
     private static final int[] OUTPUT_SLOT = {16};
 
-    @Setter
     private int speed;
+
+    public SingularityConstructor speed(int speed) {
+        this.speed = speed;
+        return this;
+    }
 
     public SingularityConstructor(ItemGroup category, SlimefunItemStack item, RecipeType type, ItemStack[] recipe) {
         super(category, item, type, recipe);
@@ -277,13 +278,19 @@ public final class SingularityConstructor extends AbstractMachineBlock implement
         return items;
     }
 
-    @AllArgsConstructor
     private static final class Recipe {
 
         private final SlimefunItemStack output;
         private final ItemStack input;
         private final String id;
         private final int amount;
+
+        Recipe(SlimefunItemStack output, ItemStack input, String id, int amount) {
+            this.output = output;
+            this.input = input;
+            this.id = id;
+            this.amount = amount;
+        }
 
     }
 

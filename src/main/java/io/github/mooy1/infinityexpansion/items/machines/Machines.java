@@ -5,8 +5,6 @@ import java.util.concurrent.ThreadLocalRandom;
 
 import javax.annotation.Nonnull;
 
-import lombok.experimental.UtilityClass;
-
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
@@ -21,8 +19,9 @@ import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
 
-@UtilityClass
 public final class Machines {
+
+    private Machines() {}
 
     public static final SlimefunItemStack COBBLE_PRESS = new SlimefunItemStack(
             "COBBLE_PRESS",

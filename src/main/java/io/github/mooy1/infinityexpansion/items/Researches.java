@@ -1,7 +1,5 @@
 package io.github.mooy1.infinityexpansion.items;
 
-import lombok.experimental.UtilityClass;
-
 import io.github.mooy1.infinityexpansion.InfinityExpansion;
 import io.github.mooy1.infinityexpansion.items.blocks.Blocks;
 import io.github.mooy1.infinityexpansion.items.gear.Gear;
@@ -14,8 +12,9 @@ import io.github.mooy1.infinityexpansion.items.storage.Storage;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.researches.Research;
 
-@UtilityClass
 public final class Researches {
+
+    private Researches() {}
 
     private static final int FIRST_RESEARCH_ID = 314000000;
 

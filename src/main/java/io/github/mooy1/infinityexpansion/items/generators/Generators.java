@@ -1,7 +1,5 @@
 package io.github.mooy1.infinityexpansion.items.generators;
 
-import lombok.experimental.UtilityClass;
-
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
@@ -15,8 +13,9 @@ import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
 
-@UtilityClass
 public final class Generators {
+
+    private Generators() {}
 
     private static final int HYDRO_ENERGY = 5;
     private static final int ADVANCED_HYDRO_ENERGY = 45;

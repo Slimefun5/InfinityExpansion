@@ -6,8 +6,6 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.logging.Level;
 
-import lombok.experimental.UtilityClass;
-
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.configuration.ConfigurationSection;
@@ -28,8 +26,9 @@ import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
 
-@UtilityClass
 public final class Gear {
+
+    private Gear() {}
 
     public static final SlimefunItemStack ENDER_FLAME = new SlimefunItemStack(
             "ENDER_FLAME",

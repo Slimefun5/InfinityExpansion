@@ -10,12 +10,11 @@ import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import lombok.experimental.UtilityClass;
-
 import io.github.thebusybiscuit.slimefun4.libraries.dough.common.CommonPatterns;
 
-@UtilityClass
 public final class StorageSaveFix {
+
+    private StorageSaveFix() {}
 
     public static void fixStuff(Logger logger) {
         long time = System.nanoTime();

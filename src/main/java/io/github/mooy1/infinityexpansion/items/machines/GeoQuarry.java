@@ -8,8 +8,6 @@ import java.util.Map;
 import javax.annotation.Nonnull;
 import javax.annotation.ParametersAreNonnullByDefault;
 
-import lombok.Setter;
-
 import org.bukkit.Material;
 import org.bukkit.World;
 import org.bukkit.block.Biome;
@@ -37,8 +35,12 @@ public final class GeoQuarry extends AbstractMachineBlock implements RecipeDispl
     private static final int[] OUTPUT_SLOTS = { 29, 30, 31, 32, 33, 38, 39, 40, 41, 42 };
 
     private final Map<Pair<Biome, World.Environment>, RandomizedSet<ItemStack>> recipes = new HashMap<>();
-    @Setter
     private int ticksPerOutput;
+
+    public GeoQuarry ticksPerOutput(int ticksPerOutput) {
+        this.ticksPerOutput = ticksPerOutput;
+        return this;
+    }
 
     public GeoQuarry(ItemGroup category, SlimefunItemStack item, RecipeType type, ItemStack[] recipe) {
         super(category, item, type, recipe);

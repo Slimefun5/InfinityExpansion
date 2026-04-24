@@ -2,8 +2,6 @@ package io.github.mooy1.infinityexpansion.items;
 
 import javax.annotation.Nonnull;
 
-import lombok.experimental.UtilityClass;
-
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.World;
@@ -35,8 +33,9 @@ import io.github.thebusybiscuit.slimefun4.utils.HeadTexture;
 import me.mrCookieSlime.Slimefun.Objects.SlimefunItem.abstractItems.MachineFuel;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 
-@UtilityClass
 public final class SlimefunExtension {
+
+    private SlimefunExtension() {}
 
     private static final int INFINITY_CAPACITY = 2000000000;
     private static final int VOID_CAPACITY = 16000000;

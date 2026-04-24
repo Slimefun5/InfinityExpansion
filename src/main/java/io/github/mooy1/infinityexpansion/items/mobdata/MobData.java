@@ -1,7 +1,5 @@
 package io.github.mooy1.infinityexpansion.items.mobdata;
 
-import lombok.experimental.UtilityClass;
-
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
@@ -15,8 +13,9 @@ import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
 
-@UtilityClass
 public final class MobData {
+
+    private MobData() {}
 
     private static final int CHAMBER_INTERVAL =
             InfinityExpansion.config().getInt("mob-simulation-options.ticks-per-output", 1, 1000);

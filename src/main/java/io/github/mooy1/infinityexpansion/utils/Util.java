@@ -9,8 +9,6 @@ import java.util.logging.Level;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
-import lombok.experimental.UtilityClass;
-
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
 import org.bukkit.block.Block;
@@ -24,8 +22,9 @@ import org.bukkit.inventory.meta.ItemMeta;
 import io.github.mooy1.infinityexpansion.InfinityExpansion;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 
-@UtilityClass
 public final class Util {
+
+    private Util() {}
 
     @Nonnull
     public static ItemStack getDisplayItem(@Nonnull ItemStack output) {

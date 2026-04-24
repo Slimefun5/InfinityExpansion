@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Pattern;
 
-import lombok.Setter;
-
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
@@ -72,8 +70,11 @@ public final class StorageCache {
     private Material material;
     private ItemMeta meta;
     private boolean voidExcess;
-    @Setter
     private int amount;
+
+    public void setAmount(int amount) {
+        this.amount = amount;
+    }
 
     StorageCache(StorageUnit storageUnit, BlockMenu menu) {
         this.storageUnit = storageUnit;

@@ -5,8 +5,6 @@ import java.util.List;
 
 import javax.annotation.Nonnull;
 
-import lombok.Setter;
-
 import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.inventory.ItemStack;
@@ -36,8 +34,12 @@ public final class ResourceSynthesizer extends AbstractMachineBlock implements R
     };
     private static final int STATUS_SLOT = 13;
 
-    @Setter
     private SlimefunItemStack[] recipes;
+
+    public ResourceSynthesizer recipes(SlimefunItemStack[] recipes) {
+        this.recipes = recipes;
+        return this;
+    }
 
     public ResourceSynthesizer(ItemGroup category, SlimefunItemStack item, RecipeType recipeType, ItemStack[] recipe) {
         super(category, item, recipeType, recipe);

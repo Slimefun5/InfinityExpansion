@@ -2,15 +2,11 @@ package io.github.mooy1.infinityexpansion.items.generators;
 
 import javax.annotation.Nonnull;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-
 import org.bukkit.World;
 import org.bukkit.block.Block;
 
 import io.github.mooy1.infinityexpansion.utils.Util;
 
-@AllArgsConstructor
 public enum GenerationType {
 
     HYDROELECTRIC("Hydroelectric") {
@@ -69,8 +65,15 @@ public enum GenerationType {
         }
     };
 
-    @Getter
     private final String toString;
+
+    GenerationType(String toString) {
+        this.toString = toString;
+    }
+
+    public String getToString() {
+        return toString;
+    }
 
     protected abstract int generate(@Nonnull World world, @Nonnull Block block, int def);
 

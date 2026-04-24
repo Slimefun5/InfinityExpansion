@@ -2,8 +2,6 @@ package io.github.mooy1.infinityexpansion.items.materials;
 
 import java.util.Arrays;
 
-import lombok.experimental.UtilityClass;
-
 import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
 import org.bukkit.inventory.ItemStack;
@@ -19,8 +17,9 @@ import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
 import io.github.thebusybiscuit.slimefun4.utils.LoreBuilder;
 
-@UtilityClass
 public final class Materials {
+
+    private Materials() {}
 
 
     public static final SlimefunItemStack INFINITE_CIRCUIT = new SlimefunItemStack(

@@ -7,8 +7,6 @@ import java.util.Map;
 
 import javax.annotation.Nonnull;
 
-import lombok.Setter;
-
 import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.inventory.ItemStack;
@@ -36,10 +34,18 @@ public final class GrowingMachine extends AbstractMachineBlock implements Recipe
     private static final ItemStack GROWING = new CustomItemStack(Material.LIME_STAINED_GLASS_PANE, "&aGrowing...");
     private static final ItemStack INPUT_PLANT = new CustomItemStack(Material.BLUE_STAINED_GLASS_PANE, "&9Input a plant!");
 
-    @Setter
     private EnumMap<Material, ItemStack[]> recipes;
-    @Setter
+
+    public GrowingMachine recipes(EnumMap<Material, ItemStack[]> recipes) {
+        this.recipes = recipes;
+        return this;
+    }
     private int ticksPerOutput;
+
+    public GrowingMachine ticksPerOutput(int ticksPerOutput) {
+        this.ticksPerOutput = ticksPerOutput;
+        return this;
+    }
 
     public GrowingMachine(ItemGroup category, SlimefunItemStack item, RecipeType recipeType, ItemStack[] recipe) {
         super(category, item, recipeType, recipe);
