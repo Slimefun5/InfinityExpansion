@@ -5,8 +5,8 @@ main: io.github.mooy1.infinityexpansion.InfinityExpansion
 website: https://github.com/Mooy1/InfinityExpansion
 depend: [Slimefun]
 softdepend: [LiteXpansion]
-version: ${project.version}
-api-version: 1.16
+version: ${version}
+api-version: '1.16'
 
 commands:
   infinityexpansion:
@@ -24,4 +24,3 @@ permissions:
   infinityexpansion.giverecipe:
     description: Access to /infinityexpansion giverecipe
     default: op
-
