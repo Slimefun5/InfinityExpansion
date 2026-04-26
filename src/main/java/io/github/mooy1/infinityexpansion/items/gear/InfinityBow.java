@@ -10,14 +10,12 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 
-import io.github.thebusybiscuit.slimefun4.api.MinecraftVersion;
 import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.core.attributes.NotPlaceable;
 import io.github.thebusybiscuit.slimefun4.core.attributes.Soulbound;
 import io.github.thebusybiscuit.slimefun4.core.handlers.BowShootHandler;
-import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
 import io.github.thebusybiscuit.slimefun4.implementation.items.weapons.ExplosiveBow;
 
 public final class InfinityBow extends ExplosiveBow implements NotPlaceable, Soulbound {
@@ -42,16 +40,13 @@ public final class InfinityBow extends ExplosiveBow implements NotPlaceable, Sou
                 if (p.isBlocking() && e.getFinalDamage() <= 0) {
                     return;
                 }
-
-                if (Slimefun.getMinecraftVersion().isAtLeast(MinecraftVersion.MINECRAFT_1_17)) {
                     p.setFreezeTicks(60);
-                }
             }
 
             target.getWorld().playEffect(target.getLocation(), Effect.STEP_SOUND, Material.ICE);
             target.getWorld().playEffect(target.getEyeLocation(), Effect.STEP_SOUND, Material.ICE);
-            target.addPotionEffect(new PotionEffect(PotionEffectType.SLOW, 20 * 2, 10));
-            target.addPotionEffect(new PotionEffect(PotionEffectType.JUMP, 20 * 2, -10));
+            target.addPotionEffect(new PotionEffect(PotionEffectType.SLOWNESS, 20 * 2, 10));
+            target.addPotionEffect(new PotionEffect(PotionEffectType.JUMP_BOOST, 20 * 2, -10));
         };
     }
 

@@ -151,7 +151,7 @@ public final class ResourceSynthesizer extends AbstractMachineBlock implements R
             inv.consumeItem(INPUT_SLOTS[1], 1);
 
             if (inv.hasViewer()) {
-                inv.replaceExistingItem(STATUS_SLOT, new CustomItemStack(Material.LIME_STAINED_GLASS_PANE, "&aResource Synthesized!"));
+                inv.replaceExistingItem(STATUS_SLOT, CustomItemStack.create(Material.LIME_STAINED_GLASS_PANE, "&aResource Synthesized!"));
             }
             return true;
 

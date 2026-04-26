@@ -43,10 +43,10 @@ public final class Singularity extends UnplaceableBlock {
         int extra = amount % 64;
 
         for (int i = 0 ; i < stacks ; i++) {
-            recipe.add(new CustomItemStack(item, 64));
+            recipe.add(CustomItemStack.create(item, 64));
         }
 
-        recipe.add(new CustomItemStack(item, extra));
+        recipe.add(CustomItemStack.create(item, extra));
 
         while (recipe.size() < 9) {
             recipe.add(null);
