@@ -94,7 +94,8 @@ public final class InfinityGroup extends FlexItemGroup {
     InfinityGroup(NamespacedKey key, ItemStack item, int tier) {
         super(key, item, tier);
         InfinityWorkbench.TYPE.sendRecipesTo((input, output) -> {
-            SlimefunItemStack sfStack = (SlimefunItemStack) output;
+            io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem sfItem = io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem.getByItem(output);
+            SlimefunItemStack sfStack = new SlimefunItemStack(sfItem.getId(), output);
             IDS.add(sfStack.getItemId());
             ITEMS.put(sfStack.getItemId(), new Pair<>(sfStack, input));
         });
@@ -154,8 +155,8 @@ public final class InfinityGroup extends FlexItemGroup {
         menu.addItem(52, ChestMenuUtils.getNextButton(player, 1, 1), ChestMenuUtils.getEmptyClickHandler());
         menu.addItem(53, ChestMenuUtils.getBackground(), ChestMenuUtils.getEmptyClickHandler());
 
-        menu.addItem(1, CustomItemStack.create(ChestMenuUtils.getBackButton(
-                player, "", ChatColor.GRAY + Slimefun.getLocalization().getMessage(player, "guide.back.guide"))));
+        menu.addItem(1, ChestMenuUtils.getBackButton(
+                player, "", ChatColor.GRAY + Slimefun.getLocalization().getMessage(player, "guide.back.guide")));
 
         int i = 9;
         for (Pair<SlimefunItemStack, ItemStack[]> item : ITEMS.values()) {
@@ -185,7 +186,7 @@ public final class InfinityGroup extends FlexItemGroup {
                 });
             }
             else {
-                menu.addItem(i, item.getFirstValue(), (p, slot, item1, action) -> {
+                menu.addItem(i, item.getFirstValue().item(), (p, slot, item1, action) -> {
                     openInfinityRecipe(p, item.getFirstValue().getItemId(), entry);
                     return false;
                 });
@@ -277,7 +278,7 @@ public final class InfinityGroup extends FlexItemGroup {
         for (int slot : INFINITY_OUTPUT_BORDER) {
             menu.addItem(slot, MenuBlock.OUTPUT_BORDER, ChestMenuUtils.getEmptyClickHandler());
         }
-        menu.addItem(INFINITY_OUTPUT, pair.getFirstValue(), ChestMenuUtils.getEmptyClickHandler());
+        menu.addItem(INFINITY_OUTPUT, pair.getFirstValue().item(), ChestMenuUtils.getEmptyClickHandler());
         for (int slot : WORKBENCH_BORDER) {
             menu.addItem(slot, INFO, ChestMenuUtils.getEmptyClickHandler());
         }

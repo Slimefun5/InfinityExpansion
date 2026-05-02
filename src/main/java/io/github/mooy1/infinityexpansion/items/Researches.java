@@ -134,7 +134,7 @@ public final class Researches {
     }
 
     private static void create(int id, String key, String name, int cost, SlimefunItemStack... items) {
-        new Research(InfinityExpansion.createKey(key), FIRST_RESEARCH_ID + id, name, cost).addItems(items).register();
+        new Research(InfinityExpansion.createKey(key), FIRST_RESEARCH_ID + id, name, cost).addItems(java.util.Arrays.stream(items).map(io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack::item).toArray(org.bukkit.inventory.ItemStack[]::new)).register();
     }
 
 }

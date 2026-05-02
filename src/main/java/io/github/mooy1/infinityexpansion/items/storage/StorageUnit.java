@@ -139,7 +139,7 @@ public final class StorageUnit extends MenuBlock implements DistinctiveItem {
             Scheduler.run(() -> {
                 StorageCache cache = this.caches.get(b.getLocation());
                 cache.load(data.getFirstValue(), data.getFirstValue().getItemMeta());
-                cache.amount(data.getSecondValue());
+                cache.setAmount(data.getSecondValue());
             });
         }
     }

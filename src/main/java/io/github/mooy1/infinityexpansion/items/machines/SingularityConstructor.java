@@ -38,7 +38,7 @@ public final class SingularityConstructor extends AbstractMachineBlock implement
     private static final List<Recipe> RECIPE_LIST = new ArrayList<>();
     private static final Map<String, Pair<Integer, Recipe>> RECIPE_MAP = new HashMap<>();
     public static final RecipeType TYPE = new RecipeType(InfinityExpansion.createKey("singularity_constructor"),
-            Machines.SINGULARITY_CONSTRUCTOR, (stacks, itemStack) -> {
+            Machines.SINGULARITY_CONSTRUCTOR.item(), (stacks, itemStack) -> {
         int amt = 0;
         for (ItemStack item : stacks) {
             if (item != null) {
@@ -46,7 +46,7 @@ public final class SingularityConstructor extends AbstractMachineBlock implement
             }
         }
         String id = StackUtils.getIdOrType(stacks[0]);
-        Recipe recipe = new Recipe((SlimefunItemStack) itemStack, stacks[0], id, amt);
+        Recipe recipe = new Recipe(new SlimefunItemStack(io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem.getByItem(itemStack).getId(), itemStack), stacks[0], id, amt);
         RECIPE_LIST.add(recipe);
         RECIPE_MAP.put(id, new Pair<>(RECIPE_LIST.size() - 1, recipe));
     });
@@ -158,8 +158,8 @@ public final class SingularityConstructor extends AbstractMachineBlock implement
 
         // show status and output if done
         if (triplet != null) {
-            if (progress >= triplet.amount && menu.fits(triplet.output, OUTPUT_SLOT)) {
-                menu.pushItem(triplet.output.clone(), OUTPUT_SLOT);
+            if (progress >= triplet.amount && menu.fits(triplet.output.item(), OUTPUT_SLOT)) {
+                menu.pushItem(triplet.output.item().clone(), OUTPUT_SLOT);
                 progress = 0;
                 progressID = null;
 
@@ -272,7 +272,7 @@ public final class SingularityConstructor extends AbstractMachineBlock implement
 
         for (Recipe recipe : RECIPE_LIST) {
             items.add(recipe.input);
-            items.add(recipe.output);
+            items.add(recipe.output.item());
         }
 
         return items;
