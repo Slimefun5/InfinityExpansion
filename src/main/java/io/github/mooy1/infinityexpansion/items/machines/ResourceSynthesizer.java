@@ -89,10 +89,10 @@ public final class ResourceSynthesizer extends AbstractMachineBlock implements R
         final List<ItemStack> items = new ArrayList<>();
 
         for (int i = 0 ; i < this.recipes.length ; i += 3) {
-            items.add(this.recipes[i]);
-            items.add(this.recipes[i + 2]);
-            items.add(this.recipes[i + 1]);
-            items.add(this.recipes[i + 2]);
+            items.add(this.recipes[i].item());
+            items.add(this.recipes[i + 2].item());
+            items.add(this.recipes[i + 1].item());
+            items.add(this.recipes[i + 2].item());
         }
 
         return items;
@@ -129,7 +129,7 @@ public final class ResourceSynthesizer extends AbstractMachineBlock implements R
 
         for (int i = 0 ; i < this.recipes.length ; i += 3) {
             if ((id1.equals(this.recipes[i].getItemId()) && id2.equals(this.recipes[i + 1].getItemId()) || (id2.equals(this.recipes[i].getItemId()) && id1.equals(this.recipes[i + 1].getItemId())))) {
-                recipe = this.recipes[i + 2];
+                recipe = this.recipes[i + 2].item();
             }
         }
 

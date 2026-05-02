@@ -74,7 +74,7 @@ public final class SlimefunExtension {
             "&7A faster geo-miner",
             "",
             MachineLore.speed(SlimefunExtension.ADVANCED_GEO_SPEED),
-            MachineLore.energyPerSecond(SlimefunExtension.ADVANCED_GEO_ENERGY.item())
+            MachineLore.energyPerSecond(SlimefunExtension.ADVANCED_GEO_ENERGY)
     );
     public static final SlimefunItemStack ADVANCED_SMELTERY = new SlimefunItemStack(
             "ADVANCED_SMELTERY",
@@ -92,7 +92,7 @@ public final class SlimefunExtension {
             "&7Quickly charges items",
             "",
             MachineLore.speed(SlimefunExtension.ADVANCED_CHARGER_SPEED),
-            MachineLore.energyPerSecond(SlimefunExtension.ADVANCED_CHARGER_ENERGY.item())
+            MachineLore.energyPerSecond(SlimefunExtension.ADVANCED_CHARGER_ENERGY)
     );
     public static final SlimefunItemStack INFINITY_CHARGER = new SlimefunItemStack(
             "INFINITY_CHARGER",
@@ -101,7 +101,7 @@ public final class SlimefunExtension {
             "&7Instantly charges items",
             "",
             MachineLore.speed(SlimefunExtension.INFINITY_CHARGER_SPEED),
-            MachineLore.energy(SlimefunExtension.INFINITY_CHARGER_ENERGY.item()) + "per use"
+            MachineLore.energy(SlimefunExtension.INFINITY_CHARGER_ENERGY) + "per use"
     );
     public static final SlimefunItemStack ADVANCED_NETHER_STAR_REACTOR = new SlimefunItemStack(
             "ADVANCED_NETHER_STAR_REACTOR",
@@ -113,7 +113,7 @@ public final class SlimefunExtension {
             "&4Causes nearby Entities to get Withered",
             "",
             MachineLore.energyBuffer(SlimefunExtension.STAR_BUFFER),
-            MachineLore.energyPerSecond(SlimefunExtension.STAR_ENERGY.item())
+            MachineLore.energyPerSecond(SlimefunExtension.STAR_ENERGY)
     );
     public static final SlimefunItemStack ADVANCED_ENCHANTER = new SlimefunItemStack(
             "ADVANCED_ENCHANTER",
@@ -121,7 +121,7 @@ public final class SlimefunExtension {
             "&cAdvanced Enchanter",
             "",
             MachineLore.speed(SlimefunExtension.ADVANCED_EN_SPEED),
-            MachineLore.energyPerSecond(SlimefunExtension.ADVANCED_EN_ENERGY.item())
+            MachineLore.energyPerSecond(SlimefunExtension.ADVANCED_EN_ENERGY)
     );
     public static final SlimefunItemStack ADVANCED_DISENCHANTER = new SlimefunItemStack(
             "ADVANCED_DISENCHANTER",
@@ -129,7 +129,7 @@ public final class SlimefunExtension {
             "&cAdvanced Disenchanter",
             "",
             MachineLore.speed(SlimefunExtension.ADVANCED_DIS_SPEED),
-            MachineLore.energyPerSecond(SlimefunExtension.ADVANCED_DIS_ENERGY.item())
+            MachineLore.energyPerSecond(SlimefunExtension.ADVANCED_DIS_ENERGY)
     );
     public static final SlimefunItemStack INFINITY_ENCHANTER = new SlimefunItemStack(
             "INFINITY_ENCHANTER",
@@ -137,7 +137,7 @@ public final class SlimefunExtension {
             "&bInfinity Enchanter",
             "",
             MachineLore.speed(SlimefunExtension.INFINITY_EN_SPEED),
-            MachineLore.energy(SlimefunExtension.INFINITY_EN_ENERGY.item()) + "per use"
+            MachineLore.energy(SlimefunExtension.INFINITY_EN_ENERGY) + "per use"
     );
     public static final SlimefunItemStack INFINITY_DISENCHANTER = new SlimefunItemStack(
             "INFINITY_DISENCHANTER",
@@ -145,7 +145,7 @@ public final class SlimefunExtension {
             "&bInfinity Disenchanter",
             "",
             MachineLore.speed(SlimefunExtension.INFINITY_DIS_SPEED),
-            MachineLore.energy(SlimefunExtension.INFINITY_DIS_ENERGY.item()) + "per use"
+            MachineLore.energy(SlimefunExtension.INFINITY_DIS_ENERGY) + "per use"
     );
     public static final SlimefunItemStack INFINITY_CAPACITOR = new SlimefunItemStack(
             "INFINITY_CAPACITOR",

@@ -27,7 +27,7 @@ public final class Singularity extends UnplaceableBlock {
 
     public Singularity(SlimefunItemStack item, SlimefunItemStack recipe, int amount) {
         super(Groups.INFINITY_MATERIALS, item, SingularityConstructor.TYPE,
-                makeRecipe(recipe, (int) (amount * COST_MULTIPLIER)));
+                makeRecipe(recipe.item(), (int) (amount * COST_MULTIPLIER)));
     }
 
     public Singularity(SlimefunItemStack item, Material recipe, int amount) {
