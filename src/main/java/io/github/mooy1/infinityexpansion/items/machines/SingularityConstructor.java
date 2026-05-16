@@ -18,12 +18,12 @@ import io.github.mooy1.infinityexpansion.InfinityExpansion;
 import io.github.mooy1.infinityexpansion.utils.Util;
 import io.github.mooy1.infinitylib.common.StackUtils;
 import io.github.mooy1.infinitylib.machines.AbstractMachineBlock;
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.core.attributes.RecipeDisplayItem;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.collections.Pair;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
+import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.core.attributes.RecipeDisplayItem;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.collections.Pair;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenuPreset;
@@ -46,7 +46,7 @@ public final class SingularityConstructor extends AbstractMachineBlock implement
             }
         }
         String id = StackUtils.getIdOrType(stacks[0]);
-        Recipe recipe = new Recipe(new SlimefunItemStack(io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem.getByItem(itemStack).getId(), itemStack), stacks[0], id, amt);
+        Recipe recipe = new Recipe(new SlimefunItemStack(io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem.getByItem(itemStack).getId(), itemStack), stacks[0], id, amt);
         RECIPE_LIST.add(recipe);
         RECIPE_MAP.put(id, new Pair<>(RECIPE_LIST.size() - 1, recipe));
     });
@@ -295,3 +295,4 @@ public final class SingularityConstructor extends AbstractMachineBlock implement
     }
 
 }
+

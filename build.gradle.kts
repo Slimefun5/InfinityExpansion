@@ -1,11 +1,11 @@
 plugins {
     java
-    id("com.gradleup.shadow") version "9.3.2"
-    id("io.github.intisy.github-gradle") version "1.8.2.1"
+    id("com.gradleup.shadow")
+    id("io.github.intisy.github-gradle")
 }
 
 group = "io.github.mooy1"
-version = "1.0.0"
+version = "1.0.0-UNOFFICIAL"
 description = "InfinityExpansion is a Slimefun addon that adds machines, generators, and more endgame content."
 
 github {
@@ -17,7 +17,7 @@ github {
 
 java {
     toolchain {
-        languageVersion.set(JavaLanguageVersion.of(21))
+        languageVersion.set(JavaLanguageVersion.of(25))
     }
 }
 
@@ -29,11 +29,11 @@ repositories {
 }
 
 dependencies {
-    compileOnly("io.papermc.paper:paper-api:1.21.4-R0.1-SNAPSHOT")
+    compileOnly("io.papermc.paper:paper-api:${property("paperApiVersion")}")
     compileOnly("com.google.code.findbugs:jsr305:3.0.2")
     "githubCompileOnly"("Slimefun5:Slimefun5:v5.0.3")
+    compileOnly("com.github.Slimefun.dough:dough-api:cb22e71335")
 
-    // Shaded
     implementation("com.github.Riley31415:InfinityLib:1.3.10")
 
     testImplementation(platform("org.junit:junit-bom:5.11.4"))
@@ -63,8 +63,9 @@ tasks {
         enabled = false
     }
     shadowJar {
-        archiveFileName.set("InfinityExpansion v${project.version}.jar")
+        archiveFileName.set("InfinityExpansion v${project.version}-MC26.1.2.jar")
         relocate("io.github.mooy1.infinitylib", "io.github.mooy1.infinityexpansion.infinitylib")
+        relocate("io.github.bakedlibs.dough", "io.github.thebusybiscuit.slimefun5.libraries.dough")
         minimize()
         exclude("META-INF/**")
     }
@@ -75,3 +76,4 @@ tasks {
         useJUnitPlatform()
     }
 }
+

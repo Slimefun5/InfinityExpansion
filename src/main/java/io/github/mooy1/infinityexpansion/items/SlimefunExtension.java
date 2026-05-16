@@ -19,17 +19,17 @@ import io.github.mooy1.infinityexpansion.items.blocks.InfinityWorkbench;
 import io.github.mooy1.infinityexpansion.items.materials.Materials;
 import io.github.mooy1.infinitylib.common.Scheduler;
 import io.github.mooy1.infinitylib.machines.MachineLore;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
-import io.github.thebusybiscuit.slimefun4.implementation.items.electric.Capacitor;
-import io.github.thebusybiscuit.slimefun4.implementation.items.electric.machines.ChargingBench;
-import io.github.thebusybiscuit.slimefun4.implementation.items.electric.machines.ElectricSmeltery;
-import io.github.thebusybiscuit.slimefun4.implementation.items.electric.machines.enchanting.AutoDisenchanter;
-import io.github.thebusybiscuit.slimefun4.implementation.items.electric.machines.enchanting.AutoEnchanter;
-import io.github.thebusybiscuit.slimefun4.implementation.items.electric.reactors.NetherStarReactor;
-import io.github.thebusybiscuit.slimefun4.implementation.items.geo.GEOMiner;
-import io.github.thebusybiscuit.slimefun4.utils.HeadTexture;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.implementation.SlimefunItems;
+import io.github.thebusybiscuit.slimefun5.implementation.items.electric.Capacitor;
+import io.github.thebusybiscuit.slimefun5.implementation.items.electric.machines.ChargingBench;
+import io.github.thebusybiscuit.slimefun5.implementation.items.electric.machines.ElectricSmeltery;
+import io.github.thebusybiscuit.slimefun5.implementation.items.electric.machines.enchanting.AutoDisenchanter;
+import io.github.thebusybiscuit.slimefun5.implementation.items.electric.machines.enchanting.AutoEnchanter;
+import io.github.thebusybiscuit.slimefun5.implementation.items.electric.reactors.NetherStarReactor;
+import io.github.thebusybiscuit.slimefun5.implementation.items.geo.GEOMiner;
+import io.github.thebusybiscuit.slimefun5.utils.HeadTexture;
 import me.mrCookieSlime.Slimefun.Objects.SlimefunItem.abstractItems.MachineFuel;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 
@@ -317,3 +317,4 @@ public final class SlimefunExtension {
     }
 
 }
+

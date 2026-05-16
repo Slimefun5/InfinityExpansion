@@ -14,12 +14,12 @@ import org.bukkit.inventory.ItemStack;
 
 import io.github.mooy1.infinityexpansion.categories.Groups;
 import io.github.mooy1.infinitylib.machines.MachineLore;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.core.attributes.NotPlaceable;
-import io.github.thebusybiscuit.slimefun4.core.attributes.RecipeDisplayItem;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.collections.RandomizedSet;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.core.attributes.NotPlaceable;
+import io.github.thebusybiscuit.slimefun5.core.attributes.RecipeDisplayItem;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.collections.RandomizedSet;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
 
 /**
  * A mob data card which will be able to be used in the {@link MobSimulationChamber}
@@ -84,3 +84,4 @@ public final class MobDataCard extends SlimefunItem implements RecipeDisplayItem
     }
 
 }
+

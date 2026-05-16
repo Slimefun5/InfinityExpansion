@@ -25,18 +25,18 @@ import io.github.mooy1.infinityexpansion.items.blocks.InfinityWorkbench;
 import io.github.mooy1.infinitylib.common.Scheduler;
 import io.github.mooy1.infinitylib.common.StackUtils;
 import io.github.mooy1.infinitylib.machines.MenuBlock;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.items.groups.FlexItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.player.PlayerProfile;
-import io.github.thebusybiscuit.slimefun4.api.researches.Research;
-import io.github.thebusybiscuit.slimefun4.core.guide.SlimefunGuideImplementation;
-import io.github.thebusybiscuit.slimefun4.core.guide.SlimefunGuideMode;
-import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.collections.Pair;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.items.ItemUtils;
-import io.github.thebusybiscuit.slimefun4.utils.ChestMenuUtils;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.items.groups.FlexItemGroup;
+import io.github.thebusybiscuit.slimefun5.api.player.PlayerProfile;
+import io.github.thebusybiscuit.slimefun5.api.researches.Research;
+import io.github.thebusybiscuit.slimefun5.core.guide.SlimefunGuideImplementation;
+import io.github.thebusybiscuit.slimefun5.core.guide.SlimefunGuideMode;
+import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.collections.Pair;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.items.ItemUtils;
+import io.github.thebusybiscuit.slimefun5.utils.ChestMenuUtils;
 import me.mrCookieSlime.CSCoreLibPlugin.general.Inventory.ChestMenu;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
 
@@ -94,7 +94,7 @@ public final class InfinityGroup extends FlexItemGroup {
     InfinityGroup(NamespacedKey key, ItemStack item, int tier) {
         super(key, item, tier);
         InfinityWorkbench.TYPE.sendRecipesTo((input, output) -> {
-            io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem sfItem = io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem.getByItem(output);
+            io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem sfItem = io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem.getByItem(output);
             SlimefunItemStack sfStack = new SlimefunItemStack(sfItem.getId(), output);
             IDS.add(sfStack.getItemId());
             ITEMS.put(sfStack.getItemId(), new Pair<>(sfStack, input));

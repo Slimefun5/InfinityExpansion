@@ -39,12 +39,12 @@ import io.github.mooy1.infinityexpansion.InfinityExpansion;
 import io.github.mooy1.infinitylib.common.CoolDowns;
 import io.github.mooy1.infinitylib.common.Events;
 import io.github.mooy1.infinitylib.common.Scheduler;
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.core.attributes.NotPlaceable;
-import io.github.thebusybiscuit.slimefun4.implementation.items.magical.runes.SoulboundRune;
+import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.core.attributes.NotPlaceable;
+import io.github.thebusybiscuit.slimefun5.implementation.items.magical.runes.SoulboundRune;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 
 /**
@@ -291,3 +291,4 @@ public final class VeinMinerRune extends SlimefunItem implements Listener, NotPl
     }
 
 }
+
