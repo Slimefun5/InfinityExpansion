@@ -24,7 +24,7 @@ import io.github.mooy1.infinityexpansion.items.storage.Storage;
 import io.github.mooy1.infinityexpansion.items.storage.StorageSaveFix;
 import io.github.mooy1.infinitylib.common.Scheduler;
 import io.github.mooy1.infinitylib.core.AbstractAddon;
-import io.github.mooy1.infinitylib.metrics.bukkit.Metrics;
+import org.bstats.bukkit.Metrics;
 
 public final class InfinityExpansion extends AbstractAddon {
 

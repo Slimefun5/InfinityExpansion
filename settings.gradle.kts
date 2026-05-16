@@ -6,5 +6,4 @@ pluginManagement {
         id("io.github.intisy.github-gradle") version githubGradleVersion
     }
 }
-
 rootProject.name = "InfinityExpansion"
