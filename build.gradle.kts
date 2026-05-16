@@ -1,4 +1,4 @@
-plugins {
+﻿plugins {
     java
     id("com.gradleup.shadow")
     id("io.github.intisy.github-gradle")
@@ -31,7 +31,7 @@ repositories {
 dependencies {
     compileOnly("io.papermc.paper:paper-api:${property("paperApiVersion")}")
     compileOnly("com.google.code.findbugs:jsr305:3.0.2")
-    "githubCompileOnly"("Slimefun5:Slimefun5:v5.0.3")
+    "githubCompileOnly"("Slimefun5:Slimefun5:v5.1.1")
     compileOnly("com.github.Slimefun.dough:dough-api:cb22e71335")
 
     implementation("com.github.Riley31415:InfinityLib:1.3.10")
