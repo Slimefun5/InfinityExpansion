@@ -27,4 +27,3 @@ dependencies {
     "githubCompileOnly"("Slimefun5:InfinityExpansion:v1.1.1")
 }
 ```
-
