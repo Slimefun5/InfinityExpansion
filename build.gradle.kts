@@ -28,7 +28,7 @@ dependencies {
     compileOnly("com.google.code.findbugs:jsr305:3.0.2")
     
     // InfinityLib is now published to mavenLocal
-    compileOnly("com.github.Riley31415:InfinityLib:1.3.10")
+    compileOnly("com.github.Slimefun5:InfinityLib:v1.3.10")
     compileOnly("com.github.Slimefun.dough:dough-api:cb22e71335")
     
     implementation("org.bstats:bstats-bukkit:3.0.2")
@@ -88,7 +88,7 @@ dependencies {
     "githubCompileOnly"("Slimefun5:Slimefun5:v5.1.1")
     compileOnly("com.github.Slimefun.dough:dough-api:cb22e71335")
 
-    implementation("com.github.Riley31415:InfinityLib:1.3.10")
+    implementation("com.github.Slimefun5:InfinityLib:v1.3.10")
     implementation("org.bstats:bstats-bukkit:3.0.2")
 
     testImplementation(platform("org.junit:junit-bom:5.11.4"))
@@ -136,3 +136,4 @@ tasks {
 
 
 // Trigger CI
+
