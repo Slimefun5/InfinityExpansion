@@ -1,26 +1,30 @@
-# Infinity Expansion
+# InfinityExpansion
 
-InfinityExpansion is an addon to the plugin Slimefun which adds a bunch of new machines and resources.
-It expands the endgame of Slimefun by a large margin.
+[![Build Status](https://Slimefun5.github.io/builds/Slimefun5/InfinityExpansion/stable/badge.svg)](https://Slimefun5.github.io/builds/Slimefun5/InfinityExpansion/stable)
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/Slimefun5/InfinityExpansion/total)
+[![GitHub Followers](https://img.shields.io/github/followers/Slimefun5?style=social)](https://github.com/Slimefun5)
+[![GitHub Stars](https://img.shields.io/github/stars/Slimefun5/InfinityExpansion?style=social)](https://github.com/Slimefun5/InfinityExpansion)
+
+A Slimefun 5 Addon.
 
 ## Requirements
+- Java 25
+- Paper 1.16.* - 26.1.*
+- Slimefun 5
 
-- Java 21+
-- Paper 1.21+
-- [Slimefun5](https://github.com/Slimefun/Slimefun5)
+## Developer API
 
-## Bugs/Suggestions
+You can easily depend on this project using [github-gradle](https://github.com/intisy/github-gradle).
 
-Make a new issue or pull request on [GitHub](https://github.com/Slimefun5/InfinityExpansion).
+In your `build.gradle.kts`:
 
-<p>
-  <a href="https://discord.gg/slimefun">
-    <img src="https://discordapp.com/api/guilds/565557184348422174/widget.png?style=banner3" alt="Discord Invite"/>
-  </a>
-</p>
+```kotlin
+plugins {
+    id("io.github.intisy.github-gradle") version "1.8.2.1"
+}
 
-## Texture Pack
+dependencies {
+    "githubCompileOnly"("Slimefun5:InfinityExpansion:v1.1.1")
+}
+```
 
-A Texture Pack that adds texture for some items in this addon (requires Optifine):
-
-https://github.com/Slimefun5/InfinityExpansion/releases/tag/v1
