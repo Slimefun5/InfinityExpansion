@@ -4,6 +4,7 @@
 ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/Slimefun5/InfinityExpansion/total)
 [![GitHub Followers](https://img.shields.io/github/followers/Slimefun5?style=social)](https://github.com/Slimefun5)
 [![GitHub Stars](https://img.shields.io/github/stars/Slimefun5/InfinityExpansion?style=social)](https://github.com/Slimefun5/InfinityExpansion)
+[![bStats](https://bStats.org/signatures/bukkit/InfinityExpansion.svg)](https://bStats.org/plugin/bukkit/InfinityExpansion/8991)
 
 A Slimefun addon that adds infinity-tier items, machines, and resource generators.
 
