@@ -29,6 +29,7 @@ repositories {
 }
 
 dependencies {
+    githubImplementation("Slimefun5:SlimefunMetrics:master")
     compileOnly("io.papermc.paper:paper-api:1.21.4-R0.1-SNAPSHOT")
     compileOnly("com.google.code.findbugs:jsr305:3.0.2")
     "githubCompileOnly"("Slimefun5:Slimefun5:v5.0.3")
