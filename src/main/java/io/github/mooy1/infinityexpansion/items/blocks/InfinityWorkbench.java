@@ -12,13 +12,13 @@ import org.bukkit.inventory.ItemStack;
 import io.github.mooy1.infinityexpansion.categories.InfinityGroup;
 import io.github.mooy1.infinitylib.machines.MachineLayout;
 import io.github.mooy1.infinitylib.machines.MachineRecipeType;
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.core.attributes.EnergyNetComponent;
-import io.github.thebusybiscuit.slimefun4.core.networks.energy.EnergyNetComponentType;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
-import io.github.thebusybiscuit.slimefun4.utils.ChestMenuUtils;
+import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.core.attributes.EnergyNetComponent;
+import io.github.thebusybiscuit.slimefun5.core.networks.energy.EnergyNetComponentType;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
+import io.github.thebusybiscuit.slimefun5.utils.ChestMenuUtils;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenuPreset;
 
@@ -78,10 +78,8 @@ public final class InfinityWorkbench extends io.github.mooy1.infinitylib.machine
     protected void craft(Block b, BlockMenu menu, Player p) {
         int charge = getCharge(menu.getLocation());
         if (charge < this.energy) {
-            p.sendMessage(
-                    ChatColor.RED + "Not enough energy!",
-                    ChatColor.GREEN + "Charge: " + ChatColor.RED + charge + ChatColor.GREEN + "/" + this.energy + " J"
-            );
+            p.sendMessage(ChatColor.RED + "Not enough energy!");
+            p.sendMessage(ChatColor.GREEN + "Charge: " + ChatColor.RED + charge + ChatColor.GREEN + "/" + this.energy + " J");
         }
         else {
             super.craft(b, menu, p);

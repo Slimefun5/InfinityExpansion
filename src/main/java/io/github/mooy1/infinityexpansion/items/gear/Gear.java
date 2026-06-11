@@ -21,10 +21,10 @@ import io.github.mooy1.infinityexpansion.categories.Groups;
 import io.github.mooy1.infinityexpansion.items.blocks.InfinityWorkbench;
 import io.github.mooy1.infinityexpansion.items.materials.Materials;
 import io.github.mooy1.infinityexpansion.utils.Util;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.implementation.SlimefunItems;
 
 public final class Gear {
 
@@ -140,8 +140,8 @@ public final class Gear {
                 null, null, null, null, null, null
         }).register(plugin);
         new InfinityArmor(CHESTPLATE, new PotionEffect[] {
-                new PotionEffect(PotionEffectType.RESISTANCE, 600, 0, false, false, false),
-                new PotionEffect(PotionEffectType.STRENGTH, 600, 1, false, false, false),
+                new PotionEffect(PotionEffectType.DAMAGE_RESISTANCE, 600, 0, false, false, false),
+                new PotionEffect(PotionEffectType.INCREASE_DAMAGE, 600, 1, false, false, false),
                 new PotionEffect(PotionEffectType.FIRE_RESISTANCE, 600, 0, false, false, false)
         }, new ItemStack[] {
                 null, Materials.INFINITE_INGOT.item(), null, null, Materials.INFINITE_INGOT.item(), null,
@@ -152,7 +152,7 @@ public final class Gear {
                 null, Materials.INFINITE_INGOT.item(), Materials.INFINITE_INGOT.item(), Materials.INFINITE_INGOT.item(), Materials.INFINITE_INGOT.item(), null
         }).register(plugin);
         new InfinityArmor(LEGGINGS, new PotionEffect[] {
-                new PotionEffect(PotionEffectType.HASTE, 600, 2, false, false, false),
+                new PotionEffect(PotionEffectType.FAST_DIGGING, 600, 2, false, false, false),
                 new PotionEffect(PotionEffectType.REGENERATION, 600, 0, false, false, false),
                 new PotionEffect(PotionEffectType.SATURATION, 600, 0, false, false, false),
         }, new ItemStack[] {

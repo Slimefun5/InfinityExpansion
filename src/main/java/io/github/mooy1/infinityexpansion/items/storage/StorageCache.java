@@ -19,10 +19,9 @@ import org.bukkit.persistence.PersistentDataType;
 
 import io.github.mooy1.infinityexpansion.InfinityExpansion;
 import io.github.mooy1.infinitylib.machines.MachineLore;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.common.ChatColors;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.items.ItemUtils;
-import io.github.thebusybiscuit.slimefun4.utils.tags.SlimefunTag;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.common.ChatColors;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.items.ItemUtils;
 import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
@@ -351,7 +350,7 @@ public final class StorageCache {
         // signs
         if (InfinityExpansion.slimefunTickCount() % 20 == 0) {
             Block check = block.getRelative(0, 1, 0);
-            if (SlimefunTag.SIGNS.isTagged(check.getType())
+            if (check.getType().name().endsWith("_SIGN") && !check.getType().name().endsWith("_WALL_SIGN")
                     || checkWallSign(check = block.getRelative(1, 0, 0), block)
                     || checkWallSign(check = block.getRelative(-1, 0, 0), block)
                     || checkWallSign(check = block.getRelative(0, 0, 1), block)
@@ -387,7 +386,7 @@ public final class StorageCache {
     }
 
     private static boolean checkWallSign(Block sign, Block block) {
-        return SlimefunTag.WALL_SIGNS.isTagged(sign.getType())
+        return sign.getType().name().endsWith("_WALL_SIGN")
                 && sign.getRelative(((WallSign) sign.getBlockData()).getFacing().getOppositeFace()).equals(block);
     }
 

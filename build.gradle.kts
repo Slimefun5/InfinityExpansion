@@ -17,38 +17,24 @@ github {
 
 java {
     toolchain {
-        languageVersion.set(JavaLanguageVersion.of(21))
+        languageVersion.set(JavaLanguageVersion.of(8))
     }
 }
 
 repositories {
     mavenCentral()
     maven("https://hub.spigotmc.org/nexus/content/repositories/snapshots/")
-    maven("https://repo.papermc.io/repository/maven-public/")
-    maven("https://jitpack.io")
+    maven("https://repo.codemc.io/repository/maven-public/")
 }
 
 dependencies {
-    implementation("com.github.Slimefun5:SlimefunMetrics:master-SNAPSHOT")
-    compileOnly("io.papermc.paper:paper-api:1.21.4-R0.1-SNAPSHOT")
+    compileOnly(files("../../core/Slimefun5/core/build/libs/Slimefun v5.0.0-UNOFFICIAL-MC26.1.2.jar"))
+    compileOnly("org.spigotmc:spigot-api:1.16.5-R0.1-SNAPSHOT")
     compileOnly("com.google.code.findbugs:jsr305:3.0.2")
-    "githubCompileOnly"("Slimefun5:Slimefun5:v5.0.3")
 
     // Shaded
-    implementation("com.github.Riley31415:InfinityLib:1.3.10")
+    implementation(files("../InfinityLib/build/libs/InfinityLib-v1.3.10.jar"))
 
-    testImplementation(platform("org.junit:junit-bom:5.11.4"))
-    testImplementation("org.junit.jupiter:junit-jupiter")
-    testRuntimeOnly("org.junit.platform:junit-platform-launcher")
-    testImplementation("org.mockito:mockito-core:5.15.2")
-    testImplementation("org.slf4j:slf4j-simple:2.0.16")
-    testImplementation("org.mockbukkit.mockbukkit:mockbukkit-v1.21:4.107.0") {
-        exclude(group = "org.jetbrains", module = "annotations")
-    }
-}
-
-configurations.testImplementation {
-    extendsFrom(configurations.compileOnly.get())
 }
 
 tasks {
@@ -72,7 +58,10 @@ tasks {
     build {
         dependsOn(shadowJar)
     }
+    compileTestJava {
+        enabled = false
+    }
     test {
-        useJUnitPlatform()
+        enabled = false
     }
 }

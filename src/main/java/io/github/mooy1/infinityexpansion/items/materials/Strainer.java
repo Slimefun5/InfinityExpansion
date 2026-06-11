@@ -9,10 +9,10 @@ import org.bukkit.persistence.PersistentDataType;
 
 import io.github.mooy1.infinityexpansion.InfinityExpansion;
 import io.github.mooy1.infinityexpansion.categories.Groups;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.core.attributes.NotPlaceable;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.core.attributes.NotPlaceable;
 
 /**
  * Items to be used in the Strainer Base
@@ -21,7 +21,7 @@ import io.github.thebusybiscuit.slimefun4.core.attributes.NotPlaceable;
  */
 public final class Strainer extends SlimefunItem implements NotPlaceable {
 
-    private static final NamespacedKey KEY = InfinityExpansion.createKey("strainer_speed");
+    private static final NamespacedKey KEY = InfinityExpansion.pdcKey("strainer_speed");
 
     public Strainer(SlimefunItemStack item, ItemStack[] recipe, int speed) {
         super(Groups.BASIC_MACHINES, item, RecipeType.ENHANCED_CRAFTING_TABLE, recipe);

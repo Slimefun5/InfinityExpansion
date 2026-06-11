@@ -7,8 +7,8 @@ import io.github.mooy1.infinityexpansion.InfinityExpansion;
 import io.github.mooy1.infinityexpansion.categories.Groups;
 import io.github.mooy1.infinityexpansion.items.materials.Materials;
 import io.github.mooy1.infinitylib.machines.MachineLore;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
 
 public final class Storage {
 

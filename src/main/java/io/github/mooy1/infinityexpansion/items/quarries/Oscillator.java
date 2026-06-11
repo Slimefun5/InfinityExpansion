@@ -12,11 +12,11 @@ import org.bukkit.inventory.ItemStack;
 import io.github.mooy1.infinityexpansion.categories.Groups;
 import io.github.mooy1.infinityexpansion.items.materials.Materials;
 import io.github.mooy1.infinitylib.common.StackUtils;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.items.ItemUtils;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.implementation.SlimefunItems;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.items.ItemUtils;
 
 public final class Oscillator extends SlimefunItem {
 

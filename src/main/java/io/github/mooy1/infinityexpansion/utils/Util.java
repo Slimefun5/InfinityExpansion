@@ -71,39 +71,39 @@ public final class Util {
     private static Enchantment enchantmentByPath(@Nonnull String path) {
         switch (path) {
             case "sharpness":
-                return Enchantment.SHARPNESS;
+                return Enchantment.DAMAGE_ALL;
             case "smite":
-                return Enchantment.SMITE;
+                return Enchantment.DAMAGE_UNDEAD;
             case "bane-of-arthropods":
-                return Enchantment.BANE_OF_ARTHROPODS;
+                return Enchantment.DAMAGE_ARTHROPODS;
             case "efficiency":
-                return Enchantment.EFFICIENCY;
+                return Enchantment.DIG_SPEED;
             case "protection":
-                return Enchantment.PROTECTION;
+                return Enchantment.PROTECTION_ENVIRONMENTAL;
             case "fire-aspect":
                 return Enchantment.FIRE_ASPECT;
             case "fortune":
-                return Enchantment.FORTUNE;
+                return Enchantment.LOOT_BONUS_BLOCKS;
             case "looting":
-                return Enchantment.LOOTING;
+                return Enchantment.LOOT_BONUS_MOBS;
             case "silk-touch":
                 return Enchantment.SILK_TOUCH;
             case "thorns":
                 return Enchantment.THORNS;
             case "aqua-affinity":
-                return Enchantment.AQUA_AFFINITY;
+                return Enchantment.WATER_WORKER;
             case "power":
-                return Enchantment.POWER;
+                return Enchantment.ARROW_DAMAGE;
             case "flame":
-                return Enchantment.FLAME;
+                return Enchantment.ARROW_FIRE;
             case "infinity":
-                return Enchantment.INFINITY;
+                return Enchantment.ARROW_INFINITE;
             case "punch":
-                return Enchantment.PUNCH;
+                return Enchantment.ARROW_KNOCKBACK;
             case "feather-falling":
-                return Enchantment.FEATHER_FALLING;
+                return Enchantment.PROTECTION_FALL;
             case "unbreaking":
-                return Enchantment.UNBREAKING;
+                return Enchantment.DURABILITY;
             default:
                 return null;
         }

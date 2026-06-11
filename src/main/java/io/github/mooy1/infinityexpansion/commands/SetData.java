@@ -13,7 +13,7 @@ import org.bukkit.entity.Player;
 
 import io.github.mooy1.infinityexpansion.items.storage.StorageUnit;
 import io.github.mooy1.infinitylib.commands.SubCommand;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 
 public final class SetData extends SubCommand {

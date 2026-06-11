@@ -27,14 +27,14 @@ import io.github.mooy1.infinityexpansion.categories.Groups;
 import io.github.mooy1.infinitylib.common.PersistentType;
 import io.github.mooy1.infinitylib.common.Scheduler;
 import io.github.mooy1.infinitylib.machines.MenuBlock;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.core.attributes.DistinctiveItem;
-import io.github.thebusybiscuit.slimefun4.core.handlers.BlockBreakHandler;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.collections.Pair;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.items.ItemUtils;
-import io.github.thebusybiscuit.slimefun4.utils.ChestMenuUtils;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.core.attributes.DistinctiveItem;
+import io.github.thebusybiscuit.slimefun5.core.handlers.BlockBreakHandler;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.collections.Pair;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.items.ItemUtils;
+import io.github.thebusybiscuit.slimefun5.utils.ChestMenuUtils;
 import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
 import me.mrCookieSlime.Slimefun.Objects.handlers.BlockTicker;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
@@ -53,10 +53,10 @@ import me.mrCookieSlime.Slimefun.api.inventory.DirtyChestMenu;
 public final class StorageUnit extends MenuBlock implements DistinctiveItem {
 
     /* Namespaced keys */
-    static final NamespacedKey EMPTY_KEY = InfinityExpansion.createKey("empty"); // key for empty item
-    static final NamespacedKey DISPLAY_KEY = InfinityExpansion.createKey("display"); // key for display item
-    private static final NamespacedKey ITEM_KEY = InfinityExpansion.createKey("item"); // item key for item pdc
-    private static final NamespacedKey AMOUNT_KEY = InfinityExpansion.createKey("stored"); // amount key for item pdc
+    static final NamespacedKey EMPTY_KEY = InfinityExpansion.pdcKey("empty"); // key for empty item
+    static final NamespacedKey DISPLAY_KEY = InfinityExpansion.pdcKey("display"); // key for display item
+    private static final NamespacedKey ITEM_KEY = InfinityExpansion.pdcKey("item"); // item key for item pdc
+    private static final NamespacedKey AMOUNT_KEY = InfinityExpansion.pdcKey("stored"); // amount key for item pdc
 
     /* Menu slots */
     static final int INPUT_SLOT = 10;

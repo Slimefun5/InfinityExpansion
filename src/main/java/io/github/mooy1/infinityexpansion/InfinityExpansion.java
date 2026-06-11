@@ -24,7 +24,7 @@ import io.github.mooy1.infinityexpansion.items.storage.Storage;
 import io.github.mooy1.infinityexpansion.items.storage.StorageSaveFix;
 import io.github.mooy1.infinitylib.common.Scheduler;
 import io.github.mooy1.infinitylib.core.AbstractAddon;
-import io.github.mooy1.infinitylib.metrics.bukkit.Metrics;
+import io.github.thebusybiscuit.slimefun5.utils.compatibility.BukkitKeys;
 
 public final class InfinityExpansion extends AbstractAddon {
 
@@ -38,10 +38,13 @@ public final class InfinityExpansion extends AbstractAddon {
         StorageSaveFix.fixStuff(getLogger());
     }
 
+    /** Creates a real org.bukkit.NamespacedKey for PDC boundaries (1.14+ servers only). */
+    public static org.bukkit.NamespacedKey pdcKey(String key) {
+        return (org.bukkit.NamespacedKey) BukkitKeys.toBukkit(createKey(key));
+    }
+
     @Override
     protected void enable() {
-        Metrics metrics = new Metrics(this, 8991);
-
         Plugin lx = getServer().getPluginManager().getPlugin("LiteXpansion");
         if (lx != null && lx.getConfig().getBoolean("options.nerf-other-addons")) {
             Scheduler.run(() -> log(Level.WARNING,
