@@ -1,7 +1,7 @@
 plugins {
     java
     id("com.gradleup.shadow") version "9.3.2"
-    id("io.github.intisy.github-gradle") version "1.8.2.1"
+    id("io.github.intisy.github-gradle") version "1.8.3"
 }
 
 group = "io.github.mooy1"
@@ -28,12 +28,12 @@ repositories {
 }
 
 dependencies {
-    compileOnly(files("../../core/Slimefun5/core/build/libs/Slimefun v5.0.0-UNOFFICIAL-MC26.1.2.jar"))
+    githubCompileOnly("Slimefun5:Slimefun5:v5.2.1")
     compileOnly("org.spigotmc:spigot-api:1.16.5-R0.1-SNAPSHOT")
     compileOnly("com.google.code.findbugs:jsr305:3.0.2")
 
     // Shaded
-    implementation(files("../InfinityLib/build/libs/InfinityLib-v1.3.10.jar"))
+    githubImplementation("Slimefun5:InfinityLib:v1.3.12")
 
 }
 
