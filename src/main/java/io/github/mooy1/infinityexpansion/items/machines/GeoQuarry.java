@@ -27,6 +27,8 @@ import io.github.thebusybiscuit.slimefun5.libraries.dough.collections.Randomized
 import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenuPreset;
+import io.github.mooy1.infinityexpansion.MaterialCompat;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 
 @ParametersAreNonnullByDefault
 public final class GeoQuarry extends AbstractMachineBlock implements RecipeDisplayItem {
@@ -75,7 +77,7 @@ public final class GeoQuarry extends AbstractMachineBlock implements RecipeDispl
     protected boolean process(Block b, BlockMenu inv) {
         if (InfinityExpansion.slimefunTickCount() % this.ticksPerOutput != 0) {
             if (inv.hasViewer()) {
-                inv.replaceExistingItem(STATUS, CustomItemStack.create(Material.LIME_STAINED_GLASS_PANE, "&aDrilling..."));
+                inv.replaceExistingItem(STATUS, CustomItemStack.create(MaterialCompat.safe(XMaterial.LIME_STAINED_GLASS_PANE), "&aDrilling..."));
             }
             return true;
         }
@@ -102,7 +104,7 @@ public final class GeoQuarry extends AbstractMachineBlock implements RecipeDispl
 
         inv.pushItem(output.clone(), OUTPUT_SLOTS);
         if (inv.hasViewer()) {
-            inv.replaceExistingItem(STATUS, CustomItemStack.create(Material.LIME_STAINED_GLASS_PANE, "&aFound!"));
+            inv.replaceExistingItem(STATUS, CustomItemStack.create(MaterialCompat.safe(XMaterial.LIME_STAINED_GLASS_PANE), "&aFound!"));
         }
         return true;
     }

@@ -13,18 +13,17 @@ import javax.annotation.ParametersAreNonnullByDefault;
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
 import org.bukkit.Material;
-import org.bukkit.NamespacedKey;
 import org.bukkit.block.Block;
 import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.event.block.BlockPlaceEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
-import org.bukkit.persistence.PersistentDataContainer;
-import org.bukkit.persistence.PersistentDataType;
+
+import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
 
 import io.github.mooy1.infinityexpansion.InfinityExpansion;
 import io.github.mooy1.infinityexpansion.categories.Groups;
-import io.github.mooy1.infinitylib.common.PersistentType;
+import io.github.mooy1.infinityexpansion.utils.CompatUtils;
 import io.github.mooy1.infinitylib.common.Scheduler;
 import io.github.mooy1.infinitylib.machines.MenuBlock;
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
@@ -41,6 +40,8 @@ import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenuPreset;
 import me.mrCookieSlime.Slimefun.api.inventory.DirtyChestMenu;
+import io.github.mooy1.infinityexpansion.MaterialCompat;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 
 /**
  * A block that stored large amounts of 1 item
@@ -66,14 +67,14 @@ public final class StorageUnit extends MenuBlock implements DistinctiveItem {
     static final int INTERACT_SLOT = 22;
 
     /* Menu items */
-    private static final ItemStack INTERACTION_ITEM = CustomItemStack.create(Material.LIME_STAINED_GLASS_PANE,
+    private static final ItemStack INTERACTION_ITEM = CustomItemStack.create(MaterialCompat.safe(XMaterial.LIME_STAINED_GLASS_PANE),
             "&aQuick Actions",
             "&bLeft Click: &7Withdraw 1 item",
             "&bRight Click: &7Withdraw 1 stack",
             "&bShift Left Click: &7Deposit inventory",
             "&bShift Right Click: &7Withdraw inventory"
     );
-    private static final ItemStack LOADING_ITEM = CustomItemStack.create(Material.CYAN_STAINED_GLASS_PANE,
+    private static final ItemStack LOADING_ITEM = CustomItemStack.create(MaterialCompat.safe(XMaterial.CYAN_STAINED_GLASS_PANE),
             "&bStatus",
             "&7Loading..."
     );
@@ -206,18 +207,22 @@ public final class StorageUnit extends MenuBlock implements DistinctiveItem {
             lore.add(ChatColor.GOLD + "Stored: " + displayName + ChatColor.YELLOW + " x " + amount);
             meta.setLore(lore);
         }
-        meta.getPersistentDataContainer().set(ITEM_KEY, PersistentType.ITEM_STACK_OLD, displayItem);
-        meta.getPersistentDataContainer().set(AMOUNT_KEY, PersistentDataType.INTEGER, amount);
+        Object itemStackType = CompatUtils.itemStackDataType();
+        if (itemStackType != null) {
+            CompatUtils.setPdcItemStack(meta, ITEM_KEY, itemStackType, displayItem);
+        }
+        CompatUtils.setPdcInt(meta, AMOUNT_KEY, amount);
         return meta;
     }
 
     @Nullable
     private static Pair<ItemStack, Integer> loadFromStack(ItemStack source) {
         if (source.hasItemMeta()) {
-            PersistentDataContainer con = source.getItemMeta().getPersistentDataContainer();
-            Integer amount = con.get(AMOUNT_KEY, PersistentDataType.INTEGER);
-            if (amount != null) {
-                ItemStack item = con.get(ITEM_KEY, PersistentType.ITEM_STACK_OLD);
+            ItemMeta meta = source.getItemMeta();
+            Object itemStackType = CompatUtils.itemStackDataType();
+            if (itemStackType != null && CompatUtils.hasPdc(meta, AMOUNT_KEY, "INTEGER")) {
+                int amount = CompatUtils.getPdcInt(meta, AMOUNT_KEY, 0);
+                ItemStack item = CompatUtils.getPdcItemStack(meta, ITEM_KEY, itemStackType);
                 if (item != null) {
                     return new Pair<>(item, amount);
                 }
@@ -228,6 +233,6 @@ public final class StorageUnit extends MenuBlock implements DistinctiveItem {
 
     @Override
     public boolean canStack(@Nonnull ItemMeta sfItemMeta, @Nonnull ItemMeta itemMeta) {
-        return sfItemMeta.getPersistentDataContainer().equals(itemMeta.getPersistentDataContainer());
+        return CompatUtils.pdcEquals(sfItemMeta, itemMeta);
     }
 }

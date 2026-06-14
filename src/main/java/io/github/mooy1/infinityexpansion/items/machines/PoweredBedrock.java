@@ -16,6 +16,8 @@ import io.github.thebusybiscuit.slimefun5.core.attributes.EnergyNetComponent;
 import io.github.thebusybiscuit.slimefun5.core.networks.energy.EnergyNetComponentType;
 import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
 import me.mrCookieSlime.Slimefun.Objects.handlers.BlockTicker;
+import io.github.mooy1.infinityexpansion.MaterialCompat;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 
 /**
  * A block that becomes bedrock when powered, for decoration of course
@@ -43,13 +45,13 @@ public final class PoweredBedrock extends SlimefunItem implements EnergyNetCompo
                 }
                 Location l = b.getLocation();
                 if (getCharge(l) < energy) {
-                    if (b.getType() != Material.NETHERITE_BLOCK) {
-                        b.setType(Material.NETHERITE_BLOCK);
+                    if (b.getType() != MaterialCompat.safe(XMaterial.NETHERITE_BLOCK)) {
+                        b.setType(MaterialCompat.safe(XMaterial.NETHERITE_BLOCK));
                         return;
                     }
                 }
-                else if (b.getType() != Material.BEDROCK) {
-                    b.setType(Material.BEDROCK);
+                else if (b.getType() != MaterialCompat.safe(XMaterial.BEDROCK)) {
+                    b.setType(MaterialCompat.safe(XMaterial.BEDROCK));
                 }
                 removeCharge(l, energy);
             }

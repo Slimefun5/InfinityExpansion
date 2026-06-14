@@ -1,5 +1,7 @@
 package io.github.mooy1.infinityexpansion.items.gear;
 
+import io.github.mooy1.infinityexpansion.utils.CompatUtils;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -25,6 +27,8 @@ import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun5.implementation.SlimefunItems;
+import io.github.mooy1.infinityexpansion.MaterialCompat;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 
 public final class Gear {
 
@@ -32,12 +36,12 @@ public final class Gear {
 
     public static final SlimefunItemStack ENDER_FLAME = new SlimefunItemStack(
             "ENDER_FLAME",
-            Material.ENCHANTED_BOOK,
+            MaterialCompat.safe(XMaterial.ENCHANTED_BOOK),
             "&cEnder Flame"
     );
     public static final SlimefunItemStack CROWN = new SlimefunItemStack(
             "INFINITY_CROWN",
-            Material.NETHERITE_HELMET,
+            MaterialCompat.safe(XMaterial.NETHERITE_HELMET),
             "&bInfinity Crown",
             "&7Night Vision I",
             "&7Conduit Power I",
@@ -45,7 +49,7 @@ public final class Gear {
     );
     public static final SlimefunItemStack CHESTPLATE = new SlimefunItemStack(
             "INFINITY_CHESTPLATE",
-            Material.NETHERITE_CHESTPLATE,
+            MaterialCompat.safe(XMaterial.NETHERITE_CHESTPLATE),
             "&bInfinity Chestplate",
             "&7Strength II",
             "&7Resistance I",
@@ -54,7 +58,7 @@ public final class Gear {
     );
     public static final SlimefunItemStack LEGGINGS = new SlimefunItemStack(
             "INFINITY_LEGGINGS",
-            Material.NETHERITE_LEGGINGS,
+            MaterialCompat.safe(XMaterial.NETHERITE_LEGGINGS),
             "&bInfinity Leggings",
             "&7Haste III",
             "&7Regeneration I",
@@ -63,14 +67,14 @@ public final class Gear {
     );
     public static final SlimefunItemStack BOOTS = new SlimefunItemStack(
             "INFINITY_BOOTS",
-            Material.NETHERITE_BOOTS,
+            MaterialCompat.safe(XMaterial.NETHERITE_BOOTS),
             "&bInfinity Boots",
             "&7Speed III",
             "&7Dolphins Grace I"
     );
     public static final SlimefunItemStack INFINITY_MATRIX = new SlimefunItemStack(
             "INFINITY_MATRIX",
-            Material.NETHER_STAR,
+            MaterialCompat.safe(XMaterial.NETHER_STAR),
             "&fInfinity Matrix",
             "&6Gives Unlimited Flight",
             "&7Right-Click to enable/disable and claim",
@@ -79,37 +83,37 @@ public final class Gear {
     );
     public static final SlimefunItemStack SHIELD = new SlimefunItemStack(
             "INFINITY_SHIELD",
-            Material.SHIELD,
+            MaterialCompat.safe(XMaterial.SHIELD),
             "&bCosmic Aegis"
     );
     public static final SlimefunItemStack BLADE = new SlimefunItemStack(
             "INFINITY_BLADE",
-            Material.NETHERITE_SWORD,
+            MaterialCompat.safe(XMaterial.NETHERITE_SWORD),
             "&bBlade of the Cosmos"
     );
     public static final SlimefunItemStack PICKAXE = new SlimefunItemStack(
             "INFINITY_PICKAXE",
-            Material.NETHERITE_PICKAXE,
+            MaterialCompat.safe(XMaterial.NETHERITE_PICKAXE),
             "&9World Breaker"
     );
     public static final SlimefunItemStack AXE = new SlimefunItemStack(
             "INFINITY_AXE",
-            Material.NETHERITE_AXE,
+            MaterialCompat.safe(XMaterial.NETHERITE_AXE),
             "&4Nature's Ruin"
     );
     public static final SlimefunItemStack SHOVEL = new SlimefunItemStack(
             "INFINITY_SHOVEL",
-            Material.NETHERITE_SHOVEL,
+            MaterialCompat.safe(XMaterial.NETHERITE_SHOVEL),
             "&aMountain Eater"
     );
     public static final SlimefunItemStack BOW = new SlimefunItemStack(
             "INFINITY_BOW",
-            Material.BOW,
+            MaterialCompat.safe(XMaterial.BOW),
             "&6Sky Piercer"
     );
     public static final SlimefunItemStack VEIN_MINER_RUNE = new SlimefunItemStack(
             "VEIN_MINER_RUNE",
-            Material.DIAMOND,
+            MaterialCompat.safe(XMaterial.DIAMOND),
             "&bVein Miner Rune",
             "&7Upgrades a tool to vein-mine certain materials"
     );
@@ -125,13 +129,13 @@ public final class Gear {
         ENDER_FLAME.setItemMeta(storageMeta);
         new SlimefunItem(Groups.MAIN_MATERIALS, ENDER_FLAME, RecipeType.MAGIC_WORKBENCH, new ItemStack[] {
                 Materials.ENDER_ESSENCE.item(), Materials.ENDER_ESSENCE.item(), Materials.ENDER_ESSENCE.item(),
-                Materials.ENDER_ESSENCE.item(), new ItemStack(Material.BOOK), Materials.ENDER_ESSENCE.item(),
+                Materials.ENDER_ESSENCE.item(), new ItemStack(MaterialCompat.safe(XMaterial.BOOK)), Materials.ENDER_ESSENCE.item(),
                 Materials.ENDER_ESSENCE.item(), Materials.ENDER_ESSENCE.item(), Materials.ENDER_ESSENCE.item()
         }).register(plugin);
-        new InfinityArmor(CROWN, new PotionEffect[] {
-                new PotionEffect(PotionEffectType.NIGHT_VISION, 600, 0, false, false, false),
-                new PotionEffect(PotionEffectType.CONDUIT_POWER, 600, 0, false, false, false),
-        }, new ItemStack[] {
+        new InfinityArmor(CROWN, CompatUtils.potionEffects(
+                CompatUtils.potionEffect("NIGHT_VISION", 600, 0, false, false, false),
+                CompatUtils.potionEffect("CONDUIT_POWER", 600, 0, false, false, false)
+        ), new ItemStack[] {
                 null, Materials.INFINITE_INGOT.item(), Materials.INFINITE_INGOT.item(), Materials.INFINITE_INGOT.item(), Materials.INFINITE_INGOT.item(), null,
                 Materials.INFINITE_INGOT.item(), Materials.INFINITE_INGOT.item(), Materials.INFINITE_INGOT.item(), Materials.INFINITE_INGOT.item(), Materials.INFINITE_INGOT.item(), Materials.INFINITE_INGOT.item(),
                 Materials.INFINITE_INGOT.item(), Materials.VOID_INGOT.item(), Materials.INFINITE_INGOT.item(), Materials.INFINITE_INGOT.item(), Materials.VOID_INGOT.item(), Materials.INFINITE_INGOT.item(),
@@ -139,11 +143,11 @@ public final class Gear {
                 null, null, null, null, null, null,
                 null, null, null, null, null, null
         }).register(plugin);
-        new InfinityArmor(CHESTPLATE, new PotionEffect[] {
-                new PotionEffect(PotionEffectType.DAMAGE_RESISTANCE, 600, 0, false, false, false),
-                new PotionEffect(PotionEffectType.INCREASE_DAMAGE, 600, 1, false, false, false),
-                new PotionEffect(PotionEffectType.FIRE_RESISTANCE, 600, 0, false, false, false)
-        }, new ItemStack[] {
+        new InfinityArmor(CHESTPLATE, CompatUtils.potionEffects(
+                CompatUtils.potionEffect("DAMAGE_RESISTANCE", 600, 0, false, false, false),
+                CompatUtils.potionEffect("INCREASE_DAMAGE", 600, 1, false, false, false),
+                CompatUtils.potionEffect("FIRE_RESISTANCE", 600, 0, false, false, false)
+        ), new ItemStack[] {
                 null, Materials.INFINITE_INGOT.item(), null, null, Materials.INFINITE_INGOT.item(), null,
                 Materials.INFINITE_INGOT.item(), Materials.VOID_INGOT.item(), Materials.INFINITE_INGOT.item(), Materials.INFINITE_INGOT.item(), Materials.VOID_INGOT.item(), Materials.INFINITE_INGOT.item(),
                 Materials.VOID_INGOT.item(), Materials.INFINITE_INGOT.item(), Materials.INFINITE_INGOT.item(), Materials.INFINITE_INGOT.item(), Materials.INFINITE_INGOT.item(), Materials.VOID_INGOT.item(),
@@ -151,11 +155,11 @@ public final class Gear {
                 null, Materials.INFINITE_INGOT.item(), Materials.INFINITE_INGOT.item(), Materials.INFINITE_INGOT.item(), Materials.INFINITE_INGOT.item(), null,
                 null, Materials.INFINITE_INGOT.item(), Materials.INFINITE_INGOT.item(), Materials.INFINITE_INGOT.item(), Materials.INFINITE_INGOT.item(), null
         }).register(plugin);
-        new InfinityArmor(LEGGINGS, new PotionEffect[] {
-                new PotionEffect(PotionEffectType.FAST_DIGGING, 600, 2, false, false, false),
-                new PotionEffect(PotionEffectType.REGENERATION, 600, 0, false, false, false),
-                new PotionEffect(PotionEffectType.SATURATION, 600, 0, false, false, false),
-        }, new ItemStack[] {
+        new InfinityArmor(LEGGINGS, CompatUtils.potionEffects(
+                CompatUtils.potionEffect("FAST_DIGGING", 600, 2, false, false, false),
+                CompatUtils.potionEffect("REGENERATION", 600, 0, false, false, false),
+                CompatUtils.potionEffect("SATURATION", 600, 0, false, false, false)
+        ), new ItemStack[] {
                 null, Materials.INFINITE_INGOT.item(), Materials.INFINITE_INGOT.item(), Materials.INFINITE_INGOT.item(), Materials.INFINITE_INGOT.item(), null,
                 Materials.INFINITE_INGOT.item(), Materials.INFINITE_INGOT.item(), Materials.INFINITE_INGOT.item(), Materials.INFINITE_INGOT.item(), Materials.INFINITE_INGOT.item(), Materials.INFINITE_INGOT.item(),
                 Materials.VOID_INGOT.item(), Materials.INFINITE_INGOT.item(), null, null, Materials.INFINITE_INGOT.item(), Materials.VOID_INGOT.item(),
@@ -163,10 +167,10 @@ public final class Gear {
                 Materials.VOID_INGOT.item(), Materials.INFINITE_INGOT.item(), null, null, Materials.INFINITE_INGOT.item(), Materials.VOID_INGOT.item(),
                 null, Materials.INFINITE_INGOT.item(), null, null, Materials.INFINITE_INGOT.item(), null
         }).register(plugin);
-        new InfinityArmor(BOOTS, new PotionEffect[] {
-                new PotionEffect(PotionEffectType.SPEED, 600, 2, false, false, false),
-                new PotionEffect(PotionEffectType.DOLPHINS_GRACE, 600, 0, false, false, false),
-        }, new ItemStack[] {
+        new InfinityArmor(BOOTS, CompatUtils.potionEffects(
+                CompatUtils.potionEffect("SPEED", 600, 2, false, false, false),
+                CompatUtils.potionEffect("DOLPHINS_GRACE", 600, 0, false, false, false)
+        ), new ItemStack[] {
                 null, null, null, null, null, null,
                 Materials.INFINITE_INGOT.item(), Materials.INFINITE_INGOT.item(), null, null, Materials.INFINITE_INGOT.item(), Materials.INFINITE_INGOT.item(),
                 Materials.INFINITE_INGOT.item(), Materials.INFINITE_INGOT.item(), null, null, Materials.INFINITE_INGOT.item(), Materials.INFINITE_INGOT.item(),
@@ -225,7 +229,7 @@ public final class Gear {
         new InfinityMatrix(Groups.INFINITY_CHEAT, INFINITY_MATRIX, InfinityWorkbench.TYPE, new ItemStack[] {
                 Materials.INFINITE_INGOT.item(), null, Materials.INFINITE_INGOT.item(), Materials.INFINITE_INGOT.item(), null, Materials.INFINITE_INGOT.item(),
                 Materials.INFINITE_INGOT.item(), Materials.VOID_INGOT.item(), Materials.VOID_INGOT.item(), Materials.VOID_INGOT.item(), Materials.VOID_INGOT.item(), Materials.INFINITE_INGOT.item(),
-                Materials.VOID_INGOT.item(), Materials.VOID_INGOT.item(), new ItemStack(Material.ELYTRA), new ItemStack(Material.ELYTRA), Materials.VOID_INGOT.item(), Materials.VOID_INGOT.item(),
+                Materials.VOID_INGOT.item(), Materials.VOID_INGOT.item(), new ItemStack(MaterialCompat.safe(XMaterial.ELYTRA)), new ItemStack(MaterialCompat.safe(XMaterial.ELYTRA)), Materials.VOID_INGOT.item(), Materials.VOID_INGOT.item(),
                 Materials.VOID_INGOT.item(), Materials.VOID_INGOT.item(), Materials.INFINITE_INGOT.item(), Materials.INFINITE_INGOT.item(), Materials.VOID_INGOT.item(), Materials.VOID_INGOT.item(),
                 Materials.INFINITE_INGOT.item(), Materials.VOID_INGOT.item(), Materials.VOID_INGOT.item(), Materials.VOID_INGOT.item(), Materials.VOID_INGOT.item(), Materials.INFINITE_INGOT.item(),
                 Materials.INFINITE_INGOT.item(), null, Materials.INFINITE_INGOT.item(), Materials.INFINITE_INGOT.item(), null, Materials.INFINITE_INGOT.item()
@@ -264,7 +268,12 @@ public final class Gear {
             ConfigurationSection itemSection = typeSection.getConfigurationSection(itemPath);
 
             // unbreakable and enchants
-            meta.setUnbreakable(Objects.requireNonNull(itemSection).getBoolean("unbreakable"));
+            boolean unbreakable = Objects.requireNonNull(itemSection).getBoolean("unbreakable");
+            try {
+                meta.getClass().getMethod("setUnbreakable", boolean.class).invoke(meta, unbreakable);
+            } catch (ReflectiveOperationException ignored) {
+                // setUnbreakable is 1.11+, no-op on older versions
+            }
             for (Map.Entry<Enchantment, Integer> entry : Util.getEnchants(itemSection).entrySet()) {
                 meta.addEnchant(entry.getKey(), entry.getValue(), true);
             }

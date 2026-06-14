@@ -20,6 +20,9 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.PlayerInventory;
 
+import io.github.mooy1.infinityexpansion.MaterialCompat;
+import io.github.mooy1.infinityexpansion.utils.SoundCompat;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 import io.github.mooy1.infinityexpansion.items.blocks.Blocks;
 import io.github.mooy1.infinityexpansion.items.blocks.InfinityWorkbench;
 import io.github.mooy1.infinitylib.common.Scheduler;
@@ -80,12 +83,12 @@ public final class InfinityGroup extends FlexItemGroup {
     private static final int[] WORKBENCH_BORDER = {
             7, 16, 17
     };
-    private static final ItemStack BENCH = CustomItemStack.create(Material.NETHER_STAR,
+    private static final ItemStack BENCH = CustomItemStack.create(MaterialCompat.safe(XMaterial.NETHER_STAR),
             "&bCreate the recipe from items in your inventory: ",
             "&aLeft-Click to move 1 set",
             "&aRight-Click to move as many sets as possible"
     );
-    private static final ItemStack INFO = CustomItemStack.create(Material.CYAN_STAINED_GLASS_PANE, "&3Info");
+    private static final ItemStack INFO = CustomItemStack.create(MaterialCompat.safe(XMaterial.CYAN_STAINED_GLASS_PANE), "&3Info");
     private static final SlimefunGuideImplementation GUIDE = Slimefun.getRegistry().getSlimefunGuide(SlimefunGuideMode.SURVIVAL_MODE);
     private static final Map<UUID, String> HISTORY = new HashMap<>();
     private static final LinkedHashMap<String, Pair<SlimefunItemStack, ItemStack[]>> ITEMS = new LinkedHashMap<>();
@@ -195,7 +198,10 @@ public final class InfinityGroup extends FlexItemGroup {
             i++;
         }
 
-        player.playSound(player.getLocation(), Sound.ITEM_BOOK_PAGE_TURN, 1, 1);
+        Sound pageTurn = SoundCompat.resolve("ITEM_BOOK_PAGE_TURN");
+        if (pageTurn != null) {
+            player.playSound(player.getLocation(), pageTurn, 1, 1);
+        }
 
         HISTORY.put(player.getUniqueId(), null);
 
@@ -283,7 +289,10 @@ public final class InfinityGroup extends FlexItemGroup {
             menu.addItem(slot, INFO, ChestMenuUtils.getEmptyClickHandler());
         }
 
-        player.playSound(player.getLocation(), Sound.ITEM_BOOK_PAGE_TURN, 1, 1);
+        Sound pageTurn = SoundCompat.resolve("ITEM_BOOK_PAGE_TURN");
+        if (pageTurn != null) {
+            player.playSound(player.getLocation(), pageTurn, 1, 1);
+        }
 
         HISTORY.put(player.getUniqueId(), id);
 
@@ -378,7 +387,10 @@ public final class InfinityGroup extends FlexItemGroup {
 
         menu.addItem(NORMAL_RECIPE_OUTPUT, output, ChestMenuUtils.getEmptyClickHandler());
 
-        player.playSound(player.getLocation(), Sound.ITEM_BOOK_PAGE_TURN, 1, 1);
+        Sound pageTurn = SoundCompat.resolve("ITEM_BOOK_PAGE_TURN");
+        if (pageTurn != null) {
+            player.playSound(player.getLocation(), pageTurn, 1, 1);
+        }
         menu.open(player);
     }
 

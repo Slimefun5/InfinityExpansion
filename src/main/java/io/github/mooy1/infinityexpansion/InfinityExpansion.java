@@ -24,7 +24,7 @@ import io.github.mooy1.infinityexpansion.items.storage.Storage;
 import io.github.mooy1.infinityexpansion.items.storage.StorageSaveFix;
 import io.github.mooy1.infinitylib.common.Scheduler;
 import io.github.mooy1.infinitylib.core.AbstractAddon;
-import io.github.thebusybiscuit.slimefun5.utils.compatibility.BukkitKeys;
+import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
 
 public final class InfinityExpansion extends AbstractAddon {
 
@@ -38,9 +38,13 @@ public final class InfinityExpansion extends AbstractAddon {
         StorageSaveFix.fixStuff(getLogger());
     }
 
-    /** Creates a real org.bukkit.NamespacedKey for PDC boundaries (1.14+ servers only). */
-    public static org.bukkit.NamespacedKey pdcKey(String key) {
-        return (org.bukkit.NamespacedKey) BukkitKeys.toBukkit(createKey(key));
+    /**
+     * Creates a version-safe {@link NamespacedKey} shim for PDC boundaries. The real
+     * {@code org.bukkit.NamespacedKey} is only materialised reflectively at access time
+     * (see {@code CompatUtils}), so this stays loadable on legacy servers without PDC.
+     */
+    public static NamespacedKey pdcKey(String key) {
+        return createKey(key);
     }
 
     @Override

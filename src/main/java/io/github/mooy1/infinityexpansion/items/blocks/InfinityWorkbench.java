@@ -21,6 +21,8 @@ import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
 import io.github.thebusybiscuit.slimefun5.utils.ChestMenuUtils;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenuPreset;
+import io.github.mooy1.infinityexpansion.MaterialCompat;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 
 @ParametersAreNonnullByDefault
 public final class InfinityWorkbench extends io.github.mooy1.infinitylib.machines.CraftingBlock implements EnergyNetComponent {
@@ -62,7 +64,7 @@ public final class InfinityWorkbench extends io.github.mooy1.infinitylib.machine
     @Override
     protected void setup(BlockMenuPreset preset) {
         super.setup(preset);
-        preset.addItem(RECIPE_SLOT, CustomItemStack.create(Material.BOOK, "&6Recipes"), ChestMenuUtils.getEmptyClickHandler());
+        preset.addItem(RECIPE_SLOT, CustomItemStack.create(MaterialCompat.safe(XMaterial.BOOK), "&6Recipes"), ChestMenuUtils.getEmptyClickHandler());
     }
 
     @Override

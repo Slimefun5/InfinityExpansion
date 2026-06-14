@@ -12,6 +12,8 @@ import io.github.mooy1.infinitylib.machines.MachineLore;
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun5.implementation.SlimefunItems;
+import io.github.mooy1.infinityexpansion.MaterialCompat;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 
 public final class Generators {
 
@@ -30,7 +32,7 @@ public final class Generators {
 
     public static final SlimefunItemStack INFINITY_REACTOR = new SlimefunItemStack(
             "INFINITY_REACTOR",
-            Material.BEACON,
+            MaterialCompat.safe(XMaterial.BEACON),
             "&bInfinity Reactor",
             "&7Generates power through the compression",
             "&7of &8Void &7and &bInfinity &7Ingots",
@@ -40,7 +42,7 @@ public final class Generators {
     );
     public static final SlimefunItemStack HYDRO = new SlimefunItemStack(
             "HYDRO_GENERATOR",
-            Material.PRISMARINE_WALL,
+            MaterialCompat.safe(XMaterial.PRISMARINE_WALL),
             "&9Hydro Generator",
             "&7Generates energy from the movement of water",
             "",
@@ -49,7 +51,7 @@ public final class Generators {
     );
     public static final SlimefunItemStack REINFORCED_HYDRO = new SlimefunItemStack(
             "REINFORCED_HYDRO_GENERATOR",
-            Material.END_STONE_BRICK_WALL,
+            MaterialCompat.safe(XMaterial.END_STONE_BRICK_WALL),
             "&fReinforced &9Hydro Gen",
             "&7Generates large amounts of energy",
             "&7from the movement of water",
@@ -59,7 +61,7 @@ public final class Generators {
     );
     public static final SlimefunItemStack GEOTHERMAL = new SlimefunItemStack(
             "GEOTHERMAL_GENERATOR",
-            Material.MAGMA_BLOCK,
+            MaterialCompat.safe(XMaterial.MAGMA_BLOCK),
             "&cGeothermal Generator",
             "&7Generates energy from the heat of the world",
             "",
@@ -68,7 +70,7 @@ public final class Generators {
     );
     public static final SlimefunItemStack REINFORCED_GEOTHERMAL = new SlimefunItemStack(
             "REINFORCED_GEOTHERMAL_GENERATOR",
-            Material.SHROOMLIGHT,
+            MaterialCompat.safe(XMaterial.SHROOMLIGHT),
             "&fReinforced &cGeothermal Gen",
             "&7Generates large amounts of energy",
             "&7from the heat of the world",
@@ -78,7 +80,7 @@ public final class Generators {
     );
     public static final SlimefunItemStack BASIC_PANEL = new SlimefunItemStack(
             "BASIC_PANEL",
-            Material.BLUE_GLAZED_TERRACOTTA,
+            MaterialCompat.safe(XMaterial.BLUE_GLAZED_TERRACOTTA),
             "&9Basic Solar Panel",
             "&7Generates energy from the sun",
             "",
@@ -87,7 +89,7 @@ public final class Generators {
     );
     public static final SlimefunItemStack ADVANCED_PANEL = new SlimefunItemStack(
             "ADVANCED_PANEL",
-            Material.RED_GLAZED_TERRACOTTA,
+            MaterialCompat.safe(XMaterial.RED_GLAZED_TERRACOTTA),
             "&cAdvanced Solar Panel",
             "&7Generates energy from the sun",
             "",
@@ -96,7 +98,7 @@ public final class Generators {
     );
     public static final SlimefunItemStack CELESTIAL_PANEL = new SlimefunItemStack(
             "CELESTIAL_PANEL",
-            Material.YELLOW_GLAZED_TERRACOTTA,
+            MaterialCompat.safe(XMaterial.YELLOW_GLAZED_TERRACOTTA),
             "&eCelestial Panel",
             "&7Generates energy from the sun",
             "",
@@ -105,7 +107,7 @@ public final class Generators {
     );
     public static final SlimefunItemStack VOID_PANEL = new SlimefunItemStack(
             "VOID_PANEL",
-            Material.LIGHT_GRAY_GLAZED_TERRACOTTA,
+            MaterialCompat.safe(XMaterial.LIGHT_GRAY_GLAZED_TERRACOTTA),
             "&8Void Panel",
             "&7Generates energy from darkness",
             "",
@@ -114,7 +116,7 @@ public final class Generators {
     );
     public static final SlimefunItemStack INFINITE_PANEL = new SlimefunItemStack(
             "INFINITE_PANEL",
-            Material.LIGHT_BLUE_GLAZED_TERRACOTTA,
+            MaterialCompat.safe(XMaterial.LIGHT_BLUE_GLAZED_TERRACOTTA),
             "&bInfinity Panel",
             "&7Generates energy from the cosmos",
             "",
@@ -134,7 +136,7 @@ public final class Generators {
 
         new EnergyGenerator(Groups.BASIC_MACHINES, HYDRO, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[] {
                 Materials.MAGSTEEL.item(), Materials.MACHINE_CIRCUIT.item(), Materials.MAGSTEEL.item(),
-                new ItemStack(Material.BUCKET), SlimefunItems.ELECTRO_MAGNET.item(), new ItemStack(Material.BUCKET),
+                new ItemStack(MaterialCompat.safe(XMaterial.BUCKET)), SlimefunItems.ELECTRO_MAGNET.item(), new ItemStack(MaterialCompat.safe(XMaterial.BUCKET)),
                 Materials.MAGSTEEL.item(), Materials.MACHINE_CIRCUIT.item(), Materials.MAGSTEEL.item()
         }, HYDRO_ENERGY, GenerationType.HYDROELECTRIC).register(plugin);
         new EnergyGenerator(Groups.ADVANCED_MACHINES, REINFORCED_HYDRO, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[] {

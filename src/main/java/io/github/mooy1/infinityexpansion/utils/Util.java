@@ -9,11 +9,11 @@ import java.util.logging.Level;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
+import java.lang.reflect.Method;
+
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
 import org.bukkit.block.Block;
-import org.bukkit.block.data.BlockData;
-import org.bukkit.block.data.Waterlogged;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.inventory.ItemStack;
@@ -111,11 +111,11 @@ public final class Util {
 
     public static boolean isWaterLogged(@Nonnull Block b) {
         if (InfinityExpansion.slimefunTickCount() % 63 == 0) {
-            BlockData blockData = b.getBlockData();
+            // BlockData / Waterlogged are 1.13+; resolve reflectively so this stays loadable on legacy servers.
+            Object blockData = CompatUtils.getBlockData(b);
 
-            if (blockData instanceof Waterlogged) {
-                Waterlogged waterLogged = (Waterlogged) blockData;
-                if (waterLogged.isWaterlogged()) {
+            if (isWaterloggedCapable(blockData)) {
+                if (isWaterlogged(blockData)) {
                     BlockStorage.addBlockInfo(b.getLocation(), "water_logged", "true");
                     return true;
                 }
@@ -127,10 +127,29 @@ public final class Util {
             else {
                 return false;
             }
-
         }
         else {
             return "true".equals(BlockStorage.getLocationInfo(b.getLocation(), "water_logged"));
+        }
+    }
+
+    private static boolean isWaterloggedCapable(@Nullable Object blockData) {
+        if (blockData == null) {
+            return false;
+        }
+        try {
+            return Class.forName("org.bukkit.block.data.Waterlogged").isInstance(blockData);
+        } catch (ClassNotFoundException e) {
+            return false;
+        }
+    }
+
+    private static boolean isWaterlogged(@Nonnull Object blockData) {
+        try {
+            Method method = Class.forName("org.bukkit.block.data.Waterlogged").getMethod("isWaterlogged");
+            return Boolean.TRUE.equals(method.invoke(blockData));
+        } catch (ReflectiveOperationException e) {
+            return false;
         }
     }
 

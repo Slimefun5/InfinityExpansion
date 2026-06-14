@@ -11,6 +11,8 @@ import org.bukkit.block.Block;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
+import io.github.mooy1.infinityexpansion.MaterialCompat;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 import io.github.mooy1.infinityexpansion.items.storage.StorageUnit;
 import io.github.mooy1.infinitylib.commands.SubCommand;
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
@@ -38,7 +40,7 @@ public final class SetData extends SubCommand {
 
         Block target = p.getTargetBlockExact(8, FluidCollisionMode.NEVER);
 
-        if (target == null || target.getType() == Material.AIR) {
+        if (target == null || target.getType() == MaterialCompat.safe(XMaterial.AIR)) {
             p.sendMessage(ChatColor.RED + "You need to target a block to use this command!");
             return;
         }
@@ -80,7 +82,7 @@ public final class SetData extends SubCommand {
 
         Block target = p.getTargetBlockExact(8, FluidCollisionMode.NEVER);
 
-        if (target == null || target.getType() == Material.AIR) {
+        if (target == null || target.getType() == MaterialCompat.safe(XMaterial.AIR)) {
             return;
         }
 

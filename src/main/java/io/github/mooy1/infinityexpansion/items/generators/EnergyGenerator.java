@@ -20,6 +20,8 @@ import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenuPreset;
 import me.mrCookieSlime.Slimefun.api.inventory.DirtyChestMenu;
+import io.github.mooy1.infinityexpansion.MaterialCompat;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 
 /**
  * Solar panels and some other basic generators
@@ -72,14 +74,14 @@ public final class EnergyGenerator extends MenuBlock implements EnergyNetProvide
         if (inv != null && inv.hasViewer()) {
             if (gen == 0) {
                 inv.replaceExistingItem(4, CustomItemStack.create(
-                        Material.GREEN_STAINED_GLASS_PANE,
+                        MaterialCompat.safe(XMaterial.GREEN_STAINED_GLASS_PANE),
                         "&cNot generating",
                         "&7Stored: &6" + MachineLore.format(getCharge(l)) + " J"
                 ));
             }
             else {
                 inv.replaceExistingItem(4, CustomItemStack.create(
-                        Material.GREEN_STAINED_GLASS_PANE,
+                        MaterialCompat.safe(XMaterial.GREEN_STAINED_GLASS_PANE),
                         "&aGeneration",
                         "&7Type: &6" + this.type,
                         "&7Generating: &6" + MachineLore.formatEnergy(gen) + " J/s ",

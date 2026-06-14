@@ -13,11 +13,10 @@ import org.bukkit.block.Block;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
-import org.bukkit.inventory.meta.Damageable;
-import org.bukkit.inventory.meta.ItemMeta;
 
 import io.github.mooy1.infinityexpansion.items.materials.Materials;
 import io.github.mooy1.infinityexpansion.items.materials.Strainer;
+import io.github.mooy1.infinityexpansion.utils.CompatUtils;
 import io.github.mooy1.infinityexpansion.utils.Util;
 import io.github.mooy1.infinitylib.machines.TickingMenuBlock;
 import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup;
@@ -30,6 +29,8 @@ import io.github.thebusybiscuit.slimefun5.utils.ChestMenuUtils;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenuPreset;
 import me.mrCookieSlime.Slimefun.api.inventory.DirtyChestMenu;
+import io.github.mooy1.infinityexpansion.MaterialCompat;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 
 /**
  * Generates items slowly using up strainers, must be waterlogged
@@ -40,7 +41,7 @@ import me.mrCookieSlime.Slimefun.api.inventory.DirtyChestMenu;
 public final class StrainerBase extends TickingMenuBlock implements RecipeDisplayItem {
 
 
-    private static final ItemStack POTATO = CustomItemStack.create(Material.POTATO, "&7:&6Potatofish&7:", "&eLucky");
+    private static final ItemStack POTATO = CustomItemStack.create(MaterialCompat.safe(XMaterial.POTATO), "&7:&6Potatofish&7:", "&eLucky");
     private static final int STATUS_SLOT = 10;
     private static final int[] OUTPUT_SLOTS = {
             13, 14, 15, 16,
@@ -53,12 +54,12 @@ public final class StrainerBase extends TickingMenuBlock implements RecipeDispla
     };
 
     private static final ItemStack[] OUTPUTS = {
-            new ItemStack(Material.STICK),
-            new ItemStack(Material.SAND),
-            new ItemStack(Material.GRAVEL),
-            new ItemStack(Material.QUARTZ),
-            new ItemStack(Material.REDSTONE),
-            new ItemStack(Material.EMERALD),
+            new ItemStack(MaterialCompat.safe(XMaterial.STICK)),
+            new ItemStack(MaterialCompat.safe(XMaterial.SAND)),
+            new ItemStack(MaterialCompat.safe(XMaterial.GRAVEL)),
+            new ItemStack(MaterialCompat.safe(XMaterial.QUARTZ)),
+            new ItemStack(MaterialCompat.safe(XMaterial.REDSTONE)),
+            new ItemStack(MaterialCompat.safe(XMaterial.EMERALD)),
             new SlimefunItemStack(SlimefunItems.MAGNESIUM_DUST, 1).item(),
             new SlimefunItemStack(SlimefunItems.COPPER_DUST, 1).item(),
             new SlimefunItemStack(SlimefunItems.COPPER_DUST, 1).item(),
@@ -153,7 +154,7 @@ public final class StrainerBase extends TickingMenuBlock implements RecipeDispla
         if (speed == 0) {
 
             if (inv.hasViewer()) {
-                inv.replaceExistingItem(STATUS_SLOT, CustomItemStack.create(Material.BARRIER, "&cInput a Strainer!"));
+                inv.replaceExistingItem(STATUS_SLOT, CustomItemStack.create(MaterialCompat.safe(XMaterial.BARRIER), "&cInput a Strainer!"));
             }
 
             return;
@@ -166,7 +167,7 @@ public final class StrainerBase extends TickingMenuBlock implements RecipeDispla
         if (random.nextInt(this.time / speed) != 0) {
 
             if (inv.hasViewer()) {
-                inv.replaceExistingItem(STATUS_SLOT, CustomItemStack.create(Material.LIME_STAINED_GLASS_PANE, "&aCollecting..."));
+                inv.replaceExistingItem(STATUS_SLOT, CustomItemStack.create(MaterialCompat.safe(XMaterial.LIME_STAINED_GLASS_PANE), "&aCollecting..."));
             }
 
             return;
@@ -196,26 +197,22 @@ public final class StrainerBase extends TickingMenuBlock implements RecipeDispla
         inv.pushItem(output.clone(), OUTPUT_SLOTS);
 
         if (inv.hasViewer()) {
-            inv.replaceExistingItem(STATUS_SLOT, CustomItemStack.create(Material.LIME_STAINED_GLASS_PANE, "&aMaterial Collected!"));
+            inv.replaceExistingItem(STATUS_SLOT, CustomItemStack.create(MaterialCompat.safe(XMaterial.LIME_STAINED_GLASS_PANE), "&aMaterial Collected!"));
         }
 
         //reduce durability
 
         if (random.nextInt(strainer.getEnchantmentLevel(Enchantment.DURABILITY) + 3 * strainer.getEnchantmentLevel(Enchantment.MENDING) + 1) == 0) {
-            ItemMeta itemMeta = strainer.getItemMeta();
-            Damageable durability = (Damageable) itemMeta;
+            int current = CompatUtils.getDamage(strainer);
 
-            int current = durability.getDamage();
-
-            if (current + 1 == Material.FISHING_ROD.getMaxDurability()) {
+            if (current + 1 == MaterialCompat.safe(XMaterial.FISHING_ROD).getMaxDurability()) {
 
                 inv.consumeItem(INPUT_SLOTS[0]);
 
             }
             else { //reduce
 
-                ((Damageable) itemMeta).setDamage(current + 1);
-                strainer.setItemMeta(itemMeta);
+                CompatUtils.setDamage(strainer, current + 1);
                 inv.replaceExistingItem(INPUT_SLOTS[0], strainer);
 
             }

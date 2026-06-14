@@ -33,7 +33,7 @@ dependencies {
     compileOnly("com.google.code.findbugs:jsr305:3.0.2")
 
     // Shaded
-    githubImplementation("Slimefun5:InfinityLib:v1.3.12")
+    githubImplementation("Slimefun5:InfinityLib:v1.3.13")
 
 }
 
