@@ -28,7 +28,7 @@ public final class PrintItem extends SubCommand {
 
         Player p = (Player) commandSender;
 
-        ItemStack item = p.getInventory().getItemInMainHand();
+        ItemStack item = p.getInventory().getItemInHand();
 
         if (item.getType() == MaterialCompat.safe(XMaterial.AIR)) {
             p.sendMessage(ChatColor.RED + "You must be holding an item!");

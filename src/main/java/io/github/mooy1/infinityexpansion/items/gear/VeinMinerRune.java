@@ -197,7 +197,7 @@ public final class VeinMinerRune extends SlimefunItem implements Listener, NotPl
             return;
         }
 
-        ItemStack item = p.getInventory().getItemInMainHand();
+        ItemStack item = p.getInventory().getItemInHand();
 
         if (!isVeinMiner(item)) {
             return;
