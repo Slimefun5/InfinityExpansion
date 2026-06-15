@@ -134,7 +134,7 @@ public final class MobData {
                 new ItemStack(MaterialCompat.safe(XMaterial.BOW), 1), new ItemStack(MaterialCompat.safe(XMaterial.BONE), 64), new ItemStack(MaterialCompat.safe(XMaterial.BOW), 1)
         }).addDrop(MaterialCompat.safe(XMaterial.BONE), 1).addDrop(MaterialCompat.safe(XMaterial.ARROW), 3).register(plugin);
         new MobDataCard(WITHER_SKELETON, MobDataTier.ADVANCED, new ItemStack[] {
-                new ItemStack(MaterialCompat.safe(XMaterial.WITHER_SKELETON_SKULL), 8), new ItemStack(MaterialCompat.safe(XMaterial.BONE), 64), new ItemStack(MaterialCompat.safe(XMaterial.WITHER_SKELETON_SKULL), 8),
+                MaterialCompat.stack(XMaterial.WITHER_SKELETON_SKULL, 8), new ItemStack(MaterialCompat.safe(XMaterial.BONE), 64), MaterialCompat.stack(XMaterial.WITHER_SKELETON_SKULL, 8),
                 new ItemStack(MaterialCompat.safe(XMaterial.COAL_BLOCK), 64), EMPTY_DATA_CARD.item(), new ItemStack(MaterialCompat.safe(XMaterial.COAL_BLOCK), 64),
                 new ItemStack(MaterialCompat.safe(XMaterial.STONE_SWORD), 1), new ItemStack(MaterialCompat.safe(XMaterial.BONE), 64), new ItemStack(MaterialCompat.safe(XMaterial.STONE_SWORD), 1)
         }).addDrop(MaterialCompat.safe(XMaterial.COAL), 2, 1).addDrop(MaterialCompat.safe(XMaterial.BONE), 3).addDrop(MaterialCompat.safe(XMaterial.WITHER_SKELETON_SKULL), 15).register(plugin);
@@ -170,13 +170,13 @@ public final class MobData {
                 new ItemStack(MaterialCompat.safe(XMaterial.MAGMA_BLOCK), 64), new ItemStack(MaterialCompat.safe(XMaterial.BLAZE_ROD), 64), new ItemStack(MaterialCompat.safe(XMaterial.MAGMA_BLOCK), 64)
         }).addDrop(MaterialCompat.safe(XMaterial.BLAZE_ROD), 1).register(plugin);
         new MobDataCard(WITHER, MobDataTier.MINI_BOSS, new ItemStack[] {
-                new ItemStack(MaterialCompat.safe(XMaterial.WITHER_SKELETON_SKULL), 64), new ItemStack(MaterialCompat.safe(XMaterial.WITHER_SKELETON_SKULL), 64), new ItemStack(MaterialCompat.safe(XMaterial.WITHER_SKELETON_SKULL), 64),
+                MaterialCompat.stack(XMaterial.WITHER_SKELETON_SKULL, 64), MaterialCompat.stack(XMaterial.WITHER_SKELETON_SKULL, 64), MaterialCompat.stack(XMaterial.WITHER_SKELETON_SKULL, 64),
                 new SlimefunItemStack(SlimefunItems.WITHER_PROOF_OBSIDIAN, 64).item(), EMPTY_DATA_CARD.item(), new SlimefunItemStack(SlimefunItems.WITHER_PROOF_OBSIDIAN, 64).item(),
                 new SlimefunItemStack(Materials.VOID_INGOT, 4).item(), new SlimefunItemStack(SlimefunItems.WITHER_ASSEMBLER, 4).item(), new SlimefunItemStack(Materials.VOID_INGOT, 4).item()
         }).addDrop(MaterialCompat.safe(XMaterial.NETHER_STAR), 1).addDrop(SlimefunItems.COMPRESSED_CARBON.item(), 8, 2).register(plugin);
         new MobDataCard(ENDER_DRAGON, MobDataTier.BOSS, new ItemStack[] {
                 new ItemStack(MaterialCompat.safe(XMaterial.END_CRYSTAL), 64), new SlimefunItemStack(Materials.VOID_INGOT, 32).item(), new ItemStack(MaterialCompat.safe(XMaterial.CHORUS_FLOWER), 64),
-                SlimefunItems.INFUSED_ELYTRA.item(), EMPTY_DATA_CARD.item(), new ItemStack(MaterialCompat.safe(XMaterial.DRAGON_HEAD), 1),
+                SlimefunItems.INFUSED_ELYTRA.item(), EMPTY_DATA_CARD.item(), MaterialCompat.stack(XMaterial.DRAGON_HEAD, 1),
                 new SlimefunItemStack(SlimefunItems.ENDER_LUMP_3, 64).item(), new SlimefunItemStack(Materials.VOID_INGOT, 32).item(), new ItemStack(MaterialCompat.safe(XMaterial.DRAGON_BREATH), 64)
         }).addDrop(Materials.VOID_DUST.item(), 1).addDrop(Materials.ENDER_ESSENCE.item(), 4).addDrop(MaterialCompat.safe(XMaterial.DRAGON_EGG), 1_000_000).register(plugin);
         new MobDataCard(BEE, MobDataTier.NEUTRAL, new ItemStack[] {

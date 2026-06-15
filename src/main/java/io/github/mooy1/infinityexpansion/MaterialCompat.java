@@ -22,4 +22,22 @@ public final class MaterialCompat {
         Material resolved = material.parseMaterial();
         return resolved != null ? resolved : Material.STONE;
     }
+
+    /**
+     * Resolves an {@link XMaterial} to an {@link ItemStack}, preserving the legacy data value
+     * (e.g. SKULL_ITEM:1 = wither skull) that {@link #safe(XMaterial)} drops on 1.8-1.12.
+     */
+    @javax.annotation.Nonnull
+    public static org.bukkit.inventory.ItemStack stack(@javax.annotation.Nonnull XMaterial material) {
+        org.bukkit.inventory.ItemStack item = material.parseItem();
+        return item != null ? item : new org.bukkit.inventory.ItemStack(safe(material));
+    }
+
+    /** Amount-aware variant of {@link #stack(XMaterial)}. */
+    @javax.annotation.Nonnull
+    public static org.bukkit.inventory.ItemStack stack(@javax.annotation.Nonnull XMaterial material, int amount) {
+        org.bukkit.inventory.ItemStack item = stack(material);
+        item.setAmount(amount);
+        return item;
+    }
 }
