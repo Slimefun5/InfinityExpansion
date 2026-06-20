@@ -18,7 +18,7 @@ import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
 public final class Groups {
 
     public static final ItemGroup INFINITY = new InfinityGroup(InfinityExpansion.createKey("infinity_recipes"),
-            CustomItemStack.create(MaterialCompat.safe(XMaterial.RESPAWN_ANCHOR), "&bInfinity &7Recipes"), 3);
+            CustomItemStack.create(MaterialCompat.safe(XMaterial.RESPAWN_ANCHOR), "&bInfinity &7Recipes"), 3).setTheme("machines");
     public static final ItemGroup MAIN_MATERIALS = new SubGroup("main_materials",
             CustomItemStack.create(MaterialCompat.safe(XMaterial.NETHER_STAR), "&bInfinity &7Materials"));
     public static final ItemGroup BASIC_MACHINES = new SubGroup("basic_machines",
@@ -33,9 +33,9 @@ public final class Groups {
             CustomItemStack.create(MaterialCompat.safe(XMaterial.NETHERITE_BLOCK), "&bInfinity &aMaterials"));
     public static final ItemGroup MAIN_CATEGORY = new MultiGroup("main",
             CustomItemStack.create(MaterialCompat.safe(XMaterial.NETHER_STAR), "&bInfinity &7Expansion"), 3,
-            MAIN_MATERIALS, BASIC_MACHINES, ADVANCED_MACHINES, STORAGE, MOB_SIMULATION, INFINITY_MATERIALS, INFINITY);
+            MAIN_MATERIALS, BASIC_MACHINES, ADVANCED_MACHINES, STORAGE, MOB_SIMULATION, INFINITY_MATERIALS, INFINITY).setTheme("machines");
     public static final ItemGroup INFINITY_CHEAT = new SubGroup("infinity_cheat",
-            CustomItemStack.create(MaterialCompat.safe(XMaterial.RESPAWN_ANCHOR), "&bInfinity &7Recipes &c- INCORRECT RECIPES"));
+            CustomItemStack.create(MaterialCompat.safe(XMaterial.RESPAWN_ANCHOR), "&bInfinity &7Recipes &c- INCORRECT RECIPES")).setTheme("machines");
 
     public static void setup(InfinityExpansion inst) {
         INFINITY.register(inst);
