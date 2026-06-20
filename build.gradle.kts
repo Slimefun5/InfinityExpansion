@@ -50,7 +50,7 @@ tasks {
         enabled = false
     }
     shadowJar {
-        archiveFileName.set("InfinityExpansion v${project.version}.jar")
+        archiveFileName.set("InfinityExpansion-1.0.0-UNOFFICIAL.jar")
         relocate("io.github.mooy1.infinitylib", "io.github.mooy1.infinityexpansion.infinitylib")
         minimize()
         exclude("META-INF/**")
