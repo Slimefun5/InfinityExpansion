@@ -1,6 +1,9 @@
 package io.github.mooy1.infinityexpansion;
 
 import java.io.File;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.logging.Level;
 
 import org.bukkit.plugin.Plugin;
@@ -24,8 +27,12 @@ import io.github.mooy1.infinityexpansion.items.storage.Storage;
 import io.github.mooy1.infinityexpansion.items.storage.StorageSaveFix;
 import io.github.mooy1.infinitylib.common.Scheduler;
 import io.github.mooy1.infinitylib.core.AbstractAddon;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.core.guide.wiki.WikiText;
+import io.github.thebusybiscuit.slimefun5.core.guide.wiki.WikiTopic;
 import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
 import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 
 public final class InfinityExpansion extends AbstractAddon {
 
@@ -83,6 +90,35 @@ public final class InfinityExpansion extends AbstractAddon {
 
         // Contribute this addon's per-language item translations (languages/<lang>/items.yml).
         Slimefun.getItemTranslationService().registerTranslations(this);
+
+        // Register this addon's own in-game wiki page (core does not auto-generate addon wikis).
+        registerWiki();
+    }
+
+    private void registerWiki() {
+        WikiText wiki = Slimefun.getWikiText();
+        String topicId = "addon_infinityexpansion";
+
+        wiki.registerTopic(new WikiTopic(topicId, "Infinity Expansion", XMaterial.NETHER_STAR, "&7End-game tech and storage"));
+        wiki.setMechanic(topicId, Arrays.asList(
+            "&7End-game tech and storage.", "",
+            "&7Infinity-tier machines, huge storage", "&7units, mob & material chambers and", "&7infinite resource generation.", "",
+            "&7Click an item below for its recipe."));
+
+        // Collect this addon's own items dynamically - never hardcode item lists.
+        List<String> items = new ArrayList<>();
+
+        for (SlimefunItem item : Slimefun.getRegistry().getEnabledSlimefunItems()) {
+            try {
+                if (item.getAddon() == this) {
+                    items.add(item.getId());
+                }
+            } catch (Exception | LinkageError ignored) {
+                // A broken item should not break wiki registration.
+            }
+        }
+
+        wiki.setTopicItems(topicId, items);
     }
 
     @Override
