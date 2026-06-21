@@ -1,0 +1,48 @@
+# French item translations for InfinityExpansion. Keyed by Slimefun item id.
+# name = display name, lore = list of lines, '&' colour codes. Missing items fall back to English.
+
+STRAINER_BASE:
+  name: "&7Base de filtre"
+
+ADVANCED_ANVIL:
+  name: "&cEnclume avancee"
+  lore:
+    - "&7Combine les enchantements des outils et de l'equipement et les ameliore parfois"
+    - "&bFonctionne avec les objets Slimefun"
+
+INFINITY_FORGE:
+  name: "&6Etabli de l'infini"
+  lore:
+    - "&7Utilise pour fabriquer des objets de l'infini"
+
+ADVANCED_GEO_MINER:
+  name: "&cGeoMineur &favance"
+  lore:
+    - "&7Un geo-mineur plus rapide"
+
+ADVANCED_SMELTERY:
+  name: "&cFonderie &7avancee"
+  lore:
+    - "&7Une fonderie plus rapide"
+
+ADVANCED_CHARGER:
+  name: "&cChargeur avance"
+  lore:
+    - "&7Charge rapidement les objets"
+
+INFINITY_CHARGER:
+  name: "&bChargeur de l'infini"
+  lore:
+    - "&7Charge instantanement les objets"
+
+STORAGE_FORGE:
+  name: "&6Forge de stockage"
+  lore:
+    - "&7Ameliore le niveau des unites de stockage"
+    - "&7Conserve les objets stockes"
+
+BASIC_STORAGE:
+  name: "&9Unite de stockage &8basique"
+
+INFINITY_STORAGE:
+  name: "&bUnite de stockage &8de l'infini"

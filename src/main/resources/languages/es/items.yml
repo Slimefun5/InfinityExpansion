@@ -1,0 +1,48 @@
+# Spanish item translations for InfinityExpansion. Keyed by Slimefun item id.
+# name = display name, lore = list of lines, '&' colour codes. Missing items fall back to English.
+
+STRAINER_BASE:
+  name: "&7Base de colador"
+
+ADVANCED_ANVIL:
+  name: "&cYunque avanzado"
+  lore:
+    - "&7Combina los encantamientos de herramientas y equipo y a veces los mejora"
+    - "&bFunciona con objetos de Slimefun"
+
+INFINITY_FORGE:
+  name: "&6Mesa de trabajo del infinito"
+  lore:
+    - "&7Se usa para fabricar objetos del infinito"
+
+ADVANCED_GEO_MINER:
+  name: "&cGeoMinero &favanzado"
+  lore:
+    - "&7Un geo-minero mas rapido"
+
+ADVANCED_SMELTERY:
+  name: "&cFundicion &7avanzada"
+  lore:
+    - "&7Una fundicion mas rapida"
+
+ADVANCED_CHARGER:
+  name: "&cCargador avanzado"
+  lore:
+    - "&7Carga objetos rapidamente"
+
+INFINITY_CHARGER:
+  name: "&bCargador del infinito"
+  lore:
+    - "&7Carga objetos al instante"
+
+STORAGE_FORGE:
+  name: "&6Forja de almacenamiento"
+  lore:
+    - "&7Mejora el nivel de las unidades de almacenamiento"
+    - "&7Conserva los objetos almacenados"
+
+BASIC_STORAGE:
+  name: "&9Unidad de almacenamiento &8basica"
+
+INFINITY_STORAGE:
+  name: "&bUnidad de almacenamiento &8del infinito"

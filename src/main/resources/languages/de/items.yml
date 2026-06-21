@@ -1,0 +1,48 @@
+# German item translations for InfinityExpansion. Keyed by Slimefun item id.
+# name = display name, lore = list of lines, '&' colour codes. Missing items fall back to English.
+
+STRAINER_BASE:
+  name: "&7Siebbasis"
+
+ADVANCED_ANVIL:
+  name: "&cFortgeschrittener Amboss"
+  lore:
+    - "&7Kombiniert Verzauberungen von Werkzeugen und Ausrüstung und verbessert sie manchmal"
+    - "&bFunktioniert mit Slimefun-Gegenständen"
+
+INFINITY_FORGE:
+  name: "&6Unendlichkeitswerkbank"
+  lore:
+    - "&7Wird zum Herstellen von Unendlichkeitsgegenständen verwendet"
+
+ADVANCED_GEO_MINER:
+  name: "&cFortgeschrittener &fGeoMiner"
+  lore:
+    - "&7Ein schnellerer Geo-Miner"
+
+ADVANCED_SMELTERY:
+  name: "&cFortgeschrittene &7Schmelze"
+  lore:
+    - "&7Eine schnellere Schmelze"
+
+ADVANCED_CHARGER:
+  name: "&cFortgeschrittenes Ladegerät"
+  lore:
+    - "&7Lädt Gegenstände schnell auf"
+
+INFINITY_CHARGER:
+  name: "&bUnendlichkeits-Ladegerät"
+  lore:
+    - "&7Lädt Gegenstände sofort auf"
+
+STORAGE_FORGE:
+  name: "&6Lager-Schmiede"
+  lore:
+    - "&7Verbessert die Stufe von Lagereinheiten"
+    - "&7Behält gelagerte Gegenstände"
+
+BASIC_STORAGE:
+  name: "&9Einfache &8Lagereinheit"
+
+INFINITY_STORAGE:
+  name: "&bUnendlichkeits-&8Lagereinheit"

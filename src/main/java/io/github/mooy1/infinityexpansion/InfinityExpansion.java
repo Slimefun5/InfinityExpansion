@@ -24,6 +24,7 @@ import io.github.mooy1.infinityexpansion.items.storage.Storage;
 import io.github.mooy1.infinityexpansion.items.storage.StorageSaveFix;
 import io.github.mooy1.infinitylib.common.Scheduler;
 import io.github.mooy1.infinitylib.core.AbstractAddon;
+import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
 import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
 
 public final class InfinityExpansion extends AbstractAddon {
@@ -79,6 +80,9 @@ public final class InfinityExpansion extends AbstractAddon {
         if (getConfig().getBoolean("balance-options.enable-researches")) {
             Researches.setup();
         }
+
+        // Contribute this addon's per-language item translations (languages/<lang>/items.yml).
+        Slimefun.getItemTranslationService().registerTranslations(this);
     }
 
     @Override
