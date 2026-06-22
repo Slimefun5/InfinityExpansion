@@ -1,0 +1,368 @@
+# Russian item translations for InfinityExpansion. Keyed by Slimefun item id.
+# name = display name with '&' colour codes. Missing items fall back to English.
+
+ADVANCED_GEO_MINER:
+  name: "&cУлучшенный &fГеодобытчик"
+
+ADVANCED_SMELTERY:
+  name: "&cУлучшенная &7Плавильня"
+
+ADVANCED_CHARGER:
+  name: "&cУлучшенное Зарядное устройство"
+
+INFINITY_CHARGER:
+  name: "&bЗарядное устройство Infinity"
+
+ADVANCED_NETHER_STAR_REACTOR:
+  name: "&cУлучшенный Реактор на Звезде Незера"
+
+ADVANCED_ENCHANTER:
+  name: "&cУлучшенный Зачаровыватель"
+
+ADVANCED_DISENCHANTER:
+  name: "&cУлучшенный Расзачаровыватель"
+
+INFINITY_ENCHANTER:
+  name: "&bЗачаровыватель Infinity"
+
+INFINITY_DISENCHANTER:
+  name: "&bРасзачаровыватель Infinity"
+
+INFINITY_CAPACITOR:
+  name: "&bБесконечный Конденсатор"
+
+VOID_CAPACITOR:
+  name: "&8Конденсатор Пустоты"
+
+STRAINER_BASE:
+  name: "&7Основание Фильтра"
+
+ADVANCED_ANVIL:
+  name: "&cУлучшенная Наковальня"
+
+INFINITY_FORGE:
+  name: "&6Верстак Infinity"
+
+ENDER_FLAME:
+  name: "&cПламя Энда"
+
+INFINITY_CROWN:
+  name: "&bКорона Infinity"
+
+INFINITY_CHESTPLATE:
+  name: "&bНагрудник Infinity"
+
+INFINITY_LEGGINGS:
+  name: "&bПоножи Infinity"
+
+INFINITY_BOOTS:
+  name: "&bБотинки Infinity"
+
+INFINITY_MATRIX:
+  name: "&fМатрица Infinity"
+
+INFINITY_SHIELD:
+  name: "&bКосмическая Эгида"
+
+INFINITY_BLADE:
+  name: "&bКлинок Космоса"
+
+INFINITY_PICKAXE:
+  name: "&9Сокрушитель Миров"
+
+INFINITY_AXE:
+  name: "&4Погибель Природы"
+
+INFINITY_SHOVEL:
+  name: "&aПожиратель Гор"
+
+INFINITY_BOW:
+  name: "&6Небесный Пронзатель"
+
+VEIN_MINER_RUNE:
+  name: "&bРуна Жильной Добычи"
+
+INFINITY_REACTOR:
+  name: "&bРеактор Infinity"
+
+HYDRO_GENERATOR:
+  name: "&9Гидрогенератор"
+
+REINFORCED_HYDRO_GENERATOR:
+  name: "&fУсиленный &9Гидрогенератор"
+
+GEOTHERMAL_GENERATOR:
+  name: "&cГеотермальный Генератор"
+
+REINFORCED_GEOTHERMAL_GENERATOR:
+  name: "&fУсиленный &cГеотермальный Генератор"
+
+BASIC_PANEL:
+  name: "&9Базовая Солнечная Панель"
+
+ADVANCED_PANEL:
+  name: "&cУлучшенная Солнечная Панель"
+
+CELESTIAL_PANEL:
+  name: "&eНебесная Панель"
+
+VOID_PANEL:
+  name: "&8Панель Пустоты"
+
+INFINITE_PANEL:
+  name: "&bПанель Infinity"
+
+COBBLE_PRESS:
+  name: "&8Пресс для Булыжника"
+
+RESOURCE_SYNTHESIZER:
+  name: "&6Синтезатор Ресурсов"
+
+BASIC_VIRTUAL_FARM:
+  name: "&9Базовая &aВиртуальная Ферма"
+
+ADVANCED_VIRTUAL_FARM:
+  name: "&cУлучшенная &aВиртуальная Ферма"
+
+INFINITY_VIRTUAL_FARM:
+  name: "&bВиртуальная &aФерма Infinity"
+
+BASIC_TREE_GROWER:
+  name: "&9Базовый &2Выращиватель Деревьев"
+
+ADVANCED_TREE_GROWER:
+  name: "&cУлучшенный &2Выращиватель Деревьев"
+
+INFINITY_TREE_GROWER:
+  name: "&bВыращиватель &2Деревьев Infinity"
+
+POWERED_BEDROCK:
+  name: "&4Заряженный Бедрок"
+
+GEO_QUARRY:
+  name: "&fГео-Карьер"
+
+EXTREME_FREEZER:
+  name: "&bЭкстремальный Морозильник"
+
+DUST_EXTRACTOR:
+  name: "&8Экстрактор Пыли"
+
+INFINITY_DUST_EXTRACTOR:
+  name: "&bЭкстрактор &8Пыли Infinity"
+
+INGOT_FORMER:
+  name: "&8Формовщик Слитков"
+
+INFINITY_INGOT_FORMER:
+  name: "&bФормовщик &8Слитков Infinity"
+
+URANIUM_EXTRACTOR:
+  name: "&aЭкстрактор Урана"
+
+DECOMPRESSOR:
+  name: "&7Декомпрессор"
+
+GEAR_TRANSFORMER:
+  name: "&7Преобразователь Снаряжения"
+
+BASIC_COBBLE_GEN:
+  name: "&9Базовый &8Генератор Булыжника"
+
+ADVANCED_COBBLE_GEN:
+  name: "&cУлучшенный &8Генератор Булыжника"
+
+INFINITY_COBBLE_GEN:
+  name: "&cГенератор &8Булыжника Infinity"
+
+BASIC_OBSIDIAN_GEN:
+  name: "&8Генератор Обсидиана"
+
+SINGULARITY_CONSTRUCTOR:
+  name: "&fКонструктор Сингулярности"
+
+INFINITY_CONSTRUCTOR:
+  name: "&bКонструктор &fInfinity"
+
+STONEWORKS_FACTORY:
+  name: "&8Каменная Фабрика"
+
+VOID_HARVESTER:
+  name: "&8Сборщик Пустоты"
+
+INFINITE_VOID_HARVESTER:
+  name: "&bБесконечный &8Сборщик Пустоты"
+
+INFINITE_MACHINE_CIRCUIT:
+  name: "&bБесконечная &6Машинная Схема"
+
+INFINITE_MACHINE_CORE:
+  name: "&bБесконечное Машинное Ядро"
+
+MAGSTEEL_PLATE:
+  name: "&4Пластина МагСтали"
+
+MACHINE_PLATE:
+  name: "&fМашинная Пластина"
+
+MACHINE_CIRCUIT:
+  name: "&6Машинная Схема"
+
+MACHINE_CORE:
+  name: "&fМашинное Ядро"
+
+VOID_BIT:
+  name: "&8Бит Пустоты"
+
+VOID_DUST:
+  name: "&8Пыль Пустоты"
+
+VOID_INGOT:
+  name: "&8Слиток Пустоты"
+
+COMPRESSED_COBBLESTONE_1:
+  name: "&7Однократно Сжатый Булыжник"
+
+COMPRESSED_COBBLESTONE_2:
+  name: "&7Двукратно Сжатый Булыжник"
+
+COMPRESSED_COBBLESTONE_3:
+  name: "&7Трёхкратно Сжатый Булыжник"
+
+COMPRESSED_COBBLESTONE_4:
+  name: "&7Четырёхкратно Сжатый Булыжник"
+
+COMPRESSED_COBBLESTONE_5:
+  name: "&7Пятикратно Сжатый Булыжник"
+
+MAGSTEEL:
+  name: "&4МагСталь"
+
+MAGNONIUM:
+  name: "&5Магноний"
+
+TITANIUM:
+  name: "&7Титан"
+
+MYTHRIL:
+  name: "&bМифрил"
+
+ADAMANTITE:
+  name: "&dАдамантит"
+
+INFINITE_INGOT:
+  name: "&bСлиток Infinity"
+
+FORTUNE_SINGULARITY:
+  name: "&6Сингулярность Удачи"
+
+EARTH_SINGULARITY:
+  name: "&aСингулярность Земли"
+
+METAL_SINGULARITY:
+  name: "&8Сингулярность Металла"
+
+MAGIC_SINGULARITY:
+  name: "&dСингулярность Магии"
+
+END_ESSENCE:
+  name: "&5Эссенция Энда"
+
+COPPER_SINGULARITY:
+  name: "&6Сингулярность Меди"
+
+ZINC_SINGULARITY:
+  name: "&7Сингулярность Цинка"
+
+TIN_SINGULARITY:
+  name: "&7Сингулярность Олова"
+
+ALUMINUM_SINGULARITY:
+  name: "&7Сингулярность Алюминия"
+
+SILVER_SINGULARITY:
+  name: "&7Сингулярность Серебра"
+
+MAGNESIUM_SINGULARITY:
+  name: "&5Сингулярность Магния"
+
+LEAD_SINGULARITY:
+  name: "&8Сингулярность Свинца"
+
+GOLD_SINGULARITY:
+  name: "&6Сингулярность Золота"
+
+IRON_SINGULARITY:
+  name: "&7Сингулярность Железа"
+
+DIAMOND_SINGULARITY:
+  name: "&bСингулярность Алмаза"
+
+EMERALD_SINGULARITY:
+  name: "&aСингулярность Изумруда"
+
+NETHERITE_SINGULARITY:
+  name: "&4Сингулярность Незерита"
+
+COAL_SINGULARITY:
+  name: "&8Сингулярность Угля"
+
+REDSTONE_SINGULARITY:
+  name: "&cСингулярность Редстоуна"
+
+LAPIS_SINGULARITY:
+  name: "&9Сингулярность Лазурита"
+
+QUARTZ_SINGULARITY:
+  name: "&fСингулярность Кварца"
+
+INFINITY_SINGULARITY:
+  name: "&bСингулярность Infinity"
+
+BASIC_STRAINER:
+  name: "&9Базовый Фильтр"
+
+ADVANCED_STRAINER:
+  name: "&cУлучшенный Фильтр"
+
+REINFORCED_STRAINER:
+  name: "&fУсиленный Фильтр"
+
+EMPTY_DATA_CARD:
+  name: "&8Пустая Карта Данных"
+
+DATA_INFUSER:
+  name: "&8Инфузор Данных Мобов"
+
+MOB_SIMULATION_CHAMBER:
+  name: "&8Камера Симуляции Мобов"
+
+BASIC_QUARRY:
+  name: "&9Базовый Карьер"
+
+ADVANCED_QUARRY:
+  name: "&cУлучшенный Карьер"
+
+VOID_QUARRY:
+  name: "&8Карьер Пустоты"
+
+INFINITY_QUARRY:
+  name: "&bКарьер Infinity"
+
+STORAGE_FORGE:
+  name: "&6Кузница Хранилища"
+
+BASIC_STORAGE:
+  name: "&9Базовый &8Блок Хранилища"
+
+ADVANCED_STORAGE:
+  name: "&cУлучшенный &8Блок Хранилища"
+
+REINFORCED_STORAGE:
+  name: "&fУсиленный &8Блок Хранилища"
+
+VOID_STORAGE:
+  name: "&8Блок &8Хранилища Пустоты"
+
+INFINITY_STORAGE:
+  name: "&bБлок &8Хранилища Infinity"
