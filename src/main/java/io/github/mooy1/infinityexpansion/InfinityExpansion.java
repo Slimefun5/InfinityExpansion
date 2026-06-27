@@ -41,11 +41,11 @@ public final class InfinityExpansion extends AbstractAddon {
 
     public InfinityExpansion(JavaPluginLoader loader, PluginDescriptionFile description, File dataFolder, File file) {
         super(loader, description, dataFolder, file,
-                "Mooy1", "InfinityExpansion", "master", "auto-update");
+                "Slimefun5", "InfinityExpansion", "master", "auto-update");
     }
 
     public InfinityExpansion() {
-        super("Mooy1", "InfinityExpansion", "master", "auto-update");
+        super("Slimefun5", "InfinityExpansion", "master", "auto-update");
         StorageSaveFix.fixStuff(getLogger());
     }
 
