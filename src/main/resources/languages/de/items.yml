@@ -366,3 +366,53 @@ VOID_STORAGE:
 
 INFINITY_STORAGE:
   name: "&bUnendlichkeits- &8Lagereinheit"
+
+# --- auto-generated German translations (batch 2026-06-30) ---
+ZOMBIE_DATA_CARD:
+  name: "&bZombie-Datenkarte"
+SLIME_DATA_CARD:
+  name: "&bSchleim-Datenkarte"
+MAGMA_CUBE_DATA_CARD:
+  name: "&bMagmawürfel-Datenkarte"
+COW_DATA_CARD:
+  name: "&bKuh-Datenkarte"
+SHEEP_DATA_CARD:
+  name: "&bSchaf-Datenkarte"
+SPIDER_DATA_CARD:
+  name: "&bSpinne-Datenkarte"
+SKELETON_DATA_CARD:
+  name: "&bSkelett-Datenkarte"
+WITHER_SKELETON_DATA_CARD:
+  name: "&bWitherskelett-Datenkarte"
+ENDERMEN_DATA_CARD:
+  name: "&bEnderman-Datenkarte"
+CREEPER_DATA_CARD:
+  name: "&bCreeper-Datenkarte"
+GUARDIAN_DATA_CARD:
+  name: "&bWächter-Datenkarte"
+CHICKEN_DATA_CARD:
+  name: "&bHuhn-Datenkarte"
+IRON_GOLEM_DATA_CARD:
+  name: "&bEisengolem-Datenkarte"
+BLAZE_DATA_CARD:
+  name: "&bLohe-Datenkarte"
+WITHER_DATA_CARD:
+  name: "&bWither-Datenkarte"
+ENDER_DRAGON_DATA_CARD:
+  name: "&bEnderdrache-Datenkarte"
+BEE_DATA_CARD:
+  name: "&bBiene-Datenkarte"
+VILLAGER_DATA_CARD:
+  name: "&bDorfbewohner-Datenkarte"
+WITCH_DATA_CARD:
+  name: "&bHexe-Datenkarte"
+QUARRY_OSCILLATOR_REDSTONE:
+  name: "&b[Redstonestaub] Oszillator"
+QUARRY_OSCILLATOR_LAPIS_LAZULI:
+  name: "&b[Lapislazuli] Oszillator"
+QUARRY_OSCILLATOR_EMERALD:
+  name: "&b[Smaragd] Oszillator"
+QUARRY_OSCILLATOR_DIAMOND:
+  name: "&b[Diamant] Oszillator"
+QUARRY_OSCILLATOR_QUARTZ:
+  name: "&b[Netherquarz] Oszillator"
