@@ -4,8 +4,19 @@ plugins {
     id("io.github.intisy.github-gradle") version "1.8.3"
 }
 
+fun latestGitTagVersion(): String? = try {
+    val out = providers.exec { workingDir = rootDir; commandLine("git","describe","--tags","--abbrev=0"); isIgnoreExitValue = true }
+    if (out.result.get().exitValue == 0) out.standardOutput.asText.get().trim().removePrefix("gh-").removePrefix("v").takeIf { it.isNotBlank() } else null
+} catch (e: Exception) { null }
+
 group = "io.github.mooy1"
-version = "1.0.0"
+version = (project.findProperty("artifact_version") as String?)?.removePrefix("v")?.takeIf { it.isNotBlank() } ?: latestGitTagVersion() ?: "1.0.0"
+val versionSuffix: String = when {
+    !(project.findProperty("artifact_version") as String?).isNullOrBlank() -> ""
+    System.getenv("GITHUB_ACTIONS") == "true" -> "-EXPERIMENTAL"
+    else -> "-UNOFFICIAL"
+}
+val displayVersion = "${project.version}$versionSuffix"
 description = "InfinityExpansion is a Slimefun addon that adds machines, generators, and more endgame content."
 
 github {
@@ -48,14 +59,14 @@ tasks {
     }
     processResources {
         filesMatching("plugin.yml") {
-            expand("version" to project.version)
+            expand("version" to displayVersion)
         }
     }
     jar {
         enabled = false
     }
     shadowJar {
-        archiveFileName.set("InfinityExpansion-1.0.0-UNOFFICIAL.jar")
+        archiveFileName.set("InfinityExpansion-$displayVersion.jar")
         relocate("io.github.mooy1.infinitylib", "io.github.mooy1.infinityexpansion.infinitylib")
         minimize()
         exclude("META-INF/**")
