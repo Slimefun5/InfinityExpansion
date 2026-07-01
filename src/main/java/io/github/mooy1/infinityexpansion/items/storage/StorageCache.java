@@ -8,21 +8,22 @@ import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
+import org.bukkit.block.BlockFace;
 import org.bukkit.block.Sign;
-import org.bukkit.block.data.type.WallSign;
 import org.bukkit.entity.Player;
 import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
-import org.bukkit.persistence.PersistentDataType;
 
 import io.github.mooy1.infinityexpansion.InfinityExpansion;
+import io.github.mooy1.infinityexpansion.MaterialCompat;
+import io.github.mooy1.infinityexpansion.utils.CompatUtils;
 import io.github.mooy1.infinitylib.machines.MachineLore;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.common.ChatColors;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.items.ItemUtils;
-import io.github.thebusybiscuit.slimefun4.utils.tags.SlimefunTag;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.common.ChatColors;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.items.ItemUtils;
 import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
@@ -52,9 +53,9 @@ public final class StorageCache {
     private static final String VOID_EXCESS = "void_excess"; // void excess true or null key
 
     /* Menu Items */
-    private static final ItemStack EMPTY_ITEM = CustomItemStack.create(Material.BARRIER, meta -> {
+    private static final ItemStack EMPTY_ITEM = CustomItemStack.create(MaterialCompat.safe(XMaterial.BARRIER), meta -> {
         meta.setDisplayName(ChatColor.WHITE + "Empty");
-        meta.getPersistentDataContainer().set(EMPTY_KEY, PersistentDataType.BYTE, (byte) 1);
+        CompatUtils.setPdcByte(meta, EMPTY_KEY, (byte) 1);
     });
 
     /* Space Pattern for Sign Display Names */
@@ -94,7 +95,7 @@ public final class StorageCache {
             if (display != null) {
                 ItemMeta copy = display.getItemMeta();
                 // fix if they somehow store the empty item
-                if (copy.getPersistentDataContainer().has(EMPTY_KEY, PersistentDataType.BYTE)) {
+                if (CompatUtils.hasPdc(copy, EMPTY_KEY, "BYTE")) {
                     // attempt to recover the correct item from output
                     ItemStack output = menu.getItemInSlot(OUTPUT_SLOT);
                     if (output != null) {
@@ -263,7 +264,7 @@ public final class StorageCache {
         this.menu.replaceExistingItem(DISPLAY_SLOT, stored);
 
         // remove the display key from copy
-        copy.getPersistentDataContainer().remove(DISPLAY_KEY);
+        CompatUtils.removePdc(copy, DISPLAY_KEY);
 
         // check if the copy has anything besides the display key
         if (copy.equals(Bukkit.getItemFactory().getItemMeta(stored.getType()))) {
@@ -351,7 +352,7 @@ public final class StorageCache {
         // signs
         if (InfinityExpansion.slimefunTickCount() % 20 == 0) {
             Block check = block.getRelative(0, 1, 0);
-            if (SlimefunTag.SIGNS.isTagged(check.getType())
+            if (check.getType().name().endsWith("_SIGN") && !check.getType().name().endsWith("_WALL_SIGN")
                     || checkWallSign(check = block.getRelative(1, 0, 0), block)
                     || checkWallSign(check = block.getRelative(-1, 0, 0), block)
                     || checkWallSign(check = block.getRelative(0, 0, 1), block)
@@ -368,7 +369,7 @@ public final class StorageCache {
     }
 
     private void updateStatus() {
-        this.menu.replaceExistingItem(STATUS_SLOT, CustomItemStack.create(Material.CYAN_STAINED_GLASS_PANE, meta -> {
+        this.menu.replaceExistingItem(STATUS_SLOT, CustomItemStack.create(MaterialCompat.safe(XMaterial.CYAN_STAINED_GLASS_PANE), meta -> {
             meta.setDisplayName(ChatColor.AQUA + "Status");
             List<String> lore = new ArrayList<>();
             if (this.amount == 0) {
@@ -387,8 +388,12 @@ public final class StorageCache {
     }
 
     private static boolean checkWallSign(Block sign, Block block) {
-        return SlimefunTag.WALL_SIGNS.isTagged(sign.getType())
-                && sign.getRelative(((WallSign) sign.getBlockData()).getFacing().getOppositeFace()).equals(block);
+        if (!sign.getType().name().endsWith("_WALL_SIGN")) {
+            return false;
+        }
+        // WallSign / BlockData are 1.13+; resolve the directional facing reflectively for legacy safety.
+        BlockFace facing = CompatUtils.getDirectionalFacing(sign);
+        return facing != null && sign.getRelative(facing.getOppositeFace()).equals(block);
     }
 
     private void setStored(ItemStack input) {
@@ -398,7 +403,7 @@ public final class StorageCache {
 
         // add the display key to the display input and set amount 1
         ItemMeta meta = input.getItemMeta();
-        meta.getPersistentDataContainer().set(DISPLAY_KEY, PersistentDataType.BYTE, (byte) 1);
+        CompatUtils.setPdcByte(meta, DISPLAY_KEY, (byte) 1);
         input.setItemMeta(meta);
         input.setAmount(1);
 

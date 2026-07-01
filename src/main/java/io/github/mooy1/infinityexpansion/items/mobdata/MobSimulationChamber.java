@@ -10,27 +10,30 @@ import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.inventory.ItemStack;
 
 import io.github.mooy1.infinityexpansion.InfinityExpansion;
+import io.github.mooy1.infinityexpansion.utils.SoundCompat;
 import io.github.mooy1.infinityexpansion.utils.Util;
 import io.github.mooy1.infinitylib.common.StackUtils;
 import io.github.mooy1.infinitylib.machines.AbstractMachineBlock;
 import io.github.mooy1.infinitylib.machines.MachineLore;
 import io.github.mooy1.infinitylib.machines.TickingMenuBlock;
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.core.attributes.EnergyNetComponent;
-import io.github.thebusybiscuit.slimefun4.core.networks.energy.EnergyNetComponentType;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
+import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.core.attributes.EnergyNetComponent;
+import io.github.thebusybiscuit.slimefun5.core.networks.energy.EnergyNetComponentType;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenuPreset;
 import me.mrCookieSlime.Slimefun.api.inventory.DirtyChestMenu;
+import io.github.mooy1.infinityexpansion.MaterialCompat;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 
 public final class MobSimulationChamber extends TickingMenuBlock implements EnergyNetComponent {
 
     static final double XP_MULTIPLIER = InfinityExpansion.config().getDouble("mob-simulation-options.xp-multiplier", 0, 1000);
 
-    private static final ItemStack NO_CARD = CustomItemStack.create(Material.BARRIER, "&cInput a Mob Data Card!");
+    private static final ItemStack NO_CARD = CustomItemStack.create(MaterialCompat.safe(XMaterial.BARRIER), "&cInput a Mob Data Card!");
     private static final int CARD_SLOT = 37;
     private static final int STATUS_SLOT = 10;
     private static final int[] OUTPUT_SLOTS = {
@@ -118,7 +121,10 @@ public final class MobSimulationChamber extends TickingMenuBlock implements Ener
             int xp = Util.getIntData("xp", l);
             if (xp > 0) {
                 p.giveExp(xp);
-                p.playSound(l, Sound.ENTITY_EXPERIENCE_ORB_PICKUP, 1, 1);
+                Sound orbPickup = SoundCompat.resolve("ENTITY_EXPERIENCE_ORB_PICKUP");
+                if (orbPickup != null) {
+                    p.playSound(l, orbPickup, 1, 1);
+                }
                 BlockStorage.addBlockInfo(l, "xp", "O");
                 menu.replaceExistingItem(XP_SLOT, makeXpItem(0));
             }
@@ -127,7 +133,7 @@ public final class MobSimulationChamber extends TickingMenuBlock implements Ener
     }
 
     private static ItemStack makeXpItem(int stored) {
-        return CustomItemStack.create(Material.LIME_STAINED_GLASS_PANE, "&aStored xp: " + stored, "", "&a> Click to claim");
+        return CustomItemStack.create(MaterialCompat.safe(XMaterial.LIME_STAINED_GLASS_PANE), "&aStored xp: " + stored, "", "&a> Click to claim");
     }
 
     @Override
@@ -161,7 +167,7 @@ public final class MobSimulationChamber extends TickingMenuBlock implements Ener
         int xp = Util.getIntData("xp", b.getLocation());
 
         if (inv.hasViewer()) {
-            inv.replaceExistingItem(STATUS_SLOT, CustomItemStack.create(Material.LIME_STAINED_GLASS_PANE,
+            inv.replaceExistingItem(STATUS_SLOT, CustomItemStack.create(MaterialCompat.safe(XMaterial.LIME_STAINED_GLASS_PANE),
                     "&aSimulating... (" + MachineLore.formatEnergy(energy) + " J/s)")
             );
             inv.replaceExistingItem(XP_SLOT, makeXpItem(xp));

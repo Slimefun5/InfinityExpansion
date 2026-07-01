@@ -9,8 +9,8 @@ import io.github.mooy1.infinityexpansion.items.materials.Materials;
 import io.github.mooy1.infinityexpansion.items.mobdata.MobData;
 import io.github.mooy1.infinityexpansion.items.quarries.Quarries;
 import io.github.mooy1.infinityexpansion.items.storage.Storage;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.researches.Research;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.researches.Research;
 
 public final class Researches {
 
@@ -134,7 +134,7 @@ public final class Researches {
     }
 
     private static void create(int id, String key, String name, int cost, SlimefunItemStack... items) {
-        new Research(InfinityExpansion.createKey(key), FIRST_RESEARCH_ID + id, name, cost).addItems(java.util.Arrays.stream(items).map(io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack::item).toArray(org.bukkit.inventory.ItemStack[]::new)).register();
+        new Research(InfinityExpansion.createKey(key), FIRST_RESEARCH_ID + id, name, cost).addItems(java.util.Arrays.stream(items).map(io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack::item).toArray(org.bukkit.inventory.ItemStack[]::new)).register();
     }
 
 }

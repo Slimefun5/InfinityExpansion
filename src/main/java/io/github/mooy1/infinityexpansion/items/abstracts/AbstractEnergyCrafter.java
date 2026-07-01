@@ -8,14 +8,16 @@ import org.bukkit.block.Block;
 import org.bukkit.inventory.ItemStack;
 
 import io.github.mooy1.infinitylib.machines.TickingMenuBlock;
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.core.attributes.EnergyNetComponent;
-import io.github.thebusybiscuit.slimefun4.core.networks.energy.EnergyNetComponentType;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
+import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.core.attributes.EnergyNetComponent;
+import io.github.thebusybiscuit.slimefun5.core.networks.energy.EnergyNetComponentType;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
 import me.mrCookieSlime.Slimefun.api.inventory.DirtyChestMenu;
+import io.github.mooy1.infinityexpansion.MaterialCompat;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 
 @ParametersAreNonnullByDefault
 public abstract class AbstractEnergyCrafter extends TickingMenuBlock implements EnergyNetComponent {
@@ -35,7 +37,7 @@ public abstract class AbstractEnergyCrafter extends TickingMenuBlock implements 
             int charge = getCharge(block.getLocation());
             if (charge < this.energy) { //not enough energy
                 blockMenu.replaceExistingItem(this.statusSlot, CustomItemStack.create(
-                        Material.RED_STAINED_GLASS_PANE,
+                        MaterialCompat.safe(XMaterial.RED_STAINED_GLASS_PANE),
                         "&cNot enough energy!",
                         "",
                         "&aCharge: " + charge + "/" + this.energy + " J",

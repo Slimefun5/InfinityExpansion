@@ -14,22 +14,24 @@ import org.bukkit.potion.PotionEffectType;
 import org.bukkit.util.RayTraceResult;
 
 import io.github.mooy1.infinityexpansion.InfinityExpansion;
+import io.github.mooy1.infinityexpansion.MaterialCompat;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 import io.github.mooy1.infinityexpansion.categories.Groups;
 import io.github.mooy1.infinityexpansion.items.blocks.InfinityWorkbench;
 import io.github.mooy1.infinityexpansion.items.materials.Materials;
 import io.github.mooy1.infinitylib.common.Scheduler;
 import io.github.mooy1.infinitylib.machines.MachineLore;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
-import io.github.thebusybiscuit.slimefun4.implementation.items.electric.Capacitor;
-import io.github.thebusybiscuit.slimefun4.implementation.items.electric.machines.ChargingBench;
-import io.github.thebusybiscuit.slimefun4.implementation.items.electric.machines.ElectricSmeltery;
-import io.github.thebusybiscuit.slimefun4.implementation.items.electric.machines.enchanting.AutoDisenchanter;
-import io.github.thebusybiscuit.slimefun4.implementation.items.electric.machines.enchanting.AutoEnchanter;
-import io.github.thebusybiscuit.slimefun4.implementation.items.electric.reactors.NetherStarReactor;
-import io.github.thebusybiscuit.slimefun4.implementation.items.geo.GEOMiner;
-import io.github.thebusybiscuit.slimefun4.utils.HeadTexture;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.implementation.SlimefunItems;
+import io.github.thebusybiscuit.slimefun5.implementation.items.electric.Capacitor;
+import io.github.thebusybiscuit.slimefun5.implementation.items.electric.machines.ChargingBench;
+import io.github.thebusybiscuit.slimefun5.implementation.items.electric.machines.ElectricSmeltery;
+import io.github.thebusybiscuit.slimefun5.implementation.items.electric.machines.enchanting.AutoDisenchanter;
+import io.github.thebusybiscuit.slimefun5.implementation.items.electric.machines.enchanting.AutoEnchanter;
+import io.github.thebusybiscuit.slimefun5.implementation.items.electric.reactors.NetherStarReactor;
+import io.github.thebusybiscuit.slimefun5.implementation.items.geo.GEOMiner;
+import io.github.thebusybiscuit.slimefun5.utils.HeadTexture;
 import me.mrCookieSlime.Slimefun.Objects.SlimefunItem.abstractItems.MachineFuel;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 
@@ -78,7 +80,7 @@ public final class SlimefunExtension {
     );
     public static final SlimefunItemStack ADVANCED_SMELTERY = new SlimefunItemStack(
             "ADVANCED_SMELTERY",
-            Material.FURNACE,
+            MaterialCompat.safe(XMaterial.FURNACE),
             "&cAdvanced &7Smeltery",
             "&7A faster smeltery",
             "",
@@ -87,7 +89,7 @@ public final class SlimefunExtension {
     );
     public static final SlimefunItemStack ADVANCED_CHARGER = new SlimefunItemStack(
             "ADVANCED_CHARGER",
-            Material.HONEYCOMB_BLOCK,
+            MaterialCompat.safe(XMaterial.HONEYCOMB_BLOCK),
             "&cAdvanced Charger",
             "&7Quickly charges items",
             "",
@@ -96,7 +98,7 @@ public final class SlimefunExtension {
     );
     public static final SlimefunItemStack INFINITY_CHARGER = new SlimefunItemStack(
             "INFINITY_CHARGER",
-            Material.SEA_LANTERN,
+            MaterialCompat.safe(XMaterial.SEA_LANTERN),
             "&bInfinity Charger",
             "&7Instantly charges items",
             "",
@@ -117,7 +119,7 @@ public final class SlimefunExtension {
     );
     public static final SlimefunItemStack ADVANCED_ENCHANTER = new SlimefunItemStack(
             "ADVANCED_ENCHANTER",
-            Material.ENCHANTING_TABLE,
+            MaterialCompat.safe(XMaterial.ENCHANTING_TABLE),
             "&cAdvanced Enchanter",
             "",
             MachineLore.speed(SlimefunExtension.ADVANCED_EN_SPEED),
@@ -125,7 +127,7 @@ public final class SlimefunExtension {
     );
     public static final SlimefunItemStack ADVANCED_DISENCHANTER = new SlimefunItemStack(
             "ADVANCED_DISENCHANTER",
-            Material.ENCHANTING_TABLE,
+            MaterialCompat.safe(XMaterial.ENCHANTING_TABLE),
             "&cAdvanced Disenchanter",
             "",
             MachineLore.speed(SlimefunExtension.ADVANCED_DIS_SPEED),
@@ -133,7 +135,7 @@ public final class SlimefunExtension {
     );
     public static final SlimefunItemStack INFINITY_ENCHANTER = new SlimefunItemStack(
             "INFINITY_ENCHANTER",
-            Material.ENCHANTING_TABLE,
+            MaterialCompat.safe(XMaterial.ENCHANTING_TABLE),
             "&bInfinity Enchanter",
             "",
             MachineLore.speed(SlimefunExtension.INFINITY_EN_SPEED),
@@ -141,7 +143,7 @@ public final class SlimefunExtension {
     );
     public static final SlimefunItemStack INFINITY_DISENCHANTER = new SlimefunItemStack(
             "INFINITY_DISENCHANTER",
-            Material.ENCHANTING_TABLE,
+            MaterialCompat.safe(XMaterial.ENCHANTING_TABLE),
             "&bInfinity Disenchanter",
             "",
             MachineLore.speed(SlimefunExtension.INFINITY_DIS_SPEED),
@@ -190,7 +192,7 @@ public final class SlimefunExtension {
         }) {
             @Override
             public ItemStack getProgressBar() {
-                return new ItemStack(Material.NETHERITE_CHESTPLATE);
+                return new ItemStack(MaterialCompat.safe(XMaterial.NETHERITE_CHESTPLATE));
             }
         }.setCapacity(ADVANCED_EN_ENERGY).setEnergyConsumption(ADVANCED_EN_ENERGY).setProcessingSpeed(ADVANCED_EN_SPEED).register(plugin);
 
@@ -201,7 +203,7 @@ public final class SlimefunExtension {
         }) {
             @Override
             public ItemStack getProgressBar() {
-                return new ItemStack(Material.ENCHANTED_BOOK);
+                return new ItemStack(MaterialCompat.safe(XMaterial.ENCHANTED_BOOK));
             }
         }.setCapacity(ADVANCED_DIS_ENERGY).setEnergyConsumption(ADVANCED_DIS_ENERGY).setProcessingSpeed(ADVANCED_DIS_SPEED).register(plugin);
 
@@ -215,7 +217,7 @@ public final class SlimefunExtension {
         }) {
             @Override
             public ItemStack getProgressBar() {
-                return new ItemStack(Material.NETHERITE_CHESTPLATE);
+                return new ItemStack(MaterialCompat.safe(XMaterial.NETHERITE_CHESTPLATE));
             }
         }.setCapacity(INFINITY_EN_ENERGY).setEnergyConsumption(INFINITY_EN_ENERGY).setProcessingSpeed(INFINITY_EN_SPEED).register(plugin);
 
@@ -229,7 +231,7 @@ public final class SlimefunExtension {
         }) {
             @Override
             public ItemStack getProgressBar() {
-                return new ItemStack(Material.ENCHANTED_BOOK);
+                return new ItemStack(MaterialCompat.safe(XMaterial.ENCHANTED_BOOK));
             }
         }.setCapacity(INFINITY_DIS_ENERGY).setEnergyConsumption(INFINITY_DIS_ENERGY).setProcessingSpeed(INFINITY_DIS_SPEED).register(plugin);
 
@@ -272,7 +274,7 @@ public final class SlimefunExtension {
 
             @Override
             protected void registerDefaultFuelTypes() {
-                registerFuel(new MachineFuel(600, new ItemStack(Material.NETHER_STAR)));
+                registerFuel(new MachineFuel(600, new ItemStack(MaterialCompat.safe(XMaterial.NETHER_STAR))));
             }
 
             @Override
@@ -287,7 +289,7 @@ public final class SlimefunExtension {
                     if (w == null) {
                         return;
                     }
-                    boolean checkWitherProof = check.getBlock().getType() == Material.AIR;
+                    boolean checkWitherProof = check.getBlock().getType() == MaterialCompat.safe(XMaterial.AIR);
                     for (Entity entity : w.getNearbyEntities(check, 8, 8, 8)) {
                         if (entity instanceof LivingEntity && entity.isValid()) {
                             if (checkWitherProof) {

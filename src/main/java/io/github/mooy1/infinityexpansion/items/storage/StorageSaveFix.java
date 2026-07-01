@@ -10,7 +10,7 @@ import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import io.github.thebusybiscuit.slimefun4.libraries.dough.common.CommonPatterns;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.common.CommonPatterns;
 
 public final class StorageSaveFix {
 

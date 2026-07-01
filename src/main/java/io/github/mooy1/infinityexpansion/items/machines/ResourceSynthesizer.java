@@ -11,13 +11,15 @@ import org.bukkit.inventory.ItemStack;
 
 import io.github.mooy1.infinitylib.common.StackUtils;
 import io.github.mooy1.infinitylib.machines.AbstractMachineBlock;
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.core.attributes.RecipeDisplayItem;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
+import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.core.attributes.RecipeDisplayItem;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenuPreset;
+import io.github.mooy1.infinityexpansion.MaterialCompat;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 
 /**
  * Creates special resources from the combination of singularities
@@ -151,7 +153,7 @@ public final class ResourceSynthesizer extends AbstractMachineBlock implements R
             inv.consumeItem(INPUT_SLOTS[1], 1);
 
             if (inv.hasViewer()) {
-                inv.replaceExistingItem(STATUS_SLOT, CustomItemStack.create(Material.LIME_STAINED_GLASS_PANE, "&aResource Synthesized!"));
+                inv.replaceExistingItem(STATUS_SLOT, CustomItemStack.create(MaterialCompat.safe(XMaterial.LIME_STAINED_GLASS_PANE), "&aResource Synthesized!"));
             }
             return true;
 

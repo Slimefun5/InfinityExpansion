@@ -1,0 +1,368 @@
+# Simplified Chinese item translations for InfinityExpansion. Keyed by Slimefun item id.
+# name = display name with '&' colour codes. Missing items fall back to English.
+
+ADVANCED_GEO_MINER:
+  name: "&c高级&f地质采矿机"
+
+ADVANCED_SMELTERY:
+  name: "&c高级&7冶炼炉"
+
+ADVANCED_CHARGER:
+  name: "&c高级充电器"
+
+INFINITY_CHARGER:
+  name: "&b无尽充电器"
+
+ADVANCED_NETHER_STAR_REACTOR:
+  name: "&c高级下界之星反应堆"
+
+ADVANCED_ENCHANTER:
+  name: "&c高级附魔器"
+
+ADVANCED_DISENCHANTER:
+  name: "&c高级祛魔器"
+
+INFINITY_ENCHANTER:
+  name: "&b无尽附魔器"
+
+INFINITY_DISENCHANTER:
+  name: "&b无尽祛魔器"
+
+INFINITY_CAPACITOR:
+  name: "&b无尽电容器"
+
+VOID_CAPACITOR:
+  name: "&8虚空电容器"
+
+STRAINER_BASE:
+  name: "&7过滤器底座"
+
+ADVANCED_ANVIL:
+  name: "&c高级铁砧"
+
+INFINITY_FORGE:
+  name: "&6无尽工作台"
+
+ENDER_FLAME:
+  name: "&c末影火焰"
+
+INFINITY_CROWN:
+  name: "&b无尽王冠"
+
+INFINITY_CHESTPLATE:
+  name: "&b无尽胸甲"
+
+INFINITY_LEGGINGS:
+  name: "&b无尽护腿"
+
+INFINITY_BOOTS:
+  name: "&b无尽靴子"
+
+INFINITY_MATRIX:
+  name: "&f无尽矩阵"
+
+INFINITY_SHIELD:
+  name: "&b宇宙神盾"
+
+INFINITY_BLADE:
+  name: "&b宇宙之刃"
+
+INFINITY_PICKAXE:
+  name: "&9世界破坏者"
+
+INFINITY_AXE:
+  name: "&4自然之毁"
+
+INFINITY_SHOVEL:
+  name: "&a噬山者"
+
+INFINITY_BOW:
+  name: "&6穿天者"
+
+VEIN_MINER_RUNE:
+  name: "&b连锁挖矿符文"
+
+INFINITY_REACTOR:
+  name: "&b无尽反应堆"
+
+HYDRO_GENERATOR:
+  name: "&9水力发电机"
+
+REINFORCED_HYDRO_GENERATOR:
+  name: "&f强化&9水力发电机"
+
+GEOTHERMAL_GENERATOR:
+  name: "&c地热发电机"
+
+REINFORCED_GEOTHERMAL_GENERATOR:
+  name: "&f强化&c地热发电机"
+
+BASIC_PANEL:
+  name: "&9基础太阳能板"
+
+ADVANCED_PANEL:
+  name: "&c高级太阳能板"
+
+CELESTIAL_PANEL:
+  name: "&e天界面板"
+
+VOID_PANEL:
+  name: "&8虚空面板"
+
+INFINITE_PANEL:
+  name: "&b无尽面板"
+
+COBBLE_PRESS:
+  name: "&8圆石压机"
+
+RESOURCE_SYNTHESIZER:
+  name: "&6资源合成器"
+
+BASIC_VIRTUAL_FARM:
+  name: "&9基础&a虚拟农场"
+
+ADVANCED_VIRTUAL_FARM:
+  name: "&c高级&a虚拟农场"
+
+INFINITY_VIRTUAL_FARM:
+  name: "&b无尽&a虚拟农场"
+
+BASIC_TREE_GROWER:
+  name: "&9基础&2树木培育机"
+
+ADVANCED_TREE_GROWER:
+  name: "&c高级&2树木培育机"
+
+INFINITY_TREE_GROWER:
+  name: "&b无尽&2树木培育机"
+
+POWERED_BEDROCK:
+  name: "&4充能基岩"
+
+GEO_QUARRY:
+  name: "&f地质采石场"
+
+EXTREME_FREEZER:
+  name: "&b极冷冷冻机"
+
+DUST_EXTRACTOR:
+  name: "&8粉尘提取机"
+
+INFINITY_DUST_EXTRACTOR:
+  name: "&b无尽&8粉尘提取机"
+
+INGOT_FORMER:
+  name: "&8锭成型机"
+
+INFINITY_INGOT_FORMER:
+  name: "&b无尽&8锭成型机"
+
+URANIUM_EXTRACTOR:
+  name: "&a铀提取机"
+
+DECOMPRESSOR:
+  name: "&7解压机"
+
+GEAR_TRANSFORMER:
+  name: "&7装备转化机"
+
+BASIC_COBBLE_GEN:
+  name: "&9基础&8圆石发电机"
+
+ADVANCED_COBBLE_GEN:
+  name: "&c高级&8圆石发电机"
+
+INFINITY_COBBLE_GEN:
+  name: "&c无尽&8圆石发电机"
+
+BASIC_OBSIDIAN_GEN:
+  name: "&8黑曜石发电机"
+
+SINGULARITY_CONSTRUCTOR:
+  name: "&f奇点构造机"
+
+INFINITY_CONSTRUCTOR:
+  name: "&b无尽&f构造机"
+
+STONEWORKS_FACTORY:
+  name: "&8石材工厂"
+
+VOID_HARVESTER:
+  name: "&8虚空收割机"
+
+INFINITE_VOID_HARVESTER:
+  name: "&b无尽&8虚空收割机"
+
+INFINITE_MACHINE_CIRCUIT:
+  name: "&b无尽&6机器电路"
+
+INFINITE_MACHINE_CORE:
+  name: "&b无尽机器核心"
+
+MAGSTEEL_PLATE:
+  name: "&4磁钢板"
+
+MACHINE_PLATE:
+  name: "&f机器板"
+
+MACHINE_CIRCUIT:
+  name: "&6机器电路"
+
+MACHINE_CORE:
+  name: "&f机器核心"
+
+VOID_BIT:
+  name: "&8虚空碎屑"
+
+VOID_DUST:
+  name: "&8虚空粉尘"
+
+VOID_INGOT:
+  name: "&8虚空锭"
+
+COMPRESSED_COBBLESTONE_1:
+  name: "&7单重压缩圆石"
+
+COMPRESSED_COBBLESTONE_2:
+  name: "&7双重压缩圆石"
+
+COMPRESSED_COBBLESTONE_3:
+  name: "&7三重压缩圆石"
+
+COMPRESSED_COBBLESTONE_4:
+  name: "&7四重压缩圆石"
+
+COMPRESSED_COBBLESTONE_5:
+  name: "&7五重压缩圆石"
+
+MAGSTEEL:
+  name: "&4磁钢"
+
+MAGNONIUM:
+  name: "&5磁诺姆"
+
+TITANIUM:
+  name: "&7钛"
+
+MYTHRIL:
+  name: "&b秘银"
+
+ADAMANTITE:
+  name: "&d精金"
+
+INFINITE_INGOT:
+  name: "&b无尽锭"
+
+FORTUNE_SINGULARITY:
+  name: "&6幸运奇点"
+
+EARTH_SINGULARITY:
+  name: "&a大地奇点"
+
+METAL_SINGULARITY:
+  name: "&8金属奇点"
+
+MAGIC_SINGULARITY:
+  name: "&d魔法奇点"
+
+END_ESSENCE:
+  name: "&5末影精华"
+
+COPPER_SINGULARITY:
+  name: "&6铜奇点"
+
+ZINC_SINGULARITY:
+  name: "&7锌奇点"
+
+TIN_SINGULARITY:
+  name: "&7锡奇点"
+
+ALUMINUM_SINGULARITY:
+  name: "&7铝奇点"
+
+SILVER_SINGULARITY:
+  name: "&7银奇点"
+
+MAGNESIUM_SINGULARITY:
+  name: "&5镁奇点"
+
+LEAD_SINGULARITY:
+  name: "&8铅奇点"
+
+GOLD_SINGULARITY:
+  name: "&6金奇点"
+
+IRON_SINGULARITY:
+  name: "&7铁奇点"
+
+DIAMOND_SINGULARITY:
+  name: "&b钻石奇点"
+
+EMERALD_SINGULARITY:
+  name: "&a绿宝石奇点"
+
+NETHERITE_SINGULARITY:
+  name: "&4下界合金奇点"
+
+COAL_SINGULARITY:
+  name: "&8煤炭奇点"
+
+REDSTONE_SINGULARITY:
+  name: "&c红石奇点"
+
+LAPIS_SINGULARITY:
+  name: "&9青金石奇点"
+
+QUARTZ_SINGULARITY:
+  name: "&f石英奇点"
+
+INFINITY_SINGULARITY:
+  name: "&b无尽奇点"
+
+BASIC_STRAINER:
+  name: "&9基础过滤器"
+
+ADVANCED_STRAINER:
+  name: "&c高级过滤器"
+
+REINFORCED_STRAINER:
+  name: "&f强化过滤器"
+
+EMPTY_DATA_CARD:
+  name: "&8空白数据卡"
+
+DATA_INFUSER:
+  name: "&8生物数据注入器"
+
+MOB_SIMULATION_CHAMBER:
+  name: "&8生物模拟舱"
+
+BASIC_QUARRY:
+  name: "&9基础采石场"
+
+ADVANCED_QUARRY:
+  name: "&c高级采石场"
+
+VOID_QUARRY:
+  name: "&8虚空采石场"
+
+INFINITY_QUARRY:
+  name: "&b无尽采石场"
+
+STORAGE_FORGE:
+  name: "&6存储锻造台"
+
+BASIC_STORAGE:
+  name: "&9基础&8存储单元"
+
+ADVANCED_STORAGE:
+  name: "&c高级&8存储单元"
+
+REINFORCED_STORAGE:
+  name: "&f强化&8存储单元"
+
+VOID_STORAGE:
+  name: "&8虚空&8存储单元"
+
+INFINITY_STORAGE:
+  name: "&b无尽&8存储单元"

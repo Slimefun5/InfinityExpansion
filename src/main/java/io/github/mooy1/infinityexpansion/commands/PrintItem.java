@@ -10,6 +10,8 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 
+import io.github.mooy1.infinityexpansion.MaterialCompat;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 import io.github.mooy1.infinitylib.commands.SubCommand;
 
 public final class PrintItem extends SubCommand {
@@ -26,9 +28,9 @@ public final class PrintItem extends SubCommand {
 
         Player p = (Player) commandSender;
 
-        ItemStack item = p.getInventory().getItemInMainHand();
+        ItemStack item = p.getInventory().getItemInHand();
 
-        if (item.getType() == Material.AIR) {
+        if (item.getType() == MaterialCompat.safe(XMaterial.AIR)) {
             p.sendMessage(ChatColor.RED + "You must be holding an item!");
             return;
         }

@@ -13,14 +13,16 @@ import org.bukkit.inventory.ItemStack;
 import io.github.mooy1.infinityexpansion.InfinityExpansion;
 import io.github.mooy1.infinityexpansion.items.abstracts.AbstractEnergyCrafter;
 import io.github.mooy1.infinitylib.common.StackUtils;
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.core.attributes.RecipeDisplayItem;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.collections.Pair;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
+import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.core.attributes.RecipeDisplayItem;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.collections.Pair;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenuPreset;
+import io.github.mooy1.infinityexpansion.MaterialCompat;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 
 /**
  * Machine that changes the material of gear and tools
@@ -35,20 +37,20 @@ public final class GearTransformer extends AbstractEnergyCrafter implements Reci
     private static final int[] INPUT_SLOTS = { 10, 16 };
     private static final int STATUS_SLOT = 13;
     private static final ItemStack[] TOOL_RECIPE = {
-            new ItemStack(Material.OAK_PLANKS, 4),
-            new ItemStack(Material.COBBLESTONE, 4),
-            new ItemStack(Material.IRON_INGOT, 4),
-            new ItemStack(Material.GOLD_INGOT, 4),
-            new ItemStack(Material.DIAMOND, 4),
-            new ItemStack(Material.NETHERITE_INGOT, 2)
+            new ItemStack(MaterialCompat.safe(XMaterial.OAK_PLANKS), 4),
+            new ItemStack(MaterialCompat.safe(XMaterial.COBBLESTONE), 4),
+            new ItemStack(MaterialCompat.safe(XMaterial.IRON_INGOT), 4),
+            new ItemStack(MaterialCompat.safe(XMaterial.GOLD_INGOT), 4),
+            new ItemStack(MaterialCompat.safe(XMaterial.DIAMOND), 4),
+            new ItemStack(MaterialCompat.safe(XMaterial.NETHERITE_INGOT), 2)
     };
     private static final ItemStack[] ARMOR_RECIPE = {
-            new ItemStack(Material.LEATHER, 9),
-            new ItemStack(Material.CHAIN, 9),
-            new ItemStack(Material.IRON_INGOT, 9),
-            new ItemStack(Material.GOLD_INGOT, 9),
-            new ItemStack(Material.DIAMOND, 9),
-            new ItemStack(Material.NETHERITE_INGOT, 2)
+            new ItemStack(MaterialCompat.safe(XMaterial.LEATHER), 9),
+            new ItemStack(MaterialCompat.safe(XMaterial.CHAIN), 9),
+            new ItemStack(MaterialCompat.safe(XMaterial.IRON_INGOT), 9),
+            new ItemStack(MaterialCompat.safe(XMaterial.GOLD_INGOT), 9),
+            new ItemStack(MaterialCompat.safe(XMaterial.DIAMOND), 9),
+            new ItemStack(MaterialCompat.safe(XMaterial.NETHERITE_INGOT), 2)
     };
     private static final String[] ARMOR_TYPES = {
             "_HELMET",
@@ -99,12 +101,12 @@ public final class GearTransformer extends AbstractEnergyCrafter implements Reci
                 37, 38, 39, 41, 42, 43,
                 48, 49, 50
         });
-        blockMenuPreset.drawBackground(CustomItemStack.create(Material.BLUE_STAINED_GLASS_PANE, "&9Tool Input"), new int[] {
+        blockMenuPreset.drawBackground(CustomItemStack.create(MaterialCompat.safe(XMaterial.BLUE_STAINED_GLASS_PANE), "&9Tool Input"), new int[] {
                 0, 1, 2,
                 9, 11,
                 18, 19, 20
         });
-        blockMenuPreset.drawBackground(CustomItemStack.create(Material.BLUE_STAINED_GLASS_PANE, "&9Material Input"), new int[] {
+        blockMenuPreset.drawBackground(CustomItemStack.create(MaterialCompat.safe(XMaterial.BLUE_STAINED_GLASS_PANE), "&9Material Input"), new int[] {
                 6, 7, 8,
                 15, 17,
                 24, 25, 26
@@ -205,13 +207,13 @@ public final class GearTransformer extends AbstractEnergyCrafter implements Reci
 
         if (inputItem == null) { //no input
 
-            inv.replaceExistingItem(STATUS_SLOT, CustomItemStack.create(Material.BLUE_STAINED_GLASS_PANE, "&9Input a tool or piece of gear"));
+            inv.replaceExistingItem(STATUS_SLOT, CustomItemStack.create(MaterialCompat.safe(XMaterial.BLUE_STAINED_GLASS_PANE), "&9Input a tool or piece of gear"));
             return;
 
         }
 
         if (!SF && StackUtils.getId(inputItem) != null) {
-            inv.replaceExistingItem(STATUS_SLOT, CustomItemStack.create(Material.RED_STAINED_GLASS_PANE, "&cSlimefun items may not have their material changed!"));
+            inv.replaceExistingItem(STATUS_SLOT, CustomItemStack.create(MaterialCompat.safe(XMaterial.RED_STAINED_GLASS_PANE), "&cSlimefun items may not have their material changed!"));
             return;
         }
 
@@ -219,7 +221,7 @@ public final class GearTransformer extends AbstractEnergyCrafter implements Reci
 
         if (inputToolType == null) { //invalid input
 
-            inv.replaceExistingItem(STATUS_SLOT, CustomItemStack.create(Material.BARRIER, "&cNot a tool or piece of gear!"));
+            inv.replaceExistingItem(STATUS_SLOT, CustomItemStack.create(MaterialCompat.safe(XMaterial.BARRIER), "&cNot a tool or piece of gear!"));
             return;
 
         }
@@ -228,7 +230,7 @@ public final class GearTransformer extends AbstractEnergyCrafter implements Reci
 
         if (inputMaterial == null) { //no material
 
-            inv.replaceExistingItem(STATUS_SLOT, CustomItemStack.create(Material.BLUE_STAINED_GLASS_PANE, "&9Input materials"));
+            inv.replaceExistingItem(STATUS_SLOT, CustomItemStack.create(MaterialCompat.safe(XMaterial.BLUE_STAINED_GLASS_PANE), "&9Input materials"));
             return;
 
         }
@@ -237,7 +239,7 @@ public final class GearTransformer extends AbstractEnergyCrafter implements Reci
 
         if (pair == null) { //invalid material
 
-            inv.replaceExistingItem(STATUS_SLOT, CustomItemStack.create(Material.BARRIER, "&cInvalid Materials!"));
+            inv.replaceExistingItem(STATUS_SLOT, CustomItemStack.create(MaterialCompat.safe(XMaterial.BARRIER), "&cInvalid Materials!"));
             return;
 
         }
@@ -258,7 +260,7 @@ public final class GearTransformer extends AbstractEnergyCrafter implements Reci
         inv.replaceExistingItem(INPUT_SLOTS[0], null);
         inv.consumeItem(INPUT_SLOTS[1], pair.getSecondValue());
 
-        inv.replaceExistingItem(STATUS_SLOT, CustomItemStack.create(Material.LIME_STAINED_GLASS_PANE, "&aTool Transformed!"));
+        inv.replaceExistingItem(STATUS_SLOT, CustomItemStack.create(MaterialCompat.safe(XMaterial.LIME_STAINED_GLASS_PANE), "&aTool Transformed!"));
     }
 
 }

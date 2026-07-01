@@ -2,19 +2,19 @@ package io.github.mooy1.infinityexpansion.items.gear;
 
 import javax.annotation.Nonnull;
 
-import org.bukkit.NamespacedKey;
+import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.potion.PotionEffect;
 
 import io.github.mooy1.infinityexpansion.InfinityExpansion;
 import io.github.mooy1.infinityexpansion.categories.Groups;
 import io.github.mooy1.infinityexpansion.items.blocks.InfinityWorkbench;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.core.attributes.NotPlaceable;
-import io.github.thebusybiscuit.slimefun4.core.attributes.ProtectionType;
-import io.github.thebusybiscuit.slimefun4.core.attributes.ProtectiveArmor;
-import io.github.thebusybiscuit.slimefun4.core.attributes.Soulbound;
-import io.github.thebusybiscuit.slimefun4.implementation.items.armor.SlimefunArmorPiece;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.core.attributes.NotPlaceable;
+import io.github.thebusybiscuit.slimefun5.core.attributes.ProtectionType;
+import io.github.thebusybiscuit.slimefun5.core.attributes.ProtectiveArmor;
+import io.github.thebusybiscuit.slimefun5.core.attributes.Soulbound;
+import io.github.thebusybiscuit.slimefun5.implementation.items.armor.SlimefunArmorPiece;
 
 /**
  * armor

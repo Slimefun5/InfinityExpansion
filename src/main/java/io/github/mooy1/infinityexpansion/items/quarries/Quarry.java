@@ -15,15 +15,17 @@ import org.bukkit.inventory.ItemStack;
 
 import io.github.mooy1.infinityexpansion.InfinityExpansion;
 import io.github.mooy1.infinitylib.machines.AbstractMachineBlock;
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.core.attributes.RecipeDisplayItem;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
-import io.github.thebusybiscuit.slimefun4.utils.ChestMenuUtils;
+import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.core.attributes.RecipeDisplayItem;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
+import io.github.thebusybiscuit.slimefun5.utils.ChestMenuUtils;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenuPreset;
 import me.mrCookieSlime.Slimefun.api.inventory.DirtyChestMenu;
+import io.github.mooy1.infinityexpansion.MaterialCompat;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 
 /**
  * Mines stuff
@@ -37,9 +39,9 @@ public final class Quarry extends AbstractMachineBlock implements RecipeDisplayI
             InfinityExpansion.config().getBoolean("quarry-options.output-nether-materials-in-overworld");
     private static final int INTERVAL =
             InfinityExpansion.config().getInt("quarry-options.ticks-per-output", 1, 100);
-    private static final ItemStack MINING = CustomItemStack.create(Material.LIME_STAINED_GLASS_PANE, "&aMining...");
+    private static final ItemStack MINING = CustomItemStack.create(MaterialCompat.safe(XMaterial.LIME_STAINED_GLASS_PANE), "&aMining...");
     private static final ItemStack OSCILLATOR_INFO = CustomItemStack.create(
-            Material.CYAN_STAINED_GLASS_PANE,
+            MaterialCompat.safe(XMaterial.CYAN_STAINED_GLASS_PANE),
             "&bOscillator Slot",
             "&7Place a quarry oscillator to",
             "&7boost certain material's rates!"
@@ -112,9 +114,9 @@ public final class Quarry extends AbstractMachineBlock implements RecipeDisplayI
             if (oscillator == null || ThreadLocalRandom.current().nextDouble() >= oscillator.chance) {
                 Material outputType = this.outputs[ThreadLocalRandom.current().nextInt(this.outputs.length)];
                 if (!ALLOW_NETHER_IN_OVERWORLD && b.getWorld().getEnvironment() != World.Environment.NETHER &&
-                        (outputType == Material.QUARTZ || outputType == Material.NETHERITE_INGOT || outputType == Material.NETHERRACK)
+                        (outputType == MaterialCompat.safe(XMaterial.QUARTZ) || outputType == MaterialCompat.safe(XMaterial.NETHERITE_INGOT) || outputType == MaterialCompat.safe(XMaterial.NETHERRACK))
                 ) {
-                    outputItem = new ItemStack(Material.COBBLESTONE, this.speed);
+                    outputItem = new ItemStack(MaterialCompat.safe(XMaterial.COBBLESTONE), this.speed);
                 }
                 else {
                     outputItem = new ItemStack(outputType, this.speed);
@@ -125,7 +127,7 @@ public final class Quarry extends AbstractMachineBlock implements RecipeDisplayI
             }
         }
         else {
-            outputItem = new ItemStack(Material.COBBLESTONE, this.speed);
+            outputItem = new ItemStack(MaterialCompat.safe(XMaterial.COBBLESTONE), this.speed);
         }
 
         inv.pushItem(outputItem, OUTPUT_SLOTS);
@@ -142,7 +144,7 @@ public final class Quarry extends AbstractMachineBlock implements RecipeDisplayI
     public List<ItemStack> getDisplayRecipes() {
         List<ItemStack> items = new ArrayList<>();
 
-        items.add(new ItemStack(Material.COBBLESTONE, this.speed));
+        items.add(new ItemStack(MaterialCompat.safe(XMaterial.COBBLESTONE), this.speed));
         for (Material mat : this.outputs) {
             items.add(new ItemStack(mat, this.speed));
         }

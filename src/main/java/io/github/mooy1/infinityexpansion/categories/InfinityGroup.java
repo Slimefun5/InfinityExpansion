@@ -14,29 +14,32 @@ import javax.annotation.ParametersAreNonnullByDefault;
 
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
-import org.bukkit.NamespacedKey;
+import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
 import org.bukkit.Sound;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.PlayerInventory;
 
+import io.github.mooy1.infinityexpansion.MaterialCompat;
+import io.github.mooy1.infinityexpansion.utils.SoundCompat;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 import io.github.mooy1.infinityexpansion.items.blocks.Blocks;
 import io.github.mooy1.infinityexpansion.items.blocks.InfinityWorkbench;
 import io.github.mooy1.infinitylib.common.Scheduler;
 import io.github.mooy1.infinitylib.common.StackUtils;
 import io.github.mooy1.infinitylib.machines.MenuBlock;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.items.groups.FlexItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.player.PlayerProfile;
-import io.github.thebusybiscuit.slimefun4.api.researches.Research;
-import io.github.thebusybiscuit.slimefun4.core.guide.SlimefunGuideImplementation;
-import io.github.thebusybiscuit.slimefun4.core.guide.SlimefunGuideMode;
-import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.collections.Pair;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.items.ItemUtils;
-import io.github.thebusybiscuit.slimefun4.utils.ChestMenuUtils;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.items.groups.FlexItemGroup;
+import io.github.thebusybiscuit.slimefun5.api.player.PlayerProfile;
+import io.github.thebusybiscuit.slimefun5.api.researches.Research;
+import io.github.thebusybiscuit.slimefun5.core.guide.SlimefunGuideImplementation;
+import io.github.thebusybiscuit.slimefun5.core.guide.SlimefunGuideMode;
+import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.collections.Pair;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.items.ItemUtils;
+import io.github.thebusybiscuit.slimefun5.utils.ChestMenuUtils;
 import me.mrCookieSlime.CSCoreLibPlugin.general.Inventory.ChestMenu;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
 
@@ -80,12 +83,12 @@ public final class InfinityGroup extends FlexItemGroup {
     private static final int[] WORKBENCH_BORDER = {
             7, 16, 17
     };
-    private static final ItemStack BENCH = CustomItemStack.create(Material.NETHER_STAR,
+    private static final ItemStack BENCH = CustomItemStack.create(MaterialCompat.safe(XMaterial.NETHER_STAR),
             "&bCreate the recipe from items in your inventory: ",
             "&aLeft-Click to move 1 set",
             "&aRight-Click to move as many sets as possible"
     );
-    private static final ItemStack INFO = CustomItemStack.create(Material.CYAN_STAINED_GLASS_PANE, "&3Info");
+    private static final ItemStack INFO = CustomItemStack.create(MaterialCompat.safe(XMaterial.CYAN_STAINED_GLASS_PANE), "&3Info");
     private static final SlimefunGuideImplementation GUIDE = Slimefun.getRegistry().getSlimefunGuide(SlimefunGuideMode.SURVIVAL_MODE);
     private static final Map<UUID, String> HISTORY = new HashMap<>();
     private static final LinkedHashMap<String, Pair<SlimefunItemStack, ItemStack[]>> ITEMS = new LinkedHashMap<>();
@@ -94,7 +97,7 @@ public final class InfinityGroup extends FlexItemGroup {
     InfinityGroup(NamespacedKey key, ItemStack item, int tier) {
         super(key, item, tier);
         InfinityWorkbench.TYPE.sendRecipesTo((input, output) -> {
-            io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem sfItem = io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem.getByItem(output);
+            io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem sfItem = io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem.getByItem(output);
             SlimefunItemStack sfStack = new SlimefunItemStack(sfItem.getId(), output);
             IDS.add(sfStack.getItemId());
             ITEMS.put(sfStack.getItemId(), new Pair<>(sfStack, input));
@@ -195,7 +198,10 @@ public final class InfinityGroup extends FlexItemGroup {
             i++;
         }
 
-        player.playSound(player.getLocation(), Sound.ITEM_BOOK_PAGE_TURN, 1, 1);
+        Sound pageTurn = SoundCompat.resolve("ITEM_BOOK_PAGE_TURN");
+        if (pageTurn != null) {
+            player.playSound(player.getLocation(), pageTurn, 1, 1);
+        }
 
         HISTORY.put(player.getUniqueId(), null);
 
@@ -283,7 +289,10 @@ public final class InfinityGroup extends FlexItemGroup {
             menu.addItem(slot, INFO, ChestMenuUtils.getEmptyClickHandler());
         }
 
-        player.playSound(player.getLocation(), Sound.ITEM_BOOK_PAGE_TURN, 1, 1);
+        Sound pageTurn = SoundCompat.resolve("ITEM_BOOK_PAGE_TURN");
+        if (pageTurn != null) {
+            player.playSound(player.getLocation(), pageTurn, 1, 1);
+        }
 
         HISTORY.put(player.getUniqueId(), id);
 
@@ -378,7 +387,10 @@ public final class InfinityGroup extends FlexItemGroup {
 
         menu.addItem(NORMAL_RECIPE_OUTPUT, output, ChestMenuUtils.getEmptyClickHandler());
 
-        player.playSound(player.getLocation(), Sound.ITEM_BOOK_PAGE_TURN, 1, 1);
+        Sound pageTurn = SoundCompat.resolve("ITEM_BOOK_PAGE_TURN");
+        if (pageTurn != null) {
+            player.playSound(player.getLocation(), pageTurn, 1, 1);
+        }
         menu.open(player);
     }
 

@@ -7,7 +7,7 @@ import java.util.Objects;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
 import org.bukkit.Material;
@@ -23,14 +23,17 @@ import com.google.common.collect.MapDifference;
 import com.google.common.collect.Maps;
 import io.github.mooy1.infinityexpansion.InfinityExpansion;
 import io.github.mooy1.infinityexpansion.items.abstracts.AbstractEnergyCrafter;
+import io.github.mooy1.infinityexpansion.utils.SoundCompat;
 import io.github.mooy1.infinityexpansion.utils.Util;
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
-import io.github.thebusybiscuit.slimefun4.utils.ChestMenuUtils;
+import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
+import io.github.thebusybiscuit.slimefun5.utils.ChestMenuUtils;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenuPreset;
+import io.github.mooy1.infinityexpansion.MaterialCompat;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 
 /**
  * Combines slimefun items, exceeds vanilla anvil limits
@@ -42,7 +45,7 @@ public final class AdvancedAnvil extends AbstractEnergyCrafter {
     private static final Map<Enchantment, Integer> MAX_LEVELS = Util.getEnchants(Objects.requireNonNull(
             InfinityExpansion.config().getConfigurationSection("advanced-anvil-max-levels")
     ));
-    private static final ItemStack ANVIL_SLOT = CustomItemStack.create(Material.BLACK_STAINED_GLASS_PANE, " ");
+    private static final ItemStack ANVIL_SLOT = CustomItemStack.create(MaterialCompat.safe(XMaterial.BLACK_STAINED_GLASS_PANE), " ");
     private static final int[] INPUT_SLOTS = {
             10, 13
     };
@@ -102,8 +105,8 @@ public final class AdvancedAnvil extends AbstractEnergyCrafter {
     private void craft(BlockMenu inv, Block b, Player p) {
         Location l = b.getLocation();
         if (getCharge(l) < this.energy) { //not enough energy
-            p.sendMessage(ChatColor.RED + "Not enough energy!",
-                    ChatColor.GREEN + "Charge: " + ChatColor.RED + getCharge(l) + ChatColor.GREEN + "/" + this.energy + " J");
+            p.sendMessage(ChatColor.RED + "Not enough energy!");
+            p.sendMessage(ChatColor.GREEN + "Charge: " + ChatColor.RED + getCharge(l) + ChatColor.GREEN + "/" + this.energy + " J");
             return;
         }
 
@@ -112,7 +115,7 @@ public final class AdvancedAnvil extends AbstractEnergyCrafter {
         ItemStack item2 = inv.getItemInSlot(INPUT_SLOTS[1]);
         SlimefunItem sfItem2 = SlimefunItem.getByItem(inv.getItemInSlot(INPUT_SLOTS[1]));
 
-        if (item1 == null || item2 == null || (item2.getType() != Material.ENCHANTED_BOOK && item1.getType() != item2.getType())) {
+        if (item1 == null || item2 == null || (item2.getType() != MaterialCompat.safe(XMaterial.ENCHANTED_BOOK) && item1.getType() != item2.getType())) {
             p.sendMessage(ChatColor.RED + "Invalid items!");
             return;
         }
@@ -139,7 +142,10 @@ public final class AdvancedAnvil extends AbstractEnergyCrafter {
             return;
         }
 
-        p.playSound(l, Sound.BLOCK_ANVIL_USE, 1, 1);
+        Sound anvilUse = SoundCompat.resolve("BLOCK_ANVIL_USE");
+        if (anvilUse != null) {
+            p.playSound(l, anvilUse, 1, 1);
+        }
         item1.setAmount(item1.getAmount() - 1);
         item2.setAmount(item2.getAmount() - 1);
         inv.pushItem(output, OUTPUT_SLOTS);
@@ -213,7 +219,7 @@ public final class AdvancedAnvil extends AbstractEnergyCrafter {
             }
         }
 
-        boolean bookOntoTool = item2.getType() == Material.ENCHANTED_BOOK && item1.getType() != Material.ENCHANTED_BOOK;
+        boolean bookOntoTool = item2.getType() == MaterialCompat.safe(XMaterial.ENCHANTED_BOOK) && item1.getType() != MaterialCompat.safe(XMaterial.ENCHANTED_BOOK);
 
         //unique (different enchants from 2nd item)
         for (Map.Entry<Enchantment, Integer> e : dif.entriesOnlyOnRight().entrySet()) {
@@ -240,15 +246,15 @@ public final class AdvancedAnvil extends AbstractEnergyCrafter {
         ItemStack item1 = inv.getItemInSlot(INPUT_SLOTS[0]);
         ItemStack item2 = inv.getItemInSlot(INPUT_SLOTS[1]);
 
-        if (item1 == null || item2 == null || (item2.getType() != Material.ENCHANTED_BOOK && item1.getType() != item2.getType())) {
-            inv.replaceExistingItem(STATUS_SLOT, CustomItemStack.create(Material.BARRIER, "&cInvalid items!"));
+        if (item1 == null || item2 == null || (item2.getType() != MaterialCompat.safe(XMaterial.ENCHANTED_BOOK) && item1.getType() != item2.getType())) {
+            inv.replaceExistingItem(STATUS_SLOT, CustomItemStack.create(MaterialCompat.safe(XMaterial.BARRIER), "&cInvalid items!"));
             return;
         }
 
         ItemStack output = getOutput(item1, item2);
 
         if (output == null) {
-            inv.replaceExistingItem(STATUS_SLOT, CustomItemStack.create(Material.BARRIER, "&cNo upgrades!"));
+            inv.replaceExistingItem(STATUS_SLOT, CustomItemStack.create(MaterialCompat.safe(XMaterial.BARRIER), "&cNo upgrades!"));
             return;
         }
 

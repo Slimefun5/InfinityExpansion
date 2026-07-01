@@ -16,7 +16,6 @@ import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
 import org.bukkit.Material;
-import org.bukkit.NamespacedKey;
 import org.bukkit.Sound;
 import org.bukkit.World;
 import org.bukkit.block.Block;
@@ -30,22 +29,25 @@ import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.event.entity.FoodLevelChangeEvent;
 import org.bukkit.event.player.PlayerDropItemEvent;
 import org.bukkit.inventory.ItemStack;
-import org.bukkit.inventory.meta.Damageable;
 import org.bukkit.inventory.meta.ItemMeta;
-import org.bukkit.persistence.PersistentDataContainer;
-import org.bukkit.persistence.PersistentDataType;
+
+import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
 
 import io.github.mooy1.infinityexpansion.InfinityExpansion;
+import io.github.mooy1.infinityexpansion.utils.CompatUtils;
+import io.github.mooy1.infinityexpansion.utils.SoundCompat;
 import io.github.mooy1.infinitylib.common.CoolDowns;
 import io.github.mooy1.infinitylib.common.Events;
 import io.github.mooy1.infinitylib.common.Scheduler;
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.core.attributes.NotPlaceable;
-import io.github.thebusybiscuit.slimefun4.implementation.items.magical.runes.SoulboundRune;
+import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.core.attributes.NotPlaceable;
+import io.github.thebusybiscuit.slimefun5.implementation.items.magical.runes.SoulboundRune;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
+import io.github.mooy1.infinityexpansion.MaterialCompat;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 
 /**
  * A VeinMiner rune, most code from {@link SoulboundRune}
@@ -62,7 +64,7 @@ public final class VeinMinerRune extends SlimefunItem implements Listener, NotPl
     private static final double RANGE = 1.5;
     private static final int MAX = 64;
     private static final String LORE = ChatColor.AQUA + "Veinminer - Crouch to use";
-    private static final NamespacedKey key = InfinityExpansion.createKey("vein_miner");
+    private static final NamespacedKey key = InfinityExpansion.pdcKey("vein_miner");
 
     private final CoolDowns cooldowns = new CoolDowns(1000);
     private Block processing;
@@ -103,7 +105,10 @@ public final class VeinMinerRune extends SlimefunItem implements Listener, NotPl
                     if (rune.isValid() && item.isValid() && rune.getItemStack().getAmount() == 1) {
 
                         l.getWorld().createExplosion(l, 0);
-                        l.getWorld().playSound(l, Sound.ENTITY_GENERIC_EXPLODE, 0.3F, 1);
+                        Sound explode = SoundCompat.resolve("ENTITY_GENERIC_EXPLODE");
+                        if (explode != null) {
+                            l.getWorld().playSound(l, explode, 0.3F, 1);
+                        }
 
                         item.remove();
                         rune.remove();
@@ -130,7 +135,7 @@ public final class VeinMinerRune extends SlimefunItem implements Listener, NotPl
             Item item = (Item) entity;
             ItemStack stack = item.getItemStack();
             return stack.getAmount() == 1
-                    && stack.getItemMeta() instanceof Damageable
+                    && CompatUtils.isDamageable(stack)
                     && !isVeinMiner(stack) && !isItem(stack);
         }
 
@@ -141,7 +146,7 @@ public final class VeinMinerRune extends SlimefunItem implements Listener, NotPl
         if (item == null || !item.hasItemMeta()) {
             return false;
         }
-        return item.getItemMeta().getPersistentDataContainer().has(key, PersistentDataType.BYTE);
+        return CompatUtils.hasPdc(item.getItemMeta(), key, "BYTE");
     }
 
     public static void setVeinMiner(@Nullable ItemStack item, boolean makeVeinMiner) {
@@ -153,10 +158,8 @@ public final class VeinMinerRune extends SlimefunItem implements Listener, NotPl
 
         boolean isVeinMiner = isVeinMiner(item);
 
-        PersistentDataContainer container = meta.getPersistentDataContainer();
-
         if (makeVeinMiner && !isVeinMiner) {
-            container.set(key, PersistentDataType.BYTE, (byte) 1);
+            CompatUtils.setPdcByte(meta, key, (byte) 1);
             List<String> lore;
             if (meta.hasLore()) {
                 lore = meta.getLore();
@@ -170,7 +173,7 @@ public final class VeinMinerRune extends SlimefunItem implements Listener, NotPl
         }
 
         if (!makeVeinMiner && isVeinMiner) {
-            container.remove(key);
+            CompatUtils.removePdc(meta, key);
             if (meta.hasLore()) {
                 List<String> lore = meta.getLore();
                 lore.remove(LORE);
@@ -194,7 +197,7 @@ public final class VeinMinerRune extends SlimefunItem implements Listener, NotPl
             return;
         }
 
-        ItemStack item = p.getInventory().getItemInMainHand();
+        ItemStack item = p.getInventory().getItemInHand();
 
         if (!isVeinMiner(item)) {
             return;
@@ -239,7 +242,7 @@ public final class VeinMinerRune extends SlimefunItem implements Listener, NotPl
                         w.dropItemNaturally(l, drop);
                     }
                 }
-                mine.setType(Material.AIR);
+                mine.setType(MaterialCompat.safe(XMaterial.AIR));
             }
         }
 
