@@ -1,0 +1,30 @@
+# Per-item balance scores (0-100), relative to vanilla Minecraft. Read by Slimefun's BalanceService.
+# Bands: 0-10 Trivial, 11-25 Standard, 26-40 Advanced, 41-69 Powerful, 70-100 Overpowered (vanilla end crystal ~70, mace ~85).
+scores:
+  # Infinity tier — endgame, deliberately beyond vanilla's strongest.
+  INFINITY_BLADE: 90
+  INFINITY_BOW: 85
+  INFINITY_AXE: 82
+  INFINITY_PICKAXE: 80
+  INFINITY_CHESTPLATE: 88
+  INFINITY_LEGGINGS: 85
+  INFINITY_BOOTS: 80
+  INFINITY_CROWN: 84
+  INFINITY_REACTOR: 92
+  INFINITY_QUARRY: 85
+  INFINITY_FORGE: 80
+  INFINITY_CONSTRUCTOR: 78
+  INFINITY_MATRIX: 80
+  INFINITY_CAPACITOR: 78
+  INFINITY_ENCHANTER: 76
+  INFINITY_DISENCHANTER: 70
+  INFINITY_DUST_EXTRACTOR: 75
+  INFINITY_INGOT_FORMER: 74
+  INFINITY_CHARGER: 74
+  INFINITY_COBBLE_GEN: 72
+  # Advanced tier — strong endgame machines, around netherite/beacon level.
+  ADVANCED_NETHER_STAR_REACTOR: 45
+  ADVANCED_SMELTERY: 38
+  ADVANCED_GEO_MINER: 36
+  ADVANCED_ENCHANTER: 35
+  ADVANCED_CHARGER: 34
