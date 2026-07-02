@@ -65,6 +65,9 @@ tasks {
         relocate("io.github.mooy1.infinitylib", "io.github.mooy1.infinityexpansion.infinitylib")
         minimize()
         exclude("META-INF/**")
+        // Core is provided at runtime (depend: Slimefun); never bundle it. github-gradle pulls it in
+        // transitively via InfinityLib's metadata, so exclude it explicitly.
+        exclude("io/github/thebusybiscuit/slimefun5/**")
     }
     build {
         dependsOn(shadowJar)
