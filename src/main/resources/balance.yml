@@ -2,163 +2,164 @@
 # Read by Slimefun's BalanceService (overrides the auto heuristic). Bands:
 #   0-10 Trivial | 11-25 Standard | 26-40 Advanced | 41-69 Powerful | 70-100 Overpowered
 #   (vanilla anchors: iron gear ~15, netherite ~30, beacon ~35, end crystal ~70, mace ~85)
+# Scores below are derived from actual stats read from src/main/java (energy capacity/
+# consumption, output rates, enchant levels, recipe costs) - see items/ source for specifics.
 scores:
-  # --- Infinity tier: endgame, deliberately beyond vanilla's strongest ---
-  INFINITY_BLADE: 90
-  INFINITY_BOW: 85
-  INFINITY_AXE: 82
-  INFINITY_PICKAXE: 80
-  INFINITY_SHOVEL: 76
-  INFINITY_SHIELD: 78
-  INFINITY_CHESTPLATE: 88
-  INFINITY_LEGGINGS: 85
-  INFINITY_CROWN: 84
-  INFINITY_BOOTS: 80
-  INFINITY_REACTOR: 92
-  INFINITY_FORGE: 82
-  INFINITY_QUARRY: 85
-  INFINITY_CONSTRUCTOR: 80
-  INFINITY_ENCHANTER: 76
-  INFINITY_DISENCHANTER: 72
-  INFINITY_DUST_EXTRACTOR: 75
-  INFINITY_INGOT_FORMER: 76
-  INFINITY_CHARGER: 74
-  INFINITY_COBBLE_GEN: 72
-  INFINITY_TREE_GROWER: 72
-  INFINITY_VIRTUAL_FARM: 74
-  INFINITY_STORAGE: 78
-  INFINITY_CAPACITOR: 78
-  INFINITY_MATRIX: 82
-  INFINITY_SINGULARITY: 80
-  # --- Infinite components / void-harvester: near-endgame ---
-  INFINITE_INGOT: 78
-  INFINITE_MACHINE_CORE: 76
-  INFINITE_MACHINE_CIRCUIT: 76
-  INFINITE_PANEL: 74
-  INFINITE_VOID_HARVESTER: 82
-  # --- Endgame blocks/materials ---
-  POWERED_BEDROCK: 72
-  END_ESSENCE: 68
-  ENDER_FLAME: 66
-  # --- Void tier: powerful, pre-infinity ---
-  VOID_HARVESTER: 70
-  VOID_QUARRY: 62
-  VOID_STORAGE: 64
-  VOID_CAPACITOR: 60
-  VOID_PANEL: 58
-  VOID_INGOT: 48
-  VOID_DUST: 40
-  VOID_BIT: 42
+  # --- Infinity tier: real numbers pin every id to 70-95, ranked by actual power ---
+  INFINITY_MATRIX: 95        # unconditional creative-flight toggle, bound to player
+  INFINITY_QUARRY: 93        # speed 64, chance=1 -> guaranteed special roll every cycle
+  INFINITY_BLADE: 91         # sharpness 20 (4x vanilla cap) + looting 10 + fire aspect 10
+  INFINITY_BOW: 90           # power 10 + flame/infinity 10 + on-hit slow+jump-lock, explosive
+  INFINITY_REACTOR: 89       # 120,000 J/s, highest single generator in the addon
+  INFINITY_CHESTPLATE: 88    # permanent resistance+strength II+fire resistance, set immunities
+  INFINITY_PICKAXE: 87       # efficiency 40 (8x cap) + fortune 20 (~6.7x cap)
+  INFINITY_DUST_EXTRACTOR: 86 # 64 free dust/tick from cheap stone-family blocks
+  INFINITY_INGOT_FORMER: 85  # 64 dust -> 32 ingots per tick
+  INFINITE_PANEL: 84         # 60,000 J/s, always generates full output unconditionally
+  INFINITY_LEGGINGS: 83      # haste III + regen + saturation, set immunities
+  INFINITY_CONSTRUCTOR: 82   # speed 64 vs base 1, singularity crafting acceleration
+  INFINITE_VOID_HARVESTER: 81 # speed 64 vs base 1, 64x void bit throughput
+  INFINITY_BOOTS: 80         # speed III + dolphin's grace, set immunities
+  INFINITY_STORAGE: 79       # 1,600,000,000 item capacity
+  INFINITY_CAPACITOR: 78     # 2,000,000,000 J buffer
+  INFINITY_AXE: 77           # efficiency 40 + sharpness 20 + fire aspect 10
+  INFINITY_CROWN: 76         # night vision + conduit power, set immunities
+  INFINITY_SINGULARITY: 75   # 100 Infinite Ingots condensed, densest crafting material
+  INFINITE_INGOT: 75         # central gateway ingredient for nearly every infinity recipe
+  INFINITY_SHOVEL: 74        # efficiency 40 + silk touch (single-purpose utility enchant)
+  INFINITY_SHIELD: 74        # protection 20 (5x cap) + thorns 10, no blocking mechanic change
+  INFINITY_FORGE: 73         # 10,000,000 J/craft, gatekeeper station for the whole tier
+  INFINITY_VIRTUAL_FARM: 73  # ticksPerOutput 12, auto-farms 12 crop types
+  INFINITY_ENCHANTER: 72     # speed 75, 12,000 J/use
+  INFINITE_MACHINE_CORE: 72  # high-tier crafting intermediate
+  INFINITE_MACHINE_CIRCUIT: 71 # high-tier crafting intermediate
+  INFINITY_DISENCHANTER: 71  # speed 90, 12,000 J/use
+  INFINITY_TREE_GROWER: 70   # ticksPerOutput 24, free wood (low intrinsic value)
+  INFINITY_CHARGER: 70       # 60,000 J/use, instant-charge QoL only
+  INFINITY_COBBLE_GEN: 70    # 64 free cobblestone/tick, but cobblestone is near-worthless
+  # --- Endgame blocks/materials (not infinity-tier gated) ---
+  ENDER_FLAME: 48            # Fire Aspect X (10, 5x vanilla cap) enchanted book, single recipe
+  POWERED_BEDROCK: 38        # 10,000 J charge -> real placeable BEDROCK block
+  END_ESSENCE: 28            # GEOResource, mid-tier crafting ingredient
+  # --- Void tier: mid-power, pre-infinity ---
+  VOID_STORAGE: 50           # 409,600 item capacity
+  VOID_CAPACITOR: 48         # 16,000,000 J buffer
+  VOID_QUARRY: 46            # speed 6, chance=2 (50% special roll), 3600 J/tick
+  VOID_PANEL: 34             # 3000 J/s, conditional (lunar: night/Nether/End only)
+  VOID_HARVESTER: 32         # speed 1, 1024 ticks (~51s) per Void Bit
+  VOID_INGOT: 30             # crafting material, 9x Void Dust -> 1
+  VOID_DUST: 22              # crafting material, 9x Void Bit -> 1
+  VOID_BIT: 16               # harvester-only base material, no craft recipe
   # --- High machines / multiblocks ---
-  RESOURCE_SYNTHESIZER: 78
-  SINGULARITY_CONSTRUCTOR: 74
-  STORAGE_FORGE: 68
-  STONEWORKS_FACTORY: 66
-  MOB_SIMULATION_CHAMBER: 58
-  URANIUM_EXTRACTOR: 50
-  DATA_INFUSER: 48
-  GEO_QUARRY: 46
-  EXTREME_FREEZER: 44
-  GEAR_TRANSFORMER: 40
-  CELESTIAL_PANEL: 64
+  RESOURCE_SYNTHESIZER: 68   # 1,000,000 J/use, 2 singularities -> 16-64x rare resource
+  MOB_SIMULATION_CHAMBER: 56 # variable 225-9150 J/tick by card tier, passive drop farming
+  GEO_QUARRY: 52             # 450 J/tick, bypasses the normal GEO-scan gate entirely
+  CELESTIAL_PANEL: 46        # 750 J/s solar, 75,000 J buffer
+  STONEWORKS_FACTORY: 44     # 240 J/tick, 3-stage auto-fed stone processing pipeline
+  SINGULARITY_CONSTRUCTOR: 40 # speed 1, 120 J/tick, base tier singularity crafting
+  URANIUM_EXTRACTOR: 38      # 240 J/tick, 1:1 cobblestone-family -> uranium
+  GEAR_TRANSFORMER: 36       # 12,000 J/use, wood->netherite material upgrade table
+  STORAGE_FORGE: 36          # no energy stat, pure storage-tier upgrade block
+  DATA_INFUSER: 34           # 20,000 J/craft, gate for mob data cards
+  EXTREME_FREEZER: 30        # 90 J/tick, simple coolant-cell recipes
   # --- Advanced tier machines ---
-  ADVANCED_NETHER_STAR_REACTOR: 55
-  ADVANCED_STORAGE: 48
-  ADVANCED_QUARRY: 46
-  ADVANCED_SMELTERY: 44
-  ADVANCED_PANEL: 44
-  ADVANCED_ENCHANTER: 42
-  ADVANCED_GEO_MINER: 42
-  ADVANCED_VIRTUAL_FARM: 42
-  ADVANCED_STRAINER: 40
-  ADVANCED_TREE_GROWER: 40
-  ADVANCED_CHARGER: 40
-  ADVANCED_COBBLE_GEN: 38
-  ADVANCED_DISENCHANTER: 38
-  ADVANCED_ANVIL: 36
+  ADVANCED_NETHER_STAR_REACTOR: 54 # 1800 J/s + area Wither II debuff, 90,000 J buffer
+  ADVANCED_ANVIL: 44         # 100,000 J/use, high enchant caps incl. Slimefun items
+  ADVANCED_STORAGE: 42       # 25,600 item capacity
+  ADVANCED_QUARRY: 40        # speed 2, chance=4 (25% special roll), 900 J/tick
+  ADVANCED_VIRTUAL_FARM: 38  # ticksPerOutput 60, 5x faster than Basic
+  ADVANCED_SMELTERY: 38      # speed 24, 240 J/tick
+  ADVANCED_PANEL: 36         # 150 J/s, 15,000 J buffer
+  ADVANCED_ENCHANTER: 36     # speed 5, 180 J/tick
+  ADVANCED_GEO_MINER: 36     # speed 4, 120 J/tick
+  ADVANCED_TREE_GROWER: 34   # ticksPerOutput 120, 180 J/tick
+  ADVANCED_CHARGER: 34       # speed 30, 180 J/tick
+  ADVANCED_STRAINER: 32      # speed 4
+  ADVANCED_DISENCHANTER: 32  # speed 5, 180 J/tick
+  ADVANCED_COBBLE_GEN: 30    # 75 J/tick actual (lore claims 120, source mismatch)
   # --- Reinforced generators/machines ---
-  REINFORCED_STORAGE: 50
-  REINFORCED_GEOTHERMAL_GENERATOR: 48
-  REINFORCED_HYDRO_GENERATOR: 46
-  REINFORCED_STRAINER: 44
-  # --- Basic generators / machines ---
-  GEOTHERMAL_GENERATOR: 34
-  HYDRO_GENERATOR: 32
-  DUST_EXTRACTOR: 34
-  INGOT_FORMER: 34
-  DECOMPRESSOR: 26
-  COBBLE_PRESS: 24
-  STRAINER_BASE: 18
+  REINFORCED_STORAGE: 34     # 102,400 item capacity
+  REINFORCED_GEOTHERMAL_GENERATOR: 30 # 210 J/s, 21,000 J buffer
+  REINFORCED_STRAINER: 30    # speed 20
+  REINFORCED_HYDRO_GENERATOR: 22 # 45 J/s, 4,500 J buffer, requires waterlogging
+  # --- Basic/mid generators & processors ---
+  GEOTHERMAL_GENERATOR: 20   # 35 J/s (70 in Nether), 3,500 J buffer
+  DUST_EXTRACTOR: 22         # 240 J/tick, 2x random dust/tick
+  INGOT_FORMER: 22           # 240 J/tick, 8x dust -> 4x ingot
+  DECOMPRESSOR: 18           # 60 J/tick, reverses all compression chains
+  COBBLE_PRESS: 16           # 120 J/tick, compresses cobblestone tiers
+  STRAINER_BASE: 14          # weighted loot pool, 1/10,000 rare cosmetic drop
+  HYDRO_GENERATOR: 12        # 5 J/s, 500 J buffer, requires waterlogging
   # --- Basic tier machines ---
-  BASIC_PANEL: 26
-  BASIC_VIRTUAL_FARM: 26
-  BASIC_OBSIDIAN_GEN: 24
-  BASIC_QUARRY: 24
-  BASIC_STORAGE: 24
-  BASIC_TREE_GROWER: 24
-  BASIC_STRAINER: 22
-  BASIC_COBBLE_GEN: 22
-  # --- Quarry oscillator upgrades ---
+  BASIC_OBSIDIAN_GEN: 16     # speed 1, 240 J/tick (unusually costly for "basic")
+  BASIC_QUARRY: 14           # speed 1, chance=6 (~17% special roll), 300 J/tick
+  BASIC_VIRTUAL_FARM: 12     # ticksPerOutput 300, 18 J/tick
+  BASIC_PANEL: 10            # 9 J/s, 900 J buffer
+  BASIC_STORAGE: 10          # 6,400 item capacity
+  BASIC_TREE_GROWER: 10      # ticksPerOutput 600, 36 J/tick
+  BASIC_STRAINER: 8          # speed 1
+  BASIC_COBBLE_GEN: 8        # speed 1, 24 J/tick
+  # --- Quarry oscillator upgrades (all 50% force-material chance by default config) ---
+  VEIN_MINER_RUNE: 42        # cap 64 blocks/activation, cooldown, hunger cost, whitelist
   QUARRY_OSCILLATOR_DIAMOND: 40
   QUARRY_OSCILLATOR_EMERALD: 38
-  QUARRY_OSCILLATOR_LAPIS_LAZULI: 34
   QUARRY_OSCILLATOR_QUARTZ: 34
-  QUARRY_OSCILLATOR_REDSTONE: 32
-  VEIN_MINER_RUNE: 44
-  # --- Singularities (compressed-resource materials) ---
-  NETHERITE_SINGULARITY: 42
-  MAGIC_SINGULARITY: 40
-  FORTUNE_SINGULARITY: 38
-  DIAMOND_SINGULARITY: 36
-  EMERALD_SINGULARITY: 36
-  METAL_SINGULARITY: 32
-  GOLD_SINGULARITY: 30
-  EARTH_SINGULARITY: 28
-  IRON_SINGULARITY: 28
-  SILVER_SINGULARITY: 28
-  LAPIS_SINGULARITY: 28
-  REDSTONE_SINGULARITY: 28
-  QUARTZ_SINGULARITY: 28
-  COPPER_SINGULARITY: 26
-  TIN_SINGULARITY: 26
-  LEAD_SINGULARITY: 26
-  ALUMINUM_SINGULARITY: 26
-  ZINC_SINGULARITY: 26
-  MAGNESIUM_SINGULARITY: 26
-  COAL_SINGULARITY: 26
+  QUARRY_OSCILLATOR_LAPIS_LAZULI: 32
+  QUARRY_OSCILLATOR_REDSTONE: 30
+  # --- Singularities (compressed-resource materials, crafting role) ---
+  NETHERITE_SINGULARITY: 44  # 200 raw -> 1, cheapest count of the priciest material
+  FORTUNE_SINGULARITY: 40    # element singularity, feeds Infinite Ingot
+  MAGIC_SINGULARITY: 39      # element singularity, feeds Infinite Ingot
+  EARTH_SINGULARITY: 38      # element singularity, feeds Infinite Ingot
+  METAL_SINGULARITY: 37      # element singularity, feeds Infinite Ingot
+  DIAMOND_SINGULARITY: 36    # 500 raw -> 1
+  EMERALD_SINGULARITY: 35    # 500 raw -> 1
+  GOLD_SINGULARITY: 29       # 2000 raw -> 1
+  IRON_SINGULARITY: 28       # 2000 raw -> 1
+  COAL_SINGULARITY: 27       # 1500 raw -> 1
+  REDSTONE_SINGULARITY: 27   # 1500 raw -> 1
+  LAPIS_SINGULARITY: 27      # 1500 raw -> 1
+  QUARTZ_SINGULARITY: 27     # 1500 raw -> 1
+  COPPER_SINGULARITY: 25     # 3000 raw -> 1
+  TIN_SINGULARITY: 25        # 3000 raw -> 1
+  LEAD_SINGULARITY: 25       # 3000 raw -> 1
+  ALUMINUM_SINGULARITY: 25   # 3000 raw -> 1
+  ZINC_SINGULARITY: 25       # 3000 raw -> 1
+  MAGNESIUM_SINGULARITY: 25  # 3000 raw -> 1
+  SILVER_SINGULARITY: 25     # 3000 raw -> 1
   # --- Crafting components / materials ---
-  MACHINE_CIRCUIT: 24
-  MACHINE_CORE: 22
-  MACHINE_PLATE: 18
-  ADAMANTITE: 24
-  MAGNONIUM: 24
-  MYTHRIL: 22
-  TITANIUM: 22
-  MAGSTEEL_PLATE: 18
-  MAGSTEEL: 16
-  COMPRESSED_COBBLESTONE_5: 18
-  COMPRESSED_COBBLESTONE_4: 15
-  COMPRESSED_COBBLESTONE_3: 12
-  COMPRESSED_COBBLESTONE_2: 10
-  COMPRESSED_COBBLESTONE_1: 8
-  # --- Mob data cards (mob-simulation inputs) ---
-  ENDER_DRAGON_DATA_CARD: 34
-  WITHER_DATA_CARD: 32
-  WITHER_SKELETON_DATA_CARD: 26
-  GUARDIAN_DATA_CARD: 24
-  IRON_GOLEM_DATA_CARD: 24
-  ENDERMEN_DATA_CARD: 24
-  BLAZE_DATA_CARD: 22
-  WITCH_DATA_CARD: 22
-  CREEPER_DATA_CARD: 20
-  MAGMA_CUBE_DATA_CARD: 20
-  VILLAGER_DATA_CARD: 20
-  ZOMBIE_DATA_CARD: 18
-  SKELETON_DATA_CARD: 18
-  SPIDER_DATA_CARD: 18
-  SLIME_DATA_CARD: 18
-  COW_DATA_CARD: 16
-  CHICKEN_DATA_CARD: 16
-  SHEEP_DATA_CARD: 16
-  BEE_DATA_CARD: 16
-  EMPTY_DATA_CARD: 12
+  ADAMANTITE: 30             # smeltery: redstone alloy + diamond singularity + magsteel
+  MAGNONIUM: 30              # smeltery: magsteel + magnesium singularity + ender essence
+  MYTHRIL: 26                # smeltery: reinforced alloy + iron singularity + hardened metal
+  TITANIUM: 26               # smeltery: reinforced alloy + damascus steel + hardened metal
+  MACHINE_CORE: 24           # titanium + circuits + plate
+  MACHINE_PLATE: 22          # reinforced alloy + reinforced plate + magsteel plate + titanium
+  MACHINE_CIRCUIT: 20        # copper + electro magnet + silicon
+  MAGSTEEL_PLATE: 18         # 8x magsteel + hardened metal ingot
+  COMPRESSED_COBBLESTONE_5: 18 # 9^5 = 59,049 cobblestone compressed
+  MAGSTEEL: 16               # smeltery: magnesium ingot + steel ingot + magnesium dust
+  COMPRESSED_COBBLESTONE_4: 15 # 9^4 = 6,561 cobblestone compressed
+  COMPRESSED_COBBLESTONE_3: 12 # 9^3 = 729 cobblestone compressed
+  COMPRESSED_COBBLESTONE_2: 9  # 9^2 = 81 cobblestone compressed
+  COMPRESSED_COBBLESTONE_1: 6  # 9 cobblestone compressed
+  # --- Mob data cards (tiered by MobDataTier: base XP + simulation-energy cost) ---
+  ENDER_DRAGON_DATA_CARD: 36  # BOSS tier: xp 96, 9000 J/tick; dragon egg in drop pool
+  WITHER_DATA_CARD: 32        # MINI_BOSS tier: xp 32, 4500 J/tick; nether star drops
+  WITHER_SKELETON_DATA_CARD: 27 # ADVANCED tier: xp 4, 600 J/tick
+  IRON_GOLEM_DATA_CARD: 25    # ADVANCED tier: xp 4, 600 J/tick
+  ENDERMEN_DATA_CARD: 25      # ADVANCED tier: xp 4, 600 J/tick
+  BLAZE_DATA_CARD: 25         # ADVANCED tier: xp 4, 600 J/tick
+  WITCH_DATA_CARD: 24         # ADVANCED tier: xp 4, 600 J/tick
+  GUARDIAN_DATA_CARD: 20      # HOSTILE tier: xp 2, 300 J/tick
+  CREEPER_DATA_CARD: 19       # HOSTILE tier: xp 2, 300 J/tick
+  VILLAGER_DATA_CARD: 18      # NEUTRAL tier: xp 1, 150 J/tick; emerald drops
+  SLIME_DATA_CARD: 17         # NEUTRAL tier: xp 1, 150 J/tick
+  ZOMBIE_DATA_CARD: 16        # HOSTILE tier: xp 2, 300 J/tick
+  SKELETON_DATA_CARD: 16      # HOSTILE tier: xp 2, 300 J/tick
+  SPIDER_DATA_CARD: 16        # HOSTILE tier: xp 2, 300 J/tick
+  MAGMA_CUBE_DATA_CARD: 16    # NEUTRAL tier: xp 1, 150 J/tick
+  COW_DATA_CARD: 13           # PASSIVE tier: xp 1, 75 J/tick
+  BEE_DATA_CARD: 14           # NEUTRAL tier: xp 1, 150 J/tick
+  CHICKEN_DATA_CARD: 12       # PASSIVE tier: xp 1, 75 J/tick
+  SHEEP_DATA_CARD: 12         # PASSIVE tier: xp 1, 75 J/tick
+  EMPTY_DATA_CARD: 6          # blank crafting input, no active stat
