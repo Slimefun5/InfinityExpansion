@@ -25,241 +25,37 @@ public final class Machines {
 
     private Machines() {}
 
-    public static final SlimefunItemStack COBBLE_PRESS = new SlimefunItemStack(
-            "COBBLE_PRESS",
-            MaterialCompat.safe(XMaterial.SMOOTH_STONE),
-            "&8Cobble Press",
-            "&7Compresses cobblestone more efficiently",
-            "",
-            MachineLore.energyPerSecond(120)
-    );
-    public static final SlimefunItemStack RESOURCE_SYNTHESIZER = new SlimefunItemStack(
-            "RESOURCE_SYNTHESIZER",
-            MaterialCompat.safe(XMaterial.LODESTONE),
-            "&6Resource Synthesizer",
-            "&7Creates resources by combining 2 Singularities",
-            "",
-            MachineLore.energy(1_000_000) + "per use"
-    );
-    public static final SlimefunItemStack BASIC_GROWER = new SlimefunItemStack(
-            "BASIC_VIRTUAL_FARM",
-            MaterialCompat.safe(XMaterial.GRASS_BLOCK),
-            "&9Basic &aVirtual Farm",
-            "&7Automatically grows, harvests, and replants crops",
-            "",
-            MachineLore.speed(1),
-            MachineLore.energyPerSecond(18)
-    );
-    public static final SlimefunItemStack ADVANCED_GROWER = new SlimefunItemStack(
-            "ADVANCED_VIRTUAL_FARM",
-            MaterialCompat.safe(XMaterial.CRIMSON_NYLIUM),
-            "&cAdvanced &aVirtual Farm",
-            "&7Automatically grows, harvests, and replants crops",
-            "",
-            MachineLore.speed(5),
-            MachineLore.energyPerSecond(90)
-    );
-    public static final SlimefunItemStack INFINITY_GROWER = new SlimefunItemStack(
-            "INFINITY_VIRTUAL_FARM",
-            MaterialCompat.safe(XMaterial.WARPED_NYLIUM),
-            "&bInfinity &aVirtual Farm",
-            "&7Automatically grows, harvests, and replants crops",
-            "",
-            MachineLore.speed(25),
-            MachineLore.energyPerSecond(900)
-    );
-    public static final SlimefunItemStack BASIC_TREE = new SlimefunItemStack(
-            "BASIC_TREE_GROWER",
-            MaterialCompat.safe(XMaterial.STRIPPED_OAK_WOOD),
-            "&9Basic &2Tree Grower",
-            "&7Automatically grows, harvests, and replants trees",
-            "",
-            MachineLore.speed(1),
-            MachineLore.energyPerSecond(36)
-    );
-    public static final SlimefunItemStack ADVANCED_TREE = new SlimefunItemStack(
-            "ADVANCED_TREE_GROWER",
-            MaterialCompat.safe(XMaterial.STRIPPED_ACACIA_WOOD),
-            "&cAdvanced &2Tree Grower",
-            "&7Automatically grows, harvests, and replants trees",
-            "",
-            MachineLore.speed(5),
-            MachineLore.energyPerSecond(180)
-    );
-    public static final SlimefunItemStack INFINITY_TREE = new SlimefunItemStack(
-            "INFINITY_TREE_GROWER",
-            MaterialCompat.safe(XMaterial.STRIPPED_WARPED_HYPHAE),
-            "&bInfinity &2Tree Grower",
-            "&7Automatically grows, harvests, and replants trees",
-            "",
-            MachineLore.speed(25),
-            MachineLore.energyPerSecond(1800)
-    );
+    public static final SlimefunItemStack COBBLE_PRESS = new SlimefunItemStack("COBBLE_PRESS", MaterialCompat.safe(XMaterial.SMOOTH_STONE));
+    public static final SlimefunItemStack RESOURCE_SYNTHESIZER = new SlimefunItemStack("RESOURCE_SYNTHESIZER", MaterialCompat.safe(XMaterial.LODESTONE));
+    public static final SlimefunItemStack BASIC_GROWER = new SlimefunItemStack("BASIC_VIRTUAL_FARM", MaterialCompat.safe(XMaterial.GRASS_BLOCK));
+    public static final SlimefunItemStack ADVANCED_GROWER = new SlimefunItemStack("ADVANCED_VIRTUAL_FARM", MaterialCompat.safe(XMaterial.CRIMSON_NYLIUM));
+    public static final SlimefunItemStack INFINITY_GROWER = new SlimefunItemStack("INFINITY_VIRTUAL_FARM", MaterialCompat.safe(XMaterial.WARPED_NYLIUM));
+    public static final SlimefunItemStack BASIC_TREE = new SlimefunItemStack("BASIC_TREE_GROWER", MaterialCompat.safe(XMaterial.STRIPPED_OAK_WOOD));
+    public static final SlimefunItemStack ADVANCED_TREE = new SlimefunItemStack("ADVANCED_TREE_GROWER", MaterialCompat.safe(XMaterial.STRIPPED_ACACIA_WOOD));
+    public static final SlimefunItemStack INFINITY_TREE = new SlimefunItemStack("INFINITY_TREE_GROWER", MaterialCompat.safe(XMaterial.STRIPPED_WARPED_HYPHAE));
     private static final int BEDROCK_ENERGY = 10_000;
-    public static final SlimefunItemStack POWERED_BEDROCK = new SlimefunItemStack(
-            "POWERED_BEDROCK",
-            MaterialCompat.safe(XMaterial.NETHERITE_BLOCK),
-            "&4Powered Bedrock",
-            "&7When powered, transforms into a bedrock",
-            "&7Will revert once unpowered or broken",
-            "",
-            MachineLore.energyPerSecond(BEDROCK_ENERGY)
-    );
+    public static final SlimefunItemStack POWERED_BEDROCK = new SlimefunItemStack("POWERED_BEDROCK", MaterialCompat.safe(XMaterial.NETHERITE_BLOCK));
     private static final int GEO_QUARRY_INTERVAL = 400;
     private static final int GEO_QUARRY_ENERGY = 450;
-    public static final SlimefunItemStack GEO_QUARRY = new SlimefunItemStack(
-            "GEO_QUARRY",
-            MaterialCompat.safe(XMaterial.QUARTZ_BRICKS),
-            "&fGeo Quarry",
-            "&7Slowly harvests geo resources from the void using power",
-            "",
-            MachineLore.energyPerSecond(GEO_QUARRY_ENERGY)
-    );
-    public static final SlimefunItemStack EXTREME_FREEZER = new SlimefunItemStack(
-            "EXTREME_FREEZER",
-            MaterialCompat.safe(XMaterial.LIGHT_BLUE_CONCRETE),
-            "&bExtreme Freezer",
-            "&7Converts ice into coolant",
-            "",
-            MachineLore.energyPerSecond(90)
-    );
-    public static final SlimefunItemStack DUST_EXTRACTOR = new SlimefunItemStack(
-            "DUST_EXTRACTOR",
-            MaterialCompat.safe(XMaterial.FURNACE),
-            "&8Dust Extractor",
-            "&7Converts cobble into dusts",
-            "",
-            MachineLore.speed(1),
-            MachineLore.energyPerSecond(240)
-    );
-    public static final SlimefunItemStack INFINITY_DUST_EXTRACTOR = new SlimefunItemStack(
-            "INFINITY_DUST_EXTRACTOR",
-            MaterialCompat.safe(XMaterial.FURNACE),
-            "&bInfinity &8Dust Extractor",
-            "&7Converts cobble into dusts",
-            "",
-            MachineLore.speed(16),
-            MachineLore.energyPerSecond(7200)
-    );
-    public static final SlimefunItemStack INGOT_FORMER = new SlimefunItemStack(
-            "INGOT_FORMER",
-            MaterialCompat.safe(XMaterial.FURNACE),
-            "&8Ingot Former",
-            "&7Forms ingots from dusts",
-            "",
-            MachineLore.speed(1),
-            MachineLore.energyPerSecond(240)
-    );
-    public static final SlimefunItemStack INFINITY_INGOT_FORMER = new SlimefunItemStack(
-            "INFINITY_INGOT_FORMER",
-            MaterialCompat.safe(XMaterial.FURNACE),
-            "&bInfinity &8Ingot Former",
-            "&7Forms ingots from dusts",
-            "",
-            MachineLore.speed(16),
-            MachineLore.energyPerSecond(7200)
-    );
-    public static final SlimefunItemStack URANIUM_EXTRACTOR = new SlimefunItemStack(
-            "URANIUM_EXTRACTOR",
-            MaterialCompat.safe(XMaterial.LIME_CONCRETE),
-            "&aUranium Extractor",
-            "&7Converts cobble into uranium",
-            "",
-            MachineLore.energyPerSecond(240)
-    );
-    public static final SlimefunItemStack DECOMPRESSOR = new SlimefunItemStack(
-            "DECOMPRESSOR",
-            MaterialCompat.safe(XMaterial.TARGET),
-            "&7Decompressor",
-            "&7Reduces blocks to their base material",
-            "",
-            MachineLore.energyPerSecond(60)
-    );
+    public static final SlimefunItemStack GEO_QUARRY = new SlimefunItemStack("GEO_QUARRY", MaterialCompat.safe(XMaterial.QUARTZ_BRICKS));
+    public static final SlimefunItemStack EXTREME_FREEZER = new SlimefunItemStack("EXTREME_FREEZER", MaterialCompat.safe(XMaterial.LIGHT_BLUE_CONCRETE));
+    public static final SlimefunItemStack DUST_EXTRACTOR = new SlimefunItemStack("DUST_EXTRACTOR", MaterialCompat.safe(XMaterial.FURNACE));
+    public static final SlimefunItemStack INFINITY_DUST_EXTRACTOR = new SlimefunItemStack("INFINITY_DUST_EXTRACTOR", MaterialCompat.safe(XMaterial.FURNACE));
+    public static final SlimefunItemStack INGOT_FORMER = new SlimefunItemStack("INGOT_FORMER", MaterialCompat.safe(XMaterial.FURNACE));
+    public static final SlimefunItemStack INFINITY_INGOT_FORMER = new SlimefunItemStack("INFINITY_INGOT_FORMER", MaterialCompat.safe(XMaterial.FURNACE));
+    public static final SlimefunItemStack URANIUM_EXTRACTOR = new SlimefunItemStack("URANIUM_EXTRACTOR", MaterialCompat.safe(XMaterial.LIME_CONCRETE));
+    public static final SlimefunItemStack DECOMPRESSOR = new SlimefunItemStack("DECOMPRESSOR", MaterialCompat.safe(XMaterial.TARGET));
     private static final int GEAR_TRANSFORMER_ENERGY = 12000;
-    public static final SlimefunItemStack GEAR_TRANSFORMER = new SlimefunItemStack(
-            "GEAR_TRANSFORMER",
-            MaterialCompat.safe(XMaterial.EMERALD_BLOCK),
-            "&7Gear Transformer",
-            "&7Changes the material of vanilla tools and gear",
-            "",
-            MachineLore.energy(GEAR_TRANSFORMER_ENERGY) + "Per Use"
-    );
-    public static final SlimefunItemStack BASIC_COBBLE = new SlimefunItemStack(
-            "BASIC_COBBLE_GEN",
-            MaterialCompat.safe(XMaterial.SMOOTH_STONE),
-            "&9Basic &8Cobble Generator",
-            "",
-            MachineLore.speed(1),
-            MachineLore.energyPerSecond(24)
-    );
-    public static final SlimefunItemStack ADVANCED_COBBLE = new SlimefunItemStack(
-            "ADVANCED_COBBLE_GEN",
-            MaterialCompat.safe(XMaterial.SMOOTH_STONE),
-            "&cAdvanced &8Cobble Generator",
-            "",
-            MachineLore.speed(4),
-            MachineLore.energyPerSecond(120)
-    );
-    public static final SlimefunItemStack INFINITY_COBBLE = new SlimefunItemStack(
-            "INFINITY_COBBLE_GEN",
-            MaterialCompat.safe(XMaterial.SMOOTH_STONE),
-            "&cInfinity &8Cobble Generator",
-            "",
-            MachineLore.speed(64),
-            MachineLore.energyPerSecond(800)
-    );
-    public static final SlimefunItemStack BASIC_OBSIDIAN = new SlimefunItemStack(
-            "BASIC_OBSIDIAN_GEN",
-            MaterialCompat.safe(XMaterial.SMOOTH_STONE),
-            "&8Obsidian Generator",
-            "",
-            MachineLore.speed(1),
-            MachineLore.energyPerSecond(240)
-    );
-    public static final SlimefunItemStack SINGULARITY_CONSTRUCTOR = new SlimefunItemStack(
-            "SINGULARITY_CONSTRUCTOR",
-            MaterialCompat.safe(XMaterial.QUARTZ_BRICKS),
-            "&fSingularity Constructor",
-            "&7Condenses large amounts of resources",
-            "",
-            MachineLore.speed(1),
-            MachineLore.energyPerSecond(120)
-    );
-    public static final SlimefunItemStack INFINITY_CONSTRUCTOR = new SlimefunItemStack(
-            "INFINITY_CONSTRUCTOR",
-            MaterialCompat.safe(XMaterial.CHISELED_QUARTZ_BLOCK),
-            "&bInfinity &fConstructor",
-            "&7Quickly condenses large amounts of resources",
-            "",
-            MachineLore.speed(64),
-            MachineLore.energyPerSecond(1200)
-    );
-    public static final SlimefunItemStack STONEWORKS_FACTORY = new SlimefunItemStack(
-            "STONEWORKS_FACTORY",
-            MaterialCompat.safe(XMaterial.BLAST_FURNACE),
-            "&8Stoneworks Factory",
-            "&7Generates cobblestone and processes it into various materials",
-            "",
-            MachineLore.energyPerSecond(240)
-    );
-    public static final SlimefunItemStack VOID_HARVESTER = new SlimefunItemStack(
-            "VOID_HARVESTER",
-            MaterialCompat.safe(XMaterial.OBSIDIAN),
-            "&8Void Harvester",
-            "&7Slowly harvests &8Void &7Bits from nothing...",
-            "",
-            MachineLore.speed(1),
-            MachineLore.energyPerSecond(120)
-    );
-    public static final SlimefunItemStack INFINITE_VOID_HARVESTER = new SlimefunItemStack(
-            "INFINITE_VOID_HARVESTER",
-            MaterialCompat.safe(XMaterial.CRYING_OBSIDIAN),
-            "&bInfinite &8Void Harvester",
-            "&7Harvests &8Void &7Bits from nothing...",
-            "",
-            MachineLore.speed(64),
-            MachineLore.energyPerSecond(12000)
-    );
+    public static final SlimefunItemStack GEAR_TRANSFORMER = new SlimefunItemStack("GEAR_TRANSFORMER", MaterialCompat.safe(XMaterial.EMERALD_BLOCK));
+    public static final SlimefunItemStack BASIC_COBBLE = new SlimefunItemStack("BASIC_COBBLE_GEN", MaterialCompat.safe(XMaterial.SMOOTH_STONE));
+    public static final SlimefunItemStack ADVANCED_COBBLE = new SlimefunItemStack("ADVANCED_COBBLE_GEN", MaterialCompat.safe(XMaterial.SMOOTH_STONE));
+    public static final SlimefunItemStack INFINITY_COBBLE = new SlimefunItemStack("INFINITY_COBBLE_GEN", MaterialCompat.safe(XMaterial.SMOOTH_STONE));
+    public static final SlimefunItemStack BASIC_OBSIDIAN = new SlimefunItemStack("BASIC_OBSIDIAN_GEN", MaterialCompat.safe(XMaterial.SMOOTH_STONE));
+    public static final SlimefunItemStack SINGULARITY_CONSTRUCTOR = new SlimefunItemStack("SINGULARITY_CONSTRUCTOR", MaterialCompat.safe(XMaterial.QUARTZ_BRICKS));
+    public static final SlimefunItemStack INFINITY_CONSTRUCTOR = new SlimefunItemStack("INFINITY_CONSTRUCTOR", MaterialCompat.safe(XMaterial.CHISELED_QUARTZ_BLOCK));
+    public static final SlimefunItemStack STONEWORKS_FACTORY = new SlimefunItemStack("STONEWORKS_FACTORY", MaterialCompat.safe(XMaterial.BLAST_FURNACE));
+    public static final SlimefunItemStack VOID_HARVESTER = new SlimefunItemStack("VOID_HARVESTER", MaterialCompat.safe(XMaterial.OBSIDIAN));
+    public static final SlimefunItemStack INFINITE_VOID_HARVESTER = new SlimefunItemStack("INFINITE_VOID_HARVESTER", MaterialCompat.safe(XMaterial.CRYING_OBSIDIAN));
 
     public static void setup(InfinityExpansion plugin) {
         new VoidHarvester(Groups.ADVANCED_MACHINES, VOID_HARVESTER, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[] {

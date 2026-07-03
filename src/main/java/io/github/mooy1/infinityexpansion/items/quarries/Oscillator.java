@@ -36,10 +36,7 @@ public final class Oscillator extends SlimefunItem {
     public static SlimefunItemStack create(Material material, double chance) {
         return new SlimefunItemStack(
                 "QUARRY_OSCILLATOR_" + material.name(),
-                material,
-                "&b" + ItemUtils.getItemName(new ItemStack(material)) + " Oscillator",
-                "&7Place in a quarry to give it",
-                "&7a " + (chance * 100) + "% chance of mining this material"
+                material
         );
     }
 

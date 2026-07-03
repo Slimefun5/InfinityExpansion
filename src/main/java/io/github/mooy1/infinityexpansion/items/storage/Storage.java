@@ -16,13 +16,7 @@ public final class Storage {
 
     private Storage() {}
 
-    public static final SlimefunItemStack STORAGE_FORGE = new SlimefunItemStack(
-            "STORAGE_FORGE",
-            MaterialCompat.safe(XMaterial.BEEHIVE),
-            "&6Storage Forge",
-            "&7Upgrades the tier of Storage Units",
-            "&7Retains stored items"
-    );
+    public static final SlimefunItemStack STORAGE_FORGE = new SlimefunItemStack("STORAGE_FORGE", MaterialCompat.safe(XMaterial.BEEHIVE));
 
     private static final int BASIC_AMOUNT = 6400;
     private static final int ADVANCED_AMOUNT = 25600;
@@ -30,36 +24,11 @@ public final class Storage {
     private static final int VOID_AMOUNT = 409600;
     private static final int INFINITY_AMOUNT = 1_600_000_000;
 
-    public static final SlimefunItemStack BASIC_STORAGE = new SlimefunItemStack(
-            "BASIC_STORAGE",
-            MaterialCompat.safe(XMaterial.OAK_WOOD),
-            "&9Basic &8Storage Unit",
-            "&6Capacity: &e" + MachineLore.format(BASIC_AMOUNT) + " &eitems"
-    );
-    public static final SlimefunItemStack ADVANCED_STORAGE = new SlimefunItemStack(
-            "ADVANCED_STORAGE",
-            MaterialCompat.safe(XMaterial.DARK_OAK_WOOD),
-            "&cAdvanced &8Storage Unit",
-            "&6Capacity: &e" + MachineLore.format(ADVANCED_AMOUNT) + " &eitems"
-    );
-    public static final SlimefunItemStack REINFORCED_STORAGE = new SlimefunItemStack(
-            "REINFORCED_STORAGE",
-            MaterialCompat.safe(XMaterial.ACACIA_WOOD),
-            "&fReinforced &8Storage Unit",
-            "&6Capacity: &e" + MachineLore.format(REINFORCED_AMOUNT) + " &eitems"
-    );
-    public static final SlimefunItemStack VOID_STORAGE = new SlimefunItemStack(
-            "VOID_STORAGE",
-            MaterialCompat.safe(XMaterial.CRIMSON_HYPHAE),
-            "&8Void &8Storage Unit",
-            "&6Capacity: &e" + MachineLore.format(VOID_AMOUNT) + " &eitems"
-    );
-    public static final SlimefunItemStack INFINITY_STORAGE = new SlimefunItemStack(
-            "INFINITY_STORAGE",
-            MaterialCompat.safe(XMaterial.WARPED_HYPHAE),
-            "&bInfinity &8Storage Unit",
-            "&6Capacity: &e" + MachineLore.format(INFINITY_AMOUNT) + " &eitems"
-    );
+    public static final SlimefunItemStack BASIC_STORAGE = new SlimefunItemStack("BASIC_STORAGE", MaterialCompat.safe(XMaterial.OAK_WOOD));
+    public static final SlimefunItemStack ADVANCED_STORAGE = new SlimefunItemStack("ADVANCED_STORAGE", MaterialCompat.safe(XMaterial.DARK_OAK_WOOD));
+    public static final SlimefunItemStack REINFORCED_STORAGE = new SlimefunItemStack("REINFORCED_STORAGE", MaterialCompat.safe(XMaterial.ACACIA_WOOD));
+    public static final SlimefunItemStack VOID_STORAGE = new SlimefunItemStack("VOID_STORAGE", MaterialCompat.safe(XMaterial.CRIMSON_HYPHAE));
+    public static final SlimefunItemStack INFINITY_STORAGE = new SlimefunItemStack("INFINITY_STORAGE", MaterialCompat.safe(XMaterial.WARPED_HYPHAE));
 
     public static void setup(InfinityExpansion plugin) {
         new StorageForge(Groups.STORAGE, STORAGE_FORGE, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[] {

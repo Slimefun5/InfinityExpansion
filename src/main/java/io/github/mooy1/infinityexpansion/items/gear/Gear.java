@@ -34,89 +34,19 @@ public final class Gear {
 
     private Gear() {}
 
-    public static final SlimefunItemStack ENDER_FLAME = new SlimefunItemStack(
-            "ENDER_FLAME",
-            MaterialCompat.safe(XMaterial.ENCHANTED_BOOK),
-            "&cEnder Flame"
-    );
-    public static final SlimefunItemStack CROWN = new SlimefunItemStack(
-            "INFINITY_CROWN",
-            MaterialCompat.safe(XMaterial.NETHERITE_HELMET),
-            "&bInfinity Crown",
-            "&7Night Vision I",
-            "&7Conduit Power I",
-            "&7Elytra Crash Immunity"
-    );
-    public static final SlimefunItemStack CHESTPLATE = new SlimefunItemStack(
-            "INFINITY_CHESTPLATE",
-            MaterialCompat.safe(XMaterial.NETHERITE_CHESTPLATE),
-            "&bInfinity Chestplate",
-            "&7Strength II",
-            "&7Resistance I",
-            "&7Fire Resistance I",
-            "&7Bee Sting Immunity"
-    );
-    public static final SlimefunItemStack LEGGINGS = new SlimefunItemStack(
-            "INFINITY_LEGGINGS",
-            MaterialCompat.safe(XMaterial.NETHERITE_LEGGINGS),
-            "&bInfinity Leggings",
-            "&7Haste III",
-            "&7Regeneration I",
-            "&7Saturation I",
-            "&7Radiation Immunity"
-    );
-    public static final SlimefunItemStack BOOTS = new SlimefunItemStack(
-            "INFINITY_BOOTS",
-            MaterialCompat.safe(XMaterial.NETHERITE_BOOTS),
-            "&bInfinity Boots",
-            "&7Speed III",
-            "&7Dolphins Grace I"
-    );
-    public static final SlimefunItemStack INFINITY_MATRIX = new SlimefunItemStack(
-            "INFINITY_MATRIX",
-            MaterialCompat.safe(XMaterial.NETHER_STAR),
-            "&fInfinity Matrix",
-            "&6Gives Unlimited Flight",
-            "&7Right-Click to enable/disable and claim",
-            "&7Crouch and Right-Click to remove ownership",
-            "&bSoulbound"
-    );
-    public static final SlimefunItemStack SHIELD = new SlimefunItemStack(
-            "INFINITY_SHIELD",
-            MaterialCompat.safe(XMaterial.SHIELD),
-            "&bCosmic Aegis"
-    );
-    public static final SlimefunItemStack BLADE = new SlimefunItemStack(
-            "INFINITY_BLADE",
-            MaterialCompat.safe(XMaterial.NETHERITE_SWORD),
-            "&bBlade of the Cosmos"
-    );
-    public static final SlimefunItemStack PICKAXE = new SlimefunItemStack(
-            "INFINITY_PICKAXE",
-            MaterialCompat.safe(XMaterial.NETHERITE_PICKAXE),
-            "&9World Breaker"
-    );
-    public static final SlimefunItemStack AXE = new SlimefunItemStack(
-            "INFINITY_AXE",
-            MaterialCompat.safe(XMaterial.NETHERITE_AXE),
-            "&4Nature's Ruin"
-    );
-    public static final SlimefunItemStack SHOVEL = new SlimefunItemStack(
-            "INFINITY_SHOVEL",
-            MaterialCompat.safe(XMaterial.NETHERITE_SHOVEL),
-            "&aMountain Eater"
-    );
-    public static final SlimefunItemStack BOW = new SlimefunItemStack(
-            "INFINITY_BOW",
-            MaterialCompat.safe(XMaterial.BOW),
-            "&6Sky Piercer"
-    );
-    public static final SlimefunItemStack VEIN_MINER_RUNE = new SlimefunItemStack(
-            "VEIN_MINER_RUNE",
-            MaterialCompat.safe(XMaterial.DIAMOND),
-            "&bVein Miner Rune",
-            "&7Upgrades a tool to vein-mine certain materials"
-    );
+    public static final SlimefunItemStack ENDER_FLAME = new SlimefunItemStack("ENDER_FLAME", MaterialCompat.safe(XMaterial.ENCHANTED_BOOK));
+    public static final SlimefunItemStack CROWN = new SlimefunItemStack("INFINITY_CROWN", MaterialCompat.safe(XMaterial.NETHERITE_HELMET));
+    public static final SlimefunItemStack CHESTPLATE = new SlimefunItemStack("INFINITY_CHESTPLATE", MaterialCompat.safe(XMaterial.NETHERITE_CHESTPLATE));
+    public static final SlimefunItemStack LEGGINGS = new SlimefunItemStack("INFINITY_LEGGINGS", MaterialCompat.safe(XMaterial.NETHERITE_LEGGINGS));
+    public static final SlimefunItemStack BOOTS = new SlimefunItemStack("INFINITY_BOOTS", MaterialCompat.safe(XMaterial.NETHERITE_BOOTS));
+    public static final SlimefunItemStack INFINITY_MATRIX = new SlimefunItemStack("INFINITY_MATRIX", MaterialCompat.safe(XMaterial.NETHER_STAR));
+    public static final SlimefunItemStack SHIELD = new SlimefunItemStack("INFINITY_SHIELD", MaterialCompat.safe(XMaterial.SHIELD));
+    public static final SlimefunItemStack BLADE = new SlimefunItemStack("INFINITY_BLADE", MaterialCompat.safe(XMaterial.NETHERITE_SWORD));
+    public static final SlimefunItemStack PICKAXE = new SlimefunItemStack("INFINITY_PICKAXE", MaterialCompat.safe(XMaterial.NETHERITE_PICKAXE));
+    public static final SlimefunItemStack AXE = new SlimefunItemStack("INFINITY_AXE", MaterialCompat.safe(XMaterial.NETHERITE_AXE));
+    public static final SlimefunItemStack SHOVEL = new SlimefunItemStack("INFINITY_SHOVEL", MaterialCompat.safe(XMaterial.NETHERITE_SHOVEL));
+    public static final SlimefunItemStack BOW = new SlimefunItemStack("INFINITY_BOW", MaterialCompat.safe(XMaterial.BOW));
+    public static final SlimefunItemStack VEIN_MINER_RUNE = new SlimefunItemStack("VEIN_MINER_RUNE", MaterialCompat.safe(XMaterial.DIAMOND));
 
     public static void setup(InfinityExpansion plugin) {
         addInfinityEnchants(plugin,

@@ -69,102 +69,17 @@ public final class SlimefunExtension {
     private static final int STAR_ENERGY = 1800;
     private static final int STAR_BUFFER = 90000;
 
-    public static final SlimefunItemStack ADVANCED_GEO_MINER = new SlimefunItemStack(
-            "ADVANCED_GEO_MINER",
-            HeadTexture.GEO_MINER,
-            "&cAdvanced &fGeoMiner",
-            "&7A faster geo-miner",
-            "",
-            MachineLore.speed(SlimefunExtension.ADVANCED_GEO_SPEED),
-            MachineLore.energyPerSecond(SlimefunExtension.ADVANCED_GEO_ENERGY)
-    );
-    public static final SlimefunItemStack ADVANCED_SMELTERY = new SlimefunItemStack(
-            "ADVANCED_SMELTERY",
-            MaterialCompat.safe(XMaterial.FURNACE),
-            "&cAdvanced &7Smeltery",
-            "&7A faster smeltery",
-            "",
-            MachineLore.speed(ADVANCED_SMELTERY_SPEED),
-            MachineLore.energyPerSecond(ADVANCED_SMELTERY_ENERGY)
-    );
-    public static final SlimefunItemStack ADVANCED_CHARGER = new SlimefunItemStack(
-            "ADVANCED_CHARGER",
-            MaterialCompat.safe(XMaterial.HONEYCOMB_BLOCK),
-            "&cAdvanced Charger",
-            "&7Quickly charges items",
-            "",
-            MachineLore.speed(SlimefunExtension.ADVANCED_CHARGER_SPEED),
-            MachineLore.energyPerSecond(SlimefunExtension.ADVANCED_CHARGER_ENERGY)
-    );
-    public static final SlimefunItemStack INFINITY_CHARGER = new SlimefunItemStack(
-            "INFINITY_CHARGER",
-            MaterialCompat.safe(XMaterial.SEA_LANTERN),
-            "&bInfinity Charger",
-            "&7Instantly charges items",
-            "",
-            MachineLore.speed(SlimefunExtension.INFINITY_CHARGER_SPEED),
-            MachineLore.energy(SlimefunExtension.INFINITY_CHARGER_ENERGY) + "per use"
-    );
-    public static final SlimefunItemStack ADVANCED_NETHER_STAR_REACTOR = new SlimefunItemStack(
-            "ADVANCED_NETHER_STAR_REACTOR",
-            HeadTexture.NETHER_STAR_REACTOR,
-            "&cAdvanced Nether Star Reactor",
-            "&fRuns on Nether Stars",
-            "&bMust be surrounded by Water",
-            "&bMust be supplied with Nether Ice Coolant Cells",
-            "&4Causes nearby Entities to get Withered",
-            "",
-            MachineLore.energyBuffer(SlimefunExtension.STAR_BUFFER),
-            MachineLore.energyPerSecond(SlimefunExtension.STAR_ENERGY)
-    );
-    public static final SlimefunItemStack ADVANCED_ENCHANTER = new SlimefunItemStack(
-            "ADVANCED_ENCHANTER",
-            MaterialCompat.safe(XMaterial.ENCHANTING_TABLE),
-            "&cAdvanced Enchanter",
-            "",
-            MachineLore.speed(SlimefunExtension.ADVANCED_EN_SPEED),
-            MachineLore.energyPerSecond(SlimefunExtension.ADVANCED_EN_ENERGY)
-    );
-    public static final SlimefunItemStack ADVANCED_DISENCHANTER = new SlimefunItemStack(
-            "ADVANCED_DISENCHANTER",
-            MaterialCompat.safe(XMaterial.ENCHANTING_TABLE),
-            "&cAdvanced Disenchanter",
-            "",
-            MachineLore.speed(SlimefunExtension.ADVANCED_DIS_SPEED),
-            MachineLore.energyPerSecond(SlimefunExtension.ADVANCED_DIS_ENERGY)
-    );
-    public static final SlimefunItemStack INFINITY_ENCHANTER = new SlimefunItemStack(
-            "INFINITY_ENCHANTER",
-            MaterialCompat.safe(XMaterial.ENCHANTING_TABLE),
-            "&bInfinity Enchanter",
-            "",
-            MachineLore.speed(SlimefunExtension.INFINITY_EN_SPEED),
-            MachineLore.energy(SlimefunExtension.INFINITY_EN_ENERGY) + "per use"
-    );
-    public static final SlimefunItemStack INFINITY_DISENCHANTER = new SlimefunItemStack(
-            "INFINITY_DISENCHANTER",
-            MaterialCompat.safe(XMaterial.ENCHANTING_TABLE),
-            "&bInfinity Disenchanter",
-            "",
-            MachineLore.speed(SlimefunExtension.INFINITY_DIS_SPEED),
-            MachineLore.energy(SlimefunExtension.INFINITY_DIS_ENERGY) + "per use"
-    );
-    public static final SlimefunItemStack INFINITY_CAPACITOR = new SlimefunItemStack(
-            "INFINITY_CAPACITOR",
-            HeadTexture.CAPACITOR_25,
-            "&bInfinite Capacitor",
-            "&c&oDo not use more than ",
-            "&c&o1 per energy network",
-            "",
-            "&8\u21E8 &e\u26A1 " + MachineLore.format(INFINITY_CAPACITY) + " &7J Capacity"
-    );
-    public static final SlimefunItemStack VOID_CAPACITOR = new SlimefunItemStack(
-            "VOID_CAPACITOR",
-            HeadTexture.CAPACITOR_25,
-            "&8Void Capacitor",
-            "",
-            "&8\u21E8 &e\u26A1 " + MachineLore.format(VOID_CAPACITY) + " &7J Capacity"
-    );
+    public static final SlimefunItemStack ADVANCED_GEO_MINER = new SlimefunItemStack("ADVANCED_GEO_MINER", HeadTexture.GEO_MINER);
+    public static final SlimefunItemStack ADVANCED_SMELTERY = new SlimefunItemStack("ADVANCED_SMELTERY", MaterialCompat.safe(XMaterial.FURNACE));
+    public static final SlimefunItemStack ADVANCED_CHARGER = new SlimefunItemStack("ADVANCED_CHARGER", MaterialCompat.safe(XMaterial.HONEYCOMB_BLOCK));
+    public static final SlimefunItemStack INFINITY_CHARGER = new SlimefunItemStack("INFINITY_CHARGER", MaterialCompat.safe(XMaterial.SEA_LANTERN));
+    public static final SlimefunItemStack ADVANCED_NETHER_STAR_REACTOR = new SlimefunItemStack("ADVANCED_NETHER_STAR_REACTOR", HeadTexture.NETHER_STAR_REACTOR);
+    public static final SlimefunItemStack ADVANCED_ENCHANTER = new SlimefunItemStack("ADVANCED_ENCHANTER", MaterialCompat.safe(XMaterial.ENCHANTING_TABLE));
+    public static final SlimefunItemStack ADVANCED_DISENCHANTER = new SlimefunItemStack("ADVANCED_DISENCHANTER", MaterialCompat.safe(XMaterial.ENCHANTING_TABLE));
+    public static final SlimefunItemStack INFINITY_ENCHANTER = new SlimefunItemStack("INFINITY_ENCHANTER", MaterialCompat.safe(XMaterial.ENCHANTING_TABLE));
+    public static final SlimefunItemStack INFINITY_DISENCHANTER = new SlimefunItemStack("INFINITY_DISENCHANTER", MaterialCompat.safe(XMaterial.ENCHANTING_TABLE));
+    public static final SlimefunItemStack INFINITY_CAPACITOR = new SlimefunItemStack("INFINITY_CAPACITOR", HeadTexture.CAPACITOR_25);
+    public static final SlimefunItemStack VOID_CAPACITOR = new SlimefunItemStack("VOID_CAPACITOR", HeadTexture.CAPACITOR_25);
 
     public static void setup(InfinityExpansion plugin) {
 
