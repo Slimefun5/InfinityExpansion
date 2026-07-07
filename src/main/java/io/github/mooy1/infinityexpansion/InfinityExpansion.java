@@ -142,13 +142,13 @@ public final class InfinityExpansion extends AbstractAddon {
 
     private static String categoryTitle(String groupKey) {
         switch (groupKey) {
-            case "main_materials": return "&bInfinity &7Materials";
-            case "basic_machines": return "&9Basic &7Machines";
-            case "advanced_machines": return "&cAdvanced &7Machines";
-            case "storage": return "&6Storage Units";
-            case "mob_simulation": return "&bMob Simulation";
-            case "infinity_materials": return "&bInfinity &aMaterials";
-            case "infinity_cheat": return "&bInfinity &7Tier";
+            case "main_materials": return "Infinity Expansion: Materials";
+            case "basic_machines": return "Infinity Expansion: Basic Machines";
+            case "advanced_machines": return "Infinity Expansion: Advanced Machines";
+            case "storage": return "Infinity Expansion: Storage Units";
+            case "mob_simulation": return "Infinity Expansion: Mob Simulation";
+            case "infinity_materials": return "Infinity Expansion: Infinity Materials";
+            case "infinity_cheat": return "Infinity Expansion: Infinity Tier";
             default: return "&bInfinity Expansion";
         }
     }
