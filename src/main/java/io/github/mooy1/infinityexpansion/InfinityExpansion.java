@@ -149,7 +149,7 @@ public final class InfinityExpansion extends AbstractAddon {
             case "mob_simulation": return "Infinity Expansion: Mob Simulation";
             case "infinity_materials": return "Infinity Expansion: Infinity Materials";
             case "infinity_cheat": return "Infinity Expansion: Infinity Tier";
-            default: return "&bInfinity Expansion";
+            default: return "Infinity Expansion";
         }
     }
 
