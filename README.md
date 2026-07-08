@@ -20,17 +20,10 @@ InfinityExpansion adds a bunch of new machines and resources, expanding the endg
 Make a new issue or pull request on the [GitHub Issues](https://github.com/Slimefun5/InfinityExpansion/issues) page.
 
 <p>
-<<<<<<< HEAD
-  <a href="https://discord.gg/slimefun">
-    <img src="https://discordapp.com/api/guilds/565557184348422174/widget.png?style=banner3" alt="Discord Invite"/>
-  </a>
-  <a href="https://discord.gg/SqD3gg5SAU">
-=======
   <a href="https://discord.gg/CbBYZBEWdR">
     <img src="https://discordapp.com/api/guilds/565557184348422174/widget.png?style=banner3" alt="Discord Invite"/>
   </a>
   <a href="https://discord.gg/CbBYZBEWdR">
->>>>>>> origin/experimental
     <img src="https://discordapp.com/api/guilds/809178621424041997/widget.png?style=banner3" alt="Discord Invite"/>
   </a>
 </p>
