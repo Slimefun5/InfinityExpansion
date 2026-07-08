@@ -24,261 +24,54 @@ public final class Materials {
     private Materials() {}
 
 
-    public static final SlimefunItemStack INFINITE_CIRCUIT = new SlimefunItemStack(
-            "INFINITE_MACHINE_CIRCUIT",
-            MaterialCompat.safe(XMaterial.DIAMOND),
-            "&bInfinite &6Machine Circuit",
-            "&7Machine Component"
-    );
-    public static final SlimefunItemStack INFINITE_CORE = new SlimefunItemStack(
-            "INFINITE_MACHINE_CORE",
-            MaterialCompat.safe(XMaterial.DIAMOND_BLOCK),
-            "&bInfinite Machine Core",
-            "&7Machine Component"
-    );
-    public static final SlimefunItemStack MAGSTEEL_PLATE = new SlimefunItemStack(
-            "MAGSTEEL_PLATE",
-            MaterialCompat.safe(XMaterial.NETHERITE_SCRAP),
-            "&4MagSteel Plate",
-            "&7Machine Component"
-    );
-    public static final SlimefunItemStack MACHINE_PLATE = new SlimefunItemStack(
-            "MACHINE_PLATE",
-            MaterialCompat.safe(XMaterial.PAPER),
-            "&fMachine Plate",
-            "&7Machine Component"
-    );
-    public static final SlimefunItemStack MACHINE_CIRCUIT = new SlimefunItemStack(
-            "MACHINE_CIRCUIT",
-            MaterialCompat.safe(XMaterial.GOLD_INGOT),
-            "&6Machine Circuit",
-            "&7Machine Component"
-    );
+    public static final SlimefunItemStack INFINITE_CIRCUIT = new SlimefunItemStack("INFINITE_MACHINE_CIRCUIT", MaterialCompat.safe(XMaterial.DIAMOND));
+    public static final SlimefunItemStack INFINITE_CORE = new SlimefunItemStack("INFINITE_MACHINE_CORE", MaterialCompat.safe(XMaterial.DIAMOND_BLOCK));
+    public static final SlimefunItemStack MAGSTEEL_PLATE = new SlimefunItemStack("MAGSTEEL_PLATE", MaterialCompat.safe(XMaterial.NETHERITE_SCRAP));
+    public static final SlimefunItemStack MACHINE_PLATE = new SlimefunItemStack("MACHINE_PLATE", MaterialCompat.safe(XMaterial.PAPER));
+    public static final SlimefunItemStack MACHINE_CIRCUIT = new SlimefunItemStack("MACHINE_CIRCUIT", MaterialCompat.safe(XMaterial.GOLD_INGOT));
 
-    public static final SlimefunItemStack MACHINE_CORE = new SlimefunItemStack(
-            "MACHINE_CORE",
-            MaterialCompat.safe(XMaterial.IRON_BLOCK),
-            "&fMachine Core",
-            "&7Machine Component"
-    );
-    public static final SlimefunItemStack VOID_BIT = new SlimefunItemStack(
-            "VOID_BIT",
-            MaterialCompat.safe(XMaterial.IRON_NUGGET),
-            "&8Void Bit",
-            "&7&oIt feels... empty"
-    );
-    public static final SlimefunItemStack VOID_DUST = new SlimefunItemStack(
-            "VOID_DUST",
-            MaterialCompat.safe(XMaterial.GUNPOWDER),
-            "&8Void Dust",
-            "&7&oIts starting to take form..."
-    );
-    public static final SlimefunItemStack VOID_INGOT = new SlimefunItemStack(
-            "VOID_INGOT",
-            MaterialCompat.safe(XMaterial.NETHERITE_INGOT),
-            "&8Void Ingot",
-            "&7&oThe emptiness of the cosmos",
-            "&7&oin the palm of your hand"
-    );
-    public static final SlimefunItemStack COBBLE_1 = new SlimefunItemStack(
-            "COMPRESSED_COBBLESTONE_1",
-            MaterialCompat.safe(XMaterial.ANDESITE),
-            "&7Single Compressed Cobblestone",
-            "&89 cobblestone combined"
-    );
-    public static final SlimefunItemStack COBBLE_2 = new SlimefunItemStack(
-            "COMPRESSED_COBBLESTONE_2",
-            MaterialCompat.safe(XMaterial.ANDESITE),
-            "&7Double Compressed Cobblestone",
-            "&881 cobblestone combined"
-    );
-    public static final SlimefunItemStack COBBLE_3 = new SlimefunItemStack(
-            "COMPRESSED_COBBLESTONE_3",
-            MaterialCompat.safe(XMaterial.STONE),
-            "&7Triple Compressed Cobblestone",
-            "&8729 cobblestone combined"
-    );
-    public static final SlimefunItemStack COBBLE_4 = new SlimefunItemStack(
-            "COMPRESSED_COBBLESTONE_4",
-            MaterialCompat.safe(XMaterial.STONE),
-            "&7Quadruple Compressed Cobblestone",
-            "&86,561 cobblestone combined"
-    );
-    public static final SlimefunItemStack COBBLE_5 = new SlimefunItemStack(
-            "COMPRESSED_COBBLESTONE_5",
-            MaterialCompat.safe(XMaterial.POLISHED_ANDESITE),
-            "&7Quintuple Compressed Cobblestone",
-            "&859,049 cobblestone combined"
-    );
-    public static final SlimefunItemStack MAGSTEEL = new SlimefunItemStack(
-            "MAGSTEEL",
-            MaterialCompat.safe(XMaterial.BRICK),
-            "&4MagSteel"
-    );
-    public static final SlimefunItemStack MAGNONIUM = new SlimefunItemStack(
-            "MAGNONIUM",
-            MaterialCompat.safe(XMaterial.NETHER_BRICK),
-            "&5Magnonium"
-    );
-    public static final SlimefunItemStack TITANIUM = new SlimefunItemStack(
-            "TITANIUM",
-            MaterialCompat.safe(XMaterial.IRON_INGOT),
-            "&7Titanium"
-    );
-    public static final SlimefunItemStack MYTHRIL = new SlimefunItemStack(
-            "MYTHRIL",
-            MaterialCompat.safe(XMaterial.IRON_INGOT),
-            "&bMythril"
-    );
-    public static final SlimefunItemStack ADAMANTITE = new SlimefunItemStack(
-            "ADAMANTITE",
-            MaterialCompat.safe(XMaterial.BRICK),
-            "&dAdamantite"
-    );
-    public static final SlimefunItemStack INFINITE_INGOT = new SlimefunItemStack(
-            "INFINITE_INGOT",
-            MaterialCompat.safe(XMaterial.IRON_INGOT),
-            "&bInfinity Ingot", // &dI&cn&6f&ei&an&bi&3t&9y &fIngot
-            "&7&oThe fury of the cosmos",
-            "&7&oin the palm of your hand"
-    );
-    public static final SlimefunItemStack FORTUNE_SINGULARITY = new SlimefunItemStack(
-            "FORTUNE_SINGULARITY",
-            MaterialCompat.safe(XMaterial.NETHER_STAR),
-            "&6Fortune Singularity"
-    );
-    public static final SlimefunItemStack EARTH_SINGULARITY = new SlimefunItemStack(
-            "EARTH_SINGULARITY",
-            MaterialCompat.safe(XMaterial.NETHER_STAR),
-            "&aEarth Singularity"
-    );
-    public static final SlimefunItemStack METAL_SINGULARITY = new SlimefunItemStack(
-            "METAL_SINGULARITY",
-            MaterialCompat.safe(XMaterial.NETHER_STAR),
-            "&8Metal Singularity"
-    );
-    public static final SlimefunItemStack MAGIC_SINGULARITY = new SlimefunItemStack(
-            "MAGIC_SINGULARITY",
-            MaterialCompat.safe(XMaterial.NETHER_STAR),
-            "&dMagic Singularity"
-    );
-    public static final SlimefunItemStack ENDER_ESSENCE = new SlimefunItemStack(
-            "END_ESSENCE",
-            MaterialCompat.safe(XMaterial.BLAZE_POWDER),
-            "&5Ender Essence",
-            "&8&oFrom the depths of the end..."
-    );
+    public static final SlimefunItemStack MACHINE_CORE = new SlimefunItemStack("MACHINE_CORE", MaterialCompat.safe(XMaterial.IRON_BLOCK));
+    public static final SlimefunItemStack VOID_BIT = new SlimefunItemStack("VOID_BIT", MaterialCompat.safe(XMaterial.IRON_NUGGET));
+    public static final SlimefunItemStack VOID_DUST = new SlimefunItemStack("VOID_DUST", MaterialCompat.safe(XMaterial.GUNPOWDER));
+    public static final SlimefunItemStack VOID_INGOT = new SlimefunItemStack("VOID_INGOT", MaterialCompat.safe(XMaterial.NETHERITE_INGOT));
+    public static final SlimefunItemStack COBBLE_1 = new SlimefunItemStack("COMPRESSED_COBBLESTONE_1", MaterialCompat.safe(XMaterial.ANDESITE));
+    public static final SlimefunItemStack COBBLE_2 = new SlimefunItemStack("COMPRESSED_COBBLESTONE_2", MaterialCompat.safe(XMaterial.ANDESITE));
+    public static final SlimefunItemStack COBBLE_3 = new SlimefunItemStack("COMPRESSED_COBBLESTONE_3", MaterialCompat.safe(XMaterial.STONE));
+    public static final SlimefunItemStack COBBLE_4 = new SlimefunItemStack("COMPRESSED_COBBLESTONE_4", MaterialCompat.safe(XMaterial.STONE));
+    public static final SlimefunItemStack COBBLE_5 = new SlimefunItemStack("COMPRESSED_COBBLESTONE_5", MaterialCompat.safe(XMaterial.POLISHED_ANDESITE));
+    public static final SlimefunItemStack MAGSTEEL = new SlimefunItemStack("MAGSTEEL", MaterialCompat.safe(XMaterial.BRICK));
+    public static final SlimefunItemStack MAGNONIUM = new SlimefunItemStack("MAGNONIUM", MaterialCompat.safe(XMaterial.NETHER_BRICK));
+    public static final SlimefunItemStack TITANIUM = new SlimefunItemStack("TITANIUM", MaterialCompat.safe(XMaterial.IRON_INGOT));
+    public static final SlimefunItemStack MYTHRIL = new SlimefunItemStack("MYTHRIL", MaterialCompat.safe(XMaterial.IRON_INGOT));
+    public static final SlimefunItemStack ADAMANTITE = new SlimefunItemStack("ADAMANTITE", MaterialCompat.safe(XMaterial.BRICK));
+    public static final SlimefunItemStack INFINITE_INGOT = new SlimefunItemStack("INFINITE_INGOT", MaterialCompat.safe(XMaterial.IRON_INGOT));
+    public static final SlimefunItemStack FORTUNE_SINGULARITY = new SlimefunItemStack("FORTUNE_SINGULARITY", MaterialCompat.safe(XMaterial.NETHER_STAR));
+    public static final SlimefunItemStack EARTH_SINGULARITY = new SlimefunItemStack("EARTH_SINGULARITY", MaterialCompat.safe(XMaterial.NETHER_STAR));
+    public static final SlimefunItemStack METAL_SINGULARITY = new SlimefunItemStack("METAL_SINGULARITY", MaterialCompat.safe(XMaterial.NETHER_STAR));
+    public static final SlimefunItemStack MAGIC_SINGULARITY = new SlimefunItemStack("MAGIC_SINGULARITY", MaterialCompat.safe(XMaterial.NETHER_STAR));
+    public static final SlimefunItemStack ENDER_ESSENCE = new SlimefunItemStack("END_ESSENCE", MaterialCompat.safe(XMaterial.BLAZE_POWDER));
 
 
-    public static final SlimefunItemStack COPPER_SINGULARITY = new SlimefunItemStack(
-            "COPPER_SINGULARITY",
-            MaterialCompat.safe(XMaterial.BRICKS),
-            "&6Copper Singularity"
-    );
-    public static final SlimefunItemStack ZINC_SINGULARITY = new SlimefunItemStack(
-            "ZINC_SINGULARITY",
-            MaterialCompat.safe(XMaterial.IRON_BLOCK),
-            "&7Zinc Singularity"
-    );
-    public static final SlimefunItemStack TIN_SINGULARITY = new SlimefunItemStack(
-            "TIN_SINGULARITY",
-            MaterialCompat.safe(XMaterial.IRON_BLOCK),
-            "&7Tin Singularity"
-    );
-    public static final SlimefunItemStack ALUMINUM_SINGULARITY = new SlimefunItemStack(
-            "ALUMINUM_SINGULARITY",
-            MaterialCompat.safe(XMaterial.IRON_BLOCK),
-            "&7Aluminum Singularity"
-    );
-    public static final SlimefunItemStack SILVER_SINGULARITY = new SlimefunItemStack(
-            "SILVER_SINGULARITY",
-            MaterialCompat.safe(XMaterial.IRON_BLOCK),
-            "&7Silver Singularity"
-    );
-    public static final SlimefunItemStack MAGNESIUM_SINGULARITY = new SlimefunItemStack(
-            "MAGNESIUM_SINGULARITY",
-            MaterialCompat.safe(XMaterial.NETHER_BRICKS),
-            "&5Magnesium Singularity"
-    );
-    public static final SlimefunItemStack LEAD_SINGULARITY = new SlimefunItemStack(
-            "LEAD_SINGULARITY",
-            MaterialCompat.safe(XMaterial.IRON_BLOCK),
-            "&8Lead Singularity"
-    );
-    public static final SlimefunItemStack GOLD_SINGULARITY = new SlimefunItemStack(
-            "GOLD_SINGULARITY",
-            MaterialCompat.safe(XMaterial.GOLD_BLOCK),
-            "&6Gold Singularity"
-    );
-    public static final SlimefunItemStack IRON_SINGULARITY = new SlimefunItemStack(
-            "IRON_SINGULARITY",
-            MaterialCompat.safe(XMaterial.IRON_BLOCK),
-            "&7Iron Singularity"
-    );
-    public static final SlimefunItemStack DIAMOND_SINGULARITY = new SlimefunItemStack(
-            "DIAMOND_SINGULARITY",
-            MaterialCompat.safe(XMaterial.DIAMOND_BLOCK),
-            "&bDiamond Singularity"
-    );
-    public static final SlimefunItemStack EMERALD_SINGULARITY = new SlimefunItemStack(
-            "EMERALD_SINGULARITY",
-            MaterialCompat.safe(XMaterial.EMERALD_BLOCK),
-            "&aEmerald Singularity"
-    );
-    public static final SlimefunItemStack NETHERITE_SINGULARITY = new SlimefunItemStack(
-            "NETHERITE_SINGULARITY",
-            MaterialCompat.safe(XMaterial.NETHERITE_BLOCK),
-            "&4Netherite Singularity"
-    );
-    public static final SlimefunItemStack COAL_SINGULARITY = new SlimefunItemStack(
-            "COAL_SINGULARITY",
-            MaterialCompat.safe(XMaterial.COAL_BLOCK),
-            "&8Coal Singularity"
-    );
-    public static final SlimefunItemStack REDSTONE_SINGULARITY = new SlimefunItemStack(
-            "REDSTONE_SINGULARITY",
-            MaterialCompat.safe(XMaterial.REDSTONE_BLOCK),
-            "&cRedstone Singularity"
-    );
-    public static final SlimefunItemStack LAPIS_SINGULARITY = new SlimefunItemStack(
-            "LAPIS_SINGULARITY",
-            MaterialCompat.safe(XMaterial.LAPIS_BLOCK),
-            "&9Lapis Singularity"
-    );
-    public static final SlimefunItemStack QUARTZ_SINGULARITY = new SlimefunItemStack(
-            "QUARTZ_SINGULARITY",
-            MaterialCompat.safe(XMaterial.QUARTZ_BLOCK),
-            "&fQuartz Singularity"
-    );
-    public static final SlimefunItemStack INFINITY_SINGULARITY = new SlimefunItemStack(
-            "INFINITY_SINGULARITY",
-            MaterialCompat.safe(XMaterial.SMOOTH_QUARTZ),
-            "&bInfinity Singularity"
-    );
-    public static final SlimefunItemStack BASIC_STRAINER = new SlimefunItemStack(
-            "BASIC_STRAINER",
-            MaterialCompat.safe(XMaterial.FISHING_ROD),
-            "&9Basic Strainer",
-            "&7Collects materials from flowing water",
-            "",
-            LoreBuilder.speed(1)
-    );
-    public static final SlimefunItemStack ADVANCED_STRAINER = new SlimefunItemStack(
-            "ADVANCED_STRAINER",
-            MaterialCompat.safe(XMaterial.FISHING_ROD),
-            "&cAdvanced Strainer",
-            "&7Collects materials from flowing water",
-            "",
-            LoreBuilder.speed(4)
-    );
-    public static final SlimefunItemStack REINFORCED_STRAINER = new SlimefunItemStack(
-            "REINFORCED_STRAINER",
-            MaterialCompat.safe(XMaterial.FISHING_ROD),
-            "&fReinforced Strainer",
-            "&7Collects materials from flowing water",
-            "",
-            LoreBuilder.speed(20)
-    );
+    public static final SlimefunItemStack COPPER_SINGULARITY = new SlimefunItemStack("COPPER_SINGULARITY", MaterialCompat.safe(XMaterial.BRICKS));
+    public static final SlimefunItemStack ZINC_SINGULARITY = new SlimefunItemStack("ZINC_SINGULARITY", MaterialCompat.safe(XMaterial.IRON_BLOCK));
+    public static final SlimefunItemStack TIN_SINGULARITY = new SlimefunItemStack("TIN_SINGULARITY", MaterialCompat.safe(XMaterial.IRON_BLOCK));
+    public static final SlimefunItemStack ALUMINUM_SINGULARITY = new SlimefunItemStack("ALUMINUM_SINGULARITY", MaterialCompat.safe(XMaterial.IRON_BLOCK));
+    public static final SlimefunItemStack SILVER_SINGULARITY = new SlimefunItemStack("SILVER_SINGULARITY", MaterialCompat.safe(XMaterial.IRON_BLOCK));
+    public static final SlimefunItemStack MAGNESIUM_SINGULARITY = new SlimefunItemStack("MAGNESIUM_SINGULARITY", MaterialCompat.safe(XMaterial.NETHER_BRICKS));
+    public static final SlimefunItemStack LEAD_SINGULARITY = new SlimefunItemStack("LEAD_SINGULARITY", MaterialCompat.safe(XMaterial.IRON_BLOCK));
+    public static final SlimefunItemStack GOLD_SINGULARITY = new SlimefunItemStack("GOLD_SINGULARITY", MaterialCompat.safe(XMaterial.GOLD_BLOCK));
+    public static final SlimefunItemStack IRON_SINGULARITY = new SlimefunItemStack("IRON_SINGULARITY", MaterialCompat.safe(XMaterial.IRON_BLOCK));
+    public static final SlimefunItemStack DIAMOND_SINGULARITY = new SlimefunItemStack("DIAMOND_SINGULARITY", MaterialCompat.safe(XMaterial.DIAMOND_BLOCK));
+    public static final SlimefunItemStack EMERALD_SINGULARITY = new SlimefunItemStack("EMERALD_SINGULARITY", MaterialCompat.safe(XMaterial.EMERALD_BLOCK));
+    public static final SlimefunItemStack NETHERITE_SINGULARITY = new SlimefunItemStack("NETHERITE_SINGULARITY", MaterialCompat.safe(XMaterial.NETHERITE_BLOCK));
+    public static final SlimefunItemStack COAL_SINGULARITY = new SlimefunItemStack("COAL_SINGULARITY", MaterialCompat.safe(XMaterial.COAL_BLOCK));
+    public static final SlimefunItemStack REDSTONE_SINGULARITY = new SlimefunItemStack("REDSTONE_SINGULARITY", MaterialCompat.safe(XMaterial.REDSTONE_BLOCK));
+    public static final SlimefunItemStack LAPIS_SINGULARITY = new SlimefunItemStack("LAPIS_SINGULARITY", MaterialCompat.safe(XMaterial.LAPIS_BLOCK));
+    public static final SlimefunItemStack QUARTZ_SINGULARITY = new SlimefunItemStack("QUARTZ_SINGULARITY", MaterialCompat.safe(XMaterial.QUARTZ_BLOCK));
+    public static final SlimefunItemStack INFINITY_SINGULARITY = new SlimefunItemStack("INFINITY_SINGULARITY", MaterialCompat.safe(XMaterial.SMOOTH_QUARTZ));
+    public static final SlimefunItemStack BASIC_STRAINER = new SlimefunItemStack("BASIC_STRAINER", MaterialCompat.safe(XMaterial.FISHING_ROD));
+    public static final SlimefunItemStack ADVANCED_STRAINER = new SlimefunItemStack("ADVANCED_STRAINER", MaterialCompat.safe(XMaterial.FISHING_ROD));
+    public static final SlimefunItemStack REINFORCED_STRAINER = new SlimefunItemStack("REINFORCED_STRAINER", MaterialCompat.safe(XMaterial.FISHING_ROD));
 
     public static void setup(InfinityExpansion plugin) {
         new EnderEssence(Groups.MAIN_MATERIALS, ENDER_ESSENCE, new NamespacedKey(plugin, "ender_essence")).register(plugin);

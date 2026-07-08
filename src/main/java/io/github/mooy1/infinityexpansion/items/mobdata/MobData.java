@@ -25,29 +25,9 @@ public final class MobData {
     private static final int CHAMBER_ENERGY = 150;
     private static final int INFUSER_ENERGY = 20000;
 
-    public static final SlimefunItemStack EMPTY_DATA_CARD = new SlimefunItemStack(
-            "EMPTY_DATA_CARD",
-            MaterialCompat.safe(XMaterial.CHAINMAIL_CHESTPLATE),
-            "&8Empty Data Card",
-            "&7Infuse with a mob's items to fill"
-    );
-    public static final SlimefunItemStack INFUSER = new SlimefunItemStack(
-            "DATA_INFUSER",
-            MaterialCompat.safe(XMaterial.LODESTONE),
-            "&8Mob Data Infuser",
-            "&7Infused empty data cards with mob items",
-            "",
-            MachineLore.energy(INFUSER_ENERGY) + "per use"
-    );
-    public static final SlimefunItemStack CHAMBER = new SlimefunItemStack(
-            "MOB_SIMULATION_CHAMBER",
-            MaterialCompat.safe(XMaterial.GILDED_BLACKSTONE),
-            "&8Mob Simulation Chamber",
-            "&7Use mob data cards to activate",
-            "",
-            MachineLore.energyBuffer(CHAMBER_BUFFER),
-            MachineLore.energyPerSecond(CHAMBER_ENERGY)
-    );
+    public static final SlimefunItemStack EMPTY_DATA_CARD = new SlimefunItemStack("EMPTY_DATA_CARD", MaterialCompat.safe(XMaterial.CHAINMAIL_CHESTPLATE));
+    public static final SlimefunItemStack INFUSER = new SlimefunItemStack("DATA_INFUSER", MaterialCompat.safe(XMaterial.LODESTONE));
+    public static final SlimefunItemStack CHAMBER = new SlimefunItemStack("MOB_SIMULATION_CHAMBER", MaterialCompat.safe(XMaterial.GILDED_BLACKSTONE));
 
     public static final SlimefunItemStack COW = MobDataCard.create("Cow", MobDataTier.PASSIVE);
     public static final SlimefunItemStack SHEEP = MobDataCard.create("Sheep", MobDataTier.PASSIVE);

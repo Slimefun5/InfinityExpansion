@@ -25,42 +25,10 @@ public final class Quarries {
 
     private Quarries() {}
 
-    public static final SlimefunItemStack BASIC_QUARRY = new SlimefunItemStack(
-            "BASIC_QUARRY",
-            MaterialCompat.safe(XMaterial.CHISELED_SANDSTONE),
-            "&9Basic Quarry",
-            "&7Automatically mines overworld ores",
-            "",
-            MachineLore.speed(1),
-            MachineLore.energyPerSecond(300)
-    );
-    public static final SlimefunItemStack ADVANCED_QUARRY = new SlimefunItemStack(
-            "ADVANCED_QUARRY",
-            MaterialCompat.safe(XMaterial.CHISELED_RED_SANDSTONE),
-            "&cAdvanced Quarry",
-            "&7Automatically mines overworld and nether ores",
-            "",
-            MachineLore.speed(2),
-            MachineLore.energyPerSecond(900)
-    );
-    public static final SlimefunItemStack VOID_QUARRY = new SlimefunItemStack(
-            "VOID_QUARRY",
-            MaterialCompat.safe(XMaterial.CHISELED_NETHER_BRICKS),
-            "&8Void Quarry",
-            "&7Automatically mines overworld and nether ores",
-            "",
-            MachineLore.speed(6),
-            MachineLore.energyPerSecond(3600)
-    );
-    public static final SlimefunItemStack INFINITY_QUARRY = new SlimefunItemStack(
-            "INFINITY_QUARRY",
-            MaterialCompat.safe(XMaterial.CHISELED_POLISHED_BLACKSTONE),
-            "&bInfinity Quarry",
-            "&7Automatically mines overworld and nether ores",
-            "",
-            MachineLore.speed(64),
-            MachineLore.energyPerSecond(36000)
-    );
+    public static final SlimefunItemStack BASIC_QUARRY = new SlimefunItemStack("BASIC_QUARRY", MaterialCompat.safe(XMaterial.CHISELED_SANDSTONE));
+    public static final SlimefunItemStack ADVANCED_QUARRY = new SlimefunItemStack("ADVANCED_QUARRY", MaterialCompat.safe(XMaterial.CHISELED_RED_SANDSTONE));
+    public static final SlimefunItemStack VOID_QUARRY = new SlimefunItemStack("VOID_QUARRY", MaterialCompat.safe(XMaterial.CHISELED_NETHER_BRICKS));
+    public static final SlimefunItemStack INFINITY_QUARRY = new SlimefunItemStack("INFINITY_QUARRY", MaterialCompat.safe(XMaterial.CHISELED_POLISHED_BLACKSTONE));
     public static final double DIAMOND_CHANCE = getOscillatorChance("diamond");
     public static final double REDSTONE_CHANCE = getOscillatorChance("redstone");
     public static final double LAPIS_CHANCE = getOscillatorChance("lapis");

@@ -32,11 +32,7 @@ public final class MobDataCard extends SlimefunItem implements RecipeDisplayItem
     public static SlimefunItemStack create(String name, MobDataTier tier) {
         return new SlimefunItemStack(
                 name.toUpperCase(Locale.ROOT).replace(" ", "_") + "_DATA_CARD",
-                tier.material,
-                "&b" + name + " Data Card",
-                "&7Place in a mob simulation chamber to activate",
-                "",
-                MachineLore.energyPerSecond(tier.energy)
+                tier.material
         );
     }
 
