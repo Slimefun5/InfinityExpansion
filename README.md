@@ -59,7 +59,7 @@ plugins {
 }
 
 dependencies {
-    "githubCompileOnly"("Slimefun5:InfinityExpansion:v1.1.3.2")
+    "githubCompileOnly"("Slimefun5:InfinityExpansion:v1.1.3.3")
 }
 ```
 
