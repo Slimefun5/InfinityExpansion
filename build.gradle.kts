@@ -18,5 +18,6 @@ tasks {
         relocate("io.github.mooy1.infinitylib", "io.github.mooy1.infinityexpansion.infinitylib")
         minimize()
         exclude("io/github/thebusybiscuit/slimefun5/**")
+        exclude("me/mrCookieSlime/**")
     }
 }
