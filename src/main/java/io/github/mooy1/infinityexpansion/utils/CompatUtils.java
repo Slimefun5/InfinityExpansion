@@ -1,6 +1,7 @@
 package io.github.mooy1.infinityexpansion.utils;
 
 import java.lang.reflect.Method;
+import java.lang.reflect.Modifier;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
@@ -363,16 +364,69 @@ public final class CompatUtils {
 
     @Nullable
     private static Method findMethod(@Nonnull Class<?> owner, @Nonnull String name, @Nonnull Class<?>... params) {
+        Method resolved = null;
+
         try {
-            return owner.getMethod(name, params);
+            resolved = owner.getMethod(name, params);
         } catch (NoSuchMethodException e) {
             for (Method m : owner.getMethods()) {
                 if (m.getName().equals(name) && m.getParameterCount() == params.length) {
-                    return m;
+                    resolved = m;
+                    break;
                 }
             }
+        }
+
+        if (resolved == null) {
             return null;
         }
+
+        // The container instance is the non-public CraftPersistentDataContainer; invoking a Method whose
+        // declaring class is non-public throws IllegalAccessException on module-restricted JVMs (26.x),
+        // which was silently swallowed and lost all persistent data (e.g. a Storage Unit's stored amount on
+        // break). Re-resolve the same signature on a public supertype/interface so the handle is invocable.
+        if (!Modifier.isPublic(resolved.getDeclaringClass().getModifiers())) {
+            Method publicMethod = searchPublic(owner, resolved.getName(), resolved.getParameterTypes());
+
+            if (publicMethod != null) {
+                return publicMethod;
+            }
+
+            try {
+                resolved.setAccessible(true);
+            } catch (Throwable ignored) {
+                // Strong encapsulation may forbid this; invocation then fails and the caller falls back.
+            }
+        }
+
+        return resolved;
+    }
+
+    @Nullable
+    private static Method searchPublic(@Nonnull Class<?> type, @Nonnull String name, @Nonnull Class<?>[] paramTypes) {
+        for (Class<?> current = type; current != null; current = current.getSuperclass()) {
+            if (Modifier.isPublic(current.getModifiers())) {
+                try {
+                    Method candidate = current.getMethod(name, paramTypes);
+
+                    if (Modifier.isPublic(candidate.getDeclaringClass().getModifiers())) {
+                        return candidate;
+                    }
+                } catch (NoSuchMethodException ignored) {
+                    // Not declared here - keep walking.
+                }
+            }
+
+            for (Class<?> iface : current.getInterfaces()) {
+                Method candidate = searchPublic(iface, name, paramTypes);
+
+                if (candidate != null) {
+                    return candidate;
+                }
+            }
+        }
+
+        return null;
     }
 
     private static boolean classExists(@Nonnull String name) {
