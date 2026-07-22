@@ -31,6 +31,7 @@ import io.github.mooy1.infinitylib.common.Scheduler;
 import io.github.mooy1.infinitylib.core.AbstractAddon;
 import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.core.attributes.EnergyNetComponent;
 import io.github.thebusybiscuit.slimefun5.core.guide.wiki.WikiText;
 import io.github.thebusybiscuit.slimefun5.core.guide.wiki.WikiTopic;
 import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
@@ -87,6 +88,8 @@ public final class InfinityExpansion extends AbstractAddon {
         Generators.setup(this);
         SlimefunExtension.setup(this);
 
+        classifyGuideTypes();
+
         if (getConfig().getBoolean("balance-options.enable-researches")) {
             Researches.setup();
         }
@@ -96,6 +99,45 @@ public final class InfinityExpansion extends AbstractAddon {
 
         // Register this addon's own in-game wiki page (core does not auto-generate addon wikis).
         registerWiki();
+    }
+
+    /**
+     * Declares a categorized-guide type for this addon's items whose group the core heuristic
+     * can't type on its own. EnergyNetComponent machines and real-material gear auto-classify,
+     * so they are left untouched.
+     */
+    private void classifyGuideTypes() {
+        for (SlimefunItem item : Slimefun.getRegistry().getEnabledSlimefunItems()) {
+            try {
+                if (item.getAddon() != this) {
+                    continue;
+                }
+                String type = guideTypeFor(item);
+                if (type != null) {
+                    item.setGuideType(type);
+                }
+            } catch (Exception | LinkageError ignored) {
+                // A broken item should not break classification.
+            }
+        }
+    }
+
+    private static String guideTypeFor(SlimefunItem item) {
+        // These auto-classify via the core heuristic (machines/energy_tech), so leave them.
+        if (item instanceof EnergyNetComponent) {
+            return null;
+        }
+        ItemGroup group = item.getItemGroup();
+        if (group == Groups.MAIN_MATERIALS || group == Groups.INFINITY_MATERIALS) {
+            return "resources";
+        }
+        if (group == Groups.STORAGE) {
+            return "logistics";
+        }
+        if (group == Groups.BASIC_MACHINES || group == Groups.ADVANCED_MACHINES || group == Groups.MOB_SIMULATION) {
+            return "machines";
+        }
+        return null;
     }
 
     private void registerWiki() {
