@@ -182,7 +182,6 @@ public final class Gear {
         for (SlimefunItemStack item : items) {
             ItemMeta meta = item.getItemMeta();
 
-            // lore
             List<String> lore;
             if (meta.hasLore()) {
                 lore = meta.getLore();
@@ -193,11 +192,9 @@ public final class Gear {
             lore.add(ChatColor.AQUA + "Soulbound");
             meta.setLore(lore);
 
-            // find path
             String itemPath = item.getItemId().replace("INFINITY_", "").toLowerCase();
             ConfigurationSection itemSection = typeSection.getConfigurationSection(itemPath);
 
-            // unbreakable and enchants
             boolean unbreakable = Objects.requireNonNull(itemSection).getBoolean("unbreakable");
             try {
                 meta.getClass().getMethod("setUnbreakable", boolean.class).invoke(meta, unbreakable);

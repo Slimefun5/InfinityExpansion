@@ -104,7 +104,7 @@ public final class AdvancedAnvil extends AbstractEnergyCrafter {
 
     private void craft(BlockMenu inv, Block b, Player p) {
         Location l = b.getLocation();
-        if (getCharge(l) < this.energy) { //not enough energy
+        if (getCharge(l) < this.energy) {
             p.sendMessage(ChatColor.RED + "Not enough energy!");
             p.sendMessage(ChatColor.GREEN + "Charge: " + ChatColor.RED + getCharge(l) + ChatColor.GREEN + "/" + this.energy + " J");
             return;

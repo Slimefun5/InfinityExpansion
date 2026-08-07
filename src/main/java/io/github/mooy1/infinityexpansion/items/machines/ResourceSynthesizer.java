@@ -106,7 +106,7 @@ public final class ResourceSynthesizer extends AbstractMachineBlock implements R
         ItemStack input1 = inv.getItemInSlot(INPUT_SLOTS[0]);
         ItemStack input2 = inv.getItemInSlot(INPUT_SLOTS[1]);
 
-        if (input1 == null || input2 == null) { //no input
+        if (input1 == null || input2 == null) {
 
             if (inv.hasViewer()) {
                 inv.replaceExistingItem(STATUS_SLOT, IDLE_ITEM);
@@ -135,7 +135,7 @@ public final class ResourceSynthesizer extends AbstractMachineBlock implements R
             }
         }
 
-        if (recipe == null) { //invalid recipe
+        if (recipe == null) {
 
             if (inv.hasViewer()) {
                 inv.replaceExistingItem(STATUS_SLOT, IDLE_ITEM);
@@ -146,7 +146,7 @@ public final class ResourceSynthesizer extends AbstractMachineBlock implements R
 
         recipe = recipe.clone();
 
-        if (inv.fits(recipe, OUTPUT_SLOTS)) { //no item
+        if (inv.fits(recipe, OUTPUT_SLOTS)) {
 
             inv.pushItem(recipe, OUTPUT_SLOTS);
             inv.consumeItem(INPUT_SLOTS[0], 1);
@@ -158,7 +158,7 @@ public final class ResourceSynthesizer extends AbstractMachineBlock implements R
             return true;
 
         }
-        else { //not enough room
+        else {
 
             if (inv.hasViewer()) {
                 inv.replaceExistingItem(STATUS_SLOT, NO_ROOM_ITEM);

@@ -43,29 +43,23 @@ import static io.github.mooy1.infinityexpansion.items.storage.StorageUnit.STATUS
  */
 public final class StorageCache {
 
-    /* Menu strings */
     private static final String EMPTY_DISPLAY_NAME = ChatColor.WHITE + "Empty";
     private static final String VOID_EXCESS_TRUE = ChatColors.color("&7Void Excess:&e true");
     private static final String VOID_EXCESS_FALSE = ChatColors.color("&7Void Excess:&e false");
 
-    /* BlockStorage keys */
-    private static final String STORED_AMOUNT = "stored"; // amount key in block data
-    private static final String VOID_EXCESS = "void_excess"; // void excess true or null key
+    private static final String STORED_AMOUNT = "stored";
+    private static final String VOID_EXCESS = "void_excess";
 
-    /* Menu Items */
     private static final ItemStack EMPTY_ITEM = CustomItemStack.create(MaterialCompat.safe(XMaterial.BARRIER), meta -> {
         meta.setDisplayName(ChatColor.WHITE + "Empty");
         CompatUtils.setPdcByte(meta, EMPTY_KEY, (byte) 1);
     });
 
-    /* Space Pattern for Sign Display Names */
     private static final Pattern SPACE = Pattern.compile(" ");
 
-    /* Instance Constants */
     private final StorageUnit storageUnit;
     private final BlockMenu menu;
 
-    /* Instance Variables */
     private final String[] signDisplay = new String[2];
     private String displayName;
     private Material material;
@@ -81,42 +75,35 @@ public final class StorageCache {
         this.storageUnit = storageUnit;
         this.menu = menu;
 
-        // load data
         reloadData();
 
         if (isEmpty()) {
-            // empty
             setEmptyDisplayName();
             menu.replaceExistingItem(DISPLAY_SLOT, EMPTY_ITEM);
         }
         else {
-            // something is stored
             ItemStack display = menu.getItemInSlot(DISPLAY_SLOT);
             if (display != null) {
                 ItemMeta copy = display.getItemMeta();
                 // fix if they somehow store the empty item
                 if (CompatUtils.hasPdc(copy, EMPTY_KEY, "BYTE")) {
-                    // attempt to recover the correct item from output
                     ItemStack output = menu.getItemInSlot(OUTPUT_SLOT);
                     if (output != null) {
                         setStored(output);
                         menu.replaceExistingItem(OUTPUT_SLOT, null);
                     }
                     else {
-                        // no output to recover
                         menu.replaceExistingItem(DISPLAY_SLOT, EMPTY_ITEM);
                         setEmptyDisplayName();
                         this.amount = 0;
                     }
                 }
                 else {
-                    // load the item in menu
                     load(display, copy);
                 }
             }
         }
 
-        // void excess handler
         menu.addMenuClickHandler(STATUS_SLOT, (p, slot, item, action) -> {
             this.voidExcess = !this.voidExcess;
             BlockStorage.addBlockInfo(this.menu.getLocation(), VOID_EXCESS, this.voidExcess ? "true" : null);
@@ -128,7 +115,6 @@ public final class StorageCache {
             return false;
         });
 
-        // interact handler
         menu.addMenuClickHandler(INTERACT_SLOT, (p, slot, item, action) -> {
             if (this.amount == 1) {
                 if (action.isShiftClicked() && !action.isRightClicked()) {
@@ -159,7 +145,6 @@ public final class StorageCache {
             return false;
         });
 
-        // load status slot
         updateStatus();
     }
 
@@ -237,7 +222,6 @@ public final class StorageCache {
 
     void destroy(BlockBreakEvent e, List<ItemStack> drops) {
 
-        // add output slot
         ItemStack output = this.menu.getItemInSlot(OUTPUT_SLOT);
         if (output != null && matches(output)) {
             int add = Math.min(this.storageUnit.max - this.amount, output.getAmount());
@@ -263,10 +247,8 @@ public final class StorageCache {
     void load(ItemStack stored, ItemMeta copy) {
         this.menu.replaceExistingItem(DISPLAY_SLOT, stored);
 
-        // remove the display key from copy
         CompatUtils.removePdc(copy, DISPLAY_KEY);
 
-        // check if the copy has anything besides the display key
         if (copy.equals(Bukkit.getItemFactory().getItemMeta(stored.getType()))) {
             this.meta = null;
         }
@@ -283,23 +265,19 @@ public final class StorageCache {
             return;
         }
         if (isEmpty()) {
-            // set the stored item to input
             this.amount = input.getAmount();
             setStored(input);
             this.menu.replaceExistingItem(INPUT_SLOT, null, false);
         }
         else if (matches(input)) {
             if (this.voidExcess) {
-                // input and void excess
                 if (this.amount < this.storageUnit.max) {
                     this.amount = Math.min(this.amount + input.getAmount(), this.storageUnit.max);
                 }
                 input.setAmount(0);
             }
             else if (this.amount < this.storageUnit.max) {
-                // input as much as possible
                 if (input.getAmount() + this.amount >= this.storageUnit.max) {
-                    // last item
                     input.setAmount(input.getAmount() - (this.storageUnit.max - this.amount));
                     this.amount = this.storageUnit.max;
                 }
@@ -337,19 +315,15 @@ public final class StorageCache {
     }
 
     void tick(Block block) {
-        // input output
         input();
         output();
 
-        // store amount
         BlockStorage.addBlockInfo(this.menu.getLocation(), STORED_AMOUNT, String.valueOf(this.amount));
 
-        // status
         if (this.menu.hasViewer()) {
             updateStatus();
         }
 
-        // signs
         if (InfinityExpansion.slimefunTickCount() % 20 == 0) {
             Block check = block.getRelative(0, 1, 0);
             if (check.getType().name().endsWith("_SIGN") && !check.getType().name().endsWith("_WALL_SIGN")
@@ -401,7 +375,6 @@ public final class StorageCache {
         setDisplayName(ItemUtils.getItemName(input));
         this.material = input.getType();
 
-        // add the display key to the display input and set amount 1
         ItemMeta meta = input.getItemMeta();
         CompatUtils.setPdcByte(meta, DISPLAY_KEY, (byte) 1);
         input.setItemMeta(meta);
@@ -488,7 +461,6 @@ public final class StorageCache {
             for (ItemStack item : itemStacks) {
                 if (item != null && matches(item)) {
                     if (item.getAmount() + this.amount >= this.storageUnit.max) {
-                        // last item
                         item.setAmount(item.getAmount() - (this.storageUnit.max - this.amount));
                         this.amount = this.storageUnit.max;
                     }
