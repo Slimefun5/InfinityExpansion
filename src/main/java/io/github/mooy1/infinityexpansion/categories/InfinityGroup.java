@@ -305,7 +305,7 @@ public final class InfinityGroup extends FlexItemGroup {
         PlayerInventory inv = player.getInventory();
 
         for (int i = 0 ; i < (max ? 64 : 1) ; i++) {
-            for (int slot = 0 ; slot < recipe.length ; slot++) { //each item in recipe
+            for (int slot = 0 ; slot < recipe.length ; slot++) {
                 ItemStack recipeItem = recipe[slot];
 
                 if (recipeItem == null) {
@@ -314,16 +314,13 @@ public final class InfinityGroup extends FlexItemGroup {
 
                 String id = StackUtils.getIdOrType(recipeItem);
 
-                for (ItemStack item : inv.getContents()) { //each slot in their inv
-                    if (item != null && StackUtils.getIdOrType(item).equals(id)) { //matches recipe
-                        //get item
+                for (ItemStack item : inv.getContents()) {
+                    if (item != null && StackUtils.getIdOrType(item).equals(id)) {
                         ItemStack output = item.clone();
                         output.setAmount(1);
 
-                        if (menu.fits(output, InfinityWorkbench.INPUT_SLOTS[slot])) {//not null and fits
-                            //remove item
+                        if (menu.fits(output, InfinityWorkbench.INPUT_SLOTS[slot])) {
                             ItemUtils.consumeItem(item, 1, false);
-                            //push item
                             menu.pushItem(output, InfinityWorkbench.INPUT_SLOTS[slot]);
                             break;
                         }

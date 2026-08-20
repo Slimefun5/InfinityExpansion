@@ -362,6 +362,15 @@ public final class CompatUtils {
         }
     }
 
+    /**
+     * Resolves {@code name(params)} on {@code owner} to a {@link Method} handle that can actually be invoked.
+     *
+     * @implNote The container is the non-public {@code CraftPersistentDataContainer}; invoking a method whose
+     *           declaring class is non-public throws {@link IllegalAccessException} on module-restricted JVMs
+     *           (26.x), which was silently swallowed and lost all persistent data (e.g. a Storage Unit's stored
+     *           amount on break). When the resolved handle is non-public the same signature is re-resolved on a
+     *           public supertype/interface so it stays invocable.
+     */
     @Nullable
     private static Method findMethod(@Nonnull Class<?> owner, @Nonnull String name, @Nonnull Class<?>... params) {
         Method resolved = null;
@@ -381,10 +390,6 @@ public final class CompatUtils {
             return null;
         }
 
-        // The container instance is the non-public CraftPersistentDataContainer; invoking a Method whose
-        // declaring class is non-public throws IllegalAccessException on module-restricted JVMs (26.x),
-        // which was silently swallowed and lost all persistent data (e.g. a Storage Unit's stored amount on
-        // break). Re-resolve the same signature on a public supertype/interface so the handle is invocable.
         if (!Modifier.isPublic(resolved.getDeclaringClass().getModifiers())) {
             Method publicMethod = searchPublic(owner, resolved.getName(), resolved.getParameterTypes());
 

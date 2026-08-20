@@ -141,12 +141,9 @@ public final class StrainerBase extends TickingMenuBlock implements RecipeDispla
     @Override
     protected void tick(Block b, BlockMenu inv) {
 
-        //check water
         if (!Util.isWaterLogged(b)) {
             return;
         }
-
-        //check input
 
         ItemStack strainer = inv.getItemInSlot(INPUT_SLOTS[0]);
         int speed = Strainer.getStrainer(strainer);
@@ -162,8 +159,6 @@ public final class StrainerBase extends TickingMenuBlock implements RecipeDispla
 
         Random random = ThreadLocalRandom.current();
 
-        //progress
-
         if (random.nextInt(this.time / speed) != 0) {
 
             if (inv.hasViewer()) {
@@ -173,15 +168,11 @@ public final class StrainerBase extends TickingMenuBlock implements RecipeDispla
             return;
         }
 
-        //fish
-
         if (random.nextInt(10000) == 0) {
             inv.pushItem(POTATO, OUTPUT_SLOTS);
         }
 
         ItemStack output = OUTPUTS[random.nextInt(OUTPUTS.length)];
-
-        //check fits
 
         if (!inv.fits(output, OUTPUT_SLOTS)) {
 
@@ -192,15 +183,11 @@ public final class StrainerBase extends TickingMenuBlock implements RecipeDispla
             return;
         }
 
-        //output
-
         inv.pushItem(output.clone(), OUTPUT_SLOTS);
 
         if (inv.hasViewer()) {
             inv.replaceExistingItem(STATUS_SLOT, CustomItemStack.create(MaterialCompat.safe(XMaterial.LIME_STAINED_GLASS_PANE), "&aMaterial Collected!"));
         }
-
-        //reduce durability
 
         if (random.nextInt(strainer.getEnchantmentLevel(Enchantment.DURABILITY) + 3 * strainer.getEnchantmentLevel(Enchantment.MENDING) + 1) == 0) {
             int current = CompatUtils.getDamage(strainer);
@@ -210,7 +197,7 @@ public final class StrainerBase extends TickingMenuBlock implements RecipeDispla
                 inv.consumeItem(INPUT_SLOTS[0]);
 
             }
-            else { //reduce
+            else {
 
                 CompatUtils.setDamage(strainer, current + 1);
                 inv.replaceExistingItem(INPUT_SLOTS[0], strainer);

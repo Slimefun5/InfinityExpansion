@@ -115,7 +115,6 @@ public final class SingularityConstructor extends AbstractMachineBlock implement
             inputID = StackUtils.getIdOrType(input);
         }
 
-        // load data
         Integer progressID = getProgressID(b.getLocation());
         int progress = Util.getIntData(PROGRESS, b.getLocation());
 
@@ -123,7 +122,6 @@ public final class SingularityConstructor extends AbstractMachineBlock implement
         boolean takeCharge = false;
 
         if (progressID == null || progress == 0) {
-            // not started
             if (inputID != null) {
                 Pair<Integer, Recipe> pair = RECIPE_MAP.get(inputID);
                 if (pair != null) {
@@ -134,17 +132,14 @@ public final class SingularityConstructor extends AbstractMachineBlock implement
                     takeCharge = true;
                 }
                 else {
-                    // invalid input
                     triplet = null;
                 }
             }
             else {
-                // still haven't started
                 triplet = null;
             }
         }
         else {
-            // started
             triplet = RECIPE_LIST.get(progressID);
             if (inputID != null) {
                 int max = Math.min(triplet.amount - progress, Math.min(this.speed, input.getAmount()));
@@ -153,12 +148,11 @@ public final class SingularityConstructor extends AbstractMachineBlock implement
                         progress += max;
                         input.setAmount(input.getAmount() - max);
                         takeCharge = true;
-                    } // invalid input
-                } // already done
+                    }
+                }
             }
         }
 
-        // show status and output if done
         if (triplet != null) {
             if (progress >= triplet.amount && menu.fits(triplet.output.item(), OUTPUT_SLOT)) {
                 menu.pushItem(triplet.output.item().clone(), OUTPUT_SLOT);
@@ -185,7 +179,6 @@ public final class SingularityConstructor extends AbstractMachineBlock implement
             invalidInput(menu);
         }
 
-        // save data
         setProgressID(b.getLocation(), progressID);
         setProgress(b.getLocation(), progress);
 

@@ -110,9 +110,9 @@ public final class InfinityReactor extends MenuBlock implements EnergyNetProvide
         ItemStack infinityInput = inv.getItemInSlot(INPUT_SLOTS[0]);
         ItemStack voidInput = inv.getItemInSlot(INPUT_SLOTS[1]);
 
-        if (progress == 0) { //need infinity + void
+        if (progress == 0) {
 
-            if (infinityInput == null || !Materials.INFINITE_INGOT.getItemId().equals(StackUtils.getId(infinityInput))) { //wrong input
+            if (infinityInput == null || !Materials.INFINITE_INGOT.getItemId().equals(StackUtils.getId(infinityInput))) {
 
                 if (inv.hasViewer()) {
                     inv.replaceExistingItem(STATUS_SLOT, CustomItemStack.create(MaterialCompat.safe(XMaterial.RED_STAINED_GLASS_PANE), "&cInput more &fInfinity Ingots"));
@@ -121,7 +121,7 @@ public final class InfinityReactor extends MenuBlock implements EnergyNetProvide
 
             }
 
-            if (voidInput == null || !Materials.VOID_INGOT.getItemId().equals(StackUtils.getId(voidInput))) { //wrong input
+            if (voidInput == null || !Materials.VOID_INGOT.getItemId().equals(StackUtils.getId(voidInput))) {
 
                 if (inv.hasViewer()) {
                     inv.replaceExistingItem(STATUS_SLOT, CustomItemStack.create(MaterialCompat.safe(XMaterial.RED_STAINED_GLASS_PANE), "&cInput more &8Void Ingots"));
@@ -130,7 +130,7 @@ public final class InfinityReactor extends MenuBlock implements EnergyNetProvide
 
             }
 
-            //correct input
+
             if (inv.hasViewer()) {
                 inv.replaceExistingItem(STATUS_SLOT, CustomItemStack.create(MaterialCompat.safe(XMaterial.LIME_STAINED_GLASS_PANE),
                         "&aStarting Generation",
@@ -145,7 +145,7 @@ public final class InfinityReactor extends MenuBlock implements EnergyNetProvide
 
         }
 
-        if (progress >= INFINITY_INTERVAL) { //done
+        if (progress >= INFINITY_INTERVAL) {
 
             if (inv.hasViewer()) {
                 inv.replaceExistingItem(STATUS_SLOT, CustomItemStack.create(MaterialCompat.safe(XMaterial.LIME_STAINED_GLASS_PANE), "&aFinished Generation"));
@@ -155,9 +155,9 @@ public final class InfinityReactor extends MenuBlock implements EnergyNetProvide
 
         }
 
-        if (Math.floorMod(progress, VOID_INTERVAL) == 0) { //need void
+        if (Math.floorMod(progress, VOID_INTERVAL) == 0) {
 
-            if (voidInput == null || !Materials.VOID_INGOT.getItemId().equals(StackUtils.getId(voidInput))) { //wrong input
+            if (voidInput == null || !Materials.VOID_INGOT.getItemId().equals(StackUtils.getId(voidInput))) {
 
                 if (inv.hasViewer()) {
                     inv.replaceExistingItem(STATUS_SLOT, CustomItemStack.create(MaterialCompat.safe(XMaterial.RED_STAINED_GLASS_PANE), "&cInput more &8Void Ingots"));
@@ -166,7 +166,6 @@ public final class InfinityReactor extends MenuBlock implements EnergyNetProvide
 
             }
 
-            //right input
             if (inv.hasViewer()) {
                 inv.replaceExistingItem(STATUS_SLOT, CustomItemStack.create(MaterialCompat.safe(XMaterial.LIME_STAINED_GLASS_PANE),
                         "&aGenerating...",
@@ -179,8 +178,6 @@ public final class InfinityReactor extends MenuBlock implements EnergyNetProvide
             return this.gen;
 
         }
-
-        //generate
 
         if (inv.hasViewer()) {
             inv.replaceExistingItem(STATUS_SLOT, CustomItemStack.create(MaterialCompat.safe(XMaterial.LIME_STAINED_GLASS_PANE),

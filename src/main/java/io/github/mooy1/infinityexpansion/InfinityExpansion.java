@@ -311,7 +311,6 @@ public final class InfinityExpansion extends AbstractAddon {
 
     private static List<String> itemText(String id) {
         switch (id) {
-            // --- Core infinity materials ---
             case "VOID_BIT": return Arrays.asList(
                     "&7The most fundamental Void material.",
                     "&7Harvested from nothing by the &8Void Harvester&7.",
@@ -373,7 +372,6 @@ public final class InfinityExpansion extends AbstractAddon {
                     "&7Crafted from Ender Essence around a Book in the",
                     "&7Magic Workbench. Used to forge the &6Sky Piercer&7.");
 
-            // --- Key blocks / workbench ---
             case "INFINITY_FORGE": return Arrays.asList(
                     "&6The central multiblock of the addon.",
                     "&7A 6x6 crafting grid used to build every",
@@ -390,7 +388,6 @@ public final class InfinityExpansion extends AbstractAddon {
                     "&7Grants the ability to vein-mine certain materials,",
                     "&7breaking whole ore veins at once.");
 
-            // --- Machines ---
             case "VOID_HARVESTER": return Arrays.asList(
                     "&8Slowly harvests &8Void Bits &7from nothing.",
                     "&7The only source of Void material, and the start",
@@ -441,7 +438,6 @@ public final class InfinityExpansion extends AbstractAddon {
                     "&7Reverts to an item when unpowered or broken.",
                     "&8Consumes 10,000 J/s.");
 
-            // --- Material generators & growers ---
             case "BASIC_COBBLE_GEN": case "ADVANCED_COBBLE_GEN": case "INFINITY_COBBLE_GEN": return Arrays.asList(
                     "&7Generates cobblestone automatically from power.",
                     "&7Higher tiers produce far more per tick.");
@@ -457,7 +453,6 @@ public final class InfinityExpansion extends AbstractAddon {
                     "&7Feed it saplings to receive logs, leaves and",
                     "&7extras. Higher tiers run much faster.");
 
-            // --- Storage ---
             case "STORAGE_FORGE": return Arrays.asList(
                     "&6Upgrades a Storage Unit to the next tier.",
                     "&7Place a unit inside; its stored items are kept",
@@ -468,7 +463,6 @@ public final class InfinityExpansion extends AbstractAddon {
                     "&7Right-click to set the item, then insert freely.",
                     "&7Break it to recover everything stored inside.");
 
-            // --- Mob simulation ---
             case "EMPTY_DATA_CARD": return Arrays.asList(
                     "&8A blank card waiting to be imprinted.",
                     "&7Infuse it with a mob's signature items in the",
@@ -482,7 +476,6 @@ public final class InfinityExpansion extends AbstractAddon {
                     "&7Slot in a filled card and supply power - drops",
                     "&7appear continuously, no spawning required.");
 
-            // --- Generators ---
             case "INFINITY_REACTOR": return Arrays.asList(
                     "&bThe addon's ultimate power source.",
                     "&7Burns &8Void &7and &bInfinity &7Ingots to output",
@@ -503,7 +496,6 @@ public final class InfinityExpansion extends AbstractAddon {
                     "&bGenerates massive energy from the cosmos,",
                     "&7day or night. Crafted in the Infinity Workbench.");
 
-            // --- Quarries ---
             case "BASIC_QUARRY": case "ADVANCED_QUARRY": case "VOID_QUARRY": case "INFINITY_QUARRY": return Arrays.asList(
                     "&7Automatically mines ores using only power.",
                     "&7No digging - place it and supply energy. Higher",
@@ -514,7 +506,6 @@ public final class InfinityExpansion extends AbstractAddon {
                     "&bPlace inside a Quarry to greatly raise the",
                     "&7chance of mining this specific resource.");
 
-            // --- Slimefun extension machines ---
             case "ADVANCED_GEO_MINER": return Arrays.asList(
                     "&cA faster GEO Miner.",
                     "&7Extracts GEO resources from the chunk below it.");
@@ -542,7 +533,6 @@ public final class InfinityExpansion extends AbstractAddon {
                     "&8A high-capacity capacitor storing 16,000,000 J.",
                     "&7Used in the Void Quarry and large grids.");
 
-            // --- Infinity gear ---
             case "INFINITY_CROWN": case "INFINITY_CHESTPLATE": case "INFINITY_LEGGINGS": case "INFINITY_BOOTS": return Arrays.asList(
                     "&bPart of the cosmic Infinity armor set.",
                     "&7Grants powerful permanent potion effects and",

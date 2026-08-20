@@ -53,20 +53,17 @@ import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 @ParametersAreNonnullByDefault
 public final class StorageUnit extends MenuBlock implements DistinctiveItem {
 
-    /* Namespaced keys */
-    static final NamespacedKey EMPTY_KEY = InfinityExpansion.pdcKey("empty"); // key for empty item
-    static final NamespacedKey DISPLAY_KEY = InfinityExpansion.pdcKey("display"); // key for display item
-    private static final NamespacedKey ITEM_KEY = InfinityExpansion.pdcKey("item"); // item key for item pdc
-    private static final NamespacedKey AMOUNT_KEY = InfinityExpansion.pdcKey("stored"); // amount key for item pdc
+    static final NamespacedKey EMPTY_KEY = InfinityExpansion.pdcKey("empty");
+    static final NamespacedKey DISPLAY_KEY = InfinityExpansion.pdcKey("display");
+    private static final NamespacedKey ITEM_KEY = InfinityExpansion.pdcKey("item");
+    private static final NamespacedKey AMOUNT_KEY = InfinityExpansion.pdcKey("stored");
 
-    /* Menu slots */
     static final int INPUT_SLOT = 10;
     static final int DISPLAY_SLOT = 13;
     static final int STATUS_SLOT = 4;
     static final int OUTPUT_SLOT = 16;
     static final int INTERACT_SLOT = 22;
 
-    /* Menu items */
     private static final ItemStack INTERACTION_ITEM = CustomItemStack.create(MaterialCompat.safe(XMaterial.LIME_STAINED_GLASS_PANE),
             "&aQuick Actions",
             "&bLeft Click: &7Withdraw 1 item",
@@ -79,7 +76,6 @@ public final class StorageUnit extends MenuBlock implements DistinctiveItem {
             "&7Loading..."
     );
 
-    /* Instance constants */
     private final Map<Location, StorageCache> caches = new HashMap<>();
     final int max;
 

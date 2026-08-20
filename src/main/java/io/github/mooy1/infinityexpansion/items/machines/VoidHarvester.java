@@ -47,7 +47,7 @@ public final class VoidHarvester extends AbstractMachineBlock implements RecipeD
     protected boolean process(@Nonnull Block b, @Nonnull BlockMenu inv) {
         int progress = Integer.parseInt(getProgress(b));
 
-        if (progress >= TIME) { //reached full progress
+        if (progress >= TIME) {
 
             ItemStack output = Materials.VOID_BIT.item();
 
@@ -70,7 +70,7 @@ public final class VoidHarvester extends AbstractMachineBlock implements RecipeD
         }
 
         setProgress(b, progress);
-        if (inv.hasViewer()) { //update status
+        if (inv.hasViewer()) {
             inv.replaceExistingItem(getStatusSlot(), CustomItemStack.create(MaterialCompat.safe(XMaterial.LIME_STAINED_GLASS_PANE),
                     "&aHarvesting - " + progress * 100 / TIME + "%",
                     "&7(" + progress + "/" + TIME + ")"

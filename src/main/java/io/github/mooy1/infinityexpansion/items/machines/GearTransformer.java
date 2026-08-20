@@ -127,9 +127,9 @@ public final class GearTransformer extends AbstractEnergyCrafter implements Reci
     private static Pair<Material, Integer> getOutput(ItemStack inputMaterial, String inputToolType) {
 
         for (String toolType : TOOL_TYPES) {
-            if (inputToolType.equals(toolType)) { //make sure its a tool
+            if (inputToolType.equals(toolType)) {
 
-                for (int i = 0 ; i < TOOL_RECIPE.length ; i++) { //compare to each recipe
+                for (int i = 0 ; i < TOOL_RECIPE.length ; i++) {
                     ItemStack recipe = TOOL_RECIPE[i];
 
                     if (inputMaterial.getType() == recipe.getType() && inputMaterial.getAmount() >= recipe.getAmount()) {
@@ -143,9 +143,9 @@ public final class GearTransformer extends AbstractEnergyCrafter implements Reci
         }
 
         for (String armorType : ARMOR_TYPES) {
-            if (inputToolType.equals(armorType)) { //make sure its a armor
+            if (inputToolType.equals(armorType)) {
 
-                for (int i = 0 ; i < ARMOR_RECIPE.length ; i++) { //compare to each recipe
+                for (int i = 0 ; i < ARMOR_RECIPE.length ; i++) {
                     ItemStack recipe = ARMOR_RECIPE[i];
 
                     if (inputMaterial.getType() == recipe.getType() && inputMaterial.getAmount() >= recipe.getAmount()) {
@@ -205,7 +205,7 @@ public final class GearTransformer extends AbstractEnergyCrafter implements Reci
     public void update(@Nonnull BlockMenu inv) {
         ItemStack inputItem = inv.getItemInSlot(INPUT_SLOTS[0]);
 
-        if (inputItem == null) { //no input
+        if (inputItem == null) {
 
             inv.replaceExistingItem(STATUS_SLOT, CustomItemStack.create(MaterialCompat.safe(XMaterial.BLUE_STAINED_GLASS_PANE), "&9Input a tool or piece of gear"));
             return;
@@ -219,7 +219,7 @@ public final class GearTransformer extends AbstractEnergyCrafter implements Reci
 
         String inputToolType = getType(inputItem);
 
-        if (inputToolType == null) { //invalid input
+        if (inputToolType == null) {
 
             inv.replaceExistingItem(STATUS_SLOT, CustomItemStack.create(MaterialCompat.safe(XMaterial.BARRIER), "&cNot a tool or piece of gear!"));
             return;
@@ -228,7 +228,7 @@ public final class GearTransformer extends AbstractEnergyCrafter implements Reci
 
         ItemStack inputMaterial = inv.getItemInSlot(INPUT_SLOTS[1]);
 
-        if (inputMaterial == null) { //no material
+        if (inputMaterial == null) {
 
             inv.replaceExistingItem(STATUS_SLOT, CustomItemStack.create(MaterialCompat.safe(XMaterial.BLUE_STAINED_GLASS_PANE), "&9Input materials"));
             return;
@@ -237,21 +237,20 @@ public final class GearTransformer extends AbstractEnergyCrafter implements Reci
 
         Pair<Material, Integer> pair = getOutput(inputMaterial, inputToolType);
 
-        if (pair == null) { //invalid material
+        if (pair == null) {
 
             inv.replaceExistingItem(STATUS_SLOT, CustomItemStack.create(MaterialCompat.safe(XMaterial.BARRIER), "&cInvalid Materials!"));
             return;
 
         }
 
-        if (inv.getItemInSlot(OUTPUT_SLOTS[0]) != null) { //valid material, not enough room
+        if (inv.getItemInSlot(OUTPUT_SLOTS[0]) != null) {
 
             inv.replaceExistingItem(STATUS_SLOT, NO_ROOM_ITEM);
             return;
 
         }
 
-        //output
         setCharge(inv.getLocation(), 0);
 
         inputItem.setType(pair.getFirstValue());

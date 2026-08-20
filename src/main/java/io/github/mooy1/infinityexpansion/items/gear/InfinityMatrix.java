@@ -66,7 +66,7 @@ public final class InfinityMatrix extends SimpleSlimefunItem<ItemUseHandler> imp
                         return;
                     }
 
-                    if (p.isSneaking()) { //remove owner
+                    if (p.isSneaking()) {
                         iterator.remove();
                         meta.setLore(lore);
                         item.setItemMeta(meta);
