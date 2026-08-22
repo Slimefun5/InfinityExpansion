@@ -10,7 +10,7 @@ description = "InfinityExpansion is a Slimefun addon that adds machines, generat
 apply(from = "https://raw.githubusercontent.com/Slimefun5/gradle/stable/slimefun-addon.gradle")
 
 dependencies {
-    githubImplementation("Slimefun5:InfinityLib:v1.3.13")
+    githubImplementation("Slimefun5:InfinityLib:v1.3.14.7")
 }
 
 tasks {
