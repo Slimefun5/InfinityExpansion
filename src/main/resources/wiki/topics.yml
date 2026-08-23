@@ -1,0 +1,18 @@
+# InfinityExpansion's in-game wiki topics, keyed by topic id. Body text lives in mechanics.yml under the
+# same id; 'category' decides which guide section offers the page.
+
+infinityexpansion_progression:
+  title: Infinity Progression
+  icon: NETHER_STAR
+  summary: '&7Working up to Infinity Ingots'
+  category: resources
+infinityexpansion_machines:
+  title: Machines & Tiers
+  icon: FURNACE
+  summary: '&7How machine tiers scale'
+  category: machines
+infinityexpansion_storage:
+  title: Storage Units
+  icon: CHEST
+  summary: '&7Bulk storage and how it works'
+  category: logistics

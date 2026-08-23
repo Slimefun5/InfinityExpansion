@@ -1,0 +1,44 @@
+# Body text for InfinityExpansion's wiki topics, keyed by the topic id declared in topics.yml.
+# Rendered as paginated tooltip text; keep lines short (~45 chars).
+
+infinityexpansion_progression:
+  - '&e&lInfinity Progression'
+  - '&7Everything here builds toward one goal:'
+  - '&7&eInfinity Ingots&7, and the gear made'
+  - '&7from them.'
+  - ''
+  - '&7The path runs through compressed'
+  - '&7materials. Each tier takes a stack of'
+  - '&7the tier below, so the cost climbs fast'
+  - '&7and automation stops being optional.'
+  - ''
+  - '&7Expect to need steady input from'
+  - '&7generators, singularity work and bulk'
+  - '&7storage long before the final ingot.'
+
+infinityexpansion_machines:
+  - '&e&lMachines & Tiers'
+  - '&7Most machines come in tiers: basic,'
+  - '&7advanced, and beyond.'
+  - ''
+  - '&7A higher tier is not just faster - it'
+  - '&7usually draws more power, so upgrading'
+  - '&7a machine often means upgrading the'
+  - '&7generators feeding it first.'
+  - ''
+  - '&7Check a machine''s energy figure before'
+  - '&7placing it. A starved machine simply'
+  - '&7idles rather than warning you.'
+
+infinityexpansion_storage:
+  - '&e&lStorage Units'
+  - '&7A storage unit holds a very large stack'
+  - '&7of a single item type.'
+  - ''
+  - '&7Feed one item in to bind it, then keep'
+  - '&7feeding. The unit reports how much it'
+  - '&7holds without you opening it.'
+  - ''
+  - '&7Units pair naturally with cargo: point'
+  - '&7an output at one and it absorbs the'
+  - '&7overflow your machines produce.'

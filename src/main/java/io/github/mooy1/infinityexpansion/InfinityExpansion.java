@@ -34,6 +34,8 @@ import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun5.core.attributes.EnergyNetComponent;
 import io.github.thebusybiscuit.slimefun5.core.guide.wiki.WikiText;
 import io.github.thebusybiscuit.slimefun5.core.guide.wiki.WikiTopic;
+import io.github.thebusybiscuit.slimefun5.core.guide.widgets.GuideWidget;
+import io.github.thebusybiscuit.slimefun5.core.guide.wiki.WikiIndex;
 import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
 import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
 import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
@@ -96,6 +98,7 @@ public final class InfinityExpansion extends AbstractAddon {
 
         // Contribute this addon's per-language item translations (languages/<lang>/items.yml).
         Slimefun.getItemTranslationService().registerTranslations(this);
+        registerGuideWidgets();
 
         // Register this addon's own in-game wiki page (core does not auto-generate addon wikis).
         registerWiki();
@@ -570,4 +573,26 @@ public final class InfinityExpansion extends AbstractAddon {
 
     }
 
+
+    private void registerGuideWidgets() {
+        registerGuideWidget("resources", "&bInfinity Progression", XMaterial.NETHER_STAR, 0);
+        registerGuideWidget("machines", "&bMachines & Tiers", XMaterial.FURNACE, 1);
+        registerGuideWidget("logistics", "&bStorage Units", XMaterial.CHEST, 2);
+    }
+
+    /**
+     * One guide button per category this addon has items in, so a section only offers the pages that
+     * belong to it rather than every guide the addon ships.
+     */
+    private void registerGuideWidget(String category, String name, XMaterial icon, int order) {
+        Slimefun.getGuideWidgets().register(new GuideWidget(
+            "infinityexpansion_guide_" + category,
+            name,
+            icon,
+            order,
+            GuideWidget.Position.BOTTOM,
+            (player, profile) -> WikiIndex.openAddonWiki(player, profile, getName(), category),
+            getName(),
+            category));
+    }
 }
