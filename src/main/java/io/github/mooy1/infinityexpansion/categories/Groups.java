@@ -44,4 +44,18 @@ public final class Groups {
         INFINITY_CHEAT.register(inst);
     }
 
+
+    /**
+     * Places this addon's items in the shared guide categories. One call per group is enough:
+     * the guide reads a group's category for every item in it (see ItemTypeClassifier), so items
+     * no longer fall back to Misc.
+     */
+    static {
+        MAIN_MATERIALS.setCategory("resources");
+        BASIC_MACHINES.setCategory("machines");
+        ADVANCED_MACHINES.setCategory("machines");
+        STORAGE.setCategory("logistics");
+        MOB_SIMULATION.setCategory("machines");
+        INFINITY_MATERIALS.setCategory("resources");
+    }
 }
