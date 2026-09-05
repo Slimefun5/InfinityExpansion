@@ -1,368 +1,560 @@
-# Polish item translations for InfinityExpansion. Keyed by Slimefun item id.
-# name = display name with '&' colour codes. Missing items fall back to English.
-
-ADVANCED_GEO_MINER:
-  name: "&cZaawansowany &fGeoKopacz"
-
-ADVANCED_SMELTERY:
-  name: "&cZaawansowana &7Huta"
-
-ADVANCED_CHARGER:
-  name: "&cZaawansowana Ładowarka"
-
-INFINITY_CHARGER:
-  name: "&bŁadowarka Infinity"
-
-ADVANCED_NETHER_STAR_REACTOR:
-  name: "&cZaawansowany Reaktor Gwiazdy Netheru"
-
-ADVANCED_ENCHANTER:
-  name: "&cZaawansowany Zaklinacz"
-
-ADVANCED_DISENCHANTER:
-  name: "&cZaawansowany Odklinacz"
-
-INFINITY_ENCHANTER:
-  name: "&bZaklinacz Infinity"
-
-INFINITY_DISENCHANTER:
-  name: "&bOdklinacz Infinity"
-
-INFINITY_CAPACITOR:
-  name: "&bNieskończony Kondensator"
-
-VOID_CAPACITOR:
-  name: "&8Kondensator Pustki"
-
-STRAINER_BASE:
-  name: "&7Podstawa Sita"
-
-ADVANCED_ANVIL:
-  name: "&cZaawansowane Kowadło"
-
-INFINITY_FORGE:
-  name: "&6Stół Roboczy Infinity"
-
-ENDER_FLAME:
-  name: "&cPłomień Enderu"
-
-INFINITY_CROWN:
-  name: "&bKorona Infinity"
-
-INFINITY_CHESTPLATE:
-  name: "&bNapierśnik Infinity"
-
-INFINITY_LEGGINGS:
-  name: "&bNagolenniki Infinity"
-
-INFINITY_BOOTS:
-  name: "&bButy Infinity"
-
-INFINITY_MATRIX:
-  name: "&fMacierz Infinity"
-
-INFINITY_SHIELD:
-  name: "&bKosmiczna Egida"
-
-INFINITY_BLADE:
-  name: "&bOstrze Kosmosu"
-
-INFINITY_PICKAXE:
-  name: "&9Niszczyciel Światów"
-
-INFINITY_AXE:
-  name: "&4Zguba Natury"
-
-INFINITY_SHOVEL:
-  name: "&aPożeracz Gór"
-
-INFINITY_BOW:
-  name: "&6Przebijacz Nieba"
-
-VEIN_MINER_RUNE:
-  name: "&bRuna Górnika Żył"
-
-INFINITY_REACTOR:
-  name: "&bReaktor Infinity"
-
-HYDRO_GENERATOR:
-  name: "&9Generator Hydro"
-
-REINFORCED_HYDRO_GENERATOR:
-  name: "&fWzmocniony &9Generator Hydro"
-
-GEOTHERMAL_GENERATOR:
-  name: "&cGenerator Geotermalny"
-
-REINFORCED_GEOTHERMAL_GENERATOR:
-  name: "&fWzmocniony &cGenerator Geotermalny"
-
-BASIC_PANEL:
-  name: "&9Podstawowy Panel Słoneczny"
-
-ADVANCED_PANEL:
-  name: "&cZaawansowany Panel Słoneczny"
-
-CELESTIAL_PANEL:
-  name: "&ePanel Niebiański"
-
-VOID_PANEL:
-  name: "&8Panel Pustki"
-
-INFINITE_PANEL:
-  name: "&bPanel Infinity"
-
-COBBLE_PRESS:
-  name: "&8Prasa do Bruku"
-
-RESOURCE_SYNTHESIZER:
-  name: "&6Syntezator Surowców"
-
-BASIC_VIRTUAL_FARM:
-  name: "&9Podstawowa &aWirtualna Farma"
-
-ADVANCED_VIRTUAL_FARM:
-  name: "&cZaawansowana &aWirtualna Farma"
-
-INFINITY_VIRTUAL_FARM:
-  name: "&bWirtualna &aFarma Infinity"
-
-BASIC_TREE_GROWER:
-  name: "&9Podstawowy &2Hodowca Drzew"
-
-ADVANCED_TREE_GROWER:
-  name: "&cZaawansowany &2Hodowca Drzew"
-
-INFINITY_TREE_GROWER:
-  name: "&bHodowca &2Drzew Infinity"
-
-POWERED_BEDROCK:
-  name: "&4Zasilany Bedrock"
-
-GEO_QUARRY:
-  name: "&fGeo Kamieniołom"
-
-EXTREME_FREEZER:
-  name: "&bEkstremalna Zamrażarka"
-
-DUST_EXTRACTOR:
-  name: "&8Ekstraktor Pyłu"
-
-INFINITY_DUST_EXTRACTOR:
-  name: "&bEkstraktor &8Pyłu Infinity"
-
-INGOT_FORMER:
-  name: "&8Formownica Sztabek"
-
-INFINITY_INGOT_FORMER:
-  name: "&bFormownica &8Sztabek Infinity"
-
-URANIUM_EXTRACTOR:
-  name: "&aEkstraktor Uranu"
-
-DECOMPRESSOR:
-  name: "&7Dekompresor"
-
-GEAR_TRANSFORMER:
-  name: "&7Transformator Sprzętu"
-
-BASIC_COBBLE_GEN:
-  name: "&9Podstawowy &8Generator Bruku"
-
-ADVANCED_COBBLE_GEN:
-  name: "&cZaawansowany &8Generator Bruku"
-
-INFINITY_COBBLE_GEN:
-  name: "&cGenerator &8Bruku Infinity"
-
-BASIC_OBSIDIAN_GEN:
-  name: "&8Generator Obsydianu"
-
-SINGULARITY_CONSTRUCTOR:
-  name: "&fKonstruktor Osobliwości"
-
-INFINITY_CONSTRUCTOR:
-  name: "&bKonstruktor &fInfinity"
-
-STONEWORKS_FACTORY:
-  name: "&8Fabryka Kamienia"
-
-VOID_HARVESTER:
-  name: "&8Żniwiarz Pustki"
-
-INFINITE_VOID_HARVESTER:
-  name: "&bNieskończony &8Żniwiarz Pustki"
-
-INFINITE_MACHINE_CIRCUIT:
-  name: "&bNieskończony &6Obwód Maszynowy"
-
-INFINITE_MACHINE_CORE:
-  name: "&bNieskończony Rdzeń Maszynowy"
-
-MAGSTEEL_PLATE:
-  name: "&4Płyta z MagStali"
-
-MACHINE_PLATE:
-  name: "&fPłyta Maszynowa"
-
-MACHINE_CIRCUIT:
-  name: "&6Obwód Maszynowy"
-
-MACHINE_CORE:
-  name: "&fRdzeń Maszynowy"
-
-VOID_BIT:
-  name: "&8Okruch Pustki"
-
-VOID_DUST:
-  name: "&8Pył Pustki"
-
-VOID_INGOT:
-  name: "&8Sztabka Pustki"
-
-COMPRESSED_COBBLESTONE_1:
-  name: "&7Pojedynczo Sprasowany Bruk"
-
-COMPRESSED_COBBLESTONE_2:
-  name: "&7Podwójnie Sprasowany Bruk"
-
-COMPRESSED_COBBLESTONE_3:
-  name: "&7Potrójnie Sprasowany Bruk"
-
-COMPRESSED_COBBLESTONE_4:
-  name: "&7Poczwórnie Sprasowany Bruk"
-
-COMPRESSED_COBBLESTONE_5:
-  name: "&7Pięciokrotnie Sprasowany Bruk"
-
-MAGSTEEL:
-  name: "&4MagStal"
-
-MAGNONIUM:
-  name: "&5Magnonium"
-
-TITANIUM:
-  name: "&7Tytan"
-
-MYTHRIL:
-  name: "&bMithril"
-
 ADAMANTITE:
-  name: "&dAdamantyt"
-
-INFINITE_INGOT:
-  name: "&bSztabka Infinity"
-
-FORTUNE_SINGULARITY:
-  name: "&6Osobliwość Fortuny"
-
-EARTH_SINGULARITY:
-  name: "&aOsobliwość Ziemi"
-
-METAL_SINGULARITY:
-  name: "&8Osobliwość Metalu"
-
-MAGIC_SINGULARITY:
-  name: "&dOsobliwość Magii"
-
-END_ESSENCE:
-  name: "&5Esencja Endu"
-
-COPPER_SINGULARITY:
-  name: "&6Osobliwość Miedzi"
-
-ZINC_SINGULARITY:
-  name: "&7Osobliwość Cynku"
-
-TIN_SINGULARITY:
-  name: "&7Osobliwość Cyny"
-
-ALUMINUM_SINGULARITY:
-  name: "&7Osobliwość Aluminium"
-
-SILVER_SINGULARITY:
-  name: "&7Osobliwość Srebra"
-
-MAGNESIUM_SINGULARITY:
-  name: "&5Osobliwość Magnezu"
-
-LEAD_SINGULARITY:
-  name: "&8Osobliwość Ołowiu"
-
-GOLD_SINGULARITY:
-  name: "&6Osobliwość Złota"
-
-IRON_SINGULARITY:
-  name: "&7Osobliwość Żelaza"
-
-DIAMOND_SINGULARITY:
-  name: "&bOsobliwość Diamentu"
-
-EMERALD_SINGULARITY:
-  name: "&aOsobliwość Szmaragdu"
-
-NETHERITE_SINGULARITY:
-  name: "&4Osobliwość Netherytu"
-
-COAL_SINGULARITY:
-  name: "&8Osobliwość Węgla"
-
-REDSTONE_SINGULARITY:
-  name: "&cOsobliwość Czerwonego Kamienia"
-
-LAPIS_SINGULARITY:
-  name: "&9Osobliwość Lazurytu"
-
-QUARTZ_SINGULARITY:
-  name: "&fOsobliwość Kwarcu"
-
-INFINITY_SINGULARITY:
-  name: "&bOsobliwość Infinity"
-
-BASIC_STRAINER:
-  name: "&9Podstawowe Sito"
-
-ADVANCED_STRAINER:
-  name: "&cZaawansowane Sito"
-
-REINFORCED_STRAINER:
-  name: "&fWzmocnione Sito"
-
-EMPTY_DATA_CARD:
-  name: "&8Pusta Karta Danych"
-
-DATA_INFUSER:
-  name: "&8Infuzor Danych Moba"
-
-MOB_SIMULATION_CHAMBER:
-  name: "&8Komora Symulacji Moba"
-
-BASIC_QUARRY:
-  name: "&9Podstawowy Kamieniołom"
-
+  name: '&dAdamantyt'
+  type:
+  - '&7&oSurowiec'
+ADVANCED_ANVIL:
+  name: '&cZaawansowane Kowadło'
+  type:
+  - '&7&oMaszyna'
+ADVANCED_CHARGER:
+  name: '&cZaawansowana Ładowarka'
+  type:
+  - '&7&oMaszyna'
+ADVANCED_COBBLE_GEN:
+  name: '&cZaawansowany &8Generator Bruku'
+  type:
+  - '&7&oMaszyna'
+ADVANCED_DISENCHANTER:
+  name: '&cZaawansowany Odklinacz'
+  type:
+  - '&7&oMaszyna'
+ADVANCED_ENCHANTER:
+  name: '&cZaawansowany Zaklinacz'
+  type:
+  - '&7&oMaszyna'
+ADVANCED_GEO_MINER:
+  name: '&cZaawansowany &fGeoKopacz'
+  type:
+  - '&7&oMaszyna'
+ADVANCED_NETHER_STAR_REACTOR:
+  name: '&cZaawansowany Reaktor Gwiazdy Netheru'
+  type:
+  - '&7&oGenerator'
+ADVANCED_PANEL:
+  name: '&cZaawansowany Panel Słoneczny'
+  type:
+  - '&7&oGenerator'
 ADVANCED_QUARRY:
-  name: "&cZaawansowany Kamieniołom"
-
-VOID_QUARRY:
-  name: "&8Kamieniołom Pustki"
-
-INFINITY_QUARRY:
-  name: "&bKamieniołom Infinity"
-
-STORAGE_FORGE:
-  name: "&6Kuźnia Magazynu"
-
-BASIC_STORAGE:
-  name: "&9Podstawowa &8Jednostka Magazynu"
-
+  name: '&cZaawansowany Kamieniołom'
+  type:
+  - '&7&oMaszyna'
+ADVANCED_SMELTERY:
+  name: '&cZaawansowana &7Huta'
+  type:
+  - '&7&oMaszyna'
 ADVANCED_STORAGE:
-  name: "&cZaawansowana &8Jednostka Magazynu"
-
-REINFORCED_STORAGE:
-  name: "&fWzmocniona &8Jednostka Magazynu"
-
-VOID_STORAGE:
-  name: "&8Jednostka &8Magazynu Pustki"
-
+  name: '&cZaawansowana &8Jednostka Magazynu'
+  type:
+  - '&7&oMaszyna'
+ADVANCED_STRAINER:
+  name: '&cZaawansowane Sito'
+  type:
+  - '&7&oKomponent'
+ADVANCED_TREE_GROWER:
+  name: '&cZaawansowany &2Hodowca Drzew'
+  type:
+  - '&7&oMaszyna'
+ADVANCED_VIRTUAL_FARM:
+  name: '&cZaawansowana &aWirtualna Farma'
+  type:
+  - '&7&oMaszyna'
+ALUMINUM_SINGULARITY:
+  name: '&7Osobliwość Aluminium'
+  type:
+  - '&7&oSurowiec'
+BASIC_COBBLE_GEN:
+  name: '&9Podstawowy &8Generator Bruku'
+  type:
+  - '&7&oMaszyna'
+BASIC_OBSIDIAN_GEN:
+  name: '&8Generator Obsydianu'
+  type:
+  - '&7&oMaszyna'
+BASIC_PANEL:
+  name: '&9Podstawowy Panel Słoneczny'
+  type:
+  - '&7&oGenerator'
+BASIC_QUARRY:
+  name: '&9Podstawowy Kamieniołom'
+  type:
+  - '&7&oMaszyna'
+BASIC_STORAGE:
+  name: '&9Podstawowa &8Jednostka Magazynu'
+  type:
+  - '&7&oMaszyna'
+BASIC_STRAINER:
+  name: '&9Podstawowe Sito'
+  type:
+  - '&7&oKomponent'
+BASIC_TREE_GROWER:
+  name: '&9Podstawowy &2Hodowca Drzew'
+  type:
+  - '&7&oMaszyna'
+BASIC_VIRTUAL_FARM:
+  name: '&9Podstawowa &aWirtualna Farma'
+  type:
+  - '&7&oMaszyna'
+BEE_DATA_CARD:
+  type:
+  - '&7&oKomponent'
+BLAZE_DATA_CARD:
+  type:
+  - '&7&oKomponent'
+CELESTIAL_PANEL:
+  name: '&ePanel Niebiański'
+  type:
+  - '&7&oGenerator'
+CHICKEN_DATA_CARD:
+  type:
+  - '&7&oKomponent'
+COAL_SINGULARITY:
+  name: '&8Osobliwość Węgla'
+  type:
+  - '&7&oSurowiec'
+COBBLE_PRESS:
+  name: '&8Prasa do Bruku'
+  type:
+  - '&7&oMaszyna'
+COMPRESSED_COBBLESTONE_1:
+  name: '&7Pojedynczo Sprasowany Bruk'
+  type:
+  - '&7&oSurowiec'
+COMPRESSED_COBBLESTONE_2:
+  name: '&7Podwójnie Sprasowany Bruk'
+  type:
+  - '&7&oSurowiec'
+COMPRESSED_COBBLESTONE_3:
+  name: '&7Potrójnie Sprasowany Bruk'
+  type:
+  - '&7&oSurowiec'
+COMPRESSED_COBBLESTONE_4:
+  name: '&7Poczwórnie Sprasowany Bruk'
+  type:
+  - '&7&oSurowiec'
+COMPRESSED_COBBLESTONE_5:
+  name: '&7Pięciokrotnie Sprasowany Bruk'
+  type:
+  - '&7&oSurowiec'
+COPPER_SINGULARITY:
+  name: '&6Osobliwość Miedzi'
+  type:
+  - '&7&oSurowiec'
+COW_DATA_CARD:
+  type:
+  - '&7&oKomponent'
+CREEPER_DATA_CARD:
+  type:
+  - '&7&oKomponent'
+DATA_INFUSER:
+  name: '&8Infuzor Danych Moba'
+  type:
+  - '&7&oMaszyna'
+DECOMPRESSOR:
+  name: '&7Dekompresor'
+  type:
+  - '&7&oMaszyna'
+DIAMOND_SINGULARITY:
+  name: '&bOsobliwość Diamentu'
+  type:
+  - '&7&oSurowiec'
+DUST_EXTRACTOR:
+  name: '&8Ekstraktor Pyłu'
+  type:
+  - '&7&oMaszyna'
+EARTH_SINGULARITY:
+  name: '&aOsobliwość Ziemi'
+  type:
+  - '&7&oSurowiec'
+EMERALD_SINGULARITY:
+  name: '&aOsobliwość Szmaragdu'
+  type:
+  - '&7&oSurowiec'
+EMPTY_DATA_CARD:
+  name: '&8Pusta Karta Danych'
+  type:
+  - '&7&oKomponent'
+ENDERMEN_DATA_CARD:
+  type:
+  - '&7&oKomponent'
+ENDER_DRAGON_DATA_CARD:
+  type:
+  - '&7&oKomponent'
+ENDER_FLAME:
+  name: '&cPłomień Enderu'
+  type:
+  - '&7&oKomponent'
+END_ESSENCE:
+  name: '&5Esencja Endu'
+  type:
+  - '&7&oSurowiec'
+EXTREME_FREEZER:
+  name: '&bEkstremalna Zamrażarka'
+  type:
+  - '&7&oMaszyna'
+FORTUNE_SINGULARITY:
+  name: '&6Osobliwość Fortuny'
+  type:
+  - '&7&oSurowiec'
+GEAR_TRANSFORMER:
+  name: '&7Transformator Sprzętu'
+  type:
+  - '&7&oMaszyna'
+GEOTHERMAL_GENERATOR:
+  name: '&cGenerator Geotermalny'
+  type:
+  - '&7&oGenerator'
+GEO_QUARRY:
+  name: '&fGeo Kamieniołom'
+  type:
+  - '&7&oMaszyna'
+GOLD_SINGULARITY:
+  name: '&6Osobliwość Złota'
+  type:
+  - '&7&oSurowiec'
+GUARDIAN_DATA_CARD:
+  type:
+  - '&7&oKomponent'
+HYDRO_GENERATOR:
+  name: '&9Generator Hydro'
+  type:
+  - '&7&oGenerator'
+INFINITE_INGOT:
+  name: '&bSztabka Infinity'
+  type:
+  - '&7&oSurowiec'
+INFINITE_MACHINE_CIRCUIT:
+  name: '&bNieskończony &6Obwód Maszynowy'
+  type:
+  - '&7&oKomponent'
+INFINITE_MACHINE_CORE:
+  name: '&bNieskończony Rdzeń Maszynowy'
+  type:
+  - '&7&oKomponent'
+INFINITE_PANEL:
+  name: '&bPanel Infinity'
+  type:
+  - '&7&oGenerator'
+INFINITE_VOID_HARVESTER:
+  name: '&bNieskończony &8Żniwiarz Pustki'
+  type:
+  - '&7&oMaszyna'
+INFINITY_AXE:
+  name: '&4Zguba Natury'
+  type:
+  - '&7&oNarzędzie'
+INFINITY_BLADE:
+  name: '&bOstrze Kosmosu'
+  type:
+  - '&7&oBroń'
+INFINITY_BOOTS:
+  name: '&bButy Infinity'
+  type:
+  - '&7&oZbroja'
+INFINITY_BOW:
+  name: '&6Przebijacz Nieba'
+  type:
+  - '&7&oBroń'
+INFINITY_CAPACITOR:
+  name: '&bNieskończony Kondensator'
+  type:
+  - '&7&oKomponent'
+INFINITY_CHARGER:
+  name: '&bŁadowarka Infinity'
+  type:
+  - '&7&oMaszyna'
+INFINITY_CHESTPLATE:
+  name: '&bNapierśnik Infinity'
+  type:
+  - '&7&oZbroja'
+INFINITY_COBBLE_GEN:
+  name: '&cGenerator &8Bruku Infinity'
+  type:
+  - '&7&oMaszyna'
+INFINITY_CONSTRUCTOR:
+  name: '&bKonstruktor &fInfinity'
+  type:
+  - '&7&oMaszyna'
+INFINITY_CROWN:
+  name: '&bKorona Infinity'
+  type:
+  - '&7&oZbroja'
+INFINITY_DISENCHANTER:
+  name: '&bOdklinacz Infinity'
+  type:
+  - '&7&oMaszyna'
+INFINITY_DUST_EXTRACTOR:
+  name: '&bEkstraktor &8Pyłu Infinity'
+  type:
+  - '&7&oMaszyna'
+INFINITY_ENCHANTER:
+  name: '&bZaklinacz Infinity'
+  type:
+  - '&7&oMaszyna'
+INFINITY_FORGE:
+  name: '&6Stół Roboczy Infinity'
+  type:
+  - '&7&oMaszyna'
+INFINITY_INGOT_FORMER:
+  name: '&bFormownica &8Sztabek Infinity'
+  type:
+  - '&7&oMaszyna'
+INFINITY_LEGGINGS:
+  name: '&bNagolenniki Infinity'
+  type:
+  - '&7&oZbroja'
+INFINITY_MATRIX:
+  name: '&fMacierz Infinity'
+  type:
+  - '&7&oGadżet'
+INFINITY_PICKAXE:
+  name: '&9Niszczyciel Światów'
+  type:
+  - '&7&oNarzędzie'
+INFINITY_QUARRY:
+  name: '&bKamieniołom Infinity'
+  type:
+  - '&7&oMaszyna'
+INFINITY_REACTOR:
+  name: '&bReaktor Infinity'
+  type:
+  - '&7&oGenerator'
+INFINITY_SHIELD:
+  name: '&bKosmiczna Egida'
+  type:
+  - '&7&oBroń'
+INFINITY_SHOVEL:
+  name: '&aPożeracz Gór'
+  type:
+  - '&7&oNarzędzie'
+INFINITY_SINGULARITY:
+  name: '&bOsobliwość Infinity'
+  type:
+  - '&7&oSurowiec'
 INFINITY_STORAGE:
-  name: "&bJednostka &8Magazynu Infinity"
+  name: '&bJednostka &8Magazynu Infinity'
+  type:
+  - '&7&oMaszyna'
+INFINITY_TREE_GROWER:
+  name: '&bHodowca &2Drzew Infinity'
+  type:
+  - '&7&oMaszyna'
+INFINITY_VIRTUAL_FARM:
+  name: '&bWirtualna &aFarma Infinity'
+  type:
+  - '&7&oMaszyna'
+INGOT_FORMER:
+  name: '&8Formownica Sztabek'
+  type:
+  - '&7&oMaszyna'
+IRON_GOLEM_DATA_CARD:
+  type:
+  - '&7&oKomponent'
+IRON_SINGULARITY:
+  name: '&7Osobliwość Żelaza'
+  type:
+  - '&7&oSurowiec'
+LAPIS_SINGULARITY:
+  name: '&9Osobliwość Lazurytu'
+  type:
+  - '&7&oSurowiec'
+LEAD_SINGULARITY:
+  name: '&8Osobliwość Ołowiu'
+  type:
+  - '&7&oSurowiec'
+MACHINE_CIRCUIT:
+  name: '&6Obwód Maszynowy'
+  type:
+  - '&7&oKomponent'
+MACHINE_CORE:
+  name: '&fRdzeń Maszynowy'
+  type:
+  - '&7&oKomponent'
+MACHINE_PLATE:
+  name: '&fPłyta Maszynowa'
+  type:
+  - '&7&oKomponent'
+MAGIC_SINGULARITY:
+  name: '&dOsobliwość Magii'
+  type:
+  - '&7&oSurowiec'
+MAGMA_CUBE_DATA_CARD:
+  type:
+  - '&7&oKomponent'
+MAGNESIUM_SINGULARITY:
+  name: '&5Osobliwość Magnezu'
+  type:
+  - '&7&oSurowiec'
+MAGNONIUM:
+  name: '&5Magnonium'
+  type:
+  - '&7&oSurowiec'
+MAGSTEEL:
+  name: '&4MagStal'
+  type:
+  - '&7&oSurowiec'
+MAGSTEEL_PLATE:
+  name: '&4Płyta z MagStali'
+  type:
+  - '&7&oKomponent'
+METAL_SINGULARITY:
+  name: '&8Osobliwość Metalu'
+  type:
+  - '&7&oSurowiec'
+MOB_SIMULATION_CHAMBER:
+  name: '&8Komora Symulacji Moba'
+  type:
+  - '&7&oMaszyna'
+MYTHRIL:
+  name: '&bMithril'
+  type:
+  - '&7&oSurowiec'
+NETHERITE_SINGULARITY:
+  name: '&4Osobliwość Netherytu'
+  type:
+  - '&7&oSurowiec'
+POWERED_BEDROCK:
+  name: '&4Zasilany Bedrock'
+  type:
+  - '&7&oMaszyna'
+QUARRY_OSCILLATOR_DIAMOND:
+  type:
+  - '&7&oKomponent'
+QUARRY_OSCILLATOR_EMERALD:
+  type:
+  - '&7&oKomponent'
+QUARRY_OSCILLATOR_LAPIS_LAZULI:
+  type:
+  - '&7&oKomponent'
+QUARRY_OSCILLATOR_QUARTZ:
+  type:
+  - '&7&oKomponent'
+QUARRY_OSCILLATOR_REDSTONE:
+  type:
+  - '&7&oKomponent'
+QUARTZ_SINGULARITY:
+  name: '&fOsobliwość Kwarcu'
+  type:
+  - '&7&oSurowiec'
+REDSTONE_SINGULARITY:
+  name: '&cOsobliwość Czerwonego Kamienia'
+  type:
+  - '&7&oSurowiec'
+REINFORCED_GEOTHERMAL_GENERATOR:
+  name: '&fWzmocniony &cGenerator Geotermalny'
+  type:
+  - '&7&oGenerator'
+REINFORCED_HYDRO_GENERATOR:
+  name: '&fWzmocniony &9Generator Hydro'
+  type:
+  - '&7&oGenerator'
+REINFORCED_STORAGE:
+  name: '&fWzmocniona &8Jednostka Magazynu'
+  type:
+  - '&7&oMaszyna'
+REINFORCED_STRAINER:
+  name: '&fWzmocnione Sito'
+  type:
+  - '&7&oKomponent'
+RESOURCE_SYNTHESIZER:
+  name: '&6Syntezator Surowców'
+  type:
+  - '&7&oMaszyna'
+SHEEP_DATA_CARD:
+  type:
+  - '&7&oKomponent'
+SILVER_SINGULARITY:
+  name: '&7Osobliwość Srebra'
+  type:
+  - '&7&oSurowiec'
+SINGULARITY_CONSTRUCTOR:
+  name: '&fKonstruktor Osobliwości'
+  type:
+  - '&7&oMaszyna'
+SKELETON_DATA_CARD:
+  type:
+  - '&7&oKomponent'
+SLIME_DATA_CARD:
+  type:
+  - '&7&oKomponent'
+SPIDER_DATA_CARD:
+  type:
+  - '&7&oKomponent'
+STONEWORKS_FACTORY:
+  name: '&8Fabryka Kamienia'
+  type:
+  - '&7&oMaszyna'
+STORAGE_FORGE:
+  name: '&6Kuźnia Magazynu'
+  type:
+  - '&7&oMaszyna'
+STRAINER_BASE:
+  name: '&7Podstawa Sita'
+  type:
+  - '&7&oMaszyna'
+TIN_SINGULARITY:
+  name: '&7Osobliwość Cyny'
+  type:
+  - '&7&oSurowiec'
+TITANIUM:
+  name: '&7Tytan'
+  type:
+  - '&7&oSurowiec'
+URANIUM_EXTRACTOR:
+  name: '&aEkstraktor Uranu'
+  type:
+  - '&7&oMaszyna'
+VEIN_MINER_RUNE:
+  name: '&bRuna Górnika Żył'
+  type:
+  - '&7&oGadżet'
+VILLAGER_DATA_CARD:
+  type:
+  - '&7&oKomponent'
+VOID_BIT:
+  name: '&8Okruch Pustki'
+  type:
+  - '&7&oSurowiec'
+VOID_CAPACITOR:
+  name: '&8Kondensator Pustki'
+  type:
+  - '&7&oKomponent'
+VOID_DUST:
+  name: '&8Pył Pustki'
+  type:
+  - '&7&oSurowiec'
+VOID_HARVESTER:
+  name: '&8Żniwiarz Pustki'
+  type:
+  - '&7&oMaszyna'
+VOID_INGOT:
+  name: '&8Sztabka Pustki'
+  type:
+  - '&7&oSurowiec'
+VOID_PANEL:
+  name: '&8Panel Pustki'
+  type:
+  - '&7&oGenerator'
+VOID_QUARRY:
+  name: '&8Kamieniołom Pustki'
+  type:
+  - '&7&oMaszyna'
+VOID_STORAGE:
+  name: '&8Jednostka &8Magazynu Pustki'
+  type:
+  - '&7&oMaszyna'
+WITCH_DATA_CARD:
+  type:
+  - '&7&oKomponent'
+WITHER_DATA_CARD:
+  type:
+  - '&7&oKomponent'
+WITHER_SKELETON_DATA_CARD:
+  type:
+  - '&7&oKomponent'
+ZINC_SINGULARITY:
+  name: '&7Osobliwość Cynku'
+  type:
+  - '&7&oSurowiec'
+ZOMBIE_DATA_CARD:
+  type:
+  - '&7&oKomponent'

@@ -1,0 +1,438 @@
+ADAMANTITE:
+  type:
+  - '&7&oSurovina'
+ADVANCED_ANVIL:
+  type:
+  - '&7&oStroj'
+ADVANCED_CHARGER:
+  type:
+  - '&7&oStroj'
+ADVANCED_COBBLE_GEN:
+  type:
+  - '&7&oStroj'
+ADVANCED_DISENCHANTER:
+  type:
+  - '&7&oStroj'
+ADVANCED_ENCHANTER:
+  type:
+  - '&7&oStroj'
+ADVANCED_GEO_MINER:
+  type:
+  - '&7&oStroj'
+ADVANCED_NETHER_STAR_REACTOR:
+  type:
+  - '&7&oGenerátor'
+ADVANCED_PANEL:
+  type:
+  - '&7&oGenerátor'
+ADVANCED_QUARRY:
+  type:
+  - '&7&oStroj'
+ADVANCED_SMELTERY:
+  type:
+  - '&7&oStroj'
+ADVANCED_STORAGE:
+  type:
+  - '&7&oStroj'
+ADVANCED_STRAINER:
+  type:
+  - '&7&oKomponenta'
+ADVANCED_TREE_GROWER:
+  type:
+  - '&7&oStroj'
+ADVANCED_VIRTUAL_FARM:
+  type:
+  - '&7&oStroj'
+ALUMINUM_SINGULARITY:
+  type:
+  - '&7&oSurovina'
+BASIC_COBBLE_GEN:
+  type:
+  - '&7&oStroj'
+BASIC_OBSIDIAN_GEN:
+  type:
+  - '&7&oStroj'
+BASIC_PANEL:
+  type:
+  - '&7&oGenerátor'
+BASIC_QUARRY:
+  type:
+  - '&7&oStroj'
+BASIC_STORAGE:
+  type:
+  - '&7&oStroj'
+BASIC_STRAINER:
+  type:
+  - '&7&oKomponenta'
+BASIC_TREE_GROWER:
+  type:
+  - '&7&oStroj'
+BASIC_VIRTUAL_FARM:
+  type:
+  - '&7&oStroj'
+BEE_DATA_CARD:
+  type:
+  - '&7&oKomponenta'
+BLAZE_DATA_CARD:
+  type:
+  - '&7&oKomponenta'
+CELESTIAL_PANEL:
+  type:
+  - '&7&oGenerátor'
+CHICKEN_DATA_CARD:
+  type:
+  - '&7&oKomponenta'
+COAL_SINGULARITY:
+  type:
+  - '&7&oSurovina'
+COBBLE_PRESS:
+  type:
+  - '&7&oStroj'
+COMPRESSED_COBBLESTONE_1:
+  type:
+  - '&7&oSurovina'
+COMPRESSED_COBBLESTONE_2:
+  type:
+  - '&7&oSurovina'
+COMPRESSED_COBBLESTONE_3:
+  type:
+  - '&7&oSurovina'
+COMPRESSED_COBBLESTONE_4:
+  type:
+  - '&7&oSurovina'
+COMPRESSED_COBBLESTONE_5:
+  type:
+  - '&7&oSurovina'
+COPPER_SINGULARITY:
+  type:
+  - '&7&oSurovina'
+COW_DATA_CARD:
+  type:
+  - '&7&oKomponenta'
+CREEPER_DATA_CARD:
+  type:
+  - '&7&oKomponenta'
+DATA_INFUSER:
+  type:
+  - '&7&oStroj'
+DECOMPRESSOR:
+  type:
+  - '&7&oStroj'
+DIAMOND_SINGULARITY:
+  type:
+  - '&7&oSurovina'
+DUST_EXTRACTOR:
+  type:
+  - '&7&oStroj'
+EARTH_SINGULARITY:
+  type:
+  - '&7&oSurovina'
+EMERALD_SINGULARITY:
+  type:
+  - '&7&oSurovina'
+EMPTY_DATA_CARD:
+  type:
+  - '&7&oKomponenta'
+ENDERMEN_DATA_CARD:
+  type:
+  - '&7&oKomponenta'
+ENDER_DRAGON_DATA_CARD:
+  type:
+  - '&7&oKomponenta'
+ENDER_FLAME:
+  type:
+  - '&7&oKomponenta'
+END_ESSENCE:
+  type:
+  - '&7&oSurovina'
+EXTREME_FREEZER:
+  type:
+  - '&7&oStroj'
+FORTUNE_SINGULARITY:
+  type:
+  - '&7&oSurovina'
+GEAR_TRANSFORMER:
+  type:
+  - '&7&oStroj'
+GEOTHERMAL_GENERATOR:
+  type:
+  - '&7&oGenerátor'
+GEO_QUARRY:
+  type:
+  - '&7&oStroj'
+GOLD_SINGULARITY:
+  type:
+  - '&7&oSurovina'
+GUARDIAN_DATA_CARD:
+  type:
+  - '&7&oKomponenta'
+HYDRO_GENERATOR:
+  type:
+  - '&7&oGenerátor'
+INFINITE_INGOT:
+  type:
+  - '&7&oSurovina'
+INFINITE_MACHINE_CIRCUIT:
+  type:
+  - '&7&oKomponenta'
+INFINITE_MACHINE_CORE:
+  type:
+  - '&7&oKomponenta'
+INFINITE_PANEL:
+  type:
+  - '&7&oGenerátor'
+INFINITE_VOID_HARVESTER:
+  type:
+  - '&7&oStroj'
+INFINITY_AXE:
+  type:
+  - '&7&oNástroj'
+INFINITY_BLADE:
+  type:
+  - '&7&oZbraň'
+INFINITY_BOOTS:
+  type:
+  - '&7&oBrnění'
+INFINITY_BOW:
+  type:
+  - '&7&oZbraň'
+INFINITY_CAPACITOR:
+  type:
+  - '&7&oKomponenta'
+INFINITY_CHARGER:
+  type:
+  - '&7&oStroj'
+INFINITY_CHESTPLATE:
+  type:
+  - '&7&oBrnění'
+INFINITY_COBBLE_GEN:
+  type:
+  - '&7&oStroj'
+INFINITY_CONSTRUCTOR:
+  type:
+  - '&7&oStroj'
+INFINITY_CROWN:
+  type:
+  - '&7&oBrnění'
+INFINITY_DISENCHANTER:
+  type:
+  - '&7&oStroj'
+INFINITY_DUST_EXTRACTOR:
+  type:
+  - '&7&oStroj'
+INFINITY_ENCHANTER:
+  type:
+  - '&7&oStroj'
+INFINITY_FORGE:
+  type:
+  - '&7&oStroj'
+INFINITY_INGOT_FORMER:
+  type:
+  - '&7&oStroj'
+INFINITY_LEGGINGS:
+  type:
+  - '&7&oBrnění'
+INFINITY_MATRIX:
+  type:
+  - '&7&oPomůcka'
+INFINITY_PICKAXE:
+  type:
+  - '&7&oNástroj'
+INFINITY_QUARRY:
+  type:
+  - '&7&oStroj'
+INFINITY_REACTOR:
+  type:
+  - '&7&oGenerátor'
+INFINITY_SHIELD:
+  type:
+  - '&7&oZbraň'
+INFINITY_SHOVEL:
+  type:
+  - '&7&oNástroj'
+INFINITY_SINGULARITY:
+  type:
+  - '&7&oSurovina'
+INFINITY_STORAGE:
+  type:
+  - '&7&oStroj'
+INFINITY_TREE_GROWER:
+  type:
+  - '&7&oStroj'
+INFINITY_VIRTUAL_FARM:
+  type:
+  - '&7&oStroj'
+INGOT_FORMER:
+  type:
+  - '&7&oStroj'
+IRON_GOLEM_DATA_CARD:
+  type:
+  - '&7&oKomponenta'
+IRON_SINGULARITY:
+  type:
+  - '&7&oSurovina'
+LAPIS_SINGULARITY:
+  type:
+  - '&7&oSurovina'
+LEAD_SINGULARITY:
+  type:
+  - '&7&oSurovina'
+MACHINE_CIRCUIT:
+  type:
+  - '&7&oKomponenta'
+MACHINE_CORE:
+  type:
+  - '&7&oKomponenta'
+MACHINE_PLATE:
+  type:
+  - '&7&oKomponenta'
+MAGIC_SINGULARITY:
+  type:
+  - '&7&oSurovina'
+MAGMA_CUBE_DATA_CARD:
+  type:
+  - '&7&oKomponenta'
+MAGNESIUM_SINGULARITY:
+  type:
+  - '&7&oSurovina'
+MAGNONIUM:
+  type:
+  - '&7&oSurovina'
+MAGSTEEL:
+  type:
+  - '&7&oSurovina'
+MAGSTEEL_PLATE:
+  type:
+  - '&7&oKomponenta'
+METAL_SINGULARITY:
+  type:
+  - '&7&oSurovina'
+MOB_SIMULATION_CHAMBER:
+  type:
+  - '&7&oStroj'
+MYTHRIL:
+  type:
+  - '&7&oSurovina'
+NETHERITE_SINGULARITY:
+  type:
+  - '&7&oSurovina'
+POWERED_BEDROCK:
+  type:
+  - '&7&oStroj'
+QUARRY_OSCILLATOR_DIAMOND:
+  type:
+  - '&7&oKomponenta'
+QUARRY_OSCILLATOR_EMERALD:
+  type:
+  - '&7&oKomponenta'
+QUARRY_OSCILLATOR_LAPIS_LAZULI:
+  type:
+  - '&7&oKomponenta'
+QUARRY_OSCILLATOR_QUARTZ:
+  type:
+  - '&7&oKomponenta'
+QUARRY_OSCILLATOR_REDSTONE:
+  type:
+  - '&7&oKomponenta'
+QUARTZ_SINGULARITY:
+  type:
+  - '&7&oSurovina'
+REDSTONE_SINGULARITY:
+  type:
+  - '&7&oSurovina'
+REINFORCED_GEOTHERMAL_GENERATOR:
+  type:
+  - '&7&oGenerátor'
+REINFORCED_HYDRO_GENERATOR:
+  type:
+  - '&7&oGenerátor'
+REINFORCED_STORAGE:
+  type:
+  - '&7&oStroj'
+REINFORCED_STRAINER:
+  type:
+  - '&7&oKomponenta'
+RESOURCE_SYNTHESIZER:
+  type:
+  - '&7&oStroj'
+SHEEP_DATA_CARD:
+  type:
+  - '&7&oKomponenta'
+SILVER_SINGULARITY:
+  type:
+  - '&7&oSurovina'
+SINGULARITY_CONSTRUCTOR:
+  type:
+  - '&7&oStroj'
+SKELETON_DATA_CARD:
+  type:
+  - '&7&oKomponenta'
+SLIME_DATA_CARD:
+  type:
+  - '&7&oKomponenta'
+SPIDER_DATA_CARD:
+  type:
+  - '&7&oKomponenta'
+STONEWORKS_FACTORY:
+  type:
+  - '&7&oStroj'
+STORAGE_FORGE:
+  type:
+  - '&7&oStroj'
+STRAINER_BASE:
+  type:
+  - '&7&oStroj'
+TIN_SINGULARITY:
+  type:
+  - '&7&oSurovina'
+TITANIUM:
+  type:
+  - '&7&oSurovina'
+URANIUM_EXTRACTOR:
+  type:
+  - '&7&oStroj'
+VEIN_MINER_RUNE:
+  type:
+  - '&7&oPomůcka'
+VILLAGER_DATA_CARD:
+  type:
+  - '&7&oKomponenta'
+VOID_BIT:
+  type:
+  - '&7&oSurovina'
+VOID_CAPACITOR:
+  type:
+  - '&7&oKomponenta'
+VOID_DUST:
+  type:
+  - '&7&oSurovina'
+VOID_HARVESTER:
+  type:
+  - '&7&oStroj'
+VOID_INGOT:
+  type:
+  - '&7&oSurovina'
+VOID_PANEL:
+  type:
+  - '&7&oGenerátor'
+VOID_QUARRY:
+  type:
+  - '&7&oStroj'
+VOID_STORAGE:
+  type:
+  - '&7&oStroj'
+WITCH_DATA_CARD:
+  type:
+  - '&7&oKomponenta'
+WITHER_DATA_CARD:
+  type:
+  - '&7&oKomponenta'
+WITHER_SKELETON_DATA_CARD:
+  type:
+  - '&7&oKomponenta'
+ZINC_SINGULARITY:
+  type:
+  - '&7&oSurovina'
+ZOMBIE_DATA_CARD:
+  type:
+  - '&7&oKomponenta'

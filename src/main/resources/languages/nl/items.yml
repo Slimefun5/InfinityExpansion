@@ -1,368 +1,560 @@
-# Dutch item translations for InfinityExpansion. Keyed by Slimefun item id.
-# name = display name with '&' colour codes. Missing items fall back to English.
-
-ADVANCED_GEO_MINER:
-  name: "&cGeavanceerde &fGeoMijner"
-
-ADVANCED_SMELTERY:
-  name: "&cGeavanceerde &7Smelterij"
-
-ADVANCED_CHARGER:
-  name: "&cGeavanceerde Lader"
-
-INFINITY_CHARGER:
-  name: "&bInfinity Lader"
-
-ADVANCED_NETHER_STAR_REACTOR:
-  name: "&cGeavanceerde Netherster-Reactor"
-
-ADVANCED_ENCHANTER:
-  name: "&cGeavanceerde Betoveraar"
-
-ADVANCED_DISENCHANTER:
-  name: "&cGeavanceerde Ontbetoveraar"
-
-INFINITY_ENCHANTER:
-  name: "&bInfinity Betoveraar"
-
-INFINITY_DISENCHANTER:
-  name: "&bInfinity Ontbetoveraar"
-
-INFINITY_CAPACITOR:
-  name: "&bOneindige Condensator"
-
-VOID_CAPACITOR:
-  name: "&8Leegte-Condensator"
-
-STRAINER_BASE:
-  name: "&7Zeefbasis"
-
-ADVANCED_ANVIL:
-  name: "&cGeavanceerd Aambeeld"
-
-INFINITY_FORGE:
-  name: "&6Infinity Werkbank"
-
-ENDER_FLAME:
-  name: "&cEnder Vlam"
-
-INFINITY_CROWN:
-  name: "&bInfinity Kroon"
-
-INFINITY_CHESTPLATE:
-  name: "&bInfinity Borstplaat"
-
-INFINITY_LEGGINGS:
-  name: "&bInfinity Beenkappen"
-
-INFINITY_BOOTS:
-  name: "&bInfinity Laarzen"
-
-INFINITY_MATRIX:
-  name: "&fInfinity Matrix"
-
-INFINITY_SHIELD:
-  name: "&bKosmische Aegis"
-
-INFINITY_BLADE:
-  name: "&bKling van de Kosmos"
-
-INFINITY_PICKAXE:
-  name: "&9Wereldbreker"
-
-INFINITY_AXE:
-  name: "&4Ruïne van de Natuur"
-
-INFINITY_SHOVEL:
-  name: "&aBergeneter"
-
-INFINITY_BOW:
-  name: "&6Hemelboorder"
-
-VEIN_MINER_RUNE:
-  name: "&bAdermijner-Rune"
-
-INFINITY_REACTOR:
-  name: "&bInfinity Reactor"
-
-HYDRO_GENERATOR:
-  name: "&9Hydro-Generator"
-
-REINFORCED_HYDRO_GENERATOR:
-  name: "&fVersterkte &9Hydro-Gen"
-
-GEOTHERMAL_GENERATOR:
-  name: "&cGeothermische Generator"
-
-REINFORCED_GEOTHERMAL_GENERATOR:
-  name: "&fVersterkte &cGeothermische Gen"
-
-BASIC_PANEL:
-  name: "&9Basis Zonnepaneel"
-
-ADVANCED_PANEL:
-  name: "&cGeavanceerd Zonnepaneel"
-
-CELESTIAL_PANEL:
-  name: "&eHemels Paneel"
-
-VOID_PANEL:
-  name: "&8Leegte-Paneel"
-
-INFINITE_PANEL:
-  name: "&bInfinity Paneel"
-
-COBBLE_PRESS:
-  name: "&8Steenpers"
-
-RESOURCE_SYNTHESIZER:
-  name: "&6Grondstofsynthesizer"
-
-BASIC_VIRTUAL_FARM:
-  name: "&9Basis &aVirtuele Boerderij"
-
-ADVANCED_VIRTUAL_FARM:
-  name: "&cGeavanceerde &aVirtuele Boerderij"
-
-INFINITY_VIRTUAL_FARM:
-  name: "&bInfinity &aVirtuele Boerderij"
-
-BASIC_TREE_GROWER:
-  name: "&9Basis &2Boomkweker"
-
-ADVANCED_TREE_GROWER:
-  name: "&cGeavanceerde &2Boomkweker"
-
-INFINITY_TREE_GROWER:
-  name: "&bInfinity &2Boomkweker"
-
-POWERED_BEDROCK:
-  name: "&4Aangedreven Bedrock"
-
-GEO_QUARRY:
-  name: "&fGeo Steengroeve"
-
-EXTREME_FREEZER:
-  name: "&bExtreme Vriezer"
-
-DUST_EXTRACTOR:
-  name: "&8Stofextractor"
-
-INFINITY_DUST_EXTRACTOR:
-  name: "&bInfinity &8Stofextractor"
-
-INGOT_FORMER:
-  name: "&8Staafvormer"
-
-INFINITY_INGOT_FORMER:
-  name: "&bInfinity &8Staafvormer"
-
-URANIUM_EXTRACTOR:
-  name: "&aUraniumextractor"
-
-DECOMPRESSOR:
-  name: "&7Decompressor"
-
-GEAR_TRANSFORMER:
-  name: "&7Uitrustingstransformator"
-
-BASIC_COBBLE_GEN:
-  name: "&9Basis &8Steengenerator"
-
-ADVANCED_COBBLE_GEN:
-  name: "&cGeavanceerde &8Steengenerator"
-
-INFINITY_COBBLE_GEN:
-  name: "&cInfinity &8Steengenerator"
-
-BASIC_OBSIDIAN_GEN:
-  name: "&8Obsidiaangenerator"
-
-SINGULARITY_CONSTRUCTOR:
-  name: "&fSingulariteitsconstructor"
-
-INFINITY_CONSTRUCTOR:
-  name: "&bInfinity &fConstructor"
-
-STONEWORKS_FACTORY:
-  name: "&8Steenfabriek"
-
-VOID_HARVESTER:
-  name: "&8Leegte-Oogster"
-
-INFINITE_VOID_HARVESTER:
-  name: "&bOneindige &8Leegte-Oogster"
-
-INFINITE_MACHINE_CIRCUIT:
-  name: "&bOneindig &6Machinecircuit"
-
-INFINITE_MACHINE_CORE:
-  name: "&bOneindige Machinekern"
-
-MAGSTEEL_PLATE:
-  name: "&4MagSteel Plaat"
-
-MACHINE_PLATE:
-  name: "&fMachineplaat"
-
-MACHINE_CIRCUIT:
-  name: "&6Machinecircuit"
-
-MACHINE_CORE:
-  name: "&fMachinekern"
-
-VOID_BIT:
-  name: "&8Leegte-Bit"
-
-VOID_DUST:
-  name: "&8Leegte-Stof"
-
-VOID_INGOT:
-  name: "&8Leegte-Staaf"
-
-COMPRESSED_COBBLESTONE_1:
-  name: "&7Enkel Geperste Steen"
-
-COMPRESSED_COBBLESTONE_2:
-  name: "&7Dubbel Geperste Steen"
-
-COMPRESSED_COBBLESTONE_3:
-  name: "&7Driedubbel Geperste Steen"
-
-COMPRESSED_COBBLESTONE_4:
-  name: "&7Viervoudig Geperste Steen"
-
-COMPRESSED_COBBLESTONE_5:
-  name: "&7Vijfvoudig Geperste Steen"
-
-MAGSTEEL:
-  name: "&4MagSteel"
-
-MAGNONIUM:
-  name: "&5Magnonium"
-
-TITANIUM:
-  name: "&7Titanium"
-
-MYTHRIL:
-  name: "&bMithril"
-
 ADAMANTITE:
-  name: "&dAdamantiet"
-
-INFINITE_INGOT:
-  name: "&bInfinity Staaf"
-
-FORTUNE_SINGULARITY:
-  name: "&6Geluk-Singulariteit"
-
-EARTH_SINGULARITY:
-  name: "&aAarde-Singulariteit"
-
-METAL_SINGULARITY:
-  name: "&8Metaal-Singulariteit"
-
-MAGIC_SINGULARITY:
-  name: "&dMagie-Singulariteit"
-
-END_ESSENCE:
-  name: "&5Ender-Essentie"
-
-COPPER_SINGULARITY:
-  name: "&6Koper-Singulariteit"
-
-ZINC_SINGULARITY:
-  name: "&7Zink-Singulariteit"
-
-TIN_SINGULARITY:
-  name: "&7Tin-Singulariteit"
-
-ALUMINUM_SINGULARITY:
-  name: "&7Aluminium-Singulariteit"
-
-SILVER_SINGULARITY:
-  name: "&7Zilver-Singulariteit"
-
-MAGNESIUM_SINGULARITY:
-  name: "&5Magnesium-Singulariteit"
-
-LEAD_SINGULARITY:
-  name: "&8Lood-Singulariteit"
-
-GOLD_SINGULARITY:
-  name: "&6Goud-Singulariteit"
-
-IRON_SINGULARITY:
-  name: "&7IJzer-Singulariteit"
-
-DIAMOND_SINGULARITY:
-  name: "&bDiamant-Singulariteit"
-
-EMERALD_SINGULARITY:
-  name: "&aSmaragd-Singulariteit"
-
-NETHERITE_SINGULARITY:
-  name: "&4Netheriet-Singulariteit"
-
-COAL_SINGULARITY:
-  name: "&8Kool-Singulariteit"
-
-REDSTONE_SINGULARITY:
-  name: "&cRedstone-Singulariteit"
-
-LAPIS_SINGULARITY:
-  name: "&9Lapis-Singulariteit"
-
-QUARTZ_SINGULARITY:
-  name: "&fKwarts-Singulariteit"
-
-INFINITY_SINGULARITY:
-  name: "&bInfinity-Singulariteit"
-
-BASIC_STRAINER:
-  name: "&9Basis Zeef"
-
-ADVANCED_STRAINER:
-  name: "&cGeavanceerde Zeef"
-
-REINFORCED_STRAINER:
-  name: "&fVersterkte Zeef"
-
-EMPTY_DATA_CARD:
-  name: "&8Lege Datakaart"
-
-DATA_INFUSER:
-  name: "&8Mob-Data-Infuser"
-
-MOB_SIMULATION_CHAMBER:
-  name: "&8Mob-Simulatiekamer"
-
-BASIC_QUARRY:
-  name: "&9Basis Steengroeve"
-
+  name: '&dAdamantiet'
+  type:
+  - '&7&oGrondstof'
+ADVANCED_ANVIL:
+  name: '&cGeavanceerd Aambeeld'
+  type:
+  - '&7&oMachine'
+ADVANCED_CHARGER:
+  name: '&cGeavanceerde Lader'
+  type:
+  - '&7&oMachine'
+ADVANCED_COBBLE_GEN:
+  name: '&cGeavanceerde &8Steengenerator'
+  type:
+  - '&7&oMachine'
+ADVANCED_DISENCHANTER:
+  name: '&cGeavanceerde Ontbetoveraar'
+  type:
+  - '&7&oMachine'
+ADVANCED_ENCHANTER:
+  name: '&cGeavanceerde Betoveraar'
+  type:
+  - '&7&oMachine'
+ADVANCED_GEO_MINER:
+  name: '&cGeavanceerde &fGeoMijner'
+  type:
+  - '&7&oMachine'
+ADVANCED_NETHER_STAR_REACTOR:
+  name: '&cGeavanceerde Netherster-Reactor'
+  type:
+  - '&7&oGenerator'
+ADVANCED_PANEL:
+  name: '&cGeavanceerd Zonnepaneel'
+  type:
+  - '&7&oGenerator'
 ADVANCED_QUARRY:
-  name: "&cGeavanceerde Steengroeve"
-
-VOID_QUARRY:
-  name: "&8Leegte-Steengroeve"
-
-INFINITY_QUARRY:
-  name: "&bInfinity Steengroeve"
-
-STORAGE_FORGE:
-  name: "&6Opslagsmederij"
-
-BASIC_STORAGE:
-  name: "&9Basis &8Opslageenheid"
-
+  name: '&cGeavanceerde Steengroeve'
+  type:
+  - '&7&oMachine'
+ADVANCED_SMELTERY:
+  name: '&cGeavanceerde &7Smelterij'
+  type:
+  - '&7&oMachine'
 ADVANCED_STORAGE:
-  name: "&cGeavanceerde &8Opslageenheid"
-
-REINFORCED_STORAGE:
-  name: "&fVersterkte &8Opslageenheid"
-
-VOID_STORAGE:
-  name: "&8Leegte- &8Opslageenheid"
-
+  name: '&cGeavanceerde &8Opslageenheid'
+  type:
+  - '&7&oMachine'
+ADVANCED_STRAINER:
+  name: '&cGeavanceerde Zeef'
+  type:
+  - '&7&oOnderdeel'
+ADVANCED_TREE_GROWER:
+  name: '&cGeavanceerde &2Boomkweker'
+  type:
+  - '&7&oMachine'
+ADVANCED_VIRTUAL_FARM:
+  name: '&cGeavanceerde &aVirtuele Boerderij'
+  type:
+  - '&7&oMachine'
+ALUMINUM_SINGULARITY:
+  name: '&7Aluminium-Singulariteit'
+  type:
+  - '&7&oGrondstof'
+BASIC_COBBLE_GEN:
+  name: '&9Basis &8Steengenerator'
+  type:
+  - '&7&oMachine'
+BASIC_OBSIDIAN_GEN:
+  name: '&8Obsidiaangenerator'
+  type:
+  - '&7&oMachine'
+BASIC_PANEL:
+  name: '&9Basis Zonnepaneel'
+  type:
+  - '&7&oGenerator'
+BASIC_QUARRY:
+  name: '&9Basis Steengroeve'
+  type:
+  - '&7&oMachine'
+BASIC_STORAGE:
+  name: '&9Basis &8Opslageenheid'
+  type:
+  - '&7&oMachine'
+BASIC_STRAINER:
+  name: '&9Basis Zeef'
+  type:
+  - '&7&oOnderdeel'
+BASIC_TREE_GROWER:
+  name: '&9Basis &2Boomkweker'
+  type:
+  - '&7&oMachine'
+BASIC_VIRTUAL_FARM:
+  name: '&9Basis &aVirtuele Boerderij'
+  type:
+  - '&7&oMachine'
+BEE_DATA_CARD:
+  type:
+  - '&7&oOnderdeel'
+BLAZE_DATA_CARD:
+  type:
+  - '&7&oOnderdeel'
+CELESTIAL_PANEL:
+  name: '&eHemels Paneel'
+  type:
+  - '&7&oGenerator'
+CHICKEN_DATA_CARD:
+  type:
+  - '&7&oOnderdeel'
+COAL_SINGULARITY:
+  name: '&8Kool-Singulariteit'
+  type:
+  - '&7&oGrondstof'
+COBBLE_PRESS:
+  name: '&8Steenpers'
+  type:
+  - '&7&oMachine'
+COMPRESSED_COBBLESTONE_1:
+  name: '&7Enkel Geperste Steen'
+  type:
+  - '&7&oGrondstof'
+COMPRESSED_COBBLESTONE_2:
+  name: '&7Dubbel Geperste Steen'
+  type:
+  - '&7&oGrondstof'
+COMPRESSED_COBBLESTONE_3:
+  name: '&7Driedubbel Geperste Steen'
+  type:
+  - '&7&oGrondstof'
+COMPRESSED_COBBLESTONE_4:
+  name: '&7Viervoudig Geperste Steen'
+  type:
+  - '&7&oGrondstof'
+COMPRESSED_COBBLESTONE_5:
+  name: '&7Vijfvoudig Geperste Steen'
+  type:
+  - '&7&oGrondstof'
+COPPER_SINGULARITY:
+  name: '&6Koper-Singulariteit'
+  type:
+  - '&7&oGrondstof'
+COW_DATA_CARD:
+  type:
+  - '&7&oOnderdeel'
+CREEPER_DATA_CARD:
+  type:
+  - '&7&oOnderdeel'
+DATA_INFUSER:
+  name: '&8Mob-Data-Infuser'
+  type:
+  - '&7&oMachine'
+DECOMPRESSOR:
+  name: '&7Decompressor'
+  type:
+  - '&7&oMachine'
+DIAMOND_SINGULARITY:
+  name: '&bDiamant-Singulariteit'
+  type:
+  - '&7&oGrondstof'
+DUST_EXTRACTOR:
+  name: '&8Stofextractor'
+  type:
+  - '&7&oMachine'
+EARTH_SINGULARITY:
+  name: '&aAarde-Singulariteit'
+  type:
+  - '&7&oGrondstof'
+EMERALD_SINGULARITY:
+  name: '&aSmaragd-Singulariteit'
+  type:
+  - '&7&oGrondstof'
+EMPTY_DATA_CARD:
+  name: '&8Lege Datakaart'
+  type:
+  - '&7&oOnderdeel'
+ENDERMEN_DATA_CARD:
+  type:
+  - '&7&oOnderdeel'
+ENDER_DRAGON_DATA_CARD:
+  type:
+  - '&7&oOnderdeel'
+ENDER_FLAME:
+  name: '&cEnder Vlam'
+  type:
+  - '&7&oOnderdeel'
+END_ESSENCE:
+  name: '&5Ender-Essentie'
+  type:
+  - '&7&oGrondstof'
+EXTREME_FREEZER:
+  name: '&bExtreme Vriezer'
+  type:
+  - '&7&oMachine'
+FORTUNE_SINGULARITY:
+  name: '&6Geluk-Singulariteit'
+  type:
+  - '&7&oGrondstof'
+GEAR_TRANSFORMER:
+  name: '&7Uitrustingstransformator'
+  type:
+  - '&7&oMachine'
+GEOTHERMAL_GENERATOR:
+  name: '&cGeothermische Generator'
+  type:
+  - '&7&oGenerator'
+GEO_QUARRY:
+  name: '&fGeo Steengroeve'
+  type:
+  - '&7&oMachine'
+GOLD_SINGULARITY:
+  name: '&6Goud-Singulariteit'
+  type:
+  - '&7&oGrondstof'
+GUARDIAN_DATA_CARD:
+  type:
+  - '&7&oOnderdeel'
+HYDRO_GENERATOR:
+  name: '&9Hydro-Generator'
+  type:
+  - '&7&oGenerator'
+INFINITE_INGOT:
+  name: '&bInfinity Staaf'
+  type:
+  - '&7&oGrondstof'
+INFINITE_MACHINE_CIRCUIT:
+  name: '&bOneindig &6Machinecircuit'
+  type:
+  - '&7&oOnderdeel'
+INFINITE_MACHINE_CORE:
+  name: '&bOneindige Machinekern'
+  type:
+  - '&7&oOnderdeel'
+INFINITE_PANEL:
+  name: '&bInfinity Paneel'
+  type:
+  - '&7&oGenerator'
+INFINITE_VOID_HARVESTER:
+  name: '&bOneindige &8Leegte-Oogster'
+  type:
+  - '&7&oMachine'
+INFINITY_AXE:
+  name: '&4Ruïne van de Natuur'
+  type:
+  - '&7&oGereedschap'
+INFINITY_BLADE:
+  name: '&bKling van de Kosmos'
+  type:
+  - '&7&oWapen'
+INFINITY_BOOTS:
+  name: '&bInfinity Laarzen'
+  type:
+  - '&7&oWapenrusting'
+INFINITY_BOW:
+  name: '&6Hemelboorder'
+  type:
+  - '&7&oWapen'
+INFINITY_CAPACITOR:
+  name: '&bOneindige Condensator'
+  type:
+  - '&7&oOnderdeel'
+INFINITY_CHARGER:
+  name: '&bInfinity Lader'
+  type:
+  - '&7&oMachine'
+INFINITY_CHESTPLATE:
+  name: '&bInfinity Borstplaat'
+  type:
+  - '&7&oWapenrusting'
+INFINITY_COBBLE_GEN:
+  name: '&cInfinity &8Steengenerator'
+  type:
+  - '&7&oMachine'
+INFINITY_CONSTRUCTOR:
+  name: '&bInfinity &fConstructor'
+  type:
+  - '&7&oMachine'
+INFINITY_CROWN:
+  name: '&bInfinity Kroon'
+  type:
+  - '&7&oWapenrusting'
+INFINITY_DISENCHANTER:
+  name: '&bInfinity Ontbetoveraar'
+  type:
+  - '&7&oMachine'
+INFINITY_DUST_EXTRACTOR:
+  name: '&bInfinity &8Stofextractor'
+  type:
+  - '&7&oMachine'
+INFINITY_ENCHANTER:
+  name: '&bInfinity Betoveraar'
+  type:
+  - '&7&oMachine'
+INFINITY_FORGE:
+  name: '&6Infinity Werkbank'
+  type:
+  - '&7&oMachine'
+INFINITY_INGOT_FORMER:
+  name: '&bInfinity &8Staafvormer'
+  type:
+  - '&7&oMachine'
+INFINITY_LEGGINGS:
+  name: '&bInfinity Beenkappen'
+  type:
+  - '&7&oWapenrusting'
+INFINITY_MATRIX:
+  name: '&fInfinity Matrix'
+  type:
+  - '&7&oGadget'
+INFINITY_PICKAXE:
+  name: '&9Wereldbreker'
+  type:
+  - '&7&oGereedschap'
+INFINITY_QUARRY:
+  name: '&bInfinity Steengroeve'
+  type:
+  - '&7&oMachine'
+INFINITY_REACTOR:
+  name: '&bInfinity Reactor'
+  type:
+  - '&7&oGenerator'
+INFINITY_SHIELD:
+  name: '&bKosmische Aegis'
+  type:
+  - '&7&oWapen'
+INFINITY_SHOVEL:
+  name: '&aBergeneter'
+  type:
+  - '&7&oGereedschap'
+INFINITY_SINGULARITY:
+  name: '&bInfinity-Singulariteit'
+  type:
+  - '&7&oGrondstof'
 INFINITY_STORAGE:
-  name: "&bInfinity &8Opslageenheid"
+  name: '&bInfinity &8Opslageenheid'
+  type:
+  - '&7&oMachine'
+INFINITY_TREE_GROWER:
+  name: '&bInfinity &2Boomkweker'
+  type:
+  - '&7&oMachine'
+INFINITY_VIRTUAL_FARM:
+  name: '&bInfinity &aVirtuele Boerderij'
+  type:
+  - '&7&oMachine'
+INGOT_FORMER:
+  name: '&8Staafvormer'
+  type:
+  - '&7&oMachine'
+IRON_GOLEM_DATA_CARD:
+  type:
+  - '&7&oOnderdeel'
+IRON_SINGULARITY:
+  name: '&7IJzer-Singulariteit'
+  type:
+  - '&7&oGrondstof'
+LAPIS_SINGULARITY:
+  name: '&9Lapis-Singulariteit'
+  type:
+  - '&7&oGrondstof'
+LEAD_SINGULARITY:
+  name: '&8Lood-Singulariteit'
+  type:
+  - '&7&oGrondstof'
+MACHINE_CIRCUIT:
+  name: '&6Machinecircuit'
+  type:
+  - '&7&oOnderdeel'
+MACHINE_CORE:
+  name: '&fMachinekern'
+  type:
+  - '&7&oOnderdeel'
+MACHINE_PLATE:
+  name: '&fMachineplaat'
+  type:
+  - '&7&oOnderdeel'
+MAGIC_SINGULARITY:
+  name: '&dMagie-Singulariteit'
+  type:
+  - '&7&oGrondstof'
+MAGMA_CUBE_DATA_CARD:
+  type:
+  - '&7&oOnderdeel'
+MAGNESIUM_SINGULARITY:
+  name: '&5Magnesium-Singulariteit'
+  type:
+  - '&7&oGrondstof'
+MAGNONIUM:
+  name: '&5Magnonium'
+  type:
+  - '&7&oGrondstof'
+MAGSTEEL:
+  name: '&4MagSteel'
+  type:
+  - '&7&oGrondstof'
+MAGSTEEL_PLATE:
+  name: '&4MagSteel Plaat'
+  type:
+  - '&7&oOnderdeel'
+METAL_SINGULARITY:
+  name: '&8Metaal-Singulariteit'
+  type:
+  - '&7&oGrondstof'
+MOB_SIMULATION_CHAMBER:
+  name: '&8Mob-Simulatiekamer'
+  type:
+  - '&7&oMachine'
+MYTHRIL:
+  name: '&bMithril'
+  type:
+  - '&7&oGrondstof'
+NETHERITE_SINGULARITY:
+  name: '&4Netheriet-Singulariteit'
+  type:
+  - '&7&oGrondstof'
+POWERED_BEDROCK:
+  name: '&4Aangedreven Bedrock'
+  type:
+  - '&7&oMachine'
+QUARRY_OSCILLATOR_DIAMOND:
+  type:
+  - '&7&oOnderdeel'
+QUARRY_OSCILLATOR_EMERALD:
+  type:
+  - '&7&oOnderdeel'
+QUARRY_OSCILLATOR_LAPIS_LAZULI:
+  type:
+  - '&7&oOnderdeel'
+QUARRY_OSCILLATOR_QUARTZ:
+  type:
+  - '&7&oOnderdeel'
+QUARRY_OSCILLATOR_REDSTONE:
+  type:
+  - '&7&oOnderdeel'
+QUARTZ_SINGULARITY:
+  name: '&fKwarts-Singulariteit'
+  type:
+  - '&7&oGrondstof'
+REDSTONE_SINGULARITY:
+  name: '&cRedstone-Singulariteit'
+  type:
+  - '&7&oGrondstof'
+REINFORCED_GEOTHERMAL_GENERATOR:
+  name: '&fVersterkte &cGeothermische Gen'
+  type:
+  - '&7&oGenerator'
+REINFORCED_HYDRO_GENERATOR:
+  name: '&fVersterkte &9Hydro-Gen'
+  type:
+  - '&7&oGenerator'
+REINFORCED_STORAGE:
+  name: '&fVersterkte &8Opslageenheid'
+  type:
+  - '&7&oMachine'
+REINFORCED_STRAINER:
+  name: '&fVersterkte Zeef'
+  type:
+  - '&7&oOnderdeel'
+RESOURCE_SYNTHESIZER:
+  name: '&6Grondstofsynthesizer'
+  type:
+  - '&7&oMachine'
+SHEEP_DATA_CARD:
+  type:
+  - '&7&oOnderdeel'
+SILVER_SINGULARITY:
+  name: '&7Zilver-Singulariteit'
+  type:
+  - '&7&oGrondstof'
+SINGULARITY_CONSTRUCTOR:
+  name: '&fSingulariteitsconstructor'
+  type:
+  - '&7&oMachine'
+SKELETON_DATA_CARD:
+  type:
+  - '&7&oOnderdeel'
+SLIME_DATA_CARD:
+  type:
+  - '&7&oOnderdeel'
+SPIDER_DATA_CARD:
+  type:
+  - '&7&oOnderdeel'
+STONEWORKS_FACTORY:
+  name: '&8Steenfabriek'
+  type:
+  - '&7&oMachine'
+STORAGE_FORGE:
+  name: '&6Opslagsmederij'
+  type:
+  - '&7&oMachine'
+STRAINER_BASE:
+  name: '&7Zeefbasis'
+  type:
+  - '&7&oMachine'
+TIN_SINGULARITY:
+  name: '&7Tin-Singulariteit'
+  type:
+  - '&7&oGrondstof'
+TITANIUM:
+  name: '&7Titanium'
+  type:
+  - '&7&oGrondstof'
+URANIUM_EXTRACTOR:
+  name: '&aUraniumextractor'
+  type:
+  - '&7&oMachine'
+VEIN_MINER_RUNE:
+  name: '&bAdermijner-Rune'
+  type:
+  - '&7&oGadget'
+VILLAGER_DATA_CARD:
+  type:
+  - '&7&oOnderdeel'
+VOID_BIT:
+  name: '&8Leegte-Bit'
+  type:
+  - '&7&oGrondstof'
+VOID_CAPACITOR:
+  name: '&8Leegte-Condensator'
+  type:
+  - '&7&oOnderdeel'
+VOID_DUST:
+  name: '&8Leegte-Stof'
+  type:
+  - '&7&oGrondstof'
+VOID_HARVESTER:
+  name: '&8Leegte-Oogster'
+  type:
+  - '&7&oMachine'
+VOID_INGOT:
+  name: '&8Leegte-Staaf'
+  type:
+  - '&7&oGrondstof'
+VOID_PANEL:
+  name: '&8Leegte-Paneel'
+  type:
+  - '&7&oGenerator'
+VOID_QUARRY:
+  name: '&8Leegte-Steengroeve'
+  type:
+  - '&7&oMachine'
+VOID_STORAGE:
+  name: '&8Leegte- &8Opslageenheid'
+  type:
+  - '&7&oMachine'
+WITCH_DATA_CARD:
+  type:
+  - '&7&oOnderdeel'
+WITHER_DATA_CARD:
+  type:
+  - '&7&oOnderdeel'
+WITHER_SKELETON_DATA_CARD:
+  type:
+  - '&7&oOnderdeel'
+ZINC_SINGULARITY:
+  name: '&7Zink-Singulariteit'
+  type:
+  - '&7&oGrondstof'
+ZOMBIE_DATA_CARD:
+  type:
+  - '&7&oOnderdeel'

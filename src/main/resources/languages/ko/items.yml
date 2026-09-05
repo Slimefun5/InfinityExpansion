@@ -1,0 +1,438 @@
+ADAMANTITE:
+  type:
+  - '&7&o자원'
+ADVANCED_ANVIL:
+  type:
+  - '&7&o기계'
+ADVANCED_CHARGER:
+  type:
+  - '&7&o기계'
+ADVANCED_COBBLE_GEN:
+  type:
+  - '&7&o기계'
+ADVANCED_DISENCHANTER:
+  type:
+  - '&7&o기계'
+ADVANCED_ENCHANTER:
+  type:
+  - '&7&o기계'
+ADVANCED_GEO_MINER:
+  type:
+  - '&7&o기계'
+ADVANCED_NETHER_STAR_REACTOR:
+  type:
+  - '&7&o발전기'
+ADVANCED_PANEL:
+  type:
+  - '&7&o발전기'
+ADVANCED_QUARRY:
+  type:
+  - '&7&o기계'
+ADVANCED_SMELTERY:
+  type:
+  - '&7&o기계'
+ADVANCED_STORAGE:
+  type:
+  - '&7&o기계'
+ADVANCED_STRAINER:
+  type:
+  - '&7&o부품'
+ADVANCED_TREE_GROWER:
+  type:
+  - '&7&o기계'
+ADVANCED_VIRTUAL_FARM:
+  type:
+  - '&7&o기계'
+ALUMINUM_SINGULARITY:
+  type:
+  - '&7&o자원'
+BASIC_COBBLE_GEN:
+  type:
+  - '&7&o기계'
+BASIC_OBSIDIAN_GEN:
+  type:
+  - '&7&o기계'
+BASIC_PANEL:
+  type:
+  - '&7&o발전기'
+BASIC_QUARRY:
+  type:
+  - '&7&o기계'
+BASIC_STORAGE:
+  type:
+  - '&7&o기계'
+BASIC_STRAINER:
+  type:
+  - '&7&o부품'
+BASIC_TREE_GROWER:
+  type:
+  - '&7&o기계'
+BASIC_VIRTUAL_FARM:
+  type:
+  - '&7&o기계'
+BEE_DATA_CARD:
+  type:
+  - '&7&o부품'
+BLAZE_DATA_CARD:
+  type:
+  - '&7&o부품'
+CELESTIAL_PANEL:
+  type:
+  - '&7&o발전기'
+CHICKEN_DATA_CARD:
+  type:
+  - '&7&o부품'
+COAL_SINGULARITY:
+  type:
+  - '&7&o자원'
+COBBLE_PRESS:
+  type:
+  - '&7&o기계'
+COMPRESSED_COBBLESTONE_1:
+  type:
+  - '&7&o자원'
+COMPRESSED_COBBLESTONE_2:
+  type:
+  - '&7&o자원'
+COMPRESSED_COBBLESTONE_3:
+  type:
+  - '&7&o자원'
+COMPRESSED_COBBLESTONE_4:
+  type:
+  - '&7&o자원'
+COMPRESSED_COBBLESTONE_5:
+  type:
+  - '&7&o자원'
+COPPER_SINGULARITY:
+  type:
+  - '&7&o자원'
+COW_DATA_CARD:
+  type:
+  - '&7&o부품'
+CREEPER_DATA_CARD:
+  type:
+  - '&7&o부품'
+DATA_INFUSER:
+  type:
+  - '&7&o기계'
+DECOMPRESSOR:
+  type:
+  - '&7&o기계'
+DIAMOND_SINGULARITY:
+  type:
+  - '&7&o자원'
+DUST_EXTRACTOR:
+  type:
+  - '&7&o기계'
+EARTH_SINGULARITY:
+  type:
+  - '&7&o자원'
+EMERALD_SINGULARITY:
+  type:
+  - '&7&o자원'
+EMPTY_DATA_CARD:
+  type:
+  - '&7&o부품'
+ENDERMEN_DATA_CARD:
+  type:
+  - '&7&o부품'
+ENDER_DRAGON_DATA_CARD:
+  type:
+  - '&7&o부품'
+ENDER_FLAME:
+  type:
+  - '&7&o부품'
+END_ESSENCE:
+  type:
+  - '&7&o자원'
+EXTREME_FREEZER:
+  type:
+  - '&7&o기계'
+FORTUNE_SINGULARITY:
+  type:
+  - '&7&o자원'
+GEAR_TRANSFORMER:
+  type:
+  - '&7&o기계'
+GEOTHERMAL_GENERATOR:
+  type:
+  - '&7&o발전기'
+GEO_QUARRY:
+  type:
+  - '&7&o기계'
+GOLD_SINGULARITY:
+  type:
+  - '&7&o자원'
+GUARDIAN_DATA_CARD:
+  type:
+  - '&7&o부품'
+HYDRO_GENERATOR:
+  type:
+  - '&7&o발전기'
+INFINITE_INGOT:
+  type:
+  - '&7&o자원'
+INFINITE_MACHINE_CIRCUIT:
+  type:
+  - '&7&o부품'
+INFINITE_MACHINE_CORE:
+  type:
+  - '&7&o부품'
+INFINITE_PANEL:
+  type:
+  - '&7&o발전기'
+INFINITE_VOID_HARVESTER:
+  type:
+  - '&7&o기계'
+INFINITY_AXE:
+  type:
+  - '&7&o도구'
+INFINITY_BLADE:
+  type:
+  - '&7&o무기'
+INFINITY_BOOTS:
+  type:
+  - '&7&o갑옷'
+INFINITY_BOW:
+  type:
+  - '&7&o무기'
+INFINITY_CAPACITOR:
+  type:
+  - '&7&o부품'
+INFINITY_CHARGER:
+  type:
+  - '&7&o기계'
+INFINITY_CHESTPLATE:
+  type:
+  - '&7&o갑옷'
+INFINITY_COBBLE_GEN:
+  type:
+  - '&7&o기계'
+INFINITY_CONSTRUCTOR:
+  type:
+  - '&7&o기계'
+INFINITY_CROWN:
+  type:
+  - '&7&o갑옷'
+INFINITY_DISENCHANTER:
+  type:
+  - '&7&o기계'
+INFINITY_DUST_EXTRACTOR:
+  type:
+  - '&7&o기계'
+INFINITY_ENCHANTER:
+  type:
+  - '&7&o기계'
+INFINITY_FORGE:
+  type:
+  - '&7&o기계'
+INFINITY_INGOT_FORMER:
+  type:
+  - '&7&o기계'
+INFINITY_LEGGINGS:
+  type:
+  - '&7&o갑옷'
+INFINITY_MATRIX:
+  type:
+  - '&7&o장치'
+INFINITY_PICKAXE:
+  type:
+  - '&7&o도구'
+INFINITY_QUARRY:
+  type:
+  - '&7&o기계'
+INFINITY_REACTOR:
+  type:
+  - '&7&o발전기'
+INFINITY_SHIELD:
+  type:
+  - '&7&o무기'
+INFINITY_SHOVEL:
+  type:
+  - '&7&o도구'
+INFINITY_SINGULARITY:
+  type:
+  - '&7&o자원'
+INFINITY_STORAGE:
+  type:
+  - '&7&o기계'
+INFINITY_TREE_GROWER:
+  type:
+  - '&7&o기계'
+INFINITY_VIRTUAL_FARM:
+  type:
+  - '&7&o기계'
+INGOT_FORMER:
+  type:
+  - '&7&o기계'
+IRON_GOLEM_DATA_CARD:
+  type:
+  - '&7&o부품'
+IRON_SINGULARITY:
+  type:
+  - '&7&o자원'
+LAPIS_SINGULARITY:
+  type:
+  - '&7&o자원'
+LEAD_SINGULARITY:
+  type:
+  - '&7&o자원'
+MACHINE_CIRCUIT:
+  type:
+  - '&7&o부품'
+MACHINE_CORE:
+  type:
+  - '&7&o부품'
+MACHINE_PLATE:
+  type:
+  - '&7&o부품'
+MAGIC_SINGULARITY:
+  type:
+  - '&7&o자원'
+MAGMA_CUBE_DATA_CARD:
+  type:
+  - '&7&o부품'
+MAGNESIUM_SINGULARITY:
+  type:
+  - '&7&o자원'
+MAGNONIUM:
+  type:
+  - '&7&o자원'
+MAGSTEEL:
+  type:
+  - '&7&o자원'
+MAGSTEEL_PLATE:
+  type:
+  - '&7&o부품'
+METAL_SINGULARITY:
+  type:
+  - '&7&o자원'
+MOB_SIMULATION_CHAMBER:
+  type:
+  - '&7&o기계'
+MYTHRIL:
+  type:
+  - '&7&o자원'
+NETHERITE_SINGULARITY:
+  type:
+  - '&7&o자원'
+POWERED_BEDROCK:
+  type:
+  - '&7&o기계'
+QUARRY_OSCILLATOR_DIAMOND:
+  type:
+  - '&7&o부품'
+QUARRY_OSCILLATOR_EMERALD:
+  type:
+  - '&7&o부품'
+QUARRY_OSCILLATOR_LAPIS_LAZULI:
+  type:
+  - '&7&o부품'
+QUARRY_OSCILLATOR_QUARTZ:
+  type:
+  - '&7&o부품'
+QUARRY_OSCILLATOR_REDSTONE:
+  type:
+  - '&7&o부품'
+QUARTZ_SINGULARITY:
+  type:
+  - '&7&o자원'
+REDSTONE_SINGULARITY:
+  type:
+  - '&7&o자원'
+REINFORCED_GEOTHERMAL_GENERATOR:
+  type:
+  - '&7&o발전기'
+REINFORCED_HYDRO_GENERATOR:
+  type:
+  - '&7&o발전기'
+REINFORCED_STORAGE:
+  type:
+  - '&7&o기계'
+REINFORCED_STRAINER:
+  type:
+  - '&7&o부품'
+RESOURCE_SYNTHESIZER:
+  type:
+  - '&7&o기계'
+SHEEP_DATA_CARD:
+  type:
+  - '&7&o부품'
+SILVER_SINGULARITY:
+  type:
+  - '&7&o자원'
+SINGULARITY_CONSTRUCTOR:
+  type:
+  - '&7&o기계'
+SKELETON_DATA_CARD:
+  type:
+  - '&7&o부품'
+SLIME_DATA_CARD:
+  type:
+  - '&7&o부품'
+SPIDER_DATA_CARD:
+  type:
+  - '&7&o부품'
+STONEWORKS_FACTORY:
+  type:
+  - '&7&o기계'
+STORAGE_FORGE:
+  type:
+  - '&7&o기계'
+STRAINER_BASE:
+  type:
+  - '&7&o기계'
+TIN_SINGULARITY:
+  type:
+  - '&7&o자원'
+TITANIUM:
+  type:
+  - '&7&o자원'
+URANIUM_EXTRACTOR:
+  type:
+  - '&7&o기계'
+VEIN_MINER_RUNE:
+  type:
+  - '&7&o장치'
+VILLAGER_DATA_CARD:
+  type:
+  - '&7&o부품'
+VOID_BIT:
+  type:
+  - '&7&o자원'
+VOID_CAPACITOR:
+  type:
+  - '&7&o부품'
+VOID_DUST:
+  type:
+  - '&7&o자원'
+VOID_HARVESTER:
+  type:
+  - '&7&o기계'
+VOID_INGOT:
+  type:
+  - '&7&o자원'
+VOID_PANEL:
+  type:
+  - '&7&o발전기'
+VOID_QUARRY:
+  type:
+  - '&7&o기계'
+VOID_STORAGE:
+  type:
+  - '&7&o기계'
+WITCH_DATA_CARD:
+  type:
+  - '&7&o부품'
+WITHER_DATA_CARD:
+  type:
+  - '&7&o부품'
+WITHER_SKELETON_DATA_CARD:
+  type:
+  - '&7&o부품'
+ZINC_SINGULARITY:
+  type:
+  - '&7&o자원'
+ZOMBIE_DATA_CARD:
+  type:
+  - '&7&o부품'

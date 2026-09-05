@@ -1,97 +1,73 @@
 ADAMANTITE:
-  name: '&dАдамантит'
   type:
   - '&7&oРесурс'
 ADVANCED_ANVIL:
-  name: '&cУлучшенная Наковальня'
   type:
   - '&7&oМашина'
 ADVANCED_CHARGER:
-  name: '&cУлучшенное Зарядное устройство'
   type:
   - '&7&oМашина'
 ADVANCED_COBBLE_GEN:
-  name: '&cУлучшенный &8Генератор Булыжника'
   type:
   - '&7&oМашина'
 ADVANCED_DISENCHANTER:
-  name: '&cУлучшенный Расзачаровыватель'
   type:
   - '&7&oМашина'
 ADVANCED_ENCHANTER:
-  name: '&cУлучшенный Зачаровыватель'
   type:
   - '&7&oМашина'
 ADVANCED_GEO_MINER:
-  name: '&cУлучшенный &fГеодобытчик'
   type:
   - '&7&oМашина'
 ADVANCED_NETHER_STAR_REACTOR:
-  name: '&cУлучшенный Реактор на Звезде Незера'
   type:
   - '&7&oГенератор'
 ADVANCED_PANEL:
-  name: '&cУлучшенная Солнечная Панель'
   type:
   - '&7&oГенератор'
 ADVANCED_QUARRY:
-  name: '&cУлучшенный Карьер'
   type:
   - '&7&oМашина'
 ADVANCED_SMELTERY:
-  name: '&cУлучшенная &7Плавильня'
   type:
   - '&7&oМашина'
 ADVANCED_STORAGE:
-  name: '&cУлучшенный &8Блок Хранилища'
   type:
   - '&7&oМашина'
 ADVANCED_STRAINER:
-  name: '&cУлучшенный Фильтр'
   type:
   - '&7&oКомпонент'
 ADVANCED_TREE_GROWER:
-  name: '&cУлучшенный &2Выращиватель Деревьев'
   type:
   - '&7&oМашина'
 ADVANCED_VIRTUAL_FARM:
-  name: '&cУлучшенная &aВиртуальная Ферма'
   type:
   - '&7&oМашина'
 ALUMINUM_SINGULARITY:
-  name: '&7Сингулярность Алюминия'
   type:
   - '&7&oРесурс'
 BASIC_COBBLE_GEN:
-  name: '&9Базовый &8Генератор Булыжника'
   type:
   - '&7&oМашина'
 BASIC_OBSIDIAN_GEN:
-  name: '&8Генератор Обсидиана'
   type:
   - '&7&oМашина'
 BASIC_PANEL:
-  name: '&9Базовая Солнечная Панель'
   type:
   - '&7&oГенератор'
 BASIC_QUARRY:
-  name: '&9Базовый Карьер'
   type:
   - '&7&oМашина'
 BASIC_STORAGE:
-  name: '&9Базовый &8Блок Хранилища'
   type:
   - '&7&oМашина'
 BASIC_STRAINER:
-  name: '&9Базовый Фильтр'
   type:
   - '&7&oКомпонент'
 BASIC_TREE_GROWER:
-  name: '&9Базовый &2Выращиватель Деревьев'
   type:
   - '&7&oМашина'
 BASIC_VIRTUAL_FARM:
-  name: '&9Базовая &aВиртуальная Ферма'
   type:
   - '&7&oМашина'
 BEE_DATA_CARD:
@@ -101,42 +77,33 @@ BLAZE_DATA_CARD:
   type:
   - '&7&oКомпонент'
 CELESTIAL_PANEL:
-  name: '&eНебесная Панель'
   type:
   - '&7&oГенератор'
 CHICKEN_DATA_CARD:
   type:
   - '&7&oКомпонент'
 COAL_SINGULARITY:
-  name: '&8Сингулярность Угля'
   type:
   - '&7&oРесурс'
 COBBLE_PRESS:
-  name: '&8Пресс для Булыжника'
   type:
   - '&7&oМашина'
 COMPRESSED_COBBLESTONE_1:
-  name: '&7Однократно Сжатый Булыжник'
   type:
   - '&7&oРесурс'
 COMPRESSED_COBBLESTONE_2:
-  name: '&7Двукратно Сжатый Булыжник'
   type:
   - '&7&oРесурс'
 COMPRESSED_COBBLESTONE_3:
-  name: '&7Трёхкратно Сжатый Булыжник'
   type:
   - '&7&oРесурс'
 COMPRESSED_COBBLESTONE_4:
-  name: '&7Четырёхкратно Сжатый Булыжник'
   type:
   - '&7&oРесурс'
 COMPRESSED_COBBLESTONE_5:
-  name: '&7Пятикратно Сжатый Булыжник'
   type:
   - '&7&oРесурс'
 COPPER_SINGULARITY:
-  name: '&6Сингулярность Меди'
   type:
   - '&7&oРесурс'
 COW_DATA_CARD:
@@ -146,31 +113,24 @@ CREEPER_DATA_CARD:
   type:
   - '&7&oКомпонент'
 DATA_INFUSER:
-  name: '&8Инфузор Данных Мобов'
   type:
   - '&7&oМашина'
 DECOMPRESSOR:
-  name: '&7Декомпрессор'
   type:
   - '&7&oМашина'
 DIAMOND_SINGULARITY:
-  name: '&bСингулярность Алмаза'
   type:
   - '&7&oРесурс'
 DUST_EXTRACTOR:
-  name: '&8Экстрактор Пыли'
   type:
   - '&7&oМашина'
 EARTH_SINGULARITY:
-  name: '&aСингулярность Земли'
   type:
   - '&7&oРесурс'
 EMERALD_SINGULARITY:
-  name: '&aСингулярность Изумруда'
   type:
   - '&7&oРесурс'
 EMPTY_DATA_CARD:
-  name: '&8Пустая Карта Данных'
   type:
   - '&7&oКомпонент'
 ENDERMEN_DATA_CARD:
@@ -180,240 +140,183 @@ ENDER_DRAGON_DATA_CARD:
   type:
   - '&7&oКомпонент'
 ENDER_FLAME:
-  name: '&cПламя Энда'
   type:
   - '&7&oКомпонент'
 END_ESSENCE:
-  name: '&5Эссенция Энда'
   type:
   - '&7&oРесурс'
 EXTREME_FREEZER:
-  name: '&bЭкстремальный Морозильник'
   type:
   - '&7&oМашина'
 FORTUNE_SINGULARITY:
-  name: '&6Сингулярность Удачи'
   type:
   - '&7&oРесурс'
 GEAR_TRANSFORMER:
-  name: '&7Преобразователь Снаряжения'
   type:
   - '&7&oМашина'
 GEOTHERMAL_GENERATOR:
-  name: '&cГеотермальный Генератор'
   type:
   - '&7&oГенератор'
 GEO_QUARRY:
-  name: '&fГео-Карьер'
   type:
   - '&7&oМашина'
 GOLD_SINGULARITY:
-  name: '&6Сингулярность Золота'
   type:
   - '&7&oРесурс'
 GUARDIAN_DATA_CARD:
   type:
   - '&7&oКомпонент'
 HYDRO_GENERATOR:
-  name: '&9Гидрогенератор'
   type:
   - '&7&oГенератор'
 INFINITE_INGOT:
-  name: '&bСлиток Infinity'
   type:
   - '&7&oРесурс'
 INFINITE_MACHINE_CIRCUIT:
-  name: '&bБесконечная &6Машинная Схема'
   type:
   - '&7&oКомпонент'
 INFINITE_MACHINE_CORE:
-  name: '&bБесконечное Машинное Ядро'
   type:
   - '&7&oКомпонент'
 INFINITE_PANEL:
-  name: '&bПанель Infinity'
   type:
   - '&7&oГенератор'
 INFINITE_VOID_HARVESTER:
-  name: '&bБесконечный &8Сборщик Пустоты'
   type:
   - '&7&oМашина'
 INFINITY_AXE:
-  name: '&4Погибель Природы'
   type:
   - '&7&oИнструмент'
 INFINITY_BLADE:
-  name: '&bКлинок Космоса'
   type:
-  - '&7&oОружие'
+  - '&7&oОръжие'
 INFINITY_BOOTS:
-  name: '&bБотинки Infinity'
   type:
   - '&7&oБроня'
 INFINITY_BOW:
-  name: '&6Небесный Пронзатель'
   type:
-  - '&7&oОружие'
+  - '&7&oОръжие'
 INFINITY_CAPACITOR:
-  name: '&bБесконечный Конденсатор'
   type:
   - '&7&oКомпонент'
 INFINITY_CHARGER:
-  name: '&bЗарядное устройство Infinity'
   type:
   - '&7&oМашина'
 INFINITY_CHESTPLATE:
-  name: '&bНагрудник Infinity'
   type:
   - '&7&oБроня'
 INFINITY_COBBLE_GEN:
-  name: '&cГенератор &8Булыжника Infinity'
   type:
   - '&7&oМашина'
 INFINITY_CONSTRUCTOR:
-  name: '&bКонструктор &fInfinity'
   type:
   - '&7&oМашина'
 INFINITY_CROWN:
-  name: '&bКорона Infinity'
   type:
   - '&7&oБроня'
 INFINITY_DISENCHANTER:
-  name: '&bРасзачаровыватель Infinity'
   type:
   - '&7&oМашина'
 INFINITY_DUST_EXTRACTOR:
-  name: '&bЭкстрактор &8Пыли Infinity'
   type:
   - '&7&oМашина'
 INFINITY_ENCHANTER:
-  name: '&bЗачаровыватель Infinity'
   type:
   - '&7&oМашина'
 INFINITY_FORGE:
-  name: '&6Верстак Infinity'
   type:
   - '&7&oМашина'
 INFINITY_INGOT_FORMER:
-  name: '&bФормовщик &8Слитков Infinity'
   type:
   - '&7&oМашина'
 INFINITY_LEGGINGS:
-  name: '&bПоножи Infinity'
   type:
   - '&7&oБроня'
 INFINITY_MATRIX:
-  name: '&fМатрица Infinity'
   type:
-  - '&7&oГаджет'
+  - '&7&oДжаджа'
 INFINITY_PICKAXE:
-  name: '&9Сокрушитель Миров'
   type:
   - '&7&oИнструмент'
 INFINITY_QUARRY:
-  name: '&bКарьер Infinity'
   type:
   - '&7&oМашина'
 INFINITY_REACTOR:
-  name: '&bРеактор Infinity'
   type:
   - '&7&oГенератор'
 INFINITY_SHIELD:
-  name: '&bКосмическая Эгида'
   type:
-  - '&7&oОружие'
+  - '&7&oОръжие'
 INFINITY_SHOVEL:
-  name: '&aПожиратель Гор'
   type:
   - '&7&oИнструмент'
 INFINITY_SINGULARITY:
-  name: '&bСингулярность Infinity'
   type:
   - '&7&oРесурс'
 INFINITY_STORAGE:
-  name: '&bБлок &8Хранилища Infinity'
   type:
   - '&7&oМашина'
 INFINITY_TREE_GROWER:
-  name: '&bВыращиватель &2Деревьев Infinity'
   type:
   - '&7&oМашина'
 INFINITY_VIRTUAL_FARM:
-  name: '&bВиртуальная &aФерма Infinity'
   type:
   - '&7&oМашина'
 INGOT_FORMER:
-  name: '&8Формовщик Слитков'
   type:
   - '&7&oМашина'
 IRON_GOLEM_DATA_CARD:
   type:
   - '&7&oКомпонент'
 IRON_SINGULARITY:
-  name: '&7Сингулярность Железа'
   type:
   - '&7&oРесурс'
 LAPIS_SINGULARITY:
-  name: '&9Сингулярность Лазурита'
   type:
   - '&7&oРесурс'
 LEAD_SINGULARITY:
-  name: '&8Сингулярность Свинца'
   type:
   - '&7&oРесурс'
 MACHINE_CIRCUIT:
-  name: '&6Машинная Схема'
   type:
   - '&7&oКомпонент'
 MACHINE_CORE:
-  name: '&fМашинное Ядро'
   type:
   - '&7&oКомпонент'
 MACHINE_PLATE:
-  name: '&fМашинная Пластина'
   type:
   - '&7&oКомпонент'
 MAGIC_SINGULARITY:
-  name: '&dСингулярность Магии'
   type:
   - '&7&oРесурс'
 MAGMA_CUBE_DATA_CARD:
   type:
   - '&7&oКомпонент'
 MAGNESIUM_SINGULARITY:
-  name: '&5Сингулярность Магния'
   type:
   - '&7&oРесурс'
 MAGNONIUM:
-  name: '&5Магноний'
   type:
   - '&7&oРесурс'
 MAGSTEEL:
-  name: '&4МагСталь'
   type:
   - '&7&oРесурс'
 MAGSTEEL_PLATE:
-  name: '&4Пластина МагСтали'
   type:
   - '&7&oКомпонент'
 METAL_SINGULARITY:
-  name: '&8Сингулярность Металла'
   type:
   - '&7&oРесурс'
 MOB_SIMULATION_CHAMBER:
-  name: '&8Камера Симуляции Мобов'
   type:
   - '&7&oМашина'
 MYTHRIL:
-  name: '&bМифрил'
   type:
   - '&7&oРесурс'
 NETHERITE_SINGULARITY:
-  name: '&4Сингулярность Незерита'
   type:
   - '&7&oРесурс'
 POWERED_BEDROCK:
-  name: '&4Заряженный Бедрок'
   type:
   - '&7&oМашина'
 QUARRY_OSCILLATOR_DIAMOND:
@@ -432,42 +335,33 @@ QUARRY_OSCILLATOR_REDSTONE:
   type:
   - '&7&oКомпонент'
 QUARTZ_SINGULARITY:
-  name: '&fСингулярность Кварца'
   type:
   - '&7&oРесурс'
 REDSTONE_SINGULARITY:
-  name: '&cСингулярность Редстоуна'
   type:
   - '&7&oРесурс'
 REINFORCED_GEOTHERMAL_GENERATOR:
-  name: '&fУсиленный &cГеотермальный Генератор'
   type:
   - '&7&oГенератор'
 REINFORCED_HYDRO_GENERATOR:
-  name: '&fУсиленный &9Гидрогенератор'
   type:
   - '&7&oГенератор'
 REINFORCED_STORAGE:
-  name: '&fУсиленный &8Блок Хранилища'
   type:
   - '&7&oМашина'
 REINFORCED_STRAINER:
-  name: '&fУсиленный Фильтр'
   type:
   - '&7&oКомпонент'
 RESOURCE_SYNTHESIZER:
-  name: '&6Синтезатор Ресурсов'
   type:
   - '&7&oМашина'
 SHEEP_DATA_CARD:
   type:
   - '&7&oКомпонент'
 SILVER_SINGULARITY:
-  name: '&7Сингулярность Серебра'
   type:
   - '&7&oРесурс'
 SINGULARITY_CONSTRUCTOR:
-  name: '&fКонструктор Сингулярности'
   type:
   - '&7&oМашина'
 SKELETON_DATA_CARD:
@@ -480,66 +374,51 @@ SPIDER_DATA_CARD:
   type:
   - '&7&oКомпонент'
 STONEWORKS_FACTORY:
-  name: '&8Каменная Фабрика'
   type:
   - '&7&oМашина'
 STORAGE_FORGE:
-  name: '&6Кузница Хранилища'
   type:
   - '&7&oМашина'
 STRAINER_BASE:
-  name: '&7Основание Фильтра'
   type:
   - '&7&oМашина'
 TIN_SINGULARITY:
-  name: '&7Сингулярность Олова'
   type:
   - '&7&oРесурс'
 TITANIUM:
-  name: '&7Титан'
   type:
   - '&7&oРесурс'
 URANIUM_EXTRACTOR:
-  name: '&aЭкстрактор Урана'
   type:
   - '&7&oМашина'
 VEIN_MINER_RUNE:
-  name: '&bРуна Жильной Добычи'
   type:
-  - '&7&oГаджет'
+  - '&7&oДжаджа'
 VILLAGER_DATA_CARD:
   type:
   - '&7&oКомпонент'
 VOID_BIT:
-  name: '&8Бит Пустоты'
   type:
   - '&7&oРесурс'
 VOID_CAPACITOR:
-  name: '&8Конденсатор Пустоты'
   type:
   - '&7&oКомпонент'
 VOID_DUST:
-  name: '&8Пыль Пустоты'
   type:
   - '&7&oРесурс'
 VOID_HARVESTER:
-  name: '&8Сборщик Пустоты'
   type:
   - '&7&oМашина'
 VOID_INGOT:
-  name: '&8Слиток Пустоты'
   type:
   - '&7&oРесурс'
 VOID_PANEL:
-  name: '&8Панель Пустоты'
   type:
   - '&7&oГенератор'
 VOID_QUARRY:
-  name: '&8Карьер Пустоты'
   type:
   - '&7&oМашина'
 VOID_STORAGE:
-  name: '&8Блок &8Хранилища Пустоты'
   type:
   - '&7&oМашина'
 WITCH_DATA_CARD:
@@ -552,7 +431,6 @@ WITHER_SKELETON_DATA_CARD:
   type:
   - '&7&oКомпонент'
 ZINC_SINGULARITY:
-  name: '&7Сингулярность Цинка'
   type:
   - '&7&oРесурс'
 ZOMBIE_DATA_CARD:

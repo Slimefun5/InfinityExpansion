@@ -1,0 +1,438 @@
+ADAMANTITE:
+  type:
+  - '&7&oNyersanyag'
+ADVANCED_ANVIL:
+  type:
+  - '&7&oGép'
+ADVANCED_CHARGER:
+  type:
+  - '&7&oGép'
+ADVANCED_COBBLE_GEN:
+  type:
+  - '&7&oGép'
+ADVANCED_DISENCHANTER:
+  type:
+  - '&7&oGép'
+ADVANCED_ENCHANTER:
+  type:
+  - '&7&oGép'
+ADVANCED_GEO_MINER:
+  type:
+  - '&7&oGép'
+ADVANCED_NETHER_STAR_REACTOR:
+  type:
+  - '&7&oGenerátor'
+ADVANCED_PANEL:
+  type:
+  - '&7&oGenerátor'
+ADVANCED_QUARRY:
+  type:
+  - '&7&oGép'
+ADVANCED_SMELTERY:
+  type:
+  - '&7&oGép'
+ADVANCED_STORAGE:
+  type:
+  - '&7&oGép'
+ADVANCED_STRAINER:
+  type:
+  - '&7&oAlkatrész'
+ADVANCED_TREE_GROWER:
+  type:
+  - '&7&oGép'
+ADVANCED_VIRTUAL_FARM:
+  type:
+  - '&7&oGép'
+ALUMINUM_SINGULARITY:
+  type:
+  - '&7&oNyersanyag'
+BASIC_COBBLE_GEN:
+  type:
+  - '&7&oGép'
+BASIC_OBSIDIAN_GEN:
+  type:
+  - '&7&oGép'
+BASIC_PANEL:
+  type:
+  - '&7&oGenerátor'
+BASIC_QUARRY:
+  type:
+  - '&7&oGép'
+BASIC_STORAGE:
+  type:
+  - '&7&oGép'
+BASIC_STRAINER:
+  type:
+  - '&7&oAlkatrész'
+BASIC_TREE_GROWER:
+  type:
+  - '&7&oGép'
+BASIC_VIRTUAL_FARM:
+  type:
+  - '&7&oGép'
+BEE_DATA_CARD:
+  type:
+  - '&7&oAlkatrész'
+BLAZE_DATA_CARD:
+  type:
+  - '&7&oAlkatrész'
+CELESTIAL_PANEL:
+  type:
+  - '&7&oGenerátor'
+CHICKEN_DATA_CARD:
+  type:
+  - '&7&oAlkatrész'
+COAL_SINGULARITY:
+  type:
+  - '&7&oNyersanyag'
+COBBLE_PRESS:
+  type:
+  - '&7&oGép'
+COMPRESSED_COBBLESTONE_1:
+  type:
+  - '&7&oNyersanyag'
+COMPRESSED_COBBLESTONE_2:
+  type:
+  - '&7&oNyersanyag'
+COMPRESSED_COBBLESTONE_3:
+  type:
+  - '&7&oNyersanyag'
+COMPRESSED_COBBLESTONE_4:
+  type:
+  - '&7&oNyersanyag'
+COMPRESSED_COBBLESTONE_5:
+  type:
+  - '&7&oNyersanyag'
+COPPER_SINGULARITY:
+  type:
+  - '&7&oNyersanyag'
+COW_DATA_CARD:
+  type:
+  - '&7&oAlkatrész'
+CREEPER_DATA_CARD:
+  type:
+  - '&7&oAlkatrész'
+DATA_INFUSER:
+  type:
+  - '&7&oGép'
+DECOMPRESSOR:
+  type:
+  - '&7&oGép'
+DIAMOND_SINGULARITY:
+  type:
+  - '&7&oNyersanyag'
+DUST_EXTRACTOR:
+  type:
+  - '&7&oGép'
+EARTH_SINGULARITY:
+  type:
+  - '&7&oNyersanyag'
+EMERALD_SINGULARITY:
+  type:
+  - '&7&oNyersanyag'
+EMPTY_DATA_CARD:
+  type:
+  - '&7&oAlkatrész'
+ENDERMEN_DATA_CARD:
+  type:
+  - '&7&oAlkatrész'
+ENDER_DRAGON_DATA_CARD:
+  type:
+  - '&7&oAlkatrész'
+ENDER_FLAME:
+  type:
+  - '&7&oAlkatrész'
+END_ESSENCE:
+  type:
+  - '&7&oNyersanyag'
+EXTREME_FREEZER:
+  type:
+  - '&7&oGép'
+FORTUNE_SINGULARITY:
+  type:
+  - '&7&oNyersanyag'
+GEAR_TRANSFORMER:
+  type:
+  - '&7&oGép'
+GEOTHERMAL_GENERATOR:
+  type:
+  - '&7&oGenerátor'
+GEO_QUARRY:
+  type:
+  - '&7&oGép'
+GOLD_SINGULARITY:
+  type:
+  - '&7&oNyersanyag'
+GUARDIAN_DATA_CARD:
+  type:
+  - '&7&oAlkatrész'
+HYDRO_GENERATOR:
+  type:
+  - '&7&oGenerátor'
+INFINITE_INGOT:
+  type:
+  - '&7&oNyersanyag'
+INFINITE_MACHINE_CIRCUIT:
+  type:
+  - '&7&oAlkatrész'
+INFINITE_MACHINE_CORE:
+  type:
+  - '&7&oAlkatrész'
+INFINITE_PANEL:
+  type:
+  - '&7&oGenerátor'
+INFINITE_VOID_HARVESTER:
+  type:
+  - '&7&oGép'
+INFINITY_AXE:
+  type:
+  - '&7&oEszköz'
+INFINITY_BLADE:
+  type:
+  - '&7&oFegyver'
+INFINITY_BOOTS:
+  type:
+  - '&7&oPáncél'
+INFINITY_BOW:
+  type:
+  - '&7&oFegyver'
+INFINITY_CAPACITOR:
+  type:
+  - '&7&oAlkatrész'
+INFINITY_CHARGER:
+  type:
+  - '&7&oGép'
+INFINITY_CHESTPLATE:
+  type:
+  - '&7&oPáncél'
+INFINITY_COBBLE_GEN:
+  type:
+  - '&7&oGép'
+INFINITY_CONSTRUCTOR:
+  type:
+  - '&7&oGép'
+INFINITY_CROWN:
+  type:
+  - '&7&oPáncél'
+INFINITY_DISENCHANTER:
+  type:
+  - '&7&oGép'
+INFINITY_DUST_EXTRACTOR:
+  type:
+  - '&7&oGép'
+INFINITY_ENCHANTER:
+  type:
+  - '&7&oGép'
+INFINITY_FORGE:
+  type:
+  - '&7&oGép'
+INFINITY_INGOT_FORMER:
+  type:
+  - '&7&oGép'
+INFINITY_LEGGINGS:
+  type:
+  - '&7&oPáncél'
+INFINITY_MATRIX:
+  type:
+  - '&7&oKütyü'
+INFINITY_PICKAXE:
+  type:
+  - '&7&oEszköz'
+INFINITY_QUARRY:
+  type:
+  - '&7&oGép'
+INFINITY_REACTOR:
+  type:
+  - '&7&oGenerátor'
+INFINITY_SHIELD:
+  type:
+  - '&7&oFegyver'
+INFINITY_SHOVEL:
+  type:
+  - '&7&oEszköz'
+INFINITY_SINGULARITY:
+  type:
+  - '&7&oNyersanyag'
+INFINITY_STORAGE:
+  type:
+  - '&7&oGép'
+INFINITY_TREE_GROWER:
+  type:
+  - '&7&oGép'
+INFINITY_VIRTUAL_FARM:
+  type:
+  - '&7&oGép'
+INGOT_FORMER:
+  type:
+  - '&7&oGép'
+IRON_GOLEM_DATA_CARD:
+  type:
+  - '&7&oAlkatrész'
+IRON_SINGULARITY:
+  type:
+  - '&7&oNyersanyag'
+LAPIS_SINGULARITY:
+  type:
+  - '&7&oNyersanyag'
+LEAD_SINGULARITY:
+  type:
+  - '&7&oNyersanyag'
+MACHINE_CIRCUIT:
+  type:
+  - '&7&oAlkatrész'
+MACHINE_CORE:
+  type:
+  - '&7&oAlkatrész'
+MACHINE_PLATE:
+  type:
+  - '&7&oAlkatrész'
+MAGIC_SINGULARITY:
+  type:
+  - '&7&oNyersanyag'
+MAGMA_CUBE_DATA_CARD:
+  type:
+  - '&7&oAlkatrész'
+MAGNESIUM_SINGULARITY:
+  type:
+  - '&7&oNyersanyag'
+MAGNONIUM:
+  type:
+  - '&7&oNyersanyag'
+MAGSTEEL:
+  type:
+  - '&7&oNyersanyag'
+MAGSTEEL_PLATE:
+  type:
+  - '&7&oAlkatrész'
+METAL_SINGULARITY:
+  type:
+  - '&7&oNyersanyag'
+MOB_SIMULATION_CHAMBER:
+  type:
+  - '&7&oGép'
+MYTHRIL:
+  type:
+  - '&7&oNyersanyag'
+NETHERITE_SINGULARITY:
+  type:
+  - '&7&oNyersanyag'
+POWERED_BEDROCK:
+  type:
+  - '&7&oGép'
+QUARRY_OSCILLATOR_DIAMOND:
+  type:
+  - '&7&oAlkatrész'
+QUARRY_OSCILLATOR_EMERALD:
+  type:
+  - '&7&oAlkatrész'
+QUARRY_OSCILLATOR_LAPIS_LAZULI:
+  type:
+  - '&7&oAlkatrész'
+QUARRY_OSCILLATOR_QUARTZ:
+  type:
+  - '&7&oAlkatrész'
+QUARRY_OSCILLATOR_REDSTONE:
+  type:
+  - '&7&oAlkatrész'
+QUARTZ_SINGULARITY:
+  type:
+  - '&7&oNyersanyag'
+REDSTONE_SINGULARITY:
+  type:
+  - '&7&oNyersanyag'
+REINFORCED_GEOTHERMAL_GENERATOR:
+  type:
+  - '&7&oGenerátor'
+REINFORCED_HYDRO_GENERATOR:
+  type:
+  - '&7&oGenerátor'
+REINFORCED_STORAGE:
+  type:
+  - '&7&oGép'
+REINFORCED_STRAINER:
+  type:
+  - '&7&oAlkatrész'
+RESOURCE_SYNTHESIZER:
+  type:
+  - '&7&oGép'
+SHEEP_DATA_CARD:
+  type:
+  - '&7&oAlkatrész'
+SILVER_SINGULARITY:
+  type:
+  - '&7&oNyersanyag'
+SINGULARITY_CONSTRUCTOR:
+  type:
+  - '&7&oGép'
+SKELETON_DATA_CARD:
+  type:
+  - '&7&oAlkatrész'
+SLIME_DATA_CARD:
+  type:
+  - '&7&oAlkatrész'
+SPIDER_DATA_CARD:
+  type:
+  - '&7&oAlkatrész'
+STONEWORKS_FACTORY:
+  type:
+  - '&7&oGép'
+STORAGE_FORGE:
+  type:
+  - '&7&oGép'
+STRAINER_BASE:
+  type:
+  - '&7&oGép'
+TIN_SINGULARITY:
+  type:
+  - '&7&oNyersanyag'
+TITANIUM:
+  type:
+  - '&7&oNyersanyag'
+URANIUM_EXTRACTOR:
+  type:
+  - '&7&oGép'
+VEIN_MINER_RUNE:
+  type:
+  - '&7&oKütyü'
+VILLAGER_DATA_CARD:
+  type:
+  - '&7&oAlkatrész'
+VOID_BIT:
+  type:
+  - '&7&oNyersanyag'
+VOID_CAPACITOR:
+  type:
+  - '&7&oAlkatrész'
+VOID_DUST:
+  type:
+  - '&7&oNyersanyag'
+VOID_HARVESTER:
+  type:
+  - '&7&oGép'
+VOID_INGOT:
+  type:
+  - '&7&oNyersanyag'
+VOID_PANEL:
+  type:
+  - '&7&oGenerátor'
+VOID_QUARRY:
+  type:
+  - '&7&oGép'
+VOID_STORAGE:
+  type:
+  - '&7&oGép'
+WITCH_DATA_CARD:
+  type:
+  - '&7&oAlkatrész'
+WITHER_DATA_CARD:
+  type:
+  - '&7&oAlkatrész'
+WITHER_SKELETON_DATA_CARD:
+  type:
+  - '&7&oAlkatrész'
+ZINC_SINGULARITY:
+  type:
+  - '&7&oNyersanyag'
+ZOMBIE_DATA_CARD:
+  type:
+  - '&7&oAlkatrész'

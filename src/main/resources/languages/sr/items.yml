@@ -1,0 +1,438 @@
+ADAMANTITE:
+  type:
+  - '&7&oРесурс'
+ADVANCED_ANVIL:
+  type:
+  - '&7&oМашина'
+ADVANCED_CHARGER:
+  type:
+  - '&7&oМашина'
+ADVANCED_COBBLE_GEN:
+  type:
+  - '&7&oМашина'
+ADVANCED_DISENCHANTER:
+  type:
+  - '&7&oМашина'
+ADVANCED_ENCHANTER:
+  type:
+  - '&7&oМашина'
+ADVANCED_GEO_MINER:
+  type:
+  - '&7&oМашина'
+ADVANCED_NETHER_STAR_REACTOR:
+  type:
+  - '&7&oГенератор'
+ADVANCED_PANEL:
+  type:
+  - '&7&oГенератор'
+ADVANCED_QUARRY:
+  type:
+  - '&7&oМашина'
+ADVANCED_SMELTERY:
+  type:
+  - '&7&oМашина'
+ADVANCED_STORAGE:
+  type:
+  - '&7&oМашина'
+ADVANCED_STRAINER:
+  type:
+  - '&7&oКомпонента'
+ADVANCED_TREE_GROWER:
+  type:
+  - '&7&oМашина'
+ADVANCED_VIRTUAL_FARM:
+  type:
+  - '&7&oМашина'
+ALUMINUM_SINGULARITY:
+  type:
+  - '&7&oРесурс'
+BASIC_COBBLE_GEN:
+  type:
+  - '&7&oМашина'
+BASIC_OBSIDIAN_GEN:
+  type:
+  - '&7&oМашина'
+BASIC_PANEL:
+  type:
+  - '&7&oГенератор'
+BASIC_QUARRY:
+  type:
+  - '&7&oМашина'
+BASIC_STORAGE:
+  type:
+  - '&7&oМашина'
+BASIC_STRAINER:
+  type:
+  - '&7&oКомпонента'
+BASIC_TREE_GROWER:
+  type:
+  - '&7&oМашина'
+BASIC_VIRTUAL_FARM:
+  type:
+  - '&7&oМашина'
+BEE_DATA_CARD:
+  type:
+  - '&7&oКомпонента'
+BLAZE_DATA_CARD:
+  type:
+  - '&7&oКомпонента'
+CELESTIAL_PANEL:
+  type:
+  - '&7&oГенератор'
+CHICKEN_DATA_CARD:
+  type:
+  - '&7&oКомпонента'
+COAL_SINGULARITY:
+  type:
+  - '&7&oРесурс'
+COBBLE_PRESS:
+  type:
+  - '&7&oМашина'
+COMPRESSED_COBBLESTONE_1:
+  type:
+  - '&7&oРесурс'
+COMPRESSED_COBBLESTONE_2:
+  type:
+  - '&7&oРесурс'
+COMPRESSED_COBBLESTONE_3:
+  type:
+  - '&7&oРесурс'
+COMPRESSED_COBBLESTONE_4:
+  type:
+  - '&7&oРесурс'
+COMPRESSED_COBBLESTONE_5:
+  type:
+  - '&7&oРесурс'
+COPPER_SINGULARITY:
+  type:
+  - '&7&oРесурс'
+COW_DATA_CARD:
+  type:
+  - '&7&oКомпонента'
+CREEPER_DATA_CARD:
+  type:
+  - '&7&oКомпонента'
+DATA_INFUSER:
+  type:
+  - '&7&oМашина'
+DECOMPRESSOR:
+  type:
+  - '&7&oМашина'
+DIAMOND_SINGULARITY:
+  type:
+  - '&7&oРесурс'
+DUST_EXTRACTOR:
+  type:
+  - '&7&oМашина'
+EARTH_SINGULARITY:
+  type:
+  - '&7&oРесурс'
+EMERALD_SINGULARITY:
+  type:
+  - '&7&oРесурс'
+EMPTY_DATA_CARD:
+  type:
+  - '&7&oКомпонента'
+ENDERMEN_DATA_CARD:
+  type:
+  - '&7&oКомпонента'
+ENDER_DRAGON_DATA_CARD:
+  type:
+  - '&7&oКомпонента'
+ENDER_FLAME:
+  type:
+  - '&7&oКомпонента'
+END_ESSENCE:
+  type:
+  - '&7&oРесурс'
+EXTREME_FREEZER:
+  type:
+  - '&7&oМашина'
+FORTUNE_SINGULARITY:
+  type:
+  - '&7&oРесурс'
+GEAR_TRANSFORMER:
+  type:
+  - '&7&oМашина'
+GEOTHERMAL_GENERATOR:
+  type:
+  - '&7&oГенератор'
+GEO_QUARRY:
+  type:
+  - '&7&oМашина'
+GOLD_SINGULARITY:
+  type:
+  - '&7&oРесурс'
+GUARDIAN_DATA_CARD:
+  type:
+  - '&7&oКомпонента'
+HYDRO_GENERATOR:
+  type:
+  - '&7&oГенератор'
+INFINITE_INGOT:
+  type:
+  - '&7&oРесурс'
+INFINITE_MACHINE_CIRCUIT:
+  type:
+  - '&7&oКомпонента'
+INFINITE_MACHINE_CORE:
+  type:
+  - '&7&oКомпонента'
+INFINITE_PANEL:
+  type:
+  - '&7&oГенератор'
+INFINITE_VOID_HARVESTER:
+  type:
+  - '&7&oМашина'
+INFINITY_AXE:
+  type:
+  - '&7&oАлат'
+INFINITY_BLADE:
+  type:
+  - '&7&oОружје'
+INFINITY_BOOTS:
+  type:
+  - '&7&oОклоп'
+INFINITY_BOW:
+  type:
+  - '&7&oОружје'
+INFINITY_CAPACITOR:
+  type:
+  - '&7&oКомпонента'
+INFINITY_CHARGER:
+  type:
+  - '&7&oМашина'
+INFINITY_CHESTPLATE:
+  type:
+  - '&7&oОклоп'
+INFINITY_COBBLE_GEN:
+  type:
+  - '&7&oМашина'
+INFINITY_CONSTRUCTOR:
+  type:
+  - '&7&oМашина'
+INFINITY_CROWN:
+  type:
+  - '&7&oОклоп'
+INFINITY_DISENCHANTER:
+  type:
+  - '&7&oМашина'
+INFINITY_DUST_EXTRACTOR:
+  type:
+  - '&7&oМашина'
+INFINITY_ENCHANTER:
+  type:
+  - '&7&oМашина'
+INFINITY_FORGE:
+  type:
+  - '&7&oМашина'
+INFINITY_INGOT_FORMER:
+  type:
+  - '&7&oМашина'
+INFINITY_LEGGINGS:
+  type:
+  - '&7&oОклоп'
+INFINITY_MATRIX:
+  type:
+  - '&7&oСправа'
+INFINITY_PICKAXE:
+  type:
+  - '&7&oАлат'
+INFINITY_QUARRY:
+  type:
+  - '&7&oМашина'
+INFINITY_REACTOR:
+  type:
+  - '&7&oГенератор'
+INFINITY_SHIELD:
+  type:
+  - '&7&oОружје'
+INFINITY_SHOVEL:
+  type:
+  - '&7&oАлат'
+INFINITY_SINGULARITY:
+  type:
+  - '&7&oРесурс'
+INFINITY_STORAGE:
+  type:
+  - '&7&oМашина'
+INFINITY_TREE_GROWER:
+  type:
+  - '&7&oМашина'
+INFINITY_VIRTUAL_FARM:
+  type:
+  - '&7&oМашина'
+INGOT_FORMER:
+  type:
+  - '&7&oМашина'
+IRON_GOLEM_DATA_CARD:
+  type:
+  - '&7&oКомпонента'
+IRON_SINGULARITY:
+  type:
+  - '&7&oРесурс'
+LAPIS_SINGULARITY:
+  type:
+  - '&7&oРесурс'
+LEAD_SINGULARITY:
+  type:
+  - '&7&oРесурс'
+MACHINE_CIRCUIT:
+  type:
+  - '&7&oКомпонента'
+MACHINE_CORE:
+  type:
+  - '&7&oКомпонента'
+MACHINE_PLATE:
+  type:
+  - '&7&oКомпонента'
+MAGIC_SINGULARITY:
+  type:
+  - '&7&oРесурс'
+MAGMA_CUBE_DATA_CARD:
+  type:
+  - '&7&oКомпонента'
+MAGNESIUM_SINGULARITY:
+  type:
+  - '&7&oРесурс'
+MAGNONIUM:
+  type:
+  - '&7&oРесурс'
+MAGSTEEL:
+  type:
+  - '&7&oРесурс'
+MAGSTEEL_PLATE:
+  type:
+  - '&7&oКомпонента'
+METAL_SINGULARITY:
+  type:
+  - '&7&oРесурс'
+MOB_SIMULATION_CHAMBER:
+  type:
+  - '&7&oМашина'
+MYTHRIL:
+  type:
+  - '&7&oРесурс'
+NETHERITE_SINGULARITY:
+  type:
+  - '&7&oРесурс'
+POWERED_BEDROCK:
+  type:
+  - '&7&oМашина'
+QUARRY_OSCILLATOR_DIAMOND:
+  type:
+  - '&7&oКомпонента'
+QUARRY_OSCILLATOR_EMERALD:
+  type:
+  - '&7&oКомпонента'
+QUARRY_OSCILLATOR_LAPIS_LAZULI:
+  type:
+  - '&7&oКомпонента'
+QUARRY_OSCILLATOR_QUARTZ:
+  type:
+  - '&7&oКомпонента'
+QUARRY_OSCILLATOR_REDSTONE:
+  type:
+  - '&7&oКомпонента'
+QUARTZ_SINGULARITY:
+  type:
+  - '&7&oРесурс'
+REDSTONE_SINGULARITY:
+  type:
+  - '&7&oРесурс'
+REINFORCED_GEOTHERMAL_GENERATOR:
+  type:
+  - '&7&oГенератор'
+REINFORCED_HYDRO_GENERATOR:
+  type:
+  - '&7&oГенератор'
+REINFORCED_STORAGE:
+  type:
+  - '&7&oМашина'
+REINFORCED_STRAINER:
+  type:
+  - '&7&oКомпонента'
+RESOURCE_SYNTHESIZER:
+  type:
+  - '&7&oМашина'
+SHEEP_DATA_CARD:
+  type:
+  - '&7&oКомпонента'
+SILVER_SINGULARITY:
+  type:
+  - '&7&oРесурс'
+SINGULARITY_CONSTRUCTOR:
+  type:
+  - '&7&oМашина'
+SKELETON_DATA_CARD:
+  type:
+  - '&7&oКомпонента'
+SLIME_DATA_CARD:
+  type:
+  - '&7&oКомпонента'
+SPIDER_DATA_CARD:
+  type:
+  - '&7&oКомпонента'
+STONEWORKS_FACTORY:
+  type:
+  - '&7&oМашина'
+STORAGE_FORGE:
+  type:
+  - '&7&oМашина'
+STRAINER_BASE:
+  type:
+  - '&7&oМашина'
+TIN_SINGULARITY:
+  type:
+  - '&7&oРесурс'
+TITANIUM:
+  type:
+  - '&7&oРесурс'
+URANIUM_EXTRACTOR:
+  type:
+  - '&7&oМашина'
+VEIN_MINER_RUNE:
+  type:
+  - '&7&oСправа'
+VILLAGER_DATA_CARD:
+  type:
+  - '&7&oКомпонента'
+VOID_BIT:
+  type:
+  - '&7&oРесурс'
+VOID_CAPACITOR:
+  type:
+  - '&7&oКомпонента'
+VOID_DUST:
+  type:
+  - '&7&oРесурс'
+VOID_HARVESTER:
+  type:
+  - '&7&oМашина'
+VOID_INGOT:
+  type:
+  - '&7&oРесурс'
+VOID_PANEL:
+  type:
+  - '&7&oГенератор'
+VOID_QUARRY:
+  type:
+  - '&7&oМашина'
+VOID_STORAGE:
+  type:
+  - '&7&oМашина'
+WITCH_DATA_CARD:
+  type:
+  - '&7&oКомпонента'
+WITHER_DATA_CARD:
+  type:
+  - '&7&oКомпонента'
+WITHER_SKELETON_DATA_CARD:
+  type:
+  - '&7&oКомпонента'
+ZINC_SINGULARITY:
+  type:
+  - '&7&oРесурс'
+ZOMBIE_DATA_CARD:
+  type:
+  - '&7&oКомпонента'

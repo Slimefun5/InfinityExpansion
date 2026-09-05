@@ -1,97 +1,73 @@
 ADAMANTITE:
-  name: '&dAdamantita'
   type:
   - '&7&oRecurso'
 ADVANCED_ANVIL:
-  name: '&cBigorna Avançada'
   type:
   - '&7&oMáquina'
 ADVANCED_CHARGER:
-  name: '&cCarregador Avançado'
   type:
   - '&7&oMáquina'
 ADVANCED_COBBLE_GEN:
-  name: '&cGerador &8de Pedregulho Avançado'
   type:
   - '&7&oMáquina'
 ADVANCED_DISENCHANTER:
-  name: '&cDesencantador Avançado'
   type:
   - '&7&oMáquina'
 ADVANCED_ENCHANTER:
-  name: '&cEncantador Avançado'
   type:
   - '&7&oMáquina'
 ADVANCED_GEO_MINER:
-  name: '&cGeoMinerador &fAvançado'
   type:
   - '&7&oMáquina'
 ADVANCED_NETHER_STAR_REACTOR:
-  name: '&cReator de Estrela do Nether Avançado'
   type:
   - '&7&oGerador'
 ADVANCED_PANEL:
-  name: '&cPainel Solar Avançado'
   type:
   - '&7&oGerador'
 ADVANCED_QUARRY:
-  name: '&cPedreira Avançada'
   type:
   - '&7&oMáquina'
 ADVANCED_SMELTERY:
-  name: '&cFundição &7Avançada'
   type:
   - '&7&oMáquina'
 ADVANCED_STORAGE:
-  name: '&cUnidade &8de Armazenamento Avançada'
   type:
   - '&7&oMáquina'
 ADVANCED_STRAINER:
-  name: '&cCoador Avançado'
   type:
   - '&7&oComponente'
 ADVANCED_TREE_GROWER:
-  name: '&cCultivador &2de Árvores Avançado'
   type:
   - '&7&oMáquina'
 ADVANCED_VIRTUAL_FARM:
-  name: '&cFazenda &aVirtual Avançada'
   type:
   - '&7&oMáquina'
 ALUMINUM_SINGULARITY:
-  name: '&7Singularidade de Alumínio'
   type:
   - '&7&oRecurso'
 BASIC_COBBLE_GEN:
-  name: '&9Gerador &8de Pedregulho Básico'
   type:
   - '&7&oMáquina'
 BASIC_OBSIDIAN_GEN:
-  name: '&8Gerador de Obsidiana'
   type:
   - '&7&oMáquina'
 BASIC_PANEL:
-  name: '&9Painel Solar Básico'
   type:
   - '&7&oGerador'
 BASIC_QUARRY:
-  name: '&9Pedreira Básica'
   type:
   - '&7&oMáquina'
 BASIC_STORAGE:
-  name: '&9Unidade &8de Armazenamento Básica'
   type:
   - '&7&oMáquina'
 BASIC_STRAINER:
-  name: '&9Coador Básico'
   type:
   - '&7&oComponente'
 BASIC_TREE_GROWER:
-  name: '&9Cultivador &2de Árvores Básico'
   type:
   - '&7&oMáquina'
 BASIC_VIRTUAL_FARM:
-  name: '&9Fazenda &aVirtual Básica'
   type:
   - '&7&oMáquina'
 BEE_DATA_CARD:
@@ -101,42 +77,33 @@ BLAZE_DATA_CARD:
   type:
   - '&7&oComponente'
 CELESTIAL_PANEL:
-  name: '&ePainel Celestial'
   type:
   - '&7&oGerador'
 CHICKEN_DATA_CARD:
   type:
   - '&7&oComponente'
 COAL_SINGULARITY:
-  name: '&8Singularidade de Carvão'
   type:
   - '&7&oRecurso'
 COBBLE_PRESS:
-  name: '&8Prensa de Pedregulho'
   type:
   - '&7&oMáquina'
 COMPRESSED_COBBLESTONE_1:
-  name: '&7Pedregulho Comprimido Simples'
   type:
   - '&7&oRecurso'
 COMPRESSED_COBBLESTONE_2:
-  name: '&7Pedregulho Comprimido Duplo'
   type:
   - '&7&oRecurso'
 COMPRESSED_COBBLESTONE_3:
-  name: '&7Pedregulho Comprimido Triplo'
   type:
   - '&7&oRecurso'
 COMPRESSED_COBBLESTONE_4:
-  name: '&7Pedregulho Comprimido Quádruplo'
   type:
   - '&7&oRecurso'
 COMPRESSED_COBBLESTONE_5:
-  name: '&7Pedregulho Comprimido Quíntuplo'
   type:
   - '&7&oRecurso'
 COPPER_SINGULARITY:
-  name: '&6Singularidade de Cobre'
   type:
   - '&7&oRecurso'
 COW_DATA_CARD:
@@ -146,31 +113,24 @@ CREEPER_DATA_CARD:
   type:
   - '&7&oComponente'
 DATA_INFUSER:
-  name: '&8Infusor de Dados de Mob'
   type:
   - '&7&oMáquina'
 DECOMPRESSOR:
-  name: '&7Descompressor'
   type:
   - '&7&oMáquina'
 DIAMOND_SINGULARITY:
-  name: '&bSingularidade de Diamante'
   type:
   - '&7&oRecurso'
 DUST_EXTRACTOR:
-  name: '&8Extrator de Pó'
   type:
   - '&7&oMáquina'
 EARTH_SINGULARITY:
-  name: '&aSingularidade de Terra'
   type:
   - '&7&oRecurso'
 EMERALD_SINGULARITY:
-  name: '&aSingularidade de Esmeralda'
   type:
   - '&7&oRecurso'
 EMPTY_DATA_CARD:
-  name: '&8Cartão de Dados Vazio'
   type:
   - '&7&oComponente'
 ENDERMEN_DATA_CARD:
@@ -180,240 +140,183 @@ ENDER_DRAGON_DATA_CARD:
   type:
   - '&7&oComponente'
 ENDER_FLAME:
-  name: '&cChama do Ender'
   type:
   - '&7&oComponente'
 END_ESSENCE:
-  name: '&5Essência do End'
   type:
   - '&7&oRecurso'
 EXTREME_FREEZER:
-  name: '&bCongelador Extremo'
   type:
   - '&7&oMáquina'
 FORTUNE_SINGULARITY:
-  name: '&6Singularidade de Fortuna'
   type:
   - '&7&oRecurso'
 GEAR_TRANSFORMER:
-  name: '&7Transformador de Equipamento'
   type:
   - '&7&oMáquina'
 GEOTHERMAL_GENERATOR:
-  name: '&cGerador Geotérmico'
   type:
   - '&7&oGerador'
 GEO_QUARRY:
-  name: '&fPedreira Geo'
   type:
   - '&7&oMáquina'
 GOLD_SINGULARITY:
-  name: '&6Singularidade de Ouro'
   type:
   - '&7&oRecurso'
 GUARDIAN_DATA_CARD:
   type:
   - '&7&oComponente'
 HYDRO_GENERATOR:
-  name: '&9Gerador Hidráulico'
   type:
   - '&7&oGerador'
 INFINITE_INGOT:
-  name: '&bBarra Infinity'
   type:
   - '&7&oRecurso'
 INFINITE_MACHINE_CIRCUIT:
-  name: '&bCircuito &6de Máquina Infinito'
   type:
   - '&7&oComponente'
 INFINITE_MACHINE_CORE:
-  name: '&bNúcleo de Máquina Infinito'
   type:
   - '&7&oComponente'
 INFINITE_PANEL:
-  name: '&bPainel Infinity'
   type:
   - '&7&oGerador'
 INFINITE_VOID_HARVESTER:
-  name: '&bColhedor &8do Vazio Infinito'
   type:
   - '&7&oMáquina'
 INFINITY_AXE:
-  name: '&4Ruína da Natureza'
   type:
   - '&7&oFerramenta'
 INFINITY_BLADE:
-  name: '&bLâmina do Cosmos'
   type:
   - '&7&oArma'
 INFINITY_BOOTS:
-  name: '&bBotas Infinity'
   type:
   - '&7&oArmadura'
 INFINITY_BOW:
-  name: '&6Perfura-Céus'
   type:
   - '&7&oArma'
 INFINITY_CAPACITOR:
-  name: '&bCapacitor Infinito'
   type:
   - '&7&oComponente'
 INFINITY_CHARGER:
-  name: '&bCarregador Infinity'
   type:
   - '&7&oMáquina'
 INFINITY_CHESTPLATE:
-  name: '&bPeitoral Infinity'
   type:
   - '&7&oArmadura'
 INFINITY_COBBLE_GEN:
-  name: '&cGerador &8de Pedregulho Infinity'
   type:
   - '&7&oMáquina'
 INFINITY_CONSTRUCTOR:
-  name: '&bConstrutor &fInfinity'
   type:
   - '&7&oMáquina'
 INFINITY_CROWN:
-  name: '&bCoroa Infinity'
   type:
   - '&7&oArmadura'
 INFINITY_DISENCHANTER:
-  name: '&bDesencantador Infinity'
   type:
   - '&7&oMáquina'
 INFINITY_DUST_EXTRACTOR:
-  name: '&bExtrator &8de Pó Infinity'
   type:
   - '&7&oMáquina'
 INFINITY_ENCHANTER:
-  name: '&bEncantador Infinity'
   type:
   - '&7&oMáquina'
 INFINITY_FORGE:
-  name: '&6Bancada Infinity'
   type:
   - '&7&oMáquina'
 INFINITY_INGOT_FORMER:
-  name: '&bFormador &8de Barras Infinity'
   type:
   - '&7&oMáquina'
 INFINITY_LEGGINGS:
-  name: '&bCalças Infinity'
   type:
   - '&7&oArmadura'
 INFINITY_MATRIX:
-  name: '&fMatriz Infinity'
   type:
-  - '&7&oUtensílio'
+  - '&7&oAcessório'
 INFINITY_PICKAXE:
-  name: '&9Quebra-Mundos'
   type:
   - '&7&oFerramenta'
 INFINITY_QUARRY:
-  name: '&bPedreira Infinity'
   type:
   - '&7&oMáquina'
 INFINITY_REACTOR:
-  name: '&bReator Infinity'
   type:
   - '&7&oGerador'
 INFINITY_SHIELD:
-  name: '&bÉgide Cósmica'
   type:
   - '&7&oArma'
 INFINITY_SHOVEL:
-  name: '&aComedor de Montanhas'
   type:
   - '&7&oFerramenta'
 INFINITY_SINGULARITY:
-  name: '&bSingularidade Infinity'
   type:
   - '&7&oRecurso'
 INFINITY_STORAGE:
-  name: '&bUnidade &8de Armazenamento Infinity'
   type:
   - '&7&oMáquina'
 INFINITY_TREE_GROWER:
-  name: '&bCultivador &2de Árvores Infinity'
   type:
   - '&7&oMáquina'
 INFINITY_VIRTUAL_FARM:
-  name: '&bFazenda &aVirtual Infinity'
   type:
   - '&7&oMáquina'
 INGOT_FORMER:
-  name: '&8Formador de Barras'
   type:
   - '&7&oMáquina'
 IRON_GOLEM_DATA_CARD:
   type:
   - '&7&oComponente'
 IRON_SINGULARITY:
-  name: '&7Singularidade de Ferro'
   type:
   - '&7&oRecurso'
 LAPIS_SINGULARITY:
-  name: '&9Singularidade de Lápis-Lazúli'
   type:
   - '&7&oRecurso'
 LEAD_SINGULARITY:
-  name: '&8Singularidade de Chumbo'
   type:
   - '&7&oRecurso'
 MACHINE_CIRCUIT:
-  name: '&6Circuito de Máquina'
   type:
   - '&7&oComponente'
 MACHINE_CORE:
-  name: '&fNúcleo de Máquina'
   type:
   - '&7&oComponente'
 MACHINE_PLATE:
-  name: '&fPlaca de Máquina'
   type:
   - '&7&oComponente'
 MAGIC_SINGULARITY:
-  name: '&dSingularidade de Magia'
   type:
   - '&7&oRecurso'
 MAGMA_CUBE_DATA_CARD:
   type:
   - '&7&oComponente'
 MAGNESIUM_SINGULARITY:
-  name: '&5Singularidade de Magnésio'
   type:
   - '&7&oRecurso'
 MAGNONIUM:
-  name: '&5Magnônio'
   type:
   - '&7&oRecurso'
 MAGSTEEL:
-  name: '&4MagSteel'
   type:
   - '&7&oRecurso'
 MAGSTEEL_PLATE:
-  name: '&4Placa de MagSteel'
   type:
   - '&7&oComponente'
 METAL_SINGULARITY:
-  name: '&8Singularidade de Metal'
   type:
   - '&7&oRecurso'
 MOB_SIMULATION_CHAMBER:
-  name: '&8Câmara de Simulação de Mob'
   type:
   - '&7&oMáquina'
 MYTHRIL:
-  name: '&bMithril'
   type:
   - '&7&oRecurso'
 NETHERITE_SINGULARITY:
-  name: '&4Singularidade de Netherita'
   type:
   - '&7&oRecurso'
 POWERED_BEDROCK:
-  name: '&4Bedrock Energizado'
   type:
   - '&7&oMáquina'
 QUARRY_OSCILLATOR_DIAMOND:
@@ -432,42 +335,33 @@ QUARRY_OSCILLATOR_REDSTONE:
   type:
   - '&7&oComponente'
 QUARTZ_SINGULARITY:
-  name: '&fSingularidade de Quartzo'
   type:
   - '&7&oRecurso'
 REDSTONE_SINGULARITY:
-  name: '&cSingularidade de Redstone'
   type:
   - '&7&oRecurso'
 REINFORCED_GEOTHERMAL_GENERATOR:
-  name: '&fGerador &cGeotérmico Reforçado'
   type:
   - '&7&oGerador'
 REINFORCED_HYDRO_GENERATOR:
-  name: '&fGerador &9Hidro Reforçado'
   type:
   - '&7&oGerador'
 REINFORCED_STORAGE:
-  name: '&fUnidade &8de Armazenamento Reforçada'
   type:
   - '&7&oMáquina'
 REINFORCED_STRAINER:
-  name: '&fCoador Reforçado'
   type:
   - '&7&oComponente'
 RESOURCE_SYNTHESIZER:
-  name: '&6Sintetizador de Recursos'
   type:
   - '&7&oMáquina'
 SHEEP_DATA_CARD:
   type:
   - '&7&oComponente'
 SILVER_SINGULARITY:
-  name: '&7Singularidade de Prata'
   type:
   - '&7&oRecurso'
 SINGULARITY_CONSTRUCTOR:
-  name: '&fConstrutor de Singularidade'
   type:
   - '&7&oMáquina'
 SKELETON_DATA_CARD:
@@ -480,66 +374,51 @@ SPIDER_DATA_CARD:
   type:
   - '&7&oComponente'
 STONEWORKS_FACTORY:
-  name: '&8Fábrica de Pedra'
   type:
   - '&7&oMáquina'
 STORAGE_FORGE:
-  name: '&6Forja de Armazenamento'
   type:
   - '&7&oMáquina'
 STRAINER_BASE:
-  name: '&7Base de Coador'
   type:
   - '&7&oMáquina'
 TIN_SINGULARITY:
-  name: '&7Singularidade de Estanho'
   type:
   - '&7&oRecurso'
 TITANIUM:
-  name: '&7Titânio'
   type:
   - '&7&oRecurso'
 URANIUM_EXTRACTOR:
-  name: '&aExtrator de Urânio'
   type:
   - '&7&oMáquina'
 VEIN_MINER_RUNE:
-  name: '&bRuna de Minerador de Veias'
   type:
-  - '&7&oUtensílio'
+  - '&7&oAcessório'
 VILLAGER_DATA_CARD:
   type:
   - '&7&oComponente'
 VOID_BIT:
-  name: '&8Fragmento do Vazio'
   type:
   - '&7&oRecurso'
 VOID_CAPACITOR:
-  name: '&8Capacitor do Vazio'
   type:
   - '&7&oComponente'
 VOID_DUST:
-  name: '&8Pó do Vazio'
   type:
   - '&7&oRecurso'
 VOID_HARVESTER:
-  name: '&8Colhedor do Vazio'
   type:
   - '&7&oMáquina'
 VOID_INGOT:
-  name: '&8Barra do Vazio'
   type:
   - '&7&oRecurso'
 VOID_PANEL:
-  name: '&8Painel do Vazio'
   type:
   - '&7&oGerador'
 VOID_QUARRY:
-  name: '&8Pedreira do Vazio'
   type:
   - '&7&oMáquina'
 VOID_STORAGE:
-  name: '&8Unidade &8de Armazenamento do Vazio'
   type:
   - '&7&oMáquina'
 WITCH_DATA_CARD:
@@ -552,7 +431,6 @@ WITHER_SKELETON_DATA_CARD:
   type:
   - '&7&oComponente'
 ZINC_SINGULARITY:
-  name: '&7Singularidade de Zinco'
   type:
   - '&7&oRecurso'
 ZOMBIE_DATA_CARD:

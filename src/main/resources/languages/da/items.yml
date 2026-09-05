@@ -1,0 +1,438 @@
+ADAMANTITE:
+  type:
+  - '&7&oRessource'
+ADVANCED_ANVIL:
+  type:
+  - '&7&oMaskine'
+ADVANCED_CHARGER:
+  type:
+  - '&7&oMaskine'
+ADVANCED_COBBLE_GEN:
+  type:
+  - '&7&oMaskine'
+ADVANCED_DISENCHANTER:
+  type:
+  - '&7&oMaskine'
+ADVANCED_ENCHANTER:
+  type:
+  - '&7&oMaskine'
+ADVANCED_GEO_MINER:
+  type:
+  - '&7&oMaskine'
+ADVANCED_NETHER_STAR_REACTOR:
+  type:
+  - '&7&oGenerator'
+ADVANCED_PANEL:
+  type:
+  - '&7&oGenerator'
+ADVANCED_QUARRY:
+  type:
+  - '&7&oMaskine'
+ADVANCED_SMELTERY:
+  type:
+  - '&7&oMaskine'
+ADVANCED_STORAGE:
+  type:
+  - '&7&oMaskine'
+ADVANCED_STRAINER:
+  type:
+  - '&7&oKomponent'
+ADVANCED_TREE_GROWER:
+  type:
+  - '&7&oMaskine'
+ADVANCED_VIRTUAL_FARM:
+  type:
+  - '&7&oMaskine'
+ALUMINUM_SINGULARITY:
+  type:
+  - '&7&oRessource'
+BASIC_COBBLE_GEN:
+  type:
+  - '&7&oMaskine'
+BASIC_OBSIDIAN_GEN:
+  type:
+  - '&7&oMaskine'
+BASIC_PANEL:
+  type:
+  - '&7&oGenerator'
+BASIC_QUARRY:
+  type:
+  - '&7&oMaskine'
+BASIC_STORAGE:
+  type:
+  - '&7&oMaskine'
+BASIC_STRAINER:
+  type:
+  - '&7&oKomponent'
+BASIC_TREE_GROWER:
+  type:
+  - '&7&oMaskine'
+BASIC_VIRTUAL_FARM:
+  type:
+  - '&7&oMaskine'
+BEE_DATA_CARD:
+  type:
+  - '&7&oKomponent'
+BLAZE_DATA_CARD:
+  type:
+  - '&7&oKomponent'
+CELESTIAL_PANEL:
+  type:
+  - '&7&oGenerator'
+CHICKEN_DATA_CARD:
+  type:
+  - '&7&oKomponent'
+COAL_SINGULARITY:
+  type:
+  - '&7&oRessource'
+COBBLE_PRESS:
+  type:
+  - '&7&oMaskine'
+COMPRESSED_COBBLESTONE_1:
+  type:
+  - '&7&oRessource'
+COMPRESSED_COBBLESTONE_2:
+  type:
+  - '&7&oRessource'
+COMPRESSED_COBBLESTONE_3:
+  type:
+  - '&7&oRessource'
+COMPRESSED_COBBLESTONE_4:
+  type:
+  - '&7&oRessource'
+COMPRESSED_COBBLESTONE_5:
+  type:
+  - '&7&oRessource'
+COPPER_SINGULARITY:
+  type:
+  - '&7&oRessource'
+COW_DATA_CARD:
+  type:
+  - '&7&oKomponent'
+CREEPER_DATA_CARD:
+  type:
+  - '&7&oKomponent'
+DATA_INFUSER:
+  type:
+  - '&7&oMaskine'
+DECOMPRESSOR:
+  type:
+  - '&7&oMaskine'
+DIAMOND_SINGULARITY:
+  type:
+  - '&7&oRessource'
+DUST_EXTRACTOR:
+  type:
+  - '&7&oMaskine'
+EARTH_SINGULARITY:
+  type:
+  - '&7&oRessource'
+EMERALD_SINGULARITY:
+  type:
+  - '&7&oRessource'
+EMPTY_DATA_CARD:
+  type:
+  - '&7&oKomponent'
+ENDERMEN_DATA_CARD:
+  type:
+  - '&7&oKomponent'
+ENDER_DRAGON_DATA_CARD:
+  type:
+  - '&7&oKomponent'
+ENDER_FLAME:
+  type:
+  - '&7&oKomponent'
+END_ESSENCE:
+  type:
+  - '&7&oRessource'
+EXTREME_FREEZER:
+  type:
+  - '&7&oMaskine'
+FORTUNE_SINGULARITY:
+  type:
+  - '&7&oRessource'
+GEAR_TRANSFORMER:
+  type:
+  - '&7&oMaskine'
+GEOTHERMAL_GENERATOR:
+  type:
+  - '&7&oGenerator'
+GEO_QUARRY:
+  type:
+  - '&7&oMaskine'
+GOLD_SINGULARITY:
+  type:
+  - '&7&oRessource'
+GUARDIAN_DATA_CARD:
+  type:
+  - '&7&oKomponent'
+HYDRO_GENERATOR:
+  type:
+  - '&7&oGenerator'
+INFINITE_INGOT:
+  type:
+  - '&7&oRessource'
+INFINITE_MACHINE_CIRCUIT:
+  type:
+  - '&7&oKomponent'
+INFINITE_MACHINE_CORE:
+  type:
+  - '&7&oKomponent'
+INFINITE_PANEL:
+  type:
+  - '&7&oGenerator'
+INFINITE_VOID_HARVESTER:
+  type:
+  - '&7&oMaskine'
+INFINITY_AXE:
+  type:
+  - '&7&oVærktøj'
+INFINITY_BLADE:
+  type:
+  - '&7&oVåben'
+INFINITY_BOOTS:
+  type:
+  - '&7&oRustning'
+INFINITY_BOW:
+  type:
+  - '&7&oVåben'
+INFINITY_CAPACITOR:
+  type:
+  - '&7&oKomponent'
+INFINITY_CHARGER:
+  type:
+  - '&7&oMaskine'
+INFINITY_CHESTPLATE:
+  type:
+  - '&7&oRustning'
+INFINITY_COBBLE_GEN:
+  type:
+  - '&7&oMaskine'
+INFINITY_CONSTRUCTOR:
+  type:
+  - '&7&oMaskine'
+INFINITY_CROWN:
+  type:
+  - '&7&oRustning'
+INFINITY_DISENCHANTER:
+  type:
+  - '&7&oMaskine'
+INFINITY_DUST_EXTRACTOR:
+  type:
+  - '&7&oMaskine'
+INFINITY_ENCHANTER:
+  type:
+  - '&7&oMaskine'
+INFINITY_FORGE:
+  type:
+  - '&7&oMaskine'
+INFINITY_INGOT_FORMER:
+  type:
+  - '&7&oMaskine'
+INFINITY_LEGGINGS:
+  type:
+  - '&7&oRustning'
+INFINITY_MATRIX:
+  type:
+  - '&7&oGadget'
+INFINITY_PICKAXE:
+  type:
+  - '&7&oVærktøj'
+INFINITY_QUARRY:
+  type:
+  - '&7&oMaskine'
+INFINITY_REACTOR:
+  type:
+  - '&7&oGenerator'
+INFINITY_SHIELD:
+  type:
+  - '&7&oVåben'
+INFINITY_SHOVEL:
+  type:
+  - '&7&oVærktøj'
+INFINITY_SINGULARITY:
+  type:
+  - '&7&oRessource'
+INFINITY_STORAGE:
+  type:
+  - '&7&oMaskine'
+INFINITY_TREE_GROWER:
+  type:
+  - '&7&oMaskine'
+INFINITY_VIRTUAL_FARM:
+  type:
+  - '&7&oMaskine'
+INGOT_FORMER:
+  type:
+  - '&7&oMaskine'
+IRON_GOLEM_DATA_CARD:
+  type:
+  - '&7&oKomponent'
+IRON_SINGULARITY:
+  type:
+  - '&7&oRessource'
+LAPIS_SINGULARITY:
+  type:
+  - '&7&oRessource'
+LEAD_SINGULARITY:
+  type:
+  - '&7&oRessource'
+MACHINE_CIRCUIT:
+  type:
+  - '&7&oKomponent'
+MACHINE_CORE:
+  type:
+  - '&7&oKomponent'
+MACHINE_PLATE:
+  type:
+  - '&7&oKomponent'
+MAGIC_SINGULARITY:
+  type:
+  - '&7&oRessource'
+MAGMA_CUBE_DATA_CARD:
+  type:
+  - '&7&oKomponent'
+MAGNESIUM_SINGULARITY:
+  type:
+  - '&7&oRessource'
+MAGNONIUM:
+  type:
+  - '&7&oRessource'
+MAGSTEEL:
+  type:
+  - '&7&oRessource'
+MAGSTEEL_PLATE:
+  type:
+  - '&7&oKomponent'
+METAL_SINGULARITY:
+  type:
+  - '&7&oRessource'
+MOB_SIMULATION_CHAMBER:
+  type:
+  - '&7&oMaskine'
+MYTHRIL:
+  type:
+  - '&7&oRessource'
+NETHERITE_SINGULARITY:
+  type:
+  - '&7&oRessource'
+POWERED_BEDROCK:
+  type:
+  - '&7&oMaskine'
+QUARRY_OSCILLATOR_DIAMOND:
+  type:
+  - '&7&oKomponent'
+QUARRY_OSCILLATOR_EMERALD:
+  type:
+  - '&7&oKomponent'
+QUARRY_OSCILLATOR_LAPIS_LAZULI:
+  type:
+  - '&7&oKomponent'
+QUARRY_OSCILLATOR_QUARTZ:
+  type:
+  - '&7&oKomponent'
+QUARRY_OSCILLATOR_REDSTONE:
+  type:
+  - '&7&oKomponent'
+QUARTZ_SINGULARITY:
+  type:
+  - '&7&oRessource'
+REDSTONE_SINGULARITY:
+  type:
+  - '&7&oRessource'
+REINFORCED_GEOTHERMAL_GENERATOR:
+  type:
+  - '&7&oGenerator'
+REINFORCED_HYDRO_GENERATOR:
+  type:
+  - '&7&oGenerator'
+REINFORCED_STORAGE:
+  type:
+  - '&7&oMaskine'
+REINFORCED_STRAINER:
+  type:
+  - '&7&oKomponent'
+RESOURCE_SYNTHESIZER:
+  type:
+  - '&7&oMaskine'
+SHEEP_DATA_CARD:
+  type:
+  - '&7&oKomponent'
+SILVER_SINGULARITY:
+  type:
+  - '&7&oRessource'
+SINGULARITY_CONSTRUCTOR:
+  type:
+  - '&7&oMaskine'
+SKELETON_DATA_CARD:
+  type:
+  - '&7&oKomponent'
+SLIME_DATA_CARD:
+  type:
+  - '&7&oKomponent'
+SPIDER_DATA_CARD:
+  type:
+  - '&7&oKomponent'
+STONEWORKS_FACTORY:
+  type:
+  - '&7&oMaskine'
+STORAGE_FORGE:
+  type:
+  - '&7&oMaskine'
+STRAINER_BASE:
+  type:
+  - '&7&oMaskine'
+TIN_SINGULARITY:
+  type:
+  - '&7&oRessource'
+TITANIUM:
+  type:
+  - '&7&oRessource'
+URANIUM_EXTRACTOR:
+  type:
+  - '&7&oMaskine'
+VEIN_MINER_RUNE:
+  type:
+  - '&7&oGadget'
+VILLAGER_DATA_CARD:
+  type:
+  - '&7&oKomponent'
+VOID_BIT:
+  type:
+  - '&7&oRessource'
+VOID_CAPACITOR:
+  type:
+  - '&7&oKomponent'
+VOID_DUST:
+  type:
+  - '&7&oRessource'
+VOID_HARVESTER:
+  type:
+  - '&7&oMaskine'
+VOID_INGOT:
+  type:
+  - '&7&oRessource'
+VOID_PANEL:
+  type:
+  - '&7&oGenerator'
+VOID_QUARRY:
+  type:
+  - '&7&oMaskine'
+VOID_STORAGE:
+  type:
+  - '&7&oMaskine'
+WITCH_DATA_CARD:
+  type:
+  - '&7&oKomponent'
+WITHER_DATA_CARD:
+  type:
+  - '&7&oKomponent'
+WITHER_SKELETON_DATA_CARD:
+  type:
+  - '&7&oKomponent'
+ZINC_SINGULARITY:
+  type:
+  - '&7&oRessource'
+ZOMBIE_DATA_CARD:
+  type:
+  - '&7&oKomponent'

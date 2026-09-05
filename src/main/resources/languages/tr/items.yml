@@ -1,0 +1,438 @@
+ADAMANTITE:
+  type:
+  - '&7&oKaynak'
+ADVANCED_ANVIL:
+  type:
+  - '&7&oMakine'
+ADVANCED_CHARGER:
+  type:
+  - '&7&oMakine'
+ADVANCED_COBBLE_GEN:
+  type:
+  - '&7&oMakine'
+ADVANCED_DISENCHANTER:
+  type:
+  - '&7&oMakine'
+ADVANCED_ENCHANTER:
+  type:
+  - '&7&oMakine'
+ADVANCED_GEO_MINER:
+  type:
+  - '&7&oMakine'
+ADVANCED_NETHER_STAR_REACTOR:
+  type:
+  - '&7&oJeneratör'
+ADVANCED_PANEL:
+  type:
+  - '&7&oJeneratör'
+ADVANCED_QUARRY:
+  type:
+  - '&7&oMakine'
+ADVANCED_SMELTERY:
+  type:
+  - '&7&oMakine'
+ADVANCED_STORAGE:
+  type:
+  - '&7&oMakine'
+ADVANCED_STRAINER:
+  type:
+  - '&7&oBileşen'
+ADVANCED_TREE_GROWER:
+  type:
+  - '&7&oMakine'
+ADVANCED_VIRTUAL_FARM:
+  type:
+  - '&7&oMakine'
+ALUMINUM_SINGULARITY:
+  type:
+  - '&7&oKaynak'
+BASIC_COBBLE_GEN:
+  type:
+  - '&7&oMakine'
+BASIC_OBSIDIAN_GEN:
+  type:
+  - '&7&oMakine'
+BASIC_PANEL:
+  type:
+  - '&7&oJeneratör'
+BASIC_QUARRY:
+  type:
+  - '&7&oMakine'
+BASIC_STORAGE:
+  type:
+  - '&7&oMakine'
+BASIC_STRAINER:
+  type:
+  - '&7&oBileşen'
+BASIC_TREE_GROWER:
+  type:
+  - '&7&oMakine'
+BASIC_VIRTUAL_FARM:
+  type:
+  - '&7&oMakine'
+BEE_DATA_CARD:
+  type:
+  - '&7&oBileşen'
+BLAZE_DATA_CARD:
+  type:
+  - '&7&oBileşen'
+CELESTIAL_PANEL:
+  type:
+  - '&7&oJeneratör'
+CHICKEN_DATA_CARD:
+  type:
+  - '&7&oBileşen'
+COAL_SINGULARITY:
+  type:
+  - '&7&oKaynak'
+COBBLE_PRESS:
+  type:
+  - '&7&oMakine'
+COMPRESSED_COBBLESTONE_1:
+  type:
+  - '&7&oKaynak'
+COMPRESSED_COBBLESTONE_2:
+  type:
+  - '&7&oKaynak'
+COMPRESSED_COBBLESTONE_3:
+  type:
+  - '&7&oKaynak'
+COMPRESSED_COBBLESTONE_4:
+  type:
+  - '&7&oKaynak'
+COMPRESSED_COBBLESTONE_5:
+  type:
+  - '&7&oKaynak'
+COPPER_SINGULARITY:
+  type:
+  - '&7&oKaynak'
+COW_DATA_CARD:
+  type:
+  - '&7&oBileşen'
+CREEPER_DATA_CARD:
+  type:
+  - '&7&oBileşen'
+DATA_INFUSER:
+  type:
+  - '&7&oMakine'
+DECOMPRESSOR:
+  type:
+  - '&7&oMakine'
+DIAMOND_SINGULARITY:
+  type:
+  - '&7&oKaynak'
+DUST_EXTRACTOR:
+  type:
+  - '&7&oMakine'
+EARTH_SINGULARITY:
+  type:
+  - '&7&oKaynak'
+EMERALD_SINGULARITY:
+  type:
+  - '&7&oKaynak'
+EMPTY_DATA_CARD:
+  type:
+  - '&7&oBileşen'
+ENDERMEN_DATA_CARD:
+  type:
+  - '&7&oBileşen'
+ENDER_DRAGON_DATA_CARD:
+  type:
+  - '&7&oBileşen'
+ENDER_FLAME:
+  type:
+  - '&7&oBileşen'
+END_ESSENCE:
+  type:
+  - '&7&oKaynak'
+EXTREME_FREEZER:
+  type:
+  - '&7&oMakine'
+FORTUNE_SINGULARITY:
+  type:
+  - '&7&oKaynak'
+GEAR_TRANSFORMER:
+  type:
+  - '&7&oMakine'
+GEOTHERMAL_GENERATOR:
+  type:
+  - '&7&oJeneratör'
+GEO_QUARRY:
+  type:
+  - '&7&oMakine'
+GOLD_SINGULARITY:
+  type:
+  - '&7&oKaynak'
+GUARDIAN_DATA_CARD:
+  type:
+  - '&7&oBileşen'
+HYDRO_GENERATOR:
+  type:
+  - '&7&oJeneratör'
+INFINITE_INGOT:
+  type:
+  - '&7&oKaynak'
+INFINITE_MACHINE_CIRCUIT:
+  type:
+  - '&7&oBileşen'
+INFINITE_MACHINE_CORE:
+  type:
+  - '&7&oBileşen'
+INFINITE_PANEL:
+  type:
+  - '&7&oJeneratör'
+INFINITE_VOID_HARVESTER:
+  type:
+  - '&7&oMakine'
+INFINITY_AXE:
+  type:
+  - '&7&oAlet'
+INFINITY_BLADE:
+  type:
+  - '&7&oSilah'
+INFINITY_BOOTS:
+  type:
+  - '&7&oZırh'
+INFINITY_BOW:
+  type:
+  - '&7&oSilah'
+INFINITY_CAPACITOR:
+  type:
+  - '&7&oBileşen'
+INFINITY_CHARGER:
+  type:
+  - '&7&oMakine'
+INFINITY_CHESTPLATE:
+  type:
+  - '&7&oZırh'
+INFINITY_COBBLE_GEN:
+  type:
+  - '&7&oMakine'
+INFINITY_CONSTRUCTOR:
+  type:
+  - '&7&oMakine'
+INFINITY_CROWN:
+  type:
+  - '&7&oZırh'
+INFINITY_DISENCHANTER:
+  type:
+  - '&7&oMakine'
+INFINITY_DUST_EXTRACTOR:
+  type:
+  - '&7&oMakine'
+INFINITY_ENCHANTER:
+  type:
+  - '&7&oMakine'
+INFINITY_FORGE:
+  type:
+  - '&7&oMakine'
+INFINITY_INGOT_FORMER:
+  type:
+  - '&7&oMakine'
+INFINITY_LEGGINGS:
+  type:
+  - '&7&oZırh'
+INFINITY_MATRIX:
+  type:
+  - '&7&oCihaz'
+INFINITY_PICKAXE:
+  type:
+  - '&7&oAlet'
+INFINITY_QUARRY:
+  type:
+  - '&7&oMakine'
+INFINITY_REACTOR:
+  type:
+  - '&7&oJeneratör'
+INFINITY_SHIELD:
+  type:
+  - '&7&oSilah'
+INFINITY_SHOVEL:
+  type:
+  - '&7&oAlet'
+INFINITY_SINGULARITY:
+  type:
+  - '&7&oKaynak'
+INFINITY_STORAGE:
+  type:
+  - '&7&oMakine'
+INFINITY_TREE_GROWER:
+  type:
+  - '&7&oMakine'
+INFINITY_VIRTUAL_FARM:
+  type:
+  - '&7&oMakine'
+INGOT_FORMER:
+  type:
+  - '&7&oMakine'
+IRON_GOLEM_DATA_CARD:
+  type:
+  - '&7&oBileşen'
+IRON_SINGULARITY:
+  type:
+  - '&7&oKaynak'
+LAPIS_SINGULARITY:
+  type:
+  - '&7&oKaynak'
+LEAD_SINGULARITY:
+  type:
+  - '&7&oKaynak'
+MACHINE_CIRCUIT:
+  type:
+  - '&7&oBileşen'
+MACHINE_CORE:
+  type:
+  - '&7&oBileşen'
+MACHINE_PLATE:
+  type:
+  - '&7&oBileşen'
+MAGIC_SINGULARITY:
+  type:
+  - '&7&oKaynak'
+MAGMA_CUBE_DATA_CARD:
+  type:
+  - '&7&oBileşen'
+MAGNESIUM_SINGULARITY:
+  type:
+  - '&7&oKaynak'
+MAGNONIUM:
+  type:
+  - '&7&oKaynak'
+MAGSTEEL:
+  type:
+  - '&7&oKaynak'
+MAGSTEEL_PLATE:
+  type:
+  - '&7&oBileşen'
+METAL_SINGULARITY:
+  type:
+  - '&7&oKaynak'
+MOB_SIMULATION_CHAMBER:
+  type:
+  - '&7&oMakine'
+MYTHRIL:
+  type:
+  - '&7&oKaynak'
+NETHERITE_SINGULARITY:
+  type:
+  - '&7&oKaynak'
+POWERED_BEDROCK:
+  type:
+  - '&7&oMakine'
+QUARRY_OSCILLATOR_DIAMOND:
+  type:
+  - '&7&oBileşen'
+QUARRY_OSCILLATOR_EMERALD:
+  type:
+  - '&7&oBileşen'
+QUARRY_OSCILLATOR_LAPIS_LAZULI:
+  type:
+  - '&7&oBileşen'
+QUARRY_OSCILLATOR_QUARTZ:
+  type:
+  - '&7&oBileşen'
+QUARRY_OSCILLATOR_REDSTONE:
+  type:
+  - '&7&oBileşen'
+QUARTZ_SINGULARITY:
+  type:
+  - '&7&oKaynak'
+REDSTONE_SINGULARITY:
+  type:
+  - '&7&oKaynak'
+REINFORCED_GEOTHERMAL_GENERATOR:
+  type:
+  - '&7&oJeneratör'
+REINFORCED_HYDRO_GENERATOR:
+  type:
+  - '&7&oJeneratör'
+REINFORCED_STORAGE:
+  type:
+  - '&7&oMakine'
+REINFORCED_STRAINER:
+  type:
+  - '&7&oBileşen'
+RESOURCE_SYNTHESIZER:
+  type:
+  - '&7&oMakine'
+SHEEP_DATA_CARD:
+  type:
+  - '&7&oBileşen'
+SILVER_SINGULARITY:
+  type:
+  - '&7&oKaynak'
+SINGULARITY_CONSTRUCTOR:
+  type:
+  - '&7&oMakine'
+SKELETON_DATA_CARD:
+  type:
+  - '&7&oBileşen'
+SLIME_DATA_CARD:
+  type:
+  - '&7&oBileşen'
+SPIDER_DATA_CARD:
+  type:
+  - '&7&oBileşen'
+STONEWORKS_FACTORY:
+  type:
+  - '&7&oMakine'
+STORAGE_FORGE:
+  type:
+  - '&7&oMakine'
+STRAINER_BASE:
+  type:
+  - '&7&oMakine'
+TIN_SINGULARITY:
+  type:
+  - '&7&oKaynak'
+TITANIUM:
+  type:
+  - '&7&oKaynak'
+URANIUM_EXTRACTOR:
+  type:
+  - '&7&oMakine'
+VEIN_MINER_RUNE:
+  type:
+  - '&7&oCihaz'
+VILLAGER_DATA_CARD:
+  type:
+  - '&7&oBileşen'
+VOID_BIT:
+  type:
+  - '&7&oKaynak'
+VOID_CAPACITOR:
+  type:
+  - '&7&oBileşen'
+VOID_DUST:
+  type:
+  - '&7&oKaynak'
+VOID_HARVESTER:
+  type:
+  - '&7&oMakine'
+VOID_INGOT:
+  type:
+  - '&7&oKaynak'
+VOID_PANEL:
+  type:
+  - '&7&oJeneratör'
+VOID_QUARRY:
+  type:
+  - '&7&oMakine'
+VOID_STORAGE:
+  type:
+  - '&7&oMakine'
+WITCH_DATA_CARD:
+  type:
+  - '&7&oBileşen'
+WITHER_DATA_CARD:
+  type:
+  - '&7&oBileşen'
+WITHER_SKELETON_DATA_CARD:
+  type:
+  - '&7&oBileşen'
+ZINC_SINGULARITY:
+  type:
+  - '&7&oKaynak'
+ZOMBIE_DATA_CARD:
+  type:
+  - '&7&oBileşen'

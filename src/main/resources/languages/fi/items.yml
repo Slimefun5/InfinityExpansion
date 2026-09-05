@@ -1,0 +1,438 @@
+ADAMANTITE:
+  type:
+  - '&7&oResurssi'
+ADVANCED_ANVIL:
+  type:
+  - '&7&oKone'
+ADVANCED_CHARGER:
+  type:
+  - '&7&oKone'
+ADVANCED_COBBLE_GEN:
+  type:
+  - '&7&oKone'
+ADVANCED_DISENCHANTER:
+  type:
+  - '&7&oKone'
+ADVANCED_ENCHANTER:
+  type:
+  - '&7&oKone'
+ADVANCED_GEO_MINER:
+  type:
+  - '&7&oKone'
+ADVANCED_NETHER_STAR_REACTOR:
+  type:
+  - '&7&oGeneraattori'
+ADVANCED_PANEL:
+  type:
+  - '&7&oGeneraattori'
+ADVANCED_QUARRY:
+  type:
+  - '&7&oKone'
+ADVANCED_SMELTERY:
+  type:
+  - '&7&oKone'
+ADVANCED_STORAGE:
+  type:
+  - '&7&oKone'
+ADVANCED_STRAINER:
+  type:
+  - '&7&oKomponentti'
+ADVANCED_TREE_GROWER:
+  type:
+  - '&7&oKone'
+ADVANCED_VIRTUAL_FARM:
+  type:
+  - '&7&oKone'
+ALUMINUM_SINGULARITY:
+  type:
+  - '&7&oResurssi'
+BASIC_COBBLE_GEN:
+  type:
+  - '&7&oKone'
+BASIC_OBSIDIAN_GEN:
+  type:
+  - '&7&oKone'
+BASIC_PANEL:
+  type:
+  - '&7&oGeneraattori'
+BASIC_QUARRY:
+  type:
+  - '&7&oKone'
+BASIC_STORAGE:
+  type:
+  - '&7&oKone'
+BASIC_STRAINER:
+  type:
+  - '&7&oKomponentti'
+BASIC_TREE_GROWER:
+  type:
+  - '&7&oKone'
+BASIC_VIRTUAL_FARM:
+  type:
+  - '&7&oKone'
+BEE_DATA_CARD:
+  type:
+  - '&7&oKomponentti'
+BLAZE_DATA_CARD:
+  type:
+  - '&7&oKomponentti'
+CELESTIAL_PANEL:
+  type:
+  - '&7&oGeneraattori'
+CHICKEN_DATA_CARD:
+  type:
+  - '&7&oKomponentti'
+COAL_SINGULARITY:
+  type:
+  - '&7&oResurssi'
+COBBLE_PRESS:
+  type:
+  - '&7&oKone'
+COMPRESSED_COBBLESTONE_1:
+  type:
+  - '&7&oResurssi'
+COMPRESSED_COBBLESTONE_2:
+  type:
+  - '&7&oResurssi'
+COMPRESSED_COBBLESTONE_3:
+  type:
+  - '&7&oResurssi'
+COMPRESSED_COBBLESTONE_4:
+  type:
+  - '&7&oResurssi'
+COMPRESSED_COBBLESTONE_5:
+  type:
+  - '&7&oResurssi'
+COPPER_SINGULARITY:
+  type:
+  - '&7&oResurssi'
+COW_DATA_CARD:
+  type:
+  - '&7&oKomponentti'
+CREEPER_DATA_CARD:
+  type:
+  - '&7&oKomponentti'
+DATA_INFUSER:
+  type:
+  - '&7&oKone'
+DECOMPRESSOR:
+  type:
+  - '&7&oKone'
+DIAMOND_SINGULARITY:
+  type:
+  - '&7&oResurssi'
+DUST_EXTRACTOR:
+  type:
+  - '&7&oKone'
+EARTH_SINGULARITY:
+  type:
+  - '&7&oResurssi'
+EMERALD_SINGULARITY:
+  type:
+  - '&7&oResurssi'
+EMPTY_DATA_CARD:
+  type:
+  - '&7&oKomponentti'
+ENDERMEN_DATA_CARD:
+  type:
+  - '&7&oKomponentti'
+ENDER_DRAGON_DATA_CARD:
+  type:
+  - '&7&oKomponentti'
+ENDER_FLAME:
+  type:
+  - '&7&oKomponentti'
+END_ESSENCE:
+  type:
+  - '&7&oResurssi'
+EXTREME_FREEZER:
+  type:
+  - '&7&oKone'
+FORTUNE_SINGULARITY:
+  type:
+  - '&7&oResurssi'
+GEAR_TRANSFORMER:
+  type:
+  - '&7&oKone'
+GEOTHERMAL_GENERATOR:
+  type:
+  - '&7&oGeneraattori'
+GEO_QUARRY:
+  type:
+  - '&7&oKone'
+GOLD_SINGULARITY:
+  type:
+  - '&7&oResurssi'
+GUARDIAN_DATA_CARD:
+  type:
+  - '&7&oKomponentti'
+HYDRO_GENERATOR:
+  type:
+  - '&7&oGeneraattori'
+INFINITE_INGOT:
+  type:
+  - '&7&oResurssi'
+INFINITE_MACHINE_CIRCUIT:
+  type:
+  - '&7&oKomponentti'
+INFINITE_MACHINE_CORE:
+  type:
+  - '&7&oKomponentti'
+INFINITE_PANEL:
+  type:
+  - '&7&oGeneraattori'
+INFINITE_VOID_HARVESTER:
+  type:
+  - '&7&oKone'
+INFINITY_AXE:
+  type:
+  - '&7&oTyökalu'
+INFINITY_BLADE:
+  type:
+  - '&7&oAse'
+INFINITY_BOOTS:
+  type:
+  - '&7&oPanssari'
+INFINITY_BOW:
+  type:
+  - '&7&oAse'
+INFINITY_CAPACITOR:
+  type:
+  - '&7&oKomponentti'
+INFINITY_CHARGER:
+  type:
+  - '&7&oKone'
+INFINITY_CHESTPLATE:
+  type:
+  - '&7&oPanssari'
+INFINITY_COBBLE_GEN:
+  type:
+  - '&7&oKone'
+INFINITY_CONSTRUCTOR:
+  type:
+  - '&7&oKone'
+INFINITY_CROWN:
+  type:
+  - '&7&oPanssari'
+INFINITY_DISENCHANTER:
+  type:
+  - '&7&oKone'
+INFINITY_DUST_EXTRACTOR:
+  type:
+  - '&7&oKone'
+INFINITY_ENCHANTER:
+  type:
+  - '&7&oKone'
+INFINITY_FORGE:
+  type:
+  - '&7&oKone'
+INFINITY_INGOT_FORMER:
+  type:
+  - '&7&oKone'
+INFINITY_LEGGINGS:
+  type:
+  - '&7&oPanssari'
+INFINITY_MATRIX:
+  type:
+  - '&7&oGadgetti'
+INFINITY_PICKAXE:
+  type:
+  - '&7&oTyökalu'
+INFINITY_QUARRY:
+  type:
+  - '&7&oKone'
+INFINITY_REACTOR:
+  type:
+  - '&7&oGeneraattori'
+INFINITY_SHIELD:
+  type:
+  - '&7&oAse'
+INFINITY_SHOVEL:
+  type:
+  - '&7&oTyökalu'
+INFINITY_SINGULARITY:
+  type:
+  - '&7&oResurssi'
+INFINITY_STORAGE:
+  type:
+  - '&7&oKone'
+INFINITY_TREE_GROWER:
+  type:
+  - '&7&oKone'
+INFINITY_VIRTUAL_FARM:
+  type:
+  - '&7&oKone'
+INGOT_FORMER:
+  type:
+  - '&7&oKone'
+IRON_GOLEM_DATA_CARD:
+  type:
+  - '&7&oKomponentti'
+IRON_SINGULARITY:
+  type:
+  - '&7&oResurssi'
+LAPIS_SINGULARITY:
+  type:
+  - '&7&oResurssi'
+LEAD_SINGULARITY:
+  type:
+  - '&7&oResurssi'
+MACHINE_CIRCUIT:
+  type:
+  - '&7&oKomponentti'
+MACHINE_CORE:
+  type:
+  - '&7&oKomponentti'
+MACHINE_PLATE:
+  type:
+  - '&7&oKomponentti'
+MAGIC_SINGULARITY:
+  type:
+  - '&7&oResurssi'
+MAGMA_CUBE_DATA_CARD:
+  type:
+  - '&7&oKomponentti'
+MAGNESIUM_SINGULARITY:
+  type:
+  - '&7&oResurssi'
+MAGNONIUM:
+  type:
+  - '&7&oResurssi'
+MAGSTEEL:
+  type:
+  - '&7&oResurssi'
+MAGSTEEL_PLATE:
+  type:
+  - '&7&oKomponentti'
+METAL_SINGULARITY:
+  type:
+  - '&7&oResurssi'
+MOB_SIMULATION_CHAMBER:
+  type:
+  - '&7&oKone'
+MYTHRIL:
+  type:
+  - '&7&oResurssi'
+NETHERITE_SINGULARITY:
+  type:
+  - '&7&oResurssi'
+POWERED_BEDROCK:
+  type:
+  - '&7&oKone'
+QUARRY_OSCILLATOR_DIAMOND:
+  type:
+  - '&7&oKomponentti'
+QUARRY_OSCILLATOR_EMERALD:
+  type:
+  - '&7&oKomponentti'
+QUARRY_OSCILLATOR_LAPIS_LAZULI:
+  type:
+  - '&7&oKomponentti'
+QUARRY_OSCILLATOR_QUARTZ:
+  type:
+  - '&7&oKomponentti'
+QUARRY_OSCILLATOR_REDSTONE:
+  type:
+  - '&7&oKomponentti'
+QUARTZ_SINGULARITY:
+  type:
+  - '&7&oResurssi'
+REDSTONE_SINGULARITY:
+  type:
+  - '&7&oResurssi'
+REINFORCED_GEOTHERMAL_GENERATOR:
+  type:
+  - '&7&oGeneraattori'
+REINFORCED_HYDRO_GENERATOR:
+  type:
+  - '&7&oGeneraattori'
+REINFORCED_STORAGE:
+  type:
+  - '&7&oKone'
+REINFORCED_STRAINER:
+  type:
+  - '&7&oKomponentti'
+RESOURCE_SYNTHESIZER:
+  type:
+  - '&7&oKone'
+SHEEP_DATA_CARD:
+  type:
+  - '&7&oKomponentti'
+SILVER_SINGULARITY:
+  type:
+  - '&7&oResurssi'
+SINGULARITY_CONSTRUCTOR:
+  type:
+  - '&7&oKone'
+SKELETON_DATA_CARD:
+  type:
+  - '&7&oKomponentti'
+SLIME_DATA_CARD:
+  type:
+  - '&7&oKomponentti'
+SPIDER_DATA_CARD:
+  type:
+  - '&7&oKomponentti'
+STONEWORKS_FACTORY:
+  type:
+  - '&7&oKone'
+STORAGE_FORGE:
+  type:
+  - '&7&oKone'
+STRAINER_BASE:
+  type:
+  - '&7&oKone'
+TIN_SINGULARITY:
+  type:
+  - '&7&oResurssi'
+TITANIUM:
+  type:
+  - '&7&oResurssi'
+URANIUM_EXTRACTOR:
+  type:
+  - '&7&oKone'
+VEIN_MINER_RUNE:
+  type:
+  - '&7&oGadgetti'
+VILLAGER_DATA_CARD:
+  type:
+  - '&7&oKomponentti'
+VOID_BIT:
+  type:
+  - '&7&oResurssi'
+VOID_CAPACITOR:
+  type:
+  - '&7&oKomponentti'
+VOID_DUST:
+  type:
+  - '&7&oResurssi'
+VOID_HARVESTER:
+  type:
+  - '&7&oKone'
+VOID_INGOT:
+  type:
+  - '&7&oResurssi'
+VOID_PANEL:
+  type:
+  - '&7&oGeneraattori'
+VOID_QUARRY:
+  type:
+  - '&7&oKone'
+VOID_STORAGE:
+  type:
+  - '&7&oKone'
+WITCH_DATA_CARD:
+  type:
+  - '&7&oKomponentti'
+WITHER_DATA_CARD:
+  type:
+  - '&7&oKomponentti'
+WITHER_SKELETON_DATA_CARD:
+  type:
+  - '&7&oKomponentti'
+ZINC_SINGULARITY:
+  type:
+  - '&7&oResurssi'
+ZOMBIE_DATA_CARD:
+  type:
+  - '&7&oKomponentti'

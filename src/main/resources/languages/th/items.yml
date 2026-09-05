@@ -1,0 +1,438 @@
+ADAMANTITE:
+  type:
+  - '&7&oทรัพยากร'
+ADVANCED_ANVIL:
+  type:
+  - '&7&oเครื่องจักร'
+ADVANCED_CHARGER:
+  type:
+  - '&7&oเครื่องจักร'
+ADVANCED_COBBLE_GEN:
+  type:
+  - '&7&oเครื่องจักร'
+ADVANCED_DISENCHANTER:
+  type:
+  - '&7&oเครื่องจักร'
+ADVANCED_ENCHANTER:
+  type:
+  - '&7&oเครื่องจักร'
+ADVANCED_GEO_MINER:
+  type:
+  - '&7&oเครื่องจักร'
+ADVANCED_NETHER_STAR_REACTOR:
+  type:
+  - '&7&oเครื่องกำเนิดไฟฟ้า'
+ADVANCED_PANEL:
+  type:
+  - '&7&oเครื่องกำเนิดไฟฟ้า'
+ADVANCED_QUARRY:
+  type:
+  - '&7&oเครื่องจักร'
+ADVANCED_SMELTERY:
+  type:
+  - '&7&oเครื่องจักร'
+ADVANCED_STORAGE:
+  type:
+  - '&7&oเครื่องจักร'
+ADVANCED_STRAINER:
+  type:
+  - '&7&oส่วนประกอบ'
+ADVANCED_TREE_GROWER:
+  type:
+  - '&7&oเครื่องจักร'
+ADVANCED_VIRTUAL_FARM:
+  type:
+  - '&7&oเครื่องจักร'
+ALUMINUM_SINGULARITY:
+  type:
+  - '&7&oทรัพยากร'
+BASIC_COBBLE_GEN:
+  type:
+  - '&7&oเครื่องจักร'
+BASIC_OBSIDIAN_GEN:
+  type:
+  - '&7&oเครื่องจักร'
+BASIC_PANEL:
+  type:
+  - '&7&oเครื่องกำเนิดไฟฟ้า'
+BASIC_QUARRY:
+  type:
+  - '&7&oเครื่องจักร'
+BASIC_STORAGE:
+  type:
+  - '&7&oเครื่องจักร'
+BASIC_STRAINER:
+  type:
+  - '&7&oส่วนประกอบ'
+BASIC_TREE_GROWER:
+  type:
+  - '&7&oเครื่องจักร'
+BASIC_VIRTUAL_FARM:
+  type:
+  - '&7&oเครื่องจักร'
+BEE_DATA_CARD:
+  type:
+  - '&7&oส่วนประกอบ'
+BLAZE_DATA_CARD:
+  type:
+  - '&7&oส่วนประกอบ'
+CELESTIAL_PANEL:
+  type:
+  - '&7&oเครื่องกำเนิดไฟฟ้า'
+CHICKEN_DATA_CARD:
+  type:
+  - '&7&oส่วนประกอบ'
+COAL_SINGULARITY:
+  type:
+  - '&7&oทรัพยากร'
+COBBLE_PRESS:
+  type:
+  - '&7&oเครื่องจักร'
+COMPRESSED_COBBLESTONE_1:
+  type:
+  - '&7&oทรัพยากร'
+COMPRESSED_COBBLESTONE_2:
+  type:
+  - '&7&oทรัพยากร'
+COMPRESSED_COBBLESTONE_3:
+  type:
+  - '&7&oทรัพยากร'
+COMPRESSED_COBBLESTONE_4:
+  type:
+  - '&7&oทรัพยากร'
+COMPRESSED_COBBLESTONE_5:
+  type:
+  - '&7&oทรัพยากร'
+COPPER_SINGULARITY:
+  type:
+  - '&7&oทรัพยากร'
+COW_DATA_CARD:
+  type:
+  - '&7&oส่วนประกอบ'
+CREEPER_DATA_CARD:
+  type:
+  - '&7&oส่วนประกอบ'
+DATA_INFUSER:
+  type:
+  - '&7&oเครื่องจักร'
+DECOMPRESSOR:
+  type:
+  - '&7&oเครื่องจักร'
+DIAMOND_SINGULARITY:
+  type:
+  - '&7&oทรัพยากร'
+DUST_EXTRACTOR:
+  type:
+  - '&7&oเครื่องจักร'
+EARTH_SINGULARITY:
+  type:
+  - '&7&oทรัพยากร'
+EMERALD_SINGULARITY:
+  type:
+  - '&7&oทรัพยากร'
+EMPTY_DATA_CARD:
+  type:
+  - '&7&oส่วนประกอบ'
+ENDERMEN_DATA_CARD:
+  type:
+  - '&7&oส่วนประกอบ'
+ENDER_DRAGON_DATA_CARD:
+  type:
+  - '&7&oส่วนประกอบ'
+ENDER_FLAME:
+  type:
+  - '&7&oส่วนประกอบ'
+END_ESSENCE:
+  type:
+  - '&7&oทรัพยากร'
+EXTREME_FREEZER:
+  type:
+  - '&7&oเครื่องจักร'
+FORTUNE_SINGULARITY:
+  type:
+  - '&7&oทรัพยากร'
+GEAR_TRANSFORMER:
+  type:
+  - '&7&oเครื่องจักร'
+GEOTHERMAL_GENERATOR:
+  type:
+  - '&7&oเครื่องกำเนิดไฟฟ้า'
+GEO_QUARRY:
+  type:
+  - '&7&oเครื่องจักร'
+GOLD_SINGULARITY:
+  type:
+  - '&7&oทรัพยากร'
+GUARDIAN_DATA_CARD:
+  type:
+  - '&7&oส่วนประกอบ'
+HYDRO_GENERATOR:
+  type:
+  - '&7&oเครื่องกำเนิดไฟฟ้า'
+INFINITE_INGOT:
+  type:
+  - '&7&oทรัพยากร'
+INFINITE_MACHINE_CIRCUIT:
+  type:
+  - '&7&oส่วนประกอบ'
+INFINITE_MACHINE_CORE:
+  type:
+  - '&7&oส่วนประกอบ'
+INFINITE_PANEL:
+  type:
+  - '&7&oเครื่องกำเนิดไฟฟ้า'
+INFINITE_VOID_HARVESTER:
+  type:
+  - '&7&oเครื่องจักร'
+INFINITY_AXE:
+  type:
+  - '&7&oเครื่องมือ'
+INFINITY_BLADE:
+  type:
+  - '&7&oอาวุธ'
+INFINITY_BOOTS:
+  type:
+  - '&7&oเกราะ'
+INFINITY_BOW:
+  type:
+  - '&7&oอาวุธ'
+INFINITY_CAPACITOR:
+  type:
+  - '&7&oส่วนประกอบ'
+INFINITY_CHARGER:
+  type:
+  - '&7&oเครื่องจักร'
+INFINITY_CHESTPLATE:
+  type:
+  - '&7&oเกราะ'
+INFINITY_COBBLE_GEN:
+  type:
+  - '&7&oเครื่องจักร'
+INFINITY_CONSTRUCTOR:
+  type:
+  - '&7&oเครื่องจักร'
+INFINITY_CROWN:
+  type:
+  - '&7&oเกราะ'
+INFINITY_DISENCHANTER:
+  type:
+  - '&7&oเครื่องจักร'
+INFINITY_DUST_EXTRACTOR:
+  type:
+  - '&7&oเครื่องจักร'
+INFINITY_ENCHANTER:
+  type:
+  - '&7&oเครื่องจักร'
+INFINITY_FORGE:
+  type:
+  - '&7&oเครื่องจักร'
+INFINITY_INGOT_FORMER:
+  type:
+  - '&7&oเครื่องจักร'
+INFINITY_LEGGINGS:
+  type:
+  - '&7&oเกราะ'
+INFINITY_MATRIX:
+  type:
+  - '&7&oอุปกรณ์'
+INFINITY_PICKAXE:
+  type:
+  - '&7&oเครื่องมือ'
+INFINITY_QUARRY:
+  type:
+  - '&7&oเครื่องจักร'
+INFINITY_REACTOR:
+  type:
+  - '&7&oเครื่องกำเนิดไฟฟ้า'
+INFINITY_SHIELD:
+  type:
+  - '&7&oอาวุธ'
+INFINITY_SHOVEL:
+  type:
+  - '&7&oเครื่องมือ'
+INFINITY_SINGULARITY:
+  type:
+  - '&7&oทรัพยากร'
+INFINITY_STORAGE:
+  type:
+  - '&7&oเครื่องจักร'
+INFINITY_TREE_GROWER:
+  type:
+  - '&7&oเครื่องจักร'
+INFINITY_VIRTUAL_FARM:
+  type:
+  - '&7&oเครื่องจักร'
+INGOT_FORMER:
+  type:
+  - '&7&oเครื่องจักร'
+IRON_GOLEM_DATA_CARD:
+  type:
+  - '&7&oส่วนประกอบ'
+IRON_SINGULARITY:
+  type:
+  - '&7&oทรัพยากร'
+LAPIS_SINGULARITY:
+  type:
+  - '&7&oทรัพยากร'
+LEAD_SINGULARITY:
+  type:
+  - '&7&oทรัพยากร'
+MACHINE_CIRCUIT:
+  type:
+  - '&7&oส่วนประกอบ'
+MACHINE_CORE:
+  type:
+  - '&7&oส่วนประกอบ'
+MACHINE_PLATE:
+  type:
+  - '&7&oส่วนประกอบ'
+MAGIC_SINGULARITY:
+  type:
+  - '&7&oทรัพยากร'
+MAGMA_CUBE_DATA_CARD:
+  type:
+  - '&7&oส่วนประกอบ'
+MAGNESIUM_SINGULARITY:
+  type:
+  - '&7&oทรัพยากร'
+MAGNONIUM:
+  type:
+  - '&7&oทรัพยากร'
+MAGSTEEL:
+  type:
+  - '&7&oทรัพยากร'
+MAGSTEEL_PLATE:
+  type:
+  - '&7&oส่วนประกอบ'
+METAL_SINGULARITY:
+  type:
+  - '&7&oทรัพยากร'
+MOB_SIMULATION_CHAMBER:
+  type:
+  - '&7&oเครื่องจักร'
+MYTHRIL:
+  type:
+  - '&7&oทรัพยากร'
+NETHERITE_SINGULARITY:
+  type:
+  - '&7&oทรัพยากร'
+POWERED_BEDROCK:
+  type:
+  - '&7&oเครื่องจักร'
+QUARRY_OSCILLATOR_DIAMOND:
+  type:
+  - '&7&oส่วนประกอบ'
+QUARRY_OSCILLATOR_EMERALD:
+  type:
+  - '&7&oส่วนประกอบ'
+QUARRY_OSCILLATOR_LAPIS_LAZULI:
+  type:
+  - '&7&oส่วนประกอบ'
+QUARRY_OSCILLATOR_QUARTZ:
+  type:
+  - '&7&oส่วนประกอบ'
+QUARRY_OSCILLATOR_REDSTONE:
+  type:
+  - '&7&oส่วนประกอบ'
+QUARTZ_SINGULARITY:
+  type:
+  - '&7&oทรัพยากร'
+REDSTONE_SINGULARITY:
+  type:
+  - '&7&oทรัพยากร'
+REINFORCED_GEOTHERMAL_GENERATOR:
+  type:
+  - '&7&oเครื่องกำเนิดไฟฟ้า'
+REINFORCED_HYDRO_GENERATOR:
+  type:
+  - '&7&oเครื่องกำเนิดไฟฟ้า'
+REINFORCED_STORAGE:
+  type:
+  - '&7&oเครื่องจักร'
+REINFORCED_STRAINER:
+  type:
+  - '&7&oส่วนประกอบ'
+RESOURCE_SYNTHESIZER:
+  type:
+  - '&7&oเครื่องจักร'
+SHEEP_DATA_CARD:
+  type:
+  - '&7&oส่วนประกอบ'
+SILVER_SINGULARITY:
+  type:
+  - '&7&oทรัพยากร'
+SINGULARITY_CONSTRUCTOR:
+  type:
+  - '&7&oเครื่องจักร'
+SKELETON_DATA_CARD:
+  type:
+  - '&7&oส่วนประกอบ'
+SLIME_DATA_CARD:
+  type:
+  - '&7&oส่วนประกอบ'
+SPIDER_DATA_CARD:
+  type:
+  - '&7&oส่วนประกอบ'
+STONEWORKS_FACTORY:
+  type:
+  - '&7&oเครื่องจักร'
+STORAGE_FORGE:
+  type:
+  - '&7&oเครื่องจักร'
+STRAINER_BASE:
+  type:
+  - '&7&oเครื่องจักร'
+TIN_SINGULARITY:
+  type:
+  - '&7&oทรัพยากร'
+TITANIUM:
+  type:
+  - '&7&oทรัพยากร'
+URANIUM_EXTRACTOR:
+  type:
+  - '&7&oเครื่องจักร'
+VEIN_MINER_RUNE:
+  type:
+  - '&7&oอุปกรณ์'
+VILLAGER_DATA_CARD:
+  type:
+  - '&7&oส่วนประกอบ'
+VOID_BIT:
+  type:
+  - '&7&oทรัพยากร'
+VOID_CAPACITOR:
+  type:
+  - '&7&oส่วนประกอบ'
+VOID_DUST:
+  type:
+  - '&7&oทรัพยากร'
+VOID_HARVESTER:
+  type:
+  - '&7&oเครื่องจักร'
+VOID_INGOT:
+  type:
+  - '&7&oทรัพยากร'
+VOID_PANEL:
+  type:
+  - '&7&oเครื่องกำเนิดไฟฟ้า'
+VOID_QUARRY:
+  type:
+  - '&7&oเครื่องจักร'
+VOID_STORAGE:
+  type:
+  - '&7&oเครื่องจักร'
+WITCH_DATA_CARD:
+  type:
+  - '&7&oส่วนประกอบ'
+WITHER_DATA_CARD:
+  type:
+  - '&7&oส่วนประกอบ'
+WITHER_SKELETON_DATA_CARD:
+  type:
+  - '&7&oส่วนประกอบ'
+ZINC_SINGULARITY:
+  type:
+  - '&7&oทรัพยากร'
+ZOMBIE_DATA_CARD:
+  type:
+  - '&7&oส่วนประกอบ'

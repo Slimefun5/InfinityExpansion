@@ -1,418 +1,584 @@
-# German item translations for InfinityExpansion. Keyed by Slimefun item id.
-# name = display name with '&' colour codes. Missing items fall back to English.
-
-ADVANCED_GEO_MINER:
-  name: "&cFortgeschrittener &fGeoMiner"
-
-ADVANCED_SMELTERY:
-  name: "&cFortgeschrittene &7Schmelze"
-
-ADVANCED_CHARGER:
-  name: "&cFortgeschrittenes Ladegerät"
-
-INFINITY_CHARGER:
-  name: "&bUnendlichkeits-Ladegerät"
-
-ADVANCED_NETHER_STAR_REACTOR:
-  name: "&cFortgeschrittener Netherstern-Reaktor"
-
-ADVANCED_ENCHANTER:
-  name: "&cFortgeschrittener Verzauberer"
-
-ADVANCED_DISENCHANTER:
-  name: "&cFortgeschrittener Entzauberer"
-
-INFINITY_ENCHANTER:
-  name: "&bUnendlichkeits-Verzauberer"
-
-INFINITY_DISENCHANTER:
-  name: "&bUnendlichkeits-Entzauberer"
-
-INFINITY_CAPACITOR:
-  name: "&bUnendlicher Kondensator"
-
-VOID_CAPACITOR:
-  name: "&8Leere-Kondensator"
-
-STRAINER_BASE:
-  name: "&7Siebbasis"
-
-ADVANCED_ANVIL:
-  name: "&cFortgeschrittener Amboss"
-
-INFINITY_FORGE:
-  name: "&6Unendlichkeitswerkbank"
-
-ENDER_FLAME:
-  name: "&cEnderflamme"
-
-INFINITY_CROWN:
-  name: "&bUnendlichkeitskrone"
-
-INFINITY_CHESTPLATE:
-  name: "&bUnendlichkeitsbrustpanzer"
-
-INFINITY_LEGGINGS:
-  name: "&bUnendlichkeitsbeinschienen"
-
-INFINITY_BOOTS:
-  name: "&bUnendlichkeitsstiefel"
-
-INFINITY_MATRIX:
-  name: "&fUnendlichkeitsmatrix"
-
-INFINITY_SHIELD:
-  name: "&bKosmische Ägis"
-
-INFINITY_BLADE:
-  name: "&bKlinge des Kosmos"
-
-INFINITY_PICKAXE:
-  name: "&9Weltenbrecher"
-
-INFINITY_AXE:
-  name: "&4Naturs Verderben"
-
-INFINITY_SHOVEL:
-  name: "&aBergfresser"
-
-INFINITY_BOW:
-  name: "&6Himmelsdurchbohrer"
-
-VEIN_MINER_RUNE:
-  name: "&bAder-Miner-Rune"
-
-INFINITY_REACTOR:
-  name: "&bUnendlichkeitsreaktor"
-
-HYDRO_GENERATOR:
-  name: "&9Hydro-Generator"
-
-REINFORCED_HYDRO_GENERATOR:
-  name: "&fVerstärkter &9Hydro-Gen"
-
-GEOTHERMAL_GENERATOR:
-  name: "&cGeothermalgenerator"
-
-REINFORCED_GEOTHERMAL_GENERATOR:
-  name: "&fVerstärkter &cGeothermal-Gen"
-
-BASIC_PANEL:
-  name: "&9Einfaches Solarpanel"
-
-ADVANCED_PANEL:
-  name: "&cFortgeschrittenes Solarpanel"
-
-CELESTIAL_PANEL:
-  name: "&eHimmelspanel"
-
-VOID_PANEL:
-  name: "&8Leere-Panel"
-
-INFINITE_PANEL:
-  name: "&bUnendlichkeitspanel"
-
-COBBLE_PRESS:
-  name: "&8Kopfsteinpresse"
-
-RESOURCE_SYNTHESIZER:
-  name: "&6Ressourcensynthesizer"
-
-BASIC_VIRTUAL_FARM:
-  name: "&9Einfache &aVirtuelle Farm"
-
-ADVANCED_VIRTUAL_FARM:
-  name: "&cFortgeschrittene &aVirtuelle Farm"
-
-INFINITY_VIRTUAL_FARM:
-  name: "&bUnendlichkeits- &aVirtuelle Farm"
-
-BASIC_TREE_GROWER:
-  name: "&9Einfacher &2Baumzüchter"
-
-ADVANCED_TREE_GROWER:
-  name: "&cFortgeschrittener &2Baumzüchter"
-
-INFINITY_TREE_GROWER:
-  name: "&bUnendlichkeits- &2Baumzüchter"
-
-POWERED_BEDROCK:
-  name: "&4Energiegeladenes Grundgestein"
-
-GEO_QUARRY:
-  name: "&fGeo-Steinbruch"
-
-EXTREME_FREEZER:
-  name: "&bExtremer Gefrierer"
-
-DUST_EXTRACTOR:
-  name: "&8Staubextraktor"
-
-INFINITY_DUST_EXTRACTOR:
-  name: "&bUnendlichkeits- &8Staubextraktor"
-
-INGOT_FORMER:
-  name: "&8Barrenformer"
-
-INFINITY_INGOT_FORMER:
-  name: "&bUnendlichkeits- &8Barrenformer"
-
-URANIUM_EXTRACTOR:
-  name: "&aUranextraktor"
-
-DECOMPRESSOR:
-  name: "&7Dekompressor"
-
-GEAR_TRANSFORMER:
-  name: "&7Ausrüstungstransformator"
-
-BASIC_COBBLE_GEN:
-  name: "&9Einfacher &8Kopfsteingenerator"
-
-ADVANCED_COBBLE_GEN:
-  name: "&cFortgeschrittener &8Kopfsteingenerator"
-
-INFINITY_COBBLE_GEN:
-  name: "&cUnendlichkeits- &8Kopfsteingenerator"
-
-BASIC_OBSIDIAN_GEN:
-  name: "&8Obsidiangenerator"
-
-SINGULARITY_CONSTRUCTOR:
-  name: "&fSingularitätskonstruktor"
-
-INFINITY_CONSTRUCTOR:
-  name: "&bUnendlichkeits- &fKonstruktor"
-
-STONEWORKS_FACTORY:
-  name: "&8Steinwerk-Fabrik"
-
-VOID_HARVESTER:
-  name: "&8Leere-Ernter"
-
-INFINITE_VOID_HARVESTER:
-  name: "&bUnendlicher &8Leere-Ernter"
-
-INFINITE_MACHINE_CIRCUIT:
-  name: "&bUnendlicher &6Maschinenschaltkreis"
-
-INFINITE_MACHINE_CORE:
-  name: "&bUnendlicher Maschinenkern"
-
-MAGSTEEL_PLATE:
-  name: "&4MagStahl-Platte"
-
-MACHINE_PLATE:
-  name: "&fMaschinenplatte"
-
-MACHINE_CIRCUIT:
-  name: "&6Maschinenschaltkreis"
-
-MACHINE_CORE:
-  name: "&fMaschinenkern"
-
-VOID_BIT:
-  name: "&8Leere-Bit"
-
-VOID_DUST:
-  name: "&8Leere-Staub"
-
-VOID_INGOT:
-  name: "&8Leere-Barren"
-
-COMPRESSED_COBBLESTONE_1:
-  name: "&7Einfach komprimiertes Kopfsteinpflaster"
-
-COMPRESSED_COBBLESTONE_2:
-  name: "&7Doppelt komprimiertes Kopfsteinpflaster"
-
-COMPRESSED_COBBLESTONE_3:
-  name: "&7Dreifach komprimiertes Kopfsteinpflaster"
-
-COMPRESSED_COBBLESTONE_4:
-  name: "&7Vierfach komprimiertes Kopfsteinpflaster"
-
-COMPRESSED_COBBLESTONE_5:
-  name: "&7Fünffach komprimiertes Kopfsteinpflaster"
-
-MAGSTEEL:
-  name: "&4MagStahl"
-
-MAGNONIUM:
-  name: "&5Magnonium"
-
-TITANIUM:
-  name: "&7Titan"
-
-MYTHRIL:
-  name: "&bMithril"
-
 ADAMANTITE:
-  name: "&dAdamantit"
-
-INFINITE_INGOT:
-  name: "&bUnendlichkeitsbarren"
-
-FORTUNE_SINGULARITY:
-  name: "&6Glücks-Singularität"
-
-EARTH_SINGULARITY:
-  name: "&aErd-Singularität"
-
-METAL_SINGULARITY:
-  name: "&8Metall-Singularität"
-
-MAGIC_SINGULARITY:
-  name: "&dMagie-Singularität"
-
-END_ESSENCE:
-  name: "&5Ender-Essenz"
-
-COPPER_SINGULARITY:
-  name: "&6Kupfer-Singularität"
-
-ZINC_SINGULARITY:
-  name: "&7Zink-Singularität"
-
-TIN_SINGULARITY:
-  name: "&7Zinn-Singularität"
-
-ALUMINUM_SINGULARITY:
-  name: "&7Aluminium-Singularität"
-
-SILVER_SINGULARITY:
-  name: "&7Silber-Singularität"
-
-MAGNESIUM_SINGULARITY:
-  name: "&5Magnesium-Singularität"
-
-LEAD_SINGULARITY:
-  name: "&8Blei-Singularität"
-
-GOLD_SINGULARITY:
-  name: "&6Gold-Singularität"
-
-IRON_SINGULARITY:
-  name: "&7Eisen-Singularität"
-
-DIAMOND_SINGULARITY:
-  name: "&bDiamant-Singularität"
-
-EMERALD_SINGULARITY:
-  name: "&aSmaragd-Singularität"
-
-NETHERITE_SINGULARITY:
-  name: "&4Netherit-Singularität"
-
-COAL_SINGULARITY:
-  name: "&8Kohle-Singularität"
-
-REDSTONE_SINGULARITY:
-  name: "&cRedstone-Singularität"
-
-LAPIS_SINGULARITY:
-  name: "&9Lapis-Singularität"
-
-QUARTZ_SINGULARITY:
-  name: "&fQuarz-Singularität"
-
-INFINITY_SINGULARITY:
-  name: "&bUnendlichkeits-Singularität"
-
-BASIC_STRAINER:
-  name: "&9Einfaches Sieb"
-
-ADVANCED_STRAINER:
-  name: "&cFortgeschrittenes Sieb"
-
-REINFORCED_STRAINER:
-  name: "&fVerstärktes Sieb"
-
-EMPTY_DATA_CARD:
-  name: "&8Leere Datenkarte"
-
-DATA_INFUSER:
-  name: "&8Mob-Daten-Infusor"
-
-MOB_SIMULATION_CHAMBER:
-  name: "&8Mob-Simulationskammer"
-
-BASIC_QUARRY:
-  name: "&9Einfacher Steinbruch"
-
+  name: '&dAdamantit'
+  type:
+  - '&7&oRohstoff'
+ADVANCED_ANVIL:
+  name: '&cFortgeschrittener Amboss'
+  type:
+  - '&7&oMaschine'
+ADVANCED_CHARGER:
+  name: '&cFortgeschrittenes Ladegerät'
+  type:
+  - '&7&oMaschine'
+ADVANCED_COBBLE_GEN:
+  name: '&cFortgeschrittener &8Kopfsteingenerator'
+  type:
+  - '&7&oMaschine'
+ADVANCED_DISENCHANTER:
+  name: '&cFortgeschrittener Entzauberer'
+  type:
+  - '&7&oMaschine'
+ADVANCED_ENCHANTER:
+  name: '&cFortgeschrittener Verzauberer'
+  type:
+  - '&7&oMaschine'
+ADVANCED_GEO_MINER:
+  name: '&cFortgeschrittener &fGeoMiner'
+  type:
+  - '&7&oMaschine'
+ADVANCED_NETHER_STAR_REACTOR:
+  name: '&cFortgeschrittener Netherstern-Reaktor'
+  type:
+  - '&7&oGenerator'
+ADVANCED_PANEL:
+  name: '&cFortgeschrittenes Solarpanel'
+  type:
+  - '&7&oGenerator'
 ADVANCED_QUARRY:
-  name: "&cFortgeschrittener Steinbruch"
-
-VOID_QUARRY:
-  name: "&8Leere-Steinbruch"
-
-INFINITY_QUARRY:
-  name: "&bUnendlichkeits-Steinbruch"
-
-STORAGE_FORGE:
-  name: "&6Lager-Schmiede"
-
-BASIC_STORAGE:
-  name: "&9Einfache &8Lagereinheit"
-
+  name: '&cFortgeschrittener Steinbruch'
+  type:
+  - '&7&oMaschine'
+ADVANCED_SMELTERY:
+  name: '&cFortgeschrittene &7Schmelze'
+  type:
+  - '&7&oMaschine'
 ADVANCED_STORAGE:
-  name: "&cFortgeschrittene &8Lagereinheit"
-
-REINFORCED_STORAGE:
-  name: "&fVerstärkte &8Lagereinheit"
-
-VOID_STORAGE:
-  name: "&8Leere- &8Lagereinheit"
-
-INFINITY_STORAGE:
-  name: "&bUnendlichkeits- &8Lagereinheit"
-
-# --- auto-generated German translations (batch 2026-06-30) ---
-ZOMBIE_DATA_CARD:
-  name: "&bZombie-Datenkarte"
-SLIME_DATA_CARD:
-  name: "&bSchleim-Datenkarte"
-MAGMA_CUBE_DATA_CARD:
-  name: "&bMagmawürfel-Datenkarte"
-COW_DATA_CARD:
-  name: "&bKuh-Datenkarte"
-SHEEP_DATA_CARD:
-  name: "&bSchaf-Datenkarte"
-SPIDER_DATA_CARD:
-  name: "&bSpinne-Datenkarte"
-SKELETON_DATA_CARD:
-  name: "&bSkelett-Datenkarte"
-WITHER_SKELETON_DATA_CARD:
-  name: "&bWitherskelett-Datenkarte"
-ENDERMEN_DATA_CARD:
-  name: "&bEnderman-Datenkarte"
-CREEPER_DATA_CARD:
-  name: "&bCreeper-Datenkarte"
-GUARDIAN_DATA_CARD:
-  name: "&bWächter-Datenkarte"
-CHICKEN_DATA_CARD:
-  name: "&bHuhn-Datenkarte"
-IRON_GOLEM_DATA_CARD:
-  name: "&bEisengolem-Datenkarte"
-BLAZE_DATA_CARD:
-  name: "&bLohe-Datenkarte"
-WITHER_DATA_CARD:
-  name: "&bWither-Datenkarte"
-ENDER_DRAGON_DATA_CARD:
-  name: "&bEnderdrache-Datenkarte"
+  name: '&cFortgeschrittene &8Lagereinheit'
+  type:
+  - '&7&oMaschine'
+ADVANCED_STRAINER:
+  name: '&cFortgeschrittenes Sieb'
+  type:
+  - '&7&oKomponente'
+ADVANCED_TREE_GROWER:
+  name: '&cFortgeschrittener &2Baumzüchter'
+  type:
+  - '&7&oMaschine'
+ADVANCED_VIRTUAL_FARM:
+  name: '&cFortgeschrittene &aVirtuelle Farm'
+  type:
+  - '&7&oMaschine'
+ALUMINUM_SINGULARITY:
+  name: '&7Aluminium-Singularität'
+  type:
+  - '&7&oRohstoff'
+BASIC_COBBLE_GEN:
+  name: '&9Einfacher &8Kopfsteingenerator'
+  type:
+  - '&7&oMaschine'
+BASIC_OBSIDIAN_GEN:
+  name: '&8Obsidiangenerator'
+  type:
+  - '&7&oMaschine'
+BASIC_PANEL:
+  name: '&9Einfaches Solarpanel'
+  type:
+  - '&7&oGenerator'
+BASIC_QUARRY:
+  name: '&9Einfacher Steinbruch'
+  type:
+  - '&7&oMaschine'
+BASIC_STORAGE:
+  name: '&9Einfache &8Lagereinheit'
+  type:
+  - '&7&oMaschine'
+BASIC_STRAINER:
+  name: '&9Einfaches Sieb'
+  type:
+  - '&7&oKomponente'
+BASIC_TREE_GROWER:
+  name: '&9Einfacher &2Baumzüchter'
+  type:
+  - '&7&oMaschine'
+BASIC_VIRTUAL_FARM:
+  name: '&9Einfache &aVirtuelle Farm'
+  type:
+  - '&7&oMaschine'
 BEE_DATA_CARD:
-  name: "&bBiene-Datenkarte"
-VILLAGER_DATA_CARD:
-  name: "&bDorfbewohner-Datenkarte"
-WITCH_DATA_CARD:
-  name: "&bHexe-Datenkarte"
-QUARRY_OSCILLATOR_REDSTONE:
-  name: "&b[Redstonestaub] Oszillator"
-QUARRY_OSCILLATOR_LAPIS_LAZULI:
-  name: "&b[Lapislazuli] Oszillator"
-QUARRY_OSCILLATOR_EMERALD:
-  name: "&b[Smaragd] Oszillator"
+  name: '&bBiene-Datenkarte'
+  type:
+  - '&7&oKomponente'
+BLAZE_DATA_CARD:
+  name: '&bLohe-Datenkarte'
+  type:
+  - '&7&oKomponente'
+CELESTIAL_PANEL:
+  name: '&eHimmelspanel'
+  type:
+  - '&7&oGenerator'
+CHICKEN_DATA_CARD:
+  name: '&bHuhn-Datenkarte'
+  type:
+  - '&7&oKomponente'
+COAL_SINGULARITY:
+  name: '&8Kohle-Singularität'
+  type:
+  - '&7&oRohstoff'
+COBBLE_PRESS:
+  name: '&8Kopfsteinpresse'
+  type:
+  - '&7&oMaschine'
+COMPRESSED_COBBLESTONE_1:
+  name: '&7Einfach komprimiertes Kopfsteinpflaster'
+  type:
+  - '&7&oRohstoff'
+COMPRESSED_COBBLESTONE_2:
+  name: '&7Doppelt komprimiertes Kopfsteinpflaster'
+  type:
+  - '&7&oRohstoff'
+COMPRESSED_COBBLESTONE_3:
+  name: '&7Dreifach komprimiertes Kopfsteinpflaster'
+  type:
+  - '&7&oRohstoff'
+COMPRESSED_COBBLESTONE_4:
+  name: '&7Vierfach komprimiertes Kopfsteinpflaster'
+  type:
+  - '&7&oRohstoff'
+COMPRESSED_COBBLESTONE_5:
+  name: '&7Fünffach komprimiertes Kopfsteinpflaster'
+  type:
+  - '&7&oRohstoff'
+COPPER_SINGULARITY:
+  name: '&6Kupfer-Singularität'
+  type:
+  - '&7&oRohstoff'
+COW_DATA_CARD:
+  name: '&bKuh-Datenkarte'
+  type:
+  - '&7&oKomponente'
+CREEPER_DATA_CARD:
+  name: '&bCreeper-Datenkarte'
+  type:
+  - '&7&oKomponente'
+DATA_INFUSER:
+  name: '&8Mob-Daten-Infusor'
+  type:
+  - '&7&oMaschine'
+DECOMPRESSOR:
+  name: '&7Dekompressor'
+  type:
+  - '&7&oMaschine'
+DIAMOND_SINGULARITY:
+  name: '&bDiamant-Singularität'
+  type:
+  - '&7&oRohstoff'
+DUST_EXTRACTOR:
+  name: '&8Staubextraktor'
+  type:
+  - '&7&oMaschine'
+EARTH_SINGULARITY:
+  name: '&aErd-Singularität'
+  type:
+  - '&7&oRohstoff'
+EMERALD_SINGULARITY:
+  name: '&aSmaragd-Singularität'
+  type:
+  - '&7&oRohstoff'
+EMPTY_DATA_CARD:
+  name: '&8Leere Datenkarte'
+  type:
+  - '&7&oKomponente'
+ENDERMEN_DATA_CARD:
+  name: '&bEnderman-Datenkarte'
+  type:
+  - '&7&oKomponente'
+ENDER_DRAGON_DATA_CARD:
+  name: '&bEnderdrache-Datenkarte'
+  type:
+  - '&7&oKomponente'
+ENDER_FLAME:
+  name: '&cEnderflamme'
+  type:
+  - '&7&oKomponente'
+END_ESSENCE:
+  name: '&5Ender-Essenz'
+  type:
+  - '&7&oRohstoff'
+EXTREME_FREEZER:
+  name: '&bExtremer Gefrierer'
+  type:
+  - '&7&oMaschine'
+FORTUNE_SINGULARITY:
+  name: '&6Glücks-Singularität'
+  type:
+  - '&7&oRohstoff'
+GEAR_TRANSFORMER:
+  name: '&7Ausrüstungstransformator'
+  type:
+  - '&7&oMaschine'
+GEOTHERMAL_GENERATOR:
+  name: '&cGeothermalgenerator'
+  type:
+  - '&7&oGenerator'
+GEO_QUARRY:
+  name: '&fGeo-Steinbruch'
+  type:
+  - '&7&oMaschine'
+GOLD_SINGULARITY:
+  name: '&6Gold-Singularität'
+  type:
+  - '&7&oRohstoff'
+GUARDIAN_DATA_CARD:
+  name: '&bWächter-Datenkarte'
+  type:
+  - '&7&oKomponente'
+HYDRO_GENERATOR:
+  name: '&9Hydro-Generator'
+  type:
+  - '&7&oGenerator'
+INFINITE_INGOT:
+  name: '&bUnendlichkeitsbarren'
+  type:
+  - '&7&oRohstoff'
+INFINITE_MACHINE_CIRCUIT:
+  name: '&bUnendlicher &6Maschinenschaltkreis'
+  type:
+  - '&7&oKomponente'
+INFINITE_MACHINE_CORE:
+  name: '&bUnendlicher Maschinenkern'
+  type:
+  - '&7&oKomponente'
+INFINITE_PANEL:
+  name: '&bUnendlichkeitspanel'
+  type:
+  - '&7&oGenerator'
+INFINITE_VOID_HARVESTER:
+  name: '&bUnendlicher &8Leere-Ernter'
+  type:
+  - '&7&oMaschine'
+INFINITY_AXE:
+  name: '&4Naturs Verderben'
+  type:
+  - '&7&oWerkzeug'
+INFINITY_BLADE:
+  name: '&bKlinge des Kosmos'
+  type:
+  - '&7&oWaffe'
+INFINITY_BOOTS:
+  name: '&bUnendlichkeitsstiefel'
+  type:
+  - '&7&oRüstung'
+INFINITY_BOW:
+  name: '&6Himmelsdurchbohrer'
+  type:
+  - '&7&oWaffe'
+INFINITY_CAPACITOR:
+  name: '&bUnendlicher Kondensator'
+  type:
+  - '&7&oKomponente'
+INFINITY_CHARGER:
+  name: '&bUnendlichkeits-Ladegerät'
+  type:
+  - '&7&oMaschine'
+INFINITY_CHESTPLATE:
+  name: '&bUnendlichkeitsbrustpanzer'
+  type:
+  - '&7&oRüstung'
+INFINITY_COBBLE_GEN:
+  name: '&cUnendlichkeits- &8Kopfsteingenerator'
+  type:
+  - '&7&oMaschine'
+INFINITY_CONSTRUCTOR:
+  name: '&bUnendlichkeits- &fKonstruktor'
+  type:
+  - '&7&oMaschine'
+INFINITY_CROWN:
+  name: '&bUnendlichkeitskrone'
+  type:
+  - '&7&oRüstung'
+INFINITY_DISENCHANTER:
+  name: '&bUnendlichkeits-Entzauberer'
+  type:
+  - '&7&oMaschine'
+INFINITY_DUST_EXTRACTOR:
+  name: '&bUnendlichkeits- &8Staubextraktor'
+  type:
+  - '&7&oMaschine'
+INFINITY_ENCHANTER:
+  name: '&bUnendlichkeits-Verzauberer'
+  type:
+  - '&7&oMaschine'
+INFINITY_FORGE:
+  name: '&6Unendlichkeitswerkbank'
+  type:
+  - '&7&oMaschine'
+INFINITY_INGOT_FORMER:
+  name: '&bUnendlichkeits- &8Barrenformer'
+  type:
+  - '&7&oMaschine'
+INFINITY_LEGGINGS:
+  name: '&bUnendlichkeitsbeinschienen'
+  type:
+  - '&7&oRüstung'
+INFINITY_MATRIX:
+  name: '&fUnendlichkeitsmatrix'
+  type:
+  - '&7&oGadget'
+INFINITY_PICKAXE:
+  name: '&9Weltenbrecher'
+  type:
+  - '&7&oWerkzeug'
+INFINITY_QUARRY:
+  name: '&bUnendlichkeits-Steinbruch'
+  type:
+  - '&7&oMaschine'
+INFINITY_REACTOR:
+  name: '&bUnendlichkeitsreaktor'
+  type:
+  - '&7&oGenerator'
+INFINITY_SHIELD:
+  name: '&bKosmische Ägis'
+  type:
+  - '&7&oWaffe'
+INFINITY_SHOVEL:
+  name: '&aBergfresser'
+  type:
+  - '&7&oWerkzeug'
+INFINITY_SINGULARITY:
+  name: '&bUnendlichkeits-Singularität'
+  type:
+  - '&7&oRohstoff'
+INFINITY_STORAGE:
+  name: '&bUnendlichkeits- &8Lagereinheit'
+  type:
+  - '&7&oMaschine'
+INFINITY_TREE_GROWER:
+  name: '&bUnendlichkeits- &2Baumzüchter'
+  type:
+  - '&7&oMaschine'
+INFINITY_VIRTUAL_FARM:
+  name: '&bUnendlichkeits- &aVirtuelle Farm'
+  type:
+  - '&7&oMaschine'
+INGOT_FORMER:
+  name: '&8Barrenformer'
+  type:
+  - '&7&oMaschine'
+IRON_GOLEM_DATA_CARD:
+  name: '&bEisengolem-Datenkarte'
+  type:
+  - '&7&oKomponente'
+IRON_SINGULARITY:
+  name: '&7Eisen-Singularität'
+  type:
+  - '&7&oRohstoff'
+LAPIS_SINGULARITY:
+  name: '&9Lapis-Singularität'
+  type:
+  - '&7&oRohstoff'
+LEAD_SINGULARITY:
+  name: '&8Blei-Singularität'
+  type:
+  - '&7&oRohstoff'
+MACHINE_CIRCUIT:
+  name: '&6Maschinenschaltkreis'
+  type:
+  - '&7&oKomponente'
+MACHINE_CORE:
+  name: '&fMaschinenkern'
+  type:
+  - '&7&oKomponente'
+MACHINE_PLATE:
+  name: '&fMaschinenplatte'
+  type:
+  - '&7&oKomponente'
+MAGIC_SINGULARITY:
+  name: '&dMagie-Singularität'
+  type:
+  - '&7&oRohstoff'
+MAGMA_CUBE_DATA_CARD:
+  name: '&bMagmawürfel-Datenkarte'
+  type:
+  - '&7&oKomponente'
+MAGNESIUM_SINGULARITY:
+  name: '&5Magnesium-Singularität'
+  type:
+  - '&7&oRohstoff'
+MAGNONIUM:
+  name: '&5Magnonium'
+  type:
+  - '&7&oRohstoff'
+MAGSTEEL:
+  name: '&4MagStahl'
+  type:
+  - '&7&oRohstoff'
+MAGSTEEL_PLATE:
+  name: '&4MagStahl-Platte'
+  type:
+  - '&7&oKomponente'
+METAL_SINGULARITY:
+  name: '&8Metall-Singularität'
+  type:
+  - '&7&oRohstoff'
+MOB_SIMULATION_CHAMBER:
+  name: '&8Mob-Simulationskammer'
+  type:
+  - '&7&oMaschine'
+MYTHRIL:
+  name: '&bMithril'
+  type:
+  - '&7&oRohstoff'
+NETHERITE_SINGULARITY:
+  name: '&4Netherit-Singularität'
+  type:
+  - '&7&oRohstoff'
+POWERED_BEDROCK:
+  name: '&4Energiegeladenes Grundgestein'
+  type:
+  - '&7&oMaschine'
 QUARRY_OSCILLATOR_DIAMOND:
-  name: "&b[Diamant] Oszillator"
+  name: '&b[Diamant] Oszillator'
+  type:
+  - '&7&oKomponente'
+QUARRY_OSCILLATOR_EMERALD:
+  name: '&b[Smaragd] Oszillator'
+  type:
+  - '&7&oKomponente'
+QUARRY_OSCILLATOR_LAPIS_LAZULI:
+  name: '&b[Lapislazuli] Oszillator'
+  type:
+  - '&7&oKomponente'
 QUARRY_OSCILLATOR_QUARTZ:
-  name: "&b[Netherquarz] Oszillator"
+  name: '&b[Netherquarz] Oszillator'
+  type:
+  - '&7&oKomponente'
+QUARRY_OSCILLATOR_REDSTONE:
+  name: '&b[Redstonestaub] Oszillator'
+  type:
+  - '&7&oKomponente'
+QUARTZ_SINGULARITY:
+  name: '&fQuarz-Singularität'
+  type:
+  - '&7&oRohstoff'
+REDSTONE_SINGULARITY:
+  name: '&cRedstone-Singularität'
+  type:
+  - '&7&oRohstoff'
+REINFORCED_GEOTHERMAL_GENERATOR:
+  name: '&fVerstärkter &cGeothermal-Gen'
+  type:
+  - '&7&oGenerator'
+REINFORCED_HYDRO_GENERATOR:
+  name: '&fVerstärkter &9Hydro-Gen'
+  type:
+  - '&7&oGenerator'
+REINFORCED_STORAGE:
+  name: '&fVerstärkte &8Lagereinheit'
+  type:
+  - '&7&oMaschine'
+REINFORCED_STRAINER:
+  name: '&fVerstärktes Sieb'
+  type:
+  - '&7&oKomponente'
+RESOURCE_SYNTHESIZER:
+  name: '&6Ressourcensynthesizer'
+  type:
+  - '&7&oMaschine'
+SHEEP_DATA_CARD:
+  name: '&bSchaf-Datenkarte'
+  type:
+  - '&7&oKomponente'
+SILVER_SINGULARITY:
+  name: '&7Silber-Singularität'
+  type:
+  - '&7&oRohstoff'
+SINGULARITY_CONSTRUCTOR:
+  name: '&fSingularitätskonstruktor'
+  type:
+  - '&7&oMaschine'
+SKELETON_DATA_CARD:
+  name: '&bSkelett-Datenkarte'
+  type:
+  - '&7&oKomponente'
+SLIME_DATA_CARD:
+  name: '&bSchleim-Datenkarte'
+  type:
+  - '&7&oKomponente'
+SPIDER_DATA_CARD:
+  name: '&bSpinne-Datenkarte'
+  type:
+  - '&7&oKomponente'
+STONEWORKS_FACTORY:
+  name: '&8Steinwerk-Fabrik'
+  type:
+  - '&7&oMaschine'
+STORAGE_FORGE:
+  name: '&6Lager-Schmiede'
+  type:
+  - '&7&oMaschine'
+STRAINER_BASE:
+  name: '&7Siebbasis'
+  type:
+  - '&7&oMaschine'
+TIN_SINGULARITY:
+  name: '&7Zinn-Singularität'
+  type:
+  - '&7&oRohstoff'
+TITANIUM:
+  name: '&7Titan'
+  type:
+  - '&7&oRohstoff'
+URANIUM_EXTRACTOR:
+  name: '&aUranextraktor'
+  type:
+  - '&7&oMaschine'
+VEIN_MINER_RUNE:
+  name: '&bAder-Miner-Rune'
+  type:
+  - '&7&oGadget'
+VILLAGER_DATA_CARD:
+  name: '&bDorfbewohner-Datenkarte'
+  type:
+  - '&7&oKomponente'
+VOID_BIT:
+  name: '&8Leere-Bit'
+  type:
+  - '&7&oRohstoff'
+VOID_CAPACITOR:
+  name: '&8Leere-Kondensator'
+  type:
+  - '&7&oKomponente'
+VOID_DUST:
+  name: '&8Leere-Staub'
+  type:
+  - '&7&oRohstoff'
+VOID_HARVESTER:
+  name: '&8Leere-Ernter'
+  type:
+  - '&7&oMaschine'
+VOID_INGOT:
+  name: '&8Leere-Barren'
+  type:
+  - '&7&oRohstoff'
+VOID_PANEL:
+  name: '&8Leere-Panel'
+  type:
+  - '&7&oGenerator'
+VOID_QUARRY:
+  name: '&8Leere-Steinbruch'
+  type:
+  - '&7&oMaschine'
+VOID_STORAGE:
+  name: '&8Leere- &8Lagereinheit'
+  type:
+  - '&7&oMaschine'
+WITCH_DATA_CARD:
+  name: '&bHexe-Datenkarte'
+  type:
+  - '&7&oKomponente'
+WITHER_DATA_CARD:
+  name: '&bWither-Datenkarte'
+  type:
+  - '&7&oKomponente'
+WITHER_SKELETON_DATA_CARD:
+  name: '&bWitherskelett-Datenkarte'
+  type:
+  - '&7&oKomponente'
+ZINC_SINGULARITY:
+  name: '&7Zink-Singularität'
+  type:
+  - '&7&oRohstoff'
+ZOMBIE_DATA_CARD:
+  name: '&bZombie-Datenkarte'
+  type:
+  - '&7&oKomponente'
