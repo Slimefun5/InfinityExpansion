@@ -20,9 +20,15 @@ ADVANCED_GEO_MINER:
   type:
   - '&7&oМашина'
 ADVANCED_NETHER_STAR_REACTOR:
+  stats:
+  - '&8⇨ &e⚡ &790,000 J Буфер'
+  - '&8⇨ &e⚡ &71,800 J/s'
   type:
   - '&7&oГенератор'
 ADVANCED_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &715,000 J Буфер'
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oГенератор'
 ADVANCED_QUARRY:
@@ -35,6 +41,8 @@ ADVANCED_STORAGE:
   type:
   - '&7&oМашина'
 ADVANCED_STRAINER:
+  stats:
+  - '&8⇨ &b⚡ &7Скорост: &b4.0x'
   type:
   - '&7&oКомпонент'
 ADVANCED_TREE_GROWER:
@@ -53,6 +61,9 @@ BASIC_OBSIDIAN_GEN:
   type:
   - '&7&oМашина'
 BASIC_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &7900 J Буфер'
+  - '&8⇨ &e⚡ &79 J/s'
   type:
   - '&7&oГенератор'
 BASIC_QUARRY:
@@ -62,6 +73,8 @@ BASIC_STORAGE:
   type:
   - '&7&oМашина'
 BASIC_STRAINER:
+  stats:
+  - '&8⇨ &b⚡ &7Скорост: &b1.0x'
   type:
   - '&7&oКомпонент'
 BASIC_TREE_GROWER:
@@ -71,21 +84,32 @@ BASIC_VIRTUAL_FARM:
   type:
   - '&7&oМашина'
 BEE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oКомпонент'
 BLAZE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oКомпонент'
 CELESTIAL_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &775,000 J Буфер'
+  - '&8⇨ &e⚡ &7750 J/s'
   type:
   - '&7&oГенератор'
 CHICKEN_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oКомпонент'
 COAL_SINGULARITY:
   type:
   - '&7&oРесурс'
 COBBLE_PRESS:
+  stats:
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oМашина'
 COMPRESSED_COBBLESTONE_1:
@@ -107,15 +131,21 @@ COPPER_SINGULARITY:
   type:
   - '&7&oРесурс'
 COW_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oКомпонент'
 CREEPER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oКомпонент'
 DATA_INFUSER:
   type:
   - '&7&oМашина'
 DECOMPRESSOR:
+  stats:
+  - '&8⇨ &e⚡ &760 J/s'
   type:
   - '&7&oМашина'
 DIAMOND_SINGULARITY:
@@ -134,9 +164,13 @@ EMPTY_DATA_CARD:
   type:
   - '&7&oКомпонент'
 ENDERMEN_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oКомпонент'
 ENDER_DRAGON_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &79,000 J/s'
   type:
   - '&7&oКомпонент'
 ENDER_FLAME:
@@ -146,6 +180,8 @@ END_ESSENCE:
   type:
   - '&7&oРесурс'
 EXTREME_FREEZER:
+  stats:
+  - '&8⇨ &e⚡ &790 J/s'
   type:
   - '&7&oМашина'
 FORTUNE_SINGULARITY:
@@ -155,18 +191,28 @@ GEAR_TRANSFORMER:
   type:
   - '&7&oМашина'
 GEOTHERMAL_GENERATOR:
+  stats:
+  - '&8⇨ &e⚡ &73,500 J Буфер'
+  - '&8⇨ &e⚡ &735 J/s'
   type:
   - '&7&oГенератор'
 GEO_QUARRY:
+  stats:
+  - '&8⇨ &e⚡ &7450 J/s'
   type:
   - '&7&oМашина'
 GOLD_SINGULARITY:
   type:
   - '&7&oРесурс'
 GUARDIAN_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oКомпонент'
 HYDRO_GENERATOR:
+  stats:
+  - '&8⇨ &e⚡ &7500 J Буфер'
+  - '&8⇨ &e⚡ &75 J/s'
   type:
   - '&7&oГенератор'
 INFINITE_INGOT:
@@ -179,6 +225,9 @@ INFINITE_MACHINE_CORE:
   type:
   - '&7&oКомпонент'
 INFINITE_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &76,000,000 J Буфер'
+  - '&8⇨ &e⚡ &760,000 J/s'
   type:
   - '&7&oГенератор'
 INFINITE_VOID_HARVESTER:
@@ -242,6 +291,9 @@ INFINITY_QUARRY:
   type:
   - '&7&oМашина'
 INFINITY_REACTOR:
+  stats:
+  - '&8⇨ &e⚡ &7120,000,000 J Буфер'
+  - '&8⇨ &e⚡ &7120,000 J/s'
   type:
   - '&7&oГенератор'
 INFINITY_SHIELD:
@@ -266,6 +318,8 @@ INGOT_FORMER:
   type:
   - '&7&oМашина'
 IRON_GOLEM_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oКомпонент'
 IRON_SINGULARITY:
@@ -290,6 +344,8 @@ MAGIC_SINGULARITY:
   type:
   - '&7&oРесурс'
 MAGMA_CUBE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oКомпонент'
 MAGNESIUM_SINGULARITY:
@@ -308,6 +364,9 @@ METAL_SINGULARITY:
   type:
   - '&7&oРесурс'
 MOB_SIMULATION_CHAMBER:
+  stats:
+  - '&8⇨ &e⚡ &715,000 J Буфер'
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oМашина'
 MYTHRIL:
@@ -317,6 +376,8 @@ NETHERITE_SINGULARITY:
   type:
   - '&7&oРесурс'
 POWERED_BEDROCK:
+  stats:
+  - '&8⇨ &e⚡ &710,000 J/s'
   type:
   - '&7&oМашина'
 QUARRY_OSCILLATOR_DIAMOND:
@@ -341,21 +402,31 @@ REDSTONE_SINGULARITY:
   type:
   - '&7&oРесурс'
 REINFORCED_GEOTHERMAL_GENERATOR:
+  stats:
+  - '&8⇨ &e⚡ &721,000 J Буфер'
+  - '&8⇨ &e⚡ &7210 J/s'
   type:
   - '&7&oГенератор'
 REINFORCED_HYDRO_GENERATOR:
+  stats:
+  - '&8⇨ &e⚡ &74,500 J Буфер'
+  - '&8⇨ &e⚡ &745 J/s'
   type:
   - '&7&oГенератор'
 REINFORCED_STORAGE:
   type:
   - '&7&oМашина'
 REINFORCED_STRAINER:
+  stats:
+  - '&8⇨ &b⚡ &7Скорост: &b20.0x'
   type:
   - '&7&oКомпонент'
 RESOURCE_SYNTHESIZER:
   type:
   - '&7&oМашина'
 SHEEP_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oКомпонент'
 SILVER_SINGULARITY:
@@ -365,15 +436,23 @@ SINGULARITY_CONSTRUCTOR:
   type:
   - '&7&oМашина'
 SKELETON_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oКомпонент'
 SLIME_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oКомпонент'
 SPIDER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oКомпонент'
 STONEWORKS_FACTORY:
+  stats:
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oМашина'
 STORAGE_FORGE:
@@ -389,12 +468,16 @@ TITANIUM:
   type:
   - '&7&oРесурс'
 URANIUM_EXTRACTOR:
+  stats:
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oМашина'
 VEIN_MINER_RUNE:
   type:
   - '&7&oДжаджа'
 VILLAGER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oКомпонент'
 VOID_BIT:
@@ -413,6 +496,9 @@ VOID_INGOT:
   type:
   - '&7&oРесурс'
 VOID_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &7300,000 J Буфер'
+  - '&8⇨ &e⚡ &73,000 J/s'
   type:
   - '&7&oГенератор'
 VOID_QUARRY:
@@ -422,17 +508,25 @@ VOID_STORAGE:
   type:
   - '&7&oМашина'
 WITCH_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oКомпонент'
 WITHER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &74,500 J/s'
   type:
   - '&7&oКомпонент'
 WITHER_SKELETON_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oКомпонент'
 ZINC_SINGULARITY:
   type:
   - '&7&oРесурс'
 ZOMBIE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oКомпонент'

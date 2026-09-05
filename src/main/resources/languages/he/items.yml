@@ -20,9 +20,15 @@ ADVANCED_GEO_MINER:
   type:
   - '&7&oמכונה'
 ADVANCED_NETHER_STAR_REACTOR:
+  stats:
+  - '&8⇨ &e⚡ &7מאגר 90,000 J'
+  - '&8⇨ &e⚡ &71,800 J/שנייה'
   type:
   - '&7&oגנרטור'
 ADVANCED_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &7מאגר 15,000 J'
+  - '&8⇨ &e⚡ &7150 J/שנייה'
   type:
   - '&7&oגנרטור'
 ADVANCED_QUARRY:
@@ -35,6 +41,8 @@ ADVANCED_STORAGE:
   type:
   - '&7&oמכונה'
 ADVANCED_STRAINER:
+  stats:
+  - '&8⇨ &b⚡ &7מהירות: &b4.0x'
   type:
   - '&7&oרכיב'
 ADVANCED_TREE_GROWER:
@@ -53,6 +61,9 @@ BASIC_OBSIDIAN_GEN:
   type:
   - '&7&oמכונה'
 BASIC_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &7מאגר 900 J'
+  - '&8⇨ &e⚡ &79 J/שנייה'
   type:
   - '&7&oגנרטור'
 BASIC_QUARRY:
@@ -62,6 +73,8 @@ BASIC_STORAGE:
   type:
   - '&7&oמכונה'
 BASIC_STRAINER:
+  stats:
+  - '&8⇨ &b⚡ &7מהירות: &b1.0x'
   type:
   - '&7&oרכיב'
 BASIC_TREE_GROWER:
@@ -71,21 +84,32 @@ BASIC_VIRTUAL_FARM:
   type:
   - '&7&oמכונה'
 BEE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 J/שנייה'
   type:
   - '&7&oרכיב'
 BLAZE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/שנייה'
   type:
   - '&7&oרכיב'
 CELESTIAL_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &7מאגר 75,000 J'
+  - '&8⇨ &e⚡ &7750 J/שנייה'
   type:
   - '&7&oגנרטור'
 CHICKEN_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &775 J/שנייה'
   type:
   - '&7&oרכיב'
 COAL_SINGULARITY:
   type:
   - '&7&oמשאב'
 COBBLE_PRESS:
+  stats:
+  - '&8⇨ &e⚡ &7120 J/שנייה'
   type:
   - '&7&oמכונה'
 COMPRESSED_COBBLESTONE_1:
@@ -107,15 +131,21 @@ COPPER_SINGULARITY:
   type:
   - '&7&oמשאב'
 COW_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &775 J/שנייה'
   type:
   - '&7&oרכיב'
 CREEPER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/שנייה'
   type:
   - '&7&oרכיב'
 DATA_INFUSER:
   type:
   - '&7&oמכונה'
 DECOMPRESSOR:
+  stats:
+  - '&8⇨ &e⚡ &760 J/שנייה'
   type:
   - '&7&oמכונה'
 DIAMOND_SINGULARITY:
@@ -134,9 +164,13 @@ EMPTY_DATA_CARD:
   type:
   - '&7&oרכיב'
 ENDERMEN_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/שנייה'
   type:
   - '&7&oרכיב'
 ENDER_DRAGON_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &79,000 J/שנייה'
   type:
   - '&7&oרכיב'
 ENDER_FLAME:
@@ -146,6 +180,8 @@ END_ESSENCE:
   type:
   - '&7&oמשאב'
 EXTREME_FREEZER:
+  stats:
+  - '&8⇨ &e⚡ &790 J/שנייה'
   type:
   - '&7&oמכונה'
 FORTUNE_SINGULARITY:
@@ -155,18 +191,28 @@ GEAR_TRANSFORMER:
   type:
   - '&7&oמכונה'
 GEOTHERMAL_GENERATOR:
+  stats:
+  - '&8⇨ &e⚡ &7מאגר 3,500 J'
+  - '&8⇨ &e⚡ &735 J/שנייה'
   type:
   - '&7&oגנרטור'
 GEO_QUARRY:
+  stats:
+  - '&8⇨ &e⚡ &7450 J/שנייה'
   type:
   - '&7&oמכונה'
 GOLD_SINGULARITY:
   type:
   - '&7&oמשאב'
 GUARDIAN_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/שנייה'
   type:
   - '&7&oרכיב'
 HYDRO_GENERATOR:
+  stats:
+  - '&8⇨ &e⚡ &7מאגר 500 J'
+  - '&8⇨ &e⚡ &75 J/שנייה'
   type:
   - '&7&oגנרטור'
 INFINITE_INGOT:
@@ -179,6 +225,9 @@ INFINITE_MACHINE_CORE:
   type:
   - '&7&oרכיב'
 INFINITE_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &7מאגר 6,000,000 J'
+  - '&8⇨ &e⚡ &760,000 J/שנייה'
   type:
   - '&7&oגנרטור'
 INFINITE_VOID_HARVESTER:
@@ -242,6 +291,9 @@ INFINITY_QUARRY:
   type:
   - '&7&oמכונה'
 INFINITY_REACTOR:
+  stats:
+  - '&8⇨ &e⚡ &7מאגר 120,000,000 J'
+  - '&8⇨ &e⚡ &7120,000 J/שנייה'
   type:
   - '&7&oגנרטור'
 INFINITY_SHIELD:
@@ -266,6 +318,8 @@ INGOT_FORMER:
   type:
   - '&7&oמכונה'
 IRON_GOLEM_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/שנייה'
   type:
   - '&7&oרכיב'
 IRON_SINGULARITY:
@@ -290,6 +344,8 @@ MAGIC_SINGULARITY:
   type:
   - '&7&oמשאב'
 MAGMA_CUBE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 J/שנייה'
   type:
   - '&7&oרכיב'
 MAGNESIUM_SINGULARITY:
@@ -308,6 +364,9 @@ METAL_SINGULARITY:
   type:
   - '&7&oמשאב'
 MOB_SIMULATION_CHAMBER:
+  stats:
+  - '&8⇨ &e⚡ &7מאגר 15,000 J'
+  - '&8⇨ &e⚡ &7150 J/שנייה'
   type:
   - '&7&oמכונה'
 MYTHRIL:
@@ -317,6 +376,8 @@ NETHERITE_SINGULARITY:
   type:
   - '&7&oמשאב'
 POWERED_BEDROCK:
+  stats:
+  - '&8⇨ &e⚡ &710,000 J/שנייה'
   type:
   - '&7&oמכונה'
 QUARRY_OSCILLATOR_DIAMOND:
@@ -341,21 +402,31 @@ REDSTONE_SINGULARITY:
   type:
   - '&7&oמשאב'
 REINFORCED_GEOTHERMAL_GENERATOR:
+  stats:
+  - '&8⇨ &e⚡ &7מאגר 21,000 J'
+  - '&8⇨ &e⚡ &7210 J/שנייה'
   type:
   - '&7&oגנרטור'
 REINFORCED_HYDRO_GENERATOR:
+  stats:
+  - '&8⇨ &e⚡ &7מאגר 4,500 J'
+  - '&8⇨ &e⚡ &745 J/שנייה'
   type:
   - '&7&oגנרטור'
 REINFORCED_STORAGE:
   type:
   - '&7&oמכונה'
 REINFORCED_STRAINER:
+  stats:
+  - '&8⇨ &b⚡ &7מהירות: &b20.0x'
   type:
   - '&7&oרכיב'
 RESOURCE_SYNTHESIZER:
   type:
   - '&7&oמכונה'
 SHEEP_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &775 J/שנייה'
   type:
   - '&7&oרכיב'
 SILVER_SINGULARITY:
@@ -365,15 +436,23 @@ SINGULARITY_CONSTRUCTOR:
   type:
   - '&7&oמכונה'
 SKELETON_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/שנייה'
   type:
   - '&7&oרכיב'
 SLIME_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 J/שנייה'
   type:
   - '&7&oרכיב'
 SPIDER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/שנייה'
   type:
   - '&7&oרכיב'
 STONEWORKS_FACTORY:
+  stats:
+  - '&8⇨ &e⚡ &7240 J/שנייה'
   type:
   - '&7&oמכונה'
 STORAGE_FORGE:
@@ -389,12 +468,16 @@ TITANIUM:
   type:
   - '&7&oמשאב'
 URANIUM_EXTRACTOR:
+  stats:
+  - '&8⇨ &e⚡ &7240 J/שנייה'
   type:
   - '&7&oמכונה'
 VEIN_MINER_RUNE:
   type:
   - '&7&oגאדג׳ט'
 VILLAGER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 J/שנייה'
   type:
   - '&7&oרכיב'
 VOID_BIT:
@@ -413,6 +496,9 @@ VOID_INGOT:
   type:
   - '&7&oמשאב'
 VOID_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &7מאגר 300,000 J'
+  - '&8⇨ &e⚡ &73,000 J/שנייה'
   type:
   - '&7&oגנרטור'
 VOID_QUARRY:
@@ -422,17 +508,25 @@ VOID_STORAGE:
   type:
   - '&7&oמכונה'
 WITCH_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/שנייה'
   type:
   - '&7&oרכיב'
 WITHER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &74,500 J/שנייה'
   type:
   - '&7&oרכיב'
 WITHER_SKELETON_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/שנייה'
   type:
   - '&7&oרכיב'
 ZINC_SINGULARITY:
   type:
   - '&7&oמשאב'
 ZOMBIE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/שנייה'
   type:
   - '&7&oרכיב'

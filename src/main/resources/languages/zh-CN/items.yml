@@ -28,10 +28,16 @@ ADVANCED_GEO_MINER:
   - '&7&o机器'
 ADVANCED_NETHER_STAR_REACTOR:
   name: '&c高级下界之星反应堆'
+  stats:
+  - '&8⇨ &e⚡ &790,000 J 缓冲'
+  - '&8⇨ &e⚡ &71,800 J/秒'
   type:
   - '&7&o发电机'
 ADVANCED_PANEL:
   name: '&c高级太阳能板'
+  stats:
+  - '&8⇨ &e⚡ &715,000 J 缓冲'
+  - '&8⇨ &e⚡ &7150 J/秒'
   type:
   - '&7&o发电机'
 ADVANCED_QUARRY:
@@ -48,6 +54,8 @@ ADVANCED_STORAGE:
   - '&7&o机器'
 ADVANCED_STRAINER:
   name: '&c高级过滤器'
+  stats:
+  - '&8⇨ &b⚡ &7速度: &b4.0x'
   type:
   - '&7&o组件'
 ADVANCED_TREE_GROWER:
@@ -72,6 +80,9 @@ BASIC_OBSIDIAN_GEN:
   - '&7&o机器'
 BASIC_PANEL:
   name: '&9基础太阳能板'
+  stats:
+  - '&8⇨ &e⚡ &7900 J 缓冲'
+  - '&8⇨ &e⚡ &79 J/秒'
   type:
   - '&7&o发电机'
 BASIC_QUARRY:
@@ -84,6 +95,8 @@ BASIC_STORAGE:
   - '&7&o机器'
 BASIC_STRAINER:
   name: '&9基础过滤器'
+  stats:
+  - '&8⇨ &b⚡ &7速度: &b1.0x'
   type:
   - '&7&o组件'
 BASIC_TREE_GROWER:
@@ -95,16 +108,25 @@ BASIC_VIRTUAL_FARM:
   type:
   - '&7&o机器'
 BEE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 J/秒'
   type:
   - '&7&o组件'
 BLAZE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/秒'
   type:
   - '&7&o组件'
 CELESTIAL_PANEL:
   name: '&e天界面板'
+  stats:
+  - '&8⇨ &e⚡ &775,000 J 缓冲'
+  - '&8⇨ &e⚡ &7750 J/秒'
   type:
   - '&7&o发电机'
 CHICKEN_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &775 J/秒'
   type:
   - '&7&o组件'
 COAL_SINGULARITY:
@@ -113,6 +135,8 @@ COAL_SINGULARITY:
   - '&7&o资源'
 COBBLE_PRESS:
   name: '&8圆石压机'
+  stats:
+  - '&8⇨ &e⚡ &7120 J/秒'
   type:
   - '&7&o机器'
 COMPRESSED_COBBLESTONE_1:
@@ -140,9 +164,13 @@ COPPER_SINGULARITY:
   type:
   - '&7&o资源'
 COW_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &775 J/秒'
   type:
   - '&7&o组件'
 CREEPER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/秒'
   type:
   - '&7&o组件'
 DATA_INFUSER:
@@ -151,6 +179,8 @@ DATA_INFUSER:
   - '&7&o机器'
 DECOMPRESSOR:
   name: '&7解压机'
+  stats:
+  - '&8⇨ &e⚡ &760 J/秒'
   type:
   - '&7&o机器'
 DIAMOND_SINGULARITY:
@@ -174,9 +204,13 @@ EMPTY_DATA_CARD:
   type:
   - '&7&o组件'
 ENDERMEN_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/秒'
   type:
   - '&7&o组件'
 ENDER_DRAGON_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &79,000 J/秒'
   type:
   - '&7&o组件'
 ENDER_FLAME:
@@ -189,6 +223,8 @@ END_ESSENCE:
   - '&7&o资源'
 EXTREME_FREEZER:
   name: '&b极冷冷冻机'
+  stats:
+  - '&8⇨ &e⚡ &790 J/秒'
   type:
   - '&7&o机器'
 FORTUNE_SINGULARITY:
@@ -201,10 +237,15 @@ GEAR_TRANSFORMER:
   - '&7&o机器'
 GEOTHERMAL_GENERATOR:
   name: '&c地热发电机'
+  stats:
+  - '&8⇨ &e⚡ &73,500 J 缓冲'
+  - '&8⇨ &e⚡ &735 J/秒'
   type:
   - '&7&o发电机'
 GEO_QUARRY:
   name: '&f地质采石场'
+  stats:
+  - '&8⇨ &e⚡ &7450 J/秒'
   type:
   - '&7&o机器'
 GOLD_SINGULARITY:
@@ -212,10 +253,15 @@ GOLD_SINGULARITY:
   type:
   - '&7&o资源'
 GUARDIAN_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/秒'
   type:
   - '&7&o组件'
 HYDRO_GENERATOR:
   name: '&9水力发电机'
+  stats:
+  - '&8⇨ &e⚡ &7500 J 缓冲'
+  - '&8⇨ &e⚡ &75 J/秒'
   type:
   - '&7&o发电机'
 INFINITE_INGOT:
@@ -232,6 +278,9 @@ INFINITE_MACHINE_CORE:
   - '&7&o组件'
 INFINITE_PANEL:
   name: '&b无尽面板'
+  stats:
+  - '&8⇨ &e⚡ &76,000,000 J 缓冲'
+  - '&8⇨ &e⚡ &760,000 J/秒'
   type:
   - '&7&o发电机'
 INFINITE_VOID_HARVESTER:
@@ -316,6 +365,9 @@ INFINITY_QUARRY:
   - '&7&o机器'
 INFINITY_REACTOR:
   name: '&b无尽反应堆'
+  stats:
+  - '&8⇨ &e⚡ &7120,000,000 J 缓冲'
+  - '&8⇨ &e⚡ &7120,000 J/秒'
   type:
   - '&7&o发电机'
 INFINITY_SHIELD:
@@ -347,6 +399,8 @@ INGOT_FORMER:
   type:
   - '&7&o机器'
 IRON_GOLEM_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/秒'
   type:
   - '&7&o组件'
 IRON_SINGULARITY:
@@ -378,6 +432,8 @@ MAGIC_SINGULARITY:
   type:
   - '&7&o资源'
 MAGMA_CUBE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 J/秒'
   type:
   - '&7&o组件'
 MAGNESIUM_SINGULARITY:
@@ -402,6 +458,9 @@ METAL_SINGULARITY:
   - '&7&o资源'
 MOB_SIMULATION_CHAMBER:
   name: '&8生物模拟舱'
+  stats:
+  - '&8⇨ &e⚡ &715,000 J 缓冲'
+  - '&8⇨ &e⚡ &7150 J/秒'
   type:
   - '&7&o机器'
 MYTHRIL:
@@ -414,6 +473,8 @@ NETHERITE_SINGULARITY:
   - '&7&o资源'
 POWERED_BEDROCK:
   name: '&4充能基岩'
+  stats:
+  - '&8⇨ &e⚡ &710,000 J/秒'
   type:
   - '&7&o机器'
 QUARRY_OSCILLATOR_DIAMOND:
@@ -441,10 +502,16 @@ REDSTONE_SINGULARITY:
   - '&7&o资源'
 REINFORCED_GEOTHERMAL_GENERATOR:
   name: '&f强化&c地热发电机'
+  stats:
+  - '&8⇨ &e⚡ &721,000 J 缓冲'
+  - '&8⇨ &e⚡ &7210 J/秒'
   type:
   - '&7&o发电机'
 REINFORCED_HYDRO_GENERATOR:
   name: '&f强化&9水力发电机'
+  stats:
+  - '&8⇨ &e⚡ &74,500 J 缓冲'
+  - '&8⇨ &e⚡ &745 J/秒'
   type:
   - '&7&o发电机'
 REINFORCED_STORAGE:
@@ -453,6 +520,8 @@ REINFORCED_STORAGE:
   - '&7&o机器'
 REINFORCED_STRAINER:
   name: '&f强化过滤器'
+  stats:
+  - '&8⇨ &b⚡ &7速度: &b20.0x'
   type:
   - '&7&o组件'
 RESOURCE_SYNTHESIZER:
@@ -460,6 +529,8 @@ RESOURCE_SYNTHESIZER:
   type:
   - '&7&o机器'
 SHEEP_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &775 J/秒'
   type:
   - '&7&o组件'
 SILVER_SINGULARITY:
@@ -471,16 +542,24 @@ SINGULARITY_CONSTRUCTOR:
   type:
   - '&7&o机器'
 SKELETON_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/秒'
   type:
   - '&7&o组件'
 SLIME_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 J/秒'
   type:
   - '&7&o组件'
 SPIDER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/秒'
   type:
   - '&7&o组件'
 STONEWORKS_FACTORY:
   name: '&8石材工厂'
+  stats:
+  - '&8⇨ &e⚡ &7240 J/秒'
   type:
   - '&7&o机器'
 STORAGE_FORGE:
@@ -501,6 +580,8 @@ TITANIUM:
   - '&7&o资源'
 URANIUM_EXTRACTOR:
   name: '&a铀提取机'
+  stats:
+  - '&8⇨ &e⚡ &7240 J/秒'
   type:
   - '&7&o机器'
 VEIN_MINER_RUNE:
@@ -508,6 +589,8 @@ VEIN_MINER_RUNE:
   type:
   - '&7&o装置'
 VILLAGER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 J/秒'
   type:
   - '&7&o组件'
 VOID_BIT:
@@ -532,6 +615,9 @@ VOID_INGOT:
   - '&7&o资源'
 VOID_PANEL:
   name: '&8虚空面板'
+  stats:
+  - '&8⇨ &e⚡ &7300,000 J 缓冲'
+  - '&8⇨ &e⚡ &73,000 J/秒'
   type:
   - '&7&o发电机'
 VOID_QUARRY:
@@ -543,12 +629,18 @@ VOID_STORAGE:
   type:
   - '&7&o机器'
 WITCH_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/秒'
   type:
   - '&7&o组件'
 WITHER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &74,500 J/秒'
   type:
   - '&7&o组件'
 WITHER_SKELETON_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/秒'
   type:
   - '&7&o组件'
 ZINC_SINGULARITY:
@@ -556,5 +648,7 @@ ZINC_SINGULARITY:
   type:
   - '&7&o资源'
 ZOMBIE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/秒'
   type:
   - '&7&o组件'

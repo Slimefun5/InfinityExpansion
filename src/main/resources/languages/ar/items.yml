@@ -20,9 +20,15 @@ ADVANCED_GEO_MINER:
   type:
   - '&7&oآلة'
 ADVANCED_NETHER_STAR_REACTOR:
+  stats:
+  - '&8⇨ &e⚡ &7مخزن 90,000 جول'
+  - '&8⇨ &e⚡ &71,800 جول/ث'
   type:
   - '&7&oمولد'
 ADVANCED_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &7مخزن 15,000 جول'
+  - '&8⇨ &e⚡ &7150 جول/ث'
   type:
   - '&7&oمولد'
 ADVANCED_QUARRY:
@@ -35,6 +41,8 @@ ADVANCED_STORAGE:
   type:
   - '&7&oآلة'
 ADVANCED_STRAINER:
+  stats:
+  - '&8⇨ &b⚡ &7السرعة: &b4.0x'
   type:
   - '&7&oمكون'
 ADVANCED_TREE_GROWER:
@@ -53,6 +61,9 @@ BASIC_OBSIDIAN_GEN:
   type:
   - '&7&oآلة'
 BASIC_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &7مخزن 900 جول'
+  - '&8⇨ &e⚡ &79 جول/ث'
   type:
   - '&7&oمولد'
 BASIC_QUARRY:
@@ -62,6 +73,8 @@ BASIC_STORAGE:
   type:
   - '&7&oآلة'
 BASIC_STRAINER:
+  stats:
+  - '&8⇨ &b⚡ &7السرعة: &b1.0x'
   type:
   - '&7&oمكون'
 BASIC_TREE_GROWER:
@@ -71,21 +84,32 @@ BASIC_VIRTUAL_FARM:
   type:
   - '&7&oآلة'
 BEE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 جول/ث'
   type:
   - '&7&oمكون'
 BLAZE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 جول/ث'
   type:
   - '&7&oمكون'
 CELESTIAL_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &7مخزن 75,000 جول'
+  - '&8⇨ &e⚡ &7750 جول/ث'
   type:
   - '&7&oمولد'
 CHICKEN_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &775 جول/ث'
   type:
   - '&7&oمكون'
 COAL_SINGULARITY:
   type:
   - '&7&oمورد'
 COBBLE_PRESS:
+  stats:
+  - '&8⇨ &e⚡ &7120 جول/ث'
   type:
   - '&7&oآلة'
 COMPRESSED_COBBLESTONE_1:
@@ -107,15 +131,21 @@ COPPER_SINGULARITY:
   type:
   - '&7&oمورد'
 COW_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &775 جول/ث'
   type:
   - '&7&oمكون'
 CREEPER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 جول/ث'
   type:
   - '&7&oمكون'
 DATA_INFUSER:
   type:
   - '&7&oآلة'
 DECOMPRESSOR:
+  stats:
+  - '&8⇨ &e⚡ &760 جول/ث'
   type:
   - '&7&oآلة'
 DIAMOND_SINGULARITY:
@@ -134,9 +164,13 @@ EMPTY_DATA_CARD:
   type:
   - '&7&oمكون'
 ENDERMEN_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 جول/ث'
   type:
   - '&7&oمكون'
 ENDER_DRAGON_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &79,000 جول/ث'
   type:
   - '&7&oمكون'
 ENDER_FLAME:
@@ -146,6 +180,8 @@ END_ESSENCE:
   type:
   - '&7&oمورد'
 EXTREME_FREEZER:
+  stats:
+  - '&8⇨ &e⚡ &790 جول/ث'
   type:
   - '&7&oآلة'
 FORTUNE_SINGULARITY:
@@ -155,18 +191,28 @@ GEAR_TRANSFORMER:
   type:
   - '&7&oآلة'
 GEOTHERMAL_GENERATOR:
+  stats:
+  - '&8⇨ &e⚡ &7مخزن 3,500 جول'
+  - '&8⇨ &e⚡ &735 جول/ث'
   type:
   - '&7&oمولد'
 GEO_QUARRY:
+  stats:
+  - '&8⇨ &e⚡ &7450 جول/ث'
   type:
   - '&7&oآلة'
 GOLD_SINGULARITY:
   type:
   - '&7&oمورد'
 GUARDIAN_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 جول/ث'
   type:
   - '&7&oمكون'
 HYDRO_GENERATOR:
+  stats:
+  - '&8⇨ &e⚡ &7مخزن 500 جول'
+  - '&8⇨ &e⚡ &75 جول/ث'
   type:
   - '&7&oمولد'
 INFINITE_INGOT:
@@ -179,6 +225,9 @@ INFINITE_MACHINE_CORE:
   type:
   - '&7&oمكون'
 INFINITE_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &7مخزن 6,000,000 جول'
+  - '&8⇨ &e⚡ &760,000 جول/ث'
   type:
   - '&7&oمولد'
 INFINITE_VOID_HARVESTER:
@@ -242,6 +291,9 @@ INFINITY_QUARRY:
   type:
   - '&7&oآلة'
 INFINITY_REACTOR:
+  stats:
+  - '&8⇨ &e⚡ &7مخزن 120,000,000 جول'
+  - '&8⇨ &e⚡ &7120,000 جول/ث'
   type:
   - '&7&oمولد'
 INFINITY_SHIELD:
@@ -266,6 +318,8 @@ INGOT_FORMER:
   type:
   - '&7&oآلة'
 IRON_GOLEM_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 جول/ث'
   type:
   - '&7&oمكون'
 IRON_SINGULARITY:
@@ -290,6 +344,8 @@ MAGIC_SINGULARITY:
   type:
   - '&7&oمورد'
 MAGMA_CUBE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 جول/ث'
   type:
   - '&7&oمكون'
 MAGNESIUM_SINGULARITY:
@@ -308,6 +364,9 @@ METAL_SINGULARITY:
   type:
   - '&7&oمورد'
 MOB_SIMULATION_CHAMBER:
+  stats:
+  - '&8⇨ &e⚡ &7مخزن 15,000 جول'
+  - '&8⇨ &e⚡ &7150 جول/ث'
   type:
   - '&7&oآلة'
 MYTHRIL:
@@ -317,6 +376,8 @@ NETHERITE_SINGULARITY:
   type:
   - '&7&oمورد'
 POWERED_BEDROCK:
+  stats:
+  - '&8⇨ &e⚡ &710,000 جول/ث'
   type:
   - '&7&oآلة'
 QUARRY_OSCILLATOR_DIAMOND:
@@ -341,21 +402,31 @@ REDSTONE_SINGULARITY:
   type:
   - '&7&oمورد'
 REINFORCED_GEOTHERMAL_GENERATOR:
+  stats:
+  - '&8⇨ &e⚡ &7مخزن 21,000 جول'
+  - '&8⇨ &e⚡ &7210 جول/ث'
   type:
   - '&7&oمولد'
 REINFORCED_HYDRO_GENERATOR:
+  stats:
+  - '&8⇨ &e⚡ &7مخزن 4,500 جول'
+  - '&8⇨ &e⚡ &745 جول/ث'
   type:
   - '&7&oمولد'
 REINFORCED_STORAGE:
   type:
   - '&7&oآلة'
 REINFORCED_STRAINER:
+  stats:
+  - '&8⇨ &b⚡ &7السرعة: &b20.0x'
   type:
   - '&7&oمكون'
 RESOURCE_SYNTHESIZER:
   type:
   - '&7&oآلة'
 SHEEP_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &775 جول/ث'
   type:
   - '&7&oمكون'
 SILVER_SINGULARITY:
@@ -365,15 +436,23 @@ SINGULARITY_CONSTRUCTOR:
   type:
   - '&7&oآلة'
 SKELETON_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 جول/ث'
   type:
   - '&7&oمكون'
 SLIME_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 جول/ث'
   type:
   - '&7&oمكون'
 SPIDER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 جول/ث'
   type:
   - '&7&oمكون'
 STONEWORKS_FACTORY:
+  stats:
+  - '&8⇨ &e⚡ &7240 جول/ث'
   type:
   - '&7&oآلة'
 STORAGE_FORGE:
@@ -389,12 +468,16 @@ TITANIUM:
   type:
   - '&7&oمورد'
 URANIUM_EXTRACTOR:
+  stats:
+  - '&8⇨ &e⚡ &7240 جول/ث'
   type:
   - '&7&oآلة'
 VEIN_MINER_RUNE:
   type:
   - '&7&oجهاز'
 VILLAGER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 جول/ث'
   type:
   - '&7&oمكون'
 VOID_BIT:
@@ -413,6 +496,9 @@ VOID_INGOT:
   type:
   - '&7&oمورد'
 VOID_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &7مخزن 300,000 جول'
+  - '&8⇨ &e⚡ &73,000 جول/ث'
   type:
   - '&7&oمولد'
 VOID_QUARRY:
@@ -422,17 +508,25 @@ VOID_STORAGE:
   type:
   - '&7&oآلة'
 WITCH_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 جول/ث'
   type:
   - '&7&oمكون'
 WITHER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &74,500 جول/ث'
   type:
   - '&7&oمكون'
 WITHER_SKELETON_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 جول/ث'
   type:
   - '&7&oمكون'
 ZINC_SINGULARITY:
   type:
   - '&7&oمورد'
 ZOMBIE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 جول/ث'
   type:
   - '&7&oمكون'

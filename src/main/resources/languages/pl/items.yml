@@ -28,10 +28,16 @@ ADVANCED_GEO_MINER:
   - '&7&oMaszyna'
 ADVANCED_NETHER_STAR_REACTOR:
   name: '&cZaawansowany Reaktor Gwiazdy Netheru'
+  stats:
+  - '&8⇨ &e⚡ &790,000 J Bufora'
+  - '&8⇨ &e⚡ &71,800 J/s'
   type:
   - '&7&oGenerator'
 ADVANCED_PANEL:
   name: '&cZaawansowany Panel Słoneczny'
+  stats:
+  - '&8⇨ &e⚡ &715,000 J Bufora'
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oGenerator'
 ADVANCED_QUARRY:
@@ -48,6 +54,8 @@ ADVANCED_STORAGE:
   - '&7&oMaszyna'
 ADVANCED_STRAINER:
   name: '&cZaawansowane Sito'
+  stats:
+  - '&8⇨ &b⚡ &7Prędkość: &b4.0x'
   type:
   - '&7&oKomponent'
 ADVANCED_TREE_GROWER:
@@ -72,6 +80,9 @@ BASIC_OBSIDIAN_GEN:
   - '&7&oMaszyna'
 BASIC_PANEL:
   name: '&9Podstawowy Panel Słoneczny'
+  stats:
+  - '&8⇨ &e⚡ &7900 J Bufora'
+  - '&8⇨ &e⚡ &79 J/s'
   type:
   - '&7&oGenerator'
 BASIC_QUARRY:
@@ -84,6 +95,8 @@ BASIC_STORAGE:
   - '&7&oMaszyna'
 BASIC_STRAINER:
   name: '&9Podstawowe Sito'
+  stats:
+  - '&8⇨ &b⚡ &7Prędkość: &b1.0x'
   type:
   - '&7&oKomponent'
 BASIC_TREE_GROWER:
@@ -95,16 +108,25 @@ BASIC_VIRTUAL_FARM:
   type:
   - '&7&oMaszyna'
 BEE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oKomponent'
 BLAZE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oKomponent'
 CELESTIAL_PANEL:
   name: '&ePanel Niebiański'
+  stats:
+  - '&8⇨ &e⚡ &775,000 J Bufora'
+  - '&8⇨ &e⚡ &7750 J/s'
   type:
   - '&7&oGenerator'
 CHICKEN_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oKomponent'
 COAL_SINGULARITY:
@@ -113,6 +135,8 @@ COAL_SINGULARITY:
   - '&7&oSurowiec'
 COBBLE_PRESS:
   name: '&8Prasa do Bruku'
+  stats:
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oMaszyna'
 COMPRESSED_COBBLESTONE_1:
@@ -140,9 +164,13 @@ COPPER_SINGULARITY:
   type:
   - '&7&oSurowiec'
 COW_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oKomponent'
 CREEPER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oKomponent'
 DATA_INFUSER:
@@ -151,6 +179,8 @@ DATA_INFUSER:
   - '&7&oMaszyna'
 DECOMPRESSOR:
   name: '&7Dekompresor'
+  stats:
+  - '&8⇨ &e⚡ &760 J/s'
   type:
   - '&7&oMaszyna'
 DIAMOND_SINGULARITY:
@@ -174,9 +204,13 @@ EMPTY_DATA_CARD:
   type:
   - '&7&oKomponent'
 ENDERMEN_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oKomponent'
 ENDER_DRAGON_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &79,000 J/s'
   type:
   - '&7&oKomponent'
 ENDER_FLAME:
@@ -189,6 +223,8 @@ END_ESSENCE:
   - '&7&oSurowiec'
 EXTREME_FREEZER:
   name: '&bEkstremalna Zamrażarka'
+  stats:
+  - '&8⇨ &e⚡ &790 J/s'
   type:
   - '&7&oMaszyna'
 FORTUNE_SINGULARITY:
@@ -201,10 +237,15 @@ GEAR_TRANSFORMER:
   - '&7&oMaszyna'
 GEOTHERMAL_GENERATOR:
   name: '&cGenerator Geotermalny'
+  stats:
+  - '&8⇨ &e⚡ &73,500 J Bufora'
+  - '&8⇨ &e⚡ &735 J/s'
   type:
   - '&7&oGenerator'
 GEO_QUARRY:
   name: '&fGeo Kamieniołom'
+  stats:
+  - '&8⇨ &e⚡ &7450 J/s'
   type:
   - '&7&oMaszyna'
 GOLD_SINGULARITY:
@@ -212,10 +253,15 @@ GOLD_SINGULARITY:
   type:
   - '&7&oSurowiec'
 GUARDIAN_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oKomponent'
 HYDRO_GENERATOR:
   name: '&9Generator Hydro'
+  stats:
+  - '&8⇨ &e⚡ &7500 J Bufora'
+  - '&8⇨ &e⚡ &75 J/s'
   type:
   - '&7&oGenerator'
 INFINITE_INGOT:
@@ -232,6 +278,9 @@ INFINITE_MACHINE_CORE:
   - '&7&oKomponent'
 INFINITE_PANEL:
   name: '&bPanel Infinity'
+  stats:
+  - '&8⇨ &e⚡ &76,000,000 J Bufora'
+  - '&8⇨ &e⚡ &760,000 J/s'
   type:
   - '&7&oGenerator'
 INFINITE_VOID_HARVESTER:
@@ -316,6 +365,9 @@ INFINITY_QUARRY:
   - '&7&oMaszyna'
 INFINITY_REACTOR:
   name: '&bReaktor Infinity'
+  stats:
+  - '&8⇨ &e⚡ &7120,000,000 J Bufora'
+  - '&8⇨ &e⚡ &7120,000 J/s'
   type:
   - '&7&oGenerator'
 INFINITY_SHIELD:
@@ -347,6 +399,8 @@ INGOT_FORMER:
   type:
   - '&7&oMaszyna'
 IRON_GOLEM_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oKomponent'
 IRON_SINGULARITY:
@@ -378,6 +432,8 @@ MAGIC_SINGULARITY:
   type:
   - '&7&oSurowiec'
 MAGMA_CUBE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oKomponent'
 MAGNESIUM_SINGULARITY:
@@ -402,6 +458,9 @@ METAL_SINGULARITY:
   - '&7&oSurowiec'
 MOB_SIMULATION_CHAMBER:
   name: '&8Komora Symulacji Moba'
+  stats:
+  - '&8⇨ &e⚡ &715,000 J Bufora'
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oMaszyna'
 MYTHRIL:
@@ -414,6 +473,8 @@ NETHERITE_SINGULARITY:
   - '&7&oSurowiec'
 POWERED_BEDROCK:
   name: '&4Zasilany Bedrock'
+  stats:
+  - '&8⇨ &e⚡ &710,000 J/s'
   type:
   - '&7&oMaszyna'
 QUARRY_OSCILLATOR_DIAMOND:
@@ -441,10 +502,16 @@ REDSTONE_SINGULARITY:
   - '&7&oSurowiec'
 REINFORCED_GEOTHERMAL_GENERATOR:
   name: '&fWzmocniony &cGenerator Geotermalny'
+  stats:
+  - '&8⇨ &e⚡ &721,000 J Bufora'
+  - '&8⇨ &e⚡ &7210 J/s'
   type:
   - '&7&oGenerator'
 REINFORCED_HYDRO_GENERATOR:
   name: '&fWzmocniony &9Generator Hydro'
+  stats:
+  - '&8⇨ &e⚡ &74,500 J Bufora'
+  - '&8⇨ &e⚡ &745 J/s'
   type:
   - '&7&oGenerator'
 REINFORCED_STORAGE:
@@ -453,6 +520,8 @@ REINFORCED_STORAGE:
   - '&7&oMaszyna'
 REINFORCED_STRAINER:
   name: '&fWzmocnione Sito'
+  stats:
+  - '&8⇨ &b⚡ &7Prędkość: &b20.0x'
   type:
   - '&7&oKomponent'
 RESOURCE_SYNTHESIZER:
@@ -460,6 +529,8 @@ RESOURCE_SYNTHESIZER:
   type:
   - '&7&oMaszyna'
 SHEEP_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oKomponent'
 SILVER_SINGULARITY:
@@ -471,16 +542,24 @@ SINGULARITY_CONSTRUCTOR:
   type:
   - '&7&oMaszyna'
 SKELETON_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oKomponent'
 SLIME_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oKomponent'
 SPIDER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oKomponent'
 STONEWORKS_FACTORY:
   name: '&8Fabryka Kamienia'
+  stats:
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oMaszyna'
 STORAGE_FORGE:
@@ -501,6 +580,8 @@ TITANIUM:
   - '&7&oSurowiec'
 URANIUM_EXTRACTOR:
   name: '&aEkstraktor Uranu'
+  stats:
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oMaszyna'
 VEIN_MINER_RUNE:
@@ -508,6 +589,8 @@ VEIN_MINER_RUNE:
   type:
   - '&7&oGadżet'
 VILLAGER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oKomponent'
 VOID_BIT:
@@ -532,6 +615,9 @@ VOID_INGOT:
   - '&7&oSurowiec'
 VOID_PANEL:
   name: '&8Panel Pustki'
+  stats:
+  - '&8⇨ &e⚡ &7300,000 J Bufora'
+  - '&8⇨ &e⚡ &73,000 J/s'
   type:
   - '&7&oGenerator'
 VOID_QUARRY:
@@ -543,12 +629,18 @@ VOID_STORAGE:
   type:
   - '&7&oMaszyna'
 WITCH_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oKomponent'
 WITHER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &74,500 J/s'
   type:
   - '&7&oKomponent'
 WITHER_SKELETON_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oKomponent'
 ZINC_SINGULARITY:
@@ -556,5 +648,7 @@ ZINC_SINGULARITY:
   type:
   - '&7&oSurowiec'
 ZOMBIE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oKomponent'

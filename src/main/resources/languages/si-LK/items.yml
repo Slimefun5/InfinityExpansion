@@ -20,9 +20,15 @@ ADVANCED_GEO_MINER:
   type:
   - '&7&oයන්ත්‍රය'
 ADVANCED_NETHER_STAR_REACTOR:
+  stats:
+  - '&8⇨ &e⚡ &790,000 J ගබඩාව'
+  - '&8⇨ &e⚡ &71,800 J/s'
   type:
   - '&7&oජනකය'
 ADVANCED_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &715,000 J ගබඩාව'
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oජනකය'
 ADVANCED_QUARRY:
@@ -35,6 +41,8 @@ ADVANCED_STORAGE:
   type:
   - '&7&oයන්ත්‍රය'
 ADVANCED_STRAINER:
+  stats:
+  - '&8⇨ &b⚡ &7වේගය: &b4.0x'
   type:
   - '&7&oසංරචකය'
 ADVANCED_TREE_GROWER:
@@ -53,6 +61,9 @@ BASIC_OBSIDIAN_GEN:
   type:
   - '&7&oයන්ත්‍රය'
 BASIC_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &7900 J ගබඩාව'
+  - '&8⇨ &e⚡ &79 J/s'
   type:
   - '&7&oජනකය'
 BASIC_QUARRY:
@@ -62,6 +73,8 @@ BASIC_STORAGE:
   type:
   - '&7&oයන්ත්‍රය'
 BASIC_STRAINER:
+  stats:
+  - '&8⇨ &b⚡ &7වේගය: &b1.0x'
   type:
   - '&7&oසංරචකය'
 BASIC_TREE_GROWER:
@@ -71,21 +84,32 @@ BASIC_VIRTUAL_FARM:
   type:
   - '&7&oයන්ත්‍රය'
 BEE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oසංරචකය'
 BLAZE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oසංරචකය'
 CELESTIAL_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &775,000 J ගබඩාව'
+  - '&8⇨ &e⚡ &7750 J/s'
   type:
   - '&7&oජනකය'
 CHICKEN_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oසංරචකය'
 COAL_SINGULARITY:
   type:
   - '&7&oසම්පත'
 COBBLE_PRESS:
+  stats:
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 COMPRESSED_COBBLESTONE_1:
@@ -107,15 +131,21 @@ COPPER_SINGULARITY:
   type:
   - '&7&oසම්පත'
 COW_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oසංරචකය'
 CREEPER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oසංරචකය'
 DATA_INFUSER:
   type:
   - '&7&oයන්ත්‍රය'
 DECOMPRESSOR:
+  stats:
+  - '&8⇨ &e⚡ &760 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 DIAMOND_SINGULARITY:
@@ -134,9 +164,13 @@ EMPTY_DATA_CARD:
   type:
   - '&7&oසංරචකය'
 ENDERMEN_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oසංරචකය'
 ENDER_DRAGON_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &79,000 J/s'
   type:
   - '&7&oසංරචකය'
 ENDER_FLAME:
@@ -146,6 +180,8 @@ END_ESSENCE:
   type:
   - '&7&oසම්පත'
 EXTREME_FREEZER:
+  stats:
+  - '&8⇨ &e⚡ &790 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 FORTUNE_SINGULARITY:
@@ -155,18 +191,28 @@ GEAR_TRANSFORMER:
   type:
   - '&7&oයන්ත්‍රය'
 GEOTHERMAL_GENERATOR:
+  stats:
+  - '&8⇨ &e⚡ &73,500 J ගබඩාව'
+  - '&8⇨ &e⚡ &735 J/s'
   type:
   - '&7&oජනකය'
 GEO_QUARRY:
+  stats:
+  - '&8⇨ &e⚡ &7450 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 GOLD_SINGULARITY:
   type:
   - '&7&oසම්පත'
 GUARDIAN_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oසංරචකය'
 HYDRO_GENERATOR:
+  stats:
+  - '&8⇨ &e⚡ &7500 J ගබඩාව'
+  - '&8⇨ &e⚡ &75 J/s'
   type:
   - '&7&oජනකය'
 INFINITE_INGOT:
@@ -179,6 +225,9 @@ INFINITE_MACHINE_CORE:
   type:
   - '&7&oසංරචකය'
 INFINITE_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &76,000,000 J ගබඩාව'
+  - '&8⇨ &e⚡ &760,000 J/s'
   type:
   - '&7&oජනකය'
 INFINITE_VOID_HARVESTER:
@@ -242,6 +291,9 @@ INFINITY_QUARRY:
   type:
   - '&7&oයන්ත්‍රය'
 INFINITY_REACTOR:
+  stats:
+  - '&8⇨ &e⚡ &7120,000,000 J ගබඩාව'
+  - '&8⇨ &e⚡ &7120,000 J/s'
   type:
   - '&7&oජනකය'
 INFINITY_SHIELD:
@@ -266,6 +318,8 @@ INGOT_FORMER:
   type:
   - '&7&oයන්ත්‍රය'
 IRON_GOLEM_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oසංරචකය'
 IRON_SINGULARITY:
@@ -290,6 +344,8 @@ MAGIC_SINGULARITY:
   type:
   - '&7&oසම්පත'
 MAGMA_CUBE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oසංරචකය'
 MAGNESIUM_SINGULARITY:
@@ -308,6 +364,9 @@ METAL_SINGULARITY:
   type:
   - '&7&oසම්පත'
 MOB_SIMULATION_CHAMBER:
+  stats:
+  - '&8⇨ &e⚡ &715,000 J ගබඩාව'
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 MYTHRIL:
@@ -317,6 +376,8 @@ NETHERITE_SINGULARITY:
   type:
   - '&7&oසම්පත'
 POWERED_BEDROCK:
+  stats:
+  - '&8⇨ &e⚡ &710,000 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 QUARRY_OSCILLATOR_DIAMOND:
@@ -341,21 +402,31 @@ REDSTONE_SINGULARITY:
   type:
   - '&7&oසම්පත'
 REINFORCED_GEOTHERMAL_GENERATOR:
+  stats:
+  - '&8⇨ &e⚡ &721,000 J ගබඩාව'
+  - '&8⇨ &e⚡ &7210 J/s'
   type:
   - '&7&oජනකය'
 REINFORCED_HYDRO_GENERATOR:
+  stats:
+  - '&8⇨ &e⚡ &74,500 J ගබඩාව'
+  - '&8⇨ &e⚡ &745 J/s'
   type:
   - '&7&oජනකය'
 REINFORCED_STORAGE:
   type:
   - '&7&oයන්ත්‍රය'
 REINFORCED_STRAINER:
+  stats:
+  - '&8⇨ &b⚡ &7වේගය: &b20.0x'
   type:
   - '&7&oසංරචකය'
 RESOURCE_SYNTHESIZER:
   type:
   - '&7&oයන්ත්‍රය'
 SHEEP_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oසංරචකය'
 SILVER_SINGULARITY:
@@ -365,15 +436,23 @@ SINGULARITY_CONSTRUCTOR:
   type:
   - '&7&oයන්ත්‍රය'
 SKELETON_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oසංරචකය'
 SLIME_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oසංරචකය'
 SPIDER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oසංරචකය'
 STONEWORKS_FACTORY:
+  stats:
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 STORAGE_FORGE:
@@ -389,12 +468,16 @@ TITANIUM:
   type:
   - '&7&oසම්පත'
 URANIUM_EXTRACTOR:
+  stats:
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 VEIN_MINER_RUNE:
   type:
   - '&7&oඋපාංගය'
 VILLAGER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oසංරචකය'
 VOID_BIT:
@@ -413,6 +496,9 @@ VOID_INGOT:
   type:
   - '&7&oසම්පත'
 VOID_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &7300,000 J ගබඩාව'
+  - '&8⇨ &e⚡ &73,000 J/s'
   type:
   - '&7&oජනකය'
 VOID_QUARRY:
@@ -422,17 +508,25 @@ VOID_STORAGE:
   type:
   - '&7&oයන්ත්‍රය'
 WITCH_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oසංරචකය'
 WITHER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &74,500 J/s'
   type:
   - '&7&oසංරචකය'
 WITHER_SKELETON_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oසංරචකය'
 ZINC_SINGULARITY:
   type:
   - '&7&oසම්පත'
 ZOMBIE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oසංරචකය'

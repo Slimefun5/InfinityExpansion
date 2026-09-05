@@ -20,9 +20,15 @@ ADVANCED_GEO_MINER:
   type:
   - '&7&oMáy Móc'
 ADVANCED_NETHER_STAR_REACTOR:
+  stats:
+  - '&8⇨ &e⚡ &790,000 J Bộ Đệm'
+  - '&8⇨ &e⚡ &71,800 J/s'
   type:
   - '&7&oMáy Phát Điện'
 ADVANCED_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &715,000 J Bộ Đệm'
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oMáy Phát Điện'
 ADVANCED_QUARRY:
@@ -35,6 +41,8 @@ ADVANCED_STORAGE:
   type:
   - '&7&oMáy Móc'
 ADVANCED_STRAINER:
+  stats:
+  - '&8⇨ &b⚡ &7Tốc Độ: &b4.0x'
   type:
   - '&7&oThành Phần'
 ADVANCED_TREE_GROWER:
@@ -53,6 +61,9 @@ BASIC_OBSIDIAN_GEN:
   type:
   - '&7&oMáy Móc'
 BASIC_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &7900 J Bộ Đệm'
+  - '&8⇨ &e⚡ &79 J/s'
   type:
   - '&7&oMáy Phát Điện'
 BASIC_QUARRY:
@@ -62,6 +73,8 @@ BASIC_STORAGE:
   type:
   - '&7&oMáy Móc'
 BASIC_STRAINER:
+  stats:
+  - '&8⇨ &b⚡ &7Tốc Độ: &b1.0x'
   type:
   - '&7&oThành Phần'
 BASIC_TREE_GROWER:
@@ -71,21 +84,32 @@ BASIC_VIRTUAL_FARM:
   type:
   - '&7&oMáy Móc'
 BEE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oThành Phần'
 BLAZE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oThành Phần'
 CELESTIAL_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &775,000 J Bộ Đệm'
+  - '&8⇨ &e⚡ &7750 J/s'
   type:
   - '&7&oMáy Phát Điện'
 CHICKEN_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oThành Phần'
 COAL_SINGULARITY:
   type:
   - '&7&oTài Nguyên'
 COBBLE_PRESS:
+  stats:
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oMáy Móc'
 COMPRESSED_COBBLESTONE_1:
@@ -107,15 +131,21 @@ COPPER_SINGULARITY:
   type:
   - '&7&oTài Nguyên'
 COW_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oThành Phần'
 CREEPER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oThành Phần'
 DATA_INFUSER:
   type:
   - '&7&oMáy Móc'
 DECOMPRESSOR:
+  stats:
+  - '&8⇨ &e⚡ &760 J/s'
   type:
   - '&7&oMáy Móc'
 DIAMOND_SINGULARITY:
@@ -134,9 +164,13 @@ EMPTY_DATA_CARD:
   type:
   - '&7&oThành Phần'
 ENDERMEN_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oThành Phần'
 ENDER_DRAGON_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &79,000 J/s'
   type:
   - '&7&oThành Phần'
 ENDER_FLAME:
@@ -146,6 +180,8 @@ END_ESSENCE:
   type:
   - '&7&oTài Nguyên'
 EXTREME_FREEZER:
+  stats:
+  - '&8⇨ &e⚡ &790 J/s'
   type:
   - '&7&oMáy Móc'
 FORTUNE_SINGULARITY:
@@ -155,18 +191,28 @@ GEAR_TRANSFORMER:
   type:
   - '&7&oMáy Móc'
 GEOTHERMAL_GENERATOR:
+  stats:
+  - '&8⇨ &e⚡ &73,500 J Bộ Đệm'
+  - '&8⇨ &e⚡ &735 J/s'
   type:
   - '&7&oMáy Phát Điện'
 GEO_QUARRY:
+  stats:
+  - '&8⇨ &e⚡ &7450 J/s'
   type:
   - '&7&oMáy Móc'
 GOLD_SINGULARITY:
   type:
   - '&7&oTài Nguyên'
 GUARDIAN_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oThành Phần'
 HYDRO_GENERATOR:
+  stats:
+  - '&8⇨ &e⚡ &7500 J Bộ Đệm'
+  - '&8⇨ &e⚡ &75 J/s'
   type:
   - '&7&oMáy Phát Điện'
 INFINITE_INGOT:
@@ -179,6 +225,9 @@ INFINITE_MACHINE_CORE:
   type:
   - '&7&oThành Phần'
 INFINITE_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &76,000,000 J Bộ Đệm'
+  - '&8⇨ &e⚡ &760,000 J/s'
   type:
   - '&7&oMáy Phát Điện'
 INFINITE_VOID_HARVESTER:
@@ -242,6 +291,9 @@ INFINITY_QUARRY:
   type:
   - '&7&oMáy Móc'
 INFINITY_REACTOR:
+  stats:
+  - '&8⇨ &e⚡ &7120,000,000 J Bộ Đệm'
+  - '&8⇨ &e⚡ &7120,000 J/s'
   type:
   - '&7&oMáy Phát Điện'
 INFINITY_SHIELD:
@@ -266,6 +318,8 @@ INGOT_FORMER:
   type:
   - '&7&oMáy Móc'
 IRON_GOLEM_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oThành Phần'
 IRON_SINGULARITY:
@@ -290,6 +344,8 @@ MAGIC_SINGULARITY:
   type:
   - '&7&oTài Nguyên'
 MAGMA_CUBE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oThành Phần'
 MAGNESIUM_SINGULARITY:
@@ -308,6 +364,9 @@ METAL_SINGULARITY:
   type:
   - '&7&oTài Nguyên'
 MOB_SIMULATION_CHAMBER:
+  stats:
+  - '&8⇨ &e⚡ &715,000 J Bộ Đệm'
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oMáy Móc'
 MYTHRIL:
@@ -317,6 +376,8 @@ NETHERITE_SINGULARITY:
   type:
   - '&7&oTài Nguyên'
 POWERED_BEDROCK:
+  stats:
+  - '&8⇨ &e⚡ &710,000 J/s'
   type:
   - '&7&oMáy Móc'
 QUARRY_OSCILLATOR_DIAMOND:
@@ -341,21 +402,31 @@ REDSTONE_SINGULARITY:
   type:
   - '&7&oTài Nguyên'
 REINFORCED_GEOTHERMAL_GENERATOR:
+  stats:
+  - '&8⇨ &e⚡ &721,000 J Bộ Đệm'
+  - '&8⇨ &e⚡ &7210 J/s'
   type:
   - '&7&oMáy Phát Điện'
 REINFORCED_HYDRO_GENERATOR:
+  stats:
+  - '&8⇨ &e⚡ &74,500 J Bộ Đệm'
+  - '&8⇨ &e⚡ &745 J/s'
   type:
   - '&7&oMáy Phát Điện'
 REINFORCED_STORAGE:
   type:
   - '&7&oMáy Móc'
 REINFORCED_STRAINER:
+  stats:
+  - '&8⇨ &b⚡ &7Tốc Độ: &b20.0x'
   type:
   - '&7&oThành Phần'
 RESOURCE_SYNTHESIZER:
   type:
   - '&7&oMáy Móc'
 SHEEP_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oThành Phần'
 SILVER_SINGULARITY:
@@ -365,15 +436,23 @@ SINGULARITY_CONSTRUCTOR:
   type:
   - '&7&oMáy Móc'
 SKELETON_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oThành Phần'
 SLIME_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oThành Phần'
 SPIDER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oThành Phần'
 STONEWORKS_FACTORY:
+  stats:
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oMáy Móc'
 STORAGE_FORGE:
@@ -389,12 +468,16 @@ TITANIUM:
   type:
   - '&7&oTài Nguyên'
 URANIUM_EXTRACTOR:
+  stats:
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oMáy Móc'
 VEIN_MINER_RUNE:
   type:
   - '&7&oThiết Bị'
 VILLAGER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oThành Phần'
 VOID_BIT:
@@ -413,6 +496,9 @@ VOID_INGOT:
   type:
   - '&7&oTài Nguyên'
 VOID_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &7300,000 J Bộ Đệm'
+  - '&8⇨ &e⚡ &73,000 J/s'
   type:
   - '&7&oMáy Phát Điện'
 VOID_QUARRY:
@@ -422,17 +508,25 @@ VOID_STORAGE:
   type:
   - '&7&oMáy Móc'
 WITCH_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oThành Phần'
 WITHER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &74,500 J/s'
   type:
   - '&7&oThành Phần'
 WITHER_SKELETON_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oThành Phần'
 ZINC_SINGULARITY:
   type:
   - '&7&oTài Nguyên'
 ZOMBIE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oThành Phần'

@@ -20,9 +20,15 @@ ADVANCED_GEO_MINER:
   type:
   - '&7&oMakine'
 ADVANCED_NETHER_STAR_REACTOR:
+  stats:
+  - '&8⇨ &e⚡ &790,000 J Tampon'
+  - '&8⇨ &e⚡ &71,800 J/s'
   type:
   - '&7&oJeneratör'
 ADVANCED_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &715,000 J Tampon'
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oJeneratör'
 ADVANCED_QUARRY:
@@ -35,6 +41,8 @@ ADVANCED_STORAGE:
   type:
   - '&7&oMakine'
 ADVANCED_STRAINER:
+  stats:
+  - '&8⇨ &b⚡ &7Hız: &b4.0x'
   type:
   - '&7&oBileşen'
 ADVANCED_TREE_GROWER:
@@ -53,6 +61,9 @@ BASIC_OBSIDIAN_GEN:
   type:
   - '&7&oMakine'
 BASIC_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &7900 J Tampon'
+  - '&8⇨ &e⚡ &79 J/s'
   type:
   - '&7&oJeneratör'
 BASIC_QUARRY:
@@ -62,6 +73,8 @@ BASIC_STORAGE:
   type:
   - '&7&oMakine'
 BASIC_STRAINER:
+  stats:
+  - '&8⇨ &b⚡ &7Hız: &b1.0x'
   type:
   - '&7&oBileşen'
 BASIC_TREE_GROWER:
@@ -71,21 +84,32 @@ BASIC_VIRTUAL_FARM:
   type:
   - '&7&oMakine'
 BEE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oBileşen'
 BLAZE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oBileşen'
 CELESTIAL_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &775,000 J Tampon'
+  - '&8⇨ &e⚡ &7750 J/s'
   type:
   - '&7&oJeneratör'
 CHICKEN_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oBileşen'
 COAL_SINGULARITY:
   type:
   - '&7&oKaynak'
 COBBLE_PRESS:
+  stats:
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oMakine'
 COMPRESSED_COBBLESTONE_1:
@@ -107,15 +131,21 @@ COPPER_SINGULARITY:
   type:
   - '&7&oKaynak'
 COW_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oBileşen'
 CREEPER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oBileşen'
 DATA_INFUSER:
   type:
   - '&7&oMakine'
 DECOMPRESSOR:
+  stats:
+  - '&8⇨ &e⚡ &760 J/s'
   type:
   - '&7&oMakine'
 DIAMOND_SINGULARITY:
@@ -134,9 +164,13 @@ EMPTY_DATA_CARD:
   type:
   - '&7&oBileşen'
 ENDERMEN_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oBileşen'
 ENDER_DRAGON_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &79,000 J/s'
   type:
   - '&7&oBileşen'
 ENDER_FLAME:
@@ -146,6 +180,8 @@ END_ESSENCE:
   type:
   - '&7&oKaynak'
 EXTREME_FREEZER:
+  stats:
+  - '&8⇨ &e⚡ &790 J/s'
   type:
   - '&7&oMakine'
 FORTUNE_SINGULARITY:
@@ -155,18 +191,28 @@ GEAR_TRANSFORMER:
   type:
   - '&7&oMakine'
 GEOTHERMAL_GENERATOR:
+  stats:
+  - '&8⇨ &e⚡ &73,500 J Tampon'
+  - '&8⇨ &e⚡ &735 J/s'
   type:
   - '&7&oJeneratör'
 GEO_QUARRY:
+  stats:
+  - '&8⇨ &e⚡ &7450 J/s'
   type:
   - '&7&oMakine'
 GOLD_SINGULARITY:
   type:
   - '&7&oKaynak'
 GUARDIAN_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oBileşen'
 HYDRO_GENERATOR:
+  stats:
+  - '&8⇨ &e⚡ &7500 J Tampon'
+  - '&8⇨ &e⚡ &75 J/s'
   type:
   - '&7&oJeneratör'
 INFINITE_INGOT:
@@ -179,6 +225,9 @@ INFINITE_MACHINE_CORE:
   type:
   - '&7&oBileşen'
 INFINITE_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &76,000,000 J Tampon'
+  - '&8⇨ &e⚡ &760,000 J/s'
   type:
   - '&7&oJeneratör'
 INFINITE_VOID_HARVESTER:
@@ -242,6 +291,9 @@ INFINITY_QUARRY:
   type:
   - '&7&oMakine'
 INFINITY_REACTOR:
+  stats:
+  - '&8⇨ &e⚡ &7120,000,000 J Tampon'
+  - '&8⇨ &e⚡ &7120,000 J/s'
   type:
   - '&7&oJeneratör'
 INFINITY_SHIELD:
@@ -266,6 +318,8 @@ INGOT_FORMER:
   type:
   - '&7&oMakine'
 IRON_GOLEM_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oBileşen'
 IRON_SINGULARITY:
@@ -290,6 +344,8 @@ MAGIC_SINGULARITY:
   type:
   - '&7&oKaynak'
 MAGMA_CUBE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oBileşen'
 MAGNESIUM_SINGULARITY:
@@ -308,6 +364,9 @@ METAL_SINGULARITY:
   type:
   - '&7&oKaynak'
 MOB_SIMULATION_CHAMBER:
+  stats:
+  - '&8⇨ &e⚡ &715,000 J Tampon'
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oMakine'
 MYTHRIL:
@@ -317,6 +376,8 @@ NETHERITE_SINGULARITY:
   type:
   - '&7&oKaynak'
 POWERED_BEDROCK:
+  stats:
+  - '&8⇨ &e⚡ &710,000 J/s'
   type:
   - '&7&oMakine'
 QUARRY_OSCILLATOR_DIAMOND:
@@ -341,21 +402,31 @@ REDSTONE_SINGULARITY:
   type:
   - '&7&oKaynak'
 REINFORCED_GEOTHERMAL_GENERATOR:
+  stats:
+  - '&8⇨ &e⚡ &721,000 J Tampon'
+  - '&8⇨ &e⚡ &7210 J/s'
   type:
   - '&7&oJeneratör'
 REINFORCED_HYDRO_GENERATOR:
+  stats:
+  - '&8⇨ &e⚡ &74,500 J Tampon'
+  - '&8⇨ &e⚡ &745 J/s'
   type:
   - '&7&oJeneratör'
 REINFORCED_STORAGE:
   type:
   - '&7&oMakine'
 REINFORCED_STRAINER:
+  stats:
+  - '&8⇨ &b⚡ &7Hız: &b20.0x'
   type:
   - '&7&oBileşen'
 RESOURCE_SYNTHESIZER:
   type:
   - '&7&oMakine'
 SHEEP_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oBileşen'
 SILVER_SINGULARITY:
@@ -365,15 +436,23 @@ SINGULARITY_CONSTRUCTOR:
   type:
   - '&7&oMakine'
 SKELETON_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oBileşen'
 SLIME_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oBileşen'
 SPIDER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oBileşen'
 STONEWORKS_FACTORY:
+  stats:
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oMakine'
 STORAGE_FORGE:
@@ -389,12 +468,16 @@ TITANIUM:
   type:
   - '&7&oKaynak'
 URANIUM_EXTRACTOR:
+  stats:
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oMakine'
 VEIN_MINER_RUNE:
   type:
   - '&7&oCihaz'
 VILLAGER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oBileşen'
 VOID_BIT:
@@ -413,6 +496,9 @@ VOID_INGOT:
   type:
   - '&7&oKaynak'
 VOID_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &7300,000 J Tampon'
+  - '&8⇨ &e⚡ &73,000 J/s'
   type:
   - '&7&oJeneratör'
 VOID_QUARRY:
@@ -422,17 +508,25 @@ VOID_STORAGE:
   type:
   - '&7&oMakine'
 WITCH_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oBileşen'
 WITHER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &74,500 J/s'
   type:
   - '&7&oBileşen'
 WITHER_SKELETON_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oBileşen'
 ZINC_SINGULARITY:
   type:
   - '&7&oKaynak'
 ZOMBIE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oBileşen'

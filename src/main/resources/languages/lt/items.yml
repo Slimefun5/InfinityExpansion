@@ -20,9 +20,15 @@ ADVANCED_GEO_MINER:
   type:
   - '&7&oMašina'
 ADVANCED_NETHER_STAR_REACTOR:
+  stats:
+  - '&8⇨ &e⚡ &790,000 J buferis'
+  - '&8⇨ &e⚡ &71,800 J/s'
   type:
   - '&7&oGeneratorius'
 ADVANCED_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &715,000 J buferis'
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oGeneratorius'
 ADVANCED_QUARRY:
@@ -35,6 +41,8 @@ ADVANCED_STORAGE:
   type:
   - '&7&oMašina'
 ADVANCED_STRAINER:
+  stats:
+  - '&8⇨ &b⚡ &7Greitis: &b4.0x'
   type:
   - '&7&oKomponentas'
 ADVANCED_TREE_GROWER:
@@ -53,6 +61,9 @@ BASIC_OBSIDIAN_GEN:
   type:
   - '&7&oMašina'
 BASIC_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &7900 J buferis'
+  - '&8⇨ &e⚡ &79 J/s'
   type:
   - '&7&oGeneratorius'
 BASIC_QUARRY:
@@ -62,6 +73,8 @@ BASIC_STORAGE:
   type:
   - '&7&oMašina'
 BASIC_STRAINER:
+  stats:
+  - '&8⇨ &b⚡ &7Greitis: &b1.0x'
   type:
   - '&7&oKomponentas'
 BASIC_TREE_GROWER:
@@ -71,21 +84,32 @@ BASIC_VIRTUAL_FARM:
   type:
   - '&7&oMašina'
 BEE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oKomponentas'
 BLAZE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oKomponentas'
 CELESTIAL_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &775,000 J buferis'
+  - '&8⇨ &e⚡ &7750 J/s'
   type:
   - '&7&oGeneratorius'
 CHICKEN_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oKomponentas'
 COAL_SINGULARITY:
   type:
   - '&7&oIšteklius'
 COBBLE_PRESS:
+  stats:
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oMašina'
 COMPRESSED_COBBLESTONE_1:
@@ -107,15 +131,21 @@ COPPER_SINGULARITY:
   type:
   - '&7&oIšteklius'
 COW_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oKomponentas'
 CREEPER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oKomponentas'
 DATA_INFUSER:
   type:
   - '&7&oMašina'
 DECOMPRESSOR:
+  stats:
+  - '&8⇨ &e⚡ &760 J/s'
   type:
   - '&7&oMašina'
 DIAMOND_SINGULARITY:
@@ -134,9 +164,13 @@ EMPTY_DATA_CARD:
   type:
   - '&7&oKomponentas'
 ENDERMEN_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oKomponentas'
 ENDER_DRAGON_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &79,000 J/s'
   type:
   - '&7&oKomponentas'
 ENDER_FLAME:
@@ -146,6 +180,8 @@ END_ESSENCE:
   type:
   - '&7&oIšteklius'
 EXTREME_FREEZER:
+  stats:
+  - '&8⇨ &e⚡ &790 J/s'
   type:
   - '&7&oMašina'
 FORTUNE_SINGULARITY:
@@ -155,18 +191,28 @@ GEAR_TRANSFORMER:
   type:
   - '&7&oMašina'
 GEOTHERMAL_GENERATOR:
+  stats:
+  - '&8⇨ &e⚡ &73,500 J buferis'
+  - '&8⇨ &e⚡ &735 J/s'
   type:
   - '&7&oGeneratorius'
 GEO_QUARRY:
+  stats:
+  - '&8⇨ &e⚡ &7450 J/s'
   type:
   - '&7&oMašina'
 GOLD_SINGULARITY:
   type:
   - '&7&oIšteklius'
 GUARDIAN_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oKomponentas'
 HYDRO_GENERATOR:
+  stats:
+  - '&8⇨ &e⚡ &7500 J buferis'
+  - '&8⇨ &e⚡ &75 J/s'
   type:
   - '&7&oGeneratorius'
 INFINITE_INGOT:
@@ -179,6 +225,9 @@ INFINITE_MACHINE_CORE:
   type:
   - '&7&oKomponentas'
 INFINITE_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &76,000,000 J buferis'
+  - '&8⇨ &e⚡ &760,000 J/s'
   type:
   - '&7&oGeneratorius'
 INFINITE_VOID_HARVESTER:
@@ -242,6 +291,9 @@ INFINITY_QUARRY:
   type:
   - '&7&oMašina'
 INFINITY_REACTOR:
+  stats:
+  - '&8⇨ &e⚡ &7120,000,000 J buferis'
+  - '&8⇨ &e⚡ &7120,000 J/s'
   type:
   - '&7&oGeneratorius'
 INFINITY_SHIELD:
@@ -266,6 +318,8 @@ INGOT_FORMER:
   type:
   - '&7&oMašina'
 IRON_GOLEM_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oKomponentas'
 IRON_SINGULARITY:
@@ -290,6 +344,8 @@ MAGIC_SINGULARITY:
   type:
   - '&7&oIšteklius'
 MAGMA_CUBE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oKomponentas'
 MAGNESIUM_SINGULARITY:
@@ -308,6 +364,9 @@ METAL_SINGULARITY:
   type:
   - '&7&oIšteklius'
 MOB_SIMULATION_CHAMBER:
+  stats:
+  - '&8⇨ &e⚡ &715,000 J buferis'
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oMašina'
 MYTHRIL:
@@ -317,6 +376,8 @@ NETHERITE_SINGULARITY:
   type:
   - '&7&oIšteklius'
 POWERED_BEDROCK:
+  stats:
+  - '&8⇨ &e⚡ &710,000 J/s'
   type:
   - '&7&oMašina'
 QUARRY_OSCILLATOR_DIAMOND:
@@ -341,21 +402,31 @@ REDSTONE_SINGULARITY:
   type:
   - '&7&oIšteklius'
 REINFORCED_GEOTHERMAL_GENERATOR:
+  stats:
+  - '&8⇨ &e⚡ &721,000 J buferis'
+  - '&8⇨ &e⚡ &7210 J/s'
   type:
   - '&7&oGeneratorius'
 REINFORCED_HYDRO_GENERATOR:
+  stats:
+  - '&8⇨ &e⚡ &74,500 J buferis'
+  - '&8⇨ &e⚡ &745 J/s'
   type:
   - '&7&oGeneratorius'
 REINFORCED_STORAGE:
   type:
   - '&7&oMašina'
 REINFORCED_STRAINER:
+  stats:
+  - '&8⇨ &b⚡ &7Greitis: &b20.0x'
   type:
   - '&7&oKomponentas'
 RESOURCE_SYNTHESIZER:
   type:
   - '&7&oMašina'
 SHEEP_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oKomponentas'
 SILVER_SINGULARITY:
@@ -365,15 +436,23 @@ SINGULARITY_CONSTRUCTOR:
   type:
   - '&7&oMašina'
 SKELETON_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oKomponentas'
 SLIME_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oKomponentas'
 SPIDER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oKomponentas'
 STONEWORKS_FACTORY:
+  stats:
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oMašina'
 STORAGE_FORGE:
@@ -389,12 +468,16 @@ TITANIUM:
   type:
   - '&7&oIšteklius'
 URANIUM_EXTRACTOR:
+  stats:
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oMašina'
 VEIN_MINER_RUNE:
   type:
   - '&7&oĮtaisas'
 VILLAGER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oKomponentas'
 VOID_BIT:
@@ -413,6 +496,9 @@ VOID_INGOT:
   type:
   - '&7&oIšteklius'
 VOID_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &7300,000 J buferis'
+  - '&8⇨ &e⚡ &73,000 J/s'
   type:
   - '&7&oGeneratorius'
 VOID_QUARRY:
@@ -422,17 +508,25 @@ VOID_STORAGE:
   type:
   - '&7&oMašina'
 WITCH_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oKomponentas'
 WITHER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &74,500 J/s'
   type:
   - '&7&oKomponentas'
 WITHER_SKELETON_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oKomponentas'
 ZINC_SINGULARITY:
   type:
   - '&7&oIšteklius'
 ZOMBIE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oKomponentas'

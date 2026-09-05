@@ -20,9 +20,15 @@ ADVANCED_GEO_MINER:
   type:
   - '&7&oGép'
 ADVANCED_NETHER_STAR_REACTOR:
+  stats:
+  - '&8⇨ &e⚡ &790,000 J Puffer'
+  - '&8⇨ &e⚡ &71,800 J/s'
   type:
   - '&7&oGenerátor'
 ADVANCED_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &715,000 J Puffer'
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oGenerátor'
 ADVANCED_QUARRY:
@@ -35,6 +41,8 @@ ADVANCED_STORAGE:
   type:
   - '&7&oGép'
 ADVANCED_STRAINER:
+  stats:
+  - '&8⇨ &b⚡ &7Sebesség: &b4.0x'
   type:
   - '&7&oAlkatrész'
 ADVANCED_TREE_GROWER:
@@ -53,6 +61,9 @@ BASIC_OBSIDIAN_GEN:
   type:
   - '&7&oGép'
 BASIC_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &7900 J Puffer'
+  - '&8⇨ &e⚡ &79 J/s'
   type:
   - '&7&oGenerátor'
 BASIC_QUARRY:
@@ -62,6 +73,8 @@ BASIC_STORAGE:
   type:
   - '&7&oGép'
 BASIC_STRAINER:
+  stats:
+  - '&8⇨ &b⚡ &7Sebesség: &b1.0x'
   type:
   - '&7&oAlkatrész'
 BASIC_TREE_GROWER:
@@ -71,21 +84,32 @@ BASIC_VIRTUAL_FARM:
   type:
   - '&7&oGép'
 BEE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oAlkatrész'
 BLAZE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oAlkatrész'
 CELESTIAL_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &775,000 J Puffer'
+  - '&8⇨ &e⚡ &7750 J/s'
   type:
   - '&7&oGenerátor'
 CHICKEN_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oAlkatrész'
 COAL_SINGULARITY:
   type:
   - '&7&oNyersanyag'
 COBBLE_PRESS:
+  stats:
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oGép'
 COMPRESSED_COBBLESTONE_1:
@@ -107,15 +131,21 @@ COPPER_SINGULARITY:
   type:
   - '&7&oNyersanyag'
 COW_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oAlkatrész'
 CREEPER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oAlkatrész'
 DATA_INFUSER:
   type:
   - '&7&oGép'
 DECOMPRESSOR:
+  stats:
+  - '&8⇨ &e⚡ &760 J/s'
   type:
   - '&7&oGép'
 DIAMOND_SINGULARITY:
@@ -134,9 +164,13 @@ EMPTY_DATA_CARD:
   type:
   - '&7&oAlkatrész'
 ENDERMEN_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oAlkatrész'
 ENDER_DRAGON_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &79,000 J/s'
   type:
   - '&7&oAlkatrész'
 ENDER_FLAME:
@@ -146,6 +180,8 @@ END_ESSENCE:
   type:
   - '&7&oNyersanyag'
 EXTREME_FREEZER:
+  stats:
+  - '&8⇨ &e⚡ &790 J/s'
   type:
   - '&7&oGép'
 FORTUNE_SINGULARITY:
@@ -155,18 +191,28 @@ GEAR_TRANSFORMER:
   type:
   - '&7&oGép'
 GEOTHERMAL_GENERATOR:
+  stats:
+  - '&8⇨ &e⚡ &73,500 J Puffer'
+  - '&8⇨ &e⚡ &735 J/s'
   type:
   - '&7&oGenerátor'
 GEO_QUARRY:
+  stats:
+  - '&8⇨ &e⚡ &7450 J/s'
   type:
   - '&7&oGép'
 GOLD_SINGULARITY:
   type:
   - '&7&oNyersanyag'
 GUARDIAN_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oAlkatrész'
 HYDRO_GENERATOR:
+  stats:
+  - '&8⇨ &e⚡ &7500 J Puffer'
+  - '&8⇨ &e⚡ &75 J/s'
   type:
   - '&7&oGenerátor'
 INFINITE_INGOT:
@@ -179,6 +225,9 @@ INFINITE_MACHINE_CORE:
   type:
   - '&7&oAlkatrész'
 INFINITE_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &76,000,000 J Puffer'
+  - '&8⇨ &e⚡ &760,000 J/s'
   type:
   - '&7&oGenerátor'
 INFINITE_VOID_HARVESTER:
@@ -242,6 +291,9 @@ INFINITY_QUARRY:
   type:
   - '&7&oGép'
 INFINITY_REACTOR:
+  stats:
+  - '&8⇨ &e⚡ &7120,000,000 J Puffer'
+  - '&8⇨ &e⚡ &7120,000 J/s'
   type:
   - '&7&oGenerátor'
 INFINITY_SHIELD:
@@ -266,6 +318,8 @@ INGOT_FORMER:
   type:
   - '&7&oGép'
 IRON_GOLEM_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oAlkatrész'
 IRON_SINGULARITY:
@@ -290,6 +344,8 @@ MAGIC_SINGULARITY:
   type:
   - '&7&oNyersanyag'
 MAGMA_CUBE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oAlkatrész'
 MAGNESIUM_SINGULARITY:
@@ -308,6 +364,9 @@ METAL_SINGULARITY:
   type:
   - '&7&oNyersanyag'
 MOB_SIMULATION_CHAMBER:
+  stats:
+  - '&8⇨ &e⚡ &715,000 J Puffer'
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oGép'
 MYTHRIL:
@@ -317,6 +376,8 @@ NETHERITE_SINGULARITY:
   type:
   - '&7&oNyersanyag'
 POWERED_BEDROCK:
+  stats:
+  - '&8⇨ &e⚡ &710,000 J/s'
   type:
   - '&7&oGép'
 QUARRY_OSCILLATOR_DIAMOND:
@@ -341,21 +402,31 @@ REDSTONE_SINGULARITY:
   type:
   - '&7&oNyersanyag'
 REINFORCED_GEOTHERMAL_GENERATOR:
+  stats:
+  - '&8⇨ &e⚡ &721,000 J Puffer'
+  - '&8⇨ &e⚡ &7210 J/s'
   type:
   - '&7&oGenerátor'
 REINFORCED_HYDRO_GENERATOR:
+  stats:
+  - '&8⇨ &e⚡ &74,500 J Puffer'
+  - '&8⇨ &e⚡ &745 J/s'
   type:
   - '&7&oGenerátor'
 REINFORCED_STORAGE:
   type:
   - '&7&oGép'
 REINFORCED_STRAINER:
+  stats:
+  - '&8⇨ &b⚡ &7Sebesség: &b20.0x'
   type:
   - '&7&oAlkatrész'
 RESOURCE_SYNTHESIZER:
   type:
   - '&7&oGép'
 SHEEP_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oAlkatrész'
 SILVER_SINGULARITY:
@@ -365,15 +436,23 @@ SINGULARITY_CONSTRUCTOR:
   type:
   - '&7&oGép'
 SKELETON_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oAlkatrész'
 SLIME_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oAlkatrész'
 SPIDER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oAlkatrész'
 STONEWORKS_FACTORY:
+  stats:
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oGép'
 STORAGE_FORGE:
@@ -389,12 +468,16 @@ TITANIUM:
   type:
   - '&7&oNyersanyag'
 URANIUM_EXTRACTOR:
+  stats:
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oGép'
 VEIN_MINER_RUNE:
   type:
   - '&7&oKütyü'
 VILLAGER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oAlkatrész'
 VOID_BIT:
@@ -413,6 +496,9 @@ VOID_INGOT:
   type:
   - '&7&oNyersanyag'
 VOID_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &7300,000 J Puffer'
+  - '&8⇨ &e⚡ &73,000 J/s'
   type:
   - '&7&oGenerátor'
 VOID_QUARRY:
@@ -422,17 +508,25 @@ VOID_STORAGE:
   type:
   - '&7&oGép'
 WITCH_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oAlkatrész'
 WITHER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &74,500 J/s'
   type:
   - '&7&oAlkatrész'
 WITHER_SKELETON_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oAlkatrész'
 ZINC_SINGULARITY:
   type:
   - '&7&oNyersanyag'
 ZOMBIE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oAlkatrész'

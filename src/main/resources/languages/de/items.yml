@@ -28,10 +28,16 @@ ADVANCED_GEO_MINER:
   - '&7&oMaschine'
 ADVANCED_NETHER_STAR_REACTOR:
   name: '&cFortgeschrittener Netherstern-Reaktor'
+  stats:
+  - '&8⇨ &e⚡ &790,000 J Puffer'
+  - '&8⇨ &e⚡ &71,800 J/s'
   type:
   - '&7&oGenerator'
 ADVANCED_PANEL:
   name: '&cFortgeschrittenes Solarpanel'
+  stats:
+  - '&8⇨ &e⚡ &715,000 J Puffer'
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oGenerator'
 ADVANCED_QUARRY:
@@ -48,6 +54,8 @@ ADVANCED_STORAGE:
   - '&7&oMaschine'
 ADVANCED_STRAINER:
   name: '&cFortgeschrittenes Sieb'
+  stats:
+  - '&8⇨ &b⚡ &7Geschwindigkeit: &b4.0x'
   type:
   - '&7&oKomponente'
 ADVANCED_TREE_GROWER:
@@ -72,6 +80,9 @@ BASIC_OBSIDIAN_GEN:
   - '&7&oMaschine'
 BASIC_PANEL:
   name: '&9Einfaches Solarpanel'
+  stats:
+  - '&8⇨ &e⚡ &7900 J Puffer'
+  - '&8⇨ &e⚡ &79 J/s'
   type:
   - '&7&oGenerator'
 BASIC_QUARRY:
@@ -84,6 +95,8 @@ BASIC_STORAGE:
   - '&7&oMaschine'
 BASIC_STRAINER:
   name: '&9Einfaches Sieb'
+  stats:
+  - '&8⇨ &b⚡ &7Geschwindigkeit: &b1.0x'
   type:
   - '&7&oKomponente'
 BASIC_TREE_GROWER:
@@ -96,18 +109,27 @@ BASIC_VIRTUAL_FARM:
   - '&7&oMaschine'
 BEE_DATA_CARD:
   name: '&bBiene-Datenkarte'
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oKomponente'
 BLAZE_DATA_CARD:
   name: '&bLohe-Datenkarte'
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oKomponente'
 CELESTIAL_PANEL:
   name: '&eHimmelspanel'
+  stats:
+  - '&8⇨ &e⚡ &775,000 J Puffer'
+  - '&8⇨ &e⚡ &7750 J/s'
   type:
   - '&7&oGenerator'
 CHICKEN_DATA_CARD:
   name: '&bHuhn-Datenkarte'
+  stats:
+  - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oKomponente'
 COAL_SINGULARITY:
@@ -116,6 +138,8 @@ COAL_SINGULARITY:
   - '&7&oRohstoff'
 COBBLE_PRESS:
   name: '&8Kopfsteinpresse'
+  stats:
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oMaschine'
 COMPRESSED_COBBLESTONE_1:
@@ -144,10 +168,14 @@ COPPER_SINGULARITY:
   - '&7&oRohstoff'
 COW_DATA_CARD:
   name: '&bKuh-Datenkarte'
+  stats:
+  - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oKomponente'
 CREEPER_DATA_CARD:
   name: '&bCreeper-Datenkarte'
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oKomponente'
 DATA_INFUSER:
@@ -156,6 +184,8 @@ DATA_INFUSER:
   - '&7&oMaschine'
 DECOMPRESSOR:
   name: '&7Dekompressor'
+  stats:
+  - '&8⇨ &e⚡ &760 J/s'
   type:
   - '&7&oMaschine'
 DIAMOND_SINGULARITY:
@@ -180,10 +210,14 @@ EMPTY_DATA_CARD:
   - '&7&oKomponente'
 ENDERMEN_DATA_CARD:
   name: '&bEnderman-Datenkarte'
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oKomponente'
 ENDER_DRAGON_DATA_CARD:
   name: '&bEnderdrache-Datenkarte'
+  stats:
+  - '&8⇨ &e⚡ &79,000 J/s'
   type:
   - '&7&oKomponente'
 ENDER_FLAME:
@@ -196,6 +230,8 @@ END_ESSENCE:
   - '&7&oRohstoff'
 EXTREME_FREEZER:
   name: '&bExtremer Gefrierer'
+  stats:
+  - '&8⇨ &e⚡ &790 J/s'
   type:
   - '&7&oMaschine'
 FORTUNE_SINGULARITY:
@@ -208,10 +244,15 @@ GEAR_TRANSFORMER:
   - '&7&oMaschine'
 GEOTHERMAL_GENERATOR:
   name: '&cGeothermalgenerator'
+  stats:
+  - '&8⇨ &e⚡ &73,500 J Puffer'
+  - '&8⇨ &e⚡ &735 J/s'
   type:
   - '&7&oGenerator'
 GEO_QUARRY:
   name: '&fGeo-Steinbruch'
+  stats:
+  - '&8⇨ &e⚡ &7450 J/s'
   type:
   - '&7&oMaschine'
 GOLD_SINGULARITY:
@@ -220,10 +261,15 @@ GOLD_SINGULARITY:
   - '&7&oRohstoff'
 GUARDIAN_DATA_CARD:
   name: '&bWächter-Datenkarte'
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oKomponente'
 HYDRO_GENERATOR:
   name: '&9Hydro-Generator'
+  stats:
+  - '&8⇨ &e⚡ &7500 J Puffer'
+  - '&8⇨ &e⚡ &75 J/s'
   type:
   - '&7&oGenerator'
 INFINITE_INGOT:
@@ -240,6 +286,9 @@ INFINITE_MACHINE_CORE:
   - '&7&oKomponente'
 INFINITE_PANEL:
   name: '&bUnendlichkeitspanel'
+  stats:
+  - '&8⇨ &e⚡ &76,000,000 J Puffer'
+  - '&8⇨ &e⚡ &760,000 J/s'
   type:
   - '&7&oGenerator'
 INFINITE_VOID_HARVESTER:
@@ -324,6 +373,9 @@ INFINITY_QUARRY:
   - '&7&oMaschine'
 INFINITY_REACTOR:
   name: '&bUnendlichkeitsreaktor'
+  stats:
+  - '&8⇨ &e⚡ &7120,000,000 J Puffer'
+  - '&8⇨ &e⚡ &7120,000 J/s'
   type:
   - '&7&oGenerator'
 INFINITY_SHIELD:
@@ -356,6 +408,8 @@ INGOT_FORMER:
   - '&7&oMaschine'
 IRON_GOLEM_DATA_CARD:
   name: '&bEisengolem-Datenkarte'
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oKomponente'
 IRON_SINGULARITY:
@@ -388,6 +442,8 @@ MAGIC_SINGULARITY:
   - '&7&oRohstoff'
 MAGMA_CUBE_DATA_CARD:
   name: '&bMagmawürfel-Datenkarte'
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oKomponente'
 MAGNESIUM_SINGULARITY:
@@ -412,6 +468,9 @@ METAL_SINGULARITY:
   - '&7&oRohstoff'
 MOB_SIMULATION_CHAMBER:
   name: '&8Mob-Simulationskammer'
+  stats:
+  - '&8⇨ &e⚡ &715,000 J Puffer'
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oMaschine'
 MYTHRIL:
@@ -424,6 +483,8 @@ NETHERITE_SINGULARITY:
   - '&7&oRohstoff'
 POWERED_BEDROCK:
   name: '&4Energiegeladenes Grundgestein'
+  stats:
+  - '&8⇨ &e⚡ &710,000 J/s'
   type:
   - '&7&oMaschine'
 QUARRY_OSCILLATOR_DIAMOND:
@@ -456,10 +517,16 @@ REDSTONE_SINGULARITY:
   - '&7&oRohstoff'
 REINFORCED_GEOTHERMAL_GENERATOR:
   name: '&fVerstärkter &cGeothermal-Gen'
+  stats:
+  - '&8⇨ &e⚡ &721,000 J Puffer'
+  - '&8⇨ &e⚡ &7210 J/s'
   type:
   - '&7&oGenerator'
 REINFORCED_HYDRO_GENERATOR:
   name: '&fVerstärkter &9Hydro-Gen'
+  stats:
+  - '&8⇨ &e⚡ &74,500 J Puffer'
+  - '&8⇨ &e⚡ &745 J/s'
   type:
   - '&7&oGenerator'
 REINFORCED_STORAGE:
@@ -468,6 +535,8 @@ REINFORCED_STORAGE:
   - '&7&oMaschine'
 REINFORCED_STRAINER:
   name: '&fVerstärktes Sieb'
+  stats:
+  - '&8⇨ &b⚡ &7Geschwindigkeit: &b20.0x'
   type:
   - '&7&oKomponente'
 RESOURCE_SYNTHESIZER:
@@ -476,6 +545,8 @@ RESOURCE_SYNTHESIZER:
   - '&7&oMaschine'
 SHEEP_DATA_CARD:
   name: '&bSchaf-Datenkarte'
+  stats:
+  - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oKomponente'
 SILVER_SINGULARITY:
@@ -488,18 +559,26 @@ SINGULARITY_CONSTRUCTOR:
   - '&7&oMaschine'
 SKELETON_DATA_CARD:
   name: '&bSkelett-Datenkarte'
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oKomponente'
 SLIME_DATA_CARD:
   name: '&bSchleim-Datenkarte'
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oKomponente'
 SPIDER_DATA_CARD:
   name: '&bSpinne-Datenkarte'
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oKomponente'
 STONEWORKS_FACTORY:
   name: '&8Steinwerk-Fabrik'
+  stats:
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oMaschine'
 STORAGE_FORGE:
@@ -520,6 +599,8 @@ TITANIUM:
   - '&7&oRohstoff'
 URANIUM_EXTRACTOR:
   name: '&aUranextraktor'
+  stats:
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oMaschine'
 VEIN_MINER_RUNE:
@@ -528,6 +609,8 @@ VEIN_MINER_RUNE:
   - '&7&oGadget'
 VILLAGER_DATA_CARD:
   name: '&bDorfbewohner-Datenkarte'
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oKomponente'
 VOID_BIT:
@@ -552,6 +635,9 @@ VOID_INGOT:
   - '&7&oRohstoff'
 VOID_PANEL:
   name: '&8Leere-Panel'
+  stats:
+  - '&8⇨ &e⚡ &7300,000 J Puffer'
+  - '&8⇨ &e⚡ &73,000 J/s'
   type:
   - '&7&oGenerator'
 VOID_QUARRY:
@@ -564,14 +650,20 @@ VOID_STORAGE:
   - '&7&oMaschine'
 WITCH_DATA_CARD:
   name: '&bHexe-Datenkarte'
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oKomponente'
 WITHER_DATA_CARD:
   name: '&bWither-Datenkarte'
+  stats:
+  - '&8⇨ &e⚡ &74,500 J/s'
   type:
   - '&7&oKomponente'
 WITHER_SKELETON_DATA_CARD:
   name: '&bWitherskelett-Datenkarte'
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oKomponente'
 ZINC_SINGULARITY:
@@ -580,5 +672,7 @@ ZINC_SINGULARITY:
   - '&7&oRohstoff'
 ZOMBIE_DATA_CARD:
   name: '&bZombie-Datenkarte'
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oKomponente'

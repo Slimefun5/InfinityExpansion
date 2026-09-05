@@ -20,9 +20,15 @@ ADVANCED_GEO_MINER:
   type:
   - '&7&oเครื่องจักร'
 ADVANCED_NETHER_STAR_REACTOR:
+  stats:
+  - '&8⇨ &e⚡ &7บัฟเฟอร์ 90,000 J'
+  - '&8⇨ &e⚡ &71,800 J/s'
   type:
   - '&7&oเครื่องกำเนิดไฟฟ้า'
 ADVANCED_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &7บัฟเฟอร์ 15,000 J'
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oเครื่องกำเนิดไฟฟ้า'
 ADVANCED_QUARRY:
@@ -35,6 +41,8 @@ ADVANCED_STORAGE:
   type:
   - '&7&oเครื่องจักร'
 ADVANCED_STRAINER:
+  stats:
+  - '&8⇨ &b⚡ &7ความเร็ว: &b4.0x'
   type:
   - '&7&oส่วนประกอบ'
 ADVANCED_TREE_GROWER:
@@ -53,6 +61,9 @@ BASIC_OBSIDIAN_GEN:
   type:
   - '&7&oเครื่องจักร'
 BASIC_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &7บัฟเฟอร์ 900 J'
+  - '&8⇨ &e⚡ &79 J/s'
   type:
   - '&7&oเครื่องกำเนิดไฟฟ้า'
 BASIC_QUARRY:
@@ -62,6 +73,8 @@ BASIC_STORAGE:
   type:
   - '&7&oเครื่องจักร'
 BASIC_STRAINER:
+  stats:
+  - '&8⇨ &b⚡ &7ความเร็ว: &b1.0x'
   type:
   - '&7&oส่วนประกอบ'
 BASIC_TREE_GROWER:
@@ -71,21 +84,32 @@ BASIC_VIRTUAL_FARM:
   type:
   - '&7&oเครื่องจักร'
 BEE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oส่วนประกอบ'
 BLAZE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oส่วนประกอบ'
 CELESTIAL_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &7บัฟเฟอร์ 75,000 J'
+  - '&8⇨ &e⚡ &7750 J/s'
   type:
   - '&7&oเครื่องกำเนิดไฟฟ้า'
 CHICKEN_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oส่วนประกอบ'
 COAL_SINGULARITY:
   type:
   - '&7&oทรัพยากร'
 COBBLE_PRESS:
+  stats:
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oเครื่องจักร'
 COMPRESSED_COBBLESTONE_1:
@@ -107,15 +131,21 @@ COPPER_SINGULARITY:
   type:
   - '&7&oทรัพยากร'
 COW_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oส่วนประกอบ'
 CREEPER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oส่วนประกอบ'
 DATA_INFUSER:
   type:
   - '&7&oเครื่องจักร'
 DECOMPRESSOR:
+  stats:
+  - '&8⇨ &e⚡ &760 J/s'
   type:
   - '&7&oเครื่องจักร'
 DIAMOND_SINGULARITY:
@@ -134,9 +164,13 @@ EMPTY_DATA_CARD:
   type:
   - '&7&oส่วนประกอบ'
 ENDERMEN_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oส่วนประกอบ'
 ENDER_DRAGON_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &79,000 J/s'
   type:
   - '&7&oส่วนประกอบ'
 ENDER_FLAME:
@@ -146,6 +180,8 @@ END_ESSENCE:
   type:
   - '&7&oทรัพยากร'
 EXTREME_FREEZER:
+  stats:
+  - '&8⇨ &e⚡ &790 J/s'
   type:
   - '&7&oเครื่องจักร'
 FORTUNE_SINGULARITY:
@@ -155,18 +191,28 @@ GEAR_TRANSFORMER:
   type:
   - '&7&oเครื่องจักร'
 GEOTHERMAL_GENERATOR:
+  stats:
+  - '&8⇨ &e⚡ &7บัฟเฟอร์ 3,500 J'
+  - '&8⇨ &e⚡ &735 J/s'
   type:
   - '&7&oเครื่องกำเนิดไฟฟ้า'
 GEO_QUARRY:
+  stats:
+  - '&8⇨ &e⚡ &7450 J/s'
   type:
   - '&7&oเครื่องจักร'
 GOLD_SINGULARITY:
   type:
   - '&7&oทรัพยากร'
 GUARDIAN_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oส่วนประกอบ'
 HYDRO_GENERATOR:
+  stats:
+  - '&8⇨ &e⚡ &7บัฟเฟอร์ 500 J'
+  - '&8⇨ &e⚡ &75 J/s'
   type:
   - '&7&oเครื่องกำเนิดไฟฟ้า'
 INFINITE_INGOT:
@@ -179,6 +225,9 @@ INFINITE_MACHINE_CORE:
   type:
   - '&7&oส่วนประกอบ'
 INFINITE_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &7บัฟเฟอร์ 6,000,000 J'
+  - '&8⇨ &e⚡ &760,000 J/s'
   type:
   - '&7&oเครื่องกำเนิดไฟฟ้า'
 INFINITE_VOID_HARVESTER:
@@ -242,6 +291,9 @@ INFINITY_QUARRY:
   type:
   - '&7&oเครื่องจักร'
 INFINITY_REACTOR:
+  stats:
+  - '&8⇨ &e⚡ &7บัฟเฟอร์ 120,000,000 J'
+  - '&8⇨ &e⚡ &7120,000 J/s'
   type:
   - '&7&oเครื่องกำเนิดไฟฟ้า'
 INFINITY_SHIELD:
@@ -266,6 +318,8 @@ INGOT_FORMER:
   type:
   - '&7&oเครื่องจักร'
 IRON_GOLEM_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oส่วนประกอบ'
 IRON_SINGULARITY:
@@ -290,6 +344,8 @@ MAGIC_SINGULARITY:
   type:
   - '&7&oทรัพยากร'
 MAGMA_CUBE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oส่วนประกอบ'
 MAGNESIUM_SINGULARITY:
@@ -308,6 +364,9 @@ METAL_SINGULARITY:
   type:
   - '&7&oทรัพยากร'
 MOB_SIMULATION_CHAMBER:
+  stats:
+  - '&8⇨ &e⚡ &7บัฟเฟอร์ 15,000 J'
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oเครื่องจักร'
 MYTHRIL:
@@ -317,6 +376,8 @@ NETHERITE_SINGULARITY:
   type:
   - '&7&oทรัพยากร'
 POWERED_BEDROCK:
+  stats:
+  - '&8⇨ &e⚡ &710,000 J/s'
   type:
   - '&7&oเครื่องจักร'
 QUARRY_OSCILLATOR_DIAMOND:
@@ -341,21 +402,31 @@ REDSTONE_SINGULARITY:
   type:
   - '&7&oทรัพยากร'
 REINFORCED_GEOTHERMAL_GENERATOR:
+  stats:
+  - '&8⇨ &e⚡ &7บัฟเฟอร์ 21,000 J'
+  - '&8⇨ &e⚡ &7210 J/s'
   type:
   - '&7&oเครื่องกำเนิดไฟฟ้า'
 REINFORCED_HYDRO_GENERATOR:
+  stats:
+  - '&8⇨ &e⚡ &7บัฟเฟอร์ 4,500 J'
+  - '&8⇨ &e⚡ &745 J/s'
   type:
   - '&7&oเครื่องกำเนิดไฟฟ้า'
 REINFORCED_STORAGE:
   type:
   - '&7&oเครื่องจักร'
 REINFORCED_STRAINER:
+  stats:
+  - '&8⇨ &b⚡ &7ความเร็ว: &b20.0x'
   type:
   - '&7&oส่วนประกอบ'
 RESOURCE_SYNTHESIZER:
   type:
   - '&7&oเครื่องจักร'
 SHEEP_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oส่วนประกอบ'
 SILVER_SINGULARITY:
@@ -365,15 +436,23 @@ SINGULARITY_CONSTRUCTOR:
   type:
   - '&7&oเครื่องจักร'
 SKELETON_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oส่วนประกอบ'
 SLIME_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oส่วนประกอบ'
 SPIDER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oส่วนประกอบ'
 STONEWORKS_FACTORY:
+  stats:
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oเครื่องจักร'
 STORAGE_FORGE:
@@ -389,12 +468,16 @@ TITANIUM:
   type:
   - '&7&oทรัพยากร'
 URANIUM_EXTRACTOR:
+  stats:
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oเครื่องจักร'
 VEIN_MINER_RUNE:
   type:
   - '&7&oอุปกรณ์'
 VILLAGER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oส่วนประกอบ'
 VOID_BIT:
@@ -413,6 +496,9 @@ VOID_INGOT:
   type:
   - '&7&oทรัพยากร'
 VOID_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &7บัฟเฟอร์ 300,000 J'
+  - '&8⇨ &e⚡ &73,000 J/s'
   type:
   - '&7&oเครื่องกำเนิดไฟฟ้า'
 VOID_QUARRY:
@@ -422,17 +508,25 @@ VOID_STORAGE:
   type:
   - '&7&oเครื่องจักร'
 WITCH_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oส่วนประกอบ'
 WITHER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &74,500 J/s'
   type:
   - '&7&oส่วนประกอบ'
 WITHER_SKELETON_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oส่วนประกอบ'
 ZINC_SINGULARITY:
   type:
   - '&7&oทรัพยากร'
 ZOMBIE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oส่วนประกอบ'

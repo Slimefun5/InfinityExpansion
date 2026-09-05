@@ -20,9 +20,15 @@ ADVANCED_GEO_MINER:
   type:
   - '&7&oماشین'
 ADVANCED_NETHER_STAR_REACTOR:
+  stats:
+  - '&8⇨ &e⚡ &7بافر 90,000 ژول'
+  - '&8⇨ &e⚡ &71,800 J/s'
   type:
   - '&7&oژنراتور'
 ADVANCED_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &7بافر 15,000 ژول'
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oژنراتور'
 ADVANCED_QUARRY:
@@ -35,6 +41,8 @@ ADVANCED_STORAGE:
   type:
   - '&7&oماشین'
 ADVANCED_STRAINER:
+  stats:
+  - '&8⇨ &b⚡ &7سرعت: &b4.0x'
   type:
   - '&7&oقطعه'
 ADVANCED_TREE_GROWER:
@@ -53,6 +61,9 @@ BASIC_OBSIDIAN_GEN:
   type:
   - '&7&oماشین'
 BASIC_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &7بافر 900 ژول'
+  - '&8⇨ &e⚡ &79 J/s'
   type:
   - '&7&oژنراتور'
 BASIC_QUARRY:
@@ -62,6 +73,8 @@ BASIC_STORAGE:
   type:
   - '&7&oماشین'
 BASIC_STRAINER:
+  stats:
+  - '&8⇨ &b⚡ &7سرعت: &b1.0x'
   type:
   - '&7&oقطعه'
 BASIC_TREE_GROWER:
@@ -71,21 +84,32 @@ BASIC_VIRTUAL_FARM:
   type:
   - '&7&oماشین'
 BEE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oقطعه'
 BLAZE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oقطعه'
 CELESTIAL_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &7بافر 75,000 ژول'
+  - '&8⇨ &e⚡ &7750 J/s'
   type:
   - '&7&oژنراتور'
 CHICKEN_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oقطعه'
 COAL_SINGULARITY:
   type:
   - '&7&oمنبع'
 COBBLE_PRESS:
+  stats:
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oماشین'
 COMPRESSED_COBBLESTONE_1:
@@ -107,15 +131,21 @@ COPPER_SINGULARITY:
   type:
   - '&7&oمنبع'
 COW_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oقطعه'
 CREEPER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oقطعه'
 DATA_INFUSER:
   type:
   - '&7&oماشین'
 DECOMPRESSOR:
+  stats:
+  - '&8⇨ &e⚡ &760 J/s'
   type:
   - '&7&oماشین'
 DIAMOND_SINGULARITY:
@@ -134,9 +164,13 @@ EMPTY_DATA_CARD:
   type:
   - '&7&oقطعه'
 ENDERMEN_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oقطعه'
 ENDER_DRAGON_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &79,000 J/s'
   type:
   - '&7&oقطعه'
 ENDER_FLAME:
@@ -146,6 +180,8 @@ END_ESSENCE:
   type:
   - '&7&oمنبع'
 EXTREME_FREEZER:
+  stats:
+  - '&8⇨ &e⚡ &790 J/s'
   type:
   - '&7&oماشین'
 FORTUNE_SINGULARITY:
@@ -155,18 +191,28 @@ GEAR_TRANSFORMER:
   type:
   - '&7&oماشین'
 GEOTHERMAL_GENERATOR:
+  stats:
+  - '&8⇨ &e⚡ &7بافر 3,500 ژول'
+  - '&8⇨ &e⚡ &735 J/s'
   type:
   - '&7&oژنراتور'
 GEO_QUARRY:
+  stats:
+  - '&8⇨ &e⚡ &7450 J/s'
   type:
   - '&7&oماشین'
 GOLD_SINGULARITY:
   type:
   - '&7&oمنبع'
 GUARDIAN_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oقطعه'
 HYDRO_GENERATOR:
+  stats:
+  - '&8⇨ &e⚡ &7بافر 500 ژول'
+  - '&8⇨ &e⚡ &75 J/s'
   type:
   - '&7&oژنراتور'
 INFINITE_INGOT:
@@ -179,6 +225,9 @@ INFINITE_MACHINE_CORE:
   type:
   - '&7&oقطعه'
 INFINITE_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &7بافر 6,000,000 ژول'
+  - '&8⇨ &e⚡ &760,000 J/s'
   type:
   - '&7&oژنراتور'
 INFINITE_VOID_HARVESTER:
@@ -242,6 +291,9 @@ INFINITY_QUARRY:
   type:
   - '&7&oماشین'
 INFINITY_REACTOR:
+  stats:
+  - '&8⇨ &e⚡ &7بافر 120,000,000 ژول'
+  - '&8⇨ &e⚡ &7120,000 J/s'
   type:
   - '&7&oژنراتور'
 INFINITY_SHIELD:
@@ -266,6 +318,8 @@ INGOT_FORMER:
   type:
   - '&7&oماشین'
 IRON_GOLEM_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oقطعه'
 IRON_SINGULARITY:
@@ -290,6 +344,8 @@ MAGIC_SINGULARITY:
   type:
   - '&7&oمنبع'
 MAGMA_CUBE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oقطعه'
 MAGNESIUM_SINGULARITY:
@@ -308,6 +364,9 @@ METAL_SINGULARITY:
   type:
   - '&7&oمنبع'
 MOB_SIMULATION_CHAMBER:
+  stats:
+  - '&8⇨ &e⚡ &7بافر 15,000 ژول'
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oماشین'
 MYTHRIL:
@@ -317,6 +376,8 @@ NETHERITE_SINGULARITY:
   type:
   - '&7&oمنبع'
 POWERED_BEDROCK:
+  stats:
+  - '&8⇨ &e⚡ &710,000 J/s'
   type:
   - '&7&oماشین'
 QUARRY_OSCILLATOR_DIAMOND:
@@ -341,21 +402,31 @@ REDSTONE_SINGULARITY:
   type:
   - '&7&oمنبع'
 REINFORCED_GEOTHERMAL_GENERATOR:
+  stats:
+  - '&8⇨ &e⚡ &7بافر 21,000 ژول'
+  - '&8⇨ &e⚡ &7210 J/s'
   type:
   - '&7&oژنراتور'
 REINFORCED_HYDRO_GENERATOR:
+  stats:
+  - '&8⇨ &e⚡ &7بافر 4,500 ژول'
+  - '&8⇨ &e⚡ &745 J/s'
   type:
   - '&7&oژنراتور'
 REINFORCED_STORAGE:
   type:
   - '&7&oماشین'
 REINFORCED_STRAINER:
+  stats:
+  - '&8⇨ &b⚡ &7سرعت: &b20.0x'
   type:
   - '&7&oقطعه'
 RESOURCE_SYNTHESIZER:
   type:
   - '&7&oماشین'
 SHEEP_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oقطعه'
 SILVER_SINGULARITY:
@@ -365,15 +436,23 @@ SINGULARITY_CONSTRUCTOR:
   type:
   - '&7&oماشین'
 SKELETON_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oقطعه'
 SLIME_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oقطعه'
 SPIDER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oقطعه'
 STONEWORKS_FACTORY:
+  stats:
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oماشین'
 STORAGE_FORGE:
@@ -389,12 +468,16 @@ TITANIUM:
   type:
   - '&7&oمنبع'
 URANIUM_EXTRACTOR:
+  stats:
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oماشین'
 VEIN_MINER_RUNE:
   type:
   - '&7&oابزارک'
 VILLAGER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oقطعه'
 VOID_BIT:
@@ -413,6 +496,9 @@ VOID_INGOT:
   type:
   - '&7&oمنبع'
 VOID_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &7بافر 300,000 ژول'
+  - '&8⇨ &e⚡ &73,000 J/s'
   type:
   - '&7&oژنراتور'
 VOID_QUARRY:
@@ -422,17 +508,25 @@ VOID_STORAGE:
   type:
   - '&7&oماشین'
 WITCH_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oقطعه'
 WITHER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &74,500 J/s'
   type:
   - '&7&oقطعه'
 WITHER_SKELETON_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oقطعه'
 ZINC_SINGULARITY:
   type:
   - '&7&oمنبع'
 ZOMBIE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oقطعه'

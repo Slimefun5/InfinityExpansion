@@ -20,9 +20,15 @@ ADVANCED_GEO_MINER:
   type:
   - '&7&oΜηχανή'
 ADVANCED_NETHER_STAR_REACTOR:
+  stats:
+  - '&8⇨ &e⚡ &790,000 J Απόθεμα'
+  - '&8⇨ &e⚡ &71,800 J/s'
   type:
   - '&7&oΓεννήτρια'
 ADVANCED_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &715,000 J Απόθεμα'
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oΓεννήτρια'
 ADVANCED_QUARRY:
@@ -35,6 +41,8 @@ ADVANCED_STORAGE:
   type:
   - '&7&oΜηχανή'
 ADVANCED_STRAINER:
+  stats:
+  - '&8⇨ &b⚡ &7Ταχύτητα: &b4.0x'
   type:
   - '&7&oΕξάρτημα'
 ADVANCED_TREE_GROWER:
@@ -53,6 +61,9 @@ BASIC_OBSIDIAN_GEN:
   type:
   - '&7&oΜηχανή'
 BASIC_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &7900 J Απόθεμα'
+  - '&8⇨ &e⚡ &79 J/s'
   type:
   - '&7&oΓεννήτρια'
 BASIC_QUARRY:
@@ -62,6 +73,8 @@ BASIC_STORAGE:
   type:
   - '&7&oΜηχανή'
 BASIC_STRAINER:
+  stats:
+  - '&8⇨ &b⚡ &7Ταχύτητα: &b1.0x'
   type:
   - '&7&oΕξάρτημα'
 BASIC_TREE_GROWER:
@@ -71,21 +84,32 @@ BASIC_VIRTUAL_FARM:
   type:
   - '&7&oΜηχανή'
 BEE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oΕξάρτημα'
 BLAZE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oΕξάρτημα'
 CELESTIAL_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &775,000 J Απόθεμα'
+  - '&8⇨ &e⚡ &7750 J/s'
   type:
   - '&7&oΓεννήτρια'
 CHICKEN_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oΕξάρτημα'
 COAL_SINGULARITY:
   type:
   - '&7&oΠόρος'
 COBBLE_PRESS:
+  stats:
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oΜηχανή'
 COMPRESSED_COBBLESTONE_1:
@@ -107,15 +131,21 @@ COPPER_SINGULARITY:
   type:
   - '&7&oΠόρος'
 COW_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oΕξάρτημα'
 CREEPER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oΕξάρτημα'
 DATA_INFUSER:
   type:
   - '&7&oΜηχανή'
 DECOMPRESSOR:
+  stats:
+  - '&8⇨ &e⚡ &760 J/s'
   type:
   - '&7&oΜηχανή'
 DIAMOND_SINGULARITY:
@@ -134,9 +164,13 @@ EMPTY_DATA_CARD:
   type:
   - '&7&oΕξάρτημα'
 ENDERMEN_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oΕξάρτημα'
 ENDER_DRAGON_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &79,000 J/s'
   type:
   - '&7&oΕξάρτημα'
 ENDER_FLAME:
@@ -146,6 +180,8 @@ END_ESSENCE:
   type:
   - '&7&oΠόρος'
 EXTREME_FREEZER:
+  stats:
+  - '&8⇨ &e⚡ &790 J/s'
   type:
   - '&7&oΜηχανή'
 FORTUNE_SINGULARITY:
@@ -155,18 +191,28 @@ GEAR_TRANSFORMER:
   type:
   - '&7&oΜηχανή'
 GEOTHERMAL_GENERATOR:
+  stats:
+  - '&8⇨ &e⚡ &73,500 J Απόθεμα'
+  - '&8⇨ &e⚡ &735 J/s'
   type:
   - '&7&oΓεννήτρια'
 GEO_QUARRY:
+  stats:
+  - '&8⇨ &e⚡ &7450 J/s'
   type:
   - '&7&oΜηχανή'
 GOLD_SINGULARITY:
   type:
   - '&7&oΠόρος'
 GUARDIAN_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oΕξάρτημα'
 HYDRO_GENERATOR:
+  stats:
+  - '&8⇨ &e⚡ &7500 J Απόθεμα'
+  - '&8⇨ &e⚡ &75 J/s'
   type:
   - '&7&oΓεννήτρια'
 INFINITE_INGOT:
@@ -179,6 +225,9 @@ INFINITE_MACHINE_CORE:
   type:
   - '&7&oΕξάρτημα'
 INFINITE_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &76,000,000 J Απόθεμα'
+  - '&8⇨ &e⚡ &760,000 J/s'
   type:
   - '&7&oΓεννήτρια'
 INFINITE_VOID_HARVESTER:
@@ -242,6 +291,9 @@ INFINITY_QUARRY:
   type:
   - '&7&oΜηχανή'
 INFINITY_REACTOR:
+  stats:
+  - '&8⇨ &e⚡ &7120,000,000 J Απόθεμα'
+  - '&8⇨ &e⚡ &7120,000 J/s'
   type:
   - '&7&oΓεννήτρια'
 INFINITY_SHIELD:
@@ -266,6 +318,8 @@ INGOT_FORMER:
   type:
   - '&7&oΜηχανή'
 IRON_GOLEM_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oΕξάρτημα'
 IRON_SINGULARITY:
@@ -290,6 +344,8 @@ MAGIC_SINGULARITY:
   type:
   - '&7&oΠόρος'
 MAGMA_CUBE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oΕξάρτημα'
 MAGNESIUM_SINGULARITY:
@@ -308,6 +364,9 @@ METAL_SINGULARITY:
   type:
   - '&7&oΠόρος'
 MOB_SIMULATION_CHAMBER:
+  stats:
+  - '&8⇨ &e⚡ &715,000 J Απόθεμα'
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oΜηχανή'
 MYTHRIL:
@@ -317,6 +376,8 @@ NETHERITE_SINGULARITY:
   type:
   - '&7&oΠόρος'
 POWERED_BEDROCK:
+  stats:
+  - '&8⇨ &e⚡ &710,000 J/s'
   type:
   - '&7&oΜηχανή'
 QUARRY_OSCILLATOR_DIAMOND:
@@ -341,21 +402,31 @@ REDSTONE_SINGULARITY:
   type:
   - '&7&oΠόρος'
 REINFORCED_GEOTHERMAL_GENERATOR:
+  stats:
+  - '&8⇨ &e⚡ &721,000 J Απόθεμα'
+  - '&8⇨ &e⚡ &7210 J/s'
   type:
   - '&7&oΓεννήτρια'
 REINFORCED_HYDRO_GENERATOR:
+  stats:
+  - '&8⇨ &e⚡ &74,500 J Απόθεμα'
+  - '&8⇨ &e⚡ &745 J/s'
   type:
   - '&7&oΓεννήτρια'
 REINFORCED_STORAGE:
   type:
   - '&7&oΜηχανή'
 REINFORCED_STRAINER:
+  stats:
+  - '&8⇨ &b⚡ &7Ταχύτητα: &b20.0x'
   type:
   - '&7&oΕξάρτημα'
 RESOURCE_SYNTHESIZER:
   type:
   - '&7&oΜηχανή'
 SHEEP_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oΕξάρτημα'
 SILVER_SINGULARITY:
@@ -365,15 +436,23 @@ SINGULARITY_CONSTRUCTOR:
   type:
   - '&7&oΜηχανή'
 SKELETON_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oΕξάρτημα'
 SLIME_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oΕξάρτημα'
 SPIDER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oΕξάρτημα'
 STONEWORKS_FACTORY:
+  stats:
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oΜηχανή'
 STORAGE_FORGE:
@@ -389,12 +468,16 @@ TITANIUM:
   type:
   - '&7&oΠόρος'
 URANIUM_EXTRACTOR:
+  stats:
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oΜηχανή'
 VEIN_MINER_RUNE:
   type:
   - '&7&oΣυσκευή'
 VILLAGER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oΕξάρτημα'
 VOID_BIT:
@@ -413,6 +496,9 @@ VOID_INGOT:
   type:
   - '&7&oΠόρος'
 VOID_PANEL:
+  stats:
+  - '&8⇨ &e⚡ &7300,000 J Απόθεμα'
+  - '&8⇨ &e⚡ &73,000 J/s'
   type:
   - '&7&oΓεννήτρια'
 VOID_QUARRY:
@@ -422,17 +508,25 @@ VOID_STORAGE:
   type:
   - '&7&oΜηχανή'
 WITCH_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oΕξάρτημα'
 WITHER_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &74,500 J/s'
   type:
   - '&7&oΕξάρτημα'
 WITHER_SKELETON_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oΕξάρτημα'
 ZINC_SINGULARITY:
   type:
   - '&7&oΠόρος'
 ZOMBIE_DATA_CARD:
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oΕξάρτημα'
