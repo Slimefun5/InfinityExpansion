@@ -381,7 +381,7 @@ FORTUNE_SINGULARITY:
   - '&7&oIšteklius'
 GEAR_TRANSFORMER:
   description:
-  - '&7Keičia vanilinių įrankių ir įrangos medžiagą'
+  - '&7Keičia standartinių įrankių ir įrangos medžiagą'
   name: '&7Įrangos keitiklis'
   stats:
   - '&8⇨ &e⚡ &712,000 J už panaudojimą'
