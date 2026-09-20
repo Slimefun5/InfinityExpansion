@@ -1,532 +1,1060 @@
 ADAMANTITE:
+  name: '&dAdamantite'
   type:
   - '&7&oResurs'
 ADVANCED_ANVIL:
+  description:
+  - '&7Spaja čarolije alata i opreme i ponekad ih nadograđuje'
+  - '&bRadi sa Slimefun predmetima'
+  name: '&cNapredni nakovanj'
+  stats:
+  - '&8⇨ &e⚡ &7100,000 J po upotrebi'
   type:
   - '&7&oStroj'
 ADVANCED_CHARGER:
+  description:
+  - '&7Brzo puni predmete'
+  name: '&cNapredni punjač'
+  stats:
+  - '&8⇨ &e⚡ &7Brzina: &b30x'
+  - '&8⇨ &e⚡ &7180 J/s'
   type:
   - '&7&oStroj'
 ADVANCED_COBBLE_GEN:
+  description:
+  - '&7Automatski s vremenom stvara kaldrmu'
+  name: '&cNapredni &8generator kaldrme'
+  stats:
+  - '&8⇨ &e⚡ &7Brzina: &b4x'
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oStroj'
 ADVANCED_DISENCHANTER:
+  description:
+  - '&7Automatski prenosi čarolije s predmeta u knjige'
+  name: '&cNapredni odčaravač'
+  stats:
+  - '&8⇨ &e⚡ &7Brzina: &b5x'
+  - '&8⇨ &e⚡ &7180 J/s'
   type:
   - '&7&oStroj'
 ADVANCED_ENCHANTER:
+  description:
+  - '&7Automatski začarava predmete stavljene unutra'
+  name: '&cNapredni začaravač'
+  stats:
+  - '&8⇨ &e⚡ &7Brzina: &b5x'
+  - '&8⇨ &e⚡ &7180 J/s'
   type:
   - '&7&oStroj'
 ADVANCED_GEO_MINER:
+  description:
+  - '&7Brži geo rudar'
+  name: '&cNapredni &fGeo rudar'
+  stats:
+  - '&8⇨ &e⚡ &7Brzina: &b4x'
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oStroj'
 ADVANCED_NETHER_STAR_REACTOR:
+  description:
+  - '&fRadi na Nether zvijezdama'
+  - '&bMora biti okružen vodom'
+  - '&bMora se opskrbljivati ćelijama rashladnog Nether leda'
+  - '&4Obližnjim bićima nanosi učinak Withera'
+  name: '&cNapredni reaktor Nether zvijezde'
   stats:
   - '&8⇨ &e⚡ &790,000 J spremnik'
   - '&8⇨ &e⚡ &71,800 J/s'
   type:
   - '&7&oGenerator'
 ADVANCED_PANEL:
+  description:
+  - '&7Stvara energiju iz sunca'
+  name: '&cNapredni solarni panel'
   stats:
   - '&8⇨ &e⚡ &715,000 J spremnik'
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oGenerator'
 ADVANCED_QUARRY:
+  description:
+  - '&7Automatski kopa rude nadsvijeta i Nethera'
+  name: '&cNapredni kamenolom'
+  stats:
+  - '&8⇨ &e⚡ &7Brzina: &b2x'
+  - '&8⇨ &e⚡ &7900 J/s'
   type:
   - '&7&oStroj'
 ADVANCED_SMELTERY:
+  description:
+  - '&7Brža talionica'
+  name: '&cNapredna &7talionica'
+  stats:
+  - '&8⇨ &e⚡ &7Brzina: &b24x'
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oStroj'
 ADVANCED_STORAGE:
+  description:
+  - '&7Pohranjuje velike količine jedne vrste predmeta'
+  name: '&cNapredna &8jedinica za pohranu'
+  stats:
+  - '&6Kapacitet: &e25,600 &epredmeta'
   type:
   - '&7&oStroj'
 ADVANCED_STRAINER:
+  description:
+  - '&7Skuplja materijale iz tekuće vode'
+  name: '&cNapredno cjedilo'
   stats:
   - '&8⇨ &b⚡ &7Brzina: &b4.0x'
   type:
   - '&7&oKomponenta'
 ADVANCED_TREE_GROWER:
+  description:
+  - '&7Automatski uzgaja, sječe i ponovno sadi stabla'
+  name: '&cNapredni &2uzgajivač stabala'
+  stats:
+  - '&8⇨ &e⚡ &7Brzina: &b5x'
+  - '&8⇨ &e⚡ &7180 J/s'
   type:
   - '&7&oStroj'
 ADVANCED_VIRTUAL_FARM:
+  description:
+  - '&7Automatski uzgaja, žanje i ponovno sadi usjeve'
+  name: '&cNapredna &avirtualna farma'
+  stats:
+  - '&8⇨ &e⚡ &7Brzina: &b5x'
+  - '&8⇨ &e⚡ &790 J/s'
   type:
   - '&7&oStroj'
 ALUMINUM_SINGULARITY:
+  name: '&7Singularitet aluminija'
   type:
   - '&7&oResurs'
 BASIC_COBBLE_GEN:
+  description:
+  - '&7Automatski s vremenom stvara kaldrmu'
+  name: '&9Osnovni &8generator kaldrme'
+  stats:
+  - '&8⇨ &e⚡ &7Brzina: &b1x'
+  - '&8⇨ &e⚡ &724 J/s'
   type:
   - '&7&oStroj'
 BASIC_OBSIDIAN_GEN:
+  description:
+  - '&7Automatski s vremenom stvara opsidijan'
+  name: '&8Generator opsidijana'
+  stats:
+  - '&8⇨ &e⚡ &7Brzina: &b1x'
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oStroj'
 BASIC_PANEL:
+  description:
+  - '&7Stvara energiju iz sunca'
+  name: '&9Osnovni solarni panel'
   stats:
   - '&8⇨ &e⚡ &7900 J spremnik'
   - '&8⇨ &e⚡ &79 J/s'
   type:
   - '&7&oGenerator'
 BASIC_QUARRY:
+  description:
+  - '&7Automatski kopa rude nadsvijeta'
+  name: '&9Osnovni kamenolom'
+  stats:
+  - '&8⇨ &e⚡ &7Brzina: &b1x'
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oStroj'
 BASIC_STORAGE:
+  description:
+  - '&7Pohranjuje velike količine jedne vrste predmeta'
+  name: '&9Osnovna &8jedinica za pohranu'
+  stats:
+  - '&6Kapacitet: &e6,400 &epredmeta'
   type:
   - '&7&oStroj'
 BASIC_STRAINER:
+  description:
+  - '&7Skuplja materijale iz tekuće vode'
+  name: '&9Osnovno cjedilo'
   stats:
   - '&8⇨ &b⚡ &7Brzina: &b1.0x'
   type:
   - '&7&oKomponenta'
 BASIC_TREE_GROWER:
+  description:
+  - '&7Automatski uzgaja, sječe i ponovno sadi stabla'
+  name: '&9Osnovni &2uzgajivač stabala'
+  stats:
+  - '&8⇨ &e⚡ &7Brzina: &b1x'
+  - '&8⇨ &e⚡ &736 J/s'
   type:
   - '&7&oStroj'
 BASIC_VIRTUAL_FARM:
+  description:
+  - '&7Automatski uzgaja, žanje i ponovno sadi usjeve'
+  name: '&9Osnovna &avirtualna farma'
+  stats:
+  - '&8⇨ &e⚡ &7Brzina: &b1x'
+  - '&8⇨ &e⚡ &718 J/s'
   type:
   - '&7&oStroj'
 BEE_DATA_CARD:
+  name: '&bPodatkovna kartica pčele'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oKomponenta'
+  usage:
+  - '&7Stavi u komoru za simulaciju mobova za aktivaciju'
 BLAZE_DATA_CARD:
+  name: '&bPodatkovna kartica blazea'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oKomponenta'
+  usage:
+  - '&7Stavi u komoru za simulaciju mobova za aktivaciju'
 CELESTIAL_PANEL:
+  description:
+  - '&7Stvara energiju iz sunca'
+  name: '&eNebeski panel'
   stats:
   - '&8⇨ &e⚡ &775,000 J spremnik'
   - '&8⇨ &e⚡ &7750 J/s'
   type:
   - '&7&oGenerator'
 CHICKEN_DATA_CARD:
+  name: '&bPodatkovna kartica kokoši'
   stats:
   - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oKomponenta'
+  usage:
+  - '&7Stavi u komoru za simulaciju mobova za aktivaciju'
 COAL_SINGULARITY:
+  name: '&8Singularitet ugljena'
   type:
   - '&7&oResurs'
 COBBLE_PRESS:
+  description:
+  - '&7Učinkovitije komprimira kaldrmu'
+  name: '&8Preša za kaldrmu'
   stats:
   - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oStroj'
 COMPRESSED_COBBLESTONE_1:
+  name: '&7Jednostruko komprimirana kaldrma'
+  stats:
+  - '&89 kaldrme spojeno'
   type:
   - '&7&oResurs'
 COMPRESSED_COBBLESTONE_2:
+  name: '&7Dvostruko komprimirana kaldrma'
+  stats:
+  - '&881 kaldrme spojeno'
   type:
   - '&7&oResurs'
 COMPRESSED_COBBLESTONE_3:
+  name: '&7Trostruko komprimirana kaldrma'
+  stats:
+  - '&8729 kaldrme spojeno'
   type:
   - '&7&oResurs'
 COMPRESSED_COBBLESTONE_4:
+  name: '&7Četverostruko komprimirana kaldrma'
+  stats:
+  - '&86,561 kaldrme spojeno'
   type:
   - '&7&oResurs'
 COMPRESSED_COBBLESTONE_5:
+  name: '&7Peterostruko komprimirana kaldrma'
+  stats:
+  - '&859,049 kaldrme spojeno'
   type:
   - '&7&oResurs'
 COPPER_SINGULARITY:
+  name: '&6Singularitet bakra'
   type:
   - '&7&oResurs'
 COW_DATA_CARD:
+  name: '&bPodatkovna kartica krave'
   stats:
   - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oKomponenta'
+  usage:
+  - '&7Stavi u komoru za simulaciju mobova za aktivaciju'
 CREEPER_DATA_CARD:
+  name: '&bPodatkovna kartica creepera'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oKomponenta'
+  usage:
+  - '&7Stavi u komoru za simulaciju mobova za aktivaciju'
 DATA_INFUSER:
+  description:
+  - '&7Prožima prazne podatkovne kartice predmetima mobova'
+  name: '&8Prožimač podataka mobova'
+  stats:
+  - '&8⇨ &e⚡ &720,000 J po upotrebi'
   type:
   - '&7&oStroj'
 DECOMPRESSOR:
+  description:
+  - '&7Razlaže blokove na osnovni materijal'
+  name: '&7Dekompresor'
   stats:
   - '&8⇨ &e⚡ &760 J/s'
   type:
   - '&7&oStroj'
 DIAMOND_SINGULARITY:
+  name: '&bSingularitet dijamanta'
   type:
   - '&7&oResurs'
 DUST_EXTRACTOR:
+  description:
+  - '&7Pretvara kaldrmu u prahove'
+  name: '&8Ekstraktor praha'
+  stats:
+  - '&8⇨ &e⚡ &7Brzina: &b1x'
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oStroj'
 EARTH_SINGULARITY:
+  name: '&aSingularitet zemlje'
   type:
   - '&7&oResurs'
 EMERALD_SINGULARITY:
+  name: '&aSingularitet smaragda'
   type:
   - '&7&oResurs'
 EMPTY_DATA_CARD:
+  name: '&8Prazna podatkovna kartica'
   type:
   - '&7&oKomponenta'
+  usage:
+  - '&7Prožmi je predmetima moba da je napuniš'
 ENDERMEN_DATA_CARD:
+  name: '&bPodatkovna kartica Endermana'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oKomponenta'
+  usage:
+  - '&7Stavi u komoru za simulaciju mobova za aktivaciju'
 ENDER_DRAGON_DATA_CARD:
+  name: '&bPodatkovna kartica Ender zmaja'
   stats:
   - '&8⇨ &e⚡ &79,000 J/s'
   type:
   - '&7&oKomponenta'
+  usage:
+  - '&7Stavi u komoru za simulaciju mobova za aktivaciju'
 ENDER_FLAME:
+  name: '&cEnder plamen'
   type:
   - '&7&oKomponenta'
 END_ESSENCE:
+  description:
+  - '&8&oIz dubina Enda...'
+  name: '&5Ender esencija'
   type:
   - '&7&oResurs'
 EXTREME_FREEZER:
+  description:
+  - '&7Pretvara led u rashladno sredstvo'
+  name: '&bEkstremni zamrzivač'
   stats:
   - '&8⇨ &e⚡ &790 J/s'
   type:
   - '&7&oStroj'
 FORTUNE_SINGULARITY:
+  name: '&6Singularitet sreće'
   type:
   - '&7&oResurs'
 GEAR_TRANSFORMER:
+  description:
+  - '&7Mijenja materijal vanilla alata i opreme'
+  name: '&7Preoblikovač opreme'
+  stats:
+  - '&8⇨ &e⚡ &712,000 J po upotrebi'
   type:
   - '&7&oStroj'
 GEOTHERMAL_GENERATOR:
+  description:
+  - '&7Stvara energiju iz topline svijeta'
+  name: '&cGeotermalni generator'
   stats:
   - '&8⇨ &e⚡ &73,500 J spremnik'
   - '&8⇨ &e⚡ &735 J/s'
   type:
   - '&7&oGenerator'
 GEO_QUARRY:
+  description:
+  - '&7Polako crpi geo resurse iz praznine trošeći energiju'
+  name: '&fGeo kamenolom'
   stats:
   - '&8⇨ &e⚡ &7450 J/s'
   type:
   - '&7&oStroj'
 GOLD_SINGULARITY:
+  name: '&6Singularitet zlata'
   type:
   - '&7&oResurs'
 GUARDIAN_DATA_CARD:
+  name: '&bPodatkovna kartica čuvara'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oKomponenta'
+  usage:
+  - '&7Stavi u komoru za simulaciju mobova za aktivaciju'
 HYDRO_GENERATOR:
+  description:
+  - '&7Stvara energiju iz kretanja vode'
+  name: '&9Hidro generator'
   stats:
   - '&8⇨ &e⚡ &7500 J spremnik'
   - '&8⇨ &e⚡ &75 J/s'
   type:
   - '&7&oGenerator'
 INFINITE_INGOT:
+  description:
+  - '&7&oBijes kozmosa'
+  - '&7&ona tvom dlanu'
+  name: '&bBeskonačna poluga'
   type:
   - '&7&oResurs'
 INFINITE_MACHINE_CIRCUIT:
+  name: '&bBeskonačni &6sklop stroja'
   type:
   - '&7&oKomponenta'
 INFINITE_MACHINE_CORE:
+  name: '&bBeskonačna jezgra stroja'
   type:
   - '&7&oKomponenta'
 INFINITE_PANEL:
+  description:
+  - '&7Stvara energiju iz kozmosa'
+  name: '&bBeskonačni panel'
   stats:
   - '&8⇨ &e⚡ &76,000,000 J spremnik'
   - '&8⇨ &e⚡ &760,000 J/s'
   type:
   - '&7&oGenerator'
 INFINITE_VOID_HARVESTER:
+  description:
+  - '&7Žanje &8djeliće praznine &7ni iz čega...'
+  name: '&bBeskonačni &8žetelac praznine'
+  stats:
+  - '&8⇨ &e⚡ &7Brzina: &b64x'
+  - '&8⇨ &e⚡ &712,000 J/s'
   type:
   - '&7&oStroj'
 INFINITY_AXE:
+  name: '&4Propast prirode'
+  stats:
+  - '&bVezan za dušu'
   type:
   - '&7&oAlat'
 INFINITY_BLADE:
+  name: '&bOštrica kozmosa'
+  stats:
+  - '&bVezan za dušu'
   type:
   - '&7&oOružje'
 INFINITY_BOOTS:
+  name: '&bBeskonačne čizme'
+  stats:
+  - '&7Brzina III'
+  - '&7Dupinova milost I'
+  - '&bVezan za dušu'
   type:
   - '&7&oOklop'
 INFINITY_BOW:
+  description:
+  - '&7Ispaljuje eksplozivne strijele koje pri pogotku usporavaju i zbunjuju neprijatelje'
+  name: '&6Probijač neba'
+  stats:
+  - '&bVezan za dušu'
   type:
   - '&7&oOružje'
 INFINITY_CAPACITOR:
+  description:
+  - '&c&oNe koristi više od'
+  - '&c&o1 po energetskoj mreži'
+  name: '&bBeskonačni kondenzator'
+  stats:
+  - '&8⇨ &e⚡ 2,000,000,000 &7J kapaciteta'
   type:
   - '&7&oKomponenta'
 INFINITY_CHARGER:
+  description:
+  - '&7Trenutno puni predmete'
+  name: '&bBeskonačni punjač'
+  stats:
+  - '&8⇨ &e⚡ &7Brzina: &b6000x'
+  - '&8⇨ &e⚡ &760,000 J po upotrebi'
   type:
   - '&7&oStroj'
 INFINITY_CHESTPLATE:
+  name: '&bBeskonačni oklop za prsa'
+  stats:
+  - '&7Snaga II'
+  - '&7Otpornost I'
+  - '&7Otpornost na vatru I'
+  - '&7Imunitet na ubod pčele'
+  - '&bVezan za dušu'
   type:
   - '&7&oOklop'
 INFINITY_COBBLE_GEN:
+  description:
+  - '&7Automatski s vremenom stvara kaldrmu'
+  name: '&cBeskonačni &8generator kaldrme'
+  stats:
+  - '&8⇨ &e⚡ &7Brzina: &b64x'
+  - '&8⇨ &e⚡ &7800 J/s'
   type:
   - '&7&oStroj'
 INFINITY_CONSTRUCTOR:
+  description:
+  - '&7Brzo sažima velike količine resursa'
+  name: '&bBeskonačni &fkonstruktor'
+  stats:
+  - '&8⇨ &e⚡ &7Brzina: &b64x'
+  - '&8⇨ &e⚡ &71,200 J/s'
   type:
   - '&7&oStroj'
 INFINITY_CROWN:
+  name: '&bBeskonačna kruna'
+  stats:
+  - '&7Noćni vid I'
+  - '&7Moć provodnika I'
+  - '&7Imunitet na pad s elitrama'
+  - '&bVezan za dušu'
   type:
   - '&7&oOklop'
 INFINITY_DISENCHANTER:
+  description:
+  - '&7Automatski prenosi čarolije s predmeta u knjige'
+  name: '&bBeskonačni odčaravač'
+  stats:
+  - '&8⇨ &e⚡ &7Brzina: &b90x'
+  - '&8⇨ &e⚡ &712,000 J po upotrebi'
   type:
   - '&7&oStroj'
 INFINITY_DUST_EXTRACTOR:
+  description:
+  - '&7Pretvara kaldrmu u prahove'
+  name: '&bBeskonačni &8ekstraktor praha'
+  stats:
+  - '&8⇨ &e⚡ &7Brzina: &b16x'
+  - '&8⇨ &e⚡ &77,200 J/s'
   type:
   - '&7&oStroj'
 INFINITY_ENCHANTER:
+  description:
+  - '&7Automatski začarava predmete stavljene unutra'
+  name: '&bBeskonačni začaravač'
+  stats:
+  - '&8⇨ &e⚡ &7Brzina: &b75x'
+  - '&8⇨ &e⚡ &712,000 J po upotrebi'
   type:
   - '&7&oStroj'
 INFINITY_FORGE:
+  description:
+  - '&7Služi za izradu beskonačnih predmeta'
+  name: '&6Beskonačni radni stol'
+  stats:
+  - '&8⇨ &e⚡ &710,000,000 J po predmetu'
   type:
   - '&7&oStroj'
 INFINITY_INGOT_FORMER:
+  description:
+  - '&7Oblikuje poluge iz prahova'
+  name: '&bBeskonačni &8oblikovač poluga'
+  stats:
+  - '&8⇨ &e⚡ &7Brzina: &b16x'
+  - '&8⇨ &e⚡ &77,200 J/s'
   type:
   - '&7&oStroj'
 INFINITY_LEGGINGS:
+  name: '&bBeskonačne hlače'
+  stats:
+  - '&7Žurba III'
+  - '&7Regeneracija I'
+  - '&7Zasićenost I'
+  - '&7Imunitet na radijaciju'
+  - '&bVezan za dušu'
   type:
   - '&7&oOklop'
 INFINITY_MATRIX:
+  description:
+  - '&6Daje neograničen let'
+  name: '&fBeskonačna matrica'
+  stats:
+  - '&bVezan za dušu'
   type:
   - '&7&oNaprava'
+  usage:
+  - '&7Desni klik za uključivanje/isključivanje i prisvajanje'
+  - '&7Čučanj i desni klik za uklanjanje vlasništva'
 INFINITY_PICKAXE:
+  name: '&9Razbijač svjetova'
+  stats:
+  - '&bVezan za dušu'
   type:
   - '&7&oAlat'
 INFINITY_QUARRY:
+  description:
+  - '&7Automatski kopa rude nadsvijeta i Nethera'
+  name: '&bBeskonačni kamenolom'
+  stats:
+  - '&8⇨ &e⚡ &7Brzina: &b64x'
+  - '&8⇨ &e⚡ &736,000 J/s'
   type:
   - '&7&oStroj'
 INFINITY_REACTOR:
+  description:
+  - '&7Stvara energiju komprimiranjem'
+  - '&7poluga &8praznine &7i &bbeskonačnosti&7'
+  name: '&bBeskonačni reaktor'
   stats:
   - '&8⇨ &e⚡ &7120,000,000 J spremnik'
   - '&8⇨ &e⚡ &7120,000 J/s'
   type:
   - '&7&oGenerator'
 INFINITY_SHIELD:
+  name: '&bKozmička egida'
+  stats:
+  - '&bVezan za dušu'
   type:
   - '&7&oOružje'
 INFINITY_SHOVEL:
+  name: '&aGutač planina'
+  stats:
+  - '&bVezan za dušu'
   type:
   - '&7&oAlat'
 INFINITY_SINGULARITY:
+  name: '&bSingularitet beskonačnosti'
   type:
   - '&7&oResurs'
 INFINITY_STORAGE:
+  description:
+  - '&7Pohranjuje velike količine jedne vrste predmeta'
+  name: '&bBeskonačna &8jedinica za pohranu'
+  stats:
+  - '&6Kapacitet: &e1,600,000,000 &epredmeta'
   type:
   - '&7&oStroj'
 INFINITY_TREE_GROWER:
+  description:
+  - '&7Automatski uzgaja, sječe i ponovno sadi stabla'
+  name: '&bBeskonačni &2uzgajivač stabala'
+  stats:
+  - '&8⇨ &e⚡ &7Brzina: &b25x'
+  - '&8⇨ &e⚡ &71,800 J/s'
   type:
   - '&7&oStroj'
 INFINITY_VIRTUAL_FARM:
+  description:
+  - '&7Automatski uzgaja, žanje i ponovno sadi usjeve'
+  name: '&bBeskonačna &avirtualna farma'
+  stats:
+  - '&8⇨ &e⚡ &7Brzina: &b25x'
+  - '&8⇨ &e⚡ &7900 J/s'
   type:
   - '&7&oStroj'
 INGOT_FORMER:
+  description:
+  - '&7Oblikuje poluge iz prahova'
+  name: '&8Oblikovač poluga'
+  stats:
+  - '&8⇨ &e⚡ &7Brzina: &b1x'
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oStroj'
 IRON_GOLEM_DATA_CARD:
+  name: '&bPodatkovna kartica željeznog golema'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oKomponenta'
+  usage:
+  - '&7Stavi u komoru za simulaciju mobova za aktivaciju'
 IRON_SINGULARITY:
+  name: '&7Singularitet željeza'
   type:
   - '&7&oResurs'
 LAPIS_SINGULARITY:
+  name: '&9Singularitet lapisa'
   type:
   - '&7&oResurs'
 LEAD_SINGULARITY:
+  name: '&8Singularitet olova'
   type:
   - '&7&oResurs'
 MACHINE_CIRCUIT:
+  name: '&6Sklop stroja'
   type:
   - '&7&oKomponenta'
 MACHINE_CORE:
+  name: '&fJezgra stroja'
   type:
   - '&7&oKomponenta'
 MACHINE_PLATE:
+  name: '&fPloča stroja'
   type:
   - '&7&oKomponenta'
 MAGIC_SINGULARITY:
+  name: '&dSingularitet magije'
   type:
   - '&7&oResurs'
 MAGMA_CUBE_DATA_CARD:
+  name: '&bPodatkovna kartica magmine kocke'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oKomponenta'
+  usage:
+  - '&7Stavi u komoru za simulaciju mobova za aktivaciju'
 MAGNESIUM_SINGULARITY:
+  name: '&5Singularitet magnezija'
   type:
   - '&7&oResurs'
 MAGNONIUM:
+  name: '&5Magnonium'
   type:
   - '&7&oResurs'
 MAGSTEEL:
+  name: '&4MagSteel'
   type:
   - '&7&oResurs'
 MAGSTEEL_PLATE:
+  name: '&4MagSteel ploča'
   type:
   - '&7&oKomponenta'
 METAL_SINGULARITY:
+  name: '&8Singularitet metala'
   type:
   - '&7&oResurs'
 MOB_SIMULATION_CHAMBER:
+  description:
+  - '&7Aktivira se podatkovnim karticama mobova'
+  name: '&8Simulacijska komora mobova'
   stats:
   - '&8⇨ &e⚡ &715,000 J spremnik'
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oStroj'
 MYTHRIL:
+  name: '&bMythril'
   type:
   - '&7&oResurs'
 NETHERITE_SINGULARITY:
+  name: '&4Singularitet netherita'
   type:
   - '&7&oResurs'
 POWERED_BEDROCK:
+  description:
+  - '&7Kada je napajan, pretvara se u matičnu stijenu'
+  - '&7Vraća se kad nestane napajanja ili se razbije'
+  name: '&4Napajana matična stijena'
   stats:
   - '&8⇨ &e⚡ &710,000 J/s'
   type:
   - '&7&oStroj'
 QUARRY_OSCILLATOR_DIAMOND:
+  name: '&bOscilator dijamanta'
   type:
   - '&7&oKomponenta'
+  usage:
+  - '&7Stavi u kamenolom da mu daš'
+  - '&7šansu od 50.0% za kopanje ovog materijala'
 QUARRY_OSCILLATOR_EMERALD:
+  name: '&bOscilator smaragda'
   type:
   - '&7&oKomponenta'
+  usage:
+  - '&7Stavi u kamenolom da mu daš'
+  - '&7šansu od 50.0% za kopanje ovog materijala'
 QUARRY_OSCILLATOR_LAPIS_LAZULI:
+  name: '&bOscilator lapis lazulija'
   type:
   - '&7&oKomponenta'
+  usage:
+  - '&7Stavi u kamenolom da mu daš'
+  - '&7šansu od 50.0% za kopanje ovog materijala'
 QUARRY_OSCILLATOR_QUARTZ:
+  name: '&bOscilator kvarca'
   type:
   - '&7&oKomponenta'
+  usage:
+  - '&7Stavi u kamenolom da mu daš'
+  - '&7šansu od 50.0% za kopanje ovog materijala'
 QUARRY_OSCILLATOR_REDSTONE:
+  name: '&bRedstone oscilator'
   type:
   - '&7&oKomponenta'
+  usage:
+  - '&7Stavi u kamenolom da mu daš'
+  - '&7šansu od 50.0% za kopanje ovog materijala'
 QUARTZ_SINGULARITY:
+  name: '&fSingularitet kvarca'
   type:
   - '&7&oResurs'
 REDSTONE_SINGULARITY:
+  name: '&cSingularitet redstonea'
   type:
   - '&7&oResurs'
 REINFORCED_GEOTHERMAL_GENERATOR:
+  description:
+  - '&7Stvara velike količine energije'
+  - '&7iz topline svijeta'
+  name: '&fOjačani &cgeotermalni generator'
   stats:
   - '&8⇨ &e⚡ &721,000 J spremnik'
   - '&8⇨ &e⚡ &7210 J/s'
   type:
   - '&7&oGenerator'
 REINFORCED_HYDRO_GENERATOR:
+  description:
+  - '&7Stvara velike količine energije'
+  - '&7iz kretanja vode'
+  name: '&fOjačani &9hidro generator'
   stats:
   - '&8⇨ &e⚡ &74,500 J spremnik'
   - '&8⇨ &e⚡ &745 J/s'
   type:
   - '&7&oGenerator'
 REINFORCED_STORAGE:
+  description:
+  - '&7Pohranjuje velike količine jedne vrste predmeta'
+  name: '&fOjačana &8jedinica za pohranu'
+  stats:
+  - '&6Kapacitet: &e102,400 &epredmeta'
   type:
   - '&7&oStroj'
 REINFORCED_STRAINER:
+  description:
+  - '&7Skuplja materijale iz tekuće vode'
+  name: '&fOjačano cjedilo'
   stats:
   - '&8⇨ &b⚡ &7Brzina: &b20.0x'
   type:
   - '&7&oKomponenta'
 RESOURCE_SYNTHESIZER:
+  description:
+  - '&7Stvara resurse spajanjem 2 singulariteta'
+  name: '&6Sintetizator resursa'
+  stats:
+  - '&8⇨ &e⚡ &71,000,000 J po upotrebi'
   type:
   - '&7&oStroj'
 SHEEP_DATA_CARD:
+  name: '&bPodatkovna kartica ovce'
   stats:
   - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oKomponenta'
+  usage:
+  - '&7Stavi u komoru za simulaciju mobova za aktivaciju'
 SILVER_SINGULARITY:
+  name: '&7Singularitet srebra'
   type:
   - '&7&oResurs'
 SINGULARITY_CONSTRUCTOR:
+  description:
+  - '&7Sažima velike količine resursa'
+  name: '&fKonstruktor singulariteta'
+  stats:
+  - '&8⇨ &e⚡ &7Brzina: &b1x'
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oStroj'
 SKELETON_DATA_CARD:
+  name: '&bPodatkovna kartica kostura'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oKomponenta'
+  usage:
+  - '&7Stavi u komoru za simulaciju mobova za aktivaciju'
 SLIME_DATA_CARD:
+  name: '&bPodatkovna kartica sluzi'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oKomponenta'
+  usage:
+  - '&7Stavi u komoru za simulaciju mobova za aktivaciju'
 SPIDER_DATA_CARD:
+  name: '&bPodatkovna kartica pauka'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oKomponenta'
+  usage:
+  - '&7Stavi u komoru za simulaciju mobova za aktivaciju'
 STONEWORKS_FACTORY:
+  description:
+  - '&7Stvara kaldrmu i prerađuje je u razne materijale'
+  name: '&8Tvornica kamena'
   stats:
   - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oStroj'
+  usage:
+  - '&eKlikni&7 utore izbora za izmjenu između taljenja, drobljenja, sabijanja i preoblikovanja'
 STORAGE_FORGE:
+  description:
+  - '&7Nadograđuje stupanj jedinica za pohranu'
+  - '&7Zadržava pohranjene predmete'
+  name: '&6Kovačnica pohrane'
   type:
   - '&7&oStroj'
 STRAINER_BASE:
+  description:
+  - '&7Polako skuplja materijale iz tekuće vode pomoću cjedila'
+  - '&7Za rad mora biti pod vodom'
+  name: '&7Postolje cjedila'
   type:
   - '&7&oStroj'
 TIN_SINGULARITY:
+  name: '&7Singularitet kositra'
   type:
   - '&7&oResurs'
 TITANIUM:
+  name: '&7Titan'
   type:
   - '&7&oResurs'
 URANIUM_EXTRACTOR:
+  description:
+  - '&7Pretvara kaldrmu u uran'
+  name: '&aEkstraktor urana'
   stats:
   - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oStroj'
 VEIN_MINER_RUNE:
+  description:
+  - '&7Nadograđuje alat da kopa cijele žile određenih materijala'
+  name: '&bRuna žilnog kopanja'
   type:
   - '&7&oNaprava'
+  usage:
+  - '&eBaci&7 pokraj alata da ga nadogradiš u žilnog kopača'
 VILLAGER_DATA_CARD:
+  name: '&bPodatkovna kartica seljana'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oKomponenta'
+  usage:
+  - '&7Stavi u komoru za simulaciju mobova za aktivaciju'
 VOID_BIT:
+  description:
+  - '&7&oDjeluje... prazno'
+  name: '&8Djelić praznine'
   type:
   - '&7&oResurs'
 VOID_CAPACITOR:
+  description:
+  - '&7Pohranjuje višak energije za energetsku mrežu'
+  name: '&8Kondenzator praznine'
+  stats:
+  - '&8⇨ &e⚡ 16,000,000 &7J kapaciteta'
   type:
   - '&7&oKomponenta'
 VOID_DUST:
+  description:
+  - '&7&oPočinje poprimati oblik...'
+  name: '&8Prah praznine'
   type:
   - '&7&oResurs'
 VOID_HARVESTER:
+  description:
+  - '&7Polako žanje &8djeliće praznine &7ni iz čega...'
+  name: '&8Žetelac praznine'
+  stats:
+  - '&8⇨ &e⚡ &7Brzina: &b1x'
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oStroj'
 VOID_INGOT:
+  description:
+  - '&7&oPraznina kozmosa'
+  - '&7&ona tvom dlanu'
+  name: '&8Poluga praznine'
   type:
   - '&7&oResurs'
 VOID_PANEL:
+  description:
+  - '&7Stvara energiju iz tame'
+  name: '&8Panel praznine'
   stats:
   - '&8⇨ &e⚡ &7300,000 J spremnik'
   - '&8⇨ &e⚡ &73,000 J/s'
   type:
   - '&7&oGenerator'
 VOID_QUARRY:
+  description:
+  - '&7Automatski kopa rude nadsvijeta i Nethera'
+  name: '&8Kamenolom praznine'
+  stats:
+  - '&8⇨ &e⚡ &7Brzina: &b6x'
+  - '&8⇨ &e⚡ &73,600 J/s'
   type:
   - '&7&oStroj'
 VOID_STORAGE:
+  description:
+  - '&7Pohranjuje velike količine jedne vrste predmeta'
+  name: '&8Jedinica za pohranu &8praznine'
+  stats:
+  - '&6Kapacitet: &e409,600 &epredmeta'
   type:
   - '&7&oStroj'
 WITCH_DATA_CARD:
+  name: '&bPodatkovna kartica vještice'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oKomponenta'
+  usage:
+  - '&7Stavi u komoru za simulaciju mobova za aktivaciju'
 WITHER_DATA_CARD:
+  name: '&bPodatkovna kartica Withera'
   stats:
   - '&8⇨ &e⚡ &74,500 J/s'
   type:
   - '&7&oKomponenta'
+  usage:
+  - '&7Stavi u komoru za simulaciju mobova za aktivaciju'
 WITHER_SKELETON_DATA_CARD:
+  name: '&bPodatkovna kartica Wither kostura'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oKomponenta'
+  usage:
+  - '&7Stavi u komoru za simulaciju mobova za aktivaciju'
 ZINC_SINGULARITY:
+  name: '&7Singularitet cinka'
   type:
   - '&7&oResurs'
 ZOMBIE_DATA_CARD:
+  name: '&bPodatkovna kartica zombija'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oKomponenta'
+  usage:
+  - '&7Stavi u komoru za simulaciju mobova za aktivaciju'
