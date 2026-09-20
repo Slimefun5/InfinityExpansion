@@ -1,532 +1,1060 @@
 ADAMANTITE:
+  name: '&dAdamantite'
   type:
   - '&7&oIšteklius'
 ADVANCED_ANVIL:
+  description:
+  - '&7Sujungia įrankių ir įrangos kerėjimus, kartais juos patobulina'
+  - '&bVeikia su Slimefun daiktais'
+  name: '&cPažangus priekalas'
+  stats:
+  - '&8⇨ &e⚡ &7100,000 J už panaudojimą'
   type:
   - '&7&oMašina'
 ADVANCED_CHARGER:
+  description:
+  - '&7Greitai įkrauna daiktus'
+  name: '&cPažangus įkroviklis'
+  stats:
+  - '&8⇨ &e⚡ &7Greitis: &b30x'
+  - '&8⇨ &e⚡ &7180 J/s'
   type:
   - '&7&oMašina'
 ADVANCED_COBBLE_GEN:
+  description:
+  - '&7Ilgainiui automatiškai generuoja grindinio akmenį'
+  name: '&cPažangus &8grindinio akmens generatorius'
+  stats:
+  - '&8⇨ &e⚡ &7Greitis: &b4x'
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oMašina'
 ADVANCED_DISENCHANTER:
+  description:
+  - '&7Automatiškai perkelia kerėjimus iš daiktų į knygas'
+  name: '&cPažangus nukerėtojas'
+  stats:
+  - '&8⇨ &e⚡ &7Greitis: &b5x'
+  - '&8⇨ &e⚡ &7180 J/s'
   type:
   - '&7&oMašina'
 ADVANCED_ENCHANTER:
+  description:
+  - '&7Automatiškai užkeri į vidų įdėtus daiktus'
+  name: '&cPažangus kerėtojas'
+  stats:
+  - '&8⇨ &e⚡ &7Greitis: &b5x'
+  - '&8⇨ &e⚡ &7180 J/s'
   type:
   - '&7&oMašina'
 ADVANCED_GEO_MINER:
+  description:
+  - '&7Greitesnis geo kasėjas'
+  name: '&cPažangus &fGeo kasėjas'
+  stats:
+  - '&8⇨ &e⚡ &7Greitis: &b4x'
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oMašina'
 ADVANCED_NETHER_STAR_REACTOR:
+  description:
+  - '&fVeikia su Nether žvaigždėmis'
+  - '&bPrivalo būti apsuptas vandens'
+  - '&bPrivalo būti tiekiamos Nether ledo aušinimo celės'
+  - '&4Netoliese esančias būtybes veikia Wither efektu'
+  name: '&cPažangus Nether žvaigždės reaktorius'
   stats:
   - '&8⇨ &e⚡ &790,000 J buferis'
   - '&8⇨ &e⚡ &71,800 J/s'
   type:
   - '&7&oGeneratorius'
 ADVANCED_PANEL:
+  description:
+  - '&7Generuoja energiją iš saulės'
+  name: '&cPažangi saulės baterija'
   stats:
   - '&8⇨ &e⚡ &715,000 J buferis'
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oGeneratorius'
 ADVANCED_QUARRY:
+  description:
+  - '&7Automatiškai kasa Overworld ir Nether rūdas'
+  name: '&cPažangus karjeras'
+  stats:
+  - '&8⇨ &e⚡ &7Greitis: &b2x'
+  - '&8⇨ &e⚡ &7900 J/s'
   type:
   - '&7&oMašina'
 ADVANCED_SMELTERY:
+  description:
+  - '&7Greitesnė lydykla'
+  name: '&cPažangi &7lydykla'
+  stats:
+  - '&8⇨ &e⚡ &7Greitis: &b24x'
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oMašina'
 ADVANCED_STORAGE:
+  description:
+  - '&7Saugo didelius vieno tipo daiktų kiekius'
+  name: '&cPažangus &8saugojimo įrenginys'
+  stats:
+  - '&6Talpa: &e25,600 &edaiktų'
   type:
   - '&7&oMašina'
 ADVANCED_STRAINER:
+  description:
+  - '&7Renka medžiagas iš tekančio vandens'
+  name: '&cPažangus sietas'
   stats:
   - '&8⇨ &b⚡ &7Greitis: &b4.0x'
   type:
   - '&7&oKomponentas'
 ADVANCED_TREE_GROWER:
+  description:
+  - '&7Automatiškai augina, kerta ir atsodina medžius'
+  name: '&cPažangus &2medžių augintuvas'
+  stats:
+  - '&8⇨ &e⚡ &7Greitis: &b5x'
+  - '&8⇨ &e⚡ &7180 J/s'
   type:
   - '&7&oMašina'
 ADVANCED_VIRTUAL_FARM:
+  description:
+  - '&7Automatiškai augina, nuima ir atsodina pasėlius'
+  name: '&cPažangi &avirtuali ferma'
+  stats:
+  - '&8⇨ &e⚡ &7Greitis: &b5x'
+  - '&8⇨ &e⚡ &790 J/s'
   type:
   - '&7&oMašina'
 ALUMINUM_SINGULARITY:
+  name: '&7Aliuminio singuliarumas'
   type:
   - '&7&oIšteklius'
 BASIC_COBBLE_GEN:
+  description:
+  - '&7Ilgainiui automatiškai generuoja grindinio akmenį'
+  name: '&9Bazinis &8grindinio akmens generatorius'
+  stats:
+  - '&8⇨ &e⚡ &7Greitis: &b1x'
+  - '&8⇨ &e⚡ &724 J/s'
   type:
   - '&7&oMašina'
 BASIC_OBSIDIAN_GEN:
+  description:
+  - '&7Ilgainiui automatiškai generuoja obsidianą'
+  name: '&8Obsidiano generatorius'
+  stats:
+  - '&8⇨ &e⚡ &7Greitis: &b1x'
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oMašina'
 BASIC_PANEL:
+  description:
+  - '&7Generuoja energiją iš saulės'
+  name: '&9Bazinė saulės baterija'
   stats:
   - '&8⇨ &e⚡ &7900 J buferis'
   - '&8⇨ &e⚡ &79 J/s'
   type:
   - '&7&oGeneratorius'
 BASIC_QUARRY:
+  description:
+  - '&7Automatiškai kasa Overworld rūdas'
+  name: '&9Bazinis karjeras'
+  stats:
+  - '&8⇨ &e⚡ &7Greitis: &b1x'
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oMašina'
 BASIC_STORAGE:
+  description:
+  - '&7Saugo didelius vieno tipo daiktų kiekius'
+  name: '&9Bazinis &8saugojimo įrenginys'
+  stats:
+  - '&6Talpa: &e6,400 &edaiktų'
   type:
   - '&7&oMašina'
 BASIC_STRAINER:
+  description:
+  - '&7Renka medžiagas iš tekančio vandens'
+  name: '&9Bazinis sietas'
   stats:
   - '&8⇨ &b⚡ &7Greitis: &b1.0x'
   type:
   - '&7&oKomponentas'
 BASIC_TREE_GROWER:
+  description:
+  - '&7Automatiškai augina, kerta ir atsodina medžius'
+  name: '&9Bazinis &2medžių augintuvas'
+  stats:
+  - '&8⇨ &e⚡ &7Greitis: &b1x'
+  - '&8⇨ &e⚡ &736 J/s'
   type:
   - '&7&oMašina'
 BASIC_VIRTUAL_FARM:
+  description:
+  - '&7Automatiškai augina, nuima ir atsodina pasėlius'
+  name: '&9Bazinė &avirtuali ferma'
+  stats:
+  - '&8⇨ &e⚡ &7Greitis: &b1x'
+  - '&8⇨ &e⚡ &718 J/s'
   type:
   - '&7&oMašina'
 BEE_DATA_CARD:
+  name: '&bBitės duomenų kortelė'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oKomponentas'
+  usage:
+  - '&7Įdėkite į mobų simuliacijos kamerą, kad aktyvuotumėte'
 BLAZE_DATA_CARD:
+  name: '&bBlaze duomenų kortelė'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oKomponentas'
+  usage:
+  - '&7Įdėkite į mobų simuliacijos kamerą, kad aktyvuotumėte'
 CELESTIAL_PANEL:
+  description:
+  - '&7Generuoja energiją iš saulės'
+  name: '&eDangaus baterija'
   stats:
   - '&8⇨ &e⚡ &775,000 J buferis'
   - '&8⇨ &e⚡ &7750 J/s'
   type:
   - '&7&oGeneratorius'
 CHICKEN_DATA_CARD:
+  name: '&bVištos duomenų kortelė'
   stats:
   - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oKomponentas'
+  usage:
+  - '&7Įdėkite į mobų simuliacijos kamerą, kad aktyvuotumėte'
 COAL_SINGULARITY:
+  name: '&8Anglies singuliarumas'
   type:
   - '&7&oIšteklius'
 COBBLE_PRESS:
+  description:
+  - '&7Efektyviau suspaudžia grindinio akmenį'
+  name: '&8Grindinio akmens presas'
   stats:
   - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oMašina'
 COMPRESSED_COBBLESTONE_1:
+  name: '&7Viengubai suspaustas grindinio akmuo'
+  stats:
+  - '&89 sujungti grindinio akmenys'
   type:
   - '&7&oIšteklius'
 COMPRESSED_COBBLESTONE_2:
+  name: '&7Dvigubai suspaustas grindinio akmuo'
+  stats:
+  - '&881 sujungtas grindinio akmuo'
   type:
   - '&7&oIšteklius'
 COMPRESSED_COBBLESTONE_3:
+  name: '&7Trigubai suspaustas grindinio akmuo'
+  stats:
+  - '&8729 sujungti grindinio akmenys'
   type:
   - '&7&oIšteklius'
 COMPRESSED_COBBLESTONE_4:
+  name: '&7Keturgubai suspaustas grindinio akmuo'
+  stats:
+  - '&86,561 sujungtas grindinio akmuo'
   type:
   - '&7&oIšteklius'
 COMPRESSED_COBBLESTONE_5:
+  name: '&7Penkiagubai suspaustas grindinio akmuo'
+  stats:
+  - '&859,049 sujungti grindinio akmenys'
   type:
   - '&7&oIšteklius'
 COPPER_SINGULARITY:
+  name: '&6Vario singuliarumas'
   type:
   - '&7&oIšteklius'
 COW_DATA_CARD:
+  name: '&bKarvės duomenų kortelė'
   stats:
   - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oKomponentas'
+  usage:
+  - '&7Įdėkite į mobų simuliacijos kamerą, kad aktyvuotumėte'
 CREEPER_DATA_CARD:
+  name: '&bCreeperio duomenų kortelė'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oKomponentas'
+  usage:
+  - '&7Įdėkite į mobų simuliacijos kamerą, kad aktyvuotumėte'
 DATA_INFUSER:
+  description:
+  - '&7Į tuščias duomenų korteles lieja mobų daiktus'
+  name: '&8Mobų duomenų liejiklis'
+  stats:
+  - '&8⇨ &e⚡ &720,000 J už panaudojimą'
   type:
   - '&7&oMašina'
 DECOMPRESSOR:
+  description:
+  - '&7Suskaido blokus į pradines medžiagas'
+  name: '&7Išskaidytuvas'
   stats:
   - '&8⇨ &e⚡ &760 J/s'
   type:
   - '&7&oMašina'
 DIAMOND_SINGULARITY:
+  name: '&bDeimanto singuliarumas'
   type:
   - '&7&oIšteklius'
 DUST_EXTRACTOR:
+  description:
+  - '&7Paverčia grindinio akmenį dulkėmis'
+  name: '&8Dulkių ekstraktorius'
+  stats:
+  - '&8⇨ &e⚡ &7Greitis: &b1x'
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oMašina'
 EARTH_SINGULARITY:
+  name: '&aŽemės singuliarumas'
   type:
   - '&7&oIšteklius'
 EMERALD_SINGULARITY:
+  name: '&aSmaragdo singuliarumas'
   type:
   - '&7&oIšteklius'
 EMPTY_DATA_CARD:
+  name: '&8Tuščia duomenų kortelė'
   type:
   - '&7&oKomponentas'
+  usage:
+  - '&7Užpildykite įliedami mobo daiktus'
 ENDERMEN_DATA_CARD:
+  name: '&bEndermeno duomenų kortelė'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oKomponentas'
+  usage:
+  - '&7Įdėkite į mobų simuliacijos kamerą, kad aktyvuotumėte'
 ENDER_DRAGON_DATA_CARD:
+  name: '&bEnder drakono duomenų kortelė'
   stats:
   - '&8⇨ &e⚡ &79,000 J/s'
   type:
   - '&7&oKomponentas'
+  usage:
+  - '&7Įdėkite į mobų simuliacijos kamerą, kad aktyvuotumėte'
 ENDER_FLAME:
+  name: '&cEnder liepsna'
   type:
   - '&7&oKomponentas'
 END_ESSENCE:
+  description:
+  - '&8&oIš End gelmių...'
+  name: '&5Ender esencija'
   type:
   - '&7&oIšteklius'
 EXTREME_FREEZER:
+  description:
+  - '&7Paverčia ledą aušinimo skysčiu'
+  name: '&bEkstremalus šaldiklis'
   stats:
   - '&8⇨ &e⚡ &790 J/s'
   type:
   - '&7&oMašina'
 FORTUNE_SINGULARITY:
+  name: '&6Sėkmės singuliarumas'
   type:
   - '&7&oIšteklius'
 GEAR_TRANSFORMER:
+  description:
+  - '&7Keičia vanilinių įrankių ir įrangos medžiagą'
+  name: '&7Įrangos keitiklis'
+  stats:
+  - '&8⇨ &e⚡ &712,000 J už panaudojimą'
   type:
   - '&7&oMašina'
 GEOTHERMAL_GENERATOR:
+  description:
+  - '&7Generuoja energiją iš pasaulio karščio'
+  name: '&cGeoterminis generatorius'
   stats:
   - '&8⇨ &e⚡ &73,500 J buferis'
   - '&8⇨ &e⚡ &735 J/s'
   type:
   - '&7&oGeneratorius'
 GEO_QUARRY:
+  description:
+  - '&7Lėtai gauna geo išteklius iš tuštumos naudodamas energiją'
+  name: '&fGeo karjeras'
   stats:
   - '&8⇨ &e⚡ &7450 J/s'
   type:
   - '&7&oMašina'
 GOLD_SINGULARITY:
+  name: '&6Aukso singuliarumas'
   type:
   - '&7&oIšteklius'
 GUARDIAN_DATA_CARD:
+  name: '&bSargo duomenų kortelė'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oKomponentas'
+  usage:
+  - '&7Įdėkite į mobų simuliacijos kamerą, kad aktyvuotumėte'
 HYDRO_GENERATOR:
+  description:
+  - '&7Generuoja energiją iš vandens judėjimo'
+  name: '&9Vandens generatorius'
   stats:
   - '&8⇨ &e⚡ &7500 J buferis'
   - '&8⇨ &e⚡ &75 J/s'
   type:
   - '&7&oGeneratorius'
 INFINITE_INGOT:
+  description:
+  - '&7&oKosmoso įniršis'
+  - '&7&otavo delne'
+  name: '&bBegalybės luitas'
   type:
   - '&7&oIšteklius'
 INFINITE_MACHINE_CIRCUIT:
+  name: '&bBegalinė &6mašinos grandinė'
   type:
   - '&7&oKomponentas'
 INFINITE_MACHINE_CORE:
+  name: '&bBegalinė mašinos šerdis'
   type:
   - '&7&oKomponentas'
 INFINITE_PANEL:
+  description:
+  - '&7Generuoja energiją iš kosmoso'
+  name: '&bBegalybės baterija'
   stats:
   - '&8⇨ &e⚡ &76,000,000 J buferis'
   - '&8⇨ &e⚡ &760,000 J/s'
   type:
   - '&7&oGeneratorius'
 INFINITE_VOID_HARVESTER:
+  description:
+  - '&7Renka &8tuštumos &7dalelytes iš nieko...'
+  name: '&bBegalinis &8tuštumos rinkėjas'
+  stats:
+  - '&8⇨ &e⚡ &7Greitis: &b64x'
+  - '&8⇨ &e⚡ &712,000 J/s'
   type:
   - '&7&oMašina'
 INFINITY_AXE:
+  name: '&4Gamtos pražūtis'
+  stats:
+  - '&bSielos surištas'
   type:
   - '&7&oĮrankis'
 INFINITY_BLADE:
+  name: '&bKosmoso ašmenys'
+  stats:
+  - '&bSielos surištas'
   type:
   - '&7&oGinklas'
 INFINITY_BOOTS:
+  name: '&bBegalybės batai'
+  stats:
+  - '&7Greitis III'
+  - '&7Delfino malonė I'
+  - '&bSielos surištas'
   type:
   - '&7&oŠarvai'
 INFINITY_BOW:
+  description:
+  - '&7Šaudo sprogstamosiomis strėlėmis, kurios pataikiusios sulėtina ir dezorientuoja priešus'
+  name: '&6Dangaus vėrėjas'
+  stats:
+  - '&bSielos surištas'
   type:
   - '&7&oGinklas'
 INFINITY_CAPACITOR:
+  description:
+  - '&c&oNenaudokite daugiau nei'
+  - '&c&o1 vienam energijos tinklui'
+  name: '&bBegalinis kondensatorius'
+  stats:
+  - '&8⇨ &e⚡ 2,000,000,000 &7J talpa'
   type:
   - '&7&oKomponentas'
 INFINITY_CHARGER:
+  description:
+  - '&7Akimirksniu įkrauna daiktus'
+  name: '&bBegalybės įkroviklis'
+  stats:
+  - '&8⇨ &e⚡ &7Greitis: &b6000x'
+  - '&8⇨ &e⚡ &760,000 J už panaudojimą'
   type:
   - '&7&oMašina'
 INFINITY_CHESTPLATE:
+  name: '&bBegalybės krūtinės šarvai'
+  stats:
+  - '&7Jėga II'
+  - '&7Atsparumas I'
+  - '&7Atsparumas ugniai I'
+  - '&7Atsparumas bičių įgėlimams'
+  - '&bSielos surištas'
   type:
   - '&7&oŠarvai'
 INFINITY_COBBLE_GEN:
+  description:
+  - '&7Ilgainiui automatiškai generuoja grindinio akmenį'
+  name: '&cBegalybės &8grindinio akmens generatorius'
+  stats:
+  - '&8⇨ &e⚡ &7Greitis: &b64x'
+  - '&8⇨ &e⚡ &7800 J/s'
   type:
   - '&7&oMašina'
 INFINITY_CONSTRUCTOR:
+  description:
+  - '&7Greitai sutankina didelius išteklių kiekius'
+  name: '&bBegalybės &fkonstruktorius'
+  stats:
+  - '&8⇨ &e⚡ &7Greitis: &b64x'
+  - '&8⇨ &e⚡ &71,200 J/s'
   type:
   - '&7&oMašina'
 INFINITY_CROWN:
+  name: '&bBegalybės karūna'
+  stats:
+  - '&7Naktinis matymas I'
+  - '&7Kanalo galia I'
+  - '&7Atsparumas Elytra smūgiams'
+  - '&bSielos surištas'
   type:
   - '&7&oŠarvai'
 INFINITY_DISENCHANTER:
+  description:
+  - '&7Automatiškai perkelia kerėjimus iš daiktų į knygas'
+  name: '&bBegalybės nukerėtojas'
+  stats:
+  - '&8⇨ &e⚡ &7Greitis: &b90x'
+  - '&8⇨ &e⚡ &712,000 J už panaudojimą'
   type:
   - '&7&oMašina'
 INFINITY_DUST_EXTRACTOR:
+  description:
+  - '&7Paverčia grindinio akmenį dulkėmis'
+  name: '&bBegalybės &8dulkių ekstraktorius'
+  stats:
+  - '&8⇨ &e⚡ &7Greitis: &b16x'
+  - '&8⇨ &e⚡ &77,200 J/s'
   type:
   - '&7&oMašina'
 INFINITY_ENCHANTER:
+  description:
+  - '&7Automatiškai užkeri į vidų įdėtus daiktus'
+  name: '&bBegalybės kerėtojas'
+  stats:
+  - '&8⇨ &e⚡ &7Greitis: &b75x'
+  - '&8⇨ &e⚡ &712,000 J už panaudojimą'
   type:
   - '&7&oMašina'
 INFINITY_FORGE:
+  description:
+  - '&7Naudojamas begalybės daiktams gaminti'
+  name: '&6Begalybės darbastalis'
+  stats:
+  - '&8⇨ &e⚡ &710,000,000 J už daiktą'
   type:
   - '&7&oMašina'
 INFINITY_INGOT_FORMER:
+  description:
+  - '&7Formuoja luitus iš dulkių'
+  name: '&bBegalybės &8luitų formuotuvas'
+  stats:
+  - '&8⇨ &e⚡ &7Greitis: &b16x'
+  - '&8⇨ &e⚡ &77,200 J/s'
   type:
   - '&7&oMašina'
 INFINITY_LEGGINGS:
+  name: '&bBegalybės kelnės'
+  stats:
+  - '&7Skuba III'
+  - '&7Regeneracija I'
+  - '&7Sotumas I'
+  - '&7Atsparumas radiacijai'
+  - '&bSielos surištas'
   type:
   - '&7&oŠarvai'
 INFINITY_MATRIX:
+  description:
+  - '&6Suteikia neribotą skrydį'
+  name: '&fBegalybės matrica'
+  stats:
+  - '&bSielos surištas'
   type:
   - '&7&oĮtaisas'
+  usage:
+  - '&7Spustelėkite dešiniu, kad įjungtumėte arba išjungtumėte ir pasisavintumėte'
+  - '&7Pritūpę spustelėkite dešiniu, kad panaikintumėte nuosavybę'
 INFINITY_PICKAXE:
+  name: '&9Pasaulio griovėjas'
+  stats:
+  - '&bSielos surištas'
   type:
   - '&7&oĮrankis'
 INFINITY_QUARRY:
+  description:
+  - '&7Automatiškai kasa Overworld ir Nether rūdas'
+  name: '&bBegalybės karjeras'
+  stats:
+  - '&8⇨ &e⚡ &7Greitis: &b64x'
+  - '&8⇨ &e⚡ &736,000 J/s'
   type:
   - '&7&oMašina'
 INFINITY_REACTOR:
+  description:
+  - '&7Generuoja energiją suspausdamas'
+  - '&7&8Tuštumos &7ir &bBegalybės &7luitus'
+  name: '&bBegalybės reaktorius'
   stats:
   - '&8⇨ &e⚡ &7120,000,000 J buferis'
   - '&8⇨ &e⚡ &7120,000 J/s'
   type:
   - '&7&oGeneratorius'
 INFINITY_SHIELD:
+  name: '&bKosminė egidė'
+  stats:
+  - '&bSielos surištas'
   type:
   - '&7&oGinklas'
 INFINITY_SHOVEL:
+  name: '&aKalnų ėdikas'
+  stats:
+  - '&bSielos surištas'
   type:
   - '&7&oĮrankis'
 INFINITY_SINGULARITY:
+  name: '&bBegalybės singuliarumas'
   type:
   - '&7&oIšteklius'
 INFINITY_STORAGE:
+  description:
+  - '&7Saugo didelius vieno tipo daiktų kiekius'
+  name: '&bBegalybės &8saugojimo įrenginys'
+  stats:
+  - '&6Talpa: &e1,600,000,000 &edaiktų'
   type:
   - '&7&oMašina'
 INFINITY_TREE_GROWER:
+  description:
+  - '&7Automatiškai augina, kerta ir atsodina medžius'
+  name: '&bBegalybės &2medžių augintuvas'
+  stats:
+  - '&8⇨ &e⚡ &7Greitis: &b25x'
+  - '&8⇨ &e⚡ &71,800 J/s'
   type:
   - '&7&oMašina'
 INFINITY_VIRTUAL_FARM:
+  description:
+  - '&7Automatiškai augina, nuima ir atsodina pasėlius'
+  name: '&bBegalybės &avirtuali ferma'
+  stats:
+  - '&8⇨ &e⚡ &7Greitis: &b25x'
+  - '&8⇨ &e⚡ &7900 J/s'
   type:
   - '&7&oMašina'
 INGOT_FORMER:
+  description:
+  - '&7Formuoja luitus iš dulkių'
+  name: '&8Luitų formuotuvas'
+  stats:
+  - '&8⇨ &e⚡ &7Greitis: &b1x'
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oMašina'
 IRON_GOLEM_DATA_CARD:
+  name: '&bGeležinio golemo duomenų kortelė'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oKomponentas'
+  usage:
+  - '&7Įdėkite į mobų simuliacijos kamerą, kad aktyvuotumėte'
 IRON_SINGULARITY:
+  name: '&7Geležies singuliarumas'
   type:
   - '&7&oIšteklius'
 LAPIS_SINGULARITY:
+  name: '&9Lazurito singuliarumas'
   type:
   - '&7&oIšteklius'
 LEAD_SINGULARITY:
+  name: '&8Švino singuliarumas'
   type:
   - '&7&oIšteklius'
 MACHINE_CIRCUIT:
+  name: '&6Mašinos grandinė'
   type:
   - '&7&oKomponentas'
 MACHINE_CORE:
+  name: '&fMašinos šerdis'
   type:
   - '&7&oKomponentas'
 MACHINE_PLATE:
+  name: '&fMašinos plokštė'
   type:
   - '&7&oKomponentas'
 MAGIC_SINGULARITY:
+  name: '&dMagijos singuliarumas'
   type:
   - '&7&oIšteklius'
 MAGMA_CUBE_DATA_CARD:
+  name: '&bMagmos kubo duomenų kortelė'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oKomponentas'
+  usage:
+  - '&7Įdėkite į mobų simuliacijos kamerą, kad aktyvuotumėte'
 MAGNESIUM_SINGULARITY:
+  name: '&5Magnio singuliarumas'
   type:
   - '&7&oIšteklius'
 MAGNONIUM:
+  name: '&5Magnonium'
   type:
   - '&7&oIšteklius'
 MAGSTEEL:
+  name: '&4MagSteel'
   type:
   - '&7&oIšteklius'
 MAGSTEEL_PLATE:
+  name: '&4MagSteel plokštė'
   type:
   - '&7&oKomponentas'
 METAL_SINGULARITY:
+  name: '&8Metalo singuliarumas'
   type:
   - '&7&oIšteklius'
 MOB_SIMULATION_CHAMBER:
+  description:
+  - '&7Aktyvuokite naudodami mobų duomenų korteles'
+  name: '&8Mobų simuliacijos kamera'
   stats:
   - '&8⇨ &e⚡ &715,000 J buferis'
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oMašina'
 MYTHRIL:
+  name: '&bMythril'
   type:
   - '&7&oIšteklius'
 NETHERITE_SINGULARITY:
+  name: '&4Netherito singuliarumas'
   type:
   - '&7&oIšteklius'
 POWERED_BEDROCK:
+  description:
+  - '&7Gavusi energijos virsta pamatine uoliena'
+  - '&7Atgal pavirs netekusi energijos arba sulaužyta'
+  name: '&4Maitinama pamatinė uoliena'
   stats:
   - '&8⇨ &e⚡ &710,000 J/s'
   type:
   - '&7&oMašina'
 QUARRY_OSCILLATOR_DIAMOND:
+  name: '&bDeimanto osciliatorius'
   type:
   - '&7&oKomponentas'
+  usage:
+  - '&7Įdėkite į karjerą, kad jam suteiktumėte'
+  - '&750.0% tikimybę iškasti šią medžiagą'
 QUARRY_OSCILLATOR_EMERALD:
+  name: '&bSmaragdo osciliatorius'
   type:
   - '&7&oKomponentas'
+  usage:
+  - '&7Įdėkite į karjerą, kad jam suteiktumėte'
+  - '&750.0% tikimybę iškasti šią medžiagą'
 QUARRY_OSCILLATOR_LAPIS_LAZULI:
+  name: '&bLazurito osciliatorius'
   type:
   - '&7&oKomponentas'
+  usage:
+  - '&7Įdėkite į karjerą, kad jam suteiktumėte'
+  - '&750.0% tikimybę iškasti šią medžiagą'
 QUARRY_OSCILLATOR_QUARTZ:
+  name: '&bKvarco osciliatorius'
   type:
   - '&7&oKomponentas'
+  usage:
+  - '&7Įdėkite į karjerą, kad jam suteiktumėte'
+  - '&750.0% tikimybę iškasti šią medžiagą'
 QUARRY_OSCILLATOR_REDSTONE:
+  name: '&bRaudonakmenio osciliatorius'
   type:
   - '&7&oKomponentas'
+  usage:
+  - '&7Įdėkite į karjerą, kad jam suteiktumėte'
+  - '&750.0% tikimybę iškasti šią medžiagą'
 QUARTZ_SINGULARITY:
+  name: '&fKvarco singuliarumas'
   type:
   - '&7&oIšteklius'
 REDSTONE_SINGULARITY:
+  name: '&cRaudonakmenio singuliarumas'
   type:
   - '&7&oIšteklius'
 REINFORCED_GEOTHERMAL_GENERATOR:
+  description:
+  - '&7Generuoja didelius energijos kiekius'
+  - '&7iš pasaulio karščio'
+  name: '&fSustiprintas &cgeoterminis gen.'
   stats:
   - '&8⇨ &e⚡ &721,000 J buferis'
   - '&8⇨ &e⚡ &7210 J/s'
   type:
   - '&7&oGeneratorius'
 REINFORCED_HYDRO_GENERATOR:
+  description:
+  - '&7Generuoja didelius energijos kiekius'
+  - '&7iš vandens judėjimo'
+  name: '&fSustiprintas &9vandens gen.'
   stats:
   - '&8⇨ &e⚡ &74,500 J buferis'
   - '&8⇨ &e⚡ &745 J/s'
   type:
   - '&7&oGeneratorius'
 REINFORCED_STORAGE:
+  description:
+  - '&7Saugo didelius vieno tipo daiktų kiekius'
+  name: '&fSustiprintas &8saugojimo įrenginys'
+  stats:
+  - '&6Talpa: &e102,400 &edaiktų'
   type:
   - '&7&oMašina'
 REINFORCED_STRAINER:
+  description:
+  - '&7Renka medžiagas iš tekančio vandens'
+  name: '&fSustiprintas sietas'
   stats:
   - '&8⇨ &b⚡ &7Greitis: &b20.0x'
   type:
   - '&7&oKomponentas'
 RESOURCE_SYNTHESIZER:
+  description:
+  - '&7Kuria išteklius sujungdamas 2 singuliarumus'
+  name: '&6Išteklių sintezatorius'
+  stats:
+  - '&8⇨ &e⚡ &71,000,000 J už panaudojimą'
   type:
   - '&7&oMašina'
 SHEEP_DATA_CARD:
+  name: '&bAvies duomenų kortelė'
   stats:
   - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oKomponentas'
+  usage:
+  - '&7Įdėkite į mobų simuliacijos kamerą, kad aktyvuotumėte'
 SILVER_SINGULARITY:
+  name: '&7Sidabro singuliarumas'
   type:
   - '&7&oIšteklius'
 SINGULARITY_CONSTRUCTOR:
+  description:
+  - '&7Sutankina didelius išteklių kiekius'
+  name: '&fSinguliarumų konstruktorius'
+  stats:
+  - '&8⇨ &e⚡ &7Greitis: &b1x'
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oMašina'
 SKELETON_DATA_CARD:
+  name: '&bSkeleto duomenų kortelė'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oKomponentas'
+  usage:
+  - '&7Įdėkite į mobų simuliacijos kamerą, kad aktyvuotumėte'
 SLIME_DATA_CARD:
+  name: '&bGleivės duomenų kortelė'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oKomponentas'
+  usage:
+  - '&7Įdėkite į mobų simuliacijos kamerą, kad aktyvuotumėte'
 SPIDER_DATA_CARD:
+  name: '&bVoro duomenų kortelė'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oKomponentas'
+  usage:
+  - '&7Įdėkite į mobų simuliacijos kamerą, kad aktyvuotumėte'
 STONEWORKS_FACTORY:
+  description:
+  - '&7Generuoja grindinio akmenį ir perdirba jį į įvairias medžiagas'
+  name: '&8Akmens apdirbimo gamykla'
   stats:
   - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oMašina'
+  usage:
+  - '&eSpustelėkite&7 pasirinkimo langelius, kad perjungtumėte tarp lydymo, smulkinimo, tankinimo ir pertvarkymo'
 STORAGE_FORGE:
+  description:
+  - '&7Pakelia saugojimo įrenginių pakopą'
+  - '&7Išsaugo sukauptus daiktus'
+  name: '&6Saugyklų kalvė'
   type:
   - '&7&oMašina'
 STRAINER_BASE:
+  description:
+  - '&7Lėtai renka medžiagas iš tekančio vandens naudodamas sietą'
+  - '&7Kad veiktų, privalo būti vandenyje'
+  name: '&7Sieto pagrindas'
   type:
   - '&7&oMašina'
 TIN_SINGULARITY:
+  name: '&7Alavo singuliarumas'
   type:
   - '&7&oIšteklius'
 TITANIUM:
+  name: '&7Titanas'
   type:
   - '&7&oIšteklius'
 URANIUM_EXTRACTOR:
+  description:
+  - '&7Paverčia grindinio akmenį uranu'
+  name: '&aUrano ekstraktorius'
   stats:
   - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oMašina'
 VEIN_MINER_RUNE:
+  description:
+  - '&7Patobulina įrankį, kad kastų ištisas tam tikrų medžiagų gyslas'
+  name: '&bGyslų kasimo runa'
   type:
   - '&7&oĮtaisas'
+  usage:
+  - '&eIšmeskite&7 šalia įrankio, kad paverstumėte jį gyslų kasikliu'
 VILLAGER_DATA_CARD:
+  name: '&bKaimiečio duomenų kortelė'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oKomponentas'
+  usage:
+  - '&7Įdėkite į mobų simuliacijos kamerą, kad aktyvuotumėte'
 VOID_BIT:
+  description:
+  - '&7&oAtrodo... tuščia'
+  name: '&8Tuštumos dalelytė'
   type:
   - '&7&oIšteklius'
 VOID_CAPACITOR:
+  description:
+  - '&7Saugo perteklinę energijos tinklo energiją'
+  name: '&8Tuštumos kondensatorius'
+  stats:
+  - '&8⇨ &e⚡ 16,000,000 &7J talpa'
   type:
   - '&7&oKomponentas'
 VOID_DUST:
+  description:
+  - '&7&oPradeda įgauti formą...'
+  name: '&8Tuštumos dulkės'
   type:
   - '&7&oIšteklius'
 VOID_HARVESTER:
+  description:
+  - '&7Lėtai renka &8tuštumos &7dalelytes iš nieko...'
+  name: '&8Tuštumos rinkėjas'
+  stats:
+  - '&8⇨ &e⚡ &7Greitis: &b1x'
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oMašina'
 VOID_INGOT:
+  description:
+  - '&7&oKosmoso tuštuma'
+  - '&7&otavo delne'
+  name: '&8Tuštumos luitas'
   type:
   - '&7&oIšteklius'
 VOID_PANEL:
+  description:
+  - '&7Generuoja energiją iš tamsos'
+  name: '&8Tuštumos baterija'
   stats:
   - '&8⇨ &e⚡ &7300,000 J buferis'
   - '&8⇨ &e⚡ &73,000 J/s'
   type:
   - '&7&oGeneratorius'
 VOID_QUARRY:
+  description:
+  - '&7Automatiškai kasa Overworld ir Nether rūdas'
+  name: '&8Tuštumos karjeras'
+  stats:
+  - '&8⇨ &e⚡ &7Greitis: &b6x'
+  - '&8⇨ &e⚡ &73,600 J/s'
   type:
   - '&7&oMašina'
 VOID_STORAGE:
+  description:
+  - '&7Saugo didelius vieno tipo daiktų kiekius'
+  name: '&8Tuštumos &8saugojimo įrenginys'
+  stats:
+  - '&6Talpa: &e409,600 &edaiktų'
   type:
   - '&7&oMašina'
 WITCH_DATA_CARD:
+  name: '&bRaganos duomenų kortelė'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oKomponentas'
+  usage:
+  - '&7Įdėkite į mobų simuliacijos kamerą, kad aktyvuotumėte'
 WITHER_DATA_CARD:
+  name: '&bWither duomenų kortelė'
   stats:
   - '&8⇨ &e⚡ &74,500 J/s'
   type:
   - '&7&oKomponentas'
+  usage:
+  - '&7Įdėkite į mobų simuliacijos kamerą, kad aktyvuotumėte'
 WITHER_SKELETON_DATA_CARD:
+  name: '&bWither skeleto duomenų kortelė'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oKomponentas'
+  usage:
+  - '&7Įdėkite į mobų simuliacijos kamerą, kad aktyvuotumėte'
 ZINC_SINGULARITY:
+  name: '&7Cinko singuliarumas'
   type:
   - '&7&oIšteklius'
 ZOMBIE_DATA_CARD:
+  name: '&bZombio duomenų kortelė'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oKomponentas'
+  usage:
+  - '&7Įdėkite į mobų simuliacijos kamerą, kad aktyvuotumėte'
