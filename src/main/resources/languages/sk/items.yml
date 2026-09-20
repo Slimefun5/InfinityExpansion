@@ -1,532 +1,1060 @@
 ADAMANTITE:
+  name: '&dAdamantite'
   type:
   - '&7&oSurovina'
 ADVANCED_ANVIL:
+  description:
+  - '&7Spája očarovania nástrojov a výstroja a niekedy ich vylepší'
+  - '&bFunguje so Slimefun predmetmi'
+  name: '&cPokročilá nákova'
+  stats:
+  - '&8⇨ &e⚡ &7100,000 J na použitie'
   type:
   - '&7&oStroj'
 ADVANCED_CHARGER:
+  description:
+  - '&7Rýchlo nabíja predmety'
+  name: '&cPokročilá nabíjačka'
+  stats:
+  - '&8⇨ &e⚡ &7Rýchlosť: &b30x'
+  - '&8⇨ &e⚡ &7180 J/s'
   type:
   - '&7&oStroj'
 ADVANCED_COBBLE_GEN:
+  description:
+  - '&7Časom automaticky vytvára dlažobný kameň'
+  name: '&cPokročilý &8generátor dlažobného kameňa'
+  stats:
+  - '&8⇨ &e⚡ &7Rýchlosť: &b4x'
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oStroj'
 ADVANCED_DISENCHANTER:
+  description:
+  - '&7Automaticky prenáša očarovania z predmetov do kníh'
+  name: '&cPokročilý odčarovávač'
+  stats:
+  - '&8⇨ &e⚡ &7Rýchlosť: &b5x'
+  - '&8⇨ &e⚡ &7180 J/s'
   type:
   - '&7&oStroj'
 ADVANCED_ENCHANTER:
+  description:
+  - '&7Automaticky očaruje predmety vložené dovnútra'
+  name: '&cPokročilý očarovávač'
+  stats:
+  - '&8⇨ &e⚡ &7Rýchlosť: &b5x'
+  - '&8⇨ &e⚡ &7180 J/s'
   type:
   - '&7&oStroj'
 ADVANCED_GEO_MINER:
+  description:
+  - '&7Rýchlejší geoťažič'
+  name: '&cPokročilý &fGeoťažič'
+  stats:
+  - '&8⇨ &e⚡ &7Rýchlosť: &b4x'
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oStroj'
 ADVANCED_NETHER_STAR_REACTOR:
+  description:
+  - '&fBeží na netherských hviezdach'
+  - '&bMusí byť obklopený vodou'
+  - '&bMusí byť zásobený článkami chladiva z netherského ľadu'
+  - '&4Blízke entity postihne efekt Wither'
+  name: '&cPokročilý reaktor na netherskú hviezdu'
   stats:
   - '&8⇨ &e⚡ &790,000 J zásobník'
   - '&8⇨ &e⚡ &71,800 J/s'
   type:
   - '&7&oGenerátor'
 ADVANCED_PANEL:
+  description:
+  - '&7Vyrába energiu zo slnka'
+  name: '&cPokročilý solárny panel'
   stats:
   - '&8⇨ &e⚡ &715,000 J zásobník'
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oGenerátor'
 ADVANCED_QUARRY:
+  description:
+  - '&7Automaticky ťaží rudy z Overworldu a Netheru'
+  name: '&cPokročilá vŕtačka'
+  stats:
+  - '&8⇨ &e⚡ &7Rýchlosť: &b2x'
+  - '&8⇨ &e⚡ &7900 J/s'
   type:
   - '&7&oStroj'
 ADVANCED_SMELTERY:
+  description:
+  - '&7Rýchlejšia taviareň'
+  name: '&cPokročilá &7taviareň'
+  stats:
+  - '&8⇨ &e⚡ &7Rýchlosť: &b24x'
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oStroj'
 ADVANCED_STORAGE:
+  description:
+  - '&7Ukladá veľké množstvá jedného typu predmetu'
+  name: '&cPokročilá &8úložná jednotka'
+  stats:
+  - '&6Kapacita: &e25,600 &epredmetov'
   type:
   - '&7&oStroj'
 ADVANCED_STRAINER:
+  description:
+  - '&7Zbiera materiály z tečúcej vody'
+  name: '&cPokročilé sitko'
   stats:
   - '&8⇨ &b⚡ &7Rýchlosť: &b4.0x'
   type:
   - '&7&oKomponent'
 ADVANCED_TREE_GROWER:
+  description:
+  - '&7Automaticky pestuje, zbiera a znovu vysádza stromy'
+  name: '&cPokročilý &2pestovateľ stromov'
+  stats:
+  - '&8⇨ &e⚡ &7Rýchlosť: &b5x'
+  - '&8⇨ &e⚡ &7180 J/s'
   type:
   - '&7&oStroj'
 ADVANCED_VIRTUAL_FARM:
+  description:
+  - '&7Automaticky pestuje, zbiera a znovu vysádza plodiny'
+  name: '&cPokročilá &avirtuálna farma'
+  stats:
+  - '&8⇨ &e⚡ &7Rýchlosť: &b5x'
+  - '&8⇨ &e⚡ &790 J/s'
   type:
   - '&7&oStroj'
 ALUMINUM_SINGULARITY:
+  name: '&7Hliníková singularita'
   type:
   - '&7&oSurovina'
 BASIC_COBBLE_GEN:
+  description:
+  - '&7Časom automaticky vytvára dlažobný kameň'
+  name: '&9Základný &8generátor dlažobného kameňa'
+  stats:
+  - '&8⇨ &e⚡ &7Rýchlosť: &b1x'
+  - '&8⇨ &e⚡ &724 J/s'
   type:
   - '&7&oStroj'
 BASIC_OBSIDIAN_GEN:
+  description:
+  - '&7Časom automaticky vytvára obsidián'
+  name: '&8Generátor obsidiánu'
+  stats:
+  - '&8⇨ &e⚡ &7Rýchlosť: &b1x'
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oStroj'
 BASIC_PANEL:
+  description:
+  - '&7Vyrába energiu zo slnka'
+  name: '&9Základný solárny panel'
   stats:
   - '&8⇨ &e⚡ &7900 J zásobník'
   - '&8⇨ &e⚡ &79 J/s'
   type:
   - '&7&oGenerátor'
 BASIC_QUARRY:
+  description:
+  - '&7Automaticky ťaží rudy z Overworldu'
+  name: '&9Základná vŕtačka'
+  stats:
+  - '&8⇨ &e⚡ &7Rýchlosť: &b1x'
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oStroj'
 BASIC_STORAGE:
+  description:
+  - '&7Ukladá veľké množstvá jedného typu predmetu'
+  name: '&9Základná &8úložná jednotka'
+  stats:
+  - '&6Kapacita: &e6,400 &epredmetov'
   type:
   - '&7&oStroj'
 BASIC_STRAINER:
+  description:
+  - '&7Zbiera materiály z tečúcej vody'
+  name: '&9Základné sitko'
   stats:
   - '&8⇨ &b⚡ &7Rýchlosť: &b1.0x'
   type:
   - '&7&oKomponent'
 BASIC_TREE_GROWER:
+  description:
+  - '&7Automaticky pestuje, zbiera a znovu vysádza stromy'
+  name: '&9Základný &2pestovateľ stromov'
+  stats:
+  - '&8⇨ &e⚡ &7Rýchlosť: &b1x'
+  - '&8⇨ &e⚡ &736 J/s'
   type:
   - '&7&oStroj'
 BASIC_VIRTUAL_FARM:
+  description:
+  - '&7Automaticky pestuje, zbiera a znovu vysádza plodiny'
+  name: '&9Základná &avirtuálna farma'
+  stats:
+  - '&8⇨ &e⚡ &7Rýchlosť: &b1x'
+  - '&8⇨ &e⚡ &718 J/s'
   type:
   - '&7&oStroj'
 BEE_DATA_CARD:
+  name: '&bDátová karta včely'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oKomponent'
+  usage:
+  - '&7Umiestni do simulačnej komory príšer na aktiváciu'
 BLAZE_DATA_CARD:
+  name: '&bDátová karta blazu'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oKomponent'
+  usage:
+  - '&7Umiestni do simulačnej komory príšer na aktiváciu'
 CELESTIAL_PANEL:
+  description:
+  - '&7Vyrába energiu zo slnka'
+  name: '&eNebeský panel'
   stats:
   - '&8⇨ &e⚡ &775,000 J zásobník'
   - '&8⇨ &e⚡ &7750 J/s'
   type:
   - '&7&oGenerátor'
 CHICKEN_DATA_CARD:
+  name: '&bDátová karta kuraťa'
   stats:
   - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oKomponent'
+  usage:
+  - '&7Umiestni do simulačnej komory príšer na aktiváciu'
 COAL_SINGULARITY:
+  name: '&8Uhoľná singularita'
   type:
   - '&7&oSurovina'
 COBBLE_PRESS:
+  description:
+  - '&7Stláča dlažobný kameň účinnejšie'
+  name: '&8Lis na dlažobný kameň'
   stats:
   - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oStroj'
 COMPRESSED_COBBLESTONE_1:
+  name: '&7Jednonásobne stlačený dlažobný kameň'
+  stats:
+  - '&89 spojených dlažobných kameňov'
   type:
   - '&7&oSurovina'
 COMPRESSED_COBBLESTONE_2:
+  name: '&7Dvojnásobne stlačený dlažobný kameň'
+  stats:
+  - '&881 spojených dlažobných kameňov'
   type:
   - '&7&oSurovina'
 COMPRESSED_COBBLESTONE_3:
+  name: '&7Trojnásobne stlačený dlažobný kameň'
+  stats:
+  - '&8729 spojených dlažobných kameňov'
   type:
   - '&7&oSurovina'
 COMPRESSED_COBBLESTONE_4:
+  name: '&7Štvornásobne stlačený dlažobný kameň'
+  stats:
+  - '&86,561 spojených dlažobných kameňov'
   type:
   - '&7&oSurovina'
 COMPRESSED_COBBLESTONE_5:
+  name: '&7Päťnásobne stlačený dlažobný kameň'
+  stats:
+  - '&859,049 spojených dlažobných kameňov'
   type:
   - '&7&oSurovina'
 COPPER_SINGULARITY:
+  name: '&6Medená singularita'
   type:
   - '&7&oSurovina'
 COW_DATA_CARD:
+  name: '&bDátová karta kravy'
   stats:
   - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oKomponent'
+  usage:
+  - '&7Umiestni do simulačnej komory príšer na aktiváciu'
 CREEPER_DATA_CARD:
+  name: '&bDátová karta creepera'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oKomponent'
+  usage:
+  - '&7Umiestni do simulačnej komory príšer na aktiváciu'
 DATA_INFUSER:
+  description:
+  - '&7Napĺňa prázdne dátové karty predmetmi z príšer'
+  name: '&8Infúzor dát príšer'
+  stats:
+  - '&8⇨ &e⚡ &720,000 J na použitie'
   type:
   - '&7&oStroj'
 DECOMPRESSOR:
+  description:
+  - '&7Rozkladá bloky na ich základný materiál'
+  name: '&7Rozkladač'
   stats:
   - '&8⇨ &e⚡ &760 J/s'
   type:
   - '&7&oStroj'
 DIAMOND_SINGULARITY:
+  name: '&bDiamantová singularita'
   type:
   - '&7&oSurovina'
 DUST_EXTRACTOR:
+  description:
+  - '&7Premieňa dlažobný kameň na prachy'
+  name: '&8Extraktor prachu'
+  stats:
+  - '&8⇨ &e⚡ &7Rýchlosť: &b1x'
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oStroj'
 EARTH_SINGULARITY:
+  name: '&aZemská singularita'
   type:
   - '&7&oSurovina'
 EMERALD_SINGULARITY:
+  name: '&aSmaragdová singularita'
   type:
   - '&7&oSurovina'
 EMPTY_DATA_CARD:
+  name: '&8Prázdna dátová karta'
   type:
   - '&7&oKomponent'
+  usage:
+  - '&7Naplníš ju infúziou predmetov z príšery'
 ENDERMEN_DATA_CARD:
+  name: '&bDátová karta endermana'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oKomponent'
+  usage:
+  - '&7Umiestni do simulačnej komory príšer na aktiváciu'
 ENDER_DRAGON_DATA_CARD:
+  name: '&bDátová karta ender draka'
   stats:
   - '&8⇨ &e⚡ &79,000 J/s'
   type:
   - '&7&oKomponent'
+  usage:
+  - '&7Umiestni do simulačnej komory príšer na aktiváciu'
 ENDER_FLAME:
+  name: '&cEnder plameň'
   type:
   - '&7&oKomponent'
 END_ESSENCE:
+  description:
+  - '&8&oZ hlbín Endu...'
+  name: '&5Ender esencia'
   type:
   - '&7&oSurovina'
 EXTREME_FREEZER:
+  description:
+  - '&7Premieňa ľad na chladivo'
+  name: '&bExtrémna mraznička'
   stats:
   - '&8⇨ &e⚡ &790 J/s'
   type:
   - '&7&oStroj'
 FORTUNE_SINGULARITY:
+  name: '&6Singularita šťastia'
   type:
   - '&7&oSurovina'
 GEAR_TRANSFORMER:
+  description:
+  - '&7Mení materiál vanilla nástrojov a výstroja'
+  name: '&7Pretvárač výstroja'
+  stats:
+  - '&8⇨ &e⚡ &712,000 J na použitie'
   type:
   - '&7&oStroj'
 GEOTHERMAL_GENERATOR:
+  description:
+  - '&7Vyrába energiu z tepla sveta'
+  name: '&cGeotermálny generátor'
   stats:
   - '&8⇨ &e⚡ &73,500 J zásobník'
   - '&8⇨ &e⚡ &735 J/s'
   type:
   - '&7&oGenerátor'
 GEO_QUARRY:
+  description:
+  - '&7Pomaly ťaží geo suroviny z prázdnoty pomocou energie'
+  name: '&fGeo vŕtačka'
   stats:
   - '&8⇨ &e⚡ &7450 J/s'
   type:
   - '&7&oStroj'
 GOLD_SINGULARITY:
+  name: '&6Zlatá singularita'
   type:
   - '&7&oSurovina'
 GUARDIAN_DATA_CARD:
+  name: '&bDátová karta strážcu'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oKomponent'
+  usage:
+  - '&7Umiestni do simulačnej komory príšer na aktiváciu'
 HYDRO_GENERATOR:
+  description:
+  - '&7Vyrába energiu z pohybu vody'
+  name: '&9Vodný generátor'
   stats:
   - '&8⇨ &e⚡ &7500 J zásobník'
   - '&8⇨ &e⚡ &75 J/s'
   type:
   - '&7&oGenerátor'
 INFINITE_INGOT:
+  description:
+  - '&7&oZúrivosť vesmíru'
+  - '&7&ov dlani tvojej ruky'
+  name: '&bNekonečný ingot'
   type:
   - '&7&oSurovina'
 INFINITE_MACHINE_CIRCUIT:
+  name: '&bNekonečný &6strojový obvod'
   type:
   - '&7&oKomponent'
 INFINITE_MACHINE_CORE:
+  name: '&bNekonečné jadro stroja'
   type:
   - '&7&oKomponent'
 INFINITE_PANEL:
+  description:
+  - '&7Vyrába energiu z vesmíru'
+  name: '&bNekonečný panel'
   stats:
   - '&8⇨ &e⚡ &76,000,000 J zásobník'
   - '&8⇨ &e⚡ &760,000 J/s'
   type:
   - '&7&oGenerátor'
 INFINITE_VOID_HARVESTER:
+  description:
+  - '&7Zbiera &8prázdnotové &7kúsky z ničoho...'
+  name: '&bNekonečný &8zberač prázdnoty'
+  stats:
+  - '&8⇨ &e⚡ &7Rýchlosť: &b64x'
+  - '&8⇨ &e⚡ &712,000 J/s'
   type:
   - '&7&oStroj'
 INFINITY_AXE:
+  name: '&4Skaza prírody'
+  stats:
+  - '&bViazaný dušou'
   type:
   - '&7&oNástroj'
 INFINITY_BLADE:
+  name: '&bČepeľ vesmíru'
+  stats:
+  - '&bViazaný dušou'
   type:
   - '&7&oZbraň'
 INFINITY_BOOTS:
+  name: '&bNekonečné čižmy'
+  stats:
+  - '&7Rýchlosť III'
+  - '&7Delfínia milosť I'
+  - '&bViazaný dušou'
   type:
   - '&7&oBrnenie'
 INFINITY_BOW:
+  description:
+  - '&7Strieľa výbušné šípy, ktoré pri zásahu spomalia a zmätú nepriateľov'
+  name: '&6Prebodávač neba'
+  stats:
+  - '&bViazaný dušou'
   type:
   - '&7&oZbraň'
 INFINITY_CAPACITOR:
+  description:
+  - '&c&oNepoužívaj viac ako'
+  - '&c&o1 na energetickú sieť'
+  name: '&bNekonečný kondenzátor'
+  stats:
+  - '&8⇨ &e⚡ 2,000,000,000 &7J kapacita'
   type:
   - '&7&oKomponent'
 INFINITY_CHARGER:
+  description:
+  - '&7Okamžite nabíja predmety'
+  name: '&bNekonečná nabíjačka'
+  stats:
+  - '&8⇨ &e⚡ &7Rýchlosť: &b6000x'
+  - '&8⇨ &e⚡ &760,000 J na použitie'
   type:
   - '&7&oStroj'
 INFINITY_CHESTPLATE:
+  name: '&bNekonečný náprsník'
+  stats:
+  - '&7Sila II'
+  - '&7Odolnosť I'
+  - '&7Odolnosť voči ohňu I'
+  - '&7Imunita voči včeliemu žihadlu'
+  - '&bViazaný dušou'
   type:
   - '&7&oBrnenie'
 INFINITY_COBBLE_GEN:
+  description:
+  - '&7Časom automaticky vytvára dlažobný kameň'
+  name: '&cNekonečný &8generátor dlažobného kameňa'
+  stats:
+  - '&8⇨ &e⚡ &7Rýchlosť: &b64x'
+  - '&8⇨ &e⚡ &7800 J/s'
   type:
   - '&7&oStroj'
 INFINITY_CONSTRUCTOR:
+  description:
+  - '&7Rýchlo zhusťuje veľké množstvá surovín'
+  name: '&bNekonečný &fkonštruktor'
+  stats:
+  - '&8⇨ &e⚡ &7Rýchlosť: &b64x'
+  - '&8⇨ &e⚡ &71,200 J/s'
   type:
   - '&7&oStroj'
 INFINITY_CROWN:
+  name: '&bNekonečná koruna'
+  stats:
+  - '&7Nočné videnie I'
+  - '&7Sila vodiča I'
+  - '&7Imunita voči nárazu s elytrou'
+  - '&bViazaný dušou'
   type:
   - '&7&oBrnenie'
 INFINITY_DISENCHANTER:
+  description:
+  - '&7Automaticky prenáša očarovania z predmetov do kníh'
+  name: '&bNekonečný odčarovávač'
+  stats:
+  - '&8⇨ &e⚡ &7Rýchlosť: &b90x'
+  - '&8⇨ &e⚡ &712,000 J na použitie'
   type:
   - '&7&oStroj'
 INFINITY_DUST_EXTRACTOR:
+  description:
+  - '&7Premieňa dlažobný kameň na prachy'
+  name: '&bNekonečný &8extraktor prachu'
+  stats:
+  - '&8⇨ &e⚡ &7Rýchlosť: &b16x'
+  - '&8⇨ &e⚡ &77,200 J/s'
   type:
   - '&7&oStroj'
 INFINITY_ENCHANTER:
+  description:
+  - '&7Automaticky očaruje predmety vložené dovnútra'
+  name: '&bNekonečný očarovávač'
+  stats:
+  - '&8⇨ &e⚡ &7Rýchlosť: &b75x'
+  - '&8⇨ &e⚡ &712,000 J na použitie'
   type:
   - '&7&oStroj'
 INFINITY_FORGE:
+  description:
+  - '&7Slúži na výrobu nekonečných predmetov'
+  name: '&6Nekonečný pracovný stôl'
+  stats:
+  - '&8⇨ &e⚡ &710,000,000 J na predmet'
   type:
   - '&7&oStroj'
 INFINITY_INGOT_FORMER:
+  description:
+  - '&7Tvaruje ingoty z prachov'
+  name: '&bNekonečný &8tvarovač ingotov'
+  stats:
+  - '&8⇨ &e⚡ &7Rýchlosť: &b16x'
+  - '&8⇨ &e⚡ &77,200 J/s'
   type:
   - '&7&oStroj'
 INFINITY_LEGGINGS:
+  name: '&bNekonečné nohavice'
+  stats:
+  - '&7Náhlenie III'
+  - '&7Regenerácia I'
+  - '&7Nasýtenie I'
+  - '&7Imunita voči žiareniu'
+  - '&bViazaný dušou'
   type:
   - '&7&oBrnenie'
 INFINITY_MATRIX:
+  description:
+  - '&6Dáva neobmedzený let'
+  name: '&fNekonečná matrica'
+  stats:
+  - '&bViazaný dušou'
   type:
   - '&7&oGadget'
+  usage:
+  - '&7Pravý klik ju zapne/vypne a privlastní'
+  - '&7Prikrčenie a pravý klik zruší vlastníctvo'
 INFINITY_PICKAXE:
+  name: '&9Ničiteľ svetov'
+  stats:
+  - '&bViazaný dušou'
   type:
   - '&7&oNástroj'
 INFINITY_QUARRY:
+  description:
+  - '&7Automaticky ťaží rudy z Overworldu a Netheru'
+  name: '&bNekonečná vŕtačka'
+  stats:
+  - '&8⇨ &e⚡ &7Rýchlosť: &b64x'
+  - '&8⇨ &e⚡ &736,000 J/s'
   type:
   - '&7&oStroj'
 INFINITY_REACTOR:
+  description:
+  - '&7Vyrába energiu stláčaním'
+  - '&7ingotov &8prázdnoty &7a &bnekonečna&7'
+  name: '&bNekonečný reaktor'
   stats:
   - '&8⇨ &e⚡ &7120,000,000 J zásobník'
   - '&8⇨ &e⚡ &7120,000 J/s'
   type:
   - '&7&oGenerátor'
 INFINITY_SHIELD:
+  name: '&bKozmická egida'
+  stats:
+  - '&bViazaný dušou'
   type:
   - '&7&oZbraň'
 INFINITY_SHOVEL:
+  name: '&aPožierač hôr'
+  stats:
+  - '&bViazaný dušou'
   type:
   - '&7&oNástroj'
 INFINITY_SINGULARITY:
+  name: '&bNekonečná singularita'
   type:
   - '&7&oSurovina'
 INFINITY_STORAGE:
+  description:
+  - '&7Ukladá veľké množstvá jedného typu predmetu'
+  name: '&bNekonečná &8úložná jednotka'
+  stats:
+  - '&6Kapacita: &e1,600,000,000 &epredmetov'
   type:
   - '&7&oStroj'
 INFINITY_TREE_GROWER:
+  description:
+  - '&7Automaticky pestuje, zbiera a znovu vysádza stromy'
+  name: '&bNekonečný &2pestovateľ stromov'
+  stats:
+  - '&8⇨ &e⚡ &7Rýchlosť: &b25x'
+  - '&8⇨ &e⚡ &71,800 J/s'
   type:
   - '&7&oStroj'
 INFINITY_VIRTUAL_FARM:
+  description:
+  - '&7Automaticky pestuje, zbiera a znovu vysádza plodiny'
+  name: '&bNekonečná &avirtuálna farma'
+  stats:
+  - '&8⇨ &e⚡ &7Rýchlosť: &b25x'
+  - '&8⇨ &e⚡ &7900 J/s'
   type:
   - '&7&oStroj'
 INGOT_FORMER:
+  description:
+  - '&7Tvaruje ingoty z prachov'
+  name: '&8Tvarovač ingotov'
+  stats:
+  - '&8⇨ &e⚡ &7Rýchlosť: &b1x'
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oStroj'
 IRON_GOLEM_DATA_CARD:
+  name: '&bDátová karta železného golema'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oKomponent'
+  usage:
+  - '&7Umiestni do simulačnej komory príšer na aktiváciu'
 IRON_SINGULARITY:
+  name: '&7Železná singularita'
   type:
   - '&7&oSurovina'
 LAPIS_SINGULARITY:
+  name: '&9Lazuritová singularita'
   type:
   - '&7&oSurovina'
 LEAD_SINGULARITY:
+  name: '&8Olovená singularita'
   type:
   - '&7&oSurovina'
 MACHINE_CIRCUIT:
+  name: '&6Strojový obvod'
   type:
   - '&7&oKomponent'
 MACHINE_CORE:
+  name: '&fJadro stroja'
   type:
   - '&7&oKomponent'
 MACHINE_PLATE:
+  name: '&fStrojová doska'
   type:
   - '&7&oKomponent'
 MAGIC_SINGULARITY:
+  name: '&dMagická singularita'
   type:
   - '&7&oSurovina'
 MAGMA_CUBE_DATA_CARD:
+  name: '&bDátová karta magmovej kocky'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oKomponent'
+  usage:
+  - '&7Umiestni do simulačnej komory príšer na aktiváciu'
 MAGNESIUM_SINGULARITY:
+  name: '&5Horčíková singularita'
   type:
   - '&7&oSurovina'
 MAGNONIUM:
+  name: '&5Magnonium'
   type:
   - '&7&oSurovina'
 MAGSTEEL:
+  name: '&4MagSteel'
   type:
   - '&7&oSurovina'
 MAGSTEEL_PLATE:
+  name: '&4MagSteel doska'
   type:
   - '&7&oKomponent'
 METAL_SINGULARITY:
+  name: '&8Kovová singularita'
   type:
   - '&7&oSurovina'
 MOB_SIMULATION_CHAMBER:
+  description:
+  - '&7Aktivuješ ju dátovými kartami príšer'
+  name: '&8Simulačná komora príšer'
   stats:
   - '&8⇨ &e⚡ &715,000 J zásobník'
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oStroj'
 MYTHRIL:
+  name: '&bMythril'
   type:
   - '&7&oSurovina'
 NETHERITE_SINGULARITY:
+  name: '&4Netheritová singularita'
   type:
   - '&7&oSurovina'
 POWERED_BEDROCK:
+  description:
+  - '&7Pod napätím sa premení na podložný kameň'
+  - '&7Po odpojení alebo rozbití sa vráti späť'
+  name: '&4Napájaný podložný kameň'
   stats:
   - '&8⇨ &e⚡ &710,000 J/s'
   type:
   - '&7&oStroj'
 QUARRY_OSCILLATOR_DIAMOND:
+  name: '&bDiamantový oscilátor'
   type:
   - '&7&oKomponent'
+  usage:
+  - '&7Vlož do vŕtačky a dáš jej'
+  - '&750.0% šancu ťažiť tento materiál'
 QUARRY_OSCILLATOR_EMERALD:
+  name: '&bSmaragdový oscilátor'
   type:
   - '&7&oKomponent'
+  usage:
+  - '&7Vlož do vŕtačky a dáš jej'
+  - '&750.0% šancu ťažiť tento materiál'
 QUARRY_OSCILLATOR_LAPIS_LAZULI:
+  name: '&bLazuritový oscilátor'
   type:
   - '&7&oKomponent'
+  usage:
+  - '&7Vlož do vŕtačky a dáš jej'
+  - '&750.0% šancu ťažiť tento materiál'
 QUARRY_OSCILLATOR_QUARTZ:
+  name: '&bKremenný oscilátor'
   type:
   - '&7&oKomponent'
+  usage:
+  - '&7Vlož do vŕtačky a dáš jej'
+  - '&750.0% šancu ťažiť tento materiál'
 QUARRY_OSCILLATOR_REDSTONE:
+  name: '&bRedstone oscilátor'
   type:
   - '&7&oKomponent'
+  usage:
+  - '&7Vlož do vŕtačky a dáš jej'
+  - '&750.0% šancu ťažiť tento materiál'
 QUARTZ_SINGULARITY:
+  name: '&fKremenná singularita'
   type:
   - '&7&oSurovina'
 REDSTONE_SINGULARITY:
+  name: '&cRedstone singularita'
   type:
   - '&7&oSurovina'
 REINFORCED_GEOTHERMAL_GENERATOR:
+  description:
+  - '&7Vyrába veľké množstvá energie'
+  - '&7z tepla sveta'
+  name: '&fVystužený &cgeotermálny generátor'
   stats:
   - '&8⇨ &e⚡ &721,000 J zásobník'
   - '&8⇨ &e⚡ &7210 J/s'
   type:
   - '&7&oGenerátor'
 REINFORCED_HYDRO_GENERATOR:
+  description:
+  - '&7Vyrába veľké množstvá energie'
+  - '&7z pohybu vody'
+  name: '&fVystužený &9vodný generátor'
   stats:
   - '&8⇨ &e⚡ &74,500 J zásobník'
   - '&8⇨ &e⚡ &745 J/s'
   type:
   - '&7&oGenerátor'
 REINFORCED_STORAGE:
+  description:
+  - '&7Ukladá veľké množstvá jedného typu predmetu'
+  name: '&fVystužená &8úložná jednotka'
+  stats:
+  - '&6Kapacita: &e102,400 &epredmetov'
   type:
   - '&7&oStroj'
 REINFORCED_STRAINER:
+  description:
+  - '&7Zbiera materiály z tečúcej vody'
+  name: '&fVystužené sitko'
   stats:
   - '&8⇨ &b⚡ &7Rýchlosť: &b20.0x'
   type:
   - '&7&oKomponent'
 RESOURCE_SYNTHESIZER:
+  description:
+  - '&7Vytvára suroviny spojením 2 singularít'
+  name: '&6Syntetizátor surovín'
+  stats:
+  - '&8⇨ &e⚡ &71,000,000 J na použitie'
   type:
   - '&7&oStroj'
 SHEEP_DATA_CARD:
+  name: '&bDátová karta ovce'
   stats:
   - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oKomponent'
+  usage:
+  - '&7Umiestni do simulačnej komory príšer na aktiváciu'
 SILVER_SINGULARITY:
+  name: '&7Strieborná singularita'
   type:
   - '&7&oSurovina'
 SINGULARITY_CONSTRUCTOR:
+  description:
+  - '&7Zhusťuje veľké množstvá surovín'
+  name: '&fKonštruktor singularít'
+  stats:
+  - '&8⇨ &e⚡ &7Rýchlosť: &b1x'
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oStroj'
 SKELETON_DATA_CARD:
+  name: '&bDátová karta kostlivca'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oKomponent'
+  usage:
+  - '&7Umiestni do simulačnej komory príšer na aktiváciu'
 SLIME_DATA_CARD:
+  name: '&bDátová karta slizu'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oKomponent'
+  usage:
+  - '&7Umiestni do simulačnej komory príšer na aktiváciu'
 SPIDER_DATA_CARD:
+  name: '&bDátová karta pavúka'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oKomponent'
+  usage:
+  - '&7Umiestni do simulačnej komory príšer na aktiváciu'
 STONEWORKS_FACTORY:
+  description:
+  - '&7Vytvára dlažobný kameň a spracúva ho na rôzne materiály'
+  name: '&8Kamenárska továreň'
   stats:
   - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oStroj'
+  usage:
+  - '&eKlik&7 na voliace sloty prepína medzi tavením, drvením, stláčaním a pretváraním'
 STORAGE_FORGE:
+  description:
+  - '&7Vylepšuje stupeň úložných jednotiek'
+  - '&7Zachová uložené predmety'
+  name: '&6Vyhňa na úložiská'
   type:
   - '&7&oStroj'
 STRAINER_BASE:
+  description:
+  - '&7Pomaly zbiera materiály z tečúcej vody pomocou sitka'
+  - '&7Na chod musí byť zaplavená vodou'
+  name: '&7Základňa sitka'
   type:
   - '&7&oStroj'
 TIN_SINGULARITY:
+  name: '&7Cínová singularita'
   type:
   - '&7&oSurovina'
 TITANIUM:
+  name: '&7Titán'
   type:
   - '&7&oSurovina'
 URANIUM_EXTRACTOR:
+  description:
+  - '&7Premieňa dlažobný kameň na urán'
+  name: '&aExtraktor uránu'
   stats:
   - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oStroj'
 VEIN_MINER_RUNE:
+  description:
+  - '&7Vylepší nástroj na žilnú ťažbu určitých materiálov'
+  name: '&bRuna žilnej ťažby'
   type:
   - '&7&oGadget'
+  usage:
+  - '&eZahoď&7 vedľa nástroja a vylepšíš ho na žilného ťažiča'
 VILLAGER_DATA_CARD:
+  name: '&bDátová karta dedinčana'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oKomponent'
+  usage:
+  - '&7Umiestni do simulačnej komory príšer na aktiváciu'
 VOID_BIT:
+  description:
+  - '&7&oCítiť z neho... prázdnotu'
+  name: '&8Prázdnotový kúsok'
   type:
   - '&7&oSurovina'
 VOID_CAPACITOR:
+  description:
+  - '&7Ukladá prebytočnú energiu pre energetickú sieť'
+  name: '&8Prázdnotový kondenzátor'
+  stats:
+  - '&8⇨ &e⚡ 16,000,000 &7J kapacita'
   type:
   - '&7&oKomponent'
 VOID_DUST:
+  description:
+  - '&7&oZačína naberať tvar...'
+  name: '&8Prázdnotový prach'
   type:
   - '&7&oSurovina'
 VOID_HARVESTER:
+  description:
+  - '&7Pomaly zbiera &8prázdnotové &7kúsky z ničoho...'
+  name: '&8Zberač prázdnoty'
+  stats:
+  - '&8⇨ &e⚡ &7Rýchlosť: &b1x'
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oStroj'
 VOID_INGOT:
+  description:
+  - '&7&oPrázdnota vesmíru'
+  - '&7&ov dlani tvojej ruky'
+  name: '&8Prázdnotový ingot'
   type:
   - '&7&oSurovina'
 VOID_PANEL:
+  description:
+  - '&7Vyrába energiu z temnoty'
+  name: '&8Prázdnotový panel'
   stats:
   - '&8⇨ &e⚡ &7300,000 J zásobník'
   - '&8⇨ &e⚡ &73,000 J/s'
   type:
   - '&7&oGenerátor'
 VOID_QUARRY:
+  description:
+  - '&7Automaticky ťaží rudy z Overworldu a Netheru'
+  name: '&8Prázdnotová vŕtačka'
+  stats:
+  - '&8⇨ &e⚡ &7Rýchlosť: &b6x'
+  - '&8⇨ &e⚡ &73,600 J/s'
   type:
   - '&7&oStroj'
 VOID_STORAGE:
+  description:
+  - '&7Ukladá veľké množstvá jedného typu predmetu'
+  name: '&8Prázdnotová &8úložná jednotka'
+  stats:
+  - '&6Kapacita: &e409,600 &epredmetov'
   type:
   - '&7&oStroj'
 WITCH_DATA_CARD:
+  name: '&bDátová karta bosorky'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oKomponent'
+  usage:
+  - '&7Umiestni do simulačnej komory príšer na aktiváciu'
 WITHER_DATA_CARD:
+  name: '&bDátová karta withera'
   stats:
   - '&8⇨ &e⚡ &74,500 J/s'
   type:
   - '&7&oKomponent'
+  usage:
+  - '&7Umiestni do simulačnej komory príšer na aktiváciu'
 WITHER_SKELETON_DATA_CARD:
+  name: '&bDátová karta kostlivca wither'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oKomponent'
+  usage:
+  - '&7Umiestni do simulačnej komory príšer na aktiváciu'
 ZINC_SINGULARITY:
+  name: '&7Zinková singularita'
   type:
   - '&7&oSurovina'
 ZOMBIE_DATA_CARD:
+  name: '&bDátová karta zombie'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oKomponent'
+  usage:
+  - '&7Umiestni do simulačnej komory príšer na aktiváciu'
