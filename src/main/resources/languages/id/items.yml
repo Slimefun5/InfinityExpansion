@@ -1,532 +1,1060 @@
 ADAMANTITE:
+  name: '&dAdamantite'
   type:
   - '&7&oSumber Daya'
 ADVANCED_ANVIL:
+  description:
+  - '&7Menggabungkan mantra alat dan perlengkapan serta kadang meningkatkannya'
+  - '&bBerfungsi dengan item Slimefun'
+  name: '&cLandasan Tempa Canggih'
+  stats:
+  - '&8⇨ &e⚡ &7100,000 J per pemakaian'
   type:
   - '&7&oMesin'
 ADVANCED_CHARGER:
+  description:
+  - '&7Mengisi daya item dengan cepat'
+  name: '&cPengisi Daya Canggih'
+  stats:
+  - '&8⇨ &e⚡ &7Kecepatan: &b30x'
+  - '&8⇨ &e⚡ &7180 J/s'
   type:
   - '&7&oMesin'
 ADVANCED_COBBLE_GEN:
+  description:
+  - '&7Otomatis menghasilkan batu bulat seiring waktu'
+  name: '&8Generator Batu Bulat &cCanggih'
+  stats:
+  - '&8⇨ &e⚡ &7Kecepatan: &b4x'
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oMesin'
 ADVANCED_DISENCHANTER:
+  description:
+  - '&7Otomatis memindahkan mantra dari item ke dalam buku'
+  name: '&cPelepas Mantra Canggih'
+  stats:
+  - '&8⇨ &e⚡ &7Kecepatan: &b5x'
+  - '&8⇨ &e⚡ &7180 J/s'
   type:
   - '&7&oMesin'
 ADVANCED_ENCHANTER:
+  description:
+  - '&7Otomatis memantrai item yang ditaruh di dalamnya'
+  name: '&cPemantra Canggih'
+  stats:
+  - '&8⇨ &e⚡ &7Kecepatan: &b5x'
+  - '&8⇨ &e⚡ &7180 J/s'
   type:
   - '&7&oMesin'
 ADVANCED_GEO_MINER:
+  description:
+  - '&7Geo-miner yang lebih cepat'
+  name: '&fGeoMiner &cCanggih'
+  stats:
+  - '&8⇨ &e⚡ &7Kecepatan: &b4x'
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oMesin'
 ADVANCED_NETHER_STAR_REACTOR:
+  description:
+  - '&fBerjalan dengan Bintang Nether'
+  - '&bHarus dikelilingi Air'
+  - '&bHarus dipasok Sel Pendingin Es Nether'
+  - '&4Membuat Entitas terdekat terkena Wither'
+  name: '&cReaktor Bintang Nether Canggih'
   stats:
   - '&8⇨ &e⚡ &790,000 J Buffer'
   - '&8⇨ &e⚡ &71,800 J/s'
   type:
   - '&7&oGenerator'
 ADVANCED_PANEL:
+  description:
+  - '&7Menghasilkan energi dari matahari'
+  name: '&cPanel Surya Canggih'
   stats:
   - '&8⇨ &e⚡ &715,000 J Buffer'
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oGenerator'
 ADVANCED_QUARRY:
+  description:
+  - '&7Otomatis menambang bijih overworld dan nether'
+  name: '&cTambang Canggih'
+  stats:
+  - '&8⇨ &e⚡ &7Kecepatan: &b2x'
+  - '&8⇨ &e⚡ &7900 J/s'
   type:
   - '&7&oMesin'
 ADVANCED_SMELTERY:
+  description:
+  - '&7Peleburan yang lebih cepat'
+  name: '&7Peleburan &cCanggih'
+  stats:
+  - '&8⇨ &e⚡ &7Kecepatan: &b24x'
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oMesin'
 ADVANCED_STORAGE:
+  description:
+  - '&7Menyimpan jumlah besar dari satu jenis item'
+  name: '&8Unit Penyimpanan &cCanggih'
+  stats:
+  - '&6Kapasitas: &e25,600 &eitem'
   type:
   - '&7&oMesin'
 ADVANCED_STRAINER:
+  description:
+  - '&7Mengumpulkan bahan dari air mengalir'
+  name: '&cPenyaring Canggih'
   stats:
   - '&8⇨ &b⚡ &7Kecepatan: &b4.0x'
   type:
   - '&7&oKomponen'
 ADVANCED_TREE_GROWER:
+  description:
+  - '&7Otomatis menumbuhkan, memanen, dan menanam ulang pohon'
+  name: '&2Penumbuh Pohon &cCanggih'
+  stats:
+  - '&8⇨ &e⚡ &7Kecepatan: &b5x'
+  - '&8⇨ &e⚡ &7180 J/s'
   type:
   - '&7&oMesin'
 ADVANCED_VIRTUAL_FARM:
+  description:
+  - '&7Otomatis menumbuhkan, memanen, dan menanam ulang tanaman panen'
+  name: '&aLadang Virtual &cCanggih'
+  stats:
+  - '&8⇨ &e⚡ &7Kecepatan: &b5x'
+  - '&8⇨ &e⚡ &790 J/s'
   type:
   - '&7&oMesin'
 ALUMINUM_SINGULARITY:
+  name: '&7Singularitas Aluminium'
   type:
   - '&7&oSumber Daya'
 BASIC_COBBLE_GEN:
+  description:
+  - '&7Otomatis menghasilkan batu bulat seiring waktu'
+  name: '&8Generator Batu Bulat &9Dasar'
+  stats:
+  - '&8⇨ &e⚡ &7Kecepatan: &b1x'
+  - '&8⇨ &e⚡ &724 J/s'
   type:
   - '&7&oMesin'
 BASIC_OBSIDIAN_GEN:
+  description:
+  - '&7Otomatis menghasilkan obsidian seiring waktu'
+  name: '&8Generator Obsidian'
+  stats:
+  - '&8⇨ &e⚡ &7Kecepatan: &b1x'
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oMesin'
 BASIC_PANEL:
+  description:
+  - '&7Menghasilkan energi dari matahari'
+  name: '&9Panel Surya Dasar'
   stats:
   - '&8⇨ &e⚡ &7900 J Buffer'
   - '&8⇨ &e⚡ &79 J/s'
   type:
   - '&7&oGenerator'
 BASIC_QUARRY:
+  description:
+  - '&7Otomatis menambang bijih overworld'
+  name: '&9Tambang Dasar'
+  stats:
+  - '&8⇨ &e⚡ &7Kecepatan: &b1x'
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oMesin'
 BASIC_STORAGE:
+  description:
+  - '&7Menyimpan jumlah besar dari satu jenis item'
+  name: '&8Unit Penyimpanan &9Dasar'
+  stats:
+  - '&6Kapasitas: &e6,400 &eitem'
   type:
   - '&7&oMesin'
 BASIC_STRAINER:
+  description:
+  - '&7Mengumpulkan bahan dari air mengalir'
+  name: '&9Penyaring Dasar'
   stats:
   - '&8⇨ &b⚡ &7Kecepatan: &b1.0x'
   type:
   - '&7&oKomponen'
 BASIC_TREE_GROWER:
+  description:
+  - '&7Otomatis menumbuhkan, memanen, dan menanam ulang pohon'
+  name: '&2Penumbuh Pohon &9Dasar'
+  stats:
+  - '&8⇨ &e⚡ &7Kecepatan: &b1x'
+  - '&8⇨ &e⚡ &736 J/s'
   type:
   - '&7&oMesin'
 BASIC_VIRTUAL_FARM:
+  description:
+  - '&7Otomatis menumbuhkan, memanen, dan menanam ulang tanaman panen'
+  name: '&aLadang Virtual &9Dasar'
+  stats:
+  - '&8⇨ &e⚡ &7Kecepatan: &b1x'
+  - '&8⇨ &e⚡ &718 J/s'
   type:
   - '&7&oMesin'
 BEE_DATA_CARD:
+  name: '&bKartu Data Lebah'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oKomponen'
+  usage:
+  - '&7Letakkan di ruang simulasi mob untuk mengaktifkan'
 BLAZE_DATA_CARD:
+  name: '&bKartu Data Blaze'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oKomponen'
+  usage:
+  - '&7Letakkan di ruang simulasi mob untuk mengaktifkan'
 CELESTIAL_PANEL:
+  description:
+  - '&7Menghasilkan energi dari matahari'
+  name: '&ePanel Angkasa'
   stats:
   - '&8⇨ &e⚡ &775,000 J Buffer'
   - '&8⇨ &e⚡ &7750 J/s'
   type:
   - '&7&oGenerator'
 CHICKEN_DATA_CARD:
+  name: '&bKartu Data Ayam'
   stats:
   - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oKomponen'
+  usage:
+  - '&7Letakkan di ruang simulasi mob untuk mengaktifkan'
 COAL_SINGULARITY:
+  name: '&8Singularitas Batu Bara'
   type:
   - '&7&oSumber Daya'
 COBBLE_PRESS:
+  description:
+  - '&7Memadatkan batu bulat lebih efisien'
+  name: '&8Pres Batu Bulat'
   stats:
   - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oMesin'
 COMPRESSED_COBBLESTONE_1:
+  name: '&7Batu Bulat Terkompresi Tunggal'
+  stats:
+  - '&89 batu bulat digabungkan'
   type:
   - '&7&oSumber Daya'
 COMPRESSED_COBBLESTONE_2:
+  name: '&7Batu Bulat Terkompresi Ganda'
+  stats:
+  - '&881 batu bulat digabungkan'
   type:
   - '&7&oSumber Daya'
 COMPRESSED_COBBLESTONE_3:
+  name: '&7Batu Bulat Terkompresi Tiga Kali'
+  stats:
+  - '&8729 batu bulat digabungkan'
   type:
   - '&7&oSumber Daya'
 COMPRESSED_COBBLESTONE_4:
+  name: '&7Batu Bulat Terkompresi Empat Kali'
+  stats:
+  - '&86,561 batu bulat digabungkan'
   type:
   - '&7&oSumber Daya'
 COMPRESSED_COBBLESTONE_5:
+  name: '&7Batu Bulat Terkompresi Lima Kali'
+  stats:
+  - '&859,049 batu bulat digabungkan'
   type:
   - '&7&oSumber Daya'
 COPPER_SINGULARITY:
+  name: '&6Singularitas Tembaga'
   type:
   - '&7&oSumber Daya'
 COW_DATA_CARD:
+  name: '&bKartu Data Sapi'
   stats:
   - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oKomponen'
+  usage:
+  - '&7Letakkan di ruang simulasi mob untuk mengaktifkan'
 CREEPER_DATA_CARD:
+  name: '&bKartu Data Creeper'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oKomponen'
+  usage:
+  - '&7Letakkan di ruang simulasi mob untuk mengaktifkan'
 DATA_INFUSER:
+  description:
+  - '&7Menginfusi kartu data kosong dengan item mob'
+  name: '&8Penginfusi Data Mob'
+  stats:
+  - '&8⇨ &e⚡ &720,000 J per pemakaian'
   type:
   - '&7&oMesin'
 DECOMPRESSOR:
+  description:
+  - '&7Menguraikan blok kembali ke bahan dasarnya'
+  name: '&7Dekompresor'
   stats:
   - '&8⇨ &e⚡ &760 J/s'
   type:
   - '&7&oMesin'
 DIAMOND_SINGULARITY:
+  name: '&bSingularitas Berlian'
   type:
   - '&7&oSumber Daya'
 DUST_EXTRACTOR:
+  description:
+  - '&7Mengubah batu bulat menjadi serbuk'
+  name: '&8Pengekstrak Serbuk'
+  stats:
+  - '&8⇨ &e⚡ &7Kecepatan: &b1x'
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oMesin'
 EARTH_SINGULARITY:
+  name: '&aSingularitas Bumi'
   type:
   - '&7&oSumber Daya'
 EMERALD_SINGULARITY:
+  name: '&aSingularitas Zamrud'
   type:
   - '&7&oSumber Daya'
 EMPTY_DATA_CARD:
+  name: '&8Kartu Data Kosong'
   type:
   - '&7&oKomponen'
+  usage:
+  - '&7Infusikan dengan item mob untuk mengisinya'
 ENDERMEN_DATA_CARD:
+  name: '&bKartu Data Enderman'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oKomponen'
+  usage:
+  - '&7Letakkan di ruang simulasi mob untuk mengaktifkan'
 ENDER_DRAGON_DATA_CARD:
+  name: '&bKartu Data Naga Ender'
   stats:
   - '&8⇨ &e⚡ &79,000 J/s'
   type:
   - '&7&oKomponen'
+  usage:
+  - '&7Letakkan di ruang simulasi mob untuk mengaktifkan'
 ENDER_FLAME:
+  name: '&cApi Ender'
   type:
   - '&7&oKomponen'
 END_ESSENCE:
+  description:
+  - '&8&oDari kedalaman End...'
+  name: '&5Esensi Ender'
   type:
   - '&7&oSumber Daya'
 EXTREME_FREEZER:
+  description:
+  - '&7Mengubah es menjadi pendingin'
+  name: '&bPembeku Ekstrem'
   stats:
   - '&8⇨ &e⚡ &790 J/s'
   type:
   - '&7&oMesin'
 FORTUNE_SINGULARITY:
+  name: '&6Singularitas Keberuntungan'
   type:
   - '&7&oSumber Daya'
 GEAR_TRANSFORMER:
+  description:
+  - '&7Mengubah bahan alat dan perlengkapan vanilla'
+  name: '&7Pengubah Perlengkapan'
+  stats:
+  - '&8⇨ &e⚡ &712,000 J Per Pemakaian'
   type:
   - '&7&oMesin'
 GEOTHERMAL_GENERATOR:
+  description:
+  - '&7Menghasilkan energi dari panas dunia'
+  name: '&cGenerator Panas Bumi'
   stats:
   - '&8⇨ &e⚡ &73,500 J Buffer'
   - '&8⇨ &e⚡ &735 J/s'
   type:
   - '&7&oGenerator'
 GEO_QUARRY:
+  description:
+  - '&7Perlahan memanen sumber daya geo dari kehampaan memakai daya'
+  name: '&fTambang Geo'
   stats:
   - '&8⇨ &e⚡ &7450 J/s'
   type:
   - '&7&oMesin'
 GOLD_SINGULARITY:
+  name: '&6Singularitas Emas'
   type:
   - '&7&oSumber Daya'
 GUARDIAN_DATA_CARD:
+  name: '&bKartu Data Penjaga'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oKomponen'
+  usage:
+  - '&7Letakkan di ruang simulasi mob untuk mengaktifkan'
 HYDRO_GENERATOR:
+  description:
+  - '&7Menghasilkan energi dari gerakan air'
+  name: '&9Generator Hidro'
   stats:
   - '&8⇨ &e⚡ &7500 J Buffer'
   - '&8⇨ &e⚡ &75 J/s'
   type:
   - '&7&oGenerator'
 INFINITE_INGOT:
+  description:
+  - '&7&oAmukan kosmos'
+  - '&7&odalam genggaman tanganmu'
+  name: '&bBatangan Tak Terbatas'
   type:
   - '&7&oSumber Daya'
 INFINITE_MACHINE_CIRCUIT:
+  name: '&6Sirkuit Mesin &bTak Terbatas'
   type:
   - '&7&oKomponen'
 INFINITE_MACHINE_CORE:
+  name: '&bInti Mesin Tak Terbatas'
   type:
   - '&7&oKomponen'
 INFINITE_PANEL:
+  description:
+  - '&7Menghasilkan energi dari kosmos'
+  name: '&bPanel Tak Terbatas'
   stats:
   - '&8⇨ &e⚡ &76,000,000 J Buffer'
   - '&8⇨ &e⚡ &760,000 J/s'
   type:
   - '&7&oGenerator'
 INFINITE_VOID_HARVESTER:
+  description:
+  - '&7Memanen Serpih &8Hampa &7dari ketiadaan...'
+  name: '&8Pemanen Hampa &bTak Terbatas'
+  stats:
+  - '&8⇨ &e⚡ &7Kecepatan: &b64x'
+  - '&8⇨ &e⚡ &712,000 J/s'
   type:
   - '&7&oMesin'
 INFINITY_AXE:
+  name: '&4Kehancuran Alam'
+  stats:
+  - '&bTerikat Jiwa'
   type:
   - '&7&oAlat'
 INFINITY_BLADE:
+  name: '&bBilah Kosmos'
+  stats:
+  - '&bTerikat Jiwa'
   type:
   - '&7&oSenjata'
 INFINITY_BOOTS:
+  name: '&bSepatu Bot Tak Terbatas'
+  stats:
+  - '&7Kecepatan III'
+  - '&7Berkah Lumba-lumba I'
+  - '&bTerikat Jiwa'
   type:
   - '&7&oBaju Zirah'
 INFINITY_BOW:
+  description:
+  - '&7Menembakkan panah peledak yang memperlambat dan membingungkan musuh saat mengenai'
+  name: '&6Penembus Langit'
+  stats:
+  - '&bTerikat Jiwa'
   type:
   - '&7&oSenjata'
 INFINITY_CAPACITOR:
+  description:
+  - '&c&oJangan gunakan lebih dari'
+  - '&c&o1 per jaringan energi'
+  name: '&bKapasitor Tak Terbatas'
+  stats:
+  - '&8⇨ &e⚡ 2,000,000,000 &7J Kapasitas'
   type:
   - '&7&oKomponen'
 INFINITY_CHARGER:
+  description:
+  - '&7Mengisi daya item seketika'
+  name: '&bPengisi Daya Tak Terbatas'
+  stats:
+  - '&8⇨ &e⚡ &7Kecepatan: &b6000x'
+  - '&8⇨ &e⚡ &760,000 J per pemakaian'
   type:
   - '&7&oMesin'
 INFINITY_CHESTPLATE:
+  name: '&bZirah Dada Tak Terbatas'
+  stats:
+  - '&7Kekuatan II'
+  - '&7Ketahanan I'
+  - '&7Ketahanan Api I'
+  - '&7Kebal Sengatan Lebah'
+  - '&bTerikat Jiwa'
   type:
   - '&7&oBaju Zirah'
 INFINITY_COBBLE_GEN:
+  description:
+  - '&7Otomatis menghasilkan batu bulat seiring waktu'
+  name: '&8Generator Batu Bulat &cTak Terbatas'
+  stats:
+  - '&8⇨ &e⚡ &7Kecepatan: &b64x'
+  - '&8⇨ &e⚡ &7800 J/s'
   type:
   - '&7&oMesin'
 INFINITY_CONSTRUCTOR:
+  description:
+  - '&7Dengan cepat memadatkan sumber daya dalam jumlah besar'
+  name: '&fPembangun &bTak Terbatas'
+  stats:
+  - '&8⇨ &e⚡ &7Kecepatan: &b64x'
+  - '&8⇨ &e⚡ &71,200 J/s'
   type:
   - '&7&oMesin'
 INFINITY_CROWN:
+  name: '&bMahkota Tak Terbatas'
+  stats:
+  - '&7Penglihatan Malam I'
+  - '&7Kekuatan Konduit I'
+  - '&7Kebal Benturan Elytra'
+  - '&bTerikat Jiwa'
   type:
   - '&7&oBaju Zirah'
 INFINITY_DISENCHANTER:
+  description:
+  - '&7Otomatis memindahkan mantra dari item ke dalam buku'
+  name: '&bPelepas Mantra Tak Terbatas'
+  stats:
+  - '&8⇨ &e⚡ &7Kecepatan: &b90x'
+  - '&8⇨ &e⚡ &712,000 J per pemakaian'
   type:
   - '&7&oMesin'
 INFINITY_DUST_EXTRACTOR:
+  description:
+  - '&7Mengubah batu bulat menjadi serbuk'
+  name: '&8Pengekstrak Serbuk &bTak Terbatas'
+  stats:
+  - '&8⇨ &e⚡ &7Kecepatan: &b16x'
+  - '&8⇨ &e⚡ &77,200 J/s'
   type:
   - '&7&oMesin'
 INFINITY_ENCHANTER:
+  description:
+  - '&7Otomatis memantrai item yang ditaruh di dalamnya'
+  name: '&bPemantra Tak Terbatas'
+  stats:
+  - '&8⇨ &e⚡ &7Kecepatan: &b75x'
+  - '&8⇨ &e⚡ &712,000 J per pemakaian'
   type:
   - '&7&oMesin'
 INFINITY_FORGE:
+  description:
+  - '&7Digunakan untuk membuat item tak terbatas'
+  name: '&6Meja Kerja Tak Terbatas'
+  stats:
+  - '&8⇨ &e⚡ &710,000,000 J per item'
   type:
   - '&7&oMesin'
 INFINITY_INGOT_FORMER:
+  description:
+  - '&7Membentuk batangan dari serbuk'
+  name: '&8Pembentuk Batangan &bTak Terbatas'
+  stats:
+  - '&8⇨ &e⚡ &7Kecepatan: &b16x'
+  - '&8⇨ &e⚡ &77,200 J/s'
   type:
   - '&7&oMesin'
 INFINITY_LEGGINGS:
+  name: '&bCelana Zirah Tak Terbatas'
+  stats:
+  - '&7Penggalian Cepat III'
+  - '&7Regenerasi I'
+  - '&7Kekenyangan I'
+  - '&7Kebal Radiasi'
+  - '&bTerikat Jiwa'
   type:
   - '&7&oBaju Zirah'
 INFINITY_MATRIX:
+  description:
+  - '&6Memberi Terbang Tanpa Batas'
+  name: '&fMatriks Tak Terbatas'
+  stats:
+  - '&bTerikat Jiwa'
   type:
   - '&7&oGadget'
+  usage:
+  - '&7Klik kanan untuk mengaktifkan/menonaktifkan dan mengklaim'
+  - '&7Jongkok dan Klik kanan untuk melepas kepemilikan'
 INFINITY_PICKAXE:
+  name: '&9Penghancur Dunia'
+  stats:
+  - '&bTerikat Jiwa'
   type:
   - '&7&oAlat'
 INFINITY_QUARRY:
+  description:
+  - '&7Otomatis menambang bijih overworld dan nether'
+  name: '&bTambang Tak Terbatas'
+  stats:
+  - '&8⇨ &e⚡ &7Kecepatan: &b64x'
+  - '&8⇨ &e⚡ &736,000 J/s'
   type:
   - '&7&oMesin'
 INFINITY_REACTOR:
+  description:
+  - '&7Menghasilkan daya melalui pemadatan'
+  - '&7Batangan &8Hampa &7dan &bTak Terbatas&7'
+  name: '&bReaktor Tak Terbatas'
   stats:
   - '&8⇨ &e⚡ &7120,000,000 J Buffer'
   - '&8⇨ &e⚡ &7120,000 J/s'
   type:
   - '&7&oGenerator'
 INFINITY_SHIELD:
+  name: '&bPerisai Kosmik'
+  stats:
+  - '&bTerikat Jiwa'
   type:
   - '&7&oSenjata'
 INFINITY_SHOVEL:
+  name: '&aPelahap Gunung'
+  stats:
+  - '&bTerikat Jiwa'
   type:
   - '&7&oAlat'
 INFINITY_SINGULARITY:
+  name: '&bSingularitas Tak Terbatas'
   type:
   - '&7&oSumber Daya'
 INFINITY_STORAGE:
+  description:
+  - '&7Menyimpan jumlah besar dari satu jenis item'
+  name: '&8Unit Penyimpanan &bTak Terbatas'
+  stats:
+  - '&6Kapasitas: &e1,600,000,000 &eitem'
   type:
   - '&7&oMesin'
 INFINITY_TREE_GROWER:
+  description:
+  - '&7Otomatis menumbuhkan, memanen, dan menanam ulang pohon'
+  name: '&2Penumbuh Pohon &bTak Terbatas'
+  stats:
+  - '&8⇨ &e⚡ &7Kecepatan: &b25x'
+  - '&8⇨ &e⚡ &71,800 J/s'
   type:
   - '&7&oMesin'
 INFINITY_VIRTUAL_FARM:
+  description:
+  - '&7Otomatis menumbuhkan, memanen, dan menanam ulang tanaman panen'
+  name: '&aLadang Virtual &bTak Terbatas'
+  stats:
+  - '&8⇨ &e⚡ &7Kecepatan: &b25x'
+  - '&8⇨ &e⚡ &7900 J/s'
   type:
   - '&7&oMesin'
 INGOT_FORMER:
+  description:
+  - '&7Membentuk batangan dari serbuk'
+  name: '&8Pembentuk Batangan'
+  stats:
+  - '&8⇨ &e⚡ &7Kecepatan: &b1x'
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oMesin'
 IRON_GOLEM_DATA_CARD:
+  name: '&bKartu Data Golem Besi'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oKomponen'
+  usage:
+  - '&7Letakkan di ruang simulasi mob untuk mengaktifkan'
 IRON_SINGULARITY:
+  name: '&7Singularitas Besi'
   type:
   - '&7&oSumber Daya'
 LAPIS_SINGULARITY:
+  name: '&9Singularitas Lapis'
   type:
   - '&7&oSumber Daya'
 LEAD_SINGULARITY:
+  name: '&8Singularitas Timbal'
   type:
   - '&7&oSumber Daya'
 MACHINE_CIRCUIT:
+  name: '&6Sirkuit Mesin'
   type:
   - '&7&oKomponen'
 MACHINE_CORE:
+  name: '&fInti Mesin'
   type:
   - '&7&oKomponen'
 MACHINE_PLATE:
+  name: '&fPelat Mesin'
   type:
   - '&7&oKomponen'
 MAGIC_SINGULARITY:
+  name: '&dSingularitas Sihir'
   type:
   - '&7&oSumber Daya'
 MAGMA_CUBE_DATA_CARD:
+  name: '&bKartu Data Kubus Magma'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oKomponen'
+  usage:
+  - '&7Letakkan di ruang simulasi mob untuk mengaktifkan'
 MAGNESIUM_SINGULARITY:
+  name: '&5Singularitas Magnesium'
   type:
   - '&7&oSumber Daya'
 MAGNONIUM:
+  name: '&5Magnonium'
   type:
   - '&7&oSumber Daya'
 MAGSTEEL:
+  name: '&4MagSteel'
   type:
   - '&7&oSumber Daya'
 MAGSTEEL_PLATE:
+  name: '&4Pelat MagSteel'
   type:
   - '&7&oKomponen'
 METAL_SINGULARITY:
+  name: '&8Singularitas Logam'
   type:
   - '&7&oSumber Daya'
 MOB_SIMULATION_CHAMBER:
+  description:
+  - '&7Gunakan kartu data mob untuk mengaktifkannya'
+  name: '&8Ruang Simulasi Mob'
   stats:
   - '&8⇨ &e⚡ &715,000 J Buffer'
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oMesin'
 MYTHRIL:
+  name: '&bMythril'
   type:
   - '&7&oSumber Daya'
 NETHERITE_SINGULARITY:
+  name: '&4Singularitas Netherite'
   type:
   - '&7&oSumber Daya'
 POWERED_BEDROCK:
+  description:
+  - '&7Saat diberi daya, berubah menjadi batuan dasar'
+  - '&7Akan kembali semula bila daya putus atau rusak'
+  name: '&4Batuan Dasar Bertenaga'
   stats:
   - '&8⇨ &e⚡ &710,000 J/s'
   type:
   - '&7&oMesin'
 QUARRY_OSCILLATOR_DIAMOND:
+  name: '&bOsilator Berlian'
   type:
   - '&7&oKomponen'
+  usage:
+  - '&7Letakkan di tambang untuk memberinya'
+  - '&7peluang 50.0% menambang bahan ini'
 QUARRY_OSCILLATOR_EMERALD:
+  name: '&bOsilator Zamrud'
   type:
   - '&7&oKomponen'
+  usage:
+  - '&7Letakkan di tambang untuk memberinya'
+  - '&7peluang 50.0% menambang bahan ini'
 QUARRY_OSCILLATOR_LAPIS_LAZULI:
+  name: '&bOsilator Lapis Lazuli'
   type:
   - '&7&oKomponen'
+  usage:
+  - '&7Letakkan di tambang untuk memberinya'
+  - '&7peluang 50.0% menambang bahan ini'
 QUARRY_OSCILLATOR_QUARTZ:
+  name: '&bOsilator Kuarsa'
   type:
   - '&7&oKomponen'
+  usage:
+  - '&7Letakkan di tambang untuk memberinya'
+  - '&7peluang 50.0% menambang bahan ini'
 QUARRY_OSCILLATOR_REDSTONE:
+  name: '&bOsilator Redstone'
   type:
   - '&7&oKomponen'
+  usage:
+  - '&7Letakkan di tambang untuk memberinya'
+  - '&7peluang 50.0% menambang bahan ini'
 QUARTZ_SINGULARITY:
+  name: '&fSingularitas Kuarsa'
   type:
   - '&7&oSumber Daya'
 REDSTONE_SINGULARITY:
+  name: '&cSingularitas Redstone'
   type:
   - '&7&oSumber Daya'
 REINFORCED_GEOTHERMAL_GENERATOR:
+  description:
+  - '&7Menghasilkan energi dalam jumlah besar'
+  - '&7dari panas dunia'
+  name: '&cGen Panas Bumi &fDiperkuat'
   stats:
   - '&8⇨ &e⚡ &721,000 J Buffer'
   - '&8⇨ &e⚡ &7210 J/s'
   type:
   - '&7&oGenerator'
 REINFORCED_HYDRO_GENERATOR:
+  description:
+  - '&7Menghasilkan energi dalam jumlah besar'
+  - '&7dari gerakan air'
+  name: '&9Gen Hidro &fDiperkuat'
   stats:
   - '&8⇨ &e⚡ &74,500 J Buffer'
   - '&8⇨ &e⚡ &745 J/s'
   type:
   - '&7&oGenerator'
 REINFORCED_STORAGE:
+  description:
+  - '&7Menyimpan jumlah besar dari satu jenis item'
+  name: '&8Unit Penyimpanan &fDiperkuat'
+  stats:
+  - '&6Kapasitas: &e102,400 &eitem'
   type:
   - '&7&oMesin'
 REINFORCED_STRAINER:
+  description:
+  - '&7Mengumpulkan bahan dari air mengalir'
+  name: '&fPenyaring Diperkuat'
   stats:
   - '&8⇨ &b⚡ &7Kecepatan: &b20.0x'
   type:
   - '&7&oKomponen'
 RESOURCE_SYNTHESIZER:
+  description:
+  - '&7Menciptakan sumber daya dengan menggabungkan 2 Singularitas'
+  name: '&6Penyintesis Sumber Daya'
+  stats:
+  - '&8⇨ &e⚡ &71,000,000 J per pemakaian'
   type:
   - '&7&oMesin'
 SHEEP_DATA_CARD:
+  name: '&bKartu Data Domba'
   stats:
   - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oKomponen'
+  usage:
+  - '&7Letakkan di ruang simulasi mob untuk mengaktifkan'
 SILVER_SINGULARITY:
+  name: '&7Singularitas Perak'
   type:
   - '&7&oSumber Daya'
 SINGULARITY_CONSTRUCTOR:
+  description:
+  - '&7Memadatkan sumber daya dalam jumlah besar'
+  name: '&fPembangun Singularitas'
+  stats:
+  - '&8⇨ &e⚡ &7Kecepatan: &b1x'
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oMesin'
 SKELETON_DATA_CARD:
+  name: '&bKartu Data Kerangka'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oKomponen'
+  usage:
+  - '&7Letakkan di ruang simulasi mob untuk mengaktifkan'
 SLIME_DATA_CARD:
+  name: '&bKartu Data Slime'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oKomponen'
+  usage:
+  - '&7Letakkan di ruang simulasi mob untuk mengaktifkan'
 SPIDER_DATA_CARD:
+  name: '&bKartu Data Laba-laba'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oKomponen'
+  usage:
+  - '&7Letakkan di ruang simulasi mob untuk mengaktifkan'
 STONEWORKS_FACTORY:
+  description:
+  - '&7Menghasilkan batu bulat dan mengolahnya menjadi berbagai bahan'
+  name: '&8Pabrik Olahan Batu'
   stats:
   - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oMesin'
+  usage:
+  - '&eKlik&7 slot pilihan untuk berganti antara Peleburan, Penghancuran, Pemadatan, dan Pengubahan'
 STORAGE_FORGE:
+  description:
+  - '&7Meningkatkan tingkat Unit Penyimpanan'
+  - '&7Mempertahankan item yang tersimpan'
+  name: '&6Tempa Penyimpanan'
   type:
   - '&7&oMesin'
 STRAINER_BASE:
+  description:
+  - '&7Perlahan mengumpulkan bahan dari air mengalir memakai Penyaring'
+  - '&7Harus terendam air agar berfungsi'
+  name: '&7Dasar Penyaring'
   type:
   - '&7&oMesin'
 TIN_SINGULARITY:
+  name: '&7Singularitas Timah'
   type:
   - '&7&oSumber Daya'
 TITANIUM:
+  name: '&7Titanium'
   type:
   - '&7&oSumber Daya'
 URANIUM_EXTRACTOR:
+  description:
+  - '&7Mengubah batu bulat menjadi uranium'
+  name: '&aPengekstrak Uranium'
   stats:
   - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oMesin'
 VEIN_MINER_RUNE:
+  description:
+  - '&7Meningkatkan alat agar dapat menambang seurat bahan tertentu'
+  name: '&bRune Penambang Urat'
   type:
   - '&7&oGadget'
+  usage:
+  - '&eJatuhkan&7 di dekat alat untuk meningkatkannya menjadi Penambang Urat'
 VILLAGER_DATA_CARD:
+  name: '&bKartu Data Penduduk Desa'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oKomponen'
+  usage:
+  - '&7Letakkan di ruang simulasi mob untuk mengaktifkan'
 VOID_BIT:
+  description:
+  - '&7&oTerasa... kosong'
+  name: '&8Serpih Hampa'
   type:
   - '&7&oSumber Daya'
 VOID_CAPACITOR:
+  description:
+  - '&7Menyimpan energi berlebih untuk jaringan energi'
+  name: '&8Kapasitor Hampa'
+  stats:
+  - '&8⇨ &e⚡ 16,000,000 &7J Kapasitas'
   type:
   - '&7&oKomponen'
 VOID_DUST:
+  description:
+  - '&7&oMulai berbentuk...'
+  name: '&8Serbuk Hampa'
   type:
   - '&7&oSumber Daya'
 VOID_HARVESTER:
+  description:
+  - '&7Perlahan memanen Serpih &8Hampa &7dari ketiadaan...'
+  name: '&8Pemanen Hampa'
+  stats:
+  - '&8⇨ &e⚡ &7Kecepatan: &b1x'
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oMesin'
 VOID_INGOT:
+  description:
+  - '&7&oKehampaan kosmos'
+  - '&7&odalam genggaman tanganmu'
+  name: '&8Batangan Hampa'
   type:
   - '&7&oSumber Daya'
 VOID_PANEL:
+  description:
+  - '&7Menghasilkan energi dari kegelapan'
+  name: '&8Panel Hampa'
   stats:
   - '&8⇨ &e⚡ &7300,000 J Buffer'
   - '&8⇨ &e⚡ &73,000 J/s'
   type:
   - '&7&oGenerator'
 VOID_QUARRY:
+  description:
+  - '&7Otomatis menambang bijih overworld dan nether'
+  name: '&8Tambang Hampa'
+  stats:
+  - '&8⇨ &e⚡ &7Kecepatan: &b6x'
+  - '&8⇨ &e⚡ &73,600 J/s'
   type:
   - '&7&oMesin'
 VOID_STORAGE:
+  description:
+  - '&7Menyimpan jumlah besar dari satu jenis item'
+  name: '&8Unit Penyimpanan &8Hampa'
+  stats:
+  - '&6Kapasitas: &e409,600 &eitem'
   type:
   - '&7&oMesin'
 WITCH_DATA_CARD:
+  name: '&bKartu Data Penyihir'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oKomponen'
+  usage:
+  - '&7Letakkan di ruang simulasi mob untuk mengaktifkan'
 WITHER_DATA_CARD:
+  name: '&bKartu Data Wither'
   stats:
   - '&8⇨ &e⚡ &74,500 J/s'
   type:
   - '&7&oKomponen'
+  usage:
+  - '&7Letakkan di ruang simulasi mob untuk mengaktifkan'
 WITHER_SKELETON_DATA_CARD:
+  name: '&bKartu Data Kerangka Wither'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oKomponen'
+  usage:
+  - '&7Letakkan di ruang simulasi mob untuk mengaktifkan'
 ZINC_SINGULARITY:
+  name: '&7Singularitas Seng'
   type:
   - '&7&oSumber Daya'
 ZOMBIE_DATA_CARD:
+  name: '&bKartu Data Zombie'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oKomponen'
+  usage:
+  - '&7Letakkan di ruang simulasi mob untuk mengaktifkan'
