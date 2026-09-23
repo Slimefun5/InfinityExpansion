@@ -7,7 +7,7 @@ plugins {
 group = "io.github.mooy1"
 description = "InfinityExpansion is a Slimefun addon that adds machines, generators, and more endgame content."
 
-apply(from = "https://raw.githubusercontent.com/Slimefun5/gradle/stable/slimefun-addon.gradle")
+apply(from = "https://raw.githubusercontent.com/Slimefun5/gradle/main/slimefun-addon.gradle")
 
 dependencies {
     githubImplementation("Slimefun5:InfinityLib:v1.3.14.7")
