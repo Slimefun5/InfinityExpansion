@@ -1,532 +1,1060 @@
 ADAMANTITE:
+  name: '&dAdamantite'
   type:
   - '&7&oTài Nguyên'
 ADVANCED_ANVIL:
+  description:
+  - '&7Gộp phù phép của công cụ và trang bị, đôi khi nâng bậc chúng'
+  - '&bHoạt động với vật phẩm Slimefun'
+  name: '&cĐe Nâng cao'
+  stats:
+  - '&8⇨ &e⚡ &7100,000 J mỗi lần dùng'
   type:
   - '&7&oMáy Móc'
 ADVANCED_CHARGER:
+  description:
+  - '&7Sạc vật phẩm nhanh chóng'
+  name: '&cBộ sạc Nâng cao'
+  stats:
+  - '&8⇨ &e⚡ &7Tốc độ: &b30x'
+  - '&8⇨ &e⚡ &7180 J/s'
   type:
   - '&7&oMáy Móc'
 ADVANCED_COBBLE_GEN:
+  description:
+  - '&7Tự động tạo ra đá cuội theo thời gian'
+  name: '&8Máy Tạo Đá cuội &cNâng cao'
+  stats:
+  - '&8⇨ &e⚡ &7Tốc độ: &b4x'
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oMáy Móc'
 ADVANCED_DISENCHANTER:
+  description:
+  - '&7Tự động chuyển phù phép từ vật phẩm sang sách'
+  name: '&cMáy Gỡ Phù phép Nâng cao'
+  stats:
+  - '&8⇨ &e⚡ &7Tốc độ: &b5x'
+  - '&8⇨ &e⚡ &7180 J/s'
   type:
   - '&7&oMáy Móc'
 ADVANCED_ENCHANTER:
+  description:
+  - '&7Tự động phù phép vật phẩm đặt bên trong'
+  name: '&cMáy Phù phép Nâng cao'
+  stats:
+  - '&8⇨ &e⚡ &7Tốc độ: &b5x'
+  - '&8⇨ &e⚡ &7180 J/s'
   type:
   - '&7&oMáy Móc'
 ADVANCED_GEO_MINER:
+  description:
+  - '&7Máy đào địa chất nhanh hơn'
+  name: '&fMáy Đào Địa chất &cNâng cao'
+  stats:
+  - '&8⇨ &e⚡ &7Tốc độ: &b4x'
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oMáy Móc'
 ADVANCED_NETHER_STAR_REACTOR:
+  description:
+  - '&fChạy bằng Sao Nether'
+  - '&bPhải được bao quanh bởi Nước'
+  - '&bPhải được cấp Ngăn Làm mát Băng Nether'
+  - '&4Khiến các thực thể gần đó bị Wither'
+  name: '&cLò phản ứng Sao Nether Nâng cao'
   stats:
   - '&8⇨ &e⚡ &790,000 J Bộ Đệm'
   - '&8⇨ &e⚡ &71,800 J/s'
   type:
   - '&7&oMáy Phát Điện'
 ADVANCED_PANEL:
+  description:
+  - '&7Tạo năng lượng từ mặt trời'
+  name: '&cTấm pin Mặt trời Nâng cao'
   stats:
   - '&8⇨ &e⚡ &715,000 J Bộ Đệm'
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oMáy Phát Điện'
 ADVANCED_QUARRY:
+  description:
+  - '&7Tự động đào quặng thế giới thường và Nether'
+  name: '&cMỏ Nâng cao'
+  stats:
+  - '&8⇨ &e⚡ &7Tốc độ: &b2x'
+  - '&8⇨ &e⚡ &7900 J/s'
   type:
   - '&7&oMáy Móc'
 ADVANCED_SMELTERY:
+  description:
+  - '&7Lò luyện kim nhanh hơn'
+  name: '&7Lò Luyện kim &cNâng cao'
+  stats:
+  - '&8⇨ &e⚡ &7Tốc độ: &b24x'
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oMáy Móc'
 ADVANCED_STORAGE:
+  description:
+  - '&7Lưu trữ lượng lớn của một loại vật phẩm duy nhất'
+  name: '&8Thiết bị Lưu trữ &cNâng cao'
+  stats:
+  - '&6Dung lượng: &e25,600 &evật phẩm'
   type:
   - '&7&oMáy Móc'
 ADVANCED_STRAINER:
+  description:
+  - '&7Thu gom nguyên liệu từ nước chảy'
+  name: '&cLưới Lọc Nâng cao'
   stats:
   - '&8⇨ &b⚡ &7Tốc Độ: &b4.0x'
   type:
   - '&7&oThành Phần'
 ADVANCED_TREE_GROWER:
+  description:
+  - '&7Tự động trồng, thu hoạch và trồng lại cây'
+  name: '&2Máy Trồng Cây &cNâng cao'
+  stats:
+  - '&8⇨ &e⚡ &7Tốc độ: &b5x'
+  - '&8⇨ &e⚡ &7180 J/s'
   type:
   - '&7&oMáy Móc'
 ADVANCED_VIRTUAL_FARM:
+  description:
+  - '&7Tự động trồng, thu hoạch và trồng lại hoa màu'
+  name: '&aNông trại Ảo &cNâng cao'
+  stats:
+  - '&8⇨ &e⚡ &7Tốc độ: &b5x'
+  - '&8⇨ &e⚡ &790 J/s'
   type:
   - '&7&oMáy Móc'
 ALUMINUM_SINGULARITY:
+  name: '&7Điểm kỳ dị Nhôm'
   type:
   - '&7&oTài Nguyên'
 BASIC_COBBLE_GEN:
+  description:
+  - '&7Tự động tạo ra đá cuội theo thời gian'
+  name: '&8Máy Tạo Đá cuội &9Cơ bản'
+  stats:
+  - '&8⇨ &e⚡ &7Tốc độ: &b1x'
+  - '&8⇨ &e⚡ &724 J/s'
   type:
   - '&7&oMáy Móc'
 BASIC_OBSIDIAN_GEN:
+  description:
+  - '&7Tự động tạo ra obsidian theo thời gian'
+  name: '&8Máy Tạo Obsidian'
+  stats:
+  - '&8⇨ &e⚡ &7Tốc độ: &b1x'
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oMáy Móc'
 BASIC_PANEL:
+  description:
+  - '&7Tạo năng lượng từ mặt trời'
+  name: '&9Tấm pin Mặt trời Cơ bản'
   stats:
   - '&8⇨ &e⚡ &7900 J Bộ Đệm'
   - '&8⇨ &e⚡ &79 J/s'
   type:
   - '&7&oMáy Phát Điện'
 BASIC_QUARRY:
+  description:
+  - '&7Tự động đào quặng thế giới thường'
+  name: '&9Mỏ Cơ bản'
+  stats:
+  - '&8⇨ &e⚡ &7Tốc độ: &b1x'
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oMáy Móc'
 BASIC_STORAGE:
+  description:
+  - '&7Lưu trữ lượng lớn của một loại vật phẩm duy nhất'
+  name: '&8Thiết bị Lưu trữ &9Cơ bản'
+  stats:
+  - '&6Dung lượng: &e6,400 &evật phẩm'
   type:
   - '&7&oMáy Móc'
 BASIC_STRAINER:
+  description:
+  - '&7Thu gom nguyên liệu từ nước chảy'
+  name: '&9Lưới Lọc Cơ bản'
   stats:
   - '&8⇨ &b⚡ &7Tốc Độ: &b1.0x'
   type:
   - '&7&oThành Phần'
 BASIC_TREE_GROWER:
+  description:
+  - '&7Tự động trồng, thu hoạch và trồng lại cây'
+  name: '&2Máy Trồng Cây &9Cơ bản'
+  stats:
+  - '&8⇨ &e⚡ &7Tốc độ: &b1x'
+  - '&8⇨ &e⚡ &736 J/s'
   type:
   - '&7&oMáy Móc'
 BASIC_VIRTUAL_FARM:
+  description:
+  - '&7Tự động trồng, thu hoạch và trồng lại hoa màu'
+  name: '&aNông trại Ảo &9Cơ bản'
+  stats:
+  - '&8⇨ &e⚡ &7Tốc độ: &b1x'
+  - '&8⇨ &e⚡ &718 J/s'
   type:
   - '&7&oMáy Móc'
 BEE_DATA_CARD:
+  name: '&bThẻ Dữ liệu Ong'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oThành Phần'
+  usage:
+  - '&7Đặt vào buồng mô phỏng sinh vật để kích hoạt'
 BLAZE_DATA_CARD:
+  name: '&bThẻ Dữ liệu Blaze'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oThành Phần'
+  usage:
+  - '&7Đặt vào buồng mô phỏng sinh vật để kích hoạt'
 CELESTIAL_PANEL:
+  description:
+  - '&7Tạo năng lượng từ mặt trời'
+  name: '&eTấm pin Thiên thể'
   stats:
   - '&8⇨ &e⚡ &775,000 J Bộ Đệm'
   - '&8⇨ &e⚡ &7750 J/s'
   type:
   - '&7&oMáy Phát Điện'
 CHICKEN_DATA_CARD:
+  name: '&bThẻ Dữ liệu Gà'
   stats:
   - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oThành Phần'
+  usage:
+  - '&7Đặt vào buồng mô phỏng sinh vật để kích hoạt'
 COAL_SINGULARITY:
+  name: '&8Điểm kỳ dị Than đá'
   type:
   - '&7&oTài Nguyên'
 COBBLE_PRESS:
+  description:
+  - '&7Nén đá cuội hiệu quả hơn'
+  name: '&8Máy Ép Đá cuội'
   stats:
   - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oMáy Móc'
 COMPRESSED_COBBLESTONE_1:
+  name: '&7Đá cuội Nén Đơn'
+  stats:
+  - '&89 đá cuội được gộp lại'
   type:
   - '&7&oTài Nguyên'
 COMPRESSED_COBBLESTONE_2:
+  name: '&7Đá cuội Nén Đôi'
+  stats:
+  - '&881 đá cuội được gộp lại'
   type:
   - '&7&oTài Nguyên'
 COMPRESSED_COBBLESTONE_3:
+  name: '&7Đá cuội Nén Ba'
+  stats:
+  - '&8729 đá cuội được gộp lại'
   type:
   - '&7&oTài Nguyên'
 COMPRESSED_COBBLESTONE_4:
+  name: '&7Đá cuội Nén Bốn'
+  stats:
+  - '&86,561 đá cuội được gộp lại'
   type:
   - '&7&oTài Nguyên'
 COMPRESSED_COBBLESTONE_5:
+  name: '&7Đá cuội Nén Năm'
+  stats:
+  - '&859,049 đá cuội được gộp lại'
   type:
   - '&7&oTài Nguyên'
 COPPER_SINGULARITY:
+  name: '&6Điểm kỳ dị Đồng'
   type:
   - '&7&oTài Nguyên'
 COW_DATA_CARD:
+  name: '&bThẻ Dữ liệu Bò'
   stats:
   - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oThành Phần'
+  usage:
+  - '&7Đặt vào buồng mô phỏng sinh vật để kích hoạt'
 CREEPER_DATA_CARD:
+  name: '&bThẻ Dữ liệu Creeper'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oThành Phần'
+  usage:
+  - '&7Đặt vào buồng mô phỏng sinh vật để kích hoạt'
 DATA_INFUSER:
+  description:
+  - '&7Nạp thẻ dữ liệu rỗng bằng vật phẩm sinh vật'
+  name: '&8Máy Truyền Dữ liệu Sinh vật'
+  stats:
+  - '&8⇨ &e⚡ &720,000 J mỗi lần dùng'
   type:
   - '&7&oMáy Móc'
 DECOMPRESSOR:
+  description:
+  - '&7Phân rã khối về nguyên liệu gốc'
+  name: '&7Máy Giải nén'
   stats:
   - '&8⇨ &e⚡ &760 J/s'
   type:
   - '&7&oMáy Móc'
 DIAMOND_SINGULARITY:
+  name: '&bĐiểm kỳ dị Kim cương'
   type:
   - '&7&oTài Nguyên'
 DUST_EXTRACTOR:
+  description:
+  - '&7Chuyển đổi đá cuội thành bột'
+  name: '&8Máy Chiết Bột'
+  stats:
+  - '&8⇨ &e⚡ &7Tốc độ: &b1x'
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oMáy Móc'
 EARTH_SINGULARITY:
+  name: '&aĐiểm kỳ dị Đất'
   type:
   - '&7&oTài Nguyên'
 EMERALD_SINGULARITY:
+  name: '&aĐiểm kỳ dị Ngọc lục bảo'
   type:
   - '&7&oTài Nguyên'
 EMPTY_DATA_CARD:
+  name: '&8Thẻ Dữ liệu Rỗng'
   type:
   - '&7&oThành Phần'
+  usage:
+  - '&7Truyền vật phẩm của một sinh vật vào để nạp đầy'
 ENDERMEN_DATA_CARD:
+  name: '&bThẻ Dữ liệu Enderman'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oThành Phần'
+  usage:
+  - '&7Đặt vào buồng mô phỏng sinh vật để kích hoạt'
 ENDER_DRAGON_DATA_CARD:
+  name: '&bThẻ Dữ liệu Rồng Ender'
   stats:
   - '&8⇨ &e⚡ &79,000 J/s'
   type:
   - '&7&oThành Phần'
+  usage:
+  - '&7Đặt vào buồng mô phỏng sinh vật để kích hoạt'
 ENDER_FLAME:
+  name: '&cNgọn lửa Ender'
   type:
   - '&7&oThành Phần'
 END_ESSENCE:
+  description:
+  - '&8&oTừ sâu thẳm của End...'
+  name: '&5Tinh chất Ender'
   type:
   - '&7&oTài Nguyên'
 EXTREME_FREEZER:
+  description:
+  - '&7Chuyển đổi băng thành chất làm mát'
+  name: '&bMáy Đông lạnh Cực hạn'
   stats:
   - '&8⇨ &e⚡ &790 J/s'
   type:
   - '&7&oMáy Móc'
 FORTUNE_SINGULARITY:
+  name: '&6Điểm kỳ dị May mắn'
   type:
   - '&7&oTài Nguyên'
 GEAR_TRANSFORMER:
+  description:
+  - '&7Thay đổi nguyên liệu của công cụ và trang bị nguyên bản'
+  name: '&7Máy Biến đổi Trang bị'
+  stats:
+  - '&8⇨ &e⚡ &712,000 J Mỗi lần dùng'
   type:
   - '&7&oMáy Móc'
 GEOTHERMAL_GENERATOR:
+  description:
+  - '&7Tạo năng lượng từ nhiệt của thế giới'
+  name: '&cMáy phát điện Địa nhiệt'
   stats:
   - '&8⇨ &e⚡ &73,500 J Bộ Đệm'
   - '&8⇨ &e⚡ &735 J/s'
   type:
   - '&7&oMáy Phát Điện'
 GEO_QUARRY:
+  description:
+  - '&7Chậm rãi thu hoạch tài nguyên địa chất từ hư không bằng điện năng'
+  name: '&fMỏ Địa chất'
   stats:
   - '&8⇨ &e⚡ &7450 J/s'
   type:
   - '&7&oMáy Móc'
 GOLD_SINGULARITY:
+  name: '&6Điểm kỳ dị Vàng'
   type:
   - '&7&oTài Nguyên'
 GUARDIAN_DATA_CARD:
+  name: '&bThẻ Dữ liệu Thủ hộ'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oThành Phần'
+  usage:
+  - '&7Đặt vào buồng mô phỏng sinh vật để kích hoạt'
 HYDRO_GENERATOR:
+  description:
+  - '&7Tạo năng lượng từ dòng chảy của nước'
+  name: '&9Máy phát điện Nước'
   stats:
   - '&8⇨ &e⚡ &7500 J Bộ Đệm'
   - '&8⇨ &e⚡ &75 J/s'
   type:
   - '&7&oMáy Phát Điện'
 INFINITE_INGOT:
+  description:
+  - '&7&oCơn thịnh nộ của vũ trụ'
+  - '&7&otrong lòng bàn tay bạn'
+  name: '&bThỏi Vô cực'
   type:
   - '&7&oTài Nguyên'
 INFINITE_MACHINE_CIRCUIT:
+  name: '&6Mạch điện Máy &bVô hạn'
   type:
   - '&7&oThành Phần'
 INFINITE_MACHINE_CORE:
+  name: '&bLõi Máy Vô hạn'
   type:
   - '&7&oThành Phần'
 INFINITE_PANEL:
+  description:
+  - '&7Tạo năng lượng từ vũ trụ'
+  name: '&bTấm pin Vô cực'
   stats:
   - '&8⇨ &e⚡ &76,000,000 J Bộ Đệm'
   - '&8⇨ &e⚡ &760,000 J/s'
   type:
   - '&7&oMáy Phát Điện'
 INFINITE_VOID_HARVESTER:
+  description:
+  - '&7Thu hoạch Mảnh &8Hư không &7từ hư vô...'
+  name: '&8Máy Thu hoạch Hư không &bVô hạn'
+  stats:
+  - '&8⇨ &e⚡ &7Tốc độ: &b64x'
+  - '&8⇨ &e⚡ &712,000 J/s'
   type:
   - '&7&oMáy Móc'
 INFINITY_AXE:
+  name: '&4Hủy diệt Thiên nhiên'
+  stats:
+  - '&bGắn linh hồn'
   type:
   - '&7&oDụng Cụ'
 INFINITY_BLADE:
+  name: '&bLưỡi dao Vũ trụ'
+  stats:
+  - '&bGắn linh hồn'
   type:
   - '&7&oVũ Khí'
 INFINITY_BOOTS:
+  name: '&bGiày Vô cực'
+  stats:
+  - '&7Tốc độ III'
+  - '&7Ân huệ Cá heo I'
+  - '&bGắn linh hồn'
   type:
   - '&7&oGiáp'
 INFINITY_BOW:
+  description:
+  - '&7Bắn mũi tên nổ làm chậm và gây choáng kẻ địch khi trúng'
+  name: '&6Kẻ Xuyên Trời'
+  stats:
+  - '&bGắn linh hồn'
   type:
   - '&7&oVũ Khí'
 INFINITY_CAPACITOR:
+  description:
+  - '&c&oKhông dùng quá'
+  - '&c&o1 cái mỗi mạng năng lượng'
+  name: '&bTụ điện Vô hạn'
+  stats:
+  - '&8⇨ &e⚡ 2,000,000,000 &7J Dung lượng'
   type:
   - '&7&oThành Phần'
 INFINITY_CHARGER:
+  description:
+  - '&7Sạc vật phẩm ngay lập tức'
+  name: '&bBộ sạc Vô cực'
+  stats:
+  - '&8⇨ &e⚡ &7Tốc độ: &b6000x'
+  - '&8⇨ &e⚡ &760,000 J mỗi lần dùng'
   type:
   - '&7&oMáy Móc'
 INFINITY_CHESTPLATE:
+  name: '&bÁo giáp Vô cực'
+  stats:
+  - '&7Sức mạnh II'
+  - '&7Kháng Sát thương I'
+  - '&7Kháng Lửa I'
+  - '&7Miễn nhiễm Ong đốt'
+  - '&bGắn linh hồn'
   type:
   - '&7&oGiáp'
 INFINITY_COBBLE_GEN:
+  description:
+  - '&7Tự động tạo ra đá cuội theo thời gian'
+  name: '&8Máy Tạo Đá cuội &cVô cực'
+  stats:
+  - '&8⇨ &e⚡ &7Tốc độ: &b64x'
+  - '&8⇨ &e⚡ &7800 J/s'
   type:
   - '&7&oMáy Móc'
 INFINITY_CONSTRUCTOR:
+  description:
+  - '&7Ngưng tụ nhanh chóng lượng lớn tài nguyên'
+  name: '&fMáy Kiến tạo &bVô cực'
+  stats:
+  - '&8⇨ &e⚡ &7Tốc độ: &b64x'
+  - '&8⇨ &e⚡ &71,200 J/s'
   type:
   - '&7&oMáy Móc'
 INFINITY_CROWN:
+  name: '&bVương miện Vô cực'
+  stats:
+  - '&7Nhìn trong Đêm I'
+  - '&7Năng lượng Ống dẫn I'
+  - '&7Miễn nhiễm Va chạm Elytra'
+  - '&bGắn linh hồn'
   type:
   - '&7&oGiáp'
 INFINITY_DISENCHANTER:
+  description:
+  - '&7Tự động chuyển phù phép từ vật phẩm sang sách'
+  name: '&bMáy Gỡ Phù phép Vô cực'
+  stats:
+  - '&8⇨ &e⚡ &7Tốc độ: &b90x'
+  - '&8⇨ &e⚡ &712,000 J mỗi lần dùng'
   type:
   - '&7&oMáy Móc'
 INFINITY_DUST_EXTRACTOR:
+  description:
+  - '&7Chuyển đổi đá cuội thành bột'
+  name: '&8Máy Chiết Bột &bVô cực'
+  stats:
+  - '&8⇨ &e⚡ &7Tốc độ: &b16x'
+  - '&8⇨ &e⚡ &77,200 J/s'
   type:
   - '&7&oMáy Móc'
 INFINITY_ENCHANTER:
+  description:
+  - '&7Tự động phù phép vật phẩm đặt bên trong'
+  name: '&bMáy Phù phép Vô cực'
+  stats:
+  - '&8⇨ &e⚡ &7Tốc độ: &b75x'
+  - '&8⇨ &e⚡ &712,000 J mỗi lần dùng'
   type:
   - '&7&oMáy Móc'
 INFINITY_FORGE:
+  description:
+  - '&7Dùng để chế tạo vật phẩm vô cực'
+  name: '&6Bàn chế tạo Vô cực'
+  stats:
+  - '&8⇨ &e⚡ &710,000,000 J mỗi vật phẩm'
   type:
   - '&7&oMáy Móc'
 INFINITY_INGOT_FORMER:
+  description:
+  - '&7Tạo thỏi từ bột'
+  name: '&8Máy Tạo Thỏi &bVô cực'
+  stats:
+  - '&8⇨ &e⚡ &7Tốc độ: &b16x'
+  - '&8⇨ &e⚡ &77,200 J/s'
   type:
   - '&7&oMáy Móc'
 INFINITY_LEGGINGS:
+  name: '&bQuần giáp Vô cực'
+  stats:
+  - '&7Cấp tốc III'
+  - '&7Tái tạo I'
+  - '&7Bão hòa I'
+  - '&7Miễn nhiễm Phóng xạ'
+  - '&bGắn linh hồn'
   type:
   - '&7&oGiáp'
 INFINITY_MATRIX:
+  description:
+  - '&6Cho phép bay không giới hạn'
+  name: '&fMa trận Vô cực'
+  stats:
+  - '&bGắn linh hồn'
   type:
   - '&7&oThiết Bị'
+  usage:
+  - '&7Chuột phải để bật/tắt và nhận quyền sở hữu'
+  - '&7Ngồi và Chuột phải để bỏ quyền sở hữu'
 INFINITY_PICKAXE:
+  name: '&9Kẻ Phá Thế giới'
+  stats:
+  - '&bGắn linh hồn'
   type:
   - '&7&oDụng Cụ'
 INFINITY_QUARRY:
+  description:
+  - '&7Tự động đào quặng thế giới thường và Nether'
+  name: '&bMỏ Vô cực'
+  stats:
+  - '&8⇨ &e⚡ &7Tốc độ: &b64x'
+  - '&8⇨ &e⚡ &736,000 J/s'
   type:
   - '&7&oMáy Móc'
 INFINITY_REACTOR:
+  description:
+  - '&7Tạo điện năng bằng cách nén'
+  - '&7Thỏi &8Hư không &7và &bVô cực&7'
+  name: '&bLò phản ứng Vô cực'
   stats:
   - '&8⇨ &e⚡ &7120,000,000 J Bộ Đệm'
   - '&8⇨ &e⚡ &7120,000 J/s'
   type:
   - '&7&oMáy Phát Điện'
 INFINITY_SHIELD:
+  name: '&bKhiên Vũ trụ'
+  stats:
+  - '&bGắn linh hồn'
   type:
   - '&7&oVũ Khí'
 INFINITY_SHOVEL:
+  name: '&aKẻ Ăn Núi'
+  stats:
+  - '&bGắn linh hồn'
   type:
   - '&7&oDụng Cụ'
 INFINITY_SINGULARITY:
+  name: '&bĐiểm kỳ dị Vô cực'
   type:
   - '&7&oTài Nguyên'
 INFINITY_STORAGE:
+  description:
+  - '&7Lưu trữ lượng lớn của một loại vật phẩm duy nhất'
+  name: '&8Thiết bị Lưu trữ &bVô cực'
+  stats:
+  - '&6Dung lượng: &e1,600,000,000 &evật phẩm'
   type:
   - '&7&oMáy Móc'
 INFINITY_TREE_GROWER:
+  description:
+  - '&7Tự động trồng, thu hoạch và trồng lại cây'
+  name: '&2Máy Trồng Cây &bVô cực'
+  stats:
+  - '&8⇨ &e⚡ &7Tốc độ: &b25x'
+  - '&8⇨ &e⚡ &71,800 J/s'
   type:
   - '&7&oMáy Móc'
 INFINITY_VIRTUAL_FARM:
+  description:
+  - '&7Tự động trồng, thu hoạch và trồng lại hoa màu'
+  name: '&aNông trại Ảo &bVô cực'
+  stats:
+  - '&8⇨ &e⚡ &7Tốc độ: &b25x'
+  - '&8⇨ &e⚡ &7900 J/s'
   type:
   - '&7&oMáy Móc'
 INGOT_FORMER:
+  description:
+  - '&7Tạo thỏi từ bột'
+  name: '&8Máy Tạo Thỏi'
+  stats:
+  - '&8⇨ &e⚡ &7Tốc độ: &b1x'
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oMáy Móc'
 IRON_GOLEM_DATA_CARD:
+  name: '&bThẻ Dữ liệu Người sắt'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oThành Phần'
+  usage:
+  - '&7Đặt vào buồng mô phỏng sinh vật để kích hoạt'
 IRON_SINGULARITY:
+  name: '&7Điểm kỳ dị Sắt'
   type:
   - '&7&oTài Nguyên'
 LAPIS_SINGULARITY:
+  name: '&9Điểm kỳ dị Lưu ly'
   type:
   - '&7&oTài Nguyên'
 LEAD_SINGULARITY:
+  name: '&8Điểm kỳ dị Chì'
   type:
   - '&7&oTài Nguyên'
 MACHINE_CIRCUIT:
+  name: '&6Mạch điện Máy'
   type:
   - '&7&oThành Phần'
 MACHINE_CORE:
+  name: '&fLõi Máy'
   type:
   - '&7&oThành Phần'
 MACHINE_PLATE:
+  name: '&fTấm Máy'
   type:
   - '&7&oThành Phần'
 MAGIC_SINGULARITY:
+  name: '&dĐiểm kỳ dị Ma thuật'
   type:
   - '&7&oTài Nguyên'
 MAGMA_CUBE_DATA_CARD:
+  name: '&bThẻ Dữ liệu Khối Magma'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oThành Phần'
+  usage:
+  - '&7Đặt vào buồng mô phỏng sinh vật để kích hoạt'
 MAGNESIUM_SINGULARITY:
+  name: '&5Điểm kỳ dị Magie'
   type:
   - '&7&oTài Nguyên'
 MAGNONIUM:
+  name: '&5Magnonium'
   type:
   - '&7&oTài Nguyên'
 MAGSTEEL:
+  name: '&4Thép Mag'
   type:
   - '&7&oTài Nguyên'
 MAGSTEEL_PLATE:
+  name: '&4Tấm Thép Mag'
   type:
   - '&7&oThành Phần'
 METAL_SINGULARITY:
+  name: '&8Điểm kỳ dị Kim loại'
   type:
   - '&7&oTài Nguyên'
 MOB_SIMULATION_CHAMBER:
+  description:
+  - '&7Dùng thẻ dữ liệu sinh vật để kích hoạt'
+  name: '&8Buồng Mô phỏng Sinh vật'
   stats:
   - '&8⇨ &e⚡ &715,000 J Bộ Đệm'
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oMáy Móc'
 MYTHRIL:
+  name: '&bMythril'
   type:
   - '&7&oTài Nguyên'
 NETHERITE_SINGULARITY:
+  name: '&4Điểm kỳ dị Netherite'
   type:
   - '&7&oTài Nguyên'
 POWERED_BEDROCK:
+  description:
+  - '&7Khi được cấp điện, biến thành đá nền'
+  - '&7Sẽ trở lại khi mất điện hoặc bị phá'
+  name: '&4Đá nền Cấp điện'
   stats:
   - '&8⇨ &e⚡ &710,000 J/s'
   type:
   - '&7&oMáy Móc'
 QUARRY_OSCILLATOR_DIAMOND:
+  name: '&bBộ Dao động Kim cương'
   type:
   - '&7&oThành Phần'
+  usage:
+  - '&7Đặt vào một mỏ để cho nó'
+  - '&7cơ hội 50.0% đào được nguyên liệu này'
 QUARRY_OSCILLATOR_EMERALD:
+  name: '&bBộ Dao động Ngọc lục bảo'
   type:
   - '&7&oThành Phần'
+  usage:
+  - '&7Đặt vào một mỏ để cho nó'
+  - '&7cơ hội 50.0% đào được nguyên liệu này'
 QUARRY_OSCILLATOR_LAPIS_LAZULI:
+  name: '&bBộ Dao động Lưu ly'
   type:
   - '&7&oThành Phần'
+  usage:
+  - '&7Đặt vào một mỏ để cho nó'
+  - '&7cơ hội 50.0% đào được nguyên liệu này'
 QUARRY_OSCILLATOR_QUARTZ:
+  name: '&bBộ Dao động Thạch anh'
   type:
   - '&7&oThành Phần'
+  usage:
+  - '&7Đặt vào một mỏ để cho nó'
+  - '&7cơ hội 50.0% đào được nguyên liệu này'
 QUARRY_OSCILLATOR_REDSTONE:
+  name: '&bBộ Dao động Đá đỏ'
   type:
   - '&7&oThành Phần'
+  usage:
+  - '&7Đặt vào một mỏ để cho nó'
+  - '&7cơ hội 50.0% đào được nguyên liệu này'
 QUARTZ_SINGULARITY:
+  name: '&fĐiểm kỳ dị Thạch anh'
   type:
   - '&7&oTài Nguyên'
 REDSTONE_SINGULARITY:
+  name: '&cĐiểm kỳ dị Đá đỏ'
   type:
   - '&7&oTài Nguyên'
 REINFORCED_GEOTHERMAL_GENERATOR:
+  description:
+  - '&7Tạo ra lượng lớn năng lượng'
+  - '&7từ nhiệt của thế giới'
+  name: '&cMáy phát Địa nhiệt &fGia cố'
   stats:
   - '&8⇨ &e⚡ &721,000 J Bộ Đệm'
   - '&8⇨ &e⚡ &7210 J/s'
   type:
   - '&7&oMáy Phát Điện'
 REINFORCED_HYDRO_GENERATOR:
+  description:
+  - '&7Tạo ra lượng lớn năng lượng'
+  - '&7từ dòng chảy của nước'
+  name: '&9Máy phát Nước &fGia cố'
   stats:
   - '&8⇨ &e⚡ &74,500 J Bộ Đệm'
   - '&8⇨ &e⚡ &745 J/s'
   type:
   - '&7&oMáy Phát Điện'
 REINFORCED_STORAGE:
+  description:
+  - '&7Lưu trữ lượng lớn của một loại vật phẩm duy nhất'
+  name: '&8Thiết bị Lưu trữ &fGia cố'
+  stats:
+  - '&6Dung lượng: &e102,400 &evật phẩm'
   type:
   - '&7&oMáy Móc'
 REINFORCED_STRAINER:
+  description:
+  - '&7Thu gom nguyên liệu từ nước chảy'
+  name: '&fLưới Lọc Gia cố'
   stats:
   - '&8⇨ &b⚡ &7Tốc Độ: &b20.0x'
   type:
   - '&7&oThành Phần'
 RESOURCE_SYNTHESIZER:
+  description:
+  - '&7Tạo tài nguyên bằng cách kết hợp 2 Điểm kỳ dị'
+  name: '&6Máy Tổng hợp Tài nguyên'
+  stats:
+  - '&8⇨ &e⚡ &71,000,000 J mỗi lần dùng'
   type:
   - '&7&oMáy Móc'
 SHEEP_DATA_CARD:
+  name: '&bThẻ Dữ liệu Cừu'
   stats:
   - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oThành Phần'
+  usage:
+  - '&7Đặt vào buồng mô phỏng sinh vật để kích hoạt'
 SILVER_SINGULARITY:
+  name: '&7Điểm kỳ dị Bạc'
   type:
   - '&7&oTài Nguyên'
 SINGULARITY_CONSTRUCTOR:
+  description:
+  - '&7Ngưng tụ lượng lớn tài nguyên'
+  name: '&fMáy Kiến tạo Điểm kỳ dị'
+  stats:
+  - '&8⇨ &e⚡ &7Tốc độ: &b1x'
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oMáy Móc'
 SKELETON_DATA_CARD:
+  name: '&bThẻ Dữ liệu Bộ xương'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oThành Phần'
+  usage:
+  - '&7Đặt vào buồng mô phỏng sinh vật để kích hoạt'
 SLIME_DATA_CARD:
+  name: '&bThẻ Dữ liệu Slime'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oThành Phần'
+  usage:
+  - '&7Đặt vào buồng mô phỏng sinh vật để kích hoạt'
 SPIDER_DATA_CARD:
+  name: '&bThẻ Dữ liệu Nhện'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oThành Phần'
+  usage:
+  - '&7Đặt vào buồng mô phỏng sinh vật để kích hoạt'
 STONEWORKS_FACTORY:
+  description:
+  - '&7Tạo ra đá cuội và chế biến thành nhiều nguyên liệu khác nhau'
+  name: '&8Nhà máy Chế Đá'
   stats:
   - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oMáy Móc'
+  usage:
+  - '&eNhấp chuột&7 vào các ô lựa chọn để chuyển giữa Nấu chảy, Nghiền, Nén và Biến đổi'
 STORAGE_FORGE:
+  description:
+  - '&7Nâng bậc cho Thiết bị Lưu trữ'
+  - '&7Giữ lại vật phẩm đã lưu'
+  name: '&6Lò rèn Lưu trữ'
   type:
   - '&7&oMáy Móc'
 STRAINER_BASE:
+  description:
+  - '&7Chậm rãi thu gom nguyên liệu từ nước chảy bằng Lưới Lọc'
+  - '&7Phải ngập nước để hoạt động'
+  name: '&7Đế Lưới Lọc'
   type:
   - '&7&oMáy Móc'
 TIN_SINGULARITY:
+  name: '&7Điểm kỳ dị Thiếc'
   type:
   - '&7&oTài Nguyên'
 TITANIUM:
+  name: '&7Titan'
   type:
   - '&7&oTài Nguyên'
 URANIUM_EXTRACTOR:
+  description:
+  - '&7Chuyển đổi đá cuội thành urani'
+  name: '&aMáy Chiết Urani'
   stats:
   - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oMáy Móc'
 VEIN_MINER_RUNE:
+  description:
+  - '&7Nâng cấp công cụ để đào cả mạch một số nguyên liệu'
+  name: '&bPhù văn Đào Mạch'
   type:
   - '&7&oThiết Bị'
+  usage:
+  - '&eThả&7 cạnh một công cụ để nâng cấp nó thành Công cụ Đào Mạch'
 VILLAGER_DATA_CARD:
+  name: '&bThẻ Dữ liệu Dân làng'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oThành Phần'
+  usage:
+  - '&7Đặt vào buồng mô phỏng sinh vật để kích hoạt'
 VOID_BIT:
+  description:
+  - '&7&oCảm giác... trống rỗng'
+  name: '&8Mảnh Hư không'
   type:
   - '&7&oTài Nguyên'
 VOID_CAPACITOR:
+  description:
+  - '&7Lưu trữ năng lượng dư cho một mạng năng lượng'
+  name: '&8Tụ điện Hư không'
+  stats:
+  - '&8⇨ &e⚡ 16,000,000 &7J Dung lượng'
   type:
   - '&7&oThành Phần'
 VOID_DUST:
+  description:
+  - '&7&oNó đang bắt đầu thành hình...'
+  name: '&8Bột Hư không'
   type:
   - '&7&oTài Nguyên'
 VOID_HARVESTER:
+  description:
+  - '&7Chậm rãi thu hoạch Mảnh &8Hư không &7từ hư vô...'
+  name: '&8Máy Thu hoạch Hư không'
+  stats:
+  - '&8⇨ &e⚡ &7Tốc độ: &b1x'
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oMáy Móc'
 VOID_INGOT:
+  description:
+  - '&7&oSự trống rỗng của vũ trụ'
+  - '&7&otrong lòng bàn tay bạn'
+  name: '&8Thỏi Hư không'
   type:
   - '&7&oTài Nguyên'
 VOID_PANEL:
+  description:
+  - '&7Tạo năng lượng từ bóng tối'
+  name: '&8Tấm pin Hư không'
   stats:
   - '&8⇨ &e⚡ &7300,000 J Bộ Đệm'
   - '&8⇨ &e⚡ &73,000 J/s'
   type:
   - '&7&oMáy Phát Điện'
 VOID_QUARRY:
+  description:
+  - '&7Tự động đào quặng thế giới thường và Nether'
+  name: '&8Mỏ Hư không'
+  stats:
+  - '&8⇨ &e⚡ &7Tốc độ: &b6x'
+  - '&8⇨ &e⚡ &73,600 J/s'
   type:
   - '&7&oMáy Móc'
 VOID_STORAGE:
+  description:
+  - '&7Lưu trữ lượng lớn của một loại vật phẩm duy nhất'
+  name: '&8Thiết bị Lưu trữ &8Hư không'
+  stats:
+  - '&6Dung lượng: &e409,600 &evật phẩm'
   type:
   - '&7&oMáy Móc'
 WITCH_DATA_CARD:
+  name: '&bThẻ Dữ liệu Phù thủy'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oThành Phần'
+  usage:
+  - '&7Đặt vào buồng mô phỏng sinh vật để kích hoạt'
 WITHER_DATA_CARD:
+  name: '&bThẻ Dữ liệu Wither'
   stats:
   - '&8⇨ &e⚡ &74,500 J/s'
   type:
   - '&7&oThành Phần'
+  usage:
+  - '&7Đặt vào buồng mô phỏng sinh vật để kích hoạt'
 WITHER_SKELETON_DATA_CARD:
+  name: '&bThẻ Dữ liệu Bộ xương Wither'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oThành Phần'
+  usage:
+  - '&7Đặt vào buồng mô phỏng sinh vật để kích hoạt'
 ZINC_SINGULARITY:
+  name: '&7Điểm kỳ dị Kẽm'
   type:
   - '&7&oTài Nguyên'
 ZOMBIE_DATA_CARD:
+  name: '&bThẻ Dữ liệu Zombie'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oThành Phần'
+  usage:
+  - '&7Đặt vào buồng mô phỏng sinh vật để kích hoạt'
