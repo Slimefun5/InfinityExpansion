@@ -1,532 +1,1060 @@
 ADAMANTITE:
+  name: '&dآدامانتیت'
   type:
   - '&7&oمنبع'
 ADVANCED_ANVIL:
+  description:
+  - '&7افسون ابزار و تجهیزات را ترکیب و گاهی ارتقا می‌دهد'
+  - '&bبا آیتم‌های Slimefun کار می‌کند'
+  name: '&cسندان پیشرفته'
+  stats:
+  - '&8⇨ &e⚡ &7100,000 J در هر استفاده'
   type:
   - '&7&oماشین'
 ADVANCED_CHARGER:
+  description:
+  - '&7آیتم‌ها را به‌سرعت شارژ می‌کند'
+  name: '&cشارژر پیشرفته'
+  stats:
+  - '&8⇨ &e⚡ &7سرعت: &b30x'
+  - '&8⇨ &e⚡ &7180 J/s'
   type:
   - '&7&oماشین'
 ADVANCED_COBBLE_GEN:
+  description:
+  - '&7با گذر زمان به‌طور خودکار سنگ‌فرش تولید می‌کند'
+  name: '&cپیشرفته &8تولیدکنندهٔ سنگ‌فرش'
+  stats:
+  - '&8⇨ &e⚡ &7سرعت: &b4x'
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oماشین'
 ADVANCED_DISENCHANTER:
+  description:
+  - '&7افسون‌ها را به‌طور خودکار از آیتم‌ها به کتاب منتقل می‌کند'
+  name: '&cافسون‌زدای پیشرفته'
+  stats:
+  - '&8⇨ &e⚡ &7سرعت: &b5x'
+  - '&8⇨ &e⚡ &7180 J/s'
   type:
   - '&7&oماشین'
 ADVANCED_ENCHANTER:
+  description:
+  - '&7آیتم‌های گذاشته‌شده در خود را به‌طور خودکار افسون می‌کند'
+  name: '&cافسون‌گر پیشرفته'
+  stats:
+  - '&8⇨ &e⚡ &7سرعت: &b5x'
+  - '&8⇨ &e⚡ &7180 J/s'
   type:
   - '&7&oماشین'
 ADVANCED_GEO_MINER:
+  description:
+  - '&7زمین‌کاوی سریع‌تر'
+  name: '&cپیشرفته &fزمین‌کاو'
+  stats:
+  - '&8⇨ &e⚡ &7سرعت: &b4x'
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oماشین'
 ADVANCED_NETHER_STAR_REACTOR:
+  description:
+  - '&fبا ستارهٔ نتر کار می‌کند'
+  - '&bباید با آب احاطه شود'
+  - '&bباید با سلول‌های خنک‌کنندهٔ یخ نتر تغذیه شود'
+  - '&4موجودات نزدیک را ویترزده می‌کند'
+  name: '&cواکنشگر ستارهٔ نتر پیشرفته'
   stats:
   - '&8⇨ &e⚡ &7بافر 90,000 ژول'
   - '&8⇨ &e⚡ &71,800 J/s'
   type:
   - '&7&oژنراتور'
 ADVANCED_PANEL:
+  description:
+  - '&7از خورشید انرژی تولید می‌کند'
+  name: '&cپنل خورشیدی پیشرفته'
   stats:
   - '&8⇨ &e⚡ &7بافر 15,000 ژول'
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oژنراتور'
 ADVANCED_QUARRY:
+  description:
+  - '&7به‌طور خودکار سنگ‌های معدنی جهان اصلی و نتر را استخراج می‌کند'
+  name: '&cمعدن پیشرفته'
+  stats:
+  - '&8⇨ &e⚡ &7سرعت: &b2x'
+  - '&8⇨ &e⚡ &7900 J/s'
   type:
   - '&7&oماشین'
 ADVANCED_SMELTERY:
+  description:
+  - '&7ذوب‌خانه‌ای سریع‌تر'
+  name: '&cپیشرفته &7ذوب‌خانه'
+  stats:
+  - '&8⇨ &e⚡ &7سرعت: &b24x'
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oماشین'
 ADVANCED_STORAGE:
+  description:
+  - '&7مقادیر زیادی از یک نوع آیتم را ذخیره می‌کند'
+  name: '&cپیشرفته &8واحد ذخیره‌سازی'
+  stats:
+  - '&6ظرفیت: &e25,600 &eآیتم'
   type:
   - '&7&oماشین'
 ADVANCED_STRAINER:
+  description:
+  - '&7مواد را از آب روان جمع‌آوری می‌کند'
+  name: '&cصافی پیشرفته'
   stats:
   - '&8⇨ &b⚡ &7سرعت: &b4.0x'
   type:
   - '&7&oقطعه'
 ADVANCED_TREE_GROWER:
+  description:
+  - '&7درختان را به‌طور خودکار رشد می‌دهد، برداشت می‌کند و دوباره می‌کارد'
+  name: '&cپیشرفته &2درخت‌رویان'
+  stats:
+  - '&8⇨ &e⚡ &7سرعت: &b5x'
+  - '&8⇨ &e⚡ &7180 J/s'
   type:
   - '&7&oماشین'
 ADVANCED_VIRTUAL_FARM:
+  description:
+  - '&7محصولات را به‌طور خودکار رشد می‌دهد، برداشت می‌کند و دوباره می‌کارد'
+  name: '&cپیشرفته &aمزرعهٔ مجازی'
+  stats:
+  - '&8⇨ &e⚡ &7سرعت: &b5x'
+  - '&8⇨ &e⚡ &790 J/s'
   type:
   - '&7&oماشین'
 ALUMINUM_SINGULARITY:
+  name: '&7تکینگی آلومینیوم'
   type:
   - '&7&oمنبع'
 BASIC_COBBLE_GEN:
+  description:
+  - '&7با گذر زمان به‌طور خودکار سنگ‌فرش تولید می‌کند'
+  name: '&9پایه &8تولیدکنندهٔ سنگ‌فرش'
+  stats:
+  - '&8⇨ &e⚡ &7سرعت: &b1x'
+  - '&8⇨ &e⚡ &724 J/s'
   type:
   - '&7&oماشین'
 BASIC_OBSIDIAN_GEN:
+  description:
+  - '&7با گذر زمان به‌طور خودکار آبسیدین تولید می‌کند'
+  name: '&8تولیدکنندهٔ آبسیدین'
+  stats:
+  - '&8⇨ &e⚡ &7سرعت: &b1x'
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oماشین'
 BASIC_PANEL:
+  description:
+  - '&7از خورشید انرژی تولید می‌کند'
+  name: '&9پنل خورشیدی پایه'
   stats:
   - '&8⇨ &e⚡ &7بافر 900 ژول'
   - '&8⇨ &e⚡ &79 J/s'
   type:
   - '&7&oژنراتور'
 BASIC_QUARRY:
+  description:
+  - '&7به‌طور خودکار سنگ‌های معدنی جهان اصلی را استخراج می‌کند'
+  name: '&9معدن پایه'
+  stats:
+  - '&8⇨ &e⚡ &7سرعت: &b1x'
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oماشین'
 BASIC_STORAGE:
+  description:
+  - '&7مقادیر زیادی از یک نوع آیتم را ذخیره می‌کند'
+  name: '&9پایه &8واحد ذخیره‌سازی'
+  stats:
+  - '&6ظرفیت: &e6,400 &eآیتم'
   type:
   - '&7&oماشین'
 BASIC_STRAINER:
+  description:
+  - '&7مواد را از آب روان جمع‌آوری می‌کند'
+  name: '&9صافی پایه'
   stats:
   - '&8⇨ &b⚡ &7سرعت: &b1.0x'
   type:
   - '&7&oقطعه'
 BASIC_TREE_GROWER:
+  description:
+  - '&7درختان را به‌طور خودکار رشد می‌دهد، برداشت می‌کند و دوباره می‌کارد'
+  name: '&9پایه &2درخت‌رویان'
+  stats:
+  - '&8⇨ &e⚡ &7سرعت: &b1x'
+  - '&8⇨ &e⚡ &736 J/s'
   type:
   - '&7&oماشین'
 BASIC_VIRTUAL_FARM:
+  description:
+  - '&7محصولات را به‌طور خودکار رشد می‌دهد، برداشت می‌کند و دوباره می‌کارد'
+  name: '&9پایه &aمزرعهٔ مجازی'
+  stats:
+  - '&8⇨ &e⚡ &7سرعت: &b1x'
+  - '&8⇨ &e⚡ &718 J/s'
   type:
   - '&7&oماشین'
 BEE_DATA_CARD:
+  name: '&bکارت داده زنبور'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oقطعه'
+  usage:
+  - '&7برای فعال کردن در محفظه شبیه‌سازی ماب قرار دهید'
 BLAZE_DATA_CARD:
+  name: '&bکارت داده بلیز'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oقطعه'
+  usage:
+  - '&7برای فعال کردن در محفظه شبیه‌سازی ماب قرار دهید'
 CELESTIAL_PANEL:
+  description:
+  - '&7از خورشید انرژی تولید می‌کند'
+  name: '&eپنل آسمانی'
   stats:
   - '&8⇨ &e⚡ &7بافر 75,000 ژول'
   - '&8⇨ &e⚡ &7750 J/s'
   type:
   - '&7&oژنراتور'
 CHICKEN_DATA_CARD:
+  name: '&bکارت داده مرغ'
   stats:
   - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oقطعه'
+  usage:
+  - '&7برای فعال کردن در محفظه شبیه‌سازی ماب قرار دهید'
 COAL_SINGULARITY:
+  name: '&8تکینگی زغال‌سنگ'
   type:
   - '&7&oمنبع'
 COBBLE_PRESS:
+  description:
+  - '&7سنگ‌فرش را کارآمدتر فشرده می‌کند'
+  name: '&8فشرده‌ساز سنگ‌فرش'
   stats:
   - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oماشین'
 COMPRESSED_COBBLESTONE_1:
+  name: '&7سنگ‌فرش یک‌بار فشرده'
+  stats:
+  - '&89 سنگ‌فرش ترکیب‌شده'
   type:
   - '&7&oمنبع'
 COMPRESSED_COBBLESTONE_2:
+  name: '&7سنگ‌فرش دوبار فشرده'
+  stats:
+  - '&881 سنگ‌فرش ترکیب‌شده'
   type:
   - '&7&oمنبع'
 COMPRESSED_COBBLESTONE_3:
+  name: '&7سنگ‌فرش سه‌بار فشرده'
+  stats:
+  - '&8729 سنگ‌فرش ترکیب‌شده'
   type:
   - '&7&oمنبع'
 COMPRESSED_COBBLESTONE_4:
+  name: '&7سنگ‌فرش چهاربار فشرده'
+  stats:
+  - '&86,561 سنگ‌فرش ترکیب‌شده'
   type:
   - '&7&oمنبع'
 COMPRESSED_COBBLESTONE_5:
+  name: '&7سنگ‌فرش پنج‌بار فشرده'
+  stats:
+  - '&859,049 سنگ‌فرش ترکیب‌شده'
   type:
   - '&7&oمنبع'
 COPPER_SINGULARITY:
+  name: '&6تکینگی مس'
   type:
   - '&7&oمنبع'
 COW_DATA_CARD:
+  name: '&bکارت داده گاو'
   stats:
   - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oقطعه'
+  usage:
+  - '&7برای فعال کردن در محفظه شبیه‌سازی ماب قرار دهید'
 CREEPER_DATA_CARD:
+  name: '&bکارت داده کریپر'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oقطعه'
+  usage:
+  - '&7برای فعال کردن در محفظه شبیه‌سازی ماب قرار دهید'
 DATA_INFUSER:
+  description:
+  - '&7کارت‌های داده خالی را با آیتم‌های ماب القا می‌کند'
+  name: '&8القاگر داده ماب'
+  stats:
+  - '&8⇨ &e⚡ &720,000 J در هر استفاده'
   type:
   - '&7&oماشین'
 DECOMPRESSOR:
+  description:
+  - '&7بلوک‌ها را به مادهٔ پایهٔ آنها برمی‌گرداند'
+  name: '&7واشرده‌ساز'
   stats:
   - '&8⇨ &e⚡ &760 J/s'
   type:
   - '&7&oماشین'
 DIAMOND_SINGULARITY:
+  name: '&bتکینگی الماس'
   type:
   - '&7&oمنبع'
 DUST_EXTRACTOR:
+  description:
+  - '&7سنگ‌فرش را به گرد تبدیل می‌کند'
+  name: '&8استخراج‌گر گرد'
+  stats:
+  - '&8⇨ &e⚡ &7سرعت: &b1x'
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oماشین'
 EARTH_SINGULARITY:
+  name: '&aتکینگی خاک'
   type:
   - '&7&oمنبع'
 EMERALD_SINGULARITY:
+  name: '&aتکینگی زمرد'
   type:
   - '&7&oمنبع'
 EMPTY_DATA_CARD:
+  name: '&8کارت داده خالی'
   type:
   - '&7&oقطعه'
+  usage:
+  - '&7برای پر کردن، با آیتم‌های یک ماب القا کنید'
 ENDERMEN_DATA_CARD:
+  name: '&bکارت داده اندرمن'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oقطعه'
+  usage:
+  - '&7برای فعال کردن در محفظه شبیه‌سازی ماب قرار دهید'
 ENDER_DRAGON_DATA_CARD:
+  name: '&bکارت داده اژدهای اندر'
   stats:
   - '&8⇨ &e⚡ &79,000 J/s'
   type:
   - '&7&oقطعه'
+  usage:
+  - '&7برای فعال کردن در محفظه شبیه‌سازی ماب قرار دهید'
 ENDER_FLAME:
+  name: '&cشعلهٔ اندر'
   type:
   - '&7&oقطعه'
 END_ESSENCE:
+  description:
+  - '&8&oاز اعماق اند...'
+  name: '&5جوهر اندر'
   type:
   - '&7&oمنبع'
 EXTREME_FREEZER:
+  description:
+  - '&7یخ را به خنک‌کننده تبدیل می‌کند'
+  name: '&bانجمادگر شدید'
   stats:
   - '&8⇨ &e⚡ &790 J/s'
   type:
   - '&7&oماشین'
 FORTUNE_SINGULARITY:
+  name: '&6تکینگی اقبال'
   type:
   - '&7&oمنبع'
 GEAR_TRANSFORMER:
+  description:
+  - '&7مادهٔ ابزار و تجهیزات اصلی را تغییر می‌دهد'
+  name: '&7دگرگون‌ساز تجهیزات'
+  stats:
+  - '&8⇨ &e⚡ &712,000 J در هر استفاده'
   type:
   - '&7&oماشین'
 GEOTHERMAL_GENERATOR:
+  description:
+  - '&7از گرمای جهان انرژی تولید می‌کند'
+  name: '&cمولد زمین‌گرمایی'
   stats:
   - '&8⇨ &e⚡ &7بافر 3,500 ژول'
   - '&8⇨ &e⚡ &735 J/s'
   type:
   - '&7&oژنراتور'
 GEO_QUARRY:
+  description:
+  - '&7با مصرف نیرو، منابع زمینی را به‌آرامی از تهی برداشت می‌کند'
+  name: '&fمعدن زمینی'
   stats:
   - '&8⇨ &e⚡ &7450 J/s'
   type:
   - '&7&oماشین'
 GOLD_SINGULARITY:
+  name: '&6تکینگی طلا'
   type:
   - '&7&oمنبع'
 GUARDIAN_DATA_CARD:
+  name: '&bکارت داده نگهبان'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oقطعه'
+  usage:
+  - '&7برای فعال کردن در محفظه شبیه‌سازی ماب قرار دهید'
 HYDRO_GENERATOR:
+  description:
+  - '&7از حرکت آب انرژی تولید می‌کند'
+  name: '&9مولد آبی'
   stats:
   - '&8⇨ &e⚡ &7بافر 500 ژول'
   - '&8⇨ &e⚡ &75 J/s'
   type:
   - '&7&oژنراتور'
 INFINITE_INGOT:
+  description:
+  - '&7&oخشم کیهان'
+  - '&7&oدر کف دست شما'
+  name: '&bشمش بی‌نهایت'
   type:
   - '&7&oمنبع'
 INFINITE_MACHINE_CIRCUIT:
+  name: '&bبی‌نهایت &6مدار ماشین'
   type:
   - '&7&oقطعه'
 INFINITE_MACHINE_CORE:
+  name: '&bهسته ماشین بی‌نهایت'
   type:
   - '&7&oقطعه'
 INFINITE_PANEL:
+  description:
+  - '&7از کیهان انرژی تولید می‌کند'
+  name: '&bپنل بی‌نهایت'
   stats:
   - '&8⇨ &e⚡ &7بافر 6,000,000 ژول'
   - '&8⇨ &e⚡ &760,000 J/s'
   type:
   - '&7&oژنراتور'
 INFINITE_VOID_HARVESTER:
+  description:
+  - '&7ذره‌های &8تهی &7را از هیچ برداشت می‌کند...'
+  name: '&bبی‌نهایت &8برداشت‌گر تهی'
+  stats:
+  - '&8⇨ &e⚡ &7سرعت: &b64x'
+  - '&8⇨ &e⚡ &712,000 J/s'
   type:
   - '&7&oماشین'
 INFINITY_AXE:
+  name: '&4نابودی طبیعت'
+  stats:
+  - '&bروح‌پیوند'
   type:
   - '&7&oابزار'
 INFINITY_BLADE:
+  name: '&bتیغهٔ کیهان'
+  stats:
+  - '&bروح‌پیوند'
   type:
   - '&7&oسلاح'
 INFINITY_BOOTS:
+  name: '&bچکمهٔ بی‌نهایت'
+  stats:
+  - '&7سرعت III'
+  - '&7لطف دلفین I'
+  - '&bروح‌پیوند'
   type:
   - '&7&oزره'
 INFINITY_BOW:
+  description:
+  - '&7تیرهای انفجاری شلیک می‌کند که دشمنان را در برخورد کند و گیج می‌کنند'
+  name: '&6آسمان‌شکاف'
+  stats:
+  - '&bروح‌پیوند'
   type:
   - '&7&oسلاح'
 INFINITY_CAPACITOR:
+  description:
+  - '&c&oبیش از'
+  - '&c&o1 عدد در هر شبکهٔ انرژی به کار نبرید'
+  name: '&bخازن بی‌نهایت'
+  stats:
+  - '&8⇨ &e⚡ 2,000,000,000 &7J ظرفیت'
   type:
   - '&7&oقطعه'
 INFINITY_CHARGER:
+  description:
+  - '&7آیتم‌ها را فوراً شارژ می‌کند'
+  name: '&bشارژر بی‌نهایت'
+  stats:
+  - '&8⇨ &e⚡ &7سرعت: &b6000x'
+  - '&8⇨ &e⚡ &760,000 J در هر استفاده'
   type:
   - '&7&oماشین'
 INFINITY_CHESTPLATE:
+  name: '&bسینه‌پوش بی‌نهایت'
+  stats:
+  - '&7قدرت II'
+  - '&7مقاومت I'
+  - '&7مقاومت آتش I'
+  - '&7ایمنی از نیش زنبور'
+  - '&bروح‌پیوند'
   type:
   - '&7&oزره'
 INFINITY_COBBLE_GEN:
+  description:
+  - '&7با گذر زمان به‌طور خودکار سنگ‌فرش تولید می‌کند'
+  name: '&cبی‌نهایت &8تولیدکنندهٔ سنگ‌فرش'
+  stats:
+  - '&8⇨ &e⚡ &7سرعت: &b64x'
+  - '&8⇨ &e⚡ &7800 J/s'
   type:
   - '&7&oماشین'
 INFINITY_CONSTRUCTOR:
+  description:
+  - '&7مقادیر زیادی منابع را به‌سرعت چکیده می‌کند'
+  name: '&bبی‌نهایت &fسازنده'
+  stats:
+  - '&8⇨ &e⚡ &7سرعت: &b64x'
+  - '&8⇨ &e⚡ &71,200 J/s'
   type:
   - '&7&oماشین'
 INFINITY_CROWN:
+  name: '&bتاج بی‌نهایت'
+  stats:
+  - '&7دید در شب I'
+  - '&7نیروی رهنما I'
+  - '&7ایمنی از سقوط الیترا'
+  - '&bروح‌پیوند'
   type:
   - '&7&oزره'
 INFINITY_DISENCHANTER:
+  description:
+  - '&7افسون‌ها را به‌طور خودکار از آیتم‌ها به کتاب منتقل می‌کند'
+  name: '&bافسون‌زدای بی‌نهایت'
+  stats:
+  - '&8⇨ &e⚡ &7سرعت: &b90x'
+  - '&8⇨ &e⚡ &712,000 J در هر استفاده'
   type:
   - '&7&oماشین'
 INFINITY_DUST_EXTRACTOR:
+  description:
+  - '&7سنگ‌فرش را به گرد تبدیل می‌کند'
+  name: '&bبی‌نهایت &8استخراج‌گر گرد'
+  stats:
+  - '&8⇨ &e⚡ &7سرعت: &b16x'
+  - '&8⇨ &e⚡ &77,200 J/s'
   type:
   - '&7&oماشین'
 INFINITY_ENCHANTER:
+  description:
+  - '&7آیتم‌های گذاشته‌شده در خود را به‌طور خودکار افسون می‌کند'
+  name: '&bافسون‌گر بی‌نهایت'
+  stats:
+  - '&8⇨ &e⚡ &7سرعت: &b75x'
+  - '&8⇨ &e⚡ &712,000 J در هر استفاده'
   type:
   - '&7&oماشین'
 INFINITY_FORGE:
+  description:
+  - '&7برای ساخت آیتم‌های بی‌نهایت به کار می‌رود'
+  name: '&6میزکار بی‌نهایت'
+  stats:
+  - '&8⇨ &e⚡ &710,000,000 J برای هر آیتم'
   type:
   - '&7&oماشین'
 INFINITY_INGOT_FORMER:
+  description:
+  - '&7از گردها شمش می‌سازد'
+  name: '&bبی‌نهایت &8شکل‌دهندهٔ شمش'
+  stats:
+  - '&8⇨ &e⚡ &7سرعت: &b16x'
+  - '&8⇨ &e⚡ &77,200 J/s'
   type:
   - '&7&oماشین'
 INFINITY_LEGGINGS:
+  name: '&bساق‌پوش بی‌نهایت'
+  stats:
+  - '&7شتاب III'
+  - '&7بازسازی I'
+  - '&7سیری I'
+  - '&7ایمنی از تشعشع'
+  - '&bروح‌پیوند'
   type:
   - '&7&oزره'
 INFINITY_MATRIX:
+  description:
+  - '&6پرواز نامحدود می‌دهد'
+  name: '&fماتریس بی‌نهایت'
+  stats:
+  - '&bروح‌پیوند'
   type:
   - '&7&oابزارک'
+  usage:
+  - '&7کلیک راست برای فعال/غیرفعال کردن و تصاحب'
+  - '&7خم شدن و کلیک راست برای حذف مالکیت'
 INFINITY_PICKAXE:
+  name: '&9شکنندهٔ جهان'
+  stats:
+  - '&bروح‌پیوند'
   type:
   - '&7&oابزار'
 INFINITY_QUARRY:
+  description:
+  - '&7به‌طور خودکار سنگ‌های معدنی جهان اصلی و نتر را استخراج می‌کند'
+  name: '&bمعدن بی‌نهایت'
+  stats:
+  - '&8⇨ &e⚡ &7سرعت: &b64x'
+  - '&8⇨ &e⚡ &736,000 J/s'
   type:
   - '&7&oماشین'
 INFINITY_REACTOR:
+  description:
+  - '&7با فشرده‌سازی شمش‌های'
+  - '&7&8تهی &7و &bبی‌نهایت &7نیرو تولید می‌کند'
+  name: '&bواکنشگر بی‌نهایت'
   stats:
   - '&8⇨ &e⚡ &7بافر 120,000,000 ژول'
   - '&8⇨ &e⚡ &7120,000 J/s'
   type:
   - '&7&oژنراتور'
 INFINITY_SHIELD:
+  name: '&bسپر کیهانی'
+  stats:
+  - '&bروح‌پیوند'
   type:
   - '&7&oسلاح'
 INFINITY_SHOVEL:
+  name: '&aکوه‌خوار'
+  stats:
+  - '&bروح‌پیوند'
   type:
   - '&7&oابزار'
 INFINITY_SINGULARITY:
+  name: '&bتکینگی بی‌نهایت'
   type:
   - '&7&oمنبع'
 INFINITY_STORAGE:
+  description:
+  - '&7مقادیر زیادی از یک نوع آیتم را ذخیره می‌کند'
+  name: '&bبی‌نهایت &8واحد ذخیره‌سازی'
+  stats:
+  - '&6ظرفیت: &e1,600,000,000 &eآیتم'
   type:
   - '&7&oماشین'
 INFINITY_TREE_GROWER:
+  description:
+  - '&7درختان را به‌طور خودکار رشد می‌دهد، برداشت می‌کند و دوباره می‌کارد'
+  name: '&bبی‌نهایت &2درخت‌رویان'
+  stats:
+  - '&8⇨ &e⚡ &7سرعت: &b25x'
+  - '&8⇨ &e⚡ &71,800 J/s'
   type:
   - '&7&oماشین'
 INFINITY_VIRTUAL_FARM:
+  description:
+  - '&7محصولات را به‌طور خودکار رشد می‌دهد، برداشت می‌کند و دوباره می‌کارد'
+  name: '&bبی‌نهایت &aمزرعهٔ مجازی'
+  stats:
+  - '&8⇨ &e⚡ &7سرعت: &b25x'
+  - '&8⇨ &e⚡ &7900 J/s'
   type:
   - '&7&oماشین'
 INGOT_FORMER:
+  description:
+  - '&7از گردها شمش می‌سازد'
+  name: '&8شکل‌دهندهٔ شمش'
+  stats:
+  - '&8⇨ &e⚡ &7سرعت: &b1x'
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oماشین'
 IRON_GOLEM_DATA_CARD:
+  name: '&bکارت داده غول آهنی'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oقطعه'
+  usage:
+  - '&7برای فعال کردن در محفظه شبیه‌سازی ماب قرار دهید'
 IRON_SINGULARITY:
+  name: '&7تکینگی آهن'
   type:
   - '&7&oمنبع'
 LAPIS_SINGULARITY:
+  name: '&9تکینگی لاجورد'
   type:
   - '&7&oمنبع'
 LEAD_SINGULARITY:
+  name: '&8تکینگی سرب'
   type:
   - '&7&oمنبع'
 MACHINE_CIRCUIT:
+  name: '&6مدار ماشین'
   type:
   - '&7&oقطعه'
 MACHINE_CORE:
+  name: '&fهسته ماشین'
   type:
   - '&7&oقطعه'
 MACHINE_PLATE:
+  name: '&fصفحهٔ ماشین'
   type:
   - '&7&oقطعه'
 MAGIC_SINGULARITY:
+  name: '&dتکینگی جادو'
   type:
   - '&7&oمنبع'
 MAGMA_CUBE_DATA_CARD:
+  name: '&bکارت داده مکعب گدازه'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oقطعه'
+  usage:
+  - '&7برای فعال کردن در محفظه شبیه‌سازی ماب قرار دهید'
 MAGNESIUM_SINGULARITY:
+  name: '&5تکینگی منیزیم'
   type:
   - '&7&oمنبع'
 MAGNONIUM:
+  name: '&5مگنونیوم'
   type:
   - '&7&oمنبع'
 MAGSTEEL:
+  name: '&4مگ‌فولاد'
   type:
   - '&7&oمنبع'
 MAGSTEEL_PLATE:
+  name: '&4صفحهٔ مگ‌فولاد'
   type:
   - '&7&oقطعه'
 METAL_SINGULARITY:
+  name: '&8تکینگی فلز'
   type:
   - '&7&oمنبع'
 MOB_SIMULATION_CHAMBER:
+  description:
+  - '&7برای فعال کردن از کارت‌های داده ماب استفاده کنید'
+  name: '&8محفظه شبیه‌سازی ماب'
   stats:
   - '&8⇨ &e⚡ &7بافر 15,000 ژول'
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oماشین'
 MYTHRIL:
+  name: '&bمیتریل'
   type:
   - '&7&oمنبع'
 NETHERITE_SINGULARITY:
+  name: '&4تکینگی نترایت'
   type:
   - '&7&oمنبع'
 POWERED_BEDROCK:
+  description:
+  - '&7وقتی نیرو بگیرد، به سنگ‌بستر تبدیل می‌شود'
+  - '&7با قطع نیرو یا شکستن به حالت نخست برمی‌گردد'
+  name: '&4سنگ‌بستر نیرودار'
   stats:
   - '&8⇨ &e⚡ &710,000 J/s'
   type:
   - '&7&oماشین'
 QUARRY_OSCILLATOR_DIAMOND:
+  name: '&bنوسان‌گر الماس'
   type:
   - '&7&oقطعه'
+  usage:
+  - '&7در یک معدن قرار دهید تا به آن'
+  - '&7شانس 50.0% استخراج این ماده را بدهد'
 QUARRY_OSCILLATOR_EMERALD:
+  name: '&bنوسان‌گر زمرد'
   type:
   - '&7&oقطعه'
+  usage:
+  - '&7در یک معدن قرار دهید تا به آن'
+  - '&7شانس 50.0% استخراج این ماده را بدهد'
 QUARRY_OSCILLATOR_LAPIS_LAZULI:
+  name: '&bنوسان‌گر لاجورد'
   type:
   - '&7&oقطعه'
+  usage:
+  - '&7در یک معدن قرار دهید تا به آن'
+  - '&7شانس 50.0% استخراج این ماده را بدهد'
 QUARRY_OSCILLATOR_QUARTZ:
+  name: '&bنوسان‌گر کوارتز'
   type:
   - '&7&oقطعه'
+  usage:
+  - '&7در یک معدن قرار دهید تا به آن'
+  - '&7شانس 50.0% استخراج این ماده را بدهد'
 QUARRY_OSCILLATOR_REDSTONE:
+  name: '&bنوسان‌گر ردستون'
   type:
   - '&7&oقطعه'
+  usage:
+  - '&7در یک معدن قرار دهید تا به آن'
+  - '&7شانس 50.0% استخراج این ماده را بدهد'
 QUARTZ_SINGULARITY:
+  name: '&fتکینگی کوارتز'
   type:
   - '&7&oمنبع'
 REDSTONE_SINGULARITY:
+  name: '&cتکینگی ردستون'
   type:
   - '&7&oمنبع'
 REINFORCED_GEOTHERMAL_GENERATOR:
+  description:
+  - '&7مقادیر زیادی انرژی تولید می‌کند'
+  - '&7از گرمای جهان'
+  name: '&fتقویت‌شده &cمولد زمین‌گرمایی'
   stats:
   - '&8⇨ &e⚡ &7بافر 21,000 ژول'
   - '&8⇨ &e⚡ &7210 J/s'
   type:
   - '&7&oژنراتور'
 REINFORCED_HYDRO_GENERATOR:
+  description:
+  - '&7مقادیر زیادی انرژی تولید می‌کند'
+  - '&7از حرکت آب'
+  name: '&fتقویت‌شده &9مولد آبی'
   stats:
   - '&8⇨ &e⚡ &7بافر 4,500 ژول'
   - '&8⇨ &e⚡ &745 J/s'
   type:
   - '&7&oژنراتور'
 REINFORCED_STORAGE:
+  description:
+  - '&7مقادیر زیادی از یک نوع آیتم را ذخیره می‌کند'
+  name: '&fتقویت‌شده &8واحد ذخیره‌سازی'
+  stats:
+  - '&6ظرفیت: &e102,400 &eآیتم'
   type:
   - '&7&oماشین'
 REINFORCED_STRAINER:
+  description:
+  - '&7مواد را از آب روان جمع‌آوری می‌کند'
+  name: '&fصافی تقویت‌شده'
   stats:
   - '&8⇨ &b⚡ &7سرعت: &b20.0x'
   type:
   - '&7&oقطعه'
 RESOURCE_SYNTHESIZER:
+  description:
+  - '&7با ترکیب 2 تکینگی منابع می‌سازد'
+  name: '&6ترکیب‌ساز منابع'
+  stats:
+  - '&8⇨ &e⚡ &71,000,000 J در هر استفاده'
   type:
   - '&7&oماشین'
 SHEEP_DATA_CARD:
+  name: '&bکارت داده گوسفند'
   stats:
   - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oقطعه'
+  usage:
+  - '&7برای فعال کردن در محفظه شبیه‌سازی ماب قرار دهید'
 SILVER_SINGULARITY:
+  name: '&7تکینگی نقره'
   type:
   - '&7&oمنبع'
 SINGULARITY_CONSTRUCTOR:
+  description:
+  - '&7مقادیر زیادی منابع را چکیده می‌کند'
+  name: '&fسازندهٔ تکینگی'
+  stats:
+  - '&8⇨ &e⚡ &7سرعت: &b1x'
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oماشین'
 SKELETON_DATA_CARD:
+  name: '&bکارت داده اسکلت'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oقطعه'
+  usage:
+  - '&7برای فعال کردن در محفظه شبیه‌سازی ماب قرار دهید'
 SLIME_DATA_CARD:
+  name: '&bکارت داده اسلایم'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oقطعه'
+  usage:
+  - '&7برای فعال کردن در محفظه شبیه‌سازی ماب قرار دهید'
 SPIDER_DATA_CARD:
+  name: '&bکارت داده عنکبوت'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oقطعه'
+  usage:
+  - '&7برای فعال کردن در محفظه شبیه‌سازی ماب قرار دهید'
 STONEWORKS_FACTORY:
+  description:
+  - '&7سنگ‌فرش تولید می‌کند و آن را به مواد گوناگون تبدیل می‌کند'
+  name: '&8کارخانهٔ سنگ‌کاری'
   stats:
   - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oماشین'
+  usage:
+  - '&eکلیک&7 روی خانه‌های انتخاب برای چرخش میان ذوب، خرد کردن، فشرده‌سازی و دگرگونی'
 STORAGE_FORGE:
+  description:
+  - '&7ردهٔ واحدهای ذخیره‌سازی را ارتقا می‌دهد'
+  - '&7آیتم‌های ذخیره‌شده را نگه می‌دارد'
+  name: '&6آهنگری ذخیره‌سازی'
   type:
   - '&7&oماشین'
 STRAINER_BASE:
+  description:
+  - '&7با یک صافی، مواد را به‌آرامی از آب روان جمع‌آوری می‌کند'
+  - '&7برای کار باید در آب فرو رفته باشد'
+  name: '&7پایهٔ صافی'
   type:
   - '&7&oماشین'
 TIN_SINGULARITY:
+  name: '&7تکینگی قلع'
   type:
   - '&7&oمنبع'
 TITANIUM:
+  name: '&7تیتانیوم'
   type:
   - '&7&oمنبع'
 URANIUM_EXTRACTOR:
+  description:
+  - '&7سنگ‌فرش را به اورانیوم تبدیل می‌کند'
+  name: '&aاستخراج‌گر اورانیوم'
   stats:
   - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oماشین'
 VEIN_MINER_RUNE:
+  description:
+  - '&7ابزار را ارتقا می‌دهد تا مواد خاصی را رگه‌ای استخراج کند'
+  name: '&bرون معدن‌کاو رگه'
   type:
   - '&7&oابزارک'
+  usage:
+  - '&eرها کردن&7 کنار یک ابزار برای ارتقای آن به معدن‌کاو رگه'
 VILLAGER_DATA_CARD:
+  name: '&bکارت داده روستایی'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oقطعه'
+  usage:
+  - '&7برای فعال کردن در محفظه شبیه‌سازی ماب قرار دهید'
 VOID_BIT:
+  description:
+  - '&7&oحس می‌شود... خالی است'
+  name: '&8ذرهٔ تهی'
   type:
   - '&7&oمنبع'
 VOID_CAPACITOR:
+  description:
+  - '&7انرژی اضافی را برای یک شبکهٔ انرژی ذخیره می‌کند'
+  name: '&8خازن تهی'
+  stats:
+  - '&8⇨ &e⚡ 16,000,000 &7J ظرفیت'
   type:
   - '&7&oقطعه'
 VOID_DUST:
+  description:
+  - '&7&oدارد شکل می‌گیرد...'
+  name: '&8گرد تهی'
   type:
   - '&7&oمنبع'
 VOID_HARVESTER:
+  description:
+  - '&7به‌آرامی ذره‌های &8تهی &7را از هیچ برداشت می‌کند...'
+  name: '&8برداشت‌گر تهی'
+  stats:
+  - '&8⇨ &e⚡ &7سرعت: &b1x'
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oماشین'
 VOID_INGOT:
+  description:
+  - '&7&oخلأ کیهان'
+  - '&7&oدر کف دست شما'
+  name: '&8شمش تهی'
   type:
   - '&7&oمنبع'
 VOID_PANEL:
+  description:
+  - '&7از تاریکی انرژی تولید می‌کند'
+  name: '&8پنل تهی'
   stats:
   - '&8⇨ &e⚡ &7بافر 300,000 ژول'
   - '&8⇨ &e⚡ &73,000 J/s'
   type:
   - '&7&oژنراتور'
 VOID_QUARRY:
+  description:
+  - '&7به‌طور خودکار سنگ‌های معدنی جهان اصلی و نتر را استخراج می‌کند'
+  name: '&8معدن تهی'
+  stats:
+  - '&8⇨ &e⚡ &7سرعت: &b6x'
+  - '&8⇨ &e⚡ &73,600 J/s'
   type:
   - '&7&oماشین'
 VOID_STORAGE:
+  description:
+  - '&7مقادیر زیادی از یک نوع آیتم را ذخیره می‌کند'
+  name: '&8تهی &8واحد ذخیره‌سازی'
+  stats:
+  - '&6ظرفیت: &e409,600 &eآیتم'
   type:
   - '&7&oماشین'
 WITCH_DATA_CARD:
+  name: '&bکارت داده جادوگر'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oقطعه'
+  usage:
+  - '&7برای فعال کردن در محفظه شبیه‌سازی ماب قرار دهید'
 WITHER_DATA_CARD:
+  name: '&bکارت داده ویتر'
   stats:
   - '&8⇨ &e⚡ &74,500 J/s'
   type:
   - '&7&oقطعه'
+  usage:
+  - '&7برای فعال کردن در محفظه شبیه‌سازی ماب قرار دهید'
 WITHER_SKELETON_DATA_CARD:
+  name: '&bکارت داده اسکلت ویتر'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oقطعه'
+  usage:
+  - '&7برای فعال کردن در محفظه شبیه‌سازی ماب قرار دهید'
 ZINC_SINGULARITY:
+  name: '&7تکینگی روی'
   type:
   - '&7&oمنبع'
 ZOMBIE_DATA_CARD:
+  name: '&bکارت داده زامبی'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oقطعه'
+  usage:
+  - '&7برای فعال کردن در محفظه شبیه‌سازی ماب قرار دهید'
