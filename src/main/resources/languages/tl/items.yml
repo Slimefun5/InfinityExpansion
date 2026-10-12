@@ -1,532 +1,1060 @@
 ADAMANTITE:
+  name: '&dAdamantite'
   type:
   - '&7&oRekurso'
 ADVANCED_ANVIL:
+  description:
+  - '&7Pinagsasama ang mga enkanto ng kasangkapan at kagamitan at kung minsan pinapahusay ito'
+  - '&bGumagana sa mga bagay ng Slimefun'
+  name: '&cAbanseng Palihan'
+  stats:
+  - '&8⇨ &e⚡ &7100,000 J kada paggamit'
   type:
   - '&7&oMakina'
 ADVANCED_CHARGER:
+  description:
+  - '&7Agad na kinakarga ang mga bagay'
+  name: '&cAbanseng Tsarger'
+  stats:
+  - '&8⇨ &e⚡ &7Bilis: &b30x'
+  - '&8⇨ &e⚡ &7180 J/s'
   type:
   - '&7&oMakina'
 ADVANCED_COBBLE_GEN:
+  description:
+  - '&7Awtomatikong gumagawa ng batong-lansangan sa paglipas ng oras'
+  name: '&cAbanseng &8Tagagawa ng Batong-lansangan'
+  stats:
+  - '&8⇨ &e⚡ &7Bilis: &b4x'
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oMakina'
 ADVANCED_DISENCHANTER:
+  description:
+  - '&7Awtomatikong inaalis ang mga enkantasyon sa mga bagay tungo sa mga libro'
+  name: '&cAbanseng Tagaalis-enkanto'
+  stats:
+  - '&8⇨ &e⚡ &7Bilis: &b5x'
+  - '&8⇨ &e⚡ &7180 J/s'
   type:
   - '&7&oMakina'
 ADVANCED_ENCHANTER:
+  description:
+  - '&7Awtomatikong ineenkanto ang mga bagay na inilagay sa loob nito'
+  name: '&cAbanseng Tagaenkanto'
+  stats:
+  - '&8⇨ &e⚡ &7Bilis: &b5x'
+  - '&8⇨ &e⚡ &7180 J/s'
   type:
   - '&7&oMakina'
 ADVANCED_GEO_MINER:
+  description:
+  - '&7Mas mabilis na geo-minero'
+  name: '&cAbanseng &fGeoMinero'
+  stats:
+  - '&8⇨ &e⚡ &7Bilis: &b4x'
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oMakina'
 ADVANCED_NETHER_STAR_REACTOR:
+  description:
+  - '&fTumatakbo sa mga Bituin ng Nether'
+  - '&bDapat napapaligiran ng Tubig'
+  - '&bDapat suplayan ng mga Seldang Pampalamig na Yelo ng Nether'
+  - '&4Nagdudulot ng Wither sa mga malapit na Nilalang'
+  name: '&cAbanseng Reaktor ng Bituin ng Nether'
   stats:
   - '&8⇨ &e⚡ &790,000 J na Buffer'
   - '&8⇨ &e⚡ &71,800 J/s'
   type:
   - '&7&oGenerator'
 ADVANCED_PANEL:
+  description:
+  - '&7Nagbubuo ng enerhiya mula sa araw'
+  name: '&cAbanseng Solar Panel'
   stats:
   - '&8⇨ &e⚡ &715,000 J na Buffer'
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oGenerator'
 ADVANCED_QUARRY:
+  description:
+  - '&7Awtomatikong minimina ang mga mineral ng Overworld at Nether'
+  name: '&cAbanseng Minahan'
+  stats:
+  - '&8⇨ &e⚡ &7Bilis: &b2x'
+  - '&8⇨ &e⚡ &7900 J/s'
   type:
   - '&7&oMakina'
 ADVANCED_SMELTERY:
+  description:
+  - '&7Mas mabilis na tunawan'
+  name: '&cAbanseng &7Tunawan'
+  stats:
+  - '&8⇨ &e⚡ &7Bilis: &b24x'
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oMakina'
 ADVANCED_STORAGE:
+  description:
+  - '&7Nag-iimbak ng malaking dami ng isahang uri ng bagay'
+  name: '&cAbanseng &8Yunit ng Imbakan'
+  stats:
+  - '&6Kapasidad: &e25,600 &ena bagay'
   type:
   - '&7&oMakina'
 ADVANCED_STRAINER:
+  description:
+  - '&7Kinokolekta ang mga materyal mula sa umaagos na tubig'
+  name: '&cAbanseng Pansala'
   stats:
   - '&8⇨ &b⚡ &7Bilis: &b4.0x'
   type:
   - '&7&oBahagi'
 ADVANCED_TREE_GROWER:
+  description:
+  - '&7Awtomatikong pinapatubo, inaani, at muling itinatanim ang mga puno'
+  name: '&cAbanseng &2Tagapagtubo ng Puno'
+  stats:
+  - '&8⇨ &e⚡ &7Bilis: &b5x'
+  - '&8⇨ &e⚡ &7180 J/s'
   type:
   - '&7&oMakina'
 ADVANCED_VIRTUAL_FARM:
+  description:
+  - '&7Awtomatikong pinapatubo, inaani, at muling itinatanim ang mga pananim'
+  name: '&cAbanseng &aBirtuwal na Sakahan'
+  stats:
+  - '&8⇨ &e⚡ &7Bilis: &b5x'
+  - '&8⇨ &e⚡ &790 J/s'
   type:
   - '&7&oMakina'
 ALUMINUM_SINGULARITY:
+  name: '&7Singularidad ng Aluminyo'
   type:
   - '&7&oRekurso'
 BASIC_COBBLE_GEN:
+  description:
+  - '&7Awtomatikong gumagawa ng batong-lansangan sa paglipas ng oras'
+  name: '&9Basikong &8Tagagawa ng Batong-lansangan'
+  stats:
+  - '&8⇨ &e⚡ &7Bilis: &b1x'
+  - '&8⇨ &e⚡ &724 J/s'
   type:
   - '&7&oMakina'
 BASIC_OBSIDIAN_GEN:
+  description:
+  - '&7Awtomatikong gumagawa ng obsidiana sa paglipas ng oras'
+  name: '&8Tagagawa ng Obsidiana'
+  stats:
+  - '&8⇨ &e⚡ &7Bilis: &b1x'
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oMakina'
 BASIC_PANEL:
+  description:
+  - '&7Nagbubuo ng enerhiya mula sa araw'
+  name: '&9Basikong Solar Panel'
   stats:
   - '&8⇨ &e⚡ &7900 J na Buffer'
   - '&8⇨ &e⚡ &79 J/s'
   type:
   - '&7&oGenerator'
 BASIC_QUARRY:
+  description:
+  - '&7Awtomatikong minimina ang mga mineral ng Overworld'
+  name: '&9Basikong Minahan'
+  stats:
+  - '&8⇨ &e⚡ &7Bilis: &b1x'
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oMakina'
 BASIC_STORAGE:
+  description:
+  - '&7Nag-iimbak ng malaking dami ng isahang uri ng bagay'
+  name: '&9Basikong &8Yunit ng Imbakan'
+  stats:
+  - '&6Kapasidad: &e6,400 &ena bagay'
   type:
   - '&7&oMakina'
 BASIC_STRAINER:
+  description:
+  - '&7Kinokolekta ang mga materyal mula sa umaagos na tubig'
+  name: '&9Basikong Pansala'
   stats:
   - '&8⇨ &b⚡ &7Bilis: &b1.0x'
   type:
   - '&7&oBahagi'
 BASIC_TREE_GROWER:
+  description:
+  - '&7Awtomatikong pinapatubo, inaani, at muling itinatanim ang mga puno'
+  name: '&9Basikong &2Tagapagtubo ng Puno'
+  stats:
+  - '&8⇨ &e⚡ &7Bilis: &b1x'
+  - '&8⇨ &e⚡ &736 J/s'
   type:
   - '&7&oMakina'
 BASIC_VIRTUAL_FARM:
+  description:
+  - '&7Awtomatikong pinapatubo, inaani, at muling itinatanim ang mga pananim'
+  name: '&9Basikong &aBirtuwal na Sakahan'
+  stats:
+  - '&8⇨ &e⚡ &7Bilis: &b1x'
+  - '&8⇨ &e⚡ &718 J/s'
   type:
   - '&7&oMakina'
 BEE_DATA_CARD:
+  name: '&bTarheta ng Datos ng Bubuyog'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oBahagi'
+  usage:
+  - '&7Ilagay sa silid ng simulasyon ng nilalang para aktibahin'
 BLAZE_DATA_CARD:
+  name: '&bTarheta ng Datos ng Blaze'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oBahagi'
+  usage:
+  - '&7Ilagay sa silid ng simulasyon ng nilalang para aktibahin'
 CELESTIAL_PANEL:
+  description:
+  - '&7Nagbubuo ng enerhiya mula sa araw'
+  name: '&ePanel ng Kalangitan'
   stats:
   - '&8⇨ &e⚡ &775,000 J na Buffer'
   - '&8⇨ &e⚡ &7750 J/s'
   type:
   - '&7&oGenerator'
 CHICKEN_DATA_CARD:
+  name: '&bTarheta ng Datos ng Manok'
   stats:
   - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oBahagi'
+  usage:
+  - '&7Ilagay sa silid ng simulasyon ng nilalang para aktibahin'
 COAL_SINGULARITY:
+  name: '&8Singularidad ng Uling'
   type:
   - '&7&oRekurso'
 COBBLE_PRESS:
+  description:
+  - '&7Mas mahusay na sinisiksik ang batong-lansangan'
+  name: '&8Prensa ng Batong-lansangan'
   stats:
   - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oMakina'
 COMPRESSED_COBBLESTONE_1:
+  name: '&7Isahang Siksik na Batong-lansangan'
+  stats:
+  - '&89 batong-lansangan ang pinagsama'
   type:
   - '&7&oRekurso'
 COMPRESSED_COBBLESTONE_2:
+  name: '&7Dobleng Siksik na Batong-lansangan'
+  stats:
+  - '&881 batong-lansangan ang pinagsama'
   type:
   - '&7&oRekurso'
 COMPRESSED_COBBLESTONE_3:
+  name: '&7Tripleng Siksik na Batong-lansangan'
+  stats:
+  - '&8729 batong-lansangan ang pinagsama'
   type:
   - '&7&oRekurso'
 COMPRESSED_COBBLESTONE_4:
+  name: '&7Kuwadrupleng Siksik na Batong-lansangan'
+  stats:
+  - '&86,561 batong-lansangan ang pinagsama'
   type:
   - '&7&oRekurso'
 COMPRESSED_COBBLESTONE_5:
+  name: '&7Kwintupleng Siksik na Batong-lansangan'
+  stats:
+  - '&859,049 batong-lansangan ang pinagsama'
   type:
   - '&7&oRekurso'
 COPPER_SINGULARITY:
+  name: '&6Singularidad ng Tanso'
   type:
   - '&7&oRekurso'
 COW_DATA_CARD:
+  name: '&bTarheta ng Datos ng Baka'
   stats:
   - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oBahagi'
+  usage:
+  - '&7Ilagay sa silid ng simulasyon ng nilalang para aktibahin'
 CREEPER_DATA_CARD:
+  name: '&bTarheta ng Datos ng Creeper'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oBahagi'
+  usage:
+  - '&7Ilagay sa silid ng simulasyon ng nilalang para aktibahin'
 DATA_INFUSER:
+  description:
+  - '&7Isinasanib ang mga bagay ng nilalang sa walang lamang tarheta ng datos'
+  name: '&8Tagasanib ng Datos ng Nilalang'
+  stats:
+  - '&8⇨ &e⚡ &720,000 J kada paggamit'
   type:
   - '&7&oMakina'
 DECOMPRESSOR:
+  description:
+  - '&7Ibinabalik ang mga bloke sa kanilang batayang materyal'
+  name: '&7Tagapagluwag'
   stats:
   - '&8⇨ &e⚡ &760 J/s'
   type:
   - '&7&oMakina'
 DIAMOND_SINGULARITY:
+  name: '&bSingularidad ng Diyamante'
   type:
   - '&7&oRekurso'
 DUST_EXTRACTOR:
+  description:
+  - '&7Ginagawang mga alikabok ang batong-lansangan'
+  name: '&8Tagahango ng Alikabok'
+  stats:
+  - '&8⇨ &e⚡ &7Bilis: &b1x'
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oMakina'
 EARTH_SINGULARITY:
+  name: '&aSingularidad ng Lupa'
   type:
   - '&7&oRekurso'
 EMERALD_SINGULARITY:
+  name: '&aSingularidad ng Esmeralda'
   type:
   - '&7&oRekurso'
 EMPTY_DATA_CARD:
+  name: '&8Walang Lamang Tarheta ng Datos'
   type:
   - '&7&oBahagi'
+  usage:
+  - '&7Isanib ang mga bagay ng nilalang para mapuno'
 ENDERMEN_DATA_CARD:
+  name: '&bTarheta ng Datos ng Endermen'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oBahagi'
+  usage:
+  - '&7Ilagay sa silid ng simulasyon ng nilalang para aktibahin'
 ENDER_DRAGON_DATA_CARD:
+  name: '&bTarheta ng Datos ng Dragon ng Ender'
   stats:
   - '&8⇨ &e⚡ &79,000 J/s'
   type:
   - '&7&oBahagi'
+  usage:
+  - '&7Ilagay sa silid ng simulasyon ng nilalang para aktibahin'
 ENDER_FLAME:
+  name: '&cApoy ng Ender'
   type:
   - '&7&oBahagi'
 END_ESSENCE:
+  description:
+  - '&8&oMula sa kailaliman ng End...'
+  name: '&5Esensya ng Ender'
   type:
   - '&7&oRekurso'
 EXTREME_FREEZER:
+  description:
+  - '&7Ginagawang pampalamig ang yelo'
+  name: '&bEkstremong Palamigan'
   stats:
   - '&8⇨ &e⚡ &790 J/s'
   type:
   - '&7&oMakina'
 FORTUNE_SINGULARITY:
+  name: '&6Singularidad ng Suwerte'
   type:
   - '&7&oRekurso'
 GEAR_TRANSFORMER:
+  description:
+  - '&7Binabago ang materyal ng mga orihinal na kasangkapan at kagamitan'
+  name: '&7Tagapagbago ng Kagamitan'
+  stats:
+  - '&8⇨ &e⚡ &712,000 J Kada Paggamit'
   type:
   - '&7&oMakina'
 GEOTHERMAL_GENERATOR:
+  description:
+  - '&7Nagbubuo ng enerhiya mula sa init ng mundo'
+  name: '&cGeotermal na Generador'
   stats:
   - '&8⇨ &e⚡ &73,500 J na Buffer'
   - '&8⇨ &e⚡ &735 J/s'
   type:
   - '&7&oGenerator'
 GEO_QUARRY:
+  description:
+  - '&7Dahan-dahang umaani ng mga yamang geo mula sa kawalan gamit ang lakas'
+  name: '&fMinahan ng Geo'
   stats:
   - '&8⇨ &e⚡ &7450 J/s'
   type:
   - '&7&oMakina'
 GOLD_SINGULARITY:
+  name: '&6Singularidad ng Ginto'
   type:
   - '&7&oRekurso'
 GUARDIAN_DATA_CARD:
+  name: '&bTarheta ng Datos ng Bantay'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oBahagi'
+  usage:
+  - '&7Ilagay sa silid ng simulasyon ng nilalang para aktibahin'
 HYDRO_GENERATOR:
+  description:
+  - '&7Nagbubuo ng enerhiya mula sa paggalaw ng tubig'
+  name: '&9Generador ng Tubig'
   stats:
   - '&8⇨ &e⚡ &7500 J na Buffer'
   - '&8⇨ &e⚡ &75 J/s'
   type:
   - '&7&oGenerator'
 INFINITE_INGOT:
+  description:
+  - '&7&oAng poot ng kosmos'
+  - '&7&osa palad ng iyong kamay'
+  name: '&bWalang Hanggang Bareta'
   type:
   - '&7&oRekurso'
 INFINITE_MACHINE_CIRCUIT:
+  name: '&bWalang Hanggang &6Sirkito ng Makina'
   type:
   - '&7&oBahagi'
 INFINITE_MACHINE_CORE:
+  name: '&bWalang Hanggang Ubod ng Makina'
   type:
   - '&7&oBahagi'
 INFINITE_PANEL:
+  description:
+  - '&7Nagbubuo ng enerhiya mula sa kosmos'
+  name: '&bWalang Hanggang Panel'
   stats:
   - '&8⇨ &e⚡ &76,000,000 J na Buffer'
   - '&8⇨ &e⚡ &760,000 J/s'
   type:
   - '&7&oGenerator'
 INFINITE_VOID_HARVESTER:
+  description:
+  - '&7Umaani ng mga Piraso ng &8Kawalan &7mula sa wala...'
+  name: '&bWalang Hanggang &8Tagaani ng Kawalan'
+  stats:
+  - '&8⇨ &e⚡ &7Bilis: &b64x'
+  - '&8⇨ &e⚡ &712,000 J/s'
   type:
   - '&7&oMakina'
 INFINITY_AXE:
+  name: '&4Pagkawasak ng Kalikasan'
+  stats:
+  - '&bNakatali sa Kaluluwa'
   type:
   - '&7&oKasangkapan'
 INFINITY_BLADE:
+  name: '&bTalim ng Kosmos'
+  stats:
+  - '&bNakatali sa Kaluluwa'
   type:
   - '&7&oSandata'
 INFINITY_BOOTS:
+  name: '&bWalang Hanggang Bota'
+  stats:
+  - '&7Bilis III'
+  - '&7Biyaya ng Dolphin I'
+  - '&bNakatali sa Kaluluwa'
   type:
   - '&7&oBaluti'
 INFINITY_BOW:
+  description:
+  - '&7Nagpapakawala ng mga pampasabog na palaso na nagpapabagal at nagpapalito sa mga kaaway kapag tumama'
+  name: '&6Tagatusok ng Langit'
+  stats:
+  - '&bNakatali sa Kaluluwa'
   type:
   - '&7&oSandata'
 INFINITY_CAPACITOR:
+  description:
+  - '&c&oHuwag gumamit ng higit sa'
+  - '&c&o1 kada network ng enerhiya'
+  name: '&bWalang Hanggang Kapasitor'
+  stats:
+  - '&8⇨ &e⚡ 2,000,000,000 &7J na Kapasidad'
   type:
   - '&7&oBahagi'
 INFINITY_CHARGER:
+  description:
+  - '&7Agad-agad na kinakarga ang mga bagay'
+  name: '&bWalang Hanggang Tsarger'
+  stats:
+  - '&8⇨ &e⚡ &7Bilis: &b6000x'
+  - '&8⇨ &e⚡ &760,000 J kada paggamit'
   type:
   - '&7&oMakina'
 INFINITY_CHESTPLATE:
+  name: '&bWalang Hanggang Baluting Dibdib'
+  stats:
+  - '&7Lakas II'
+  - '&7Resistensya I'
+  - '&7Resistensya sa Apoy I'
+  - '&7Kaligtasan sa Kagat ng Bubuyog'
+  - '&bNakatali sa Kaluluwa'
   type:
   - '&7&oBaluti'
 INFINITY_COBBLE_GEN:
+  description:
+  - '&7Awtomatikong gumagawa ng batong-lansangan sa paglipas ng oras'
+  name: '&cWalang Hanggang &8Tagagawa ng Batong-lansangan'
+  stats:
+  - '&8⇨ &e⚡ &7Bilis: &b64x'
+  - '&8⇨ &e⚡ &7800 J/s'
   type:
   - '&7&oMakina'
 INFINITY_CONSTRUCTOR:
+  description:
+  - '&7Agad na pinagsisiksik ang malaking dami ng mga yaman'
+  name: '&bWalang Hanggang &fTagatayo'
+  stats:
+  - '&8⇨ &e⚡ &7Bilis: &b64x'
+  - '&8⇨ &e⚡ &71,200 J/s'
   type:
   - '&7&oMakina'
 INFINITY_CROWN:
+  name: '&bWalang Hanggang Korona'
+  stats:
+  - '&7Paningin sa Gabi I'
+  - '&7Lakas ng Conduit I'
+  - '&7Kaligtasan sa Pagbagsak ng Elytra'
+  - '&bNakatali sa Kaluluwa'
   type:
   - '&7&oBaluti'
 INFINITY_DISENCHANTER:
+  description:
+  - '&7Awtomatikong inaalis ang mga enkantasyon sa mga bagay tungo sa mga libro'
+  name: '&bWalang Hanggang Tagaalis-enkanto'
+  stats:
+  - '&8⇨ &e⚡ &7Bilis: &b90x'
+  - '&8⇨ &e⚡ &712,000 J kada paggamit'
   type:
   - '&7&oMakina'
 INFINITY_DUST_EXTRACTOR:
+  description:
+  - '&7Ginagawang mga alikabok ang batong-lansangan'
+  name: '&bWalang Hanggang &8Tagahango ng Alikabok'
+  stats:
+  - '&8⇨ &e⚡ &7Bilis: &b16x'
+  - '&8⇨ &e⚡ &77,200 J/s'
   type:
   - '&7&oMakina'
 INFINITY_ENCHANTER:
+  description:
+  - '&7Awtomatikong ineenkanto ang mga bagay na inilagay sa loob nito'
+  name: '&bWalang Hanggang Tagaenkanto'
+  stats:
+  - '&8⇨ &e⚡ &7Bilis: &b75x'
+  - '&8⇨ &e⚡ &712,000 J kada paggamit'
   type:
   - '&7&oMakina'
 INFINITY_FORGE:
+  description:
+  - '&7Ginagamit upang likhain ang mga bagay na walang hanggan'
+  name: '&6Walang Hanggang Gawaan'
+  stats:
+  - '&8⇨ &e⚡ &710,000,000 J kada bagay'
   type:
   - '&7&oMakina'
 INFINITY_INGOT_FORMER:
+  description:
+  - '&7Binubuo ang mga bareta mula sa mga alikabok'
+  name: '&bWalang Hanggang &8Tagabuo ng Bareta'
+  stats:
+  - '&8⇨ &e⚡ &7Bilis: &b16x'
+  - '&8⇨ &e⚡ &77,200 J/s'
   type:
   - '&7&oMakina'
 INFINITY_LEGGINGS:
+  name: '&bWalang Hanggang Baluting Binti'
+  stats:
+  - '&7Kaliksihan III'
+  - '&7Paggaling I'
+  - '&7Kabusugan I'
+  - '&7Kaligtasan sa Radyasyon'
+  - '&bNakatali sa Kaluluwa'
   type:
   - '&7&oBaluti'
 INFINITY_MATRIX:
+  description:
+  - '&6Nagbibigay ng Paglipad na Walang Limitasyon'
+  name: '&fWalang Hanggang Matris'
+  stats:
+  - '&bNakatali sa Kaluluwa'
   type:
   - '&7&oGadyet'
+  usage:
+  - '&7Kanang-pindot para paganahin/patayin at angkinin'
+  - '&7Yumuko at Kanang-pindot para alisin ang pagmamay-ari'
 INFINITY_PICKAXE:
+  name: '&9Tagawasak ng Mundo'
+  stats:
+  - '&bNakatali sa Kaluluwa'
   type:
   - '&7&oKasangkapan'
 INFINITY_QUARRY:
+  description:
+  - '&7Awtomatikong minimina ang mga mineral ng Overworld at Nether'
+  name: '&bWalang Hanggang Minahan'
+  stats:
+  - '&8⇨ &e⚡ &7Bilis: &b64x'
+  - '&8⇨ &e⚡ &736,000 J/s'
   type:
   - '&7&oMakina'
 INFINITY_REACTOR:
+  description:
+  - '&7Nagbubuo ng lakas sa pamamagitan ng pagsiksik'
+  - '&7ng mga &8Kawalan &7at &bWalang Hanggang &7Bareta'
+  name: '&bWalang Hanggang Reaktor'
   stats:
   - '&8⇨ &e⚡ &7120,000,000 J na Buffer'
   - '&8⇨ &e⚡ &7120,000 J/s'
   type:
   - '&7&oGenerator'
 INFINITY_SHIELD:
+  name: '&bKosmikong Kalasag'
+  stats:
+  - '&bNakatali sa Kaluluwa'
   type:
   - '&7&oSandata'
 INFINITY_SHOVEL:
+  name: '&aTagalamon ng Bundok'
+  stats:
+  - '&bNakatali sa Kaluluwa'
   type:
   - '&7&oKasangkapan'
 INFINITY_SINGULARITY:
+  name: '&bWalang Hanggang Singularidad'
   type:
   - '&7&oRekurso'
 INFINITY_STORAGE:
+  description:
+  - '&7Nag-iimbak ng malaking dami ng isahang uri ng bagay'
+  name: '&bWalang Hanggang &8Yunit ng Imbakan'
+  stats:
+  - '&6Kapasidad: &e1,600,000,000 &ena bagay'
   type:
   - '&7&oMakina'
 INFINITY_TREE_GROWER:
+  description:
+  - '&7Awtomatikong pinapatubo, inaani, at muling itinatanim ang mga puno'
+  name: '&bWalang Hanggang &2Tagapagtubo ng Puno'
+  stats:
+  - '&8⇨ &e⚡ &7Bilis: &b25x'
+  - '&8⇨ &e⚡ &71,800 J/s'
   type:
   - '&7&oMakina'
 INFINITY_VIRTUAL_FARM:
+  description:
+  - '&7Awtomatikong pinapatubo, inaani, at muling itinatanim ang mga pananim'
+  name: '&bWalang Hanggang &aBirtuwal na Sakahan'
+  stats:
+  - '&8⇨ &e⚡ &7Bilis: &b25x'
+  - '&8⇨ &e⚡ &7900 J/s'
   type:
   - '&7&oMakina'
 INGOT_FORMER:
+  description:
+  - '&7Binubuo ang mga bareta mula sa mga alikabok'
+  name: '&8Tagabuo ng Bareta'
+  stats:
+  - '&8⇨ &e⚡ &7Bilis: &b1x'
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oMakina'
 IRON_GOLEM_DATA_CARD:
+  name: '&bTarheta ng Datos ng Golem na Bakal'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oBahagi'
+  usage:
+  - '&7Ilagay sa silid ng simulasyon ng nilalang para aktibahin'
 IRON_SINGULARITY:
+  name: '&7Singularidad ng Bakal'
   type:
   - '&7&oRekurso'
 LAPIS_SINGULARITY:
+  name: '&9Singularidad ng Lapis'
   type:
   - '&7&oRekurso'
 LEAD_SINGULARITY:
+  name: '&8Singularidad ng Tingga'
   type:
   - '&7&oRekurso'
 MACHINE_CIRCUIT:
+  name: '&6Sirkito ng Makina'
   type:
   - '&7&oBahagi'
 MACHINE_CORE:
+  name: '&fUbod ng Makina'
   type:
   - '&7&oBahagi'
 MACHINE_PLATE:
+  name: '&fPlaka ng Makina'
   type:
   - '&7&oBahagi'
 MAGIC_SINGULARITY:
+  name: '&dSingularidad ng Mahika'
   type:
   - '&7&oRekurso'
 MAGMA_CUBE_DATA_CARD:
+  name: '&bTarheta ng Datos ng Kubo ng Magma'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oBahagi'
+  usage:
+  - '&7Ilagay sa silid ng simulasyon ng nilalang para aktibahin'
 MAGNESIUM_SINGULARITY:
+  name: '&5Singularidad ng Magnesyo'
   type:
   - '&7&oRekurso'
 MAGNONIUM:
+  name: '&5Magnonium'
   type:
   - '&7&oRekurso'
 MAGSTEEL:
+  name: '&4MagAsero'
   type:
   - '&7&oRekurso'
 MAGSTEEL_PLATE:
+  name: '&4Plaka ng MagAsero'
   type:
   - '&7&oBahagi'
 METAL_SINGULARITY:
+  name: '&8Singularidad ng Metal'
   type:
   - '&7&oRekurso'
 MOB_SIMULATION_CHAMBER:
+  description:
+  - '&7Gumamit ng tarheta ng datos ng nilalang para aktibahin'
+  name: '&8Silid ng Simulasyon ng Nilalang'
   stats:
   - '&8⇨ &e⚡ &715,000 J na Buffer'
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oMakina'
 MYTHRIL:
+  name: '&bMythril'
   type:
   - '&7&oRekurso'
 NETHERITE_SINGULARITY:
+  name: '&4Singularidad ng Netherite'
   type:
   - '&7&oRekurso'
 POWERED_BEDROCK:
+  description:
+  - '&7Kapag pinapagana, nagiging bedrock'
+  - '&7Babalik sa dati kapag hindi na pinapagana o nabasag'
+  name: '&4Pinapaganang Bedrock'
   stats:
   - '&8⇨ &e⚡ &710,000 J/s'
   type:
   - '&7&oMakina'
 QUARRY_OSCILLATOR_DIAMOND:
+  name: '&bOsilador ng Diyamante'
   type:
   - '&7&oBahagi'
+  usage:
+  - '&7Ilagay sa minahan para bigyan ito'
+  - '&7ng 50.0% tsansa na minahin ang materyal na ito'
 QUARRY_OSCILLATOR_EMERALD:
+  name: '&bOsilador ng Esmeralda'
   type:
   - '&7&oBahagi'
+  usage:
+  - '&7Ilagay sa minahan para bigyan ito'
+  - '&7ng 50.0% tsansa na minahin ang materyal na ito'
 QUARRY_OSCILLATOR_LAPIS_LAZULI:
+  name: '&bOsilador ng Lapis Lazuli'
   type:
   - '&7&oBahagi'
+  usage:
+  - '&7Ilagay sa minahan para bigyan ito'
+  - '&7ng 50.0% tsansa na minahin ang materyal na ito'
 QUARRY_OSCILLATOR_QUARTZ:
+  name: '&bOsilador ng Kuwarts'
   type:
   - '&7&oBahagi'
+  usage:
+  - '&7Ilagay sa minahan para bigyan ito'
+  - '&7ng 50.0% tsansa na minahin ang materyal na ito'
 QUARRY_OSCILLATOR_REDSTONE:
+  name: '&bOsilador ng Redstone'
   type:
   - '&7&oBahagi'
+  usage:
+  - '&7Ilagay sa minahan para bigyan ito'
+  - '&7ng 50.0% tsansa na minahin ang materyal na ito'
 QUARTZ_SINGULARITY:
+  name: '&fSingularidad ng Kuwarts'
   type:
   - '&7&oRekurso'
 REDSTONE_SINGULARITY:
+  name: '&cSingularidad ng Redstone'
   type:
   - '&7&oRekurso'
 REINFORCED_GEOTHERMAL_GENERATOR:
+  description:
+  - '&7Nagbubuo ng malaking dami ng enerhiya'
+  - '&7mula sa init ng mundo'
+  name: '&fPinatibay na &cGeotermal na Generador'
   stats:
   - '&8⇨ &e⚡ &721,000 J na Buffer'
   - '&8⇨ &e⚡ &7210 J/s'
   type:
   - '&7&oGenerator'
 REINFORCED_HYDRO_GENERATOR:
+  description:
+  - '&7Nagbubuo ng malaking dami ng enerhiya'
+  - '&7mula sa paggalaw ng tubig'
+  name: '&fPinatibay na &9Generador ng Tubig'
   stats:
   - '&8⇨ &e⚡ &74,500 J na Buffer'
   - '&8⇨ &e⚡ &745 J/s'
   type:
   - '&7&oGenerator'
 REINFORCED_STORAGE:
+  description:
+  - '&7Nag-iimbak ng malaking dami ng isahang uri ng bagay'
+  name: '&fPinatibay na &8Yunit ng Imbakan'
+  stats:
+  - '&6Kapasidad: &e102,400 &ena bagay'
   type:
   - '&7&oMakina'
 REINFORCED_STRAINER:
+  description:
+  - '&7Kinokolekta ang mga materyal mula sa umaagos na tubig'
+  name: '&fPinatibay na Pansala'
   stats:
   - '&8⇨ &b⚡ &7Bilis: &b20.0x'
   type:
   - '&7&oBahagi'
 RESOURCE_SYNTHESIZER:
+  description:
+  - '&7Gumagawa ng mga yaman sa pagsasama ng 2 Singularidad'
+  name: '&6Tagasintesa ng Yaman'
+  stats:
+  - '&8⇨ &e⚡ &71,000,000 J kada paggamit'
   type:
   - '&7&oMakina'
 SHEEP_DATA_CARD:
+  name: '&bTarheta ng Datos ng Tupa'
   stats:
   - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oBahagi'
+  usage:
+  - '&7Ilagay sa silid ng simulasyon ng nilalang para aktibahin'
 SILVER_SINGULARITY:
+  name: '&7Singularidad ng Pilak'
   type:
   - '&7&oRekurso'
 SINGULARITY_CONSTRUCTOR:
+  description:
+  - '&7Pinagsisiksik ang malaking dami ng mga yaman'
+  name: '&fTagatayo ng Singularidad'
+  stats:
+  - '&8⇨ &e⚡ &7Bilis: &b1x'
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oMakina'
 SKELETON_DATA_CARD:
+  name: '&bTarheta ng Datos ng Kalansay'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oBahagi'
+  usage:
+  - '&7Ilagay sa silid ng simulasyon ng nilalang para aktibahin'
 SLIME_DATA_CARD:
+  name: '&bTarheta ng Datos ng Slime'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oBahagi'
+  usage:
+  - '&7Ilagay sa silid ng simulasyon ng nilalang para aktibahin'
 SPIDER_DATA_CARD:
+  name: '&bTarheta ng Datos ng Gagamba'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oBahagi'
+  usage:
+  - '&7Ilagay sa silid ng simulasyon ng nilalang para aktibahin'
 STONEWORKS_FACTORY:
+  description:
+  - '&7Gumagawa ng batong-lansangan at pinoproseso ito tungo sa iba''t ibang materyal'
+  name: '&8Pabrika ng Bato'
   stats:
   - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oMakina'
+  usage:
+  - '&ePindutin&7 ang mga puwesto ng pagpipilian para magpalit sa Pagtunaw, Pagdurog, Pagsiksik, at Pagbabago'
 STORAGE_FORGE:
+  description:
+  - '&7Pinapahusay ang baitang ng mga Yunit ng Imbakan'
+  - '&7Pinapanatili ang mga naimbak na bagay'
+  name: '&6Pandayan ng Imbakan'
   type:
   - '&7&oMakina'
 STRAINER_BASE:
+  description:
+  - '&7Dahan-dahang kinokolekta ang mga materyal mula sa umaagos na tubig gamit ang Pansala'
+  - '&7Dapat nakalubog sa tubig para gumana'
+  name: '&7Base ng Pansala'
   type:
   - '&7&oMakina'
 TIN_SINGULARITY:
+  name: '&7Singularidad ng Estanyo'
   type:
   - '&7&oRekurso'
 TITANIUM:
+  name: '&7Titanyo'
   type:
   - '&7&oRekurso'
 URANIUM_EXTRACTOR:
+  description:
+  - '&7Ginagawang uranyo ang batong-lansangan'
+  name: '&aTagahango ng Uranyo'
   stats:
   - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oMakina'
 VEIN_MINER_RUNE:
+  description:
+  - '&7Pinapahusay ang kasangkapan para minahin ang buong ugat ng ilang materyal'
+  name: '&bRuna ng Minero ng Ugat'
   type:
   - '&7&oGadyet'
+  usage:
+  - '&eIbagsak&7 sa tabi ng kasangkapan para gawin itong Minero ng Ugat'
 VILLAGER_DATA_CARD:
+  name: '&bTarheta ng Datos ng Taganayon'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oBahagi'
+  usage:
+  - '&7Ilagay sa silid ng simulasyon ng nilalang para aktibahin'
 VOID_BIT:
+  description:
+  - '&7&oPakiramdam nito ay... walang laman'
+  name: '&8Piraso ng Kawalan'
   type:
   - '&7&oRekurso'
 VOID_CAPACITOR:
+  description:
+  - '&7Nag-iimbak ng labis na enerhiya para sa network ng enerhiya'
+  name: '&8Kapasitor ng Kawalan'
+  stats:
+  - '&8⇨ &e⚡ 16,000,000 &7J na Kapasidad'
   type:
   - '&7&oBahagi'
 VOID_DUST:
+  description:
+  - '&7&oNagsisimula na itong mabuo...'
+  name: '&8Alikabok ng Kawalan'
   type:
   - '&7&oRekurso'
 VOID_HARVESTER:
+  description:
+  - '&7Dahan-dahang umaani ng mga Piraso ng &8Kawalan &7mula sa wala...'
+  name: '&8Tagaani ng Kawalan'
+  stats:
+  - '&8⇨ &e⚡ &7Bilis: &b1x'
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oMakina'
 VOID_INGOT:
+  description:
+  - '&7&oAng kawalan ng kosmos'
+  - '&7&osa palad ng iyong kamay'
+  name: '&8Bareta ng Kawalan'
   type:
   - '&7&oRekurso'
 VOID_PANEL:
+  description:
+  - '&7Nagbubuo ng enerhiya mula sa kadiliman'
+  name: '&8Panel ng Kawalan'
   stats:
   - '&8⇨ &e⚡ &7300,000 J na Buffer'
   - '&8⇨ &e⚡ &73,000 J/s'
   type:
   - '&7&oGenerator'
 VOID_QUARRY:
+  description:
+  - '&7Awtomatikong minimina ang mga mineral ng Overworld at Nether'
+  name: '&8Minahan ng Kawalan'
+  stats:
+  - '&8⇨ &e⚡ &7Bilis: &b6x'
+  - '&8⇨ &e⚡ &73,600 J/s'
   type:
   - '&7&oMakina'
 VOID_STORAGE:
+  description:
+  - '&7Nag-iimbak ng malaking dami ng isahang uri ng bagay'
+  name: '&8Kawalang &8Yunit ng Imbakan'
+  stats:
+  - '&6Kapasidad: &e409,600 &ena bagay'
   type:
   - '&7&oMakina'
 WITCH_DATA_CARD:
+  name: '&bTarheta ng Datos ng Mangkukulam'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oBahagi'
+  usage:
+  - '&7Ilagay sa silid ng simulasyon ng nilalang para aktibahin'
 WITHER_DATA_CARD:
+  name: '&bTarheta ng Datos ng Wither'
   stats:
   - '&8⇨ &e⚡ &74,500 J/s'
   type:
   - '&7&oBahagi'
+  usage:
+  - '&7Ilagay sa silid ng simulasyon ng nilalang para aktibahin'
 WITHER_SKELETON_DATA_CARD:
+  name: '&bTarheta ng Datos ng Kalansay na Wither'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oBahagi'
+  usage:
+  - '&7Ilagay sa silid ng simulasyon ng nilalang para aktibahin'
 ZINC_SINGULARITY:
+  name: '&7Singularidad ng Sink'
   type:
   - '&7&oRekurso'
 ZOMBIE_DATA_CARD:
+  name: '&bTarheta ng Datos ng Zombie'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oBahagi'
+  usage:
+  - '&7Ilagay sa silid ng simulasyon ng nilalang para aktibahin'
