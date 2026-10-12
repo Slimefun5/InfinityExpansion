@@ -1,532 +1,1060 @@
 ADAMANTITE:
+  name: '&dAdamantite'
   type:
   - '&7&oResursă'
 ADVANCED_ANVIL:
+  description:
+  - '&7Combină vrăjile uneltelor și echipamentului și uneori le îmbunătățește'
+  - '&bFuncționează cu obiecte Slimefun'
+  name: '&cNicovală Avansată'
+  stats:
+  - '&8⇨ &e⚡ &7100,000 J pe utilizare'
   type:
   - '&7&oMașină'
 ADVANCED_CHARGER:
+  description:
+  - '&7Încarcă rapid obiectele'
+  name: '&cÎncărcător Avansat'
+  stats:
+  - '&8⇨ &e⚡ &7Viteză: &b30x'
+  - '&8⇨ &e⚡ &7180 J/s'
   type:
   - '&7&oMașină'
 ADVANCED_COBBLE_GEN:
+  description:
+  - '&7Generează automat piatră spartă cu timpul'
+  name: '&8Generator de Piatră Spartă &cAvansat'
+  stats:
+  - '&8⇨ &e⚡ &7Viteză: &b4x'
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oMașină'
 ADVANCED_DISENCHANTER:
+  description:
+  - '&7Mută automat vrăjile de pe obiecte în cărți'
+  name: '&cDezvrăjitor Avansat'
+  stats:
+  - '&8⇨ &e⚡ &7Viteză: &b5x'
+  - '&8⇨ &e⚡ &7180 J/s'
   type:
   - '&7&oMașină'
 ADVANCED_ENCHANTER:
+  description:
+  - '&7Vrăjește automat obiectele plasate în el'
+  name: '&cVrăjitor Avansat'
+  stats:
+  - '&8⇨ &e⚡ &7Viteză: &b5x'
+  - '&8⇨ &e⚡ &7180 J/s'
   type:
   - '&7&oMașină'
 ADVANCED_GEO_MINER:
+  description:
+  - '&7Un geo-miner mai rapid'
+  name: '&fGeoMiner &cAvansat'
+  stats:
+  - '&8⇨ &e⚡ &7Viteză: &b4x'
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oMașină'
 ADVANCED_NETHER_STAR_REACTOR:
+  description:
+  - '&fFuncționează cu Stele Nether'
+  - '&bTrebuie înconjurat de Apă'
+  - '&bTrebuie alimentat cu Celule de Răcire din Gheață Nether'
+  - '&4Face entitățile din apropiere să fie afectate de Wither'
+  name: '&cReactor Avansat de Stea Nether'
   stats:
   - '&8⇨ &e⚡ &790,000 J Tampon'
   - '&8⇨ &e⚡ &71,800 J/s'
   type:
   - '&7&oGenerator'
 ADVANCED_PANEL:
+  description:
+  - '&7Generează energie din soare'
+  name: '&cPanou Solar Avansat'
   stats:
   - '&8⇨ &e⚡ &715,000 J Tampon'
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oGenerator'
 ADVANCED_QUARRY:
+  description:
+  - '&7Minează automat minereurile din Overworld și Nether'
+  name: '&cCarieră Avansată'
+  stats:
+  - '&8⇨ &e⚡ &7Viteză: &b2x'
+  - '&8⇨ &e⚡ &7900 J/s'
   type:
   - '&7&oMașină'
 ADVANCED_SMELTERY:
+  description:
+  - '&7O topitorie mai rapidă'
+  name: '&7Topitorie &cAvansată'
+  stats:
+  - '&8⇨ &e⚡ &7Viteză: &b24x'
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oMașină'
 ADVANCED_STORAGE:
+  description:
+  - '&7Stochează cantități mari dintr-un singur tip de obiect'
+  name: '&8Unitate de Stocare &cAvansată'
+  stats:
+  - '&6Capacitate: &e25,600 &eobiecte'
   type:
   - '&7&oMașină'
 ADVANCED_STRAINER:
+  description:
+  - '&7Colectează materiale din apa curgătoare'
+  name: '&cSită Avansată'
   stats:
   - '&8⇨ &b⚡ &7Viteză: &b4.0x'
   type:
   - '&7&oComponentă'
 ADVANCED_TREE_GROWER:
+  description:
+  - '&7Crește, recoltează și replantează automat copacii'
+  name: '&2Crescător de Copaci &cAvansat'
+  stats:
+  - '&8⇨ &e⚡ &7Viteză: &b5x'
+  - '&8⇨ &e⚡ &7180 J/s'
   type:
   - '&7&oMașină'
 ADVANCED_VIRTUAL_FARM:
+  description:
+  - '&7Crește, recoltează și replantează automat culturile'
+  name: '&aFermă Virtuală &cAvansată'
+  stats:
+  - '&8⇨ &e⚡ &7Viteză: &b5x'
+  - '&8⇨ &e⚡ &790 J/s'
   type:
   - '&7&oMașină'
 ALUMINUM_SINGULARITY:
+  name: '&7Singularitate de Aluminiu'
   type:
   - '&7&oResursă'
 BASIC_COBBLE_GEN:
+  description:
+  - '&7Generează automat piatră spartă cu timpul'
+  name: '&8Generator de Piatră Spartă &9de bază'
+  stats:
+  - '&8⇨ &e⚡ &7Viteză: &b1x'
+  - '&8⇨ &e⚡ &724 J/s'
   type:
   - '&7&oMașină'
 BASIC_OBSIDIAN_GEN:
+  description:
+  - '&7Generează automat obsidian cu timpul'
+  name: '&8Generator de Obsidian'
+  stats:
+  - '&8⇨ &e⚡ &7Viteză: &b1x'
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oMașină'
 BASIC_PANEL:
+  description:
+  - '&7Generează energie din soare'
+  name: '&9Panou Solar de bază'
   stats:
   - '&8⇨ &e⚡ &7900 J Tampon'
   - '&8⇨ &e⚡ &79 J/s'
   type:
   - '&7&oGenerator'
 BASIC_QUARRY:
+  description:
+  - '&7Minează automat minereurile din Overworld'
+  name: '&9Carieră de bază'
+  stats:
+  - '&8⇨ &e⚡ &7Viteză: &b1x'
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oMașină'
 BASIC_STORAGE:
+  description:
+  - '&7Stochează cantități mari dintr-un singur tip de obiect'
+  name: '&8Unitate de Stocare &9de bază'
+  stats:
+  - '&6Capacitate: &e6,400 &eobiecte'
   type:
   - '&7&oMașină'
 BASIC_STRAINER:
+  description:
+  - '&7Colectează materiale din apa curgătoare'
+  name: '&9Sită de bază'
   stats:
   - '&8⇨ &b⚡ &7Viteză: &b1.0x'
   type:
   - '&7&oComponentă'
 BASIC_TREE_GROWER:
+  description:
+  - '&7Crește, recoltează și replantează automat copacii'
+  name: '&2Crescător de Copaci &9de bază'
+  stats:
+  - '&8⇨ &e⚡ &7Viteză: &b1x'
+  - '&8⇨ &e⚡ &736 J/s'
   type:
   - '&7&oMașină'
 BASIC_VIRTUAL_FARM:
+  description:
+  - '&7Crește, recoltează și replantează automat culturile'
+  name: '&aFermă Virtuală &9de bază'
+  stats:
+  - '&8⇨ &e⚡ &7Viteză: &b1x'
+  - '&8⇨ &e⚡ &718 J/s'
   type:
   - '&7&oMașină'
 BEE_DATA_CARD:
+  name: '&bCard de Date Albină'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oComponentă'
+  usage:
+  - '&7Plasează într-o cameră de simulare de mob pentru a activa'
 BLAZE_DATA_CARD:
+  name: '&bCard de Date Blaze'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oComponentă'
+  usage:
+  - '&7Plasează într-o cameră de simulare de mob pentru a activa'
 CELESTIAL_PANEL:
+  description:
+  - '&7Generează energie din soare'
+  name: '&ePanou Celest'
   stats:
   - '&8⇨ &e⚡ &775,000 J Tampon'
   - '&8⇨ &e⚡ &7750 J/s'
   type:
   - '&7&oGenerator'
 CHICKEN_DATA_CARD:
+  name: '&bCard de Date Pui'
   stats:
   - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oComponentă'
+  usage:
+  - '&7Plasează într-o cameră de simulare de mob pentru a activa'
 COAL_SINGULARITY:
+  name: '&8Singularitate de Cărbune'
   type:
   - '&7&oResursă'
 COBBLE_PRESS:
+  description:
+  - '&7Comprimă piatra spartă mai eficient'
+  name: '&8Presă de Piatră Spartă'
   stats:
   - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oMașină'
 COMPRESSED_COBBLESTONE_1:
+  name: '&7Piatră Spartă Comprimată Simplu'
+  stats:
+  - '&89 pietre sparte combinate'
   type:
   - '&7&oResursă'
 COMPRESSED_COBBLESTONE_2:
+  name: '&7Piatră Spartă Comprimată Dublu'
+  stats:
+  - '&881 de pietre sparte combinate'
   type:
   - '&7&oResursă'
 COMPRESSED_COBBLESTONE_3:
+  name: '&7Piatră Spartă Comprimată Triplu'
+  stats:
+  - '&8729 de pietre sparte combinate'
   type:
   - '&7&oResursă'
 COMPRESSED_COBBLESTONE_4:
+  name: '&7Piatră Spartă Comprimată Cvadruplu'
+  stats:
+  - '&86,561 de pietre sparte combinate'
   type:
   - '&7&oResursă'
 COMPRESSED_COBBLESTONE_5:
+  name: '&7Piatră Spartă Comprimată Cvintuplu'
+  stats:
+  - '&859,049 de pietre sparte combinate'
   type:
   - '&7&oResursă'
 COPPER_SINGULARITY:
+  name: '&6Singularitate de Cupru'
   type:
   - '&7&oResursă'
 COW_DATA_CARD:
+  name: '&bCard de Date Vacă'
   stats:
   - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oComponentă'
+  usage:
+  - '&7Plasează într-o cameră de simulare de mob pentru a activa'
 CREEPER_DATA_CARD:
+  name: '&bCard de Date Creeper'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oComponentă'
+  usage:
+  - '&7Plasează într-o cameră de simulare de mob pentru a activa'
 DATA_INFUSER:
+  description:
+  - '&7Infuzează carduri de date goale cu obiecte de mob'
+  name: '&8Infuzor de Date de Mob'
+  stats:
+  - '&8⇨ &e⚡ &720,000 J pe utilizare'
   type:
   - '&7&oMașină'
 DECOMPRESSOR:
+  description:
+  - '&7Reduce blocurile la materialul lor de bază'
+  name: '&7Decompresor'
   stats:
   - '&8⇨ &e⚡ &760 J/s'
   type:
   - '&7&oMașină'
 DIAMOND_SINGULARITY:
+  name: '&bSingularitate de Diamant'
   type:
   - '&7&oResursă'
 DUST_EXTRACTOR:
+  description:
+  - '&7Convertește piatra spartă în prafuri'
+  name: '&8Extractor de Praf'
+  stats:
+  - '&8⇨ &e⚡ &7Viteză: &b1x'
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oMașină'
 EARTH_SINGULARITY:
+  name: '&aSingularitate de Pământ'
   type:
   - '&7&oResursă'
 EMERALD_SINGULARITY:
+  name: '&aSingularitate de Smarald'
   type:
   - '&7&oResursă'
 EMPTY_DATA_CARD:
+  name: '&8Card de Date Gol'
   type:
   - '&7&oComponentă'
+  usage:
+  - '&7Infuzează cu obiectele unui mob pentru a-l umple'
 ENDERMEN_DATA_CARD:
+  name: '&bCard de Date Enderman'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oComponentă'
+  usage:
+  - '&7Plasează într-o cameră de simulare de mob pentru a activa'
 ENDER_DRAGON_DATA_CARD:
+  name: '&bCard de Date Dragon Ender'
   stats:
   - '&8⇨ &e⚡ &79,000 J/s'
   type:
   - '&7&oComponentă'
+  usage:
+  - '&7Plasează într-o cameră de simulare de mob pentru a activa'
 ENDER_FLAME:
+  name: '&cFlacără Ender'
   type:
   - '&7&oComponentă'
 END_ESSENCE:
+  description:
+  - '&8&oDin adâncurile End-ului...'
+  name: '&5Esență Ender'
   type:
   - '&7&oResursă'
 EXTREME_FREEZER:
+  description:
+  - '&7Convertește gheața în agent de răcire'
+  name: '&bCongelator Extrem'
   stats:
   - '&8⇨ &e⚡ &790 J/s'
   type:
   - '&7&oMașină'
 FORTUNE_SINGULARITY:
+  name: '&6Singularitate de Noroc'
   type:
   - '&7&oResursă'
 GEAR_TRANSFORMER:
+  description:
+  - '&7Schimbă materialul uneltelor și echipamentului vanilla'
+  name: '&7Transformator de Echipament'
+  stats:
+  - '&8⇨ &e⚡ &712,000 J Pe Utilizare'
   type:
   - '&7&oMașină'
 GEOTHERMAL_GENERATOR:
+  description:
+  - '&7Generează energie din căldura lumii'
+  name: '&cGenerator Geotermal'
   stats:
   - '&8⇨ &e⚡ &73,500 J Tampon'
   - '&8⇨ &e⚡ &735 J/s'
   type:
   - '&7&oGenerator'
 GEO_QUARRY:
+  description:
+  - '&7Recoltează lent resurse geo din vid folosind energie'
+  name: '&fCarieră Geo'
   stats:
   - '&8⇨ &e⚡ &7450 J/s'
   type:
   - '&7&oMașină'
 GOLD_SINGULARITY:
+  name: '&6Singularitate de Aur'
   type:
   - '&7&oResursă'
 GUARDIAN_DATA_CARD:
+  name: '&bCard de Date Gardian'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oComponentă'
+  usage:
+  - '&7Plasează într-o cameră de simulare de mob pentru a activa'
 HYDRO_GENERATOR:
+  description:
+  - '&7Generează energie din mișcarea apei'
+  name: '&9Generator Hidro'
   stats:
   - '&8⇨ &e⚡ &7500 J Tampon'
   - '&8⇨ &e⚡ &75 J/s'
   type:
   - '&7&oGenerator'
 INFINITE_INGOT:
+  description:
+  - '&7&oFuria cosmosului'
+  - '&7&oîn palma mâinii tale'
+  name: '&bLingou Infinit'
   type:
   - '&7&oResursă'
 INFINITE_MACHINE_CIRCUIT:
+  name: '&6Circuit de Mașină &bInfinit'
   type:
   - '&7&oComponentă'
 INFINITE_MACHINE_CORE:
+  name: '&bNucleu de Mașină Infinit'
   type:
   - '&7&oComponentă'
 INFINITE_PANEL:
+  description:
+  - '&7Generează energie din cosmos'
+  name: '&bPanou Infinit'
   stats:
   - '&8⇨ &e⚡ &76,000,000 J Tampon'
   - '&8⇨ &e⚡ &760,000 J/s'
   type:
   - '&7&oGenerator'
 INFINITE_VOID_HARVESTER:
+  description:
+  - '&7Recoltează Fragmente de &8Vid &7din nimic...'
+  name: '&8Recoltator de Vid &bInfinit'
+  stats:
+  - '&8⇨ &e⚡ &7Viteză: &b64x'
+  - '&8⇨ &e⚡ &712,000 J/s'
   type:
   - '&7&oMașină'
 INFINITY_AXE:
+  name: '&4Ruina Naturii'
+  stats:
+  - '&bLegat de suflet'
   type:
   - '&7&oUnealtă'
 INFINITY_BLADE:
+  name: '&bLama Cosmosului'
+  stats:
+  - '&bLegat de suflet'
   type:
   - '&7&oArmă'
 INFINITY_BOOTS:
+  name: '&bCizme Infinite'
+  stats:
+  - '&7Viteză III'
+  - '&7Grația Delfinului I'
+  - '&bLegat de suflet'
   type:
   - '&7&oArmură'
 INFINITY_BOW:
+  description:
+  - '&7Trage săgeți explozive care încetinesc și dezorientează dușmanii la impact'
+  name: '&6Străpungător de Cer'
+  stats:
+  - '&bLegat de suflet'
   type:
   - '&7&oArmă'
 INFINITY_CAPACITOR:
+  description:
+  - '&c&oNu folosi mai mult de'
+  - '&c&o1 pe rețea de energie'
+  name: '&bCondensator Infinit'
+  stats:
+  - '&8⇨ &e⚡ 2,000,000,000 &7J Capacitate'
   type:
   - '&7&oComponentă'
 INFINITY_CHARGER:
+  description:
+  - '&7Încarcă instantaneu obiectele'
+  name: '&bÎncărcător Infinit'
+  stats:
+  - '&8⇨ &e⚡ &7Viteză: &b6000x'
+  - '&8⇨ &e⚡ &760,000 J pe utilizare'
   type:
   - '&7&oMașină'
 INFINITY_CHESTPLATE:
+  name: '&bPlatoșă Infinită'
+  stats:
+  - '&7Forță II'
+  - '&7Rezistență I'
+  - '&7Rezistență la Foc I'
+  - '&7Imunitate la Înțepături de Albine'
+  - '&bLegat de suflet'
   type:
   - '&7&oArmură'
 INFINITY_COBBLE_GEN:
+  description:
+  - '&7Generează automat piatră spartă cu timpul'
+  name: '&8Generator de Piatră Spartă &cInfinit'
+  stats:
+  - '&8⇨ &e⚡ &7Viteză: &b64x'
+  - '&8⇨ &e⚡ &7800 J/s'
   type:
   - '&7&oMașină'
 INFINITY_CONSTRUCTOR:
+  description:
+  - '&7Condensează rapid cantități mari de resurse'
+  name: '&fConstructor &bInfinit'
+  stats:
+  - '&8⇨ &e⚡ &7Viteză: &b64x'
+  - '&8⇨ &e⚡ &71,200 J/s'
   type:
   - '&7&oMașină'
 INFINITY_CROWN:
+  name: '&bCoroană Infinită'
+  stats:
+  - '&7Vedere Nocturnă I'
+  - '&7Putere de Conduct I'
+  - '&7Imunitate la Impact cu Elytra'
+  - '&bLegat de suflet'
   type:
   - '&7&oArmură'
 INFINITY_DISENCHANTER:
+  description:
+  - '&7Mută automat vrăjile de pe obiecte în cărți'
+  name: '&bDezvrăjitor Infinit'
+  stats:
+  - '&8⇨ &e⚡ &7Viteză: &b90x'
+  - '&8⇨ &e⚡ &712,000 J pe utilizare'
   type:
   - '&7&oMașină'
 INFINITY_DUST_EXTRACTOR:
+  description:
+  - '&7Convertește piatra spartă în prafuri'
+  name: '&8Extractor de Praf &bInfinit'
+  stats:
+  - '&8⇨ &e⚡ &7Viteză: &b16x'
+  - '&8⇨ &e⚡ &77,200 J/s'
   type:
   - '&7&oMașină'
 INFINITY_ENCHANTER:
+  description:
+  - '&7Vrăjește automat obiectele plasate în el'
+  name: '&bVrăjitor Infinit'
+  stats:
+  - '&8⇨ &e⚡ &7Viteză: &b75x'
+  - '&8⇨ &e⚡ &712,000 J pe utilizare'
   type:
   - '&7&oMașină'
 INFINITY_FORGE:
+  description:
+  - '&7Folosit pentru a fabrica obiecte infinite'
+  name: '&6Banc de Lucru Infinit'
+  stats:
+  - '&8⇨ &e⚡ &710,000,000 J pe obiect'
   type:
   - '&7&oMașină'
 INFINITY_INGOT_FORMER:
+  description:
+  - '&7Formează lingouri din prafuri'
+  name: '&8Formator de Lingouri &bInfinit'
+  stats:
+  - '&8⇨ &e⚡ &7Viteză: &b16x'
+  - '&8⇨ &e⚡ &77,200 J/s'
   type:
   - '&7&oMașină'
 INFINITY_LEGGINGS:
+  name: '&bJambiere Infinite'
+  stats:
+  - '&7Grabă III'
+  - '&7Regenerare I'
+  - '&7Saturație I'
+  - '&7Imunitate la Radiație'
+  - '&bLegat de suflet'
   type:
   - '&7&oArmură'
 INFINITY_MATRIX:
+  description:
+  - '&6Oferă Zbor Nelimitat'
+  name: '&fMatrice Infinită'
+  stats:
+  - '&bLegat de suflet'
   type:
   - '&7&oGadget'
+  usage:
+  - '&7Clic-dreapta pentru a activa/dezactiva și revendica'
+  - '&7Ghemuit și Clic-dreapta pentru a renunța la proprietate'
 INFINITY_PICKAXE:
+  name: '&9Spărgător de Lumi'
+  stats:
+  - '&bLegat de suflet'
   type:
   - '&7&oUnealtă'
 INFINITY_QUARRY:
+  description:
+  - '&7Minează automat minereurile din Overworld și Nether'
+  name: '&bCarieră Infinită'
+  stats:
+  - '&8⇨ &e⚡ &7Viteză: &b64x'
+  - '&8⇨ &e⚡ &736,000 J/s'
   type:
   - '&7&oMașină'
 INFINITY_REACTOR:
+  description:
+  - '&7Generează energie prin comprimarea'
+  - '&7lingourilor de &8Vid &7și &bInfinit&7'
+  name: '&bReactor Infinit'
   stats:
   - '&8⇨ &e⚡ &7120,000,000 J Tampon'
   - '&8⇨ &e⚡ &7120,000 J/s'
   type:
   - '&7&oGenerator'
 INFINITY_SHIELD:
+  name: '&bEgida Cosmică'
+  stats:
+  - '&bLegat de suflet'
   type:
   - '&7&oArmă'
 INFINITY_SHOVEL:
+  name: '&aMâncător de Munți'
+  stats:
+  - '&bLegat de suflet'
   type:
   - '&7&oUnealtă'
 INFINITY_SINGULARITY:
+  name: '&bSingularitate Infinită'
   type:
   - '&7&oResursă'
 INFINITY_STORAGE:
+  description:
+  - '&7Stochează cantități mari dintr-un singur tip de obiect'
+  name: '&8Unitate de Stocare &bInfinită'
+  stats:
+  - '&6Capacitate: &e1,600,000,000 &eobiecte'
   type:
   - '&7&oMașină'
 INFINITY_TREE_GROWER:
+  description:
+  - '&7Crește, recoltează și replantează automat copacii'
+  name: '&2Crescător de Copaci &bInfinit'
+  stats:
+  - '&8⇨ &e⚡ &7Viteză: &b25x'
+  - '&8⇨ &e⚡ &71,800 J/s'
   type:
   - '&7&oMașină'
 INFINITY_VIRTUAL_FARM:
+  description:
+  - '&7Crește, recoltează și replantează automat culturile'
+  name: '&aFermă Virtuală &bInfinită'
+  stats:
+  - '&8⇨ &e⚡ &7Viteză: &b25x'
+  - '&8⇨ &e⚡ &7900 J/s'
   type:
   - '&7&oMașină'
 INGOT_FORMER:
+  description:
+  - '&7Formează lingouri din prafuri'
+  name: '&8Formator de Lingouri'
+  stats:
+  - '&8⇨ &e⚡ &7Viteză: &b1x'
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oMașină'
 IRON_GOLEM_DATA_CARD:
+  name: '&bCard de Date Golem de Fier'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oComponentă'
+  usage:
+  - '&7Plasează într-o cameră de simulare de mob pentru a activa'
 IRON_SINGULARITY:
+  name: '&7Singularitate de Fier'
   type:
   - '&7&oResursă'
 LAPIS_SINGULARITY:
+  name: '&9Singularitate de Lapis'
   type:
   - '&7&oResursă'
 LEAD_SINGULARITY:
+  name: '&8Singularitate de Plumb'
   type:
   - '&7&oResursă'
 MACHINE_CIRCUIT:
+  name: '&6Circuit de Mașină'
   type:
   - '&7&oComponentă'
 MACHINE_CORE:
+  name: '&fNucleu de Mașină'
   type:
   - '&7&oComponentă'
 MACHINE_PLATE:
+  name: '&fPlacă de Mașină'
   type:
   - '&7&oComponentă'
 MAGIC_SINGULARITY:
+  name: '&dSingularitate Magică'
   type:
   - '&7&oResursă'
 MAGMA_CUBE_DATA_CARD:
+  name: '&bCard de Date Cub de Magmă'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oComponentă'
+  usage:
+  - '&7Plasează într-o cameră de simulare de mob pentru a activa'
 MAGNESIUM_SINGULARITY:
+  name: '&5Singularitate de Magneziu'
   type:
   - '&7&oResursă'
 MAGNONIUM:
+  name: '&5Magnonium'
   type:
   - '&7&oResursă'
 MAGSTEEL:
+  name: '&4MagOțel'
   type:
   - '&7&oResursă'
 MAGSTEEL_PLATE:
+  name: '&4Placă de MagOțel'
   type:
   - '&7&oComponentă'
 METAL_SINGULARITY:
+  name: '&8Singularitate de Metal'
   type:
   - '&7&oResursă'
 MOB_SIMULATION_CHAMBER:
+  description:
+  - '&7Folosește carduri de date de mob pentru a o activa'
+  name: '&8Cameră de Simulare de Mob'
   stats:
   - '&8⇨ &e⚡ &715,000 J Tampon'
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oMașină'
 MYTHRIL:
+  name: '&bMythril'
   type:
   - '&7&oResursă'
 NETHERITE_SINGULARITY:
+  name: '&4Singularitate de Netherite'
   type:
   - '&7&oResursă'
 POWERED_BEDROCK:
+  description:
+  - '&7Când este alimentat, se transformă în bedrock'
+  - '&7Revine la normal când nu mai e alimentat sau e spart'
+  name: '&4Bedrock Alimentat'
   stats:
   - '&8⇨ &e⚡ &710,000 J/s'
   type:
   - '&7&oMașină'
 QUARRY_OSCILLATOR_DIAMOND:
+  name: '&bOscilator de Diamant'
   type:
   - '&7&oComponentă'
+  usage:
+  - '&7Plasează într-o carieră pentru a-i da'
+  - '&7o șansă de 50.0% de a mina acest material'
 QUARRY_OSCILLATOR_EMERALD:
+  name: '&bOscilator de Smarald'
   type:
   - '&7&oComponentă'
+  usage:
+  - '&7Plasează într-o carieră pentru a-i da'
+  - '&7o șansă de 50.0% de a mina acest material'
 QUARRY_OSCILLATOR_LAPIS_LAZULI:
+  name: '&bOscilator de Lapis Lazuli'
   type:
   - '&7&oComponentă'
+  usage:
+  - '&7Plasează într-o carieră pentru a-i da'
+  - '&7o șansă de 50.0% de a mina acest material'
 QUARRY_OSCILLATOR_QUARTZ:
+  name: '&bOscilator de Cuarț'
   type:
   - '&7&oComponentă'
+  usage:
+  - '&7Plasează într-o carieră pentru a-i da'
+  - '&7o șansă de 50.0% de a mina acest material'
 QUARRY_OSCILLATOR_REDSTONE:
+  name: '&bOscilator de Redstone'
   type:
   - '&7&oComponentă'
+  usage:
+  - '&7Plasează într-o carieră pentru a-i da'
+  - '&7o șansă de 50.0% de a mina acest material'
 QUARTZ_SINGULARITY:
+  name: '&fSingularitate de Cuarț'
   type:
   - '&7&oResursă'
 REDSTONE_SINGULARITY:
+  name: '&cSingularitate de Redstone'
   type:
   - '&7&oResursă'
 REINFORCED_GEOTHERMAL_GENERATOR:
+  description:
+  - '&7Generează cantități mari de energie'
+  - '&7din căldura lumii'
+  name: '&cGen Geotermal &fÎntărit'
   stats:
   - '&8⇨ &e⚡ &721,000 J Tampon'
   - '&8⇨ &e⚡ &7210 J/s'
   type:
   - '&7&oGenerator'
 REINFORCED_HYDRO_GENERATOR:
+  description:
+  - '&7Generează cantități mari de energie'
+  - '&7din mișcarea apei'
+  name: '&9Gen Hidro &fÎntărit'
   stats:
   - '&8⇨ &e⚡ &74,500 J Tampon'
   - '&8⇨ &e⚡ &745 J/s'
   type:
   - '&7&oGenerator'
 REINFORCED_STORAGE:
+  description:
+  - '&7Stochează cantități mari dintr-un singur tip de obiect'
+  name: '&8Unitate de Stocare &fÎntărită'
+  stats:
+  - '&6Capacitate: &e102,400 &eobiecte'
   type:
   - '&7&oMașină'
 REINFORCED_STRAINER:
+  description:
+  - '&7Colectează materiale din apa curgătoare'
+  name: '&fSită Întărită'
   stats:
   - '&8⇨ &b⚡ &7Viteză: &b20.0x'
   type:
   - '&7&oComponentă'
 RESOURCE_SYNTHESIZER:
+  description:
+  - '&7Creează resurse combinând 2 Singularități'
+  name: '&6Sintetizator de Resurse'
+  stats:
+  - '&8⇨ &e⚡ &71,000,000 J pe utilizare'
   type:
   - '&7&oMașină'
 SHEEP_DATA_CARD:
+  name: '&bCard de Date Oaie'
   stats:
   - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oComponentă'
+  usage:
+  - '&7Plasează într-o cameră de simulare de mob pentru a activa'
 SILVER_SINGULARITY:
+  name: '&7Singularitate de Argint'
   type:
   - '&7&oResursă'
 SINGULARITY_CONSTRUCTOR:
+  description:
+  - '&7Condensează cantități mari de resurse'
+  name: '&fConstructor de Singularități'
+  stats:
+  - '&8⇨ &e⚡ &7Viteză: &b1x'
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oMașină'
 SKELETON_DATA_CARD:
+  name: '&bCard de Date Schelet'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oComponentă'
+  usage:
+  - '&7Plasează într-o cameră de simulare de mob pentru a activa'
 SLIME_DATA_CARD:
+  name: '&bCard de Date Slime'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oComponentă'
+  usage:
+  - '&7Plasează într-o cameră de simulare de mob pentru a activa'
 SPIDER_DATA_CARD:
+  name: '&bCard de Date Păianjen'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oComponentă'
+  usage:
+  - '&7Plasează într-o cameră de simulare de mob pentru a activa'
 STONEWORKS_FACTORY:
+  description:
+  - '&7Generează piatră spartă și o procesează în diverse materiale'
+  name: '&8Fabrică de Piatră'
   stats:
   - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oMașină'
+  usage:
+  - '&eClic&7 pe sloturile de alegere pentru a comuta între Topire, Zdrobire, Compactare și Transformare'
 STORAGE_FORGE:
+  description:
+  - '&7Îmbunătățește nivelul Unităților de Stocare'
+  - '&7Păstrează obiectele stocate'
+  name: '&6Forjă de Stocare'
   type:
   - '&7&oMașină'
 STRAINER_BASE:
+  description:
+  - '&7Colectează lent materiale din apa curgătoare folosind o Sită'
+  - '&7Trebuie să fie inundată pentru a funcționa'
+  name: '&7Bază de Sită'
   type:
   - '&7&oMașină'
 TIN_SINGULARITY:
+  name: '&7Singularitate de Staniu'
   type:
   - '&7&oResursă'
 TITANIUM:
+  name: '&7Titan'
   type:
   - '&7&oResursă'
 URANIUM_EXTRACTOR:
+  description:
+  - '&7Convertește piatra spartă în uraniu'
+  name: '&aExtractor de Uraniu'
   stats:
   - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oMașină'
 VEIN_MINER_RUNE:
+  description:
+  - '&7Îmbunătățește o unealtă pentru a mina filoane din anumite materiale'
+  name: '&bRună de Minerit în Filon'
   type:
   - '&7&oGadget'
+  usage:
+  - '&eAruncă&7 lângă o unealtă pentru a o transforma în Miner de Filon'
 VILLAGER_DATA_CARD:
+  name: '&bCard de Date Sătean'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oComponentă'
+  usage:
+  - '&7Plasează într-o cameră de simulare de mob pentru a activa'
 VOID_BIT:
+  description:
+  - '&7&oSe simte... gol'
+  name: '&8Fragment de Vid'
   type:
   - '&7&oResursă'
 VOID_CAPACITOR:
+  description:
+  - '&7Stochează energia în exces pentru o rețea de energie'
+  name: '&8Condensator Vid'
+  stats:
+  - '&8⇨ &e⚡ 16,000,000 &7J Capacitate'
   type:
   - '&7&oComponentă'
 VOID_DUST:
+  description:
+  - '&7&oÎncepe să prindă formă...'
+  name: '&8Praf de Vid'
   type:
   - '&7&oResursă'
 VOID_HARVESTER:
+  description:
+  - '&7Recoltează lent Fragmente de &8Vid &7din nimic...'
+  name: '&8Recoltator de Vid'
+  stats:
+  - '&8⇨ &e⚡ &7Viteză: &b1x'
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oMașină'
 VOID_INGOT:
+  description:
+  - '&7&oGoliciunea cosmosului'
+  - '&7&oîn palma mâinii tale'
+  name: '&8Lingou de Vid'
   type:
   - '&7&oResursă'
 VOID_PANEL:
+  description:
+  - '&7Generează energie din întuneric'
+  name: '&8Panou Vid'
   stats:
   - '&8⇨ &e⚡ &7300,000 J Tampon'
   - '&8⇨ &e⚡ &73,000 J/s'
   type:
   - '&7&oGenerator'
 VOID_QUARRY:
+  description:
+  - '&7Minează automat minereurile din Overworld și Nether'
+  name: '&8Carieră de Vid'
+  stats:
+  - '&8⇨ &e⚡ &7Viteză: &b6x'
+  - '&8⇨ &e⚡ &73,600 J/s'
   type:
   - '&7&oMașină'
 VOID_STORAGE:
+  description:
+  - '&7Stochează cantități mari dintr-un singur tip de obiect'
+  name: '&8Unitate de Stocare &8de Vid'
+  stats:
+  - '&6Capacitate: &e409,600 &eobiecte'
   type:
   - '&7&oMașină'
 WITCH_DATA_CARD:
+  name: '&bCard de Date Vrăjitoare'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oComponentă'
+  usage:
+  - '&7Plasează într-o cameră de simulare de mob pentru a activa'
 WITHER_DATA_CARD:
+  name: '&bCard de Date Wither'
   stats:
   - '&8⇨ &e⚡ &74,500 J/s'
   type:
   - '&7&oComponentă'
+  usage:
+  - '&7Plasează într-o cameră de simulare de mob pentru a activa'
 WITHER_SKELETON_DATA_CARD:
+  name: '&bCard de Date Schelet Wither'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oComponentă'
+  usage:
+  - '&7Plasează într-o cameră de simulare de mob pentru a activa'
 ZINC_SINGULARITY:
+  name: '&7Singularitate de Zinc'
   type:
   - '&7&oResursă'
 ZOMBIE_DATA_CARD:
+  name: '&bCard de Date Zombi'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oComponentă'
+  usage:
+  - '&7Plasează într-o cameră de simulare de mob pentru a activa'
