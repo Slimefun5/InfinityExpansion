@@ -1,532 +1,1060 @@
 ADAMANTITE:
+  name: '&dඇඩමැන්ටයිට්'
   type:
   - '&7&oසම්පත'
 ADVANCED_ANVIL:
+  description:
+  - '&7මෙවලම් හා උපකරණවල මන්ත්‍ර ගැන්වීම් එක් කර සමහර විට ඒවා වැඩිදියුණු කරයි'
+  - '&bSlimefun අයිතම සමඟ ක්‍රියා කරයි'
+  name: '&cඋසස් නියනය'
+  stats:
+  - '&8⇨ &e⚡ &7භාවිතයකට 100,000 J'
   type:
   - '&7&oයන්ත්‍රය'
 ADVANCED_CHARGER:
+  description:
+  - '&7අයිතම ඉක්මනින් ආරෝපණය කරයි'
+  name: '&cඋසස් ආරෝපකය'
+  stats:
+  - '&8⇨ &e⚡ &7වේගය: &b30x'
+  - '&8⇨ &e⚡ &7180 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 ADVANCED_COBBLE_GEN:
+  description:
+  - '&7කලක් යත්ම ස්වයංක්‍රීයව ගල් කැට නිපදවයි'
+  name: '&cඋසස් &8ගල් කැට නිපදවන්නා'
+  stats:
+  - '&8⇨ &e⚡ &7වේගය: &b4x'
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 ADVANCED_DISENCHANTER:
+  description:
+  - '&7අයිතමවල මන්ත්‍ර ගැන්වීම් ස්වයංක්‍රීයව පොත්වලට ඉවත් කරයි'
+  name: '&cඋසස් මන්ත්‍ර ඉවත් කරන්නා'
+  stats:
+  - '&8⇨ &e⚡ &7වේගය: &b5x'
+  - '&8⇨ &e⚡ &7180 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 ADVANCED_ENCHANTER:
+  description:
+  - '&7එය ඇතුළේ තබන අයිතම ස්වයංක්‍රීයව මන්ත්‍ර ගන්වයි'
+  name: '&cඋසස් මන්ත්‍ර ගන්වන්නා'
+  stats:
+  - '&8⇨ &e⚡ &7වේගය: &b5x'
+  - '&8⇨ &e⚡ &7180 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 ADVANCED_GEO_MINER:
+  description:
+  - '&7වේගවත් භූ-පතල්කරුවකි'
+  name: '&cඋසස් &fභූ-පතල්කරු'
+  stats:
+  - '&8⇨ &e⚡ &7වේගය: &b4x'
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 ADVANCED_NETHER_STAR_REACTOR:
+  description:
+  - '&fනෙදර් තරු මගින් ක්‍රියා කරයි'
+  - '&bජලයෙන් වටවී තිබිය යුතුයි'
+  - '&bනෙදර් අයිස් සිසිලන කෝෂ සැපයිය යුතුයි'
+  - '&4ආසන්න ජීවීන්ට විදර් බලපෑම ඇති කරයි'
+  name: '&cඋසස් නෙදර් තරු ප්‍රතික්‍රියාකාරකය'
   stats:
   - '&8⇨ &e⚡ &790,000 J ගබඩාව'
   - '&8⇨ &e⚡ &71,800 J/s'
   type:
   - '&7&oජනකය'
 ADVANCED_PANEL:
+  description:
+  - '&7හිරු එළියෙන් ශක්තිය ජනනය කරයි'
+  name: '&cඋසස් සූර්ය පැනලය'
   stats:
   - '&8⇨ &e⚡ &715,000 J ගබඩාව'
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oජනකය'
 ADVANCED_QUARRY:
+  description:
+  - '&7ස්වයංක්‍රීයව උඩු-ලෝකයේ සහ නෙදර් ලෝපස් කණියි'
+  name: '&cඋසස් පතලය'
+  stats:
+  - '&8⇨ &e⚡ &7වේගය: &b2x'
+  - '&8⇨ &e⚡ &7900 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 ADVANCED_SMELTERY:
+  description:
+  - '&7වේගවත් ද්‍රවණ ශාලාවකි'
+  name: '&cඋසස් &7ද්‍රවණ ශාලාව'
+  stats:
+  - '&8⇨ &e⚡ &7වේගය: &b24x'
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 ADVANCED_STORAGE:
+  description:
+  - '&7තනි අයිතම වර්ගයක විශාල ප්‍රමාණ ගබඩා කරයි'
+  name: '&cඋසස් &8ගබඩා ඒකකය'
+  stats:
+  - '&6ධාරිතාව: &e25,600 &eඅයිතම'
   type:
   - '&7&oයන්ත්‍රය'
 ADVANCED_STRAINER:
+  description:
+  - '&7ගලා යන ජලයෙන් ද්‍රව්‍ය එකතු කරයි'
+  name: '&cඋසස් පෙරනය'
   stats:
   - '&8⇨ &b⚡ &7වේගය: &b4.0x'
   type:
   - '&7&oසංරචකය'
 ADVANCED_TREE_GROWER:
+  description:
+  - '&7ගස් ස්වයංක්‍රීයව වවා, අස්වනු නෙළා, නැවත සිටුවයි'
+  name: '&cඋසස් &2ගස් වවන්නා'
+  stats:
+  - '&8⇨ &e⚡ &7වේගය: &b5x'
+  - '&8⇨ &e⚡ &7180 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 ADVANCED_VIRTUAL_FARM:
+  description:
+  - '&7බෝග ස්වයංක්‍රීයව වවා, අස්වනු නෙළා, නැවත සිටුවයි'
+  name: '&cඋසස් &aඅතථ්‍ය ගොවිපල'
+  stats:
+  - '&8⇨ &e⚡ &7වේගය: &b5x'
+  - '&8⇨ &e⚡ &790 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 ALUMINUM_SINGULARITY:
+  name: '&7ඇලුමිනියම් ඒකීයතාව'
   type:
   - '&7&oසම්පත'
 BASIC_COBBLE_GEN:
+  description:
+  - '&7කලක් යත්ම ස්වයංක්‍රීයව ගල් කැට නිපදවයි'
+  name: '&9මූලික &8ගල් කැට නිපදවන්නා'
+  stats:
+  - '&8⇨ &e⚡ &7වේගය: &b1x'
+  - '&8⇨ &e⚡ &724 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 BASIC_OBSIDIAN_GEN:
+  description:
+  - '&7කලක් යත්ම ස්වයංක්‍රීයව ඔබ්සීඩියන් නිපදවයි'
+  name: '&8ඔබ්සීඩියන් නිපදවන්නා'
+  stats:
+  - '&8⇨ &e⚡ &7වේගය: &b1x'
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 BASIC_PANEL:
+  description:
+  - '&7හිරු එළියෙන් ශක්තිය ජනනය කරයි'
+  name: '&9මූලික සූර්ය පැනලය'
   stats:
   - '&8⇨ &e⚡ &7900 J ගබඩාව'
   - '&8⇨ &e⚡ &79 J/s'
   type:
   - '&7&oජනකය'
 BASIC_QUARRY:
+  description:
+  - '&7ස්වයංක්‍රීයව උඩු-ලෝකයේ ලෝපස් කණියි'
+  name: '&9මූලික පතලය'
+  stats:
+  - '&8⇨ &e⚡ &7වේගය: &b1x'
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 BASIC_STORAGE:
+  description:
+  - '&7තනි අයිතම වර්ගයක විශාල ප්‍රමාණ ගබඩා කරයි'
+  name: '&9මූලික &8ගබඩා ඒකකය'
+  stats:
+  - '&6ධාරිතාව: &e6,400 &eඅයිතම'
   type:
   - '&7&oයන්ත්‍රය'
 BASIC_STRAINER:
+  description:
+  - '&7ගලා යන ජලයෙන් ද්‍රව්‍ය එකතු කරයි'
+  name: '&9මූලික පෙරනය'
   stats:
   - '&8⇨ &b⚡ &7වේගය: &b1.0x'
   type:
   - '&7&oසංරචකය'
 BASIC_TREE_GROWER:
+  description:
+  - '&7ගස් ස්වයංක්‍රීයව වවා, අස්වනු නෙළා, නැවත සිටුවයි'
+  name: '&9මූලික &2ගස් වවන්නා'
+  stats:
+  - '&8⇨ &e⚡ &7වේගය: &b1x'
+  - '&8⇨ &e⚡ &736 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 BASIC_VIRTUAL_FARM:
+  description:
+  - '&7බෝග ස්වයංක්‍රීයව වවා, අස්වනු නෙළා, නැවත සිටුවයි'
+  name: '&9මූලික &aඅතථ්‍ය ගොවිපල'
+  stats:
+  - '&8⇨ &e⚡ &7වේගය: &b1x'
+  - '&8⇨ &e⚡ &718 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 BEE_DATA_CARD:
+  name: '&bමීමැසි දත්ත කාඩ්පත'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oසංරචකය'
+  usage:
+  - '&7සක්‍රිය කිරීමට මොබ් අනුකරණ කුටියක තබන්න'
 BLAZE_DATA_CARD:
+  name: '&bබ්ලේස් දත්ත කාඩ්පත'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oසංරචකය'
+  usage:
+  - '&7සක්‍රිය කිරීමට මොබ් අනුකරණ කුටියක තබන්න'
 CELESTIAL_PANEL:
+  description:
+  - '&7හිරු එළියෙන් ශක්තිය ජනනය කරයි'
+  name: '&eආකාශ පැනලය'
   stats:
   - '&8⇨ &e⚡ &775,000 J ගබඩාව'
   - '&8⇨ &e⚡ &7750 J/s'
   type:
   - '&7&oජනකය'
 CHICKEN_DATA_CARD:
+  name: '&bකුකුළු දත්ත කාඩ්පත'
   stats:
   - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oසංරචකය'
+  usage:
+  - '&7සක්‍රිය කිරීමට මොබ් අනුකරණ කුටියක තබන්න'
 COAL_SINGULARITY:
+  name: '&8ගල් අඟුරු ඒකීයතාව'
   type:
   - '&7&oසම්පත'
 COBBLE_PRESS:
+  description:
+  - '&7ගල් කැට වඩා කාර්යක්ෂමව සම්පීඩනය කරයි'
+  name: '&8ගල් කැට පීඩකය'
   stats:
   - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 COMPRESSED_COBBLESTONE_1:
+  name: '&7එක් වර සම්පීඩිත ගල් කැට'
+  stats:
+  - '&8ගල් කැට 9 එක් කළ'
   type:
   - '&7&oසම්පත'
 COMPRESSED_COBBLESTONE_2:
+  name: '&7දෙවර සම්පීඩිත ගල් කැට'
+  stats:
+  - '&8ගල් කැට 81 එක් කළ'
   type:
   - '&7&oසම්පත'
 COMPRESSED_COBBLESTONE_3:
+  name: '&7තෙවර සම්පීඩිත ගල් කැට'
+  stats:
+  - '&8ගල් කැට 729 එක් කළ'
   type:
   - '&7&oසම්පත'
 COMPRESSED_COBBLESTONE_4:
+  name: '&7සිව්වර සම්පීඩිත ගල් කැට'
+  stats:
+  - '&8ගල් කැට 6,561 එක් කළ'
   type:
   - '&7&oසම්පත'
 COMPRESSED_COBBLESTONE_5:
+  name: '&7පස්වර සම්පීඩිත ගල් කැට'
+  stats:
+  - '&8ගල් කැට 59,049 එක් කළ'
   type:
   - '&7&oසම්පත'
 COPPER_SINGULARITY:
+  name: '&6තඹ ඒකීයතාව'
   type:
   - '&7&oසම්පත'
 COW_DATA_CARD:
+  name: '&bඑළදෙන දත්ත කාඩ්පත'
   stats:
   - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oසංරචකය'
+  usage:
+  - '&7සක්‍රිය කිරීමට මොබ් අනුකරණ කුටියක තබන්න'
 CREEPER_DATA_CARD:
+  name: '&bක්‍රීපර් දත්ත කාඩ්පත'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oසංරචකය'
+  usage:
+  - '&7සක්‍රිය කිරීමට මොබ් අනුකරණ කුටියක තබන්න'
 DATA_INFUSER:
+  description:
+  - '&7හිස් දත්ත කාඩ්පත් මොබ් අයිතම සමඟ කාවද්දයි'
+  name: '&8මොබ් දත්ත කාවද්දන්නා'
+  stats:
+  - '&8⇨ &e⚡ &7භාවිතයකට 20,000 J'
   type:
   - '&7&oයන්ත්‍රය'
 DECOMPRESSOR:
+  description:
+  - '&7කුට්ටි ඒවායේ මූලික ද්‍රව්‍යයට අඩු කරයි'
+  name: '&7විසම්පීඩකය'
   stats:
   - '&8⇨ &e⚡ &760 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 DIAMOND_SINGULARITY:
+  name: '&bදියමන්ති ඒකීයතාව'
   type:
   - '&7&oසම්පත'
 DUST_EXTRACTOR:
+  description:
+  - '&7ගල් කැට දූවිලි බවට පරිවර්තනය කරයි'
+  name: '&8දූවිලි නිස්සාරකය'
+  stats:
+  - '&8⇨ &e⚡ &7වේගය: &b1x'
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 EARTH_SINGULARITY:
+  name: '&aපෘථිවි ඒකීයතාව'
   type:
   - '&7&oසම්පත'
 EMERALD_SINGULARITY:
+  name: '&aමරකත ඒකීයතාව'
   type:
   - '&7&oසම්පත'
 EMPTY_DATA_CARD:
+  name: '&8හිස් දත්ත කාඩ්පත'
   type:
   - '&7&oසංරචකය'
+  usage:
+  - '&7පිරවීමට මොබ් අයිතම සමඟ කාවද්දන්න'
 ENDERMEN_DATA_CARD:
+  name: '&bඑන්ඩර්මෑන් දත්ත කාඩ්පත'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oසංරචකය'
+  usage:
+  - '&7සක්‍රිය කිරීමට මොබ් අනුකරණ කුටියක තබන්න'
 ENDER_DRAGON_DATA_CARD:
+  name: '&bඑන්ඩර් මකර දත්ත කාඩ්පත'
   stats:
   - '&8⇨ &e⚡ &79,000 J/s'
   type:
   - '&7&oසංරචකය'
+  usage:
+  - '&7සක්‍රිය කිරීමට මොබ් අනුකරණ කුටියක තබන්න'
 ENDER_FLAME:
+  name: '&cඑන්ඩර් ගිනිදැල්ල'
   type:
   - '&7&oසංරචකය'
 END_ESSENCE:
+  description:
+  - '&8&oඑන්ඩ් හි ගැඹුරෙන්...'
+  name: '&5එන්ඩර් සාරය'
   type:
   - '&7&oසම්පත'
 EXTREME_FREEZER:
+  description:
+  - '&7අයිස් සිසිලනය බවට පරිවර්තනය කරයි'
+  name: '&bඅතිශය ශීතකරණය'
   stats:
   - '&8⇨ &e⚡ &790 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 FORTUNE_SINGULARITY:
+  name: '&6වාසනා ඒකීයතාව'
   type:
   - '&7&oසම්පත'
 GEAR_TRANSFORMER:
+  description:
+  - '&7මුල් මෙවලම් හා උපකරණවල ද්‍රව්‍ය වෙනස් කරයි'
+  name: '&7උපකරණ පරිවර්තකය'
+  stats:
+  - '&8⇨ &e⚡ &7භාවිතයකට 12,000 J'
   type:
   - '&7&oයන්ත්‍රය'
 GEOTHERMAL_GENERATOR:
+  description:
+  - '&7ලෝකයේ තාපයෙන් ශක්තිය ජනනය කරයි'
+  name: '&cභූතාප ජනකය'
   stats:
   - '&8⇨ &e⚡ &73,500 J ගබඩාව'
   - '&8⇨ &e⚡ &735 J/s'
   type:
   - '&7&oජනකය'
 GEO_QUARRY:
+  description:
+  - '&7බලය භාවිතයෙන් ශුන්‍යයෙන් භූ සම්පත් සෙමින් නෙළා ගනී'
+  name: '&fභූ පතලය'
   stats:
   - '&8⇨ &e⚡ &7450 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 GOLD_SINGULARITY:
+  name: '&6රන් ඒකීයතාව'
   type:
   - '&7&oසම්පත'
 GUARDIAN_DATA_CARD:
+  name: '&bආරක්ෂක දත්ත කාඩ්පත'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oසංරචකය'
+  usage:
+  - '&7සක්‍රිය කිරීමට මොබ් අනුකරණ කුටියක තබන්න'
 HYDRO_GENERATOR:
+  description:
+  - '&7ජලයේ චලනයෙන් ශක්තිය ජනනය කරයි'
+  name: '&9ජල ජනකය'
   stats:
   - '&8⇨ &e⚡ &7500 J ගබඩාව'
   - '&8⇨ &e⚡ &75 J/s'
   type:
   - '&7&oජනකය'
 INFINITE_INGOT:
+  description:
+  - '&7&oවිශ්වයේ උදහස'
+  - '&7&oඔබේ අත්ලේ'
+  name: '&bඅනන්ත දණ්ඩ'
   type:
   - '&7&oසම්පත'
 INFINITE_MACHINE_CIRCUIT:
+  name: '&bඅනන්ත &6යන්ත්‍ර පරිපථය'
   type:
   - '&7&oසංරචකය'
 INFINITE_MACHINE_CORE:
+  name: '&bඅනන්ත යන්ත්‍ර හරය'
   type:
   - '&7&oසංරචකය'
 INFINITE_PANEL:
+  description:
+  - '&7විශ්වයෙන් ශක්තිය ජනනය කරයි'
+  name: '&bඅනන්ත පැනලය'
   stats:
   - '&8⇨ &e⚡ &76,000,000 J ගබඩාව'
   - '&8⇨ &e⚡ &760,000 J/s'
   type:
   - '&7&oජනකය'
 INFINITE_VOID_HARVESTER:
+  description:
+  - '&7කිසිවක් නැතිවම &8ශුන්‍ය &7කැබලි නෙළා ගනී...'
+  name: '&bඅනන්ත &8ශුන්‍ය නෙළන්නා'
+  stats:
+  - '&8⇨ &e⚡ &7වේගය: &b64x'
+  - '&8⇨ &e⚡ &712,000 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 INFINITY_AXE:
+  name: '&4ස්වභාවයේ විනාශය'
+  stats:
+  - '&bආත්ම බැඳි'
   type:
   - '&7&oමෙවලම'
 INFINITY_BLADE:
+  name: '&bවිශ්වයේ තලය'
+  stats:
+  - '&bආත්ම බැඳි'
   type:
   - '&7&oආයුධය'
 INFINITY_BOOTS:
+  name: '&bඅනන්ත පාවහන්'
+  stats:
+  - '&7වේගය III'
+  - '&7ඩොල්ෆින් ආශිර්වාදය I'
+  - '&bආත්ම බැඳි'
   type:
   - '&7&oසන්නාහය'
 INFINITY_BOW:
+  description:
+  - '&7වදින විට සතුරන් මන්දගාමී කර දිශානතිය නැති කරන පිපිරුම් ඊතල විදියි'
+  name: '&6අහස විදින්නා'
+  stats:
+  - '&bආත්ම බැඳි'
   type:
   - '&7&oආයුධය'
 INFINITY_CAPACITOR:
+  description:
+  - '&c&oශක්ති ජාලයකට'
+  - '&c&o1 ට වඩා භාවිත නොකරන්න'
+  name: '&bඅනන්ත ධාරිත්‍රකය'
+  stats:
+  - '&8⇨ &e⚡ 2,000,000,000 &7J ධාරිතාව'
   type:
   - '&7&oසංරචකය'
 INFINITY_CHARGER:
+  description:
+  - '&7අයිතම ක්ෂණිකව ආරෝපණය කරයි'
+  name: '&bඅනන්ත ආරෝපකය'
+  stats:
+  - '&8⇨ &e⚡ &7වේගය: &b6000x'
+  - '&8⇨ &e⚡ &7භාවිතයකට 60,000 J'
   type:
   - '&7&oයන්ත්‍රය'
 INFINITY_CHESTPLATE:
+  name: '&bඅනන්ත පපු කවචය'
+  stats:
+  - '&7ශක්තිමත්කම II'
+  - '&7ප්‍රතිරෝධය I'
+  - '&7ගිනි ප්‍රතිරෝධය I'
+  - '&7මීමැසි දෂ්ට ප්‍රතිශක්තිය'
+  - '&bආත්ම බැඳි'
   type:
   - '&7&oසන්නාහය'
 INFINITY_COBBLE_GEN:
+  description:
+  - '&7කලක් යත්ම ස්වයංක්‍රීයව ගල් කැට නිපදවයි'
+  name: '&cඅනන්ත &8ගල් කැට නිපදවන්නා'
+  stats:
+  - '&8⇨ &e⚡ &7වේගය: &b64x'
+  - '&8⇨ &e⚡ &7800 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 INFINITY_CONSTRUCTOR:
+  description:
+  - '&7විශාල ප්‍රමාණ සම්පත් ඉක්මනින් ඝනීභවනය කරයි'
+  name: '&bඅනන්ත &fනිර්මාපකය'
+  stats:
+  - '&8⇨ &e⚡ &7වේගය: &b64x'
+  - '&8⇨ &e⚡ &71,200 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 INFINITY_CROWN:
+  name: '&bඅනන්ත ඔටුන්න'
+  stats:
+  - '&7රාත්‍රී දර්ශනය I'
+  - '&7නාලිකා බලය I'
+  - '&7එලිට්රා අනතුරු ප්‍රතිශක්තිය'
+  - '&bආත්ම බැඳි'
   type:
   - '&7&oසන්නාහය'
 INFINITY_DISENCHANTER:
+  description:
+  - '&7අයිතමවල මන්ත්‍ර ගැන්වීම් ස්වයංක්‍රීයව පොත්වලට ඉවත් කරයි'
+  name: '&bඅනන්ත මන්ත්‍ර ඉවත් කරන්නා'
+  stats:
+  - '&8⇨ &e⚡ &7වේගය: &b90x'
+  - '&8⇨ &e⚡ &7භාවිතයකට 12,000 J'
   type:
   - '&7&oයන්ත්‍රය'
 INFINITY_DUST_EXTRACTOR:
+  description:
+  - '&7ගල් කැට දූවිලි බවට පරිවර්තනය කරයි'
+  name: '&bඅනන්ත &8දූවිලි නිස්සාරකය'
+  stats:
+  - '&8⇨ &e⚡ &7වේගය: &b16x'
+  - '&8⇨ &e⚡ &77,200 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 INFINITY_ENCHANTER:
+  description:
+  - '&7එය ඇතුළේ තබන අයිතම ස්වයංක්‍රීයව මන්ත්‍ර ගන්වයි'
+  name: '&bඅනන්ත මන්ත්‍ර ගන්වන්නා'
+  stats:
+  - '&8⇨ &e⚡ &7වේගය: &b75x'
+  - '&8⇨ &e⚡ &7භාවිතයකට 12,000 J'
   type:
   - '&7&oයන්ත්‍රය'
 INFINITY_FORGE:
+  description:
+  - '&7අනන්ත අයිතම තැනීමට භාවිතා කරයි'
+  name: '&6අනන්ත වැඩ මේසය'
+  stats:
+  - '&8⇨ &e⚡ &7අයිතමයකට 10,000,000 J'
   type:
   - '&7&oයන්ත්‍රය'
 INFINITY_INGOT_FORMER:
+  description:
+  - '&7දූවිලිවලින් දඬු සාදයි'
+  name: '&bඅනන්ත &8දණ්ඩ සාදන්නා'
+  stats:
+  - '&8⇨ &e⚡ &7වේගය: &b16x'
+  - '&8⇨ &e⚡ &77,200 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 INFINITY_LEGGINGS:
+  name: '&bඅනන්ත කලිසම'
+  stats:
+  - '&7ඉක්මන්කම III'
+  - '&7පුනර්ජනනය I'
+  - '&7තෘප්තිය I'
+  - '&7විකිරණ ප්‍රතිශක්තිය'
+  - '&bආත්ම බැඳි'
   type:
   - '&7&oසන්නාහය'
 INFINITY_MATRIX:
+  description:
+  - '&6අසීමිත පියාසර හැකියාව දෙයි'
+  name: '&fඅනන්ත න්‍යාසය'
+  stats:
+  - '&bආත්ම බැඳි'
   type:
   - '&7&oඋපාංගය'
+  usage:
+  - '&7සක්‍රිය/අක්‍රිය කිරීමට සහ හිමිකම් ගැනීමට දකුණු-ක්ලික් කරන්න'
+  - '&7හිමිකාරිත්වය ඉවත් කිරීමට නැවී දකුණු-ක්ලික් කරන්න'
 INFINITY_PICKAXE:
+  name: '&9ලෝක බිඳින්නා'
+  stats:
+  - '&bආත්ම බැඳි'
   type:
   - '&7&oමෙවලම'
 INFINITY_QUARRY:
+  description:
+  - '&7ස්වයංක්‍රීයව උඩු-ලෝකයේ සහ නෙදර් ලෝපස් කණියි'
+  name: '&bඅනන්ත පතලය'
+  stats:
+  - '&8⇨ &e⚡ &7වේගය: &b64x'
+  - '&8⇨ &e⚡ &736,000 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 INFINITY_REACTOR:
+  description:
+  - '&7සම්පීඩනය මගින් බලය ජනනය කරයි:'
+  - '&7&8ශුන්‍ය &7සහ &bඅනන්ත &7දඬු'
+  name: '&bඅනන්ත ප්‍රතික්‍රියාකාරකය'
   stats:
   - '&8⇨ &e⚡ &7120,000,000 J ගබඩාව'
   - '&8⇨ &e⚡ &7120,000 J/s'
   type:
   - '&7&oජනකය'
 INFINITY_SHIELD:
+  name: '&bවිශ්ව පලිහ'
+  stats:
+  - '&bආත්ම බැඳි'
   type:
   - '&7&oආයුධය'
 INFINITY_SHOVEL:
+  name: '&aකඳු කන්නා'
+  stats:
+  - '&bආත්ම බැඳි'
   type:
   - '&7&oමෙවලම'
 INFINITY_SINGULARITY:
+  name: '&bඅනන්ත ඒකීයතාව'
   type:
   - '&7&oසම්පත'
 INFINITY_STORAGE:
+  description:
+  - '&7තනි අයිතම වර්ගයක විශාල ප්‍රමාණ ගබඩා කරයි'
+  name: '&bඅනන්ත &8ගබඩා ඒකකය'
+  stats:
+  - '&6ධාරිතාව: &e1,600,000,000 &eඅයිතම'
   type:
   - '&7&oයන්ත්‍රය'
 INFINITY_TREE_GROWER:
+  description:
+  - '&7ගස් ස්වයංක්‍රීයව වවා, අස්වනු නෙළා, නැවත සිටුවයි'
+  name: '&bඅනන්ත &2ගස් වවන්නා'
+  stats:
+  - '&8⇨ &e⚡ &7වේගය: &b25x'
+  - '&8⇨ &e⚡ &71,800 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 INFINITY_VIRTUAL_FARM:
+  description:
+  - '&7බෝග ස්වයංක්‍රීයව වවා, අස්වනු නෙළා, නැවත සිටුවයි'
+  name: '&bඅනන්ත &aඅතථ්‍ය ගොවිපල'
+  stats:
+  - '&8⇨ &e⚡ &7වේගය: &b25x'
+  - '&8⇨ &e⚡ &7900 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 INGOT_FORMER:
+  description:
+  - '&7දූවිලිවලින් දඬු සාදයි'
+  name: '&8දණ්ඩ සාදන්නා'
+  stats:
+  - '&8⇨ &e⚡ &7වේගය: &b1x'
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 IRON_GOLEM_DATA_CARD:
+  name: '&bයකඩ ගොලම් දත්ත කාඩ්පත'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oසංරචකය'
+  usage:
+  - '&7සක්‍රිය කිරීමට මොබ් අනුකරණ කුටියක තබන්න'
 IRON_SINGULARITY:
+  name: '&7යකඩ ඒකීයතාව'
   type:
   - '&7&oසම්පත'
 LAPIS_SINGULARITY:
+  name: '&9ලැපිස් ඒකීයතාව'
   type:
   - '&7&oසම්පත'
 LEAD_SINGULARITY:
+  name: '&8ඊයම් ඒකීයතාව'
   type:
   - '&7&oසම්පත'
 MACHINE_CIRCUIT:
+  name: '&6යන්ත්‍ර පරිපථය'
   type:
   - '&7&oසංරචකය'
 MACHINE_CORE:
+  name: '&fයන්ත්‍ර හරය'
   type:
   - '&7&oසංරචකය'
 MACHINE_PLATE:
+  name: '&fයන්ත්‍ර තහඩුව'
   type:
   - '&7&oසංරචකය'
 MAGIC_SINGULARITY:
+  name: '&dඉන්ද්‍රජාල ඒකීයතාව'
   type:
   - '&7&oසම්පත'
 MAGMA_CUBE_DATA_CARD:
+  name: '&bමැග්මා ඝනක දත්ත කාඩ්පත'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oසංරචකය'
+  usage:
+  - '&7සක්‍රිය කිරීමට මොබ් අනුකරණ කුටියක තබන්න'
 MAGNESIUM_SINGULARITY:
+  name: '&5මැග්නීසියම් ඒකීයතාව'
   type:
   - '&7&oසම්පත'
 MAGNONIUM:
+  name: '&5මැග්නෝනියම්'
   type:
   - '&7&oසම්පත'
 MAGSTEEL:
+  name: '&4මැග්වානේ'
   type:
   - '&7&oසම්පත'
 MAGSTEEL_PLATE:
+  name: '&4මැග්වානේ තහඩුව'
   type:
   - '&7&oසංරචකය'
 METAL_SINGULARITY:
+  name: '&8ලෝහ ඒකීයතාව'
   type:
   - '&7&oසම්පත'
 MOB_SIMULATION_CHAMBER:
+  description:
+  - '&7සක්‍රිය කිරීමට මොබ් දත්ත කාඩ්පත් භාවිත කරන්න'
+  name: '&8මොබ් අනුකරණ කුටිය'
   stats:
   - '&8⇨ &e⚡ &715,000 J ගබඩාව'
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 MYTHRIL:
+  name: '&bමිත්‍රිල්'
   type:
   - '&7&oසම්පත'
 NETHERITE_SINGULARITY:
+  name: '&4නෙදරයිට් ඒකීයතාව'
   type:
   - '&7&oසම්පත'
 POWERED_BEDROCK:
+  description:
+  - '&7බල ගැන්වූ විට බෙඩ්රොක් බවට පරිවර්තනය වේ'
+  - '&7බලය නැති වූ විට හෝ කැඩුණු විට නැවත පෙර තත්ත්වයට පැමිණේ'
+  name: '&4බල ගැන්වූ බෙඩ්රොක්'
   stats:
   - '&8⇨ &e⚡ &710,000 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 QUARRY_OSCILLATOR_DIAMOND:
+  name: '&bදියමන්ති අදෝලකය'
   type:
   - '&7&oසංරචකය'
+  usage:
+  - '&7පතලක තබා එයට මෙම ද්‍රව්‍යය කැණීමේ'
+  - '&750.0% සම්භාවිතාවක් දෙන්න'
 QUARRY_OSCILLATOR_EMERALD:
+  name: '&bමරකත අදෝලකය'
   type:
   - '&7&oසංරචකය'
+  usage:
+  - '&7පතලක තබා එයට මෙම ද්‍රව්‍යය කැණීමේ'
+  - '&750.0% සම්භාවිතාවක් දෙන්න'
 QUARRY_OSCILLATOR_LAPIS_LAZULI:
+  name: '&bලැපිස් ලසූලි අදෝලකය'
   type:
   - '&7&oසංරචකය'
+  usage:
+  - '&7පතලක තබා එයට මෙම ද්‍රව්‍යය කැණීමේ'
+  - '&750.0% සම්භාවිතාවක් දෙන්න'
 QUARRY_OSCILLATOR_QUARTZ:
+  name: '&bක්වාර්ට්ස් අදෝලකය'
   type:
   - '&7&oසංරචකය'
+  usage:
+  - '&7පතලක තබා එයට මෙම ද්‍රව්‍යය කැණීමේ'
+  - '&750.0% සම්භාවිතාවක් දෙන්න'
 QUARRY_OSCILLATOR_REDSTONE:
+  name: '&bරෙඩ්ස්ටෝන් අදෝලකය'
   type:
   - '&7&oසංරචකය'
+  usage:
+  - '&7පතලක තබා එයට මෙම ද්‍රව්‍යය කැණීමේ'
+  - '&750.0% සම්භාවිතාවක් දෙන්න'
 QUARTZ_SINGULARITY:
+  name: '&fක්වාර්ට්ස් ඒකීයතාව'
   type:
   - '&7&oසම්පත'
 REDSTONE_SINGULARITY:
+  name: '&cරෙඩ්ස්ටෝන් ඒකීයතාව'
   type:
   - '&7&oසම්පත'
 REINFORCED_GEOTHERMAL_GENERATOR:
+  description:
+  - '&7විශාල ප්‍රමාණ ශක්තිය ජනනය කරයි'
+  - '&7ලෝකයේ තාපයෙන්'
+  name: '&fශක්තිමත් කළ &cභූතාප ජනකය'
   stats:
   - '&8⇨ &e⚡ &721,000 J ගබඩාව'
   - '&8⇨ &e⚡ &7210 J/s'
   type:
   - '&7&oජනකය'
 REINFORCED_HYDRO_GENERATOR:
+  description:
+  - '&7විශාල ප්‍රමාණ ශක්තිය ජනනය කරයි'
+  - '&7ජලයේ චලනයෙන්'
+  name: '&fශක්තිමත් කළ &9ජල ජනකය'
   stats:
   - '&8⇨ &e⚡ &74,500 J ගබඩාව'
   - '&8⇨ &e⚡ &745 J/s'
   type:
   - '&7&oජනකය'
 REINFORCED_STORAGE:
+  description:
+  - '&7තනි අයිතම වර්ගයක විශාල ප්‍රමාණ ගබඩා කරයි'
+  name: '&fශක්තිමත් කළ &8ගබඩා ඒකකය'
+  stats:
+  - '&6ධාරිතාව: &e102,400 &eඅයිතම'
   type:
   - '&7&oයන්ත්‍රය'
 REINFORCED_STRAINER:
+  description:
+  - '&7ගලා යන ජලයෙන් ද්‍රව්‍ය එකතු කරයි'
+  name: '&fශක්තිමත් කළ පෙරනය'
   stats:
   - '&8⇨ &b⚡ &7වේගය: &b20.0x'
   type:
   - '&7&oසංරචකය'
 RESOURCE_SYNTHESIZER:
+  description:
+  - '&7ඒකීයතා 2 ක් එක් කර සම්පත් නිර්මාණය කරයි'
+  name: '&6සම්පත් සංශ්ලේෂකය'
+  stats:
+  - '&8⇨ &e⚡ &7භාවිතයකට 1,000,000 J'
   type:
   - '&7&oයන්ත්‍රය'
 SHEEP_DATA_CARD:
+  name: '&bබැටළු දත්ත කාඩ්පත'
   stats:
   - '&8⇨ &e⚡ &775 J/s'
   type:
   - '&7&oසංරචකය'
+  usage:
+  - '&7සක්‍රිය කිරීමට මොබ් අනුකරණ කුටියක තබන්න'
 SILVER_SINGULARITY:
+  name: '&7රිදී ඒකීයතාව'
   type:
   - '&7&oසම්පත'
 SINGULARITY_CONSTRUCTOR:
+  description:
+  - '&7විශාල ප්‍රමාණ සම්පත් ඝනීභවනය කරයි'
+  name: '&fඒකීයතා නිර්මාපකය'
+  stats:
+  - '&8⇨ &e⚡ &7වේගය: &b1x'
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 SKELETON_DATA_CARD:
+  name: '&bඇටසැකිලි දත්ත කාඩ්පත'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oසංරචකය'
+  usage:
+  - '&7සක්‍රිය කිරීමට මොබ් අනුකරණ කුටියක තබන්න'
 SLIME_DATA_CARD:
+  name: '&bස්ලයිම් දත්ත කාඩ්පත'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oසංරචකය'
+  usage:
+  - '&7සක්‍රිය කිරීමට මොබ් අනුකරණ කුටියක තබන්න'
 SPIDER_DATA_CARD:
+  name: '&bමකුළු දත්ත කාඩ්පත'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oසංරචකය'
+  usage:
+  - '&7සක්‍රිය කිරීමට මොබ් අනුකරණ කුටියක තබන්න'
 STONEWORKS_FACTORY:
+  description:
+  - '&7ගල් කැට නිපදවා ඒවා විවිධ ද්‍රව්‍ය බවට සකසයි'
+  name: '&8ගල් කර්මාන්ත ශාලාව'
   stats:
   - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oයන්ත්‍රය'
+  usage:
+  - '&eක්ලික්&7 කර තේරීම් කොටු මගින් ද්‍රවණය, තලනය, සම්පීඩනය සහ පරිවර්තනය අතර මාරු වන්න'
 STORAGE_FORGE:
+  description:
+  - '&7ගබඩා ඒකකවල ස්තරය වැඩිදියුණු කරයි'
+  - '&7ගබඩා කළ අයිතම රඳවා ගනී'
+  name: '&6ගබඩා කම්මලය'
   type:
   - '&7&oයන්ත්‍රය'
 STRAINER_BASE:
+  description:
+  - '&7පෙරනයක් භාවිතයෙන් ගලා යන ජලයෙන් සෙමින් ද්‍රව්‍ය එකතු කරයි'
+  - '&7ක්‍රියා කිරීමට ජලයෙන් පිරී තිබිය යුතුයි'
+  name: '&7පෙරන පාදම'
   type:
   - '&7&oයන්ත්‍රය'
 TIN_SINGULARITY:
+  name: '&7ටින් ඒකීයතාව'
   type:
   - '&7&oසම්පත'
 TITANIUM:
+  name: '&7ටයිටේනියම්'
   type:
   - '&7&oසම්පත'
 URANIUM_EXTRACTOR:
+  description:
+  - '&7ගල් කැට යුරේනියම් බවට පරිවර්තනය කරයි'
+  name: '&aයුරේනියම් නිස්සාරකය'
   stats:
   - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 VEIN_MINER_RUNE:
+  description:
+  - '&7ඇතැම් ද්‍රව්‍ය නහරයක් ලෙස කැණීමට මෙවලමක් වැඩිදියුණු කරයි'
+  name: '&bනහර කැණීම් රූනය'
   type:
   - '&7&oඋපාංගය'
+  usage:
+  - '&eදමන්න&7 මෙවලමක් අසල එය නහර කණින්නෙකු බවට වැඩිදියුණු කිරීමට'
 VILLAGER_DATA_CARD:
+  name: '&bගම්වාසි දත්ත කාඩ්පත'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oසංරචකය'
+  usage:
+  - '&7සක්‍රිය කිරීමට මොබ් අනුකරණ කුටියක තබන්න'
 VOID_BIT:
+  description:
+  - '&7&oහිස්... බවක් දැනෙයි'
+  name: '&8ශුන්‍ය කැබැල්ල'
   type:
   - '&7&oසම්පත'
 VOID_CAPACITOR:
+  description:
+  - '&7ශක්ති ජාලයක් සඳහා අතිරික්ත ශක්තිය ගබඩා කරයි'
+  name: '&8ශුන්‍ය ධාරිත්‍රකය'
+  stats:
+  - '&8⇨ &e⚡ 16,000,000 &7J ධාරිතාව'
   type:
   - '&7&oසංරචකය'
 VOID_DUST:
+  description:
+  - '&7&oහැඩයක් ගැනීමට පටන් ගනී...'
+  name: '&8ශුන්‍ය දූවිලි'
   type:
   - '&7&oසම්පත'
 VOID_HARVESTER:
+  description:
+  - '&7කිසිවක් නැතිවම &8ශුන්‍ය &7කැබලි සෙමින් නෙළා ගනී...'
+  name: '&8ශුන්‍ය නෙළන්නා'
+  stats:
+  - '&8⇨ &e⚡ &7වේගය: &b1x'
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 VOID_INGOT:
+  description:
+  - '&7&oවිශ්වයේ හිස්බව'
+  - '&7&oඔබේ අත්ලේ'
+  name: '&8ශුන්‍ය දණ්ඩ'
   type:
   - '&7&oසම්පත'
 VOID_PANEL:
+  description:
+  - '&7අඳුරෙන් ශක්තිය ජනනය කරයි'
+  name: '&8ශුන්‍ය පැනලය'
   stats:
   - '&8⇨ &e⚡ &7300,000 J ගබඩාව'
   - '&8⇨ &e⚡ &73,000 J/s'
   type:
   - '&7&oජනකය'
 VOID_QUARRY:
+  description:
+  - '&7ස්වයංක්‍රීයව උඩු-ලෝකයේ සහ නෙදර් ලෝපස් කණියි'
+  name: '&8ශුන්‍ය පතලය'
+  stats:
+  - '&8⇨ &e⚡ &7වේගය: &b6x'
+  - '&8⇨ &e⚡ &73,600 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 VOID_STORAGE:
+  description:
+  - '&7තනි අයිතම වර්ගයක විශාල ප්‍රමාණ ගබඩා කරයි'
+  name: '&8ශුන්‍ය &8ගබඩා ඒකකය'
+  stats:
+  - '&6ධාරිතාව: &e409,600 &eඅයිතම'
   type:
   - '&7&oයන්ත්‍රය'
 WITCH_DATA_CARD:
+  name: '&bමායාකාරි දත්ත කාඩ්පත'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oසංරචකය'
+  usage:
+  - '&7සක්‍රිය කිරීමට මොබ් අනුකරණ කුටියක තබන්න'
 WITHER_DATA_CARD:
+  name: '&bවිදර් දත්ත කාඩ්පත'
   stats:
   - '&8⇨ &e⚡ &74,500 J/s'
   type:
   - '&7&oසංරචකය'
+  usage:
+  - '&7සක්‍රිය කිරීමට මොබ් අනුකරණ කුටියක තබන්න'
 WITHER_SKELETON_DATA_CARD:
+  name: '&bවිදර් ඇටසැකිලි දත්ත කාඩ්පත'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
   - '&7&oසංරචකය'
+  usage:
+  - '&7සක්‍රිය කිරීමට මොබ් අනුකරණ කුටියක තබන්න'
 ZINC_SINGULARITY:
+  name: '&7සින්ක් ඒකීයතාව'
   type:
   - '&7&oසම්පත'
 ZOMBIE_DATA_CARD:
+  name: '&bසොම්බි දත්ත කාඩ්පත'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oසංරචකය'
+  usage:
+  - '&7සක්‍රිය කිරීමට මොබ් අනුකරණ කුටියක තබන්න'
