@@ -1,532 +1,1060 @@
 ADAMANTITE:
+  name: '&dأدامانتيت'
   type:
   - '&7&oمورد'
 ADVANCED_ANVIL:
+  description:
+  - '&7يدمج تعاويذ الأدوات والعتاد ويرقّيها أحيانًا'
+  - '&bيعمل مع عناصر Slimefun'
+  name: '&cسندان متقدّم'
+  stats:
+  - '&8⇨ &e⚡ &7100,000 J لكل استخدام'
   type:
   - '&7&oآلة'
 ADVANCED_CHARGER:
+  description:
+  - '&7يشحن العناصر بسرعة'
+  name: '&cشاحن متقدّم'
+  stats:
+  - '&8⇨ &e⚡ &7السرعة: &b30x'
+  - '&8⇨ &e⚡ &7180 J/s'
   type:
   - '&7&oآلة'
 ADVANCED_COBBLE_GEN:
+  description:
+  - '&7يُنتج الحجر المرصوف تلقائيًا مع الوقت'
+  name: '&8مُنتِج الحجر المرصوف &cالمتقدّم'
+  stats:
+  - '&8⇨ &e⚡ &7السرعة: &b4x'
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oآلة'
 ADVANCED_DISENCHANTER:
+  description:
+  - '&7يزيل التعاويذ من العناصر إلى كتب تلقائيًا'
+  name: '&cمُزيل سحر متقدّم'
+  stats:
+  - '&8⇨ &e⚡ &7السرعة: &b5x'
+  - '&8⇨ &e⚡ &7180 J/s'
   type:
   - '&7&oآلة'
 ADVANCED_ENCHANTER:
+  description:
+  - '&7يسحر العناصر الموضوعة داخله تلقائيًا'
+  name: '&cمُسحِّر متقدّم'
+  stats:
+  - '&8⇨ &e⚡ &7السرعة: &b5x'
+  - '&8⇨ &e⚡ &7180 J/s'
   type:
   - '&7&oآلة'
 ADVANCED_GEO_MINER:
+  description:
+  - '&7مُعدِّن جيولوجي أسرع'
+  name: '&fمُعدِّن جيولوجي &cمتقدّم'
+  stats:
+  - '&8⇨ &e⚡ &7السرعة: &b4x'
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oآلة'
 ADVANCED_NETHER_STAR_REACTOR:
+  description:
+  - '&fيعمل بنجوم النيثر'
+  - '&bيجب أن يكون محاطًا بالماء'
+  - '&bيجب تزويده بخلايا مُبرِّد جليد النيثر'
+  - '&4يسبّب إصابة الكائنات القريبة بتأثير الويثر'
+  name: '&cمُفاعل نجمة النيثر المتقدّم'
   stats:
   - '&8⇨ &e⚡ &7مخزن 90,000 جول'
   - '&8⇨ &e⚡ &71,800 جول/ث'
   type:
   - '&7&oمولد'
 ADVANCED_PANEL:
+  description:
+  - '&7يولّد الطاقة من الشمس'
+  name: '&cلوح شمسي متقدّم'
   stats:
   - '&8⇨ &e⚡ &7مخزن 15,000 جول'
   - '&8⇨ &e⚡ &7150 جول/ث'
   type:
   - '&7&oمولد'
 ADVANCED_QUARRY:
+  description:
+  - '&7يُعدِّن خامات العالم العلوي والنيثر تلقائيًا'
+  name: '&cمنجم متقدّم'
+  stats:
+  - '&8⇨ &e⚡ &7السرعة: &b2x'
+  - '&8⇨ &e⚡ &7900 J/s'
   type:
   - '&7&oآلة'
 ADVANCED_SMELTERY:
+  description:
+  - '&7مَصهَرة أسرع'
+  name: '&7مَصهَرة &cمتقدّمة'
+  stats:
+  - '&8⇨ &e⚡ &7السرعة: &b24x'
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oآلة'
 ADVANCED_STORAGE:
+  description:
+  - '&7تخزّن كميات كبيرة من نوع عنصر واحد'
+  name: '&8وحدة تخزين &cمتقدّمة'
+  stats:
+  - '&6السعة: &e25,600 &eعنصر'
   type:
   - '&7&oآلة'
 ADVANCED_STRAINER:
+  description:
+  - '&7تجمع المواد من الماء الجاري'
+  name: '&cمِصفاة متقدّمة'
   stats:
   - '&8⇨ &b⚡ &7السرعة: &b4.0x'
   type:
   - '&7&oمكون'
 ADVANCED_TREE_GROWER:
+  description:
+  - '&7ينمّي الأشجار ويحصدها ويعيد زراعتها تلقائيًا'
+  name: '&2مُنمّي أشجار &cمتقدّم'
+  stats:
+  - '&8⇨ &e⚡ &7السرعة: &b5x'
+  - '&8⇨ &e⚡ &7180 J/s'
   type:
   - '&7&oآلة'
 ADVANCED_VIRTUAL_FARM:
+  description:
+  - '&7ينمّي المحاصيل ويحصدها ويعيد زراعتها تلقائيًا'
+  name: '&aمزرعة افتراضية &cمتقدّمة'
+  stats:
+  - '&8⇨ &e⚡ &7السرعة: &b5x'
+  - '&8⇨ &e⚡ &790 J/s'
   type:
   - '&7&oآلة'
 ALUMINUM_SINGULARITY:
+  name: '&7تفرّد الألومنيوم'
   type:
   - '&7&oمورد'
 BASIC_COBBLE_GEN:
+  description:
+  - '&7يُنتج الحجر المرصوف تلقائيًا مع الوقت'
+  name: '&8مُنتِج الحجر المرصوف &9الأساسي'
+  stats:
+  - '&8⇨ &e⚡ &7السرعة: &b1x'
+  - '&8⇨ &e⚡ &724 J/s'
   type:
   - '&7&oآلة'
 BASIC_OBSIDIAN_GEN:
+  description:
+  - '&7يُنتج السبج تلقائيًا مع الوقت'
+  name: '&8مُنتِج السبج'
+  stats:
+  - '&8⇨ &e⚡ &7السرعة: &b1x'
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oآلة'
 BASIC_PANEL:
+  description:
+  - '&7يولّد الطاقة من الشمس'
+  name: '&9لوح شمسي أساسي'
   stats:
   - '&8⇨ &e⚡ &7مخزن 900 جول'
   - '&8⇨ &e⚡ &79 جول/ث'
   type:
   - '&7&oمولد'
 BASIC_QUARRY:
+  description:
+  - '&7يُعدِّن خامات العالم العلوي تلقائيًا'
+  name: '&9منجم أساسي'
+  stats:
+  - '&8⇨ &e⚡ &7السرعة: &b1x'
+  - '&8⇨ &e⚡ &7300 J/s'
   type:
   - '&7&oآلة'
 BASIC_STORAGE:
+  description:
+  - '&7تخزّن كميات كبيرة من نوع عنصر واحد'
+  name: '&8وحدة تخزين &9أساسية'
+  stats:
+  - '&6السعة: &e6,400 &eعنصر'
   type:
   - '&7&oآلة'
 BASIC_STRAINER:
+  description:
+  - '&7تجمع المواد من الماء الجاري'
+  name: '&9مِصفاة أساسية'
   stats:
   - '&8⇨ &b⚡ &7السرعة: &b1.0x'
   type:
   - '&7&oمكون'
 BASIC_TREE_GROWER:
+  description:
+  - '&7ينمّي الأشجار ويحصدها ويعيد زراعتها تلقائيًا'
+  name: '&2مُنمّي أشجار &9أساسي'
+  stats:
+  - '&8⇨ &e⚡ &7السرعة: &b1x'
+  - '&8⇨ &e⚡ &736 J/s'
   type:
   - '&7&oآلة'
 BASIC_VIRTUAL_FARM:
+  description:
+  - '&7ينمّي المحاصيل ويحصدها ويعيد زراعتها تلقائيًا'
+  name: '&aمزرعة افتراضية &9أساسية'
+  stats:
+  - '&8⇨ &e⚡ &7السرعة: &b1x'
+  - '&8⇨ &e⚡ &718 J/s'
   type:
   - '&7&oآلة'
 BEE_DATA_CARD:
+  name: '&bبطاقة بيانات النحلة'
   stats:
   - '&8⇨ &e⚡ &7150 جول/ث'
   type:
   - '&7&oمكون'
+  usage:
+  - '&7ضعها في حجرة محاكاة المخلوقات للتنشيط'
 BLAZE_DATA_CARD:
+  name: '&bبطاقة بيانات البليز'
   stats:
   - '&8⇨ &e⚡ &7600 جول/ث'
   type:
   - '&7&oمكون'
+  usage:
+  - '&7ضعها في حجرة محاكاة المخلوقات للتنشيط'
 CELESTIAL_PANEL:
+  description:
+  - '&7يولّد الطاقة من الشمس'
+  name: '&eلوح سماوي'
   stats:
   - '&8⇨ &e⚡ &7مخزن 75,000 جول'
   - '&8⇨ &e⚡ &7750 جول/ث'
   type:
   - '&7&oمولد'
 CHICKEN_DATA_CARD:
+  name: '&bبطاقة بيانات الدجاجة'
   stats:
   - '&8⇨ &e⚡ &775 جول/ث'
   type:
   - '&7&oمكون'
+  usage:
+  - '&7ضعها في حجرة محاكاة المخلوقات للتنشيط'
 COAL_SINGULARITY:
+  name: '&8تفرّد الفحم'
   type:
   - '&7&oمورد'
 COBBLE_PRESS:
+  description:
+  - '&7يضغط الحجر المرصوف بكفاءة أعلى'
+  name: '&8مِكبس الحجر المرصوف'
   stats:
   - '&8⇨ &e⚡ &7120 جول/ث'
   type:
   - '&7&oآلة'
 COMPRESSED_COBBLESTONE_1:
+  name: '&7حجر مرصوف مضغوط مرة'
+  stats:
+  - '&89 كتل حجر مرصوف مدمجة'
   type:
   - '&7&oمورد'
 COMPRESSED_COBBLESTONE_2:
+  name: '&7حجر مرصوف مضغوط مرتين'
+  stats:
+  - '&881 كتلة حجر مرصوف مدمجة'
   type:
   - '&7&oمورد'
 COMPRESSED_COBBLESTONE_3:
+  name: '&7حجر مرصوف مضغوط ثلاث مرات'
+  stats:
+  - '&8729 كتلة حجر مرصوف مدمجة'
   type:
   - '&7&oمورد'
 COMPRESSED_COBBLESTONE_4:
+  name: '&7حجر مرصوف مضغوط أربع مرات'
+  stats:
+  - '&86,561 كتلة حجر مرصوف مدمجة'
   type:
   - '&7&oمورد'
 COMPRESSED_COBBLESTONE_5:
+  name: '&7حجر مرصوف مضغوط خمس مرات'
+  stats:
+  - '&859,049 كتلة حجر مرصوف مدمجة'
   type:
   - '&7&oمورد'
 COPPER_SINGULARITY:
+  name: '&6تفرّد النحاس'
   type:
   - '&7&oمورد'
 COW_DATA_CARD:
+  name: '&bبطاقة بيانات البقرة'
   stats:
   - '&8⇨ &e⚡ &775 جول/ث'
   type:
   - '&7&oمكون'
+  usage:
+  - '&7ضعها في حجرة محاكاة المخلوقات للتنشيط'
 CREEPER_DATA_CARD:
+  name: '&bبطاقة بيانات الكريبر'
   stats:
   - '&8⇨ &e⚡ &7300 جول/ث'
   type:
   - '&7&oمكون'
+  usage:
+  - '&7ضعها في حجرة محاكاة المخلوقات للتنشيط'
 DATA_INFUSER:
+  description:
+  - '&7يُشبِع بطاقات البيانات الفارغة بعناصر المخلوقات'
+  name: '&8مُشبِع بيانات المخلوقات'
+  stats:
+  - '&8⇨ &e⚡ &720,000 J لكل استخدام'
   type:
   - '&7&oآلة'
 DECOMPRESSOR:
+  description:
+  - '&7يُرجع الكتل إلى مادتها الأساسية'
+  name: '&7مُزيل الضغط'
   stats:
   - '&8⇨ &e⚡ &760 جول/ث'
   type:
   - '&7&oآلة'
 DIAMOND_SINGULARITY:
+  name: '&bتفرّد الألماس'
   type:
   - '&7&oمورد'
 DUST_EXTRACTOR:
+  description:
+  - '&7يحوّل الحجر المرصوف إلى أغبرة'
+  name: '&8مستخلص الغبار'
+  stats:
+  - '&8⇨ &e⚡ &7السرعة: &b1x'
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oآلة'
 EARTH_SINGULARITY:
+  name: '&aتفرّد الأرض'
   type:
   - '&7&oمورد'
 EMERALD_SINGULARITY:
+  name: '&aتفرّد الزمرد'
   type:
   - '&7&oمورد'
 EMPTY_DATA_CARD:
+  name: '&8بطاقة بيانات فارغة'
   type:
   - '&7&oمكون'
+  usage:
+  - '&7أشبِعها بعناصر مخلوق لملئها'
 ENDERMEN_DATA_CARD:
+  name: '&bبطاقة بيانات الإندرمِن'
   stats:
   - '&8⇨ &e⚡ &7600 جول/ث'
   type:
   - '&7&oمكون'
+  usage:
+  - '&7ضعها في حجرة محاكاة المخلوقات للتنشيط'
 ENDER_DRAGON_DATA_CARD:
+  name: '&bبطاقة بيانات تنين الإندر'
   stats:
   - '&8⇨ &e⚡ &79,000 جول/ث'
   type:
   - '&7&oمكون'
+  usage:
+  - '&7ضعها في حجرة محاكاة المخلوقات للتنشيط'
 ENDER_FLAME:
+  name: '&cشعلة الإندر'
   type:
   - '&7&oمكون'
 END_ESSENCE:
+  description:
+  - '&8&oمن أعماق الإند...'
+  name: '&5جوهر الإندر'
   type:
   - '&7&oمورد'
 EXTREME_FREEZER:
+  description:
+  - '&7يحوّل الجليد إلى مُبرِّد'
+  name: '&bمُجمّد متطرف'
   stats:
   - '&8⇨ &e⚡ &790 جول/ث'
   type:
   - '&7&oآلة'
 FORTUNE_SINGULARITY:
+  name: '&6تفرّد الحظ'
   type:
   - '&7&oمورد'
 GEAR_TRANSFORMER:
+  description:
+  - '&7يغيّر مادة الأدوات والعتاد الأصلية'
+  name: '&7مُحوِّل العتاد'
+  stats:
+  - '&8⇨ &e⚡ &712,000 J لكل استخدام'
   type:
   - '&7&oآلة'
 GEOTHERMAL_GENERATOR:
+  description:
+  - '&7يولّد الطاقة من حرارة العالم'
+  name: '&cمولّد حراري أرضي'
   stats:
   - '&8⇨ &e⚡ &7مخزن 3,500 جول'
   - '&8⇨ &e⚡ &735 جول/ث'
   type:
   - '&7&oمولد'
 GEO_QUARRY:
+  description:
+  - '&7يحصد الموارد الجيولوجية ببطء من الفراغ باستخدام الطاقة'
+  name: '&fمنجم جيولوجي'
   stats:
   - '&8⇨ &e⚡ &7450 جول/ث'
   type:
   - '&7&oآلة'
 GOLD_SINGULARITY:
+  name: '&6تفرّد الذهب'
   type:
   - '&7&oمورد'
 GUARDIAN_DATA_CARD:
+  name: '&bبطاقة بيانات الحارس'
   stats:
   - '&8⇨ &e⚡ &7300 جول/ث'
   type:
   - '&7&oمكون'
+  usage:
+  - '&7ضعها في حجرة محاكاة المخلوقات للتنشيط'
 HYDRO_GENERATOR:
+  description:
+  - '&7يولّد الطاقة من حركة الماء'
+  name: '&9مولّد مائي'
   stats:
   - '&8⇨ &e⚡ &7مخزن 500 جول'
   - '&8⇨ &e⚡ &75 جول/ث'
   type:
   - '&7&oمولد'
 INFINITE_INGOT:
+  description:
+  - '&7&oغضب الكون'
+  - '&7&oفي راحة يدك'
+  name: '&bسبيكة لانهائية'
   type:
   - '&7&oمورد'
 INFINITE_MACHINE_CIRCUIT:
+  name: '&6دائرة الآلة &bاللانهائية'
   type:
   - '&7&oمكون'
 INFINITE_MACHINE_CORE:
+  name: '&bنواة آلة لانهائية'
   type:
   - '&7&oمكون'
 INFINITE_PANEL:
+  description:
+  - '&7يولّد الطاقة من الكون'
+  name: '&bلوح لانهائي'
   stats:
   - '&8⇨ &e⚡ &7مخزن 6,000,000 جول'
   - '&8⇨ &e⚡ &760,000 جول/ث'
   type:
   - '&7&oمولد'
 INFINITE_VOID_HARVESTER:
+  description:
+  - '&7يحصد ذرات &8الفراغ &7من العدم...'
+  name: '&8حاصد الفراغ &bاللانهائي'
+  stats:
+  - '&8⇨ &e⚡ &7السرعة: &b64x'
+  - '&8⇨ &e⚡ &712,000 J/s'
   type:
   - '&7&oآلة'
 INFINITY_AXE:
+  name: '&4خراب الطبيعة'
+  stats:
+  - '&bمرتبط بالروح'
   type:
   - '&7&oأداة'
 INFINITY_BLADE:
+  name: '&bنصل الكون'
+  stats:
+  - '&bمرتبط بالروح'
   type:
   - '&7&oسلاح'
 INFINITY_BOOTS:
+  name: '&bحذاء لانهائي'
+  stats:
+  - '&7سرعة III'
+  - '&7نعمة الدلافين I'
+  - '&bمرتبط بالروح'
   type:
   - '&7&oدرع'
 INFINITY_BOW:
+  description:
+  - '&7يطلق سهامًا انفجارية تُبطئ الأعداء وتُشوّشهم عند الارتطام'
+  name: '&6ثاقب السماء'
+  stats:
+  - '&bمرتبط بالروح'
   type:
   - '&7&oسلاح'
 INFINITY_CAPACITOR:
+  description:
+  - '&c&oلا تستخدم أكثر من'
+  - '&c&o1 لكل شبكة طاقة'
+  name: '&bمكثّف لانهائي'
+  stats:
+  - '&8⇨ &e⚡ 2,000,000,000 &7J من السعة'
   type:
   - '&7&oمكون'
 INFINITY_CHARGER:
+  description:
+  - '&7يشحن العناصر فوريًا'
+  name: '&bشاحن لانهائي'
+  stats:
+  - '&8⇨ &e⚡ &7السرعة: &b6000x'
+  - '&8⇨ &e⚡ &760,000 J لكل استخدام'
   type:
   - '&7&oآلة'
 INFINITY_CHESTPLATE:
+  name: '&bصدرية لانهائية'
+  stats:
+  - '&7قوة II'
+  - '&7مقاومة I'
+  - '&7مقاومة النار I'
+  - '&7مناعة من لسعة النحل'
+  - '&bمرتبط بالروح'
   type:
   - '&7&oدرع'
 INFINITY_COBBLE_GEN:
+  description:
+  - '&7يُنتج الحجر المرصوف تلقائيًا مع الوقت'
+  name: '&8مُنتِج الحجر المرصوف &cاللانهائي'
+  stats:
+  - '&8⇨ &e⚡ &7السرعة: &b64x'
+  - '&8⇨ &e⚡ &7800 J/s'
   type:
   - '&7&oآلة'
 INFINITY_CONSTRUCTOR:
+  description:
+  - '&7يكثّف كميات كبيرة من الموارد بسرعة'
+  name: '&fمُشيّد &bلانهائي'
+  stats:
+  - '&8⇨ &e⚡ &7السرعة: &b64x'
+  - '&8⇨ &e⚡ &71,200 J/s'
   type:
   - '&7&oآلة'
 INFINITY_CROWN:
+  name: '&bتاج لانهائي'
+  stats:
+  - '&7رؤية ليلية I'
+  - '&7طاقة الموصل I'
+  - '&7مناعة من ارتطام الإليترا'
+  - '&bمرتبط بالروح'
   type:
   - '&7&oدرع'
 INFINITY_DISENCHANTER:
+  description:
+  - '&7يزيل التعاويذ من العناصر إلى كتب تلقائيًا'
+  name: '&bمُزيل سحر لانهائي'
+  stats:
+  - '&8⇨ &e⚡ &7السرعة: &b90x'
+  - '&8⇨ &e⚡ &712,000 J لكل استخدام'
   type:
   - '&7&oآلة'
 INFINITY_DUST_EXTRACTOR:
+  description:
+  - '&7يحوّل الحجر المرصوف إلى أغبرة'
+  name: '&8مستخلص غبار &bلانهائي'
+  stats:
+  - '&8⇨ &e⚡ &7السرعة: &b16x'
+  - '&8⇨ &e⚡ &77,200 J/s'
   type:
   - '&7&oآلة'
 INFINITY_ENCHANTER:
+  description:
+  - '&7يسحر العناصر الموضوعة داخله تلقائيًا'
+  name: '&bمُسحِّر لانهائي'
+  stats:
+  - '&8⇨ &e⚡ &7السرعة: &b75x'
+  - '&8⇨ &e⚡ &712,000 J لكل استخدام'
   type:
   - '&7&oآلة'
 INFINITY_FORGE:
+  description:
+  - '&7تُستخدم لصناعة العناصر اللانهائية'
+  name: '&6طاولة عمل لانهائية'
+  stats:
+  - '&8⇨ &e⚡ &710,000,000 J لكل عنصر'
   type:
   - '&7&oآلة'
 INFINITY_INGOT_FORMER:
+  description:
+  - '&7يُشكّل السبائك من الأغبرة'
+  name: '&8مُشكّل سبائك &bلانهائي'
+  stats:
+  - '&8⇨ &e⚡ &7السرعة: &b16x'
+  - '&8⇨ &e⚡ &77,200 J/s'
   type:
   - '&7&oآلة'
 INFINITY_LEGGINGS:
+  name: '&bبنطال لانهائي'
+  stats:
+  - '&7تعجيل III'
+  - '&7تجدّد I'
+  - '&7شبع I'
+  - '&7مناعة من الإشعاع'
+  - '&bمرتبط بالروح'
   type:
   - '&7&oدرع'
 INFINITY_MATRIX:
+  description:
+  - '&6تمنح طيرانًا غير محدود'
+  name: '&fمصفوفة لانهائية'
+  stats:
+  - '&bمرتبط بالروح'
   type:
   - '&7&oجهاز'
+  usage:
+  - '&7انقر بالزر الأيمن للتشغيل/الإيقاف والمطالبة بالملكية'
+  - '&7انحنِ وانقر بالزر الأيمن لإزالة الملكية'
 INFINITY_PICKAXE:
+  name: '&9كاسر العالم'
+  stats:
+  - '&bمرتبط بالروح'
   type:
   - '&7&oأداة'
 INFINITY_QUARRY:
+  description:
+  - '&7يُعدِّن خامات العالم العلوي والنيثر تلقائيًا'
+  name: '&bمنجم لانهائي'
+  stats:
+  - '&8⇨ &e⚡ &7السرعة: &b64x'
+  - '&8⇨ &e⚡ &736,000 J/s'
   type:
   - '&7&oآلة'
 INFINITY_REACTOR:
+  description:
+  - '&7يولّد الطاقة عبر ضغط سبائك'
+  - '&7&8الفراغ &7و&bاللانهاية &7'
+  name: '&bمُفاعل لانهائي'
   stats:
   - '&8⇨ &e⚡ &7مخزن 120,000,000 جول'
   - '&8⇨ &e⚡ &7120,000 جول/ث'
   type:
   - '&7&oمولد'
 INFINITY_SHIELD:
+  name: '&bالترس الكوني'
+  stats:
+  - '&bمرتبط بالروح'
   type:
   - '&7&oسلاح'
 INFINITY_SHOVEL:
+  name: '&aآكل الجبال'
+  stats:
+  - '&bمرتبط بالروح'
   type:
   - '&7&oأداة'
 INFINITY_SINGULARITY:
+  name: '&bتفرّد لانهائي'
   type:
   - '&7&oمورد'
 INFINITY_STORAGE:
+  description:
+  - '&7تخزّن كميات كبيرة من نوع عنصر واحد'
+  name: '&8وحدة تخزين &bلانهائية'
+  stats:
+  - '&6السعة: &e1,600,000,000 &eعنصر'
   type:
   - '&7&oآلة'
 INFINITY_TREE_GROWER:
+  description:
+  - '&7ينمّي الأشجار ويحصدها ويعيد زراعتها تلقائيًا'
+  name: '&2مُنمّي أشجار &bلانهائي'
+  stats:
+  - '&8⇨ &e⚡ &7السرعة: &b25x'
+  - '&8⇨ &e⚡ &71,800 J/s'
   type:
   - '&7&oآلة'
 INFINITY_VIRTUAL_FARM:
+  description:
+  - '&7ينمّي المحاصيل ويحصدها ويعيد زراعتها تلقائيًا'
+  name: '&aمزرعة افتراضية &bلانهائية'
+  stats:
+  - '&8⇨ &e⚡ &7السرعة: &b25x'
+  - '&8⇨ &e⚡ &7900 J/s'
   type:
   - '&7&oآلة'
 INGOT_FORMER:
+  description:
+  - '&7يُشكّل السبائك من الأغبرة'
+  name: '&8مُشكّل السبائك'
+  stats:
+  - '&8⇨ &e⚡ &7السرعة: &b1x'
+  - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oآلة'
 IRON_GOLEM_DATA_CARD:
+  name: '&bبطاقة بيانات جولم الحديد'
   stats:
   - '&8⇨ &e⚡ &7600 جول/ث'
   type:
   - '&7&oمكون'
+  usage:
+  - '&7ضعها في حجرة محاكاة المخلوقات للتنشيط'
 IRON_SINGULARITY:
+  name: '&7تفرّد الحديد'
   type:
   - '&7&oمورد'
 LAPIS_SINGULARITY:
+  name: '&9تفرّد اللازورد'
   type:
   - '&7&oمورد'
 LEAD_SINGULARITY:
+  name: '&8تفرّد الرصاص'
   type:
   - '&7&oمورد'
 MACHINE_CIRCUIT:
+  name: '&6دائرة آلة'
   type:
   - '&7&oمكون'
 MACHINE_CORE:
+  name: '&fنواة الآلة'
   type:
   - '&7&oمكون'
 MACHINE_PLATE:
+  name: '&fصفيحة آلة'
   type:
   - '&7&oمكون'
 MAGIC_SINGULARITY:
+  name: '&dتفرّد السحر'
   type:
   - '&7&oمورد'
 MAGMA_CUBE_DATA_CARD:
+  name: '&bبطاقة بيانات مكعب الحمم'
   stats:
   - '&8⇨ &e⚡ &7150 جول/ث'
   type:
   - '&7&oمكون'
+  usage:
+  - '&7ضعها في حجرة محاكاة المخلوقات للتنشيط'
 MAGNESIUM_SINGULARITY:
+  name: '&5تفرّد المغنيسيوم'
   type:
   - '&7&oمورد'
 MAGNONIUM:
+  name: '&5ماغنونيوم'
   type:
   - '&7&oمورد'
 MAGSTEEL:
+  name: '&4ماغفولاذ'
   type:
   - '&7&oمورد'
 MAGSTEEL_PLATE:
+  name: '&4صفيحة ماغفولاذ'
   type:
   - '&7&oمكون'
 METAL_SINGULARITY:
+  name: '&8تفرّد المعدن'
   type:
   - '&7&oمورد'
 MOB_SIMULATION_CHAMBER:
+  description:
+  - '&7استخدم بطاقات بيانات المخلوقات للتنشيط'
+  name: '&8حجرة محاكاة المخلوقات'
   stats:
   - '&8⇨ &e⚡ &7مخزن 15,000 جول'
   - '&8⇨ &e⚡ &7150 جول/ث'
   type:
   - '&7&oآلة'
 MYTHRIL:
+  name: '&bميثريل'
   type:
   - '&7&oمورد'
 NETHERITE_SINGULARITY:
+  name: '&4تفرّد النيثرايت'
   type:
   - '&7&oمورد'
 POWERED_BEDROCK:
+  description:
+  - '&7عند تزويده بالطاقة يتحوّل إلى صخر أساس'
+  - '&7يعود إلى حالته عند انقطاع الطاقة أو كسره'
+  name: '&4صخر أساس مزوّد بالطاقة'
   stats:
   - '&8⇨ &e⚡ &710,000 جول/ث'
   type:
   - '&7&oآلة'
 QUARRY_OSCILLATOR_DIAMOND:
+  name: '&bمُذبذِب الألماس'
   type:
   - '&7&oمكون'
+  usage:
+  - '&7ضعه في منجم لتمنحه'
+  - '&7فرصة 50.0% لتعدين هذه المادة'
 QUARRY_OSCILLATOR_EMERALD:
+  name: '&bمُذبذِب الزمرد'
   type:
   - '&7&oمكون'
+  usage:
+  - '&7ضعه في منجم لتمنحه'
+  - '&7فرصة 50.0% لتعدين هذه المادة'
 QUARRY_OSCILLATOR_LAPIS_LAZULI:
+  name: '&bمُذبذِب اللازورد'
   type:
   - '&7&oمكون'
+  usage:
+  - '&7ضعه في منجم لتمنحه'
+  - '&7فرصة 50.0% لتعدين هذه المادة'
 QUARRY_OSCILLATOR_QUARTZ:
+  name: '&bمُذبذِب الكوارتز'
   type:
   - '&7&oمكون'
+  usage:
+  - '&7ضعه في منجم لتمنحه'
+  - '&7فرصة 50.0% لتعدين هذه المادة'
 QUARRY_OSCILLATOR_REDSTONE:
+  name: '&bمُذبذِب الحجر الأحمر'
   type:
   - '&7&oمكون'
+  usage:
+  - '&7ضعه في منجم لتمنحه'
+  - '&7فرصة 50.0% لتعدين هذه المادة'
 QUARTZ_SINGULARITY:
+  name: '&fتفرّد الكوارتز'
   type:
   - '&7&oمورد'
 REDSTONE_SINGULARITY:
+  name: '&cتفرّد الحجر الأحمر'
   type:
   - '&7&oمورد'
 REINFORCED_GEOTHERMAL_GENERATOR:
+  description:
+  - '&7يولّد كميات كبيرة من الطاقة'
+  - '&7من حرارة العالم'
+  name: '&cمولّد حراري أرضي &fمعزّز'
   stats:
   - '&8⇨ &e⚡ &7مخزن 21,000 جول'
   - '&8⇨ &e⚡ &7210 جول/ث'
   type:
   - '&7&oمولد'
 REINFORCED_HYDRO_GENERATOR:
+  description:
+  - '&7يولّد كميات كبيرة من الطاقة'
+  - '&7من حركة الماء'
+  name: '&9مولّد مائي &fمعزّز'
   stats:
   - '&8⇨ &e⚡ &7مخزن 4,500 جول'
   - '&8⇨ &e⚡ &745 جول/ث'
   type:
   - '&7&oمولد'
 REINFORCED_STORAGE:
+  description:
+  - '&7تخزّن كميات كبيرة من نوع عنصر واحد'
+  name: '&8وحدة تخزين &fمعزّزة'
+  stats:
+  - '&6السعة: &e102,400 &eعنصر'
   type:
   - '&7&oآلة'
 REINFORCED_STRAINER:
+  description:
+  - '&7تجمع المواد من الماء الجاري'
+  name: '&fمِصفاة معزّزة'
   stats:
   - '&8⇨ &b⚡ &7السرعة: &b20.0x'
   type:
   - '&7&oمكون'
 RESOURCE_SYNTHESIZER:
+  description:
+  - '&7يُنشئ الموارد بدمج 2 تفرّد'
+  name: '&6مُصنِّع الموارد'
+  stats:
+  - '&8⇨ &e⚡ &71,000,000 J لكل استخدام'
   type:
   - '&7&oآلة'
 SHEEP_DATA_CARD:
+  name: '&bبطاقة بيانات الخروف'
   stats:
   - '&8⇨ &e⚡ &775 جول/ث'
   type:
   - '&7&oمكون'
+  usage:
+  - '&7ضعها في حجرة محاكاة المخلوقات للتنشيط'
 SILVER_SINGULARITY:
+  name: '&7تفرّد الفضة'
   type:
   - '&7&oمورد'
 SINGULARITY_CONSTRUCTOR:
+  description:
+  - '&7يكثّف كميات كبيرة من الموارد'
+  name: '&fمُشيّد التفرّدات'
+  stats:
+  - '&8⇨ &e⚡ &7السرعة: &b1x'
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oآلة'
 SKELETON_DATA_CARD:
+  name: '&bبطاقة بيانات الهيكل العظمي'
   stats:
   - '&8⇨ &e⚡ &7300 جول/ث'
   type:
   - '&7&oمكون'
+  usage:
+  - '&7ضعها في حجرة محاكاة المخلوقات للتنشيط'
 SLIME_DATA_CARD:
+  name: '&bبطاقة بيانات السلايم'
   stats:
   - '&8⇨ &e⚡ &7150 جول/ث'
   type:
   - '&7&oمكون'
+  usage:
+  - '&7ضعها في حجرة محاكاة المخلوقات للتنشيط'
 SPIDER_DATA_CARD:
+  name: '&bبطاقة بيانات العنكبوت'
   stats:
   - '&8⇨ &e⚡ &7300 جول/ث'
   type:
   - '&7&oمكون'
+  usage:
+  - '&7ضعها في حجرة محاكاة المخلوقات للتنشيط'
 STONEWORKS_FACTORY:
+  description:
+  - '&7يُنتج الحجر المرصوف ويحوّله إلى مواد متنوعة'
+  name: '&8مصنع أعمال الحجر'
   stats:
   - '&8⇨ &e⚡ &7240 جول/ث'
   type:
   - '&7&oآلة'
+  usage:
+  - '&eانقر&7 على خانات الاختيار للتبديل بين الصهر والسحق والضغط والتحويل'
 STORAGE_FORGE:
+  description:
+  - '&7يرقّي رتبة وحدات التخزين'
+  - '&7يحفظ العناصر المخزّنة'
+  name: '&6مصهر التخزين'
   type:
   - '&7&oآلة'
 STRAINER_BASE:
+  description:
+  - '&7تجمع المواد ببطء من الماء الجاري باستخدام مِصفاة'
+  - '&7يجب أن تكون مغمورة بالماء لتعمل'
+  name: '&7قاعدة المِصفاة'
   type:
   - '&7&oآلة'
 TIN_SINGULARITY:
+  name: '&7تفرّد القصدير'
   type:
   - '&7&oمورد'
 TITANIUM:
+  name: '&7تيتانيوم'
   type:
   - '&7&oمورد'
 URANIUM_EXTRACTOR:
+  description:
+  - '&7يحوّل الحجر المرصوف إلى يورانيوم'
+  name: '&aمستخلص اليورانيوم'
   stats:
   - '&8⇨ &e⚡ &7240 جول/ث'
   type:
   - '&7&oآلة'
 VEIN_MINER_RUNE:
+  description:
+  - '&7ترقّي أداة لتُعدِّن عروق مواد معيّنة'
+  name: '&bرونة مُعدِّن العروق'
   type:
   - '&7&oجهاز'
+  usage:
+  - '&eأسقِطها&7 بجانب أداة لترقيتها إلى مُعدِّن عروق'
 VILLAGER_DATA_CARD:
+  name: '&bبطاقة بيانات القروي'
   stats:
   - '&8⇨ &e⚡ &7150 جول/ث'
   type:
   - '&7&oمكون'
+  usage:
+  - '&7ضعها في حجرة محاكاة المخلوقات للتنشيط'
 VOID_BIT:
+  description:
+  - '&7&oتبدو... فارغة'
+  name: '&8ذرة الفراغ'
   type:
   - '&7&oمورد'
 VOID_CAPACITOR:
+  description:
+  - '&7يخزّن الطاقة الزائدة لشبكة طاقة'
+  name: '&8مكثّف الفراغ'
+  stats:
+  - '&8⇨ &e⚡ 16,000,000 &7J من السعة'
   type:
   - '&7&oمكون'
 VOID_DUST:
+  description:
+  - '&7&oبدأ يتّخذ شكلًا...'
+  name: '&8غبار الفراغ'
   type:
   - '&7&oمورد'
 VOID_HARVESTER:
+  description:
+  - '&7يحصد ببطء ذرات &8الفراغ &7من العدم...'
+  name: '&8حاصد الفراغ'
+  stats:
+  - '&8⇨ &e⚡ &7السرعة: &b1x'
+  - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oآلة'
 VOID_INGOT:
+  description:
+  - '&7&oفراغ الكون'
+  - '&7&oفي راحة يدك'
+  name: '&8سبيكة الفراغ'
   type:
   - '&7&oمورد'
 VOID_PANEL:
+  description:
+  - '&7يولّد الطاقة من الظلام'
+  name: '&8لوح الفراغ'
   stats:
   - '&8⇨ &e⚡ &7مخزن 300,000 جول'
   - '&8⇨ &e⚡ &73,000 جول/ث'
   type:
   - '&7&oمولد'
 VOID_QUARRY:
+  description:
+  - '&7يُعدِّن خامات العالم العلوي والنيثر تلقائيًا'
+  name: '&8منجم الفراغ'
+  stats:
+  - '&8⇨ &e⚡ &7السرعة: &b6x'
+  - '&8⇨ &e⚡ &73,600 J/s'
   type:
   - '&7&oآلة'
 VOID_STORAGE:
+  description:
+  - '&7تخزّن كميات كبيرة من نوع عنصر واحد'
+  name: '&8وحدة تخزين &8الفراغ'
+  stats:
+  - '&6السعة: &e409,600 &eعنصر'
   type:
   - '&7&oآلة'
 WITCH_DATA_CARD:
+  name: '&bبطاقة بيانات الساحرة'
   stats:
   - '&8⇨ &e⚡ &7600 جول/ث'
   type:
   - '&7&oمكون'
+  usage:
+  - '&7ضعها في حجرة محاكاة المخلوقات للتنشيط'
 WITHER_DATA_CARD:
+  name: '&bبطاقة بيانات الويثر'
   stats:
   - '&8⇨ &e⚡ &74,500 جول/ث'
   type:
   - '&7&oمكون'
+  usage:
+  - '&7ضعها في حجرة محاكاة المخلوقات للتنشيط'
 WITHER_SKELETON_DATA_CARD:
+  name: '&bبطاقة بيانات هيكل الويثر'
   stats:
   - '&8⇨ &e⚡ &7600 جول/ث'
   type:
   - '&7&oمكون'
+  usage:
+  - '&7ضعها في حجرة محاكاة المخلوقات للتنشيط'
 ZINC_SINGULARITY:
+  name: '&7تفرّد الزنك'
   type:
   - '&7&oمورد'
 ZOMBIE_DATA_CARD:
+  name: '&bبطاقة بيانات الزومبي'
   stats:
   - '&8⇨ &e⚡ &7300 جول/ث'
   type:
   - '&7&oمكون'
+  usage:
+  - '&7ضعها في حجرة محاكاة المخلوقات للتنشيط'
