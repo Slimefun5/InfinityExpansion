@@ -3,7 +3,6 @@ package io.github.mooy1.infinityexpansion.items.blocks;
 import javax.annotation.Nonnull;
 import javax.annotation.ParametersAreNonnullByDefault;
 
-import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
@@ -21,6 +20,7 @@ import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
 import io.github.thebusybiscuit.slimefun5.utils.ChestMenuUtils;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenuPreset;
+import io.github.mooy1.infinityexpansion.utils.Messages;
 import io.github.mooy1.infinityexpansion.MaterialCompat;
 import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 
@@ -80,8 +80,7 @@ public final class InfinityWorkbench extends io.github.mooy1.infinitylib.machine
     protected void craft(Block b, BlockMenu menu, Player p) {
         int charge = getCharge(menu.getLocation());
         if (charge < this.energy) {
-            p.sendMessage(ChatColor.RED + "Not enough energy!");
-            p.sendMessage(ChatColor.GREEN + "Charge: " + ChatColor.RED + charge + ChatColor.GREEN + "/" + this.energy + " J");
+            Messages.sendNotEnoughEnergy(p, charge, this.energy);
         }
         else {
             super.craft(b, menu, p);

@@ -10,6 +10,7 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 
+import io.github.mooy1.infinityexpansion.utils.Messages;
 import io.github.mooy1.infinitylib.commands.SubCommand;
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
@@ -25,25 +26,26 @@ public final class GiveRecipe extends SubCommand {
     @Override
     protected void execute(@Nonnull CommandSender sender, @Nonnull String[] args) {
         if (!(sender instanceof Player)) {
-            sender.sendMessage("Only players can use this!");
+            Messages.send(sender, "command.players-only", "Only players can use this!");
             return;
         }
 
         if (args.length != 1) {
-            sender.sendMessage("Usage: /ie giverecipe <ID>");
+            Messages.send(sender, "command.giverecipe-usage", "Usage: /ie giverecipe <ID>");
             return;
         }
 
         SlimefunItem sfItem = SlimefunItem.getById(args[0].toUpperCase());
 
         if (sfItem == null || sfItem instanceof MultiBlockMachine || sfItem.getRecipeType() == RecipeType.GEO_MINER) {
-            sender.sendMessage(ChatColor.RED + "Invalid Slimefun item!");
+            Messages.send(sender, ChatColor.RED, "command.invalid-item", "Invalid Slimefun item!");
             return;
         }
 
-        sender.sendMessage(ChatColor.GREEN + "Gave recipe for " + sfItem.getItemName());
-
         Player p = (Player) sender;
+
+        Messages.send(p, ChatColor.GREEN, "command.gave-recipe", "Gave recipe for %item%",
+                line -> line.replace("%item%", Slimefun.getItemTranslationService().getName(p, sfItem)));
 
         List<ItemStack> recipe = new ArrayList<>();
 

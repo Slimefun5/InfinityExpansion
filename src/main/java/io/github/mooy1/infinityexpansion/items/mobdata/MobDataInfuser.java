@@ -8,6 +8,7 @@ import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 
+import io.github.mooy1.infinityexpansion.utils.Messages;
 import io.github.mooy1.infinitylib.machines.CraftingBlock;
 import io.github.mooy1.infinitylib.machines.MachineRecipeType;
 import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup;
@@ -33,7 +34,7 @@ public final class MobDataInfuser extends CraftingBlock implements EnergyNetComp
     @Override
     protected void craft(Block b, BlockMenu menu, Player p) {
         if (getCharge(menu.getLocation()) < this.energy) {
-            p.sendMessage(ChatColor.RED + "Not enough energy!");
+            Messages.send(p, ChatColor.RED, "machine.no-energy", "Not enough energy!");
         }
         else {
             super.craft(b, menu, p);

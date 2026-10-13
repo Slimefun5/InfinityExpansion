@@ -98,6 +98,7 @@ public final class InfinityExpansion extends AbstractAddon {
 
         // Contribute this addon's per-language item translations (languages/<lang>/items.yml).
         Slimefun.getItemTranslationService().registerTranslations(this);
+        Slimefun.getAddonMessageService().registerTranslations(this);
         registerGuideWidgets();
 
         // Register this addon's own in-game wiki page (core does not auto-generate addon wikis).

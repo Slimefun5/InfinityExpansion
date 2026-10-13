@@ -11,6 +11,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
+import io.github.mooy1.infinityexpansion.utils.Messages;
 import io.github.mooy1.infinitylib.common.Events;
 import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
@@ -28,12 +29,12 @@ public final class InfinityMatrix extends SimpleSlimefunItem<ItemUseHandler> imp
     }
 
     private static void disableFlight(Player p) {
-        p.sendMessage(ChatColor.RED + "Infinity Flight Disabled!");
+        Messages.send(p, ChatColor.RED, "matrix.flight-disabled", "Infinity Flight Disabled!");
         p.setAllowFlight(false);
     }
 
     private static void enableFlight(Player p) {
-        p.sendMessage(ChatColor.GREEN + "Infinity Flight Enabled!");
+        Messages.send(p, ChatColor.GREEN, "matrix.flight-enabled", "Infinity Flight Enabled!");
         p.setAllowFlight(true);
     }
 
@@ -62,7 +63,7 @@ public final class InfinityMatrix extends SimpleSlimefunItem<ItemUseHandler> imp
                     String uuid = ChatColor.stripColor(line).substring(6);
 
                     if (!p.getUniqueId().toString().equals(uuid)) {
-                        p.sendMessage(ChatColor.YELLOW + "You do not own this matrix!");
+                        Messages.send(p, ChatColor.YELLOW, "matrix.not-owner", "You do not own this matrix!");
                         return;
                     }
 
@@ -70,7 +71,7 @@ public final class InfinityMatrix extends SimpleSlimefunItem<ItemUseHandler> imp
                         iterator.remove();
                         meta.setLore(lore);
                         item.setItemMeta(meta);
-                        p.sendMessage(ChatColor.GOLD + "Ownership removed!");
+                        Messages.send(p, ChatColor.GOLD, "matrix.ownership-removed", "Ownership removed!");
                         disableFlight(p);
 
                     }
@@ -88,7 +89,7 @@ public final class InfinityMatrix extends SimpleSlimefunItem<ItemUseHandler> imp
             lore.add(ChatColor.GREEN + "UUID: " + p.getUniqueId());
             meta.setLore(lore);
             item.setItemMeta(meta);
-            p.sendMessage(ChatColor.GOLD + "Ownership claimed!");
+            Messages.send(p, ChatColor.GOLD, "matrix.ownership-claimed", "Ownership claimed!");
             enableFlight(p);
         };
     }

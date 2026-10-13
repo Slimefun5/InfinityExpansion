@@ -1,0 +1,34 @@
+command:
+  players-only: "Only players can use this!"
+  giverecipe-usage: "Usage: /ie giverecipe <ID>"
+  invalid-item: "Invalid Slimefun item!"
+  gave-recipe: "Gave recipe for %item%"
+  hold-item: "You must be holding an item!"
+  setdata-usage: "You must specify a key and value to set!"
+  target-block: "You need to target a block to use this command!"
+  target-slimefun-block: "You need to target a slimefun block to use this command!"
+  id-immutable: "You cannot change the id of this block, it could cause internal issues!"
+  data-removed: "Successfully removed value of key '%key%' in %id%"
+  data-set: "Successfully set key '%key%' to value '%value%' in %id%"
+machine:
+  no-energy: "Not enough energy!"
+  charge: "Charge: %charge%/%capacity% J"
+anvil:
+  invalid-items: "Invalid items!"
+  not-disenchantable: "Slimefun item is not disenchantable!"
+  not-enchantable: "Slimefun item is not enchantable!"
+  no-upgrades: "No upgrades!"
+  no-room: "Not enough room!"
+matrix:
+  flight-disabled: "Infinity Flight Disabled!"
+  flight-enabled: "Infinity Flight Enabled!"
+  not-owner: "You do not own this matrix!"
+  ownership-removed: "Ownership removed!"
+  ownership-claimed: "Ownership claimed!"
+vein-miner:
+  added: "Added Vein Miner to tool!"
+  failed: "Failed to add vein miner!"
+  too-tired: "You are too tired to vein-mine!"
+  cooldown: "You must wait 1 second before using again!"
+storage:
+  transferred-to-drop: "Stored items transferred to dropped item"

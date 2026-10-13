@@ -18,6 +18,7 @@ import org.bukkit.inventory.meta.ItemMeta;
 
 import io.github.mooy1.infinityexpansion.InfinityExpansion;
 import io.github.mooy1.infinityexpansion.MaterialCompat;
+import io.github.mooy1.infinityexpansion.utils.Messages;
 import io.github.mooy1.infinityexpansion.utils.CompatUtils;
 import io.github.mooy1.infinitylib.machines.MachineLore;
 import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
@@ -233,7 +234,7 @@ public final class StorageCache {
 
         ItemStack drop = this.storageUnit.getItem().clone();
         drop.setItemMeta(StorageUnit.saveToStack(drop.getItemMeta(), this.menu.getItemInSlot(DISPLAY_SLOT), this.displayName, this.amount));
-        e.getPlayer().sendMessage(ChatColor.GREEN + "Stored items transferred to dropped item");
+        Messages.send(e.getPlayer(), ChatColor.GREEN, "storage.transferred-to-drop", "Stored items transferred to dropped item");
         drops.add(drop);
     }
 

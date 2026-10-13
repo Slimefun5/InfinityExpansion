@@ -34,6 +34,7 @@ import org.bukkit.inventory.meta.ItemMeta;
 import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
 
 import io.github.mooy1.infinityexpansion.InfinityExpansion;
+import io.github.mooy1.infinityexpansion.utils.Messages;
 import io.github.mooy1.infinityexpansion.utils.CompatUtils;
 import io.github.mooy1.infinityexpansion.utils.SoundCompat;
 import io.github.mooy1.infinitylib.common.CoolDowns;
@@ -116,16 +117,16 @@ public final class VeinMinerRune extends SlimefunItem implements Listener, NotPl
                         setVeinMiner(itemStack, true);
                         l.getWorld().dropItemNaturally(l, itemStack);
 
-                        p.sendMessage(ChatColor.GREEN + "Added Vein Miner to tool!");
+                        Messages.send(p, ChatColor.GREEN, "vein-miner.added", "Added Vein Miner to tool!");
                     }
                     else {
-                        p.sendMessage(ChatColor.RED + "Failed to add vein miner!");
+                        Messages.send(p, ChatColor.RED, "vein-miner.failed", "Failed to add vein miner!");
                     }
                 });
 
             }
             else {
-                p.sendMessage(ChatColor.RED + "Failed to add vein miner!");
+                Messages.send(p, ChatColor.RED, "vein-miner.failed", "Failed to add vein miner!");
             }
         }
     }
@@ -204,7 +205,7 @@ public final class VeinMinerRune extends SlimefunItem implements Listener, NotPl
         }
 
         if (p.getFoodLevel() == 0) {
-            p.sendMessage(ChatColor.GOLD + "You are too tired to vein-mine!");
+            Messages.send(p, ChatColor.GOLD, "vein-miner.too-tired", "You are too tired to vein-mine!");
             return;
         }
 
@@ -221,7 +222,7 @@ public final class VeinMinerRune extends SlimefunItem implements Listener, NotPl
         }
 
         if (!this.cooldowns.checkAndReset(p.getUniqueId())) {
-            p.sendMessage(ChatColor.GOLD + "You must wait 1 second before using again!");
+            Messages.send(p, ChatColor.GOLD, "vein-miner.cooldown", "You must wait 1 second before using again!");
             return;
         }
 

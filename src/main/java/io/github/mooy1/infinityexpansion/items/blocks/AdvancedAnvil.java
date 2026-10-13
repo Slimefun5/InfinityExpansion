@@ -23,6 +23,7 @@ import com.google.common.collect.MapDifference;
 import com.google.common.collect.Maps;
 import io.github.mooy1.infinityexpansion.InfinityExpansion;
 import io.github.mooy1.infinityexpansion.items.abstracts.AbstractEnergyCrafter;
+import io.github.mooy1.infinityexpansion.utils.Messages;
 import io.github.mooy1.infinityexpansion.utils.SoundCompat;
 import io.github.mooy1.infinityexpansion.utils.Util;
 import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup;
@@ -105,8 +106,7 @@ public final class AdvancedAnvil extends AbstractEnergyCrafter {
     private void craft(BlockMenu inv, Block b, Player p) {
         Location l = b.getLocation();
         if (getCharge(l) < this.energy) {
-            p.sendMessage(ChatColor.RED + "Not enough energy!");
-            p.sendMessage(ChatColor.GREEN + "Charge: " + ChatColor.RED + getCharge(l) + ChatColor.GREEN + "/" + this.energy + " J");
+            Messages.sendNotEnoughEnergy(p, getCharge(l), this.energy);
             return;
         }
 
@@ -116,29 +116,29 @@ public final class AdvancedAnvil extends AbstractEnergyCrafter {
         SlimefunItem sfItem2 = SlimefunItem.getByItem(inv.getItemInSlot(INPUT_SLOTS[1]));
 
         if (item1 == null || item2 == null || (item2.getType() != MaterialCompat.safe(XMaterial.ENCHANTED_BOOK) && item1.getType() != item2.getType())) {
-            p.sendMessage(ChatColor.RED + "Invalid items!");
+            Messages.send(p, ChatColor.RED, "anvil.invalid-items", "Invalid items!");
             return;
         }
 
         if(sfItem2 != null && !sfItem2.isDisenchantable()){
-            p.sendMessage(ChatColor.RED + "Slimefun item is not disenchantable!");
+            Messages.send(p, ChatColor.RED, "anvil.not-disenchantable", "Slimefun item is not disenchantable!");
             return;
         }
 
         if(sfItem1 != null && !sfItem1.isEnchantable()){
-            p.sendMessage(ChatColor.RED + "Slimefun item is not enchantable!");
+            Messages.send(p, ChatColor.RED, "anvil.not-enchantable", "Slimefun item is not enchantable!");
             return;
         }
 
         ItemStack output = getOutput(item1, item2);
 
         if (output == null) {
-            p.sendMessage(ChatColor.RED + "No upgrades!");
+            Messages.send(p, ChatColor.RED, "anvil.no-upgrades", "No upgrades!");
             return;
         }
 
         if (!inv.fits(output, OUTPUT_SLOTS)) {
-            p.sendMessage(ChatColor.GOLD + "Not enough room!");
+            Messages.send(p, ChatColor.GOLD, "anvil.no-room", "Not enough room!");
             return;
         }
 
