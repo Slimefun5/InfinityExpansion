@@ -37,3 +37,8 @@ vein-miner:
 
 storage:
   transferred-to-drop: "ย้ายไอเทมที่เก็บไว้ไปยังไอเทมที่ถูกทิ้งแล้ว"
+guide:
+  widgets:
+    logistics: '&bหน่วยจัดเก็บ'
+    machines: '&bเครื่องจักรและระดับ'
+    resources: '&bความคืบหน้า Infinity'

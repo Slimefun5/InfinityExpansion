@@ -37,3 +37,8 @@ vein-miner:
 
 storage:
   transferred-to-drop: "Objets stockés transférés vers l'objet lâché"
+guide:
+  widgets:
+    logistics: '&bUnités de stockage'
+    machines: '&bMachines & paliers'
+    resources: '&bProgression Infinity'

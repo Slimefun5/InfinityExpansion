@@ -37,3 +37,8 @@ vein-miner:
 
 storage:
   transferred-to-drop: "Uložené předměty přeneseny do vyhozeného předmětu"
+guide:
+  widgets:
+    logistics: '&bSkladovací jednotky'
+    machines: '&bStroje & úrovně'
+    resources: '&bPostup Infinity'

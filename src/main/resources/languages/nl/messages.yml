@@ -37,3 +37,8 @@ vein-miner:
 
 storage:
   transferred-to-drop: "Opgeslagen items overgedragen naar het gedropte item"
+guide:
+  widgets:
+    logistics: '&bOpslageenheden'
+    machines: '&bMachines & niveaus'
+    resources: '&bInfinity-voortgang'

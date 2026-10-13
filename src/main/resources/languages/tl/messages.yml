@@ -37,3 +37,8 @@ vein-miner:
 
 storage:
   transferred-to-drop: "Inilipat ang mga nakaimbak na item sa nalaglag na item"
+guide:
+  widgets:
+    logistics: '&bMga yunit ng imbakan'
+    machines: '&bMga makina at antas'
+    resources: '&bPag-unlad ng Infinity'

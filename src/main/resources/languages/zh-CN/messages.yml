@@ -37,3 +37,8 @@ vein-miner:
 
 storage:
   transferred-to-drop: "已将存储的物品转移到掉落物中"
+guide:
+  widgets:
+    logistics: '&b存储单元'
+    machines: '&b机器与等级'
+    resources: '&bInfinity 进度'

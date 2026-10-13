@@ -37,3 +37,8 @@ vein-miner:
 
 storage:
   transferred-to-drop: "Збережені предмети перенесено до викинутого предмета"
+guide:
+  widgets:
+    logistics: '&bБлоки зберігання'
+    machines: '&bМашини та рівні'
+    resources: '&bПрогрес Infinity'

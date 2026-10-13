@@ -37,3 +37,8 @@ vein-miner:
 
 storage:
   transferred-to-drop: "تم نقل العناصر المخزنة إلى العنصر المُسقط"
+guide:
+  widgets:
+    logistics: '&bوحدات التخزين'
+    machines: '&bالآلات والمستويات'
+    resources: '&bتقدم Infinity'

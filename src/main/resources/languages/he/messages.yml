@@ -37,3 +37,8 @@ vein-miner:
 
 storage:
   transferred-to-drop: "הפריטים המאוחסנים הועברו לפריט שהושלך"
+guide:
+  widgets:
+    logistics: '&bיחידות אחסון'
+    machines: '&bמכונות ודרגות'
+    resources: '&bהתקדמות Infinity'

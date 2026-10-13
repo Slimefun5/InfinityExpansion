@@ -37,3 +37,8 @@ vein-miner:
 
 storage:
   transferred-to-drop: "Obiectele stocate au fost transferate în obiectul aruncat"
+guide:
+  widgets:
+    logistics: '&bUnități de stocare'
+    machines: '&bMașini și niveluri'
+    resources: '&bProgres Infinity'

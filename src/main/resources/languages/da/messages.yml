@@ -37,3 +37,8 @@ vein-miner:
 
 storage:
   transferred-to-drop: "Lagrede genstande overført til den smidte genstand"
+guide:
+  widgets:
+    logistics: '&bLagerenheder'
+    machines: '&bMaskiner & niveauer'
+    resources: '&bInfinity-progression'

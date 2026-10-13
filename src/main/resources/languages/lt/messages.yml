@@ -37,3 +37,8 @@ vein-miner:
 
 storage:
   transferred-to-drop: "Saugomi daiktai perkelti į išmestą daiktą"
+guide:
+  widgets:
+    logistics: '&bSaugojimo įrenginiai'
+    machines: '&bMašinos ir lygiai'
+    resources: '&bInfinity pažanga'

@@ -37,3 +37,8 @@ vein-miner:
 
 storage:
   transferred-to-drop: "Item yang disimpan dipindahkan ke item yang terjatuh"
+guide:
+  widgets:
+    logistics: '&bUnit penyimpanan'
+    machines: '&bMesin & peringkat'
+    resources: '&bKemajuan Infinity'

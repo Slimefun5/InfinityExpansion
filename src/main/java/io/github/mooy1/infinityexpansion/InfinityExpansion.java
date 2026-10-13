@@ -594,6 +594,8 @@ public final class InfinityExpansion extends AbstractAddon {
             GuideWidget.Position.BOTTOM,
             (player, profile) -> WikiIndex.openAddonWiki(player, profile, getName(), category),
             getName(),
-            category));
+            category)
+            .setNameResolver(viewer -> Slimefun.getAddonMessageService()
+                .getMessage(viewer, this, "guide.widgets." + category, name)));
     }
 }

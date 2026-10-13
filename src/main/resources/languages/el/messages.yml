@@ -37,3 +37,8 @@ vein-miner:
 
 storage:
   transferred-to-drop: "Τα αποθηκευμένα αντικείμενα μεταφέρθηκαν στο πεσμένο αντικείμενο"
+guide:
+  widgets:
+    logistics: '&bΜονάδες αποθήκευσης'
+    machines: '&bΜηχανές & επίπεδα'
+    resources: '&bΠρόοδος Infinity'

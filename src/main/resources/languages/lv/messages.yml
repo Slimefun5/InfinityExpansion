@@ -37,3 +37,8 @@ vein-miner:
 
 storage:
   transferred-to-drop: "Uzglabātie priekšmeti pārnesti uz nomesto priekšmetu"
+guide:
+  widgets:
+    logistics: '&bUzglabāšanas vienības'
+    machines: '&bMašīnas un līmeņi'
+    resources: '&bInfinity progress'

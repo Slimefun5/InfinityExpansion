@@ -37,3 +37,8 @@ vein-miner:
 
 storage:
   transferred-to-drop: "Varastoidut esineet siirrettiin pudotettuun esineeseen"
+guide:
+  widgets:
+    logistics: '&bVarastoyksiköt'
+    machines: '&bKoneet & tasot'
+    resources: '&bInfinity-edistyminen'

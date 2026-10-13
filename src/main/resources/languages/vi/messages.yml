@@ -37,3 +37,8 @@ vein-miner:
 
 storage:
   transferred-to-drop: "Vật phẩm đã lưu được chuyển sang vật phẩm rơi ra"
+guide:
+  widgets:
+    logistics: '&bKhối lưu trữ'
+    machines: '&bMáy móc & cấp bậc'
+    resources: '&bTiến trình Infinity'

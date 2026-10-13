@@ -37,3 +37,8 @@ vein-miner:
 
 storage:
   transferred-to-drop: "Itens armazenados transferidos para o item derrubado"
+guide:
+  widgets:
+    logistics: '&bUnidades de armazenamento'
+    machines: '&bMáquinas e níveis'
+    resources: '&bProgressão Infinity'

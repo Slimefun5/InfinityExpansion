@@ -37,3 +37,8 @@ vein-miner:
 
 storage:
   transferred-to-drop: "ගබඩා කළ අයිතම වැටුණු අයිතමයට මාරු කරන ලදී"
+guide:
+  widgets:
+    logistics: '&bගබඩා ඒකක'
+    machines: '&bයන්ත්‍ර සහ මට්ටම්'
+    resources: '&bInfinity ප්‍රගතිය'

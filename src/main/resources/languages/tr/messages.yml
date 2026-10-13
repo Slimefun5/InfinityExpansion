@@ -37,3 +37,8 @@ vein-miner:
 
 storage:
   transferred-to-drop: "Depolanan eşyalar düşen eşyaya aktarıldı"
+guide:
+  widgets:
+    logistics: '&bDepolama birimleri'
+    machines: '&bMakineler ve kademeler'
+    resources: '&bInfinity ilerlemesi'

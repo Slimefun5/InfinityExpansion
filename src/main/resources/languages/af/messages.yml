@@ -37,3 +37,8 @@ vein-miner:
 
 storage:
   transferred-to-drop: "Gestoorde items na die laat val item oorgedra"
+guide:
+  widgets:
+    logistics: '&bBergingseenhede'
+    machines: '&bMasjiene & vlakke'
+    resources: '&bInfinity-vordering'

@@ -32,3 +32,8 @@ vein-miner:
   cooldown: "You must wait 1 second before using again!"
 storage:
   transferred-to-drop: "Stored items transferred to dropped item"
+guide:
+  widgets:
+    logistics: '&bStorage Units'
+    machines: '&bMachines & Tiers'
+    resources: '&bInfinity Progression'

@@ -37,3 +37,8 @@ vein-miner:
 
 storage:
   transferred-to-drop: "Lagrede gjenstander overført til den slupne gjenstanden"
+guide:
+  widgets:
+    logistics: '&bLagringsenheter'
+    machines: '&bMaskiner & nivåer'
+    resources: '&bInfinity-progresjon'
