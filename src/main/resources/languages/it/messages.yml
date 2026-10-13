@@ -1,0 +1,39 @@
+command:
+  players-only: "Solo i giocatori possono usarlo!"
+  giverecipe-usage: "Uso: /ie giverecipe <ID>"
+  invalid-item: "Oggetto Slimefun non valido!"
+  gave-recipe: "Ricetta di %item% consegnata"
+  hold-item: "Devi tenere in mano un oggetto!"
+  setdata-usage: "Devi specificare una chiave e un valore da impostare!"
+  target-block: "Devi mirare a un blocco per usare questo comando!"
+  target-slimefun-block: "Devi mirare a un blocco Slimefun per usare questo comando!"
+  id-immutable: "Non puoi cambiare l'id di questo blocco, potrebbe causare problemi interni!"
+  data-removed: "Valore della chiave '%key%' rimosso in %id%"
+  data-set: "Chiave '%key%' impostata al valore '%value%' in %id%"
+
+machine:
+  no-energy: "Energia insufficiente!"
+  charge: "Carica: %charge%/%capacity% J"
+
+anvil:
+  invalid-items: "Oggetti non validi!"
+  not-disenchantable: "Questo oggetto Slimefun non può essere disincantato!"
+  not-enchantable: "Questo oggetto Slimefun non può essere incantato!"
+  no-upgrades: "Nessun miglioramento!"
+  no-room: "Spazio insufficiente!"
+
+matrix:
+  flight-disabled: "Volo Infinito disattivato!"
+  flight-enabled: "Volo Infinito attivato!"
+  not-owner: "Questa matrice non ti appartiene!"
+  ownership-removed: "Proprietà rimossa!"
+  ownership-claimed: "Proprietà rivendicata!"
+
+vein-miner:
+  added: "Minatore di Vene aggiunto allo strumento!"
+  failed: "Impossibile aggiungere il minatore di vene!"
+  too-tired: "Sei troppo stanco per scavare una vena!"
+  cooldown: "Devi aspettare 1 secondo prima di riutilizzarlo!"
+
+storage:
+  transferred-to-drop: "Oggetti conservati trasferiti all'oggetto lasciato cadere"

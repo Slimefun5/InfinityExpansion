@@ -1,0 +1,39 @@
+command:
+  players-only: "Doar jucătorii pot folosi asta!"
+  giverecipe-usage: "Utilizare: /ie giverecipe <ID>"
+  invalid-item: "Obiect Slimefun invalid!"
+  gave-recipe: "Rețeta pentru %item% a fost dată"
+  hold-item: "Trebuie să ții un obiect în mână!"
+  setdata-usage: "Trebuie să specifici o cheie și o valoare de setat!"
+  target-block: "Trebuie să privești un bloc pentru a folosi această comandă!"
+  target-slimefun-block: "Trebuie să privești un bloc Slimefun pentru a folosi această comandă!"
+  id-immutable: "Nu poți schimba id-ul acestui bloc, ar putea cauza probleme interne!"
+  data-removed: "Valoarea cheii '%key%' din %id% a fost ștearsă"
+  data-set: "Cheia '%key%' din %id% a fost setată la valoarea '%value%'"
+
+machine:
+  no-energy: "Energie insuficientă!"
+  charge: "Încărcare: %charge%/%capacity% J"
+
+anvil:
+  invalid-items: "Obiecte invalide!"
+  not-disenchantable: "Acestui obiect Slimefun nu îi pot fi scoase vrăjile!"
+  not-enchantable: "Acest obiect Slimefun nu poate fi vrăjit!"
+  no-upgrades: "Nicio îmbunătățire!"
+  no-room: "Spațiu insuficient!"
+
+matrix:
+  flight-disabled: "Zbor Infinit dezactivat!"
+  flight-enabled: "Zbor Infinit activat!"
+  not-owner: "Această matrice nu îți aparține!"
+  ownership-removed: "Proprietate retrasă!"
+  ownership-claimed: "Proprietate revendicată!"
+
+vein-miner:
+  added: "Minerit în Filon adăugat uneltei!"
+  failed: "Nu s-a putut adăuga mineritul în filon!"
+  too-tired: "Ești prea obosit pentru a mina un filon!"
+  cooldown: "Trebuie să aștepți 1 secundă înainte de a folosi din nou!"
+
+storage:
+  transferred-to-drop: "Obiectele stocate au fost transferate în obiectul aruncat"

@@ -1,0 +1,39 @@
+command:
+  players-only: "เฉพาะผู้เล่นเท่านั้นที่ใช้สิ่งนี้ได้!"
+  giverecipe-usage: "วิธีใช้: /ie giverecipe <ID>"
+  invalid-item: "ไอเทม Slimefun ไม่ถูกต้อง!"
+  gave-recipe: "มอบสูตรของ %item% แล้ว"
+  hold-item: "คุณต้องถือไอเทมไว้ในมือ!"
+  setdata-usage: "คุณต้องระบุคีย์และค่าที่จะตั้ง!"
+  target-block: "คุณต้องเล็งไปที่บล็อกเพื่อใช้คำสั่งนี้!"
+  target-slimefun-block: "คุณต้องเล็งไปที่บล็อก Slimefun เพื่อใช้คำสั่งนี้!"
+  id-immutable: "คุณไม่สามารถเปลี่ยนรหัสของบล็อกนี้ได้ อาจทำให้เกิดปัญหาภายใน!"
+  data-removed: "ลบค่าของคีย์ '%key%' ใน %id% แล้ว"
+  data-set: "ตั้งคีย์ '%key%' เป็นค่า '%value%' ใน %id% แล้ว"
+
+machine:
+  no-energy: "พลังงานไม่เพียงพอ!"
+  charge: "ประจุ: %charge%/%capacity% จูล"
+
+anvil:
+  invalid-items: "ไอเทมไม่ถูกต้อง!"
+  not-disenchantable: "ไอเทม Slimefun นี้ถอดมนตร์ไม่ได้!"
+  not-enchantable: "ไอเทม Slimefun นี้ร่ายมนตร์ไม่ได้!"
+  no-upgrades: "ไม่มีการอัปเกรด!"
+  no-room: "พื้นที่ไม่เพียงพอ!"
+
+matrix:
+  flight-disabled: "ปิดการบินอนันต์แล้ว!"
+  flight-enabled: "เปิดการบินอนันต์แล้ว!"
+  not-owner: "เมทริกซ์นี้ไม่ใช่ของคุณ!"
+  ownership-removed: "ลบความเป็นเจ้าของแล้ว!"
+  ownership-claimed: "อ้างสิทธิ์ความเป็นเจ้าของแล้ว!"
+
+vein-miner:
+  added: "เพิ่มการขุดสายแร่ให้เครื่องมือแล้ว!"
+  failed: "เพิ่มการขุดสายแร่ไม่สำเร็จ!"
+  too-tired: "คุณเหนื่อยเกินกว่าจะขุดสายแร่!"
+  cooldown: "คุณต้องรอ 1 วินาทีก่อนใช้งานอีกครั้ง!"
+
+storage:
+  transferred-to-drop: "ย้ายไอเทมที่เก็บไว้ไปยังไอเทมที่ถูกทิ้งแล้ว"

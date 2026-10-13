@@ -1,0 +1,39 @@
+command:
+  players-only: "يمكن للاعبين فقط استخدام هذا!"
+  giverecipe-usage: "طريقة الاستخدام: /ie giverecipe <ID>"
+  invalid-item: "عنصر Slimefun غير صالح!"
+  gave-recipe: "تم إعطاء وصفة %item%"
+  hold-item: "يجب أن تحمل عنصراً في يدك!"
+  setdata-usage: "يجب تحديد مفتاح وقيمة لتعيينهما!"
+  target-block: "يجب أن تنظر إلى مكعب لاستخدام هذا الأمر!"
+  target-slimefun-block: "يجب أن تنظر إلى مكعب Slimefun لاستخدام هذا الأمر!"
+  id-immutable: "لا يمكنك تغيير معرّف هذا المكعب، فقد يسبب ذلك مشاكل داخلية!"
+  data-removed: "تمت إزالة قيمة المفتاح '%key%' في %id%"
+  data-set: "تم تعيين المفتاح '%key%' إلى القيمة '%value%' في %id%"
+
+machine:
+  no-energy: "لا توجد طاقة كافية!"
+  charge: "الشحن: %charge%/%capacity% جول"
+
+anvil:
+  invalid-items: "عناصر غير صالحة!"
+  not-disenchantable: "لا يمكن إزالة السحر من عنصر Slimefun هذا!"
+  not-enchantable: "لا يمكن سحر عنصر Slimefun هذا!"
+  no-upgrades: "لا توجد ترقيات!"
+  no-room: "لا توجد مساحة كافية!"
+
+matrix:
+  flight-disabled: "تم تعطيل الطيران اللانهائي!"
+  flight-enabled: "تم تمكين الطيران اللانهائي!"
+  not-owner: "هذه المصفوفة ليست ملكك!"
+  ownership-removed: "تمت إزالة الملكية!"
+  ownership-claimed: "تم تسجيل الملكية!"
+
+vein-miner:
+  added: "تمت إضافة مُعدِّن العروق إلى الأداة!"
+  failed: "فشلت إضافة مُعدِّن العروق!"
+  too-tired: "أنت متعب جداً لتعدين العروق!"
+  cooldown: "يجب أن تنتظر ثانية واحدة قبل الاستخدام مرة أخرى!"
+
+storage:
+  transferred-to-drop: "تم نقل العناصر المخزنة إلى العنصر المُسقط"

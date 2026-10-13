@@ -1,0 +1,39 @@
+command:
+  players-only: "רק שחקנים יכולים להשתמש בזה!"
+  giverecipe-usage: "שימוש: /ie giverecipe <ID>"
+  invalid-item: "פריט Slimefun לא חוקי!"
+  gave-recipe: "המתכון של %item% ניתן"
+  hold-item: "אתה חייב להחזיק פריט ביד!"
+  setdata-usage: "אתה חייב לציין מפתח וערך להגדרה!"
+  target-block: "אתה חייב להסתכל על בלוק כדי להשתמש בפקודה הזו!"
+  target-slimefun-block: "אתה חייב להסתכל על בלוק Slimefun כדי להשתמש בפקודה הזו!"
+  id-immutable: "אינך יכול לשנות את המזהה של הבלוק הזה, זה עלול לגרום לבעיות פנימיות!"
+  data-removed: "הערך של המפתח '%key%' ב-%id% הוסר"
+  data-set: "המפתח '%key%' ב-%id% הוגדר לערך '%value%'"
+
+machine:
+  no-energy: "אין מספיק אנרגיה!"
+  charge: "מטען: %charge%/%capacity% ג'אול"
+
+anvil:
+  invalid-items: "פריטים לא חוקיים!"
+  not-disenchantable: "לא ניתן להסיר כישוף מפריט Slimefun זה!"
+  not-enchantable: "לא ניתן לכשף את פריט Slimefun זה!"
+  no-upgrades: "אין שדרוגים!"
+  no-room: "אין מספיק מקום!"
+
+matrix:
+  flight-disabled: "תעופת האינסוף כבויה!"
+  flight-enabled: "תעופת האינסוף פעילה!"
+  not-owner: "המטריצה הזו לא שלך!"
+  ownership-removed: "הבעלות הוסרה!"
+  ownership-claimed: "הבעלות נרשמה!"
+
+vein-miner:
+  added: "כורה העורקים נוסף לכלי!"
+  failed: "הוספת כורה העורקים נכשלה!"
+  too-tired: "אתה עייף מדי לכרות עורק!"
+  cooldown: "אתה חייב לחכות שנייה אחת לפני שימוש נוסף!"
+
+storage:
+  transferred-to-drop: "הפריטים המאוחסנים הועברו לפריט שהושלך"

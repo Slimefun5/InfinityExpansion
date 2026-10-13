@@ -1,0 +1,39 @@
+command:
+  players-only: "Ово могу да користе само играчи!"
+  giverecipe-usage: "Употреба: /ie giverecipe <ID>"
+  invalid-item: "Неважећи Slimefun предмет!"
+  gave-recipe: "Рецепт за %item% је дат"
+  hold-item: "Мораш држати предмет у руци!"
+  setdata-usage: "Мораш навести кључ и вредност за постављање!"
+  target-block: "Мораш гледати у блок да би користио ову команду!"
+  target-slimefun-block: "Мораш гледати у Slimefun блок да би користио ову команду!"
+  id-immutable: "Не можеш променити id овог блока, то може изазвати унутрашње проблеме!"
+  data-removed: "Вредност кључа '%key%' у %id% је уклоњена"
+  data-set: "Кључ '%key%' у %id% је постављен на вредност '%value%'"
+
+machine:
+  no-energy: "Недовољно енергије!"
+  charge: "Напуњеност: %charge%/%capacity% J"
+
+anvil:
+  invalid-items: "Неважећи предмети!"
+  not-disenchantable: "Са овог Slimefun предмета не могу се скинути чини!"
+  not-enchantable: "Овај Slimefun предмет не може да се чара!"
+  no-upgrades: "Нема надоградњи!"
+  no-room: "Недовољно места!"
+
+matrix:
+  flight-disabled: "Бескрајни лет искључен!"
+  flight-enabled: "Бескрајни лет укључен!"
+  not-owner: "Ова матрица није твоја!"
+  ownership-removed: "Власништво уклоњено!"
+  ownership-claimed: "Власништво преузето!"
+
+vein-miner:
+  added: "Рударење жила додато алату!"
+  failed: "Додавање рударења жила није успело!"
+  too-tired: "Превише си изморен за рударење жиле!"
+  cooldown: "Мораш чекати 1 секунду пре поновне употребе!"
+
+storage:
+  transferred-to-drop: "Ускладиштени предмети пренети у испуштени предмет"

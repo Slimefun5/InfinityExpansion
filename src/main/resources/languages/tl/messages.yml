@@ -1,0 +1,39 @@
+command:
+  players-only: "Mga manlalaro lang ang makakagamit nito!"
+  giverecipe-usage: "Paggamit: /ie giverecipe <ID>"
+  invalid-item: "Hindi balidong item ng Slimefun!"
+  gave-recipe: "Naibigay ang resipe ng %item%"
+  hold-item: "Kailangan mong may hawak na item!"
+  setdata-usage: "Kailangan mong magtakda ng susi at halaga!"
+  target-block: "Kailangan mong tumingin sa isang bloke para magamit ang utos na ito!"
+  target-slimefun-block: "Kailangan mong tumingin sa isang bloke ng Slimefun para magamit ang utos na ito!"
+  id-immutable: "Hindi mo mababago ang id ng blokeng ito, maaari itong magdulot ng panloob na problema!"
+  data-removed: "Natanggal ang halaga ng susi na '%key%' sa %id%"
+  data-set: "Itinakda ang susi na '%key%' sa halagang '%value%' sa %id%"
+
+machine:
+  no-energy: "Kulang ang enerhiya!"
+  charge: "Karga: %charge%/%capacity% J"
+
+anvil:
+  invalid-items: "Hindi balidong mga item!"
+  not-disenchantable: "Hindi matatanggal ang engkanto ng item na ito ng Slimefun!"
+  not-enchantable: "Hindi maeengkanto ang item na ito ng Slimefun!"
+  no-upgrades: "Walang pagpapahusay!"
+  no-room: "Kulang ang espasyo!"
+
+matrix:
+  flight-disabled: "Nakapatay ang Walang Hanggang Paglipad!"
+  flight-enabled: "Nakabukas ang Walang Hanggang Paglipad!"
+  not-owner: "Hindi sa iyo ang matris na ito!"
+  ownership-removed: "Natanggal ang pagmamay-ari!"
+  ownership-claimed: "Naangkin ang pagmamay-ari!"
+
+vein-miner:
+  added: "Naidagdag ang Minero ng Ugat sa kasangkapan!"
+  failed: "Nabigong idagdag ang minero ng ugat!"
+  too-tired: "Masyado kang pagod para magmina ng ugat!"
+  cooldown: "Kailangan mong maghintay ng 1 segundo bago gamitin muli!"
+
+storage:
+  transferred-to-drop: "Inilipat ang mga nakaimbak na item sa nalaglag na item"

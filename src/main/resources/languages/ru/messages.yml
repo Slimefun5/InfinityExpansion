@@ -1,0 +1,39 @@
+command:
+  players-only: "Это могут использовать только игроки!"
+  giverecipe-usage: "Использование: /ie giverecipe <ID>"
+  invalid-item: "Неверный предмет Slimefun!"
+  gave-recipe: "Выдан рецепт для %item%"
+  hold-item: "Вы должны держать предмет в руке!"
+  setdata-usage: "Вы должны указать ключ и значение для установки!"
+  target-block: "Вы должны смотреть на блок, чтобы использовать эту команду!"
+  target-slimefun-block: "Вы должны смотреть на блок Slimefun, чтобы использовать эту команду!"
+  id-immutable: "Вы не можете изменить id этого блока, это может вызвать внутренние проблемы!"
+  data-removed: "Значение ключа '%key%' в %id% успешно удалено"
+  data-set: "Ключ '%key%' в %id% успешно установлен в значение '%value%'"
+
+machine:
+  no-energy: "Недостаточно энергии!"
+  charge: "Заряд: %charge%/%capacity% Дж"
+
+anvil:
+  invalid-items: "Неверные предметы!"
+  not-disenchantable: "С этого предмета Slimefun нельзя снять чары!"
+  not-enchantable: "Этот предмет Slimefun нельзя зачаровать!"
+  no-upgrades: "Нет улучшений!"
+  no-room: "Недостаточно места!"
+
+matrix:
+  flight-disabled: "Бесконечный полёт выключен!"
+  flight-enabled: "Бесконечный полёт включён!"
+  not-owner: "Эта матрица вам не принадлежит!"
+  ownership-removed: "Владение снято!"
+  ownership-claimed: "Владение закреплено!"
+
+vein-miner:
+  added: "Жильная добыча добавлена к инструменту!"
+  failed: "Не удалось добавить жильную добычу!"
+  too-tired: "Вы слишком устали для жильной добычи!"
+  cooldown: "Вы должны подождать 1 секунду перед повторным использованием!"
+
+storage:
+  transferred-to-drop: "Хранимые предметы перенесены в выброшенный предмет"

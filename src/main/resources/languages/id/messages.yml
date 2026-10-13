@@ -1,0 +1,39 @@
+command:
+  players-only: "Hanya pemain yang dapat menggunakan ini!"
+  giverecipe-usage: "Penggunaan: /ie giverecipe <ID>"
+  invalid-item: "Item Slimefun tidak valid!"
+  gave-recipe: "Resep %item% telah diberikan"
+  hold-item: "Kamu harus memegang sebuah item!"
+  setdata-usage: "Kamu harus menentukan kunci dan nilai yang akan diatur!"
+  target-block: "Kamu harus membidik sebuah blok untuk menggunakan perintah ini!"
+  target-slimefun-block: "Kamu harus membidik sebuah blok Slimefun untuk menggunakan perintah ini!"
+  id-immutable: "Kamu tidak dapat mengubah id blok ini, hal itu dapat menyebabkan masalah internal!"
+  data-removed: "Nilai kunci '%key%' di %id% telah dihapus"
+  data-set: "Kunci '%key%' di %id% telah diatur ke nilai '%value%'"
+
+machine:
+  no-energy: "Energi tidak cukup!"
+  charge: "Muatan: %charge%/%capacity% J"
+
+anvil:
+  invalid-items: "Item tidak valid!"
+  not-disenchantable: "Mantra item Slimefun ini tidak dapat dilepas!"
+  not-enchantable: "Item Slimefun ini tidak dapat diberi mantra!"
+  no-upgrades: "Tidak ada peningkatan!"
+  no-room: "Ruang tidak cukup!"
+
+matrix:
+  flight-disabled: "Terbang Tanpa Batas dimatikan!"
+  flight-enabled: "Terbang Tanpa Batas diaktifkan!"
+  not-owner: "Matriks ini bukan milikmu!"
+  ownership-removed: "Kepemilikan dihapus!"
+  ownership-claimed: "Kepemilikan diklaim!"
+
+vein-miner:
+  added: "Penambang Urat ditambahkan ke alat!"
+  failed: "Gagal menambahkan penambang urat!"
+  too-tired: "Kamu terlalu lelah untuk menambang urat!"
+  cooldown: "Kamu harus menunggu 1 detik sebelum menggunakannya lagi!"
+
+storage:
+  transferred-to-drop: "Item yang disimpan dipindahkan ke item yang jatuh"

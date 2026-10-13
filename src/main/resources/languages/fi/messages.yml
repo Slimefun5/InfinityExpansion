@@ -1,0 +1,39 @@
+command:
+  players-only: "Vain pelaajat voivat käyttää tätä!"
+  giverecipe-usage: "Käyttö: /ie giverecipe <ID>"
+  invalid-item: "Virheellinen Slimefun-esine!"
+  gave-recipe: "Resepti annettu: %item%"
+  hold-item: "Sinun täytyy pitää esinettä kädessä!"
+  setdata-usage: "Sinun täytyy antaa avain ja asetettava arvo!"
+  target-block: "Sinun täytyy tähdätä lohkoon käyttääksesi tätä komentoa!"
+  target-slimefun-block: "Sinun täytyy tähdätä Slimefun-lohkoon käyttääksesi tätä komentoa!"
+  id-immutable: "Et voi muuttaa tämän lohkon id:tä, se voi aiheuttaa sisäisiä ongelmia!"
+  data-removed: "Avaimen '%key%' arvo poistettiin kohteesta %id%"
+  data-set: "Avain '%key%' asetettiin arvoon '%value%' kohteessa %id%"
+
+machine:
+  no-energy: "Ei tarpeeksi energiaa!"
+  charge: "Lataus: %charge%/%capacity% J"
+
+anvil:
+  invalid-items: "Virheelliset esineet!"
+  not-disenchantable: "Tämän Slimefun-esineen taikoja ei voi poistaa!"
+  not-enchantable: "Tätä Slimefun-esinettä ei voi taikoa!"
+  no-upgrades: "Ei päivityksiä!"
+  no-room: "Ei tarpeeksi tilaa!"
+
+matrix:
+  flight-disabled: "Ääretön lento pois käytöstä!"
+  flight-enabled: "Ääretön lento käytössä!"
+  not-owner: "Tämä matriisi ei ole sinun!"
+  ownership-removed: "Omistus poistettu!"
+  ownership-claimed: "Omistus lunastettu!"
+
+vein-miner:
+  added: "Suonilouhija lisättiin työkaluun!"
+  failed: "Suonilouhijan lisääminen epäonnistui!"
+  too-tired: "Olet liian uupunut louhimaan suonta!"
+  cooldown: "Sinun täytyy odottaa 1 sekunti ennen uutta käyttöä!"
+
+storage:
+  transferred-to-drop: "Varastoidut esineet siirrettiin pudotettuun esineeseen"

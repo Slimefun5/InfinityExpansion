@@ -1,0 +1,39 @@
+command:
+  players-only: "Endast spelare kan använda detta!"
+  giverecipe-usage: "Användning: /ie giverecipe <ID>"
+  invalid-item: "Ogiltigt Slimefun-objekt!"
+  gave-recipe: "Recept för %item% gavs"
+  hold-item: "Du måste hålla ett objekt i handen!"
+  setdata-usage: "Du måste ange en nyckel och ett värde att sätta!"
+  target-block: "Du måste sikta på ett block för att använda det här kommandot!"
+  target-slimefun-block: "Du måste sikta på ett Slimefun-block för att använda det här kommandot!"
+  id-immutable: "Du kan inte ändra id:t på det här blocket, det kan orsaka interna problem!"
+  data-removed: "Värdet för nyckeln '%key%' i %id% togs bort"
+  data-set: "Nyckeln '%key%' i %id% sattes till värdet '%value%'"
+
+machine:
+  no-energy: "Inte tillräckligt med energi!"
+  charge: "Laddning: %charge%/%capacity% J"
+
+anvil:
+  invalid-items: "Ogiltiga objekt!"
+  not-disenchantable: "Det här Slimefun-objektet kan inte avförtrollas!"
+  not-enchantable: "Det här Slimefun-objektet kan inte förtrollas!"
+  no-upgrades: "Inga uppgraderingar!"
+  no-room: "Inte tillräckligt med plats!"
+
+matrix:
+  flight-disabled: "Oändlighetsflygning avstängd!"
+  flight-enabled: "Oändlighetsflygning påslagen!"
+  not-owner: "Den här matrisen tillhör inte dig!"
+  ownership-removed: "Äganderätt borttagen!"
+  ownership-claimed: "Äganderätt hävdad!"
+
+vein-miner:
+  added: "Ådbrytare lades till verktyget!"
+  failed: "Kunde inte lägga till ådbrytaren!"
+  too-tired: "Du är för trött för att bryta en åder!"
+  cooldown: "Du måste vänta 1 sekund innan du använder det igen!"
+
+storage:
+  transferred-to-drop: "Lagrade objekt överförda till det tappade objektet"

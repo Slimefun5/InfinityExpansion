@@ -1,0 +1,39 @@
+command:
+  players-only: "Само играчи можат да го користат ова!"
+  giverecipe-usage: "Употреба: /ie giverecipe <ID>"
+  invalid-item: "Невалиден Slimefun предмет!"
+  gave-recipe: "Рецептот за %item% е даден"
+  hold-item: "Мораш да држиш предмет во рака!"
+  setdata-usage: "Мораш да наведеш клуч и вредност за поставување!"
+  target-block: "Мораш да гледаш во блок за да ја користиш оваа команда!"
+  target-slimefun-block: "Мораш да гледаш во Slimefun блок за да ја користиш оваа команда!"
+  id-immutable: "Не можеш да го промениш id на овој блок, тоа може да предизвика внатрешни проблеми!"
+  data-removed: "Вредноста на клучот '%key%' во %id% беше отстранета"
+  data-set: "Клучот '%key%' во %id% беше поставен на вредност '%value%'"
+
+machine:
+  no-energy: "Недоволно енергија!"
+  charge: "Полнење: %charge%/%capacity% J"
+
+anvil:
+  invalid-items: "Невалидни предмети!"
+  not-disenchantable: "Од овој Slimefun предмет не можат да се отстранат магиите!"
+  not-enchantable: "Овој Slimefun предмет не може да се маѓепса!"
+  no-upgrades: "Нема надградби!"
+  no-room: "Недоволно место!"
+
+matrix:
+  flight-disabled: "Бесконечното летање е исклучено!"
+  flight-enabled: "Бесконечното летање е вклучено!"
+  not-owner: "Оваа матрица не е твоја!"
+  ownership-removed: "Сопственоста е отстранета!"
+  ownership-claimed: "Сопственоста е преземена!"
+
+vein-miner:
+  added: "Копањето жили е додадено на алатот!"
+  failed: "Додавањето на копањето жили не успеа!"
+  too-tired: "Премногу си изморен за да копаш жила!"
+  cooldown: "Мораш да почекаш 1 секунда пред повторна употреба!"
+
+storage:
+  transferred-to-drop: "Складираните предмети се пренесени во испуштениот предмет"

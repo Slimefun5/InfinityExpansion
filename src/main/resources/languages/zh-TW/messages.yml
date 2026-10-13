@@ -1,0 +1,39 @@
+command:
+  players-only: "只有玩家才能使用此功能！"
+  giverecipe-usage: "用法：/ie giverecipe <物品ID>"
+  invalid-item: "無效的 Slimefun 物品！"
+  gave-recipe: "已給予 %item% 的配方"
+  hold-item: "你必須手持一個物品！"
+  setdata-usage: "你必須指定要設定的鍵與值！"
+  target-block: "你必須看向一個方塊才能使用此指令！"
+  target-slimefun-block: "你必須看向一個 Slimefun 方塊才能使用此指令！"
+  id-immutable: "你無法變更此方塊的識別碼，這可能導致內部問題！"
+  data-removed: "已移除 %id% 中鍵 '%key%' 的值"
+  data-set: "已將 %id% 中的鍵 '%key%' 設定為值 '%value%'"
+
+machine:
+  no-energy: "能量不足！"
+  charge: "電量：%charge%/%capacity% J"
+
+anvil:
+  invalid-items: "無效的物品！"
+  not-disenchantable: "此 Slimefun 物品無法移除附魔！"
+  not-enchantable: "此 Slimefun 物品無法附魔！"
+  no-upgrades: "沒有可升級的內容！"
+  no-room: "空間不足！"
+
+matrix:
+  flight-disabled: "無限飛行已關閉！"
+  flight-enabled: "無限飛行已開啟！"
+  not-owner: "這個矩陣不屬於你！"
+  ownership-removed: "已移除所有權！"
+  ownership-claimed: "已取得所有權！"
+
+vein-miner:
+  added: "已為工具加入連鎖採礦！"
+  failed: "加入連鎖採礦失敗！"
+  too-tired: "你太累了，無法連鎖採礦！"
+  cooldown: "你必須等待 1 秒才能再次使用！"
+
+storage:
+  transferred-to-drop: "已將儲存的物品轉移到掉落物中"

@@ -1,0 +1,39 @@
+command:
+  players-only: "Tai gali naudoti tik žaidėjai!"
+  giverecipe-usage: "Naudojimas: /ie giverecipe <ID>"
+  invalid-item: "Netinkamas Slimefun daiktas!"
+  gave-recipe: "%item% receptas išduotas"
+  hold-item: "Turi laikyti daiktą rankoje!"
+  setdata-usage: "Turi nurodyti raktą ir nustatomą vertę!"
+  target-block: "Turi žiūrėti į bloką, kad galėtum naudoti šią komandą!"
+  target-slimefun-block: "Turi žiūrėti į Slimefun bloką, kad galėtum naudoti šią komandą!"
+  id-immutable: "Negali pakeisti šio bloko identifikatoriaus, tai gali sukelti vidinių problemų!"
+  data-removed: "Rakto '%key%' vertė iš %id% pašalinta"
+  data-set: "Raktas '%key%' iš %id% nustatytas į vertę '%value%'"
+
+machine:
+  no-energy: "Nepakanka energijos!"
+  charge: "Įkrova: %charge%/%capacity% J"
+
+anvil:
+  invalid-items: "Netinkami daiktai!"
+  not-disenchantable: "Nuo šio Slimefun daikto negalima nuimti kerų!"
+  not-enchantable: "Šio Slimefun daikto negalima užkerėti!"
+  no-upgrades: "Nėra patobulinimų!"
+  no-room: "Nepakanka vietos!"
+
+matrix:
+  flight-disabled: "Begalybės skraidymas išjungtas!"
+  flight-enabled: "Begalybės skraidymas įjungtas!"
+  not-owner: "Ši matrica ne tavo!"
+  ownership-removed: "Nuosavybė pašalinta!"
+  ownership-claimed: "Nuosavybė perimta!"
+
+vein-miner:
+  added: "Gyslų kasimas pridėtas prie įrankio!"
+  failed: "Nepavyko pridėti gyslų kasimo!"
+  too-tired: "Esi per daug pavargęs kasti gyslą!"
+  cooldown: "Turi palaukti 1 sekundę prieš naudodamas vėl!"
+
+storage:
+  transferred-to-drop: "Saugomi daiktai perkelti į išmestą daiktą"

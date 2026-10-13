@@ -1,0 +1,39 @@
+command:
+  players-only: "Alleen spelers kunnen dit gebruiken!"
+  giverecipe-usage: "Gebruik: /ie giverecipe <ID>"
+  invalid-item: "Ongeldig Slimefun-item!"
+  gave-recipe: "Recept voor %item% gegeven"
+  hold-item: "Je moet een item in je hand houden!"
+  setdata-usage: "Je moet een sleutel en een waarde opgeven!"
+  target-block: "Je moet naar een blok kijken om dit commando te gebruiken!"
+  target-slimefun-block: "Je moet naar een Slimefun-blok kijken om dit commando te gebruiken!"
+  id-immutable: "Je kunt de id van dit blok niet wijzigen, dat kan interne problemen veroorzaken!"
+  data-removed: "Waarde van sleutel '%key%' in %id% verwijderd"
+  data-set: "Sleutel '%key%' in %id% ingesteld op waarde '%value%'"
+
+machine:
+  no-energy: "Niet genoeg energie!"
+  charge: "Lading: %charge%/%capacity% J"
+
+anvil:
+  invalid-items: "Ongeldige items!"
+  not-disenchantable: "Dit Slimefun-item kan niet onttoverd worden!"
+  not-enchantable: "Dit Slimefun-item kan niet betoverd worden!"
+  no-upgrades: "Geen verbeteringen!"
+  no-room: "Niet genoeg ruimte!"
+
+matrix:
+  flight-disabled: "Oneindigheidsvlucht uitgeschakeld!"
+  flight-enabled: "Oneindigheidsvlucht ingeschakeld!"
+  not-owner: "Deze matrix is niet van jou!"
+  ownership-removed: "Eigendom verwijderd!"
+  ownership-claimed: "Eigendom opgeëist!"
+
+vein-miner:
+  added: "Adermijner toegevoegd aan gereedschap!"
+  failed: "Kon de adermijner niet toevoegen!"
+  too-tired: "Je bent te uitgeput om een ader te mijnen!"
+  cooldown: "Je moet 1 seconde wachten voordat je het weer gebruikt!"
+
+storage:
+  transferred-to-drop: "Opgeslagen items overgedragen naar het gedropte item"

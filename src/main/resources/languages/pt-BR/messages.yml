@@ -1,0 +1,39 @@
+command:
+  players-only: "Apenas jogadores podem usar isso!"
+  giverecipe-usage: "Uso: /ie giverecipe <ID>"
+  invalid-item: "Item Slimefun inválido!"
+  gave-recipe: "Receita de %item% entregue"
+  hold-item: "Você precisa estar segurando um item!"
+  setdata-usage: "Você precisa informar uma chave e um valor para definir!"
+  target-block: "Você precisa mirar em um bloco para usar este comando!"
+  target-slimefun-block: "Você precisa mirar em um bloco Slimefun para usar este comando!"
+  id-immutable: "Você não pode alterar o id deste bloco, isso poderia causar problemas internos!"
+  data-removed: "Valor da chave '%key%' removido em %id%"
+  data-set: "Chave '%key%' definida para o valor '%value%' em %id%"
+
+machine:
+  no-energy: "Energia insuficiente!"
+  charge: "Carga: %charge%/%capacity% J"
+
+anvil:
+  invalid-items: "Itens inválidos!"
+  not-disenchantable: "Este item Slimefun não pode ser desencantado!"
+  not-enchantable: "Este item Slimefun não pode ser encantado!"
+  no-upgrades: "Nenhuma melhoria!"
+  no-room: "Espaço insuficiente!"
+
+matrix:
+  flight-disabled: "Voo Infinito desativado!"
+  flight-enabled: "Voo Infinito ativado!"
+  not-owner: "Esta matriz não pertence a você!"
+  ownership-removed: "Propriedade removida!"
+  ownership-claimed: "Propriedade reivindicada!"
+
+vein-miner:
+  added: "Minerador de Veias adicionado à ferramenta!"
+  failed: "Não foi possível adicionar o minerador de veias!"
+  too-tired: "Você está cansado demais para minerar uma veia!"
+  cooldown: "Você precisa esperar 1 segundo antes de usar novamente!"
+
+storage:
+  transferred-to-drop: "Itens armazenados transferidos para o item derrubado"

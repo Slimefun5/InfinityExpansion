@@ -1,0 +1,39 @@
+command:
+  players-only: "Das können nur Spieler benutzen!"
+  giverecipe-usage: "Verwendung: /ie giverecipe <ID>"
+  invalid-item: "Ungültiger Slimefun-Gegenstand!"
+  gave-recipe: "Rezept für %item% gegeben"
+  hold-item: "Du musst einen Gegenstand in der Hand halten!"
+  setdata-usage: "Du musst einen Schlüssel und einen Wert angeben!"
+  target-block: "Du musst einen Block anvisieren, um diesen Befehl zu benutzen!"
+  target-slimefun-block: "Du musst einen Slimefun-Block anvisieren, um diesen Befehl zu benutzen!"
+  id-immutable: "Du kannst die ID dieses Blocks nicht ändern, das könnte interne Probleme verursachen!"
+  data-removed: "Wert des Schlüssels '%key%' in %id% erfolgreich entfernt"
+  data-set: "Schlüssel '%key%' in %id% erfolgreich auf den Wert '%value%' gesetzt"
+
+machine:
+  no-energy: "Nicht genug Energie!"
+  charge: "Ladung: %charge%/%capacity% J"
+
+anvil:
+  invalid-items: "Ungültige Gegenstände!"
+  not-disenchantable: "Slimefun-Gegenstand kann nicht entzaubert werden!"
+  not-enchantable: "Slimefun-Gegenstand kann nicht verzaubert werden!"
+  no-upgrades: "Keine Verbesserungen!"
+  no-room: "Nicht genug Platz!"
+
+matrix:
+  flight-disabled: "Unendlichkeitsflug deaktiviert!"
+  flight-enabled: "Unendlichkeitsflug aktiviert!"
+  not-owner: "Diese Matrix gehört dir nicht!"
+  ownership-removed: "Besitz entfernt!"
+  ownership-claimed: "Besitz beansprucht!"
+
+vein-miner:
+  added: "Ader-Miner zum Werkzeug hinzugefügt!"
+  failed: "Ader-Miner konnte nicht hinzugefügt werden!"
+  too-tired: "Du bist zu erschöpft, um Adern abzubauen!"
+  cooldown: "Du musst 1 Sekunde warten, bevor du es wieder benutzt!"
+
+storage:
+  transferred-to-drop: "Gelagerte Gegenstände auf den fallen gelassenen Gegenstand übertragen"

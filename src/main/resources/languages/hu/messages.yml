@@ -1,0 +1,39 @@
+command:
+  players-only: "Ezt csak játékosok használhatják!"
+  giverecipe-usage: "Használat: /ie giverecipe <ID>"
+  invalid-item: "Érvénytelen Slimefun tárgy!"
+  gave-recipe: "%item% receptje kiadva"
+  hold-item: "Tárgyat kell a kezedben tartanod!"
+  setdata-usage: "Meg kell adnod egy kulcsot és egy beállítandó értéket!"
+  target-block: "Egy blokkra kell nézned ennek a parancsnak a használatához!"
+  target-slimefun-block: "Egy Slimefun blokkra kell nézned ennek a parancsnak a használatához!"
+  id-immutable: "Nem változtathatod meg ennek a blokknak az id-jét, belső hibákat okozhat!"
+  data-removed: "A '%key%' kulcs értéke eltávolítva innen: %id%"
+  data-set: "A '%key%' kulcs értéke '%value%' lett itt: %id%"
+
+machine:
+  no-energy: "Nincs elég energia!"
+  charge: "Töltés: %charge%/%capacity% J"
+
+anvil:
+  invalid-items: "Érvénytelen tárgyak!"
+  not-disenchantable: "Erről a Slimefun tárgyról nem lehet bűbájt levenni!"
+  not-enchantable: "Ezt a Slimefun tárgyat nem lehet elbűvölni!"
+  no-upgrades: "Nincs fejlesztés!"
+  no-room: "Nincs elég hely!"
+
+matrix:
+  flight-disabled: "Végtelen repülés kikapcsolva!"
+  flight-enabled: "Végtelen repülés bekapcsolva!"
+  not-owner: "Ez a mátrix nem a tiéd!"
+  ownership-removed: "Birtoklás eltávolítva!"
+  ownership-claimed: "Birtoklás igényelve!"
+
+vein-miner:
+  added: "Érbányász hozzáadva a szerszámhoz!"
+  failed: "Az érbányász hozzáadása nem sikerült!"
+  too-tired: "Túl fáradt vagy az érbányászathoz!"
+  cooldown: "1 másodpercet kell várnod az újbóli használat előtt!"
+
+storage:
+  transferred-to-drop: "A tárolt tárgyak átkerültek az eldobott tárgyba"

@@ -1,0 +1,39 @@
+command:
+  players-only: "Bunu yalnızca oyuncular kullanabilir!"
+  giverecipe-usage: "Kullanım: /ie giverecipe <ID>"
+  invalid-item: "Geçersiz Slimefun eşyası!"
+  gave-recipe: "%item% tarifi verildi"
+  hold-item: "Elinde bir eşya tutman gerekiyor!"
+  setdata-usage: "Ayarlanacak bir anahtar ve değer belirtmen gerekiyor!"
+  target-block: "Bu komutu kullanmak için bir bloğa bakman gerekiyor!"
+  target-slimefun-block: "Bu komutu kullanmak için bir Slimefun bloğuna bakman gerekiyor!"
+  id-immutable: "Bu bloğun kimliğini değiştiremezsin, iç sorunlara yol açabilir!"
+  data-removed: "%id% içindeki '%key%' anahtarının değeri kaldırıldı"
+  data-set: "%id% içindeki '%key%' anahtarı '%value%' değerine ayarlandı"
+
+machine:
+  no-energy: "Yeterli enerji yok!"
+  charge: "Şarj: %charge%/%capacity% J"
+
+anvil:
+  invalid-items: "Geçersiz eşyalar!"
+  not-disenchantable: "Bu Slimefun eşyasının büyüsü sökülemez!"
+  not-enchantable: "Bu Slimefun eşyası büyülenemez!"
+  no-upgrades: "Yükseltme yok!"
+  no-room: "Yeterli yer yok!"
+
+matrix:
+  flight-disabled: "Sonsuzluk Uçuşu kapatıldı!"
+  flight-enabled: "Sonsuzluk Uçuşu açıldı!"
+  not-owner: "Bu matris sana ait değil!"
+  ownership-removed: "Sahiplik kaldırıldı!"
+  ownership-claimed: "Sahiplik alındı!"
+
+vein-miner:
+  added: "Araca Damar Madenciliği eklendi!"
+  failed: "Damar madenciliği eklenemedi!"
+  too-tired: "Damar kazmak için fazla yorgunsun!"
+  cooldown: "Tekrar kullanmak için 1 saniye beklemen gerekiyor!"
+
+storage:
+  transferred-to-drop: "Depolanan eşyalar düşen eşyaya aktarıldı"

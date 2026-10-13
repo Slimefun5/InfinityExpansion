@@ -1,0 +1,39 @@
+command:
+  players-only: "Chỉ người chơi mới có thể dùng cái này!"
+  giverecipe-usage: "Cách dùng: /ie giverecipe <ID>"
+  invalid-item: "Vật phẩm Slimefun không hợp lệ!"
+  gave-recipe: "Đã đưa công thức của %item%"
+  hold-item: "Bạn phải giữ một vật phẩm trên tay!"
+  setdata-usage: "Bạn phải chỉ định khóa và giá trị cần đặt!"
+  target-block: "Bạn phải nhìn vào một khối để dùng lệnh này!"
+  target-slimefun-block: "Bạn phải nhìn vào một khối Slimefun để dùng lệnh này!"
+  id-immutable: "Bạn không thể thay đổi mã của khối này, nó có thể gây ra lỗi nội bộ!"
+  data-removed: "Đã xóa giá trị của khóa '%key%' trong %id%"
+  data-set: "Đã đặt khóa '%key%' thành giá trị '%value%' trong %id%"
+
+machine:
+  no-energy: "Không đủ năng lượng!"
+  charge: "Mức sạc: %charge%/%capacity% J"
+
+anvil:
+  invalid-items: "Vật phẩm không hợp lệ!"
+  not-disenchantable: "Không thể gỡ phù phép khỏi vật phẩm Slimefun này!"
+  not-enchantable: "Không thể phù phép vật phẩm Slimefun này!"
+  no-upgrades: "Không có nâng cấp nào!"
+  no-room: "Không đủ chỗ!"
+
+matrix:
+  flight-disabled: "Đã tắt Bay Vô cực!"
+  flight-enabled: "Đã bật Bay Vô cực!"
+  not-owner: "Ma trận này không thuộc về bạn!"
+  ownership-removed: "Đã xóa quyền sở hữu!"
+  ownership-claimed: "Đã nhận quyền sở hữu!"
+
+vein-miner:
+  added: "Đã thêm Đào Mạch vào dụng cụ!"
+  failed: "Thêm đào mạch thất bại!"
+  too-tired: "Bạn quá mệt để đào mạch!"
+  cooldown: "Bạn phải đợi 1 giây trước khi dùng lại!"
+
+storage:
+  transferred-to-drop: "Vật phẩm đã lưu được chuyển sang vật phẩm rơi ra"

@@ -1,0 +1,39 @@
+command:
+  players-only: "Toto môžu používať len hráči!"
+  giverecipe-usage: "Použitie: /ie giverecipe <ID>"
+  invalid-item: "Neplatný predmet Slimefun!"
+  gave-recipe: "Recept na %item% vydaný"
+  hold-item: "Musíš držať predmet v ruke!"
+  setdata-usage: "Musíš zadať kľúč a hodnotu, ktorú nastaviť!"
+  target-block: "Musíš sa pozerať na blok, aby si použil tento príkaz!"
+  target-slimefun-block: "Musíš sa pozerať na blok Slimefun, aby si použil tento príkaz!"
+  id-immutable: "Nemôžeš zmeniť id tohto bloku, mohlo by to spôsobiť vnútorné problémy!"
+  data-removed: "Hodnota kľúča '%key%' v %id% bola odstránená"
+  data-set: "Kľúč '%key%' v %id% bol nastavený na hodnotu '%value%'"
+
+machine:
+  no-energy: "Nedostatok energie!"
+  charge: "Náboj: %charge%/%capacity% J"
+
+anvil:
+  invalid-items: "Neplatné predmety!"
+  not-disenchantable: "Tento predmet Slimefun nie je možné odčarovať!"
+  not-enchantable: "Tento predmet Slimefun nie je možné očarovať!"
+  no-upgrades: "Žiadne vylepšenia!"
+  no-room: "Nedostatok miesta!"
+
+matrix:
+  flight-disabled: "Nekonečný let vypnutý!"
+  flight-enabled: "Nekonečný let zapnutý!"
+  not-owner: "Táto matrica ti nepatrí!"
+  ownership-removed: "Vlastníctvo odobrané!"
+  ownership-claimed: "Vlastníctvo získané!"
+
+vein-miner:
+  added: "Žilná ťažba pridaná k nástroju!"
+  failed: "Žilnú ťažbu nie je možné pridať!"
+  too-tired: "Si príliš vyčerpaný na ťažbu žily!"
+  cooldown: "Musíš počkať 1 sekundu, než to použiješ znova!"
+
+storage:
+  transferred-to-drop: "Uložené predmety prenesené do vyhodeného predmetu"

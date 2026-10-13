@@ -1,0 +1,39 @@
+command:
+  players-only: "¡Solo los jugadores pueden usar esto!"
+  giverecipe-usage: "Uso: /ie giverecipe <ID>"
+  invalid-item: "¡Objeto de Slimefun inválido!"
+  gave-recipe: "Receta de %item% entregada"
+  hold-item: "¡Debes tener un objeto en la mano!"
+  setdata-usage: "¡Debes especificar una clave y un valor a establecer!"
+  target-block: "¡Debes apuntar a un bloque para usar este comando!"
+  target-slimefun-block: "¡Debes apuntar a un bloque de Slimefun para usar este comando!"
+  id-immutable: "¡No puedes cambiar el id de este bloque, podría causar problemas internos!"
+  data-removed: "Valor de la clave '%key%' eliminado en %id%"
+  data-set: "Clave '%key%' establecida al valor '%value%' en %id%"
+
+machine:
+  no-energy: "¡No hay suficiente energía!"
+  charge: "Carga: %charge%/%capacity% J"
+
+anvil:
+  invalid-items: "¡Objetos inválidos!"
+  not-disenchantable: "¡Este objeto de Slimefun no se puede desencantar!"
+  not-enchantable: "¡Este objeto de Slimefun no se puede encantar!"
+  no-upgrades: "¡Sin mejoras!"
+  no-room: "¡No hay suficiente espacio!"
+
+matrix:
+  flight-disabled: "¡Vuelo de Infinito desactivado!"
+  flight-enabled: "¡Vuelo de Infinito activado!"
+  not-owner: "¡Esta matriz no te pertenece!"
+  ownership-removed: "¡Propiedad eliminada!"
+  ownership-claimed: "¡Propiedad reclamada!"
+
+vein-miner:
+  added: "¡Minero de Vetas añadido a la herramienta!"
+  failed: "¡No se pudo añadir el minero de vetas!"
+  too-tired: "¡Estás demasiado cansado para minar vetas!"
+  cooldown: "¡Debes esperar 1 segundo antes de volver a usarlo!"
+
+storage:
+  transferred-to-drop: "Objetos almacenados transferidos al objeto soltado"

@@ -1,0 +1,39 @@
+command:
+  players-only: "Net spelers kan dit gebruik!"
+  giverecipe-usage: "Gebruik: /ie giverecipe <ID>"
+  invalid-item: "Ongeldige Slimefun-item!"
+  gave-recipe: "Resep vir %item% gegee"
+  hold-item: "Jy moet 'n item in jou hand hou!"
+  setdata-usage: "Jy moet 'n sleutel en 'n waarde opgee!"
+  target-block: "Jy moet na 'n blok kyk om hierdie opdrag te gebruik!"
+  target-slimefun-block: "Jy moet na 'n Slimefun-blok kyk om hierdie opdrag te gebruik!"
+  id-immutable: "Jy kan nie die id van hierdie blok verander nie, dit kan interne probleme veroorsaak!"
+  data-removed: "Die waarde van sleutel '%key%' in %id% is verwyder"
+  data-set: "Sleutel '%key%' in %id% is op die waarde '%value%' gestel"
+
+machine:
+  no-energy: "Nie genoeg energie nie!"
+  charge: "Lading: %charge%/%capacity% J"
+
+anvil:
+  invalid-items: "Ongeldige items!"
+  not-disenchantable: "Hierdie Slimefun-item se betowering kan nie verwyder word nie!"
+  not-enchantable: "Hierdie Slimefun-item kan nie betower word nie!"
+  no-upgrades: "Geen opgraderings nie!"
+  no-room: "Nie genoeg plek nie!"
+
+matrix:
+  flight-disabled: "Oneindigheidsvlug afgeskakel!"
+  flight-enabled: "Oneindigheidsvlug aangeskakel!"
+  not-owner: "Hierdie matriks is nie joune nie!"
+  ownership-removed: "Eienaarskap verwyder!"
+  ownership-claimed: "Eienaarskap opgeëis!"
+
+vein-miner:
+  added: "Aarmyner by gereedskap gevoeg!"
+  failed: "Kon nie die aarmyner byvoeg nie!"
+  too-tired: "Jy is te moeg om 'n aar te myn!"
+  cooldown: "Jy moet 1 sekonde wag voor jy dit weer gebruik!"
+
+storage:
+  transferred-to-drop: "Gestoorde items na die laat val item oorgedra"

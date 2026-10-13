@@ -1,0 +1,39 @@
+command:
+  players-only: "Seuls les joueurs peuvent utiliser ceci !"
+  giverecipe-usage: "Utilisation : /ie giverecipe <ID>"
+  invalid-item: "Objet Slimefun invalide !"
+  gave-recipe: "Recette de %item% donnée"
+  hold-item: "Vous devez tenir un objet !"
+  setdata-usage: "Vous devez spécifier une clé et une valeur à définir !"
+  target-block: "Vous devez viser un bloc pour utiliser cette commande !"
+  target-slimefun-block: "Vous devez viser un bloc Slimefun pour utiliser cette commande !"
+  id-immutable: "Vous ne pouvez pas changer l'id de ce bloc, cela pourrait causer des problèmes internes !"
+  data-removed: "Valeur de la clé '%key%' supprimée dans %id%"
+  data-set: "Clé '%key%' définie à la valeur '%value%' dans %id%"
+
+machine:
+  no-energy: "Pas assez d'énergie !"
+  charge: "Charge : %charge%/%capacity% J"
+
+anvil:
+  invalid-items: "Objets invalides !"
+  not-disenchantable: "Cet objet Slimefun ne peut pas être désenchanté !"
+  not-enchantable: "Cet objet Slimefun ne peut pas être enchanté !"
+  no-upgrades: "Aucune amélioration !"
+  no-room: "Pas assez de place !"
+
+matrix:
+  flight-disabled: "Vol d'Infinité désactivé !"
+  flight-enabled: "Vol d'Infinité activé !"
+  not-owner: "Cette matrice ne vous appartient pas !"
+  ownership-removed: "Propriété retirée !"
+  ownership-claimed: "Propriété revendiquée !"
+
+vein-miner:
+  added: "Mineur de Veine ajouté à l'outil !"
+  failed: "Échec de l'ajout du mineur de veine !"
+  too-tired: "Vous êtes trop fatigué pour miner une veine !"
+  cooldown: "Vous devez attendre 1 seconde avant de réutiliser !"
+
+storage:
+  transferred-to-drop: "Objets stockés transférés vers l'objet lâché"

@@ -1,0 +1,39 @@
+command:
+  players-only: "මෙය භාවිත කළ හැක්කේ ක්‍රීඩකයන්ට පමණි!"
+  giverecipe-usage: "භාවිතය: /ie giverecipe <ID>"
+  invalid-item: "වලංගු නොවන Slimefun අයිතමයකි!"
+  gave-recipe: "%item% සඳහා වට්ටෝරුව ලබා දුන්නා"
+  hold-item: "ඔබ අයිතමයක් අතේ තබා ගත යුතුය!"
+  setdata-usage: "සැකසීමට යතුරක් සහ අගයක් සඳහන් කළ යුතුය!"
+  target-block: "මෙම විධානය භාවිත කිරීමට ඔබ කුට්ටියක් දෙසට බැලිය යුතුය!"
+  target-slimefun-block: "මෙම විධානය භාවිත කිරීමට ඔබ Slimefun කුට්ටියක් දෙසට බැලිය යුතුය!"
+  id-immutable: "මෙම කුට්ටියේ හැඳුනුම වෙනස් කළ නොහැක, එය අභ්‍යන්තර ගැටලු ඇති කළ හැක!"
+  data-removed: "%id% තුළ '%key%' යතුරේ අගය ඉවත් කරන ලදී"
+  data-set: "%id% තුළ '%key%' යතුර '%value%' අගයට සකසන ලදී"
+
+machine:
+  no-energy: "ප්‍රමාණවත් ශක්තියක් නැත!"
+  charge: "ආරෝපණය: %charge%/%capacity% J"
+
+anvil:
+  invalid-items: "වලංගු නොවන අයිතම!"
+  not-disenchantable: "මෙම Slimefun අයිතමයේ මන්තර ඉවත් කළ නොහැක!"
+  not-enchantable: "මෙම Slimefun අයිතමයට මන්තර යෙදිය නොහැක!"
+  no-upgrades: "උත්ශ්‍රේණි නැත!"
+  no-room: "ප්‍රමාණවත් ඉඩක් නැත!"
+
+matrix:
+  flight-disabled: "අනන්ත පියාසැරිය අක්‍රිය කරන ලදී!"
+  flight-enabled: "අනන්ත පියාසැරිය සක්‍රිය කරන ලදී!"
+  not-owner: "මෙම න්‍යාසය ඔබට අයිති නැත!"
+  ownership-removed: "හිමිකාරිත්වය ඉවත් කරන ලදී!"
+  ownership-claimed: "හිමිකාරිත්වය ලබා ගන්නා ලදී!"
+
+vein-miner:
+  added: "උපකරණයට නහර කැණීම එක් කරන ලදී!"
+  failed: "නහර කැණීම එක් කිරීම අසාර්ථක විය!"
+  too-tired: "නහරයක් කැණීමට ඔබ ඉතා වෙහෙසට පත්ව ඇත!"
+  cooldown: "නැවත භාවිත කිරීමට පෙර තත්පර 1 ක් රැඳී සිටිය යුතුය!"
+
+storage:
+  transferred-to-drop: "ගබඩා කළ අයිතම වැටුණු අයිතමයට මාරු කරන ලදී"

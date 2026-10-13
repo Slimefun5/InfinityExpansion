@@ -1,0 +1,39 @@
+command:
+  players-only: "Bare spillere kan bruke dette!"
+  giverecipe-usage: "Bruk: /ie giverecipe <ID>"
+  invalid-item: "Ugyldig Slimefun-gjenstand!"
+  gave-recipe: "Oppskrift på %item% gitt"
+  hold-item: "Du må holde en gjenstand i hånden!"
+  setdata-usage: "Du må oppgi en nøkkel og en verdi å sette!"
+  target-block: "Du må sikte på en blokk for å bruke denne kommandoen!"
+  target-slimefun-block: "Du må sikte på en Slimefun-blokk for å bruke denne kommandoen!"
+  id-immutable: "Du kan ikke endre id-en til denne blokken, det kan føre til interne problemer!"
+  data-removed: "Verdien til nøkkelen '%key%' i %id% ble fjernet"
+  data-set: "Nøkkelen '%key%' i %id% ble satt til verdien '%value%'"
+
+machine:
+  no-energy: "Ikke nok energi!"
+  charge: "Ladning: %charge%/%capacity% J"
+
+anvil:
+  invalid-items: "Ugyldige gjenstander!"
+  not-disenchantable: "Denne Slimefun-gjenstanden kan ikke avfortrylles!"
+  not-enchantable: "Denne Slimefun-gjenstanden kan ikke fortrylles!"
+  no-upgrades: "Ingen oppgraderinger!"
+  no-room: "Ikke nok plass!"
+
+matrix:
+  flight-disabled: "Uendelig flyging av!"
+  flight-enabled: "Uendelig flyging på!"
+  not-owner: "Denne matrisen tilhører ikke deg!"
+  ownership-removed: "Eierskap fjernet!"
+  ownership-claimed: "Eierskap krevd!"
+
+vein-miner:
+  added: "Årebryter lagt til verktøyet!"
+  failed: "Kunne ikke legge til årebryteren!"
+  too-tired: "Du er for sliten til å bryte en åre!"
+  cooldown: "Du må vente 1 sekund før du bruker den igjen!"
+
+storage:
+  transferred-to-drop: "Lagrede gjenstander overført til den slupne gjenstanden"

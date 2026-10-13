@@ -1,0 +1,39 @@
+command:
+  players-only: "Tylko gracze mogą tego użyć!"
+  giverecipe-usage: "Użycie: /ie giverecipe <ID>"
+  invalid-item: "Nieprawidłowy przedmiot Slimefun!"
+  gave-recipe: "Wydano przepis na %item%"
+  hold-item: "Musisz trzymać przedmiot w ręce!"
+  setdata-usage: "Musisz podać klucz i wartość do ustawienia!"
+  target-block: "Musisz patrzeć na blok, aby użyć tej komendy!"
+  target-slimefun-block: "Musisz patrzeć na blok Slimefun, aby użyć tej komendy!"
+  id-immutable: "Nie możesz zmienić id tego bloku, mogłoby to spowodować problemy wewnętrzne!"
+  data-removed: "Usunięto wartość klucza '%key%' w %id%"
+  data-set: "Ustawiono klucz '%key%' na wartość '%value%' w %id%"
+
+machine:
+  no-energy: "Za mało energii!"
+  charge: "Ładunek: %charge%/%capacity% J"
+
+anvil:
+  invalid-items: "Nieprawidłowe przedmioty!"
+  not-disenchantable: "Tego przedmiotu Slimefun nie można odczarować!"
+  not-enchantable: "Tego przedmiotu Slimefun nie można zaklinać!"
+  no-upgrades: "Brak ulepszeń!"
+  no-room: "Za mało miejsca!"
+
+matrix:
+  flight-disabled: "Lot Nieskończoności wyłączony!"
+  flight-enabled: "Lot Nieskończoności włączony!"
+  not-owner: "Ta macierz nie należy do ciebie!"
+  ownership-removed: "Własność usunięta!"
+  ownership-claimed: "Własność przejęta!"
+
+vein-miner:
+  added: "Dodano Górnika Żył do narzędzia!"
+  failed: "Nie udało się dodać górnika żył!"
+  too-tired: "Jesteś zbyt zmęczony, aby kopać żyłę!"
+  cooldown: "Musisz odczekać 1 sekundę przed ponownym użyciem!"
+
+storage:
+  transferred-to-drop: "Przechowywane przedmioty przeniesiono do wyrzuconego przedmiotu"

@@ -1,0 +1,39 @@
+command:
+  players-only: "فقط بازیکنان می‌توانند از این استفاده کنند!"
+  giverecipe-usage: "نحوه استفاده: /ie giverecipe <ID>"
+  invalid-item: "آیتم Slimefun نامعتبر است!"
+  gave-recipe: "دستور ساخت %item% داده شد"
+  hold-item: "باید یک آیتم در دست داشته باشی!"
+  setdata-usage: "باید یک کلید و یک مقدار برای تنظیم مشخص کنی!"
+  target-block: "برای استفاده از این دستور باید به یک بلوک نگاه کنی!"
+  target-slimefun-block: "برای استفاده از این دستور باید به یک بلوک Slimefun نگاه کنی!"
+  id-immutable: "نمی‌توانی شناسه این بلوک را تغییر دهی، ممکن است مشکلات داخلی ایجاد کند!"
+  data-removed: "مقدار کلید '%key%' در %id% حذف شد"
+  data-set: "کلید '%key%' در %id% روی مقدار '%value%' تنظیم شد"
+
+machine:
+  no-energy: "انرژی کافی نیست!"
+  charge: "شارژ: %charge%/%capacity% ژول"
+
+anvil:
+  invalid-items: "آیتم‌های نامعتبر!"
+  not-disenchantable: "طلسم این آیتم Slimefun را نمی‌توان برداشت!"
+  not-enchantable: "این آیتم Slimefun را نمی‌توان طلسم کرد!"
+  no-upgrades: "هیچ ارتقایی نیست!"
+  no-room: "فضای کافی نیست!"
+
+matrix:
+  flight-disabled: "پرواز بی‌نهایت غیرفعال شد!"
+  flight-enabled: "پرواز بی‌نهایت فعال شد!"
+  not-owner: "این ماتریس مال تو نیست!"
+  ownership-removed: "مالکیت برداشته شد!"
+  ownership-claimed: "مالکیت ثبت شد!"
+
+vein-miner:
+  added: "معدن‌کاو رگه به ابزار اضافه شد!"
+  failed: "افزودن معدن‌کاو رگه ناموفق بود!"
+  too-tired: "برای استخراج رگه بیش از حد خسته‌ای!"
+  cooldown: "باید یک ثانیه صبر کنی تا دوباره استفاده کنی!"
+
+storage:
+  transferred-to-drop: "آیتم‌های ذخیره‌شده به آیتم افتاده منتقل شدند"

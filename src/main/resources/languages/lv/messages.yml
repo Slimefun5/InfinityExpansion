@@ -1,0 +1,39 @@
+command:
+  players-only: "To var izmantot tikai spēlētāji!"
+  giverecipe-usage: "Lietojums: /ie giverecipe <ID>"
+  invalid-item: "Nederīgs Slimefun priekšmets!"
+  gave-recipe: "%item% recepte izsniegta"
+  hold-item: "Tev rokā jātur priekšmets!"
+  setdata-usage: "Tev jānorāda atslēga un iestatāmā vērtība!"
+  target-block: "Lai izmantotu šo komandu, tev jāskatās uz bloku!"
+  target-slimefun-block: "Lai izmantotu šo komandu, tev jāskatās uz Slimefun bloku!"
+  id-immutable: "Tu nevari mainīt šī bloka identifikatoru, tas var radīt iekšējas problēmas!"
+  data-removed: "Atslēgas '%key%' vērtība no %id% ir izņemta"
+  data-set: "Atslēga '%key%' no %id% ir iestatīta uz vērtību '%value%'"
+
+machine:
+  no-energy: "Nepietiek enerģijas!"
+  charge: "Uzlāde: %charge%/%capacity% J"
+
+anvil:
+  invalid-items: "Nederīgi priekšmeti!"
+  not-disenchantable: "No šī Slimefun priekšmeta nevar noņemt burvestības!"
+  not-enchantable: "Šo Slimefun priekšmetu nevar apburt!"
+  no-upgrades: "Nav uzlabojumu!"
+  no-room: "Nepietiek vietas!"
+
+matrix:
+  flight-disabled: "Bezgalības lidošana izslēgta!"
+  flight-enabled: "Bezgalības lidošana ieslēgta!"
+  not-owner: "Šī matrica nepieder tev!"
+  ownership-removed: "Īpašumtiesības noņemtas!"
+  ownership-claimed: "Īpašumtiesības pieprasītas!"
+
+vein-miner:
+  added: "Dzīslu rakšana pievienota rīkam!"
+  failed: "Neizdevās pievienot dzīslu rakšanu!"
+  too-tired: "Tu esi pārāk noguris, lai raktu dzīslu!"
+  cooldown: "Tev jāpagaida 1 sekunde pirms atkārtotas lietošanas!"
+
+storage:
+  transferred-to-drop: "Uzglabātie priekšmeti pārnesti uz nomesto priekšmetu"
