@@ -429,7 +429,7 @@ INFINITE_INGOT:
   description:
   - '&7&oFuria kosmosu'
   - '&7&ona twojej dłoni'
-  name: '&bSztabka Infinity'
+  name: '&bSztabka Nieskończoności'
   type:
   - '&7&oSurowiec'
 INFINITE_MACHINE_CIRCUIT:
@@ -443,7 +443,7 @@ INFINITE_MACHINE_CORE:
 INFINITE_PANEL:
   description:
   - '&7Wytwarza energię z kosmosu'
-  name: '&bPanel Infinity'
+  name: '&bPanel Nieskończoności'
   stats:
   - '&8⇨ &e⚡ &76,000,000 J Bufora'
   - '&8⇨ &e⚡ &760,000 J/s'
@@ -471,7 +471,7 @@ INFINITY_BLADE:
   type:
   - '&7&oBroń'
 INFINITY_BOOTS:
-  name: '&bButy Infinity'
+  name: '&bButy Nieskończoności'
   stats:
   - '&7Szybkość III'
   - '&7Łaska Delfina I'
@@ -498,14 +498,14 @@ INFINITY_CAPACITOR:
 INFINITY_CHARGER:
   description:
   - '&7Natychmiast ładuje przedmioty'
-  name: '&bŁadowarka Infinity'
+  name: '&bŁadowarka Nieskończoności'
   stats:
   - '&8⇨ &e⚡ &7Prędkość: &b6000x'
   - '&8⇨ &e⚡ &760,000 J za użycie'
   type:
   - '&7&oMaszyna'
 INFINITY_CHESTPLATE:
-  name: '&bNapierśnik Infinity'
+  name: '&bNapierśnik Nieskończoności'
   stats:
   - '&7Siła II'
   - '&7Odporność I'
@@ -517,7 +517,7 @@ INFINITY_CHESTPLATE:
 INFINITY_COBBLE_GEN:
   description:
   - '&7Automatycznie wytwarza bruk z upływem czasu'
-  name: '&cGenerator &8Bruku Infinity'
+  name: '&cGenerator &8Bruku Nieskończoności'
   stats:
   - '&8⇨ &e⚡ &7Prędkość: &b64x'
   - '&8⇨ &e⚡ &7800 J/s'
@@ -526,14 +526,14 @@ INFINITY_COBBLE_GEN:
 INFINITY_CONSTRUCTOR:
   description:
   - '&7Szybko zagęszcza duże ilości surowców'
-  name: '&bKonstruktor &fInfinity'
+  name: '&bKonstruktor &fNieskończoności'
   stats:
   - '&8⇨ &e⚡ &7Prędkość: &b64x'
   - '&8⇨ &e⚡ &71,200 J/s'
   type:
   - '&7&oMaszyna'
 INFINITY_CROWN:
-  name: '&bKorona Infinity'
+  name: '&bKorona Nieskończoności'
   stats:
   - '&7Widzenie w Ciemności I'
   - '&7Moc Przewodnika I'
@@ -544,7 +544,7 @@ INFINITY_CROWN:
 INFINITY_DISENCHANTER:
   description:
   - '&7Automatycznie przenosi zaklęcia z przedmiotów do ksiąg'
-  name: '&bOdklinacz Infinity'
+  name: '&bOdklinacz Nieskończoności'
   stats:
   - '&8⇨ &e⚡ &7Prędkość: &b90x'
   - '&8⇨ &e⚡ &712,000 J za użycie'
@@ -553,7 +553,7 @@ INFINITY_DISENCHANTER:
 INFINITY_DUST_EXTRACTOR:
   description:
   - '&7Przekształca bruk w pyły'
-  name: '&bEkstraktor &8Pyłu Infinity'
+  name: '&bEkstraktor &8Pyłu Nieskończoności'
   stats:
   - '&8⇨ &e⚡ &7Prędkość: &b16x'
   - '&8⇨ &e⚡ &77,200 J/s'
@@ -562,7 +562,7 @@ INFINITY_DUST_EXTRACTOR:
 INFINITY_ENCHANTER:
   description:
   - '&7Automatycznie zaklina przedmioty umieszczone w środku'
-  name: '&bZaklinacz Infinity'
+  name: '&bZaklinacz Nieskończoności'
   stats:
   - '&8⇨ &e⚡ &7Prędkość: &b75x'
   - '&8⇨ &e⚡ &712,000 J za użycie'
@@ -571,7 +571,7 @@ INFINITY_ENCHANTER:
 INFINITY_FORGE:
   description:
   - '&7Służy do wytwarzania nieskończonych przedmiotów'
-  name: '&6Stół Roboczy Infinity'
+  name: '&6Stół Roboczy Nieskończoności'
   stats:
   - '&8⇨ &e⚡ &710,000,000 J za przedmiot'
   type:
@@ -579,14 +579,14 @@ INFINITY_FORGE:
 INFINITY_INGOT_FORMER:
   description:
   - '&7Formuje sztabki z pyłów'
-  name: '&bFormownica &8Sztabek Infinity'
+  name: '&bFormownica &8Sztabek Nieskończoności'
   stats:
   - '&8⇨ &e⚡ &7Prędkość: &b16x'
   - '&8⇨ &e⚡ &77,200 J/s'
   type:
   - '&7&oMaszyna'
 INFINITY_LEGGINGS:
-  name: '&bNagolenniki Infinity'
+  name: '&bNagolenniki Nieskończoności'
   stats:
   - '&7Pośpiech III'
   - '&7Regeneracja I'
@@ -598,7 +598,7 @@ INFINITY_LEGGINGS:
 INFINITY_MATRIX:
   description:
   - '&6Daje nieograniczony lot'
-  name: '&fMacierz Infinity'
+  name: '&fMacierz Nieskończoności'
   stats:
   - '&bZwiązany z duszą'
   type:
@@ -615,7 +615,7 @@ INFINITY_PICKAXE:
 INFINITY_QUARRY:
   description:
   - '&7Automatycznie wydobywa rudy ze świata zewnętrznego i Netheru'
-  name: '&bKamieniołom Infinity'
+  name: '&bKamieniołom Nieskończoności'
   stats:
   - '&8⇨ &e⚡ &7Prędkość: &b64x'
   - '&8⇨ &e⚡ &736,000 J/s'
@@ -625,7 +625,7 @@ INFINITY_REACTOR:
   description:
   - '&7Wytwarza moc przez sprasowanie'
   - '&7sztabek &8Pustki &7i &bNieskończoności&7'
-  name: '&bReaktor Infinity'
+  name: '&bReaktor Nieskończoności'
   stats:
   - '&8⇨ &e⚡ &7120,000,000 J Bufora'
   - '&8⇨ &e⚡ &7120,000 J/s'
@@ -644,13 +644,13 @@ INFINITY_SHOVEL:
   type:
   - '&7&oNarzędzie'
 INFINITY_SINGULARITY:
-  name: '&bOsobliwość Infinity'
+  name: '&bOsobliwość Nieskończoności'
   type:
   - '&7&oSurowiec'
 INFINITY_STORAGE:
   description:
   - '&7Przechowuje duże ilości pojedynczego typu przedmiotu'
-  name: '&bJednostka &8Magazynu Infinity'
+  name: '&bJednostka &8Magazynu Nieskończoności'
   stats:
   - '&6Pojemność: &e1,600,000,000 &eprzedmiotów'
   type:
@@ -658,7 +658,7 @@ INFINITY_STORAGE:
 INFINITY_TREE_GROWER:
   description:
   - '&7Automatycznie uprawia, ścina i sadzi ponownie drzewa'
-  name: '&bHodowca &2Drzew Infinity'
+  name: '&bHodowca &2Drzew Nieskończoności'
   stats:
   - '&8⇨ &e⚡ &7Prędkość: &b25x'
   - '&8⇨ &e⚡ &71,800 J/s'
@@ -667,7 +667,7 @@ INFINITY_TREE_GROWER:
 INFINITY_VIRTUAL_FARM:
   description:
   - '&7Automatycznie uprawia, zbiera i sadzi ponownie rośliny'
-  name: '&bWirtualna &aFarma Infinity'
+  name: '&bWirtualna &aFarma Nieskończoności'
   stats:
   - '&8⇨ &e⚡ &7Prędkość: &b25x'
   - '&8⇨ &e⚡ &7900 J/s'

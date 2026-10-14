@@ -429,7 +429,7 @@ INFINITE_INGOT:
   description:
   - '&7&oDe woede van de kosmos'
   - '&7&oin de palm van je hand'
-  name: '&bInfinity Staaf'
+  name: '&bOneindigheidsstaaf'
   type:
   - '&7&oGrondstof'
 INFINITE_MACHINE_CIRCUIT:
@@ -443,7 +443,7 @@ INFINITE_MACHINE_CORE:
 INFINITE_PANEL:
   description:
   - '&7Genereert energie uit de kosmos'
-  name: '&bInfinity Paneel'
+  name: '&bOneindigheidspaneel'
   stats:
   - '&8⇨ &e⚡ &76,000,000 J Buffer'
   - '&8⇨ &e⚡ &760,000 J/s'
@@ -471,7 +471,7 @@ INFINITY_BLADE:
   type:
   - '&7&oWapen'
 INFINITY_BOOTS:
-  name: '&bInfinity Laarzen'
+  name: '&bOneindigheidslaarzen'
   stats:
   - '&7Snelheid III'
   - '&7Dolfijnengratie I'
@@ -498,14 +498,14 @@ INFINITY_CAPACITOR:
 INFINITY_CHARGER:
   description:
   - '&7Laadt items onmiddellijk op'
-  name: '&bInfinity Lader'
+  name: '&bOneindigheidslader'
   stats:
   - '&8⇨ &e⚡ &7Snelheid: &b6000x'
   - '&8⇨ &e⚡ &760,000 J per gebruik'
   type:
   - '&7&oMachine'
 INFINITY_CHESTPLATE:
-  name: '&bInfinity Borstplaat'
+  name: '&bOneindigheidsborstplaat'
   stats:
   - '&7Kracht II'
   - '&7Weerstand I'
@@ -517,7 +517,7 @@ INFINITY_CHESTPLATE:
 INFINITY_COBBLE_GEN:
   description:
   - '&7Genereert na verloop van tijd automatisch rotsblok'
-  name: '&cInfinity &8Steengenerator'
+  name: '&cOneindigheids- &8Steengenerator'
   stats:
   - '&8⇨ &e⚡ &7Snelheid: &b64x'
   - '&8⇨ &e⚡ &7800 J/s'
@@ -526,14 +526,14 @@ INFINITY_COBBLE_GEN:
 INFINITY_CONSTRUCTOR:
   description:
   - '&7Condenseert snel grote hoeveelheden grondstoffen'
-  name: '&bInfinity &fConstructor'
+  name: '&bOneindigheids- &fConstructeur'
   stats:
   - '&8⇨ &e⚡ &7Snelheid: &b64x'
   - '&8⇨ &e⚡ &71,200 J/s'
   type:
   - '&7&oMachine'
 INFINITY_CROWN:
-  name: '&bInfinity Kroon'
+  name: '&bOneindigheidskroon'
   stats:
   - '&7Nachtzicht I'
   - '&7Conduitkracht I'
@@ -544,7 +544,7 @@ INFINITY_CROWN:
 INFINITY_DISENCHANTER:
   description:
   - '&7Haalt automatisch betoveringen van items en zet ze in boeken'
-  name: '&bInfinity Ontbetoveraar'
+  name: '&bOneindigheidsontbetoveraar'
   stats:
   - '&8⇨ &e⚡ &7Snelheid: &b90x'
   - '&8⇨ &e⚡ &712,000 J per gebruik'
@@ -553,7 +553,7 @@ INFINITY_DISENCHANTER:
 INFINITY_DUST_EXTRACTOR:
   description:
   - '&7Zet rotsblok om in poeders'
-  name: '&bInfinity &8Stofextractor'
+  name: '&bOneindigheids- &8Stofextractor'
   stats:
   - '&8⇨ &e⚡ &7Snelheid: &b16x'
   - '&8⇨ &e⚡ &77,200 J/s'
@@ -562,7 +562,7 @@ INFINITY_DUST_EXTRACTOR:
 INFINITY_ENCHANTER:
   description:
   - '&7Betovert automatisch items die erin geplaatst worden'
-  name: '&bInfinity Betoveraar'
+  name: '&bOneindigheidsbetoveraar'
   stats:
   - '&8⇨ &e⚡ &7Snelheid: &b75x'
   - '&8⇨ &e⚡ &712,000 J per gebruik'
@@ -571,7 +571,7 @@ INFINITY_ENCHANTER:
 INFINITY_FORGE:
   description:
   - '&7Gebruikt om oneindigheidsitems te vervaardigen'
-  name: '&6Infinity Werkbank'
+  name: '&6Oneindigheidswerkbank'
   stats:
   - '&8⇨ &e⚡ &710,000,000 J per item'
   type:
@@ -579,14 +579,14 @@ INFINITY_FORGE:
 INFINITY_INGOT_FORMER:
   description:
   - '&7Vormt staven uit poeders'
-  name: '&bInfinity &8Staafvormer'
+  name: '&bOneindigheids- &8Staafvormer'
   stats:
   - '&8⇨ &e⚡ &7Snelheid: &b16x'
   - '&8⇨ &e⚡ &77,200 J/s'
   type:
   - '&7&oMachine'
 INFINITY_LEGGINGS:
-  name: '&bInfinity Beenkappen'
+  name: '&bOneindigheidsbeenkappen'
   stats:
   - '&7Haast III'
   - '&7Regeneratie I'
@@ -598,7 +598,7 @@ INFINITY_LEGGINGS:
 INFINITY_MATRIX:
   description:
   - '&6Geeft onbeperkt vliegen'
-  name: '&fInfinity Matrix'
+  name: '&fOneindigheidsmatrix'
   stats:
   - '&bZielgebonden'
   type:
@@ -615,7 +615,7 @@ INFINITY_PICKAXE:
 INFINITY_QUARRY:
   description:
   - '&7Wint automatisch ertsen uit de bovenwereld en de Nether'
-  name: '&bInfinity Steengroeve'
+  name: '&bOneindigheidssteengroeve'
   stats:
   - '&8⇨ &e⚡ &7Snelheid: &b64x'
   - '&8⇨ &e⚡ &736,000 J/s'
@@ -625,7 +625,7 @@ INFINITY_REACTOR:
   description:
   - '&7Wekt stroom op door het samenpersen'
   - '&7van &8Leegte&7- en &bOneindigheids&7staven'
-  name: '&bInfinity Reactor'
+  name: '&bOneindigheidsreactor'
   stats:
   - '&8⇨ &e⚡ &7120,000,000 J Buffer'
   - '&8⇨ &e⚡ &7120,000 J/s'
@@ -644,13 +644,13 @@ INFINITY_SHOVEL:
   type:
   - '&7&oGereedschap'
 INFINITY_SINGULARITY:
-  name: '&bInfinity-Singulariteit'
+  name: '&bOneindigheidssingulariteit'
   type:
   - '&7&oGrondstof'
 INFINITY_STORAGE:
   description:
   - '&7Slaat grote hoeveelheden van één enkel itemtype op'
-  name: '&bInfinity &8Opslageenheid'
+  name: '&bOneindigheids- &8Opslageenheid'
   stats:
   - '&6Capaciteit: &e1,600,000,000 &eitems'
   type:
@@ -658,7 +658,7 @@ INFINITY_STORAGE:
 INFINITY_TREE_GROWER:
   description:
   - '&7Kweekt, oogst en herplant automatisch bomen'
-  name: '&bInfinity &2Boomkweker'
+  name: '&bOneindigheids- &2Boomkweker'
   stats:
   - '&8⇨ &e⚡ &7Snelheid: &b25x'
   - '&8⇨ &e⚡ &71,800 J/s'
@@ -667,7 +667,7 @@ INFINITY_TREE_GROWER:
 INFINITY_VIRTUAL_FARM:
   description:
   - '&7Kweekt, oogst en herplant automatisch gewassen'
-  name: '&bInfinity &aVirtuele Boerderij'
+  name: '&bOneindigheids- &aVirtuele Boerderij'
   stats:
   - '&8⇨ &e⚡ &7Snelheid: &b25x'
   - '&8⇨ &e⚡ &7900 J/s'

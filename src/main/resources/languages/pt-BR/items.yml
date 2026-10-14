@@ -429,7 +429,7 @@ INFINITE_INGOT:
   description:
   - '&7&oA fúria do cosmos'
   - '&7&ona palma da sua mão'
-  name: '&bBarra Infinity'
+  name: '&bBarra do Infinito'
   type:
   - '&7&oRecurso'
 INFINITE_MACHINE_CIRCUIT:
@@ -443,7 +443,7 @@ INFINITE_MACHINE_CORE:
 INFINITE_PANEL:
   description:
   - '&7Gera energia a partir do cosmos'
-  name: '&bPainel Infinity'
+  name: '&bPainel do Infinito'
   stats:
   - '&8⇨ &e⚡ &7Reserva de 6,000,000 J'
   - '&8⇨ &e⚡ &760,000 J/s'
@@ -471,7 +471,7 @@ INFINITY_BLADE:
   type:
   - '&7&oArma'
 INFINITY_BOOTS:
-  name: '&bBotas Infinity'
+  name: '&bBotas do Infinito'
   stats:
   - '&7Velocidade III'
   - '&7Graça do Golfinho I'
@@ -498,14 +498,14 @@ INFINITY_CAPACITOR:
 INFINITY_CHARGER:
   description:
   - '&7Carrega itens instantaneamente'
-  name: '&bCarregador Infinity'
+  name: '&bCarregador do Infinito'
   stats:
   - '&8⇨ &e⚡ &7Velocidade: &b6000x'
   - '&8⇨ &e⚡ &760,000 J por uso'
   type:
   - '&7&oMáquina'
 INFINITY_CHESTPLATE:
-  name: '&bPeitoral Infinity'
+  name: '&bPeitoral do Infinito'
   stats:
   - '&7Força II'
   - '&7Resistência I'
@@ -517,7 +517,7 @@ INFINITY_CHESTPLATE:
 INFINITY_COBBLE_GEN:
   description:
   - '&7Gera pedregulho automaticamente com o tempo'
-  name: '&cGerador &8de Pedregulho Infinity'
+  name: '&cGerador &8de Pedregulho do Infinito'
   stats:
   - '&8⇨ &e⚡ &7Velocidade: &b64x'
   - '&8⇨ &e⚡ &7800 J/s'
@@ -526,14 +526,14 @@ INFINITY_COBBLE_GEN:
 INFINITY_CONSTRUCTOR:
   description:
   - '&7Condensa rapidamente grandes quantidades de recursos'
-  name: '&bConstrutor &fInfinity'
+  name: '&bConstrutor &fdo Infinito'
   stats:
   - '&8⇨ &e⚡ &7Velocidade: &b64x'
   - '&8⇨ &e⚡ &71,200 J/s'
   type:
   - '&7&oMáquina'
 INFINITY_CROWN:
-  name: '&bCoroa Infinity'
+  name: '&bCoroa do Infinito'
   stats:
   - '&7Visão Noturna I'
   - '&7Poder do Conduíte I'
@@ -544,7 +544,7 @@ INFINITY_CROWN:
 INFINITY_DISENCHANTER:
   description:
   - '&7Remove automaticamente os encantamentos dos itens para livros'
-  name: '&bDesencantador Infinity'
+  name: '&bDesencantador do Infinito'
   stats:
   - '&8⇨ &e⚡ &7Velocidade: &b90x'
   - '&8⇨ &e⚡ &712,000 J por uso'
@@ -553,7 +553,7 @@ INFINITY_DISENCHANTER:
 INFINITY_DUST_EXTRACTOR:
   description:
   - '&7Converte pedregulho em pós'
-  name: '&bExtrator &8de Pó Infinity'
+  name: '&bExtrator &8de Pó do Infinito'
   stats:
   - '&8⇨ &e⚡ &7Velocidade: &b16x'
   - '&8⇨ &e⚡ &77,200 J/s'
@@ -562,7 +562,7 @@ INFINITY_DUST_EXTRACTOR:
 INFINITY_ENCHANTER:
   description:
   - '&7Encanta automaticamente os itens colocados dentro dele'
-  name: '&bEncantador Infinity'
+  name: '&bEncantador do Infinito'
   stats:
   - '&8⇨ &e⚡ &7Velocidade: &b75x'
   - '&8⇨ &e⚡ &712,000 J por uso'
@@ -571,7 +571,7 @@ INFINITY_ENCHANTER:
 INFINITY_FORGE:
   description:
   - '&7Usada para fabricar itens infinitos'
-  name: '&6Bancada Infinity'
+  name: '&6Bancada do Infinito'
   stats:
   - '&8⇨ &e⚡ &710,000,000 J por item'
   type:
@@ -579,14 +579,14 @@ INFINITY_FORGE:
 INFINITY_INGOT_FORMER:
   description:
   - '&7Forma lingotes a partir de pós'
-  name: '&bFormador &8de Barras Infinity'
+  name: '&bFormador &8de Barras do Infinito'
   stats:
   - '&8⇨ &e⚡ &7Velocidade: &b16x'
   - '&8⇨ &e⚡ &77,200 J/s'
   type:
   - '&7&oMáquina'
 INFINITY_LEGGINGS:
-  name: '&bCalças Infinity'
+  name: '&bCalças do Infinito'
   stats:
   - '&7Pressa III'
   - '&7Regeneração I'
@@ -598,7 +598,7 @@ INFINITY_LEGGINGS:
 INFINITY_MATRIX:
   description:
   - '&6Concede Voo Ilimitado'
-  name: '&fMatriz Infinity'
+  name: '&fMatriz do Infinito'
   stats:
   - '&bVinculado à Alma'
   type:
@@ -615,7 +615,7 @@ INFINITY_PICKAXE:
 INFINITY_QUARRY:
   description:
   - '&7Minera automaticamente minérios do overworld e do nether'
-  name: '&bPedreira Infinity'
+  name: '&bPedreira do Infinito'
   stats:
   - '&8⇨ &e⚡ &7Velocidade: &b64x'
   - '&8⇨ &e⚡ &736,000 J/s'
@@ -625,7 +625,7 @@ INFINITY_REACTOR:
   description:
   - '&7Gera energia através da compressão'
   - '&7de Lingotes do &8Vazio &7e do &bInfinito&7'
-  name: '&bReator Infinity'
+  name: '&bReator do Infinito'
   stats:
   - '&8⇨ &e⚡ &7Reserva de 120,000,000 J'
   - '&8⇨ &e⚡ &7120,000 J/s'
@@ -644,13 +644,13 @@ INFINITY_SHOVEL:
   type:
   - '&7&oFerramenta'
 INFINITY_SINGULARITY:
-  name: '&bSingularidade Infinity'
+  name: '&bSingularidade do Infinito'
   type:
   - '&7&oRecurso'
 INFINITY_STORAGE:
   description:
   - '&7Armazena grandes quantidades de um único tipo de item'
-  name: '&bUnidade &8de Armazenamento Infinity'
+  name: '&bUnidade &8de Armazenamento do Infinito'
   stats:
   - '&6Capacidade: &e1,600,000,000 &eitens'
   type:
@@ -658,7 +658,7 @@ INFINITY_STORAGE:
 INFINITY_TREE_GROWER:
   description:
   - '&7Cultiva, colhe e replanta árvores automaticamente'
-  name: '&bCultivador &2de Árvores Infinity'
+  name: '&bCultivador &2de Árvores do Infinito'
   stats:
   - '&8⇨ &e⚡ &7Velocidade: &b25x'
   - '&8⇨ &e⚡ &71,800 J/s'
@@ -667,7 +667,7 @@ INFINITY_TREE_GROWER:
 INFINITY_VIRTUAL_FARM:
   description:
   - '&7Cultiva, colhe e replanta plantações automaticamente'
-  name: '&bFazenda &aVirtual Infinity'
+  name: '&bFazenda &aVirtual do Infinito'
   stats:
   - '&8⇨ &e⚡ &7Velocidade: &b25x'
   - '&8⇨ &e⚡ &7900 J/s'

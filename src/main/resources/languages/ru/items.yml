@@ -429,7 +429,7 @@ INFINITE_INGOT:
   description:
   - '&7&oЯрость космоса'
   - '&7&oна вашей ладони'
-  name: '&bСлиток Infinity'
+  name: '&bСлиток Бесконечности'
   type:
   - '&7&oРесурс'
 INFINITE_MACHINE_CIRCUIT:
@@ -443,7 +443,7 @@ INFINITE_MACHINE_CORE:
 INFINITE_PANEL:
   description:
   - '&7Вырабатывает энергию из космоса'
-  name: '&bПанель Infinity'
+  name: '&bПанель Бесконечности'
   stats:
   - '&8⇨ &e⚡ &76,000,000 J Буфер'
   - '&8⇨ &e⚡ &760,000 J/s'
@@ -471,7 +471,7 @@ INFINITY_BLADE:
   type:
   - '&7&oОружие'
 INFINITY_BOOTS:
-  name: '&bБотинки Infinity'
+  name: '&bБотинки Бесконечности'
   stats:
   - '&7Скорость III'
   - '&7Благодать дельфина I'
@@ -498,14 +498,14 @@ INFINITY_CAPACITOR:
 INFINITY_CHARGER:
   description:
   - '&7Мгновенно заряжает предметы'
-  name: '&bЗарядное устройство Infinity'
+  name: '&bЗарядное устройство Бесконечности'
   stats:
   - '&8⇨ &e⚡ &7Скорость: &b6000x'
   - '&8⇨ &e⚡ &760,000 J за использование'
   type:
   - '&7&oМашина'
 INFINITY_CHESTPLATE:
-  name: '&bНагрудник Infinity'
+  name: '&bНагрудник Бесконечности'
   stats:
   - '&7Сила II'
   - '&7Сопротивление I'
@@ -517,7 +517,7 @@ INFINITY_CHESTPLATE:
 INFINITY_COBBLE_GEN:
   description:
   - '&7Со временем автоматически производит булыжник'
-  name: '&cГенератор &8Булыжника Infinity'
+  name: '&cГенератор &8Булыжника Бесконечности'
   stats:
   - '&8⇨ &e⚡ &7Скорость: &b64x'
   - '&8⇨ &e⚡ &7800 J/s'
@@ -526,14 +526,14 @@ INFINITY_COBBLE_GEN:
 INFINITY_CONSTRUCTOR:
   description:
   - '&7Быстро сгущает большое количество ресурсов'
-  name: '&bКонструктор &fInfinity'
+  name: '&bКонструктор &fБесконечности'
   stats:
   - '&8⇨ &e⚡ &7Скорость: &b64x'
   - '&8⇨ &e⚡ &71,200 J/s'
   type:
   - '&7&oМашина'
 INFINITY_CROWN:
-  name: '&bКорона Infinity'
+  name: '&bКорона Бесконечности'
   stats:
   - '&7Ночное зрение I'
   - '&7Сила проводника I'
@@ -544,7 +544,7 @@ INFINITY_CROWN:
 INFINITY_DISENCHANTER:
   description:
   - '&7Автоматически снимает чары с предметов, перенося их в книги'
-  name: '&bРасзачаровыватель Infinity'
+  name: '&bРасзачаровыватель Бесконечности'
   stats:
   - '&8⇨ &e⚡ &7Скорость: &b90x'
   - '&8⇨ &e⚡ &712,000 J за использование'
@@ -553,7 +553,7 @@ INFINITY_DISENCHANTER:
 INFINITY_DUST_EXTRACTOR:
   description:
   - '&7Преобразует булыжник в пыль'
-  name: '&bЭкстрактор &8Пыли Infinity'
+  name: '&bЭкстрактор &8Пыли Бесконечности'
   stats:
   - '&8⇨ &e⚡ &7Скорость: &b16x'
   - '&8⇨ &e⚡ &77,200 J/s'
@@ -562,7 +562,7 @@ INFINITY_DUST_EXTRACTOR:
 INFINITY_ENCHANTER:
   description:
   - '&7Автоматически зачаровывает помещённые внутрь предметы'
-  name: '&bЗачаровыватель Infinity'
+  name: '&bЗачаровыватель Бесконечности'
   stats:
   - '&8⇨ &e⚡ &7Скорость: &b75x'
   - '&8⇨ &e⚡ &712,000 J за использование'
@@ -571,7 +571,7 @@ INFINITY_ENCHANTER:
 INFINITY_FORGE:
   description:
   - '&7Используется для крафта бесконечных предметов'
-  name: '&6Верстак Infinity'
+  name: '&6Верстак Бесконечности'
   stats:
   - '&8⇨ &e⚡ &710,000,000 J за предмет'
   type:
@@ -579,14 +579,14 @@ INFINITY_FORGE:
 INFINITY_INGOT_FORMER:
   description:
   - '&7Формирует слитки из пыли'
-  name: '&bФормовщик &8Слитков Infinity'
+  name: '&bФормовщик &8Слитков Бесконечности'
   stats:
   - '&8⇨ &e⚡ &7Скорость: &b16x'
   - '&8⇨ &e⚡ &77,200 J/s'
   type:
   - '&7&oМашина'
 INFINITY_LEGGINGS:
-  name: '&bПоножи Infinity'
+  name: '&bПоножи Бесконечности'
   stats:
   - '&7Спешка III'
   - '&7Регенерация I'
@@ -598,7 +598,7 @@ INFINITY_LEGGINGS:
 INFINITY_MATRIX:
   description:
   - '&6Даёт безграничный полёт'
-  name: '&fМатрица Infinity'
+  name: '&fМатрица Бесконечности'
   stats:
   - '&bПривязан к душе'
   type:
@@ -615,7 +615,7 @@ INFINITY_PICKAXE:
 INFINITY_QUARRY:
   description:
   - '&7Автоматически добывает руды Верхнего мира и Незера'
-  name: '&bКарьер Infinity'
+  name: '&bКарьер Бесконечности'
   stats:
   - '&8⇨ &e⚡ &7Скорость: &b64x'
   - '&8⇨ &e⚡ &736,000 J/s'
@@ -625,7 +625,7 @@ INFINITY_REACTOR:
   description:
   - '&7Вырабатывает энергию путём сжатия'
   - '&7слитков &8Пустоты &7и &bБесконечности&7'
-  name: '&bРеактор Infinity'
+  name: '&bРеактор Бесконечности'
   stats:
   - '&8⇨ &e⚡ &7120,000,000 J Буфер'
   - '&8⇨ &e⚡ &7120,000 J/s'
@@ -644,13 +644,13 @@ INFINITY_SHOVEL:
   type:
   - '&7&oИнструмент'
 INFINITY_SINGULARITY:
-  name: '&bСингулярность Infinity'
+  name: '&bСингулярность Бесконечности'
   type:
   - '&7&oРесурс'
 INFINITY_STORAGE:
   description:
   - '&7Хранит большое количество предметов одного типа'
-  name: '&bБлок &8Хранилища Infinity'
+  name: '&bБлок &8Хранилища Бесконечности'
   stats:
   - '&6Ёмкость: &e1,600,000,000 &eпредметов'
   type:
@@ -658,7 +658,7 @@ INFINITY_STORAGE:
 INFINITY_TREE_GROWER:
   description:
   - '&7Автоматически выращивает, срубает и пересаживает деревья'
-  name: '&bВыращиватель &2Деревьев Infinity'
+  name: '&bВыращиватель &2Деревьев Бесконечности'
   stats:
   - '&8⇨ &e⚡ &7Скорость: &b25x'
   - '&8⇨ &e⚡ &71,800 J/s'
@@ -667,7 +667,7 @@ INFINITY_TREE_GROWER:
 INFINITY_VIRTUAL_FARM:
   description:
   - '&7Автоматически выращивает, собирает и пересаживает культуры'
-  name: '&bВиртуальная &aФерма Infinity'
+  name: '&bВиртуальная &aФерма Бесконечности'
   stats:
   - '&8⇨ &e⚡ &7Скорость: &b25x'
   - '&8⇨ &e⚡ &7900 J/s'
