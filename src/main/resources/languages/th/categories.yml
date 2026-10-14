@@ -1,0 +1,8 @@
+infinityexpansion:
+  main_materials: 'วัสดุอนันต์'
+  basic_machines: 'เครื่องจักรพื้นฐาน'
+  advanced_machines: 'เครื่องจักรขั้นสูง'
+  storage: 'ที่เก็บของ'
+  mob_simulation: 'จำลองม็อบ'
+  infinity_materials: 'วัสดุอนันต์'
+  infinity_cheat: 'สูตรอนันต์ - สูตรที่ไม่ถูกต้อง'
