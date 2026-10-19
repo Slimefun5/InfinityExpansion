@@ -25,6 +25,7 @@ import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 import io.github.thebusybiscuit.slimefun5.libraries.dough.common.ChatColors;
 import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
 import io.github.thebusybiscuit.slimefun5.libraries.dough.items.ItemUtils;
+import io.github.thebusybiscuit.slimefun5.utils.compatibility.InventoryCompat;
 import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
@@ -108,11 +109,7 @@ public final class StorageCache {
         menu.addMenuClickHandler(STATUS_SLOT, (p, slot, item, action) -> {
             this.voidExcess = !this.voidExcess;
             BlockStorage.addBlockInfo(this.menu.getLocation(), VOID_EXCESS, this.voidExcess ? "true" : null);
-            ItemMeta meta = item.getItemMeta();
-            List<String> lore = meta.getLore();
-            lore.set(1, this.voidExcess ? VOID_EXCESS_TRUE : VOID_EXCESS_FALSE);
-            meta.setLore(lore);
-            item.setItemMeta(meta);
+            updateStatus();
             return false;
         });
 
@@ -450,7 +447,7 @@ public final class StorageCache {
     }
 
     private void depositAll(Player p) {
-        depositAll(p.getInventory().getStorageContents());
+        depositAll(InventoryCompat.getStorageContents(p.getInventory()));
     }
 
     public void depositAll(ItemStack[] itemStacks) {
