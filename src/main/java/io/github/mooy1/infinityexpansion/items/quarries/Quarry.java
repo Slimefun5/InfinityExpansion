@@ -7,7 +7,6 @@ import java.util.concurrent.ThreadLocalRandom;
 import javax.annotation.Nonnull;
 import javax.annotation.ParametersAreNonnullByDefault;
 
-import org.bukkit.Material;
 import org.bukkit.World;
 import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
@@ -57,10 +56,10 @@ public final class Quarry extends AbstractMachineBlock implements RecipeDisplayI
 
     private final int speed;
     private final int chance;
-    private final Material[] outputs;
+    private final XMaterial[] outputs;
 
     public Quarry(ItemGroup category, SlimefunItemStack item, RecipeType type, ItemStack[] recipe,
-                  int speed, int chance, Material... outputs) {
+                  int speed, int chance, XMaterial... outputs) {
         super(category, item, type, recipe);
 
         this.speed = speed;
@@ -112,18 +111,18 @@ public final class Quarry extends AbstractMachineBlock implements RecipeDisplayI
         if (ThreadLocalRandom.current().nextInt(this.chance) == 0) {
             Oscillator oscillator = Oscillator.getOscillator(inv.getItemInSlot(OSCILLATOR_SLOT));
             if (oscillator == null || ThreadLocalRandom.current().nextDouble() >= oscillator.chance) {
-                Material outputType = this.outputs[ThreadLocalRandom.current().nextInt(this.outputs.length)];
+                XMaterial outputType = this.outputs[ThreadLocalRandom.current().nextInt(this.outputs.length)];
                 if (!ALLOW_NETHER_IN_OVERWORLD && b.getWorld().getEnvironment() != World.Environment.NETHER &&
-                        (outputType == MaterialCompat.safe(XMaterial.QUARTZ) || outputType == MaterialCompat.safe(XMaterial.NETHERITE_INGOT) || outputType == MaterialCompat.safe(XMaterial.NETHERRACK))
+                        (outputType == XMaterial.QUARTZ || outputType == XMaterial.NETHERITE_INGOT || outputType == XMaterial.NETHERRACK)
                 ) {
                     outputItem = new ItemStack(MaterialCompat.safe(XMaterial.COBBLESTONE), this.speed);
                 }
                 else {
-                    outputItem = new ItemStack(outputType, this.speed);
+                    outputItem = MaterialCompat.stack(outputType, this.speed);
                 }
             }
             else {
-                outputItem = new ItemStack(oscillator.getItem().getType(), this.speed);
+                outputItem = MaterialCompat.stack(oscillator.material, this.speed);
             }
         }
         else {
@@ -145,8 +144,8 @@ public final class Quarry extends AbstractMachineBlock implements RecipeDisplayI
         List<ItemStack> items = new ArrayList<>();
 
         items.add(new ItemStack(MaterialCompat.safe(XMaterial.COBBLESTONE), this.speed));
-        for (Material mat : this.outputs) {
-            items.add(new ItemStack(mat, this.speed));
+        for (XMaterial material : this.outputs) {
+            items.add(MaterialCompat.stack(material, this.speed));
         }
 
         return items;
