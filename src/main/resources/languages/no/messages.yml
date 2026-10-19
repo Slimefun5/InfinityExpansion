@@ -37,6 +37,7 @@ vein-miner:
 
 storage:
   transferred-to-drop: "Lagrede gjenstander overført til den slupne gjenstanden"
+  stored: "&6Lagret: &e{0} &6x &e{1}"
 guide:
   widgets:
     logistics: '&bLagringsenheter'

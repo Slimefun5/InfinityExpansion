@@ -10,7 +10,6 @@ import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 import javax.annotation.ParametersAreNonnullByDefault;
 
-import org.bukkit.ChatColor;
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
@@ -26,13 +25,13 @@ import io.github.mooy1.infinityexpansion.categories.Groups;
 import io.github.mooy1.infinityexpansion.utils.CompatUtils;
 import io.github.mooy1.infinitylib.common.Scheduler;
 import io.github.mooy1.infinitylib.machines.MenuBlock;
+import io.github.thebusybiscuit.slimefun5.api.items.LiveLore;
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun5.core.attributes.DistinctiveItem;
 import io.github.thebusybiscuit.slimefun5.core.handlers.BlockBreakHandler;
 import io.github.thebusybiscuit.slimefun5.libraries.dough.collections.Pair;
 import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
-import io.github.thebusybiscuit.slimefun5.libraries.dough.items.ItemUtils;
 import io.github.thebusybiscuit.slimefun5.utils.ChestMenuUtils;
 import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
 import me.mrCookieSlime.Slimefun.Objects.handlers.BlockTicker;
@@ -192,17 +191,13 @@ public final class StorageUnit extends MenuBlock implements DistinctiveItem {
     static void transferToStack(@Nonnull ItemStack source, @Nonnull ItemStack target) {
         Pair<ItemStack, Integer> data = loadFromStack(source);
         if (data != null) {
-            target.setItemMeta(saveToStack(target.getItemMeta(), data.getFirstValue(),
-                    ItemUtils.getItemName(data.getFirstValue()), data.getSecondValue()));
+            target.setItemMeta(saveToStack(target.getItemMeta(), data.getFirstValue(), data.getSecondValue()));
         }
     }
 
-    static ItemMeta saveToStack(ItemMeta meta, ItemStack displayItem, String displayName, int amount) {
-        if (meta.hasLore()) {
-            List<String> lore = meta.getLore();
-            lore.add(ChatColor.GOLD + "Stored: " + displayName + ChatColor.YELLOW + " x " + amount);
-            meta.setLore(lore);
-        }
+    static ItemMeta saveToStack(ItemMeta meta, ItemStack displayItem, int amount) {
+        LiveLore.set(meta, Collections.singletonList(
+            LiveLore.Line.of(InfinityExpansion.instance(), "storage.stored", LiveLore.itemName(displayItem), amount)));
         Object itemStackType = CompatUtils.itemStackDataType();
         if (itemStackType != null) {
             CompatUtils.setPdcItemStack(meta, ITEM_KEY, itemStackType, displayItem);

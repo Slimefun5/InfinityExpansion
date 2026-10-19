@@ -37,6 +37,7 @@ vein-miner:
 
 storage:
   transferred-to-drop: "ගබඩා කළ අයිතම වැටුණු අයිතමයට මාරු කරන ලදී"
+  stored: "&6ගබඩා කර ඇත: &e{0} &6x &e{1}"
 guide:
   widgets:
     logistics: '&bගබඩා ඒකක'

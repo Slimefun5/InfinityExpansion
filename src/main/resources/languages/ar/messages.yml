@@ -37,6 +37,7 @@ vein-miner:
 
 storage:
   transferred-to-drop: "تم نقل العناصر المخزنة إلى العنصر المُسقط"
+  stored: "&6مخزّن: &e{0} &6x &e{1}"
 guide:
   widgets:
     logistics: '&bوحدات التخزين'

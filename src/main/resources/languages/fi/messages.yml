@@ -37,6 +37,7 @@ vein-miner:
 
 storage:
   transferred-to-drop: "Varastoidut esineet siirrettiin pudotettuun esineeseen"
+  stored: "&6Varastossa: &e{0} &6x &e{1}"
 guide:
   widgets:
     logistics: '&bVarastoyksiköt'

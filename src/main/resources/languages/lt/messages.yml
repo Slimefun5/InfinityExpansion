@@ -37,6 +37,7 @@ vein-miner:
 
 storage:
   transferred-to-drop: "Saugomi daiktai perkelti į išmestą daiktą"
+  stored: "&6Saugoma: &e{0} &6x &e{1}"
 guide:
   widgets:
     logistics: '&bSaugojimo įrenginiai'

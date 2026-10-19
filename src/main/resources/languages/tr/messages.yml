@@ -37,6 +37,7 @@ vein-miner:
 
 storage:
   transferred-to-drop: "Depolanan eşyalar düşen eşyaya aktarıldı"
+  stored: "&6Depolanan: &e{0} &6x &e{1}"
 guide:
   widgets:
     logistics: '&bDepolama birimleri'

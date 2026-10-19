@@ -37,6 +37,7 @@ vein-miner:
 
 storage:
   transferred-to-drop: "A tárolt tárgyak átkerültek az eldobott tárgyba"
+  stored: "&6Tárolva: &e{0} &6x &e{1}"
 guide:
   widgets:
     logistics: '&bTárolóegységek'

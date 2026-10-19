@@ -37,6 +37,7 @@ vein-miner:
 
 storage:
   transferred-to-drop: "Opgeslagen items overgedragen naar het gedropte item"
+  stored: "&6Opgeslagen: &e{0} &6x &e{1}"
 guide:
   widgets:
     logistics: '&bOpslageenheden'

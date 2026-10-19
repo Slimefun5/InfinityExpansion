@@ -37,6 +37,7 @@ vein-miner:
 
 storage:
   transferred-to-drop: "Itens armazenados transferidos para o item derrubado"
+  stored: "&6Armazenado: &e{0} &6x &e{1}"
 guide:
   widgets:
     logistics: '&bUnidades de armazenamento'

@@ -37,6 +37,7 @@ vein-miner:
 
 storage:
   transferred-to-drop: "הפריטים המאוחסנים הועברו לפריט שהושלך"
+  stored: "&6מאוחסן: &e{0} &6x &e{1}"
 guide:
   widgets:
     logistics: '&bיחידות אחסון'

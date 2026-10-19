@@ -37,6 +37,7 @@ vein-miner:
 
 storage:
   transferred-to-drop: "Ускладиштени предмети пренети у испуштени предмет"
+  stored: "&6Ускладиштено: &e{0} &6x &e{1}"
 guide:
   widgets:
     logistics: '&bСкладишне јединице'

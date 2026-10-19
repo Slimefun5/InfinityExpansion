@@ -37,6 +37,7 @@ vein-miner:
 
 storage:
   transferred-to-drop: "Inilipat ang mga nakaimbak na item sa nalaglag na item"
+  stored: "&6Nakaimbak: &e{0} &6x &e{1}"
 guide:
   widgets:
     logistics: '&bMga yunit ng imbakan'

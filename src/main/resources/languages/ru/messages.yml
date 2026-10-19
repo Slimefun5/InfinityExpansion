@@ -37,6 +37,7 @@ vein-miner:
 
 storage:
   transferred-to-drop: "Хранимые предметы перенесены в выброшенный предмет"
+  stored: "&6Хранится: &e{0} &6x &e{1}"
 guide:
   widgets:
     logistics: '&bБлоки хранения'

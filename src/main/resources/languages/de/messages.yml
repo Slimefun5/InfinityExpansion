@@ -37,6 +37,7 @@ vein-miner:
 
 storage:
   transferred-to-drop: "Gelagerte Gegenstände auf den fallen gelassenen Gegenstand übertragen"
+  stored: "&6Gelagert: &e{0} &6x &e{1}"
 guide:
   widgets:
     logistics: '&bSpeichereinheiten'

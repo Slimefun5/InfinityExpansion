@@ -37,6 +37,7 @@ vein-miner:
 
 storage:
   transferred-to-drop: "Item yang disimpan dipindahkan ke item yang jatuh"
+  stored: "&6Tersimpan: &e{0} &6x &e{1}"
 guide:
   widgets:
     logistics: '&bUnit penyimpanan'

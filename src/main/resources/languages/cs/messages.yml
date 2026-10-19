@@ -37,6 +37,7 @@ vein-miner:
 
 storage:
   transferred-to-drop: "Uložené předměty přeneseny do vyhozeného předmětu"
+  stored: "&6Uloženo: &e{0} &6x &e{1}"
 guide:
   widgets:
     logistics: '&bSkladovací jednotky'

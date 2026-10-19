@@ -37,6 +37,7 @@ vein-miner:
 
 storage:
   transferred-to-drop: "Gestoorde items na die laat val item oorgedra"
+  stored: "&6Gestoor: &e{0} &6x &e{1}"
 guide:
   widgets:
     logistics: '&bBergingseenhede'

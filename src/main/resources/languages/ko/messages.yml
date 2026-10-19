@@ -37,6 +37,7 @@ vein-miner:
 
 storage:
   transferred-to-drop: "저장된 아이템이 떨어진 아이템으로 옮겨졌습니다"
+  stored: "&6저장됨: &e{0} &6x &e{1}"
 guide:
   widgets:
     logistics: '&b저장 장치'

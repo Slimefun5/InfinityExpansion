@@ -37,6 +37,7 @@ vein-miner:
 
 storage:
   transferred-to-drop: "Przechowywane przedmioty przeniesiono do wyrzuconego przedmiotu"
+  stored: "&6Przechowywane: &e{0} &6x &e{1}"
 guide:
   widgets:
     logistics: '&bJednostki magazynowe'

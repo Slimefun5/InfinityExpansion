@@ -37,6 +37,7 @@ vein-miner:
 
 storage:
   transferred-to-drop: "Obiectele stocate au fost transferate în obiectul aruncat"
+  stored: "&6Stocat: &e{0} &6x &e{1}"
 guide:
   widgets:
     logistics: '&bUnități de stocare'

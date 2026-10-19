@@ -37,6 +37,7 @@ vein-miner:
 
 storage:
   transferred-to-drop: "Objets stockés transférés vers l'objet lâché"
+  stored: "&6Stocké: &e{0} &6x &e{1}"
 guide:
   widgets:
     logistics: '&bUnités de stockage'

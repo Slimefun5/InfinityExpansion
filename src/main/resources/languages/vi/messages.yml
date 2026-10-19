@@ -37,6 +37,7 @@ vein-miner:
 
 storage:
   transferred-to-drop: "Vật phẩm đã lưu được chuyển sang vật phẩm rơi ra"
+  stored: "&6Đang lưu: &e{0} &6x &e{1}"
 guide:
   widgets:
     logistics: '&bKhối lưu trữ'

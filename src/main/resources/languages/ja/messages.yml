@@ -3,3 +3,6 @@ guide:
     logistics: '&bストレージユニット'
     machines: '&b機械とティア'
     resources: '&bインフィニティの進行'
+
+storage:
+  stored: "&6保管中: &e{0} &6x &e{1}"

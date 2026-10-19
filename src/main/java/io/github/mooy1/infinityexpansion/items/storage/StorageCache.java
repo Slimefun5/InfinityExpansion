@@ -230,7 +230,7 @@ public final class StorageCache {
         }
 
         ItemStack drop = this.storageUnit.getItem().clone();
-        drop.setItemMeta(StorageUnit.saveToStack(drop.getItemMeta(), this.menu.getItemInSlot(DISPLAY_SLOT), this.displayName, this.amount));
+        drop.setItemMeta(StorageUnit.saveToStack(drop.getItemMeta(), this.menu.getItemInSlot(DISPLAY_SLOT), this.amount));
         Messages.send(e.getPlayer(), ChatColor.GREEN, "storage.transferred-to-drop", "Stored items transferred to dropped item");
         drops.add(drop);
     }

@@ -37,6 +37,7 @@ vein-miner:
 
 storage:
   transferred-to-drop: "Uzglabātie priekšmeti pārnesti uz nomesto priekšmetu"
+  stored: "&6Glabājas: &e{0} &6x &e{1}"
 guide:
   widgets:
     logistics: '&bUzglabāšanas vienības'

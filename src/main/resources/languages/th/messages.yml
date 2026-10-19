@@ -37,6 +37,7 @@ vein-miner:
 
 storage:
   transferred-to-drop: "ย้ายไอเทมที่เก็บไว้ไปยังไอเทมที่ถูกทิ้งแล้ว"
+  stored: "&6จัดเก็บ: &e{0} &6x &e{1}"
 guide:
   widgets:
     logistics: '&bหน่วยจัดเก็บ'

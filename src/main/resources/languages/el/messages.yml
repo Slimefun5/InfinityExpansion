@@ -37,6 +37,7 @@ vein-miner:
 
 storage:
   transferred-to-drop: "Τα αποθηκευμένα αντικείμενα μεταφέρθηκαν στο πεσμένο αντικείμενο"
+  stored: "&6Αποθηκευμένο: &e{0} &6x &e{1}"
 guide:
   widgets:
     logistics: '&bΜονάδες αποθήκευσης'

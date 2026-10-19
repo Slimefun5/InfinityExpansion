@@ -37,6 +37,7 @@ vein-miner:
 
 storage:
   transferred-to-drop: "已将存储的物品转移到掉落物中"
+  stored: "&6已存储: &e{0} &6x &e{1}"
 guide:
   widgets:
     logistics: '&b存储单元'

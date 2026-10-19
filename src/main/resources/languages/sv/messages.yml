@@ -37,6 +37,7 @@ vein-miner:
 
 storage:
   transferred-to-drop: "Lagrade objekt överförda till det tappade objektet"
+  stored: "&6Lagrat: &e{0} &6x &e{1}"
 guide:
   widgets:
     logistics: '&bLagringsenheter'
