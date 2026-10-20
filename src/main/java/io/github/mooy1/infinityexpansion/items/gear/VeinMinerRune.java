@@ -49,6 +49,7 @@ import io.github.thebusybiscuit.slimefun5.implementation.items.magical.runes.Sou
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import io.github.mooy1.infinityexpansion.MaterialCompat;
 import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import io.github.thebusybiscuit.slimefun5.utils.compatibility.EntityCompat;
 
 /**
  * A VeinMiner rune, most code from {@link SoulboundRune}
@@ -89,7 +90,7 @@ public final class VeinMinerRune extends SlimefunItem implements Listener, NotPl
         }
 
         Location l = rune.getLocation();
-        Collection<Entity> entities = Objects.requireNonNull(l.getWorld()).getNearbyEntities(l, RANGE, RANGE, RANGE, this::findCompatibleItem);
+        Collection<Entity> entities = EntityCompat.getNearbyEntities(Objects.requireNonNull(l.getWorld()), l, RANGE, RANGE, RANGE, this::findCompatibleItem);
         Optional<Entity> optional = entities.stream().findFirst();
 
         if (optional.isPresent()) {
