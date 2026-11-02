@@ -1,12 +1,12 @@
 ADAMANTITE:
-  name: '&dAdamantite'
+  name: 'Adamantite'
   type:
   - '&7&oNyersanyag'
 ADVANCED_ANVIL:
   description:
   - '&7Összevonja a szerszámok és felszerelések varázslatait, néha fejleszti is őket'
   - '&bMűködik Slimefun tárgyakkal'
-  name: '&cFejlett Üllő'
+  name: 'Fejlett Üllő'
   stats:
   - '&8⇨ &e⚡ &7100,000 J használatonként'
   type:
@@ -14,7 +14,7 @@ ADVANCED_ANVIL:
 ADVANCED_CHARGER:
   description:
   - '&7Gyorsan tölti a tárgyakat'
-  name: '&cFejlett Töltő'
+  name: 'Fejlett Töltő'
   stats:
   - '&8⇨ &e⚡ &7Sebesség: &b30x'
   - '&8⇨ &e⚡ &7180 J/s'
@@ -23,7 +23,7 @@ ADVANCED_CHARGER:
 ADVANCED_COBBLE_GEN:
   description:
   - '&7Idővel automatikusan kavicskövet termel'
-  name: '&cFejlett &8Kavicskő Termelő'
+  name: 'Fejlett Kavicskő Termelő'
   stats:
   - '&8⇨ &e⚡ &7Sebesség: &b4x'
   - '&8⇨ &e⚡ &7120 J/s'
@@ -32,7 +32,7 @@ ADVANCED_COBBLE_GEN:
 ADVANCED_DISENCHANTER:
   description:
   - '&7Automatikusan könyvekbe vonja ki a varázslatokat a tárgyakból'
-  name: '&cFejlett Varázslatbontó'
+  name: 'Fejlett Varázslatbontó'
   stats:
   - '&8⇨ &e⚡ &7Sebesség: &b5x'
   - '&8⇨ &e⚡ &7180 J/s'
@@ -41,7 +41,7 @@ ADVANCED_DISENCHANTER:
 ADVANCED_ENCHANTER:
   description:
   - '&7Automatikusan elvarázsolja a belé helyezett tárgyakat'
-  name: '&cFejlett Elvarázsoló'
+  name: 'Fejlett Elvarázsoló'
   stats:
   - '&8⇨ &e⚡ &7Sebesség: &b5x'
   - '&8⇨ &e⚡ &7180 J/s'
@@ -50,7 +50,7 @@ ADVANCED_ENCHANTER:
 ADVANCED_GEO_MINER:
   description:
   - '&7Egy gyorsabb geo-bányász'
-  name: '&cFejlett &fGeoBányász'
+  name: 'Fejlett GeoBányász'
   stats:
   - '&8⇨ &e⚡ &7Sebesség: &b4x'
   - '&8⇨ &e⚡ &7120 J/s'
@@ -62,7 +62,7 @@ ADVANCED_NETHER_STAR_REACTOR:
   - '&bVíznek kell körülvennie'
   - '&bNether Jég Hűtőcellákkal kell ellátni'
   - '&4A közeli élőlényekre Wither-hatást hoz'
-  name: '&cFejlett Nether Csillag Reaktor'
+  name: 'Fejlett Nether Csillag Reaktor'
   stats:
   - '&8⇨ &e⚡ &790,000 J Puffer'
   - '&8⇨ &e⚡ &71,800 J/s'
@@ -71,7 +71,7 @@ ADVANCED_NETHER_STAR_REACTOR:
 ADVANCED_PANEL:
   description:
   - '&7Energiát generál a napból'
-  name: '&cFejlett Napelem'
+  name: 'Fejlett Napelem'
   stats:
   - '&8⇨ &e⚡ &715,000 J Puffer'
   - '&8⇨ &e⚡ &7150 J/s'
@@ -80,7 +80,7 @@ ADVANCED_PANEL:
 ADVANCED_QUARRY:
   description:
   - '&7Automatikusan bányássza a felvilág és a nether érceit'
-  name: '&cFejlett Bánya'
+  name: 'Fejlett Bánya'
   stats:
   - '&8⇨ &e⚡ &7Sebesség: &b2x'
   - '&8⇨ &e⚡ &7900 J/s'
@@ -89,7 +89,7 @@ ADVANCED_QUARRY:
 ADVANCED_SMELTERY:
   description:
   - '&7Egy gyorsabb olvasztóüzem'
-  name: '&cFejlett &7Olvasztóüzem'
+  name: 'Fejlett Olvasztóüzem'
   stats:
   - '&8⇨ &e⚡ &7Sebesség: &b24x'
   - '&8⇨ &e⚡ &7240 J/s'
@@ -98,7 +98,7 @@ ADVANCED_SMELTERY:
 ADVANCED_STORAGE:
   description:
   - '&7Nagy mennyiséget tárol egyetlen tárgytípusból'
-  name: '&cFejlett &8Tárolóegység'
+  name: 'Fejlett Tárolóegység'
   stats:
   - '&6Kapacitás: &e25,600 &etárgy'
   type:
@@ -106,7 +106,7 @@ ADVANCED_STORAGE:
 ADVANCED_STRAINER:
   description:
   - '&7Anyagokat gyűjt a folyó vízből'
-  name: '&cFejlett Szűrő'
+  name: 'Fejlett Szűrő'
   stats:
   - '&8⇨ &b⚡ &7Sebesség: &b4.0x'
   type:
@@ -114,7 +114,7 @@ ADVANCED_STRAINER:
 ADVANCED_TREE_GROWER:
   description:
   - '&7Automatikusan növeszti, betakarítja és újraülteti a fákat'
-  name: '&cFejlett &2Fanövesztő'
+  name: 'Fejlett Fanövesztő'
   stats:
   - '&8⇨ &e⚡ &7Sebesség: &b5x'
   - '&8⇨ &e⚡ &7180 J/s'
@@ -123,20 +123,20 @@ ADVANCED_TREE_GROWER:
 ADVANCED_VIRTUAL_FARM:
   description:
   - '&7Automatikusan növeszti, betakarítja és újraülteti a terményeket'
-  name: '&cFejlett &aVirtuális Farm'
+  name: 'Fejlett Virtuális Farm'
   stats:
   - '&8⇨ &e⚡ &7Sebesség: &b5x'
   - '&8⇨ &e⚡ &790 J/s'
   type:
   - '&7&oGép'
 ALUMINUM_SINGULARITY:
-  name: '&7Alumínium Szingularitás'
+  name: 'Alumínium Szingularitás'
   type:
   - '&7&oNyersanyag'
 BASIC_COBBLE_GEN:
   description:
   - '&7Idővel automatikusan kavicskövet termel'
-  name: '&9Alap &8Kavicskő Termelő'
+  name: 'Alap Kavicskő Termelő'
   stats:
   - '&8⇨ &e⚡ &7Sebesség: &b1x'
   - '&8⇨ &e⚡ &724 J/s'
@@ -145,7 +145,7 @@ BASIC_COBBLE_GEN:
 BASIC_OBSIDIAN_GEN:
   description:
   - '&7Idővel automatikusan obszidiánt termel'
-  name: '&8Obszidián Termelő'
+  name: 'Obszidián Termelő'
   stats:
   - '&8⇨ &e⚡ &7Sebesség: &b1x'
   - '&8⇨ &e⚡ &7240 J/s'
@@ -154,7 +154,7 @@ BASIC_OBSIDIAN_GEN:
 BASIC_PANEL:
   description:
   - '&7Energiát generál a napból'
-  name: '&9Alap Napelem'
+  name: 'Alap Napelem'
   stats:
   - '&8⇨ &e⚡ &7900 J Puffer'
   - '&8⇨ &e⚡ &79 J/s'
@@ -163,7 +163,7 @@ BASIC_PANEL:
 BASIC_QUARRY:
   description:
   - '&7Automatikusan bányássza a felvilág érceit'
-  name: '&9Alap Bánya'
+  name: 'Alap Bánya'
   stats:
   - '&8⇨ &e⚡ &7Sebesség: &b1x'
   - '&8⇨ &e⚡ &7300 J/s'
@@ -172,7 +172,7 @@ BASIC_QUARRY:
 BASIC_STORAGE:
   description:
   - '&7Nagy mennyiséget tárol egyetlen tárgytípusból'
-  name: '&9Alap &8Tárolóegység'
+  name: 'Alap Tárolóegység'
   stats:
   - '&6Kapacitás: &e6,400 &etárgy'
   type:
@@ -180,7 +180,7 @@ BASIC_STORAGE:
 BASIC_STRAINER:
   description:
   - '&7Anyagokat gyűjt a folyó vízből'
-  name: '&9Alap Szűrő'
+  name: 'Alap Szűrő'
   stats:
   - '&8⇨ &b⚡ &7Sebesség: &b1.0x'
   type:
@@ -188,7 +188,7 @@ BASIC_STRAINER:
 BASIC_TREE_GROWER:
   description:
   - '&7Automatikusan növeszti, betakarítja és újraülteti a fákat'
-  name: '&9Alap &2Fanövesztő'
+  name: 'Alap Fanövesztő'
   stats:
   - '&8⇨ &e⚡ &7Sebesség: &b1x'
   - '&8⇨ &e⚡ &736 J/s'
@@ -197,14 +197,14 @@ BASIC_TREE_GROWER:
 BASIC_VIRTUAL_FARM:
   description:
   - '&7Automatikusan növeszti, betakarítja és újraülteti a terményeket'
-  name: '&9Alap &aVirtuális Farm'
+  name: 'Alap Virtuális Farm'
   stats:
   - '&8⇨ &e⚡ &7Sebesség: &b1x'
   - '&8⇨ &e⚡ &718 J/s'
   type:
   - '&7&oGép'
 BEE_DATA_CARD:
-  name: '&bMéh Adatkártya'
+  name: 'Méh Adatkártya'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
@@ -212,7 +212,7 @@ BEE_DATA_CARD:
   usage:
   - '&7Helyezd mob szimulációs kamrába az aktiváláshoz'
 BLAZE_DATA_CARD:
-  name: '&bBlaze Adatkártya'
+  name: 'Blaze Adatkártya'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
@@ -222,14 +222,14 @@ BLAZE_DATA_CARD:
 CELESTIAL_PANEL:
   description:
   - '&7Energiát generál a napból'
-  name: '&eÉgi Panel'
+  name: 'Égi Panel'
   stats:
   - '&8⇨ &e⚡ &775,000 J Puffer'
   - '&8⇨ &e⚡ &7750 J/s'
   type:
   - '&7&oGenerátor'
 CHICKEN_DATA_CARD:
-  name: '&bCsirke Adatkártya'
+  name: 'Csirke Adatkártya'
   stats:
   - '&8⇨ &e⚡ &775 J/s'
   type:
@@ -237,53 +237,53 @@ CHICKEN_DATA_CARD:
   usage:
   - '&7Helyezd mob szimulációs kamrába az aktiváláshoz'
 COAL_SINGULARITY:
-  name: '&8Szén Szingularitás'
+  name: 'Szén Szingularitás'
   type:
   - '&7&oNyersanyag'
 COBBLE_PRESS:
   description:
   - '&7Hatékonyabban tömöríti a kavicskövet'
-  name: '&8Kavicskő Prés'
+  name: 'Kavicskő Prés'
   stats:
   - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oGép'
 COMPRESSED_COBBLESTONE_1:
-  name: '&7Egyszeresen Tömörített Kavicskő'
+  name: 'Egyszeresen Tömörített Kavicskő'
   stats:
   - '&89 kavicskő összevonva'
   type:
   - '&7&oNyersanyag'
 COMPRESSED_COBBLESTONE_2:
-  name: '&7Kétszeresen Tömörített Kavicskő'
+  name: 'Kétszeresen Tömörített Kavicskő'
   stats:
   - '&881 kavicskő összevonva'
   type:
   - '&7&oNyersanyag'
 COMPRESSED_COBBLESTONE_3:
-  name: '&7Háromszorosan Tömörített Kavicskő'
+  name: 'Háromszorosan Tömörített Kavicskő'
   stats:
   - '&8729 kavicskő összevonva'
   type:
   - '&7&oNyersanyag'
 COMPRESSED_COBBLESTONE_4:
-  name: '&7Négyszeresen Tömörített Kavicskő'
+  name: 'Négyszeresen Tömörített Kavicskő'
   stats:
   - '&86,561 kavicskő összevonva'
   type:
   - '&7&oNyersanyag'
 COMPRESSED_COBBLESTONE_5:
-  name: '&7Ötszörösen Tömörített Kavicskő'
+  name: 'Ötszörösen Tömörített Kavicskő'
   stats:
   - '&859,049 kavicskő összevonva'
   type:
   - '&7&oNyersanyag'
 COPPER_SINGULARITY:
-  name: '&6Réz Szingularitás'
+  name: 'Réz Szingularitás'
   type:
   - '&7&oNyersanyag'
 COW_DATA_CARD:
-  name: '&bTehén Adatkártya'
+  name: 'Tehén Adatkártya'
   stats:
   - '&8⇨ &e⚡ &775 J/s'
   type:
@@ -291,7 +291,7 @@ COW_DATA_CARD:
   usage:
   - '&7Helyezd mob szimulációs kamrába az aktiváláshoz'
 CREEPER_DATA_CARD:
-  name: '&bCreeper Adatkártya'
+  name: 'Creeper Adatkártya'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
@@ -301,7 +301,7 @@ CREEPER_DATA_CARD:
 DATA_INFUSER:
   description:
   - '&7Üres adatkártyákat tölt fel mobtárgyakkal'
-  name: '&8Mob Adattöltő'
+  name: 'Mob Adattöltő'
   stats:
   - '&8⇨ &e⚡ &720,000 J használatonként'
   type:
@@ -309,40 +309,40 @@ DATA_INFUSER:
 DECOMPRESSOR:
   description:
   - '&7Blokkokat visszavezet az alapanyagukra'
-  name: '&7Tömörítésbontó'
+  name: 'Tömörítésbontó'
   stats:
   - '&8⇨ &e⚡ &760 J/s'
   type:
   - '&7&oGép'
 DIAMOND_SINGULARITY:
-  name: '&bGyémánt Szingularitás'
+  name: 'Gyémánt Szingularitás'
   type:
   - '&7&oNyersanyag'
 DUST_EXTRACTOR:
   description:
   - '&7Kavicskövet porokká alakít'
-  name: '&8Porkivonó'
+  name: 'Porkivonó'
   stats:
   - '&8⇨ &e⚡ &7Sebesség: &b1x'
   - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oGép'
 EARTH_SINGULARITY:
-  name: '&aFöld Szingularitás'
+  name: 'Föld Szingularitás'
   type:
   - '&7&oNyersanyag'
 EMERALD_SINGULARITY:
-  name: '&aSmaragd Szingularitás'
+  name: 'Smaragd Szingularitás'
   type:
   - '&7&oNyersanyag'
 EMPTY_DATA_CARD:
-  name: '&8Üres Adatkártya'
+  name: 'Üres Adatkártya'
   type:
   - '&7&oAlkatrész'
   usage:
   - '&7Töltsd fel egy mob tárgyaival, hogy megtelítsd'
 ENDERMEN_DATA_CARD:
-  name: '&bEnderman Adatkártya'
+  name: 'Enderman Adatkártya'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
@@ -350,7 +350,7 @@ ENDERMEN_DATA_CARD:
   usage:
   - '&7Helyezd mob szimulációs kamrába az aktiváláshoz'
 ENDER_DRAGON_DATA_CARD:
-  name: '&bEnder Sárkány Adatkártya'
+  name: 'Ender Sárkány Adatkártya'
   stats:
   - '&8⇨ &e⚡ &79,000 J/s'
   type:
@@ -358,31 +358,31 @@ ENDER_DRAGON_DATA_CARD:
   usage:
   - '&7Helyezd mob szimulációs kamrába az aktiváláshoz'
 ENDER_FLAME:
-  name: '&cEnder Láng'
+  name: 'Ender Láng'
   type:
   - '&7&oAlkatrész'
 END_ESSENCE:
   description:
   - '&8&oAz end mélységeiből...'
-  name: '&5Ender Eszencia'
+  name: 'Ender Eszencia'
   type:
   - '&7&oNyersanyag'
 EXTREME_FREEZER:
   description:
   - '&7Jeget hűtőfolyadékká alakít'
-  name: '&bExtrém Fagyasztó'
+  name: 'Extrém Fagyasztó'
   stats:
   - '&8⇨ &e⚡ &790 J/s'
   type:
   - '&7&oGép'
 FORTUNE_SINGULARITY:
-  name: '&6Szerencse Szingularitás'
+  name: 'Szerencse Szingularitás'
   type:
   - '&7&oNyersanyag'
 GEAR_TRANSFORMER:
   description:
   - '&7Megváltoztatja a vanilla szerszámok és felszerelések anyagát'
-  name: '&7Felszerelés Átalakító'
+  name: 'Felszerelés Átalakító'
   stats:
   - '&8⇨ &e⚡ &712,000 J Használatonként'
   type:
@@ -390,7 +390,7 @@ GEAR_TRANSFORMER:
 GEOTHERMAL_GENERATOR:
   description:
   - '&7Energiát generál a világ hőjéből'
-  name: '&cGeotermikus Generátor'
+  name: 'Geotermikus Generátor'
   stats:
   - '&8⇨ &e⚡ &73,500 J Puffer'
   - '&8⇨ &e⚡ &735 J/s'
@@ -399,17 +399,17 @@ GEOTHERMAL_GENERATOR:
 GEO_QUARRY:
   description:
   - '&7Áram segítségével lassan geo-nyersanyagokat termel ki az ürességből'
-  name: '&fGeo Bánya'
+  name: 'Geo Bánya'
   stats:
   - '&8⇨ &e⚡ &7450 J/s'
   type:
   - '&7&oGép'
 GOLD_SINGULARITY:
-  name: '&6Arany Szingularitás'
+  name: 'Arany Szingularitás'
   type:
   - '&7&oNyersanyag'
 GUARDIAN_DATA_CARD:
-  name: '&bŐrző Adatkártya'
+  name: 'Őrző Adatkártya'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
@@ -419,7 +419,7 @@ GUARDIAN_DATA_CARD:
 HYDRO_GENERATOR:
   description:
   - '&7Energiát generál a víz mozgásából'
-  name: '&9Hidro Generátor'
+  name: 'Hidro Generátor'
   stats:
   - '&8⇨ &e⚡ &7500 J Puffer'
   - '&8⇨ &e⚡ &75 J/s'
@@ -429,21 +429,21 @@ INFINITE_INGOT:
   description:
   - '&7&oA kozmosz dühe'
   - '&7&oa tenyeredben'
-  name: '&bVégtelen Rúd'
+  name: 'Végtelen Rúd'
   type:
   - '&7&oNyersanyag'
 INFINITE_MACHINE_CIRCUIT:
-  name: '&bVégtelen &6Gépáramkör'
+  name: 'Végtelen Gépáramkör'
   type:
   - '&7&oAlkatrész'
 INFINITE_MACHINE_CORE:
-  name: '&bVégtelen Gépmag'
+  name: 'Végtelen Gépmag'
   type:
   - '&7&oAlkatrész'
 INFINITE_PANEL:
   description:
   - '&7Energiát generál a kozmoszból'
-  name: '&bVégtelen Panel'
+  name: 'Végtelen Panel'
   stats:
   - '&8⇨ &e⚡ &76,000,000 J Puffer'
   - '&8⇨ &e⚡ &760,000 J/s'
@@ -452,26 +452,26 @@ INFINITE_PANEL:
 INFINITE_VOID_HARVESTER:
   description:
   - '&7Termel &8Üresség &7Szemcséket a semmiből...'
-  name: '&bVégtelen &8Üresség Betakarító'
+  name: 'Végtelen Üresség Betakarító'
   stats:
   - '&8⇨ &e⚡ &7Sebesség: &b64x'
   - '&8⇨ &e⚡ &712,000 J/s'
   type:
   - '&7&oGép'
 INFINITY_AXE:
-  name: '&4A Természet Romlása'
+  name: 'A Természet Romlása'
   stats:
   - '&bLélekhez kötött'
   type:
   - '&7&oEszköz'
 INFINITY_BLADE:
-  name: '&bA Kozmosz Pengéje'
+  name: 'A Kozmosz Pengéje'
   stats:
   - '&bLélekhez kötött'
   type:
   - '&7&oFegyver'
 INFINITY_BOOTS:
-  name: '&bVégtelen Csizma'
+  name: 'Végtelen Csizma'
   stats:
   - '&7Sebesség III'
   - '&7Delfin Kegye I'
@@ -481,7 +481,7 @@ INFINITY_BOOTS:
 INFINITY_BOW:
   description:
   - '&7Robbanó nyilakat lő, amelyek találatkor lelassítják és összezavarják az ellenfeleket'
-  name: '&6Égdöfő'
+  name: 'Égdöfő'
   stats:
   - '&bLélekhez kötött'
   type:
@@ -490,7 +490,7 @@ INFINITY_CAPACITOR:
   description:
   - '&c&oNe használj többet, mint'
   - '&c&o1 energiahálózatonként'
-  name: '&bVégtelen Kondenzátor'
+  name: 'Végtelen Kondenzátor'
   stats:
   - '&8⇨ &e⚡ 2,000,000,000 &7J Kapacitás'
   type:
@@ -498,14 +498,14 @@ INFINITY_CAPACITOR:
 INFINITY_CHARGER:
   description:
   - '&7Azonnal tölti a tárgyakat'
-  name: '&bVégtelen Töltő'
+  name: 'Végtelen Töltő'
   stats:
   - '&8⇨ &e⚡ &7Sebesség: &b6000x'
   - '&8⇨ &e⚡ &760,000 J használatonként'
   type:
   - '&7&oGép'
 INFINITY_CHESTPLATE:
-  name: '&bVégtelen Mellvért'
+  name: 'Végtelen Mellvért'
   stats:
   - '&7Erő II'
   - '&7Ellenállás I'
@@ -517,7 +517,7 @@ INFINITY_CHESTPLATE:
 INFINITY_COBBLE_GEN:
   description:
   - '&7Idővel automatikusan kavicskövet termel'
-  name: '&cVégtelen &8Kavicskő Termelő'
+  name: 'Végtelen Kavicskő Termelő'
   stats:
   - '&8⇨ &e⚡ &7Sebesség: &b64x'
   - '&8⇨ &e⚡ &7800 J/s'
@@ -526,14 +526,14 @@ INFINITY_COBBLE_GEN:
 INFINITY_CONSTRUCTOR:
   description:
   - '&7Gyorsan összesűrít nagy mennyiségű nyersanyagot'
-  name: '&bVégtelen &fÉpítő'
+  name: 'Végtelen Építő'
   stats:
   - '&8⇨ &e⚡ &7Sebesség: &b64x'
   - '&8⇨ &e⚡ &71,200 J/s'
   type:
   - '&7&oGép'
 INFINITY_CROWN:
-  name: '&bVégtelen Korona'
+  name: 'Végtelen Korona'
   stats:
   - '&7Éjjellátás I'
   - '&7Vezetékerő I'
@@ -544,7 +544,7 @@ INFINITY_CROWN:
 INFINITY_DISENCHANTER:
   description:
   - '&7Automatikusan könyvekbe vonja ki a varázslatokat a tárgyakból'
-  name: '&bVégtelen Varázslatbontó'
+  name: 'Végtelen Varázslatbontó'
   stats:
   - '&8⇨ &e⚡ &7Sebesség: &b90x'
   - '&8⇨ &e⚡ &712,000 J használatonként'
@@ -553,7 +553,7 @@ INFINITY_DISENCHANTER:
 INFINITY_DUST_EXTRACTOR:
   description:
   - '&7Kavicskövet porokká alakít'
-  name: '&bVégtelen &8Porkivonó'
+  name: 'Végtelen Porkivonó'
   stats:
   - '&8⇨ &e⚡ &7Sebesség: &b16x'
   - '&8⇨ &e⚡ &77,200 J/s'
@@ -562,7 +562,7 @@ INFINITY_DUST_EXTRACTOR:
 INFINITY_ENCHANTER:
   description:
   - '&7Automatikusan elvarázsolja a belé helyezett tárgyakat'
-  name: '&bVégtelen Elvarázsoló'
+  name: 'Végtelen Elvarázsoló'
   stats:
   - '&8⇨ &e⚡ &7Sebesség: &b75x'
   - '&8⇨ &e⚡ &712,000 J használatonként'
@@ -571,7 +571,7 @@ INFINITY_ENCHANTER:
 INFINITY_FORGE:
   description:
   - '&7Végtelen tárgyak barkácsolására használatos'
-  name: '&6Végtelen Munkaasztal'
+  name: 'Végtelen Munkaasztal'
   stats:
   - '&8⇨ &e⚡ &710,000,000 J tárgyanként'
   type:
@@ -579,14 +579,14 @@ INFINITY_FORGE:
 INFINITY_INGOT_FORMER:
   description:
   - '&7Rudakat formáz porokból'
-  name: '&bVégtelen &8Rúdformázó'
+  name: 'Végtelen Rúdformázó'
   stats:
   - '&8⇨ &e⚡ &7Sebesség: &b16x'
   - '&8⇨ &e⚡ &77,200 J/s'
   type:
   - '&7&oGép'
 INFINITY_LEGGINGS:
-  name: '&bVégtelen Lábvért'
+  name: 'Végtelen Lábvért'
   stats:
   - '&7Sietség III'
   - '&7Regeneráció I'
@@ -598,7 +598,7 @@ INFINITY_LEGGINGS:
 INFINITY_MATRIX:
   description:
   - '&6Korlátlan repülést ad'
-  name: '&fVégtelen Mátrix'
+  name: 'Végtelen Mátrix'
   stats:
   - '&bLélekhez kötött'
   type:
@@ -607,7 +607,7 @@ INFINITY_MATRIX:
   - '&7Jobb klikk a be- és kikapcsoláshoz és az igényléshez'
   - '&7Guggolás és Jobb klikk a birtoklás megszüntetéséhez'
 INFINITY_PICKAXE:
-  name: '&9Világtörő'
+  name: 'Világtörő'
   stats:
   - '&bLélekhez kötött'
   type:
@@ -615,7 +615,7 @@ INFINITY_PICKAXE:
 INFINITY_QUARRY:
   description:
   - '&7Automatikusan bányássza a felvilág és a nether érceit'
-  name: '&bVégtelen Bánya'
+  name: 'Végtelen Bánya'
   stats:
   - '&8⇨ &e⚡ &7Sebesség: &b64x'
   - '&8⇨ &e⚡ &736,000 J/s'
@@ -625,32 +625,32 @@ INFINITY_REACTOR:
   description:
   - '&7Áramot generál a tömörítés révén:'
   - '&7az &8Üresség &7és a &bVégtelen &7Rúdból'
-  name: '&bVégtelen Reaktor'
+  name: 'Végtelen Reaktor'
   stats:
   - '&8⇨ &e⚡ &7120,000,000 J Puffer'
   - '&8⇨ &e⚡ &7120,000 J/s'
   type:
   - '&7&oGenerátor'
 INFINITY_SHIELD:
-  name: '&bKozmikus Égisz'
+  name: 'Kozmikus Égisz'
   stats:
   - '&bLélekhez kötött'
   type:
   - '&7&oFegyver'
 INFINITY_SHOVEL:
-  name: '&aHegyevő'
+  name: 'Hegyevő'
   stats:
   - '&bLélekhez kötött'
   type:
   - '&7&oEszköz'
 INFINITY_SINGULARITY:
-  name: '&bVégtelen Szingularitás'
+  name: 'Végtelen Szingularitás'
   type:
   - '&7&oNyersanyag'
 INFINITY_STORAGE:
   description:
   - '&7Nagy mennyiséget tárol egyetlen tárgytípusból'
-  name: '&bVégtelen &8Tárolóegység'
+  name: 'Végtelen Tárolóegység'
   stats:
   - '&6Kapacitás: &e1,600,000,000 &etárgy'
   type:
@@ -658,7 +658,7 @@ INFINITY_STORAGE:
 INFINITY_TREE_GROWER:
   description:
   - '&7Automatikusan növeszti, betakarítja és újraülteti a fákat'
-  name: '&bVégtelen &2Fanövesztő'
+  name: 'Végtelen Fanövesztő'
   stats:
   - '&8⇨ &e⚡ &7Sebesség: &b25x'
   - '&8⇨ &e⚡ &71,800 J/s'
@@ -667,7 +667,7 @@ INFINITY_TREE_GROWER:
 INFINITY_VIRTUAL_FARM:
   description:
   - '&7Automatikusan növeszti, betakarítja és újraülteti a terményeket'
-  name: '&bVégtelen &aVirtuális Farm'
+  name: 'Végtelen Virtuális Farm'
   stats:
   - '&8⇨ &e⚡ &7Sebesség: &b25x'
   - '&8⇨ &e⚡ &7900 J/s'
@@ -676,14 +676,14 @@ INFINITY_VIRTUAL_FARM:
 INGOT_FORMER:
   description:
   - '&7Rudakat formáz porokból'
-  name: '&8Rúdformázó'
+  name: 'Rúdformázó'
   stats:
   - '&8⇨ &e⚡ &7Sebesség: &b1x'
   - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oGép'
 IRON_GOLEM_DATA_CARD:
-  name: '&bVasgólem Adatkártya'
+  name: 'Vasgólem Adatkártya'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
@@ -691,35 +691,35 @@ IRON_GOLEM_DATA_CARD:
   usage:
   - '&7Helyezd mob szimulációs kamrába az aktiváláshoz'
 IRON_SINGULARITY:
-  name: '&7Vas Szingularitás'
+  name: 'Vas Szingularitás'
   type:
   - '&7&oNyersanyag'
 LAPIS_SINGULARITY:
-  name: '&9Lazurit Szingularitás'
+  name: 'Lazurit Szingularitás'
   type:
   - '&7&oNyersanyag'
 LEAD_SINGULARITY:
-  name: '&8Ólom Szingularitás'
+  name: 'Ólom Szingularitás'
   type:
   - '&7&oNyersanyag'
 MACHINE_CIRCUIT:
-  name: '&6Gépáramkör'
+  name: 'Gépáramkör'
   type:
   - '&7&oAlkatrész'
 MACHINE_CORE:
-  name: '&fGépmag'
+  name: 'Gépmag'
   type:
   - '&7&oAlkatrész'
 MACHINE_PLATE:
-  name: '&fGéplemez'
+  name: 'Géplemez'
   type:
   - '&7&oAlkatrész'
 MAGIC_SINGULARITY:
-  name: '&dMágia Szingularitás'
+  name: 'Mágia Szingularitás'
   type:
   - '&7&oNyersanyag'
 MAGMA_CUBE_DATA_CARD:
-  name: '&bMagmakocka Adatkártya'
+  name: 'Magmakocka Adatkártya'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
@@ -727,99 +727,99 @@ MAGMA_CUBE_DATA_CARD:
   usage:
   - '&7Helyezd mob szimulációs kamrába az aktiváláshoz'
 MAGNESIUM_SINGULARITY:
-  name: '&5Magnézium Szingularitás'
+  name: 'Magnézium Szingularitás'
   type:
   - '&7&oNyersanyag'
 MAGNONIUM:
-  name: '&5Magnonium'
+  name: 'Magnonium'
   type:
   - '&7&oNyersanyag'
 MAGSTEEL:
-  name: '&4MagAcél'
+  name: 'MagAcél'
   type:
   - '&7&oNyersanyag'
 MAGSTEEL_PLATE:
-  name: '&4MagAcél Lemez'
+  name: 'MagAcél Lemez'
   type:
   - '&7&oAlkatrész'
 METAL_SINGULARITY:
-  name: '&8Fém Szingularitás'
+  name: 'Fém Szingularitás'
   type:
   - '&7&oNyersanyag'
 MOB_SIMULATION_CHAMBER:
   description:
   - '&7Az aktiváláshoz mob adatkártyákat használj'
-  name: '&8Mob Szimulációs Kamra'
+  name: 'Mob Szimulációs Kamra'
   stats:
   - '&8⇨ &e⚡ &715,000 J Puffer'
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oGép'
 MYTHRIL:
-  name: '&bMythril'
+  name: 'Mythril'
   type:
   - '&7&oNyersanyag'
 NETHERITE_SINGULARITY:
-  name: '&4Netherit Szingularitás'
+  name: 'Netherit Szingularitás'
   type:
   - '&7&oNyersanyag'
 POWERED_BEDROCK:
   description:
   - '&7Áram alatt alapkővé változik'
   - '&7Visszaváltozik, ha megszűnik az áram vagy eltörik'
-  name: '&4Meghajtott Alapkő'
+  name: 'Meghajtott Alapkő'
   stats:
   - '&8⇨ &e⚡ &710,000 J/s'
   type:
   - '&7&oGép'
 QUARRY_OSCILLATOR_DIAMOND:
-  name: '&bGyémánt Oszcillátor'
+  name: 'Gyémánt Oszcillátor'
   type:
   - '&7&oAlkatrész'
   usage:
   - '&7Helyezd egy bányába, hogy'
   - '&750.0% esélyt adj ennek az anyagnak a bányászatára'
 QUARRY_OSCILLATOR_EMERALD:
-  name: '&bSmaragd Oszcillátor'
+  name: 'Smaragd Oszcillátor'
   type:
   - '&7&oAlkatrész'
   usage:
   - '&7Helyezd egy bányába, hogy'
   - '&750.0% esélyt adj ennek az anyagnak a bányászatára'
 QUARRY_OSCILLATOR_LAPIS_LAZULI:
-  name: '&bLazurit Oszcillátor'
+  name: 'Lazurit Oszcillátor'
   type:
   - '&7&oAlkatrész'
   usage:
   - '&7Helyezd egy bányába, hogy'
   - '&750.0% esélyt adj ennek az anyagnak a bányászatára'
 QUARRY_OSCILLATOR_QUARTZ:
-  name: '&bKvarc Oszcillátor'
+  name: 'Kvarc Oszcillátor'
   type:
   - '&7&oAlkatrész'
   usage:
   - '&7Helyezd egy bányába, hogy'
   - '&750.0% esélyt adj ennek az anyagnak a bányászatára'
 QUARRY_OSCILLATOR_REDSTONE:
-  name: '&bRedstone Oszcillátor'
+  name: 'Redstone Oszcillátor'
   type:
   - '&7&oAlkatrész'
   usage:
   - '&7Helyezd egy bányába, hogy'
   - '&750.0% esélyt adj ennek az anyagnak a bányászatára'
 QUARTZ_SINGULARITY:
-  name: '&fKvarc Szingularitás'
+  name: 'Kvarc Szingularitás'
   type:
   - '&7&oNyersanyag'
 REDSTONE_SINGULARITY:
-  name: '&cRedstone Szingularitás'
+  name: 'Redstone Szingularitás'
   type:
   - '&7&oNyersanyag'
 REINFORCED_GEOTHERMAL_GENERATOR:
   description:
   - '&7Nagy mennyiségű energiát generál'
   - '&7a világ hőjéből'
-  name: '&fMegerősített &cGeotermikus Gen'
+  name: 'Megerősített Geotermikus Gen'
   stats:
   - '&8⇨ &e⚡ &721,000 J Puffer'
   - '&8⇨ &e⚡ &7210 J/s'
@@ -829,7 +829,7 @@ REINFORCED_HYDRO_GENERATOR:
   description:
   - '&7Nagy mennyiségű energiát generál'
   - '&7a víz mozgásából'
-  name: '&fMegerősített &9Hidro Gen'
+  name: 'Megerősített Hidro Gen'
   stats:
   - '&8⇨ &e⚡ &74,500 J Puffer'
   - '&8⇨ &e⚡ &745 J/s'
@@ -838,7 +838,7 @@ REINFORCED_HYDRO_GENERATOR:
 REINFORCED_STORAGE:
   description:
   - '&7Nagy mennyiséget tárol egyetlen tárgytípusból'
-  name: '&fMegerősített &8Tárolóegység'
+  name: 'Megerősített Tárolóegység'
   stats:
   - '&6Kapacitás: &e102,400 &etárgy'
   type:
@@ -846,7 +846,7 @@ REINFORCED_STORAGE:
 REINFORCED_STRAINER:
   description:
   - '&7Anyagokat gyűjt a folyó vízből'
-  name: '&fMegerősített Szűrő'
+  name: 'Megerősített Szűrő'
   stats:
   - '&8⇨ &b⚡ &7Sebesség: &b20.0x'
   type:
@@ -854,13 +854,13 @@ REINFORCED_STRAINER:
 RESOURCE_SYNTHESIZER:
   description:
   - '&7Nyersanyagokat hoz létre 2 Szingularitás összevonásával'
-  name: '&6Nyersanyag Szintetizáló'
+  name: 'Nyersanyag Szintetizáló'
   stats:
   - '&8⇨ &e⚡ &71,000,000 J használatonként'
   type:
   - '&7&oGép'
 SHEEP_DATA_CARD:
-  name: '&bBárány Adatkártya'
+  name: 'Bárány Adatkártya'
   stats:
   - '&8⇨ &e⚡ &775 J/s'
   type:
@@ -868,20 +868,20 @@ SHEEP_DATA_CARD:
   usage:
   - '&7Helyezd mob szimulációs kamrába az aktiváláshoz'
 SILVER_SINGULARITY:
-  name: '&7Ezüst Szingularitás'
+  name: 'Ezüst Szingularitás'
   type:
   - '&7&oNyersanyag'
 SINGULARITY_CONSTRUCTOR:
   description:
   - '&7Nagy mennyiségű nyersanyagot sűrít össze'
-  name: '&fSzingularitás Építő'
+  name: 'Szingularitás Építő'
   stats:
   - '&8⇨ &e⚡ &7Sebesség: &b1x'
   - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oGép'
 SKELETON_DATA_CARD:
-  name: '&bCsontváz Adatkártya'
+  name: 'Csontváz Adatkártya'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
@@ -889,7 +889,7 @@ SKELETON_DATA_CARD:
   usage:
   - '&7Helyezd mob szimulációs kamrába az aktiváláshoz'
 SLIME_DATA_CARD:
-  name: '&bNyálka Adatkártya'
+  name: 'Nyálka Adatkártya'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
@@ -897,7 +897,7 @@ SLIME_DATA_CARD:
   usage:
   - '&7Helyezd mob szimulációs kamrába az aktiváláshoz'
 SPIDER_DATA_CARD:
-  name: '&bPók Adatkártya'
+  name: 'Pók Adatkártya'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
@@ -907,7 +907,7 @@ SPIDER_DATA_CARD:
 STONEWORKS_FACTORY:
   description:
   - '&7Kavicskövet termel, és különféle anyagokká dolgozza fel'
-  name: '&8Kőfeldolgozó Üzem'
+  name: 'Kőfeldolgozó Üzem'
   stats:
   - '&8⇨ &e⚡ &7240 J/s'
   type:
@@ -918,28 +918,28 @@ STORAGE_FORGE:
   description:
   - '&7Növeli a Tárolóegységek szintjét'
   - '&7Megőrzi a tárolt tárgyakat'
-  name: '&6Tároló Kohó'
+  name: 'Tároló Kohó'
   type:
   - '&7&oGép'
 STRAINER_BASE:
   description:
   - '&7Szűrővel lassan anyagokat gyűjt a folyó vízből'
   - '&7Működéséhez vízzel telítettnek kell lennie'
-  name: '&7Szűrőalap'
+  name: 'Szűrőalap'
   type:
   - '&7&oGép'
 TIN_SINGULARITY:
-  name: '&7Ón Szingularitás'
+  name: 'Ón Szingularitás'
   type:
   - '&7&oNyersanyag'
 TITANIUM:
-  name: '&7Titán'
+  name: 'Titán'
   type:
   - '&7&oNyersanyag'
 URANIUM_EXTRACTOR:
   description:
   - '&7Kavicskövet uránná alakít'
-  name: '&aUránkivonó'
+  name: 'Uránkivonó'
   stats:
   - '&8⇨ &e⚡ &7240 J/s'
   type:
@@ -947,13 +947,13 @@ URANIUM_EXTRACTOR:
 VEIN_MINER_RUNE:
   description:
   - '&7Egy szerszámot úgy fejleszt, hogy érben bányásszon bizonyos anyagokat'
-  name: '&bÉrbányász Rúna'
+  name: 'Érbányász Rúna'
   type:
   - '&7&oKütyü'
   usage:
   - '&eDobd le&7 egy szerszám mellé, hogy Érbányásszá fejleszd'
 VILLAGER_DATA_CARD:
-  name: '&bFalusi Adatkártya'
+  name: 'Falusi Adatkártya'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
@@ -963,13 +963,13 @@ VILLAGER_DATA_CARD:
 VOID_BIT:
   description:
   - '&7&oÜresnek... érződik'
-  name: '&8Üresség Szemcse'
+  name: 'Üresség Szemcse'
   type:
   - '&7&oNyersanyag'
 VOID_CAPACITOR:
   description:
   - '&7Tárolja egy energiahálózat többletenergiáját'
-  name: '&8Üresség Kondenzátor'
+  name: 'Üresség Kondenzátor'
   stats:
   - '&8⇨ &e⚡ 16,000,000 &7J Kapacitás'
   type:
@@ -977,13 +977,13 @@ VOID_CAPACITOR:
 VOID_DUST:
   description:
   - '&7&oLassan formát kezd kapni...'
-  name: '&8Üresség Por'
+  name: 'Üresség Por'
   type:
   - '&7&oNyersanyag'
 VOID_HARVESTER:
   description:
   - '&7Lassan termel &8Üresség &7Szemcséket a semmiből...'
-  name: '&8Üresség Betakarító'
+  name: 'Üresség Betakarító'
   stats:
   - '&8⇨ &e⚡ &7Sebesség: &b1x'
   - '&8⇨ &e⚡ &7120 J/s'
@@ -993,13 +993,13 @@ VOID_INGOT:
   description:
   - '&7&oA kozmosz üressége'
   - '&7&oa tenyeredben'
-  name: '&8Üresség Rúd'
+  name: 'Üresség Rúd'
   type:
   - '&7&oNyersanyag'
 VOID_PANEL:
   description:
   - '&7Energiát generál a sötétségből'
-  name: '&8Üresség Panel'
+  name: 'Üresség Panel'
   stats:
   - '&8⇨ &e⚡ &7300,000 J Puffer'
   - '&8⇨ &e⚡ &73,000 J/s'
@@ -1008,7 +1008,7 @@ VOID_PANEL:
 VOID_QUARRY:
   description:
   - '&7Automatikusan bányássza a felvilág és a nether érceit'
-  name: '&8Üresség Bánya'
+  name: 'Üresség Bánya'
   stats:
   - '&8⇨ &e⚡ &7Sebesség: &b6x'
   - '&8⇨ &e⚡ &73,600 J/s'
@@ -1017,13 +1017,13 @@ VOID_QUARRY:
 VOID_STORAGE:
   description:
   - '&7Nagy mennyiséget tárol egyetlen tárgytípusból'
-  name: '&8Üresség &8Tárolóegység'
+  name: 'Üresség Tárolóegység'
   stats:
   - '&6Kapacitás: &e409,600 &etárgy'
   type:
   - '&7&oGép'
 WITCH_DATA_CARD:
-  name: '&bBoszorkány Adatkártya'
+  name: 'Boszorkány Adatkártya'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
@@ -1031,7 +1031,7 @@ WITCH_DATA_CARD:
   usage:
   - '&7Helyezd mob szimulációs kamrába az aktiváláshoz'
 WITHER_DATA_CARD:
-  name: '&bWither Adatkártya'
+  name: 'Wither Adatkártya'
   stats:
   - '&8⇨ &e⚡ &74,500 J/s'
   type:
@@ -1039,7 +1039,7 @@ WITHER_DATA_CARD:
   usage:
   - '&7Helyezd mob szimulációs kamrába az aktiváláshoz'
 WITHER_SKELETON_DATA_CARD:
-  name: '&bWither-csontváz Adatkártya'
+  name: 'Wither-csontváz Adatkártya'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
@@ -1047,11 +1047,11 @@ WITHER_SKELETON_DATA_CARD:
   usage:
   - '&7Helyezd mob szimulációs kamrába az aktiváláshoz'
 ZINC_SINGULARITY:
-  name: '&7Cink Szingularitás'
+  name: 'Cink Szingularitás'
   type:
   - '&7&oNyersanyag'
 ZOMBIE_DATA_CARD:
-  name: '&bZombi Adatkártya'
+  name: 'Zombi Adatkártya'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:

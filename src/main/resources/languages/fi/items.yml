@@ -1,12 +1,12 @@
 ADAMANTITE:
-  name: '&dAdamantite'
+  name: 'Adamantite'
   type:
   - '&7&oResurssi'
 ADVANCED_ANVIL:
   description:
   - '&7Yhdistää työkalujen ja varusteiden lumoukset ja joskus päivittää niitä'
   - '&bToimii Slimefun-esineiden kanssa'
-  name: '&cKehittynyt alasin'
+  name: 'Kehittynyt alasin'
   stats:
   - '&8⇨ &e⚡ &7100,000 J käyttöä kohden'
   type:
@@ -14,7 +14,7 @@ ADVANCED_ANVIL:
 ADVANCED_CHARGER:
   description:
   - '&7Lataa esineet nopeasti'
-  name: '&cKehittynyt laturi'
+  name: 'Kehittynyt laturi'
   stats:
   - '&8⇨ &e⚡ &7Nopeus: &b30x'
   - '&8⇨ &e⚡ &7180 J/s'
@@ -23,7 +23,7 @@ ADVANCED_CHARGER:
 ADVANCED_COBBLE_GEN:
   description:
   - '&7Tuottaa mukulakiveä automaattisesti ajan myötä'
-  name: '&cKehittynyt &8mukulakivituottaja'
+  name: 'Kehittynyt mukulakivituottaja'
   stats:
   - '&8⇨ &e⚡ &7Nopeus: &b4x'
   - '&8⇨ &e⚡ &7120 J/s'
@@ -32,7 +32,7 @@ ADVANCED_COBBLE_GEN:
 ADVANCED_DISENCHANTER:
   description:
   - '&7Poistaa automaattisesti lumoukset esineistä kirjoihin'
-  name: '&cKehittynyt lumouksenpoistaja'
+  name: 'Kehittynyt lumouksenpoistaja'
   stats:
   - '&8⇨ &e⚡ &7Nopeus: &b5x'
   - '&8⇨ &e⚡ &7180 J/s'
@@ -41,7 +41,7 @@ ADVANCED_DISENCHANTER:
 ADVANCED_ENCHANTER:
   description:
   - '&7Lumoaa automaattisesti sisälle asetetut esineet'
-  name: '&cKehittynyt lumoaja'
+  name: 'Kehittynyt lumoaja'
   stats:
   - '&8⇨ &e⚡ &7Nopeus: &b5x'
   - '&8⇨ &e⚡ &7180 J/s'
@@ -50,7 +50,7 @@ ADVANCED_ENCHANTER:
 ADVANCED_GEO_MINER:
   description:
   - '&7Nopeampi geolouhija'
-  name: '&cKehittynyt &fgeolouhija'
+  name: 'Kehittynyt geolouhija'
   stats:
   - '&8⇨ &e⚡ &7Nopeus: &b4x'
   - '&8⇨ &e⚡ &7120 J/s'
@@ -62,7 +62,7 @@ ADVANCED_NETHER_STAR_REACTOR:
   - '&bTäytyy olla veden ympäröimä'
   - '&bTäytyy syöttää Nether-jään jäähdytyskennoja'
   - '&4Aiheuttaa Wither-vaikutuksen lähellä oleville olennoille'
-  name: '&cKehittynyt Nether-tähtireaktori'
+  name: 'Kehittynyt Nether-tähtireaktori'
   stats:
   - '&8⇨ &e⚡ &790,000 J puskuri'
   - '&8⇨ &e⚡ &71,800 J/s'
@@ -71,7 +71,7 @@ ADVANCED_NETHER_STAR_REACTOR:
 ADVANCED_PANEL:
   description:
   - '&7Tuottaa energiaa auringosta'
-  name: '&cKehittynyt aurinkopaneeli'
+  name: 'Kehittynyt aurinkopaneeli'
   stats:
   - '&8⇨ &e⚡ &715,000 J puskuri'
   - '&8⇨ &e⚡ &7150 J/s'
@@ -80,7 +80,7 @@ ADVANCED_PANEL:
 ADVANCED_QUARRY:
   description:
   - '&7Louhii automaattisesti ylämaailman ja Netherin malmeja'
-  name: '&cKehittynyt louhos'
+  name: 'Kehittynyt louhos'
   stats:
   - '&8⇨ &e⚡ &7Nopeus: &b2x'
   - '&8⇨ &e⚡ &7900 J/s'
@@ -89,7 +89,7 @@ ADVANCED_QUARRY:
 ADVANCED_SMELTERY:
   description:
   - '&7Nopeampi sulattamo'
-  name: '&cKehittynyt &7sulattamo'
+  name: 'Kehittynyt sulattamo'
   stats:
   - '&8⇨ &e⚡ &7Nopeus: &b24x'
   - '&8⇨ &e⚡ &7240 J/s'
@@ -98,7 +98,7 @@ ADVANCED_SMELTERY:
 ADVANCED_STORAGE:
   description:
   - '&7Varastoi suuria määriä yhtä esinetyyppiä'
-  name: '&cKehittynyt &8varastoyksikkö'
+  name: 'Kehittynyt varastoyksikkö'
   stats:
   - '&6Kapasiteetti: &e25,600 &eesinettä'
   type:
@@ -106,7 +106,7 @@ ADVANCED_STORAGE:
 ADVANCED_STRAINER:
   description:
   - '&7Kerää materiaaleja virtaavasta vedestä'
-  name: '&cKehittynyt siivilä'
+  name: 'Kehittynyt siivilä'
   stats:
   - '&8⇨ &b⚡ &7Nopeus: &b4.0x'
   type:
@@ -114,7 +114,7 @@ ADVANCED_STRAINER:
 ADVANCED_TREE_GROWER:
   description:
   - '&7Kasvattaa, korjaa ja istuttaa puita automaattisesti'
-  name: '&cKehittynyt &2puunkasvattaja'
+  name: 'Kehittynyt puunkasvattaja'
   stats:
   - '&8⇨ &e⚡ &7Nopeus: &b5x'
   - '&8⇨ &e⚡ &7180 J/s'
@@ -123,20 +123,20 @@ ADVANCED_TREE_GROWER:
 ADVANCED_VIRTUAL_FARM:
   description:
   - '&7Kasvattaa, korjaa ja istuttaa viljelykasveja automaattisesti'
-  name: '&cKehittynyt &avirtuaaliviljelmä'
+  name: 'Kehittynyt virtuaaliviljelmä'
   stats:
   - '&8⇨ &e⚡ &7Nopeus: &b5x'
   - '&8⇨ &e⚡ &790 J/s'
   type:
   - '&7&oKone'
 ALUMINUM_SINGULARITY:
-  name: '&7Alumiinisingulariteetti'
+  name: 'Alumiinisingulariteetti'
   type:
   - '&7&oResurssi'
 BASIC_COBBLE_GEN:
   description:
   - '&7Tuottaa mukulakiveä automaattisesti ajan myötä'
-  name: '&9Perus &8mukulakivituottaja'
+  name: 'Perus mukulakivituottaja'
   stats:
   - '&8⇨ &e⚡ &7Nopeus: &b1x'
   - '&8⇨ &e⚡ &724 J/s'
@@ -145,7 +145,7 @@ BASIC_COBBLE_GEN:
 BASIC_OBSIDIAN_GEN:
   description:
   - '&7Tuottaa obsidiaania automaattisesti ajan myötä'
-  name: '&8Obsidiaanituottaja'
+  name: 'Obsidiaanituottaja'
   stats:
   - '&8⇨ &e⚡ &7Nopeus: &b1x'
   - '&8⇨ &e⚡ &7240 J/s'
@@ -154,7 +154,7 @@ BASIC_OBSIDIAN_GEN:
 BASIC_PANEL:
   description:
   - '&7Tuottaa energiaa auringosta'
-  name: '&9Perusaurinkopaneeli'
+  name: 'Perusaurinkopaneeli'
   stats:
   - '&8⇨ &e⚡ &7900 J puskuri'
   - '&8⇨ &e⚡ &79 J/s'
@@ -163,7 +163,7 @@ BASIC_PANEL:
 BASIC_QUARRY:
   description:
   - '&7Louhii automaattisesti ylämaailman malmeja'
-  name: '&9Peruslouhos'
+  name: 'Peruslouhos'
   stats:
   - '&8⇨ &e⚡ &7Nopeus: &b1x'
   - '&8⇨ &e⚡ &7300 J/s'
@@ -172,7 +172,7 @@ BASIC_QUARRY:
 BASIC_STORAGE:
   description:
   - '&7Varastoi suuria määriä yhtä esinetyyppiä'
-  name: '&9Perus &8varastoyksikkö'
+  name: 'Perus varastoyksikkö'
   stats:
   - '&6Kapasiteetti: &e6,400 &eesinettä'
   type:
@@ -180,7 +180,7 @@ BASIC_STORAGE:
 BASIC_STRAINER:
   description:
   - '&7Kerää materiaaleja virtaavasta vedestä'
-  name: '&9Perussiivilä'
+  name: 'Perussiivilä'
   stats:
   - '&8⇨ &b⚡ &7Nopeus: &b1.0x'
   type:
@@ -188,7 +188,7 @@ BASIC_STRAINER:
 BASIC_TREE_GROWER:
   description:
   - '&7Kasvattaa, korjaa ja istuttaa puita automaattisesti'
-  name: '&9Perus &2puunkasvattaja'
+  name: 'Perus puunkasvattaja'
   stats:
   - '&8⇨ &e⚡ &7Nopeus: &b1x'
   - '&8⇨ &e⚡ &736 J/s'
@@ -197,14 +197,14 @@ BASIC_TREE_GROWER:
 BASIC_VIRTUAL_FARM:
   description:
   - '&7Kasvattaa, korjaa ja istuttaa viljelykasveja automaattisesti'
-  name: '&9Perus &avirtuaaliviljelmä'
+  name: 'Perus virtuaaliviljelmä'
   stats:
   - '&8⇨ &e⚡ &7Nopeus: &b1x'
   - '&8⇨ &e⚡ &718 J/s'
   type:
   - '&7&oKone'
 BEE_DATA_CARD:
-  name: '&bMehiläisdatakortti'
+  name: 'Mehiläisdatakortti'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
@@ -212,7 +212,7 @@ BEE_DATA_CARD:
   usage:
   - '&7Aseta mobisimulaatiokammioon aktivoidaksesi'
 BLAZE_DATA_CARD:
-  name: '&bBlaze-datakortti'
+  name: 'Blaze-datakortti'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
@@ -222,14 +222,14 @@ BLAZE_DATA_CARD:
 CELESTIAL_PANEL:
   description:
   - '&7Tuottaa energiaa auringosta'
-  name: '&eTaivaallinen paneeli'
+  name: 'Taivaallinen paneeli'
   stats:
   - '&8⇨ &e⚡ &775,000 J puskuri'
   - '&8⇨ &e⚡ &7750 J/s'
   type:
   - '&7&oGeneraattori'
 CHICKEN_DATA_CARD:
-  name: '&bKanadatakortti'
+  name: 'Kanadatakortti'
   stats:
   - '&8⇨ &e⚡ &775 J/s'
   type:
@@ -237,53 +237,53 @@ CHICKEN_DATA_CARD:
   usage:
   - '&7Aseta mobisimulaatiokammioon aktivoidaksesi'
 COAL_SINGULARITY:
-  name: '&8Kivihiilisingulariteetti'
+  name: 'Kivihiilisingulariteetti'
   type:
   - '&7&oResurssi'
 COBBLE_PRESS:
   description:
   - '&7Puristaa mukulakiveä tehokkaammin'
-  name: '&8Mukulakivipuristin'
+  name: 'Mukulakivipuristin'
   stats:
   - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oKone'
 COMPRESSED_COBBLESTONE_1:
-  name: '&7Kerran puristettu mukulakivi'
+  name: 'Kerran puristettu mukulakivi'
   stats:
   - '&89 mukulakiveä yhdistettynä'
   type:
   - '&7&oResurssi'
 COMPRESSED_COBBLESTONE_2:
-  name: '&7Kahdesti puristettu mukulakivi'
+  name: 'Kahdesti puristettu mukulakivi'
   stats:
   - '&881 mukulakiveä yhdistettynä'
   type:
   - '&7&oResurssi'
 COMPRESSED_COBBLESTONE_3:
-  name: '&7Kolmesti puristettu mukulakivi'
+  name: 'Kolmesti puristettu mukulakivi'
   stats:
   - '&8729 mukulakiveä yhdistettynä'
   type:
   - '&7&oResurssi'
 COMPRESSED_COBBLESTONE_4:
-  name: '&7Neljästi puristettu mukulakivi'
+  name: 'Neljästi puristettu mukulakivi'
   stats:
   - '&86,561 mukulakiveä yhdistettynä'
   type:
   - '&7&oResurssi'
 COMPRESSED_COBBLESTONE_5:
-  name: '&7Viidesti puristettu mukulakivi'
+  name: 'Viidesti puristettu mukulakivi'
   stats:
   - '&859,049 mukulakiveä yhdistettynä'
   type:
   - '&7&oResurssi'
 COPPER_SINGULARITY:
-  name: '&6Kuparisingulariteetti'
+  name: 'Kuparisingulariteetti'
   type:
   - '&7&oResurssi'
 COW_DATA_CARD:
-  name: '&bLehmädatakortti'
+  name: 'Lehmädatakortti'
   stats:
   - '&8⇨ &e⚡ &775 J/s'
   type:
@@ -291,7 +291,7 @@ COW_DATA_CARD:
   usage:
   - '&7Aseta mobisimulaatiokammioon aktivoidaksesi'
 CREEPER_DATA_CARD:
-  name: '&bCreeperdatakortti'
+  name: 'Creeperdatakortti'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
@@ -301,7 +301,7 @@ CREEPER_DATA_CARD:
 DATA_INFUSER:
   description:
   - '&7Kyllästää tyhjät datakortit mobien esineillä'
-  name: '&8Mobidatan kyllästin'
+  name: 'Mobidatan kyllästin'
   stats:
   - '&8⇨ &e⚡ &720,000 J käyttöä kohden'
   type:
@@ -309,40 +309,40 @@ DATA_INFUSER:
 DECOMPRESSOR:
   description:
   - '&7Pilkkoo palikat takaisin perusmateriaaliksi'
-  name: '&7Puristuksenpurkaja'
+  name: 'Puristuksenpurkaja'
   stats:
   - '&8⇨ &e⚡ &760 J/s'
   type:
   - '&7&oKone'
 DIAMOND_SINGULARITY:
-  name: '&bTimanttisingulariteetti'
+  name: 'Timanttisingulariteetti'
   type:
   - '&7&oResurssi'
 DUST_EXTRACTOR:
   description:
   - '&7Muuntaa mukulakiven pölyiksi'
-  name: '&8Pölynerotin'
+  name: 'Pölynerotin'
   stats:
   - '&8⇨ &e⚡ &7Nopeus: &b1x'
   - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oKone'
 EARTH_SINGULARITY:
-  name: '&aMaasingulariteetti'
+  name: 'Maasingulariteetti'
   type:
   - '&7&oResurssi'
 EMERALD_SINGULARITY:
-  name: '&aSmaragdisingulariteetti'
+  name: 'Smaragdisingulariteetti'
   type:
   - '&7&oResurssi'
 EMPTY_DATA_CARD:
-  name: '&8Tyhjä datakortti'
+  name: 'Tyhjä datakortti'
   type:
   - '&7&oKomponentti'
   usage:
   - '&7Kyllästä mobin esineillä täyttääksesi sen'
 ENDERMEN_DATA_CARD:
-  name: '&bEndermanin datakortti'
+  name: 'Endermanin datakortti'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
@@ -350,7 +350,7 @@ ENDERMEN_DATA_CARD:
   usage:
   - '&7Aseta mobisimulaatiokammioon aktivoidaksesi'
 ENDER_DRAGON_DATA_CARD:
-  name: '&bEnderlohikäärmeen datakortti'
+  name: 'Enderlohikäärmeen datakortti'
   stats:
   - '&8⇨ &e⚡ &79,000 J/s'
   type:
@@ -358,31 +358,31 @@ ENDER_DRAGON_DATA_CARD:
   usage:
   - '&7Aseta mobisimulaatiokammioon aktivoidaksesi'
 ENDER_FLAME:
-  name: '&cEnderliekki'
+  name: 'Enderliekki'
   type:
   - '&7&oKomponentti'
 END_ESSENCE:
   description:
   - '&8&oEndin syvyyksistä...'
-  name: '&5Enderessenssi'
+  name: 'Enderessenssi'
   type:
   - '&7&oResurssi'
 EXTREME_FREEZER:
   description:
   - '&7Muuntaa jään jäähdytysaineeksi'
-  name: '&bÄärimmäinen pakastin'
+  name: 'Äärimmäinen pakastin'
   stats:
   - '&8⇨ &e⚡ &790 J/s'
   type:
   - '&7&oKone'
 FORTUNE_SINGULARITY:
-  name: '&6Onnensingulariteetti'
+  name: 'Onnensingulariteetti'
   type:
   - '&7&oResurssi'
 GEAR_TRANSFORMER:
   description:
   - '&7Vaihtaa vanilla-työkalujen ja -varusteiden materiaalin'
-  name: '&7Varustemuuntaja'
+  name: 'Varustemuuntaja'
   stats:
   - '&8⇨ &e⚡ &712,000 J käyttöä kohden'
   type:
@@ -390,7 +390,7 @@ GEAR_TRANSFORMER:
 GEOTHERMAL_GENERATOR:
   description:
   - '&7Tuottaa energiaa maailman lämmöstä'
-  name: '&cGeotermaalinen generaattori'
+  name: 'Geotermaalinen generaattori'
   stats:
   - '&8⇨ &e⚡ &73,500 J puskuri'
   - '&8⇨ &e⚡ &735 J/s'
@@ -399,17 +399,17 @@ GEOTHERMAL_GENERATOR:
 GEO_QUARRY:
   description:
   - '&7Korjaa hitaasti geo-resursseja tyhjyydestä virran avulla'
-  name: '&fGeolouhos'
+  name: 'Geolouhos'
   stats:
   - '&8⇨ &e⚡ &7450 J/s'
   type:
   - '&7&oKone'
 GOLD_SINGULARITY:
-  name: '&6Kultasingulariteetti'
+  name: 'Kultasingulariteetti'
   type:
   - '&7&oResurssi'
 GUARDIAN_DATA_CARD:
-  name: '&bVartijadatakortti'
+  name: 'Vartijadatakortti'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
@@ -419,7 +419,7 @@ GUARDIAN_DATA_CARD:
 HYDRO_GENERATOR:
   description:
   - '&7Tuottaa energiaa veden liikkeestä'
-  name: '&9Vesigeneraattori'
+  name: 'Vesigeneraattori'
   stats:
   - '&8⇨ &e⚡ &7500 J puskuri'
   - '&8⇨ &e⚡ &75 J/s'
@@ -429,21 +429,21 @@ INFINITE_INGOT:
   description:
   - '&7&oKosmoksen raivo'
   - '&7&okätesi kämmenellä'
-  name: '&bÄärettömyysharkko'
+  name: 'Äärettömyysharkko'
   type:
   - '&7&oResurssi'
 INFINITE_MACHINE_CIRCUIT:
-  name: '&bÄäretön &6konepiiri'
+  name: 'Ääretön konepiiri'
   type:
   - '&7&oKomponentti'
 INFINITE_MACHINE_CORE:
-  name: '&bÄäretön koneen ydin'
+  name: 'Ääretön koneen ydin'
   type:
   - '&7&oKomponentti'
 INFINITE_PANEL:
   description:
   - '&7Tuottaa energiaa kosmoksesta'
-  name: '&bÄäretön paneeli'
+  name: 'Ääretön paneeli'
   stats:
   - '&8⇨ &e⚡ &76,000,000 J puskuri'
   - '&8⇨ &e⚡ &760,000 J/s'
@@ -452,26 +452,26 @@ INFINITE_PANEL:
 INFINITE_VOID_HARVESTER:
   description:
   - '&7Korjaa &8tyhjyys&7bittejä tyhjästä...'
-  name: '&bÄäretön &8tyhjyydenkorjaaja'
+  name: 'Ääretön tyhjyydenkorjaaja'
   stats:
   - '&8⇨ &e⚡ &7Nopeus: &b64x'
   - '&8⇨ &e⚡ &712,000 J/s'
   type:
   - '&7&oKone'
 INFINITY_AXE:
-  name: '&4Luonnon turmio'
+  name: 'Luonnon turmio'
   stats:
   - '&bSielusidottu'
   type:
   - '&7&oTyökalu'
 INFINITY_BLADE:
-  name: '&bKosmoksen terä'
+  name: 'Kosmoksen terä'
   stats:
   - '&bSielusidottu'
   type:
   - '&7&oAse'
 INFINITY_BOOTS:
-  name: '&bÄärettömät saappaat'
+  name: 'Äärettömät saappaat'
   stats:
   - '&7Nopeus III'
   - '&7Delfiinin suosio I'
@@ -481,7 +481,7 @@ INFINITY_BOOTS:
 INFINITY_BOW:
   description:
   - '&7Ampuu räjähtäviä nuolia, jotka hidastavat ja sekoittavat vihollisia osuessaan'
-  name: '&6Taivaanlävistäjä'
+  name: 'Taivaanlävistäjä'
   stats:
   - '&bSielusidottu'
   type:
@@ -490,7 +490,7 @@ INFINITY_CAPACITOR:
   description:
   - '&c&oÄlä käytä useampaa kuin'
   - '&c&o1 energiaverkkoa kohden'
-  name: '&bÄäretön kondensaattori'
+  name: 'Ääretön kondensaattori'
   stats:
   - '&8⇨ &e⚡ 2,000,000,000 &7J kapasiteetti'
   type:
@@ -498,14 +498,14 @@ INFINITY_CAPACITOR:
 INFINITY_CHARGER:
   description:
   - '&7Lataa esineet välittömästi'
-  name: '&bÄäretön laturi'
+  name: 'Ääretön laturi'
   stats:
   - '&8⇨ &e⚡ &7Nopeus: &b6000x'
   - '&8⇨ &e⚡ &760,000 J käyttöä kohden'
   type:
   - '&7&oKone'
 INFINITY_CHESTPLATE:
-  name: '&bÄäretön rintapanssari'
+  name: 'Ääretön rintapanssari'
   stats:
   - '&7Voima II'
   - '&7Vastustuskyky I'
@@ -517,7 +517,7 @@ INFINITY_CHESTPLATE:
 INFINITY_COBBLE_GEN:
   description:
   - '&7Tuottaa mukulakiveä automaattisesti ajan myötä'
-  name: '&cÄäretön &8mukulakivituottaja'
+  name: 'Ääretön mukulakivituottaja'
   stats:
   - '&8⇨ &e⚡ &7Nopeus: &b64x'
   - '&8⇨ &e⚡ &7800 J/s'
@@ -526,14 +526,14 @@ INFINITY_COBBLE_GEN:
 INFINITY_CONSTRUCTOR:
   description:
   - '&7Tiivistää nopeasti suuria määriä resursseja'
-  name: '&bÄäretön &frakentaja'
+  name: 'Ääretön rakentaja'
   stats:
   - '&8⇨ &e⚡ &7Nopeus: &b64x'
   - '&8⇨ &e⚡ &71,200 J/s'
   type:
   - '&7&oKone'
 INFINITY_CROWN:
-  name: '&bÄäretön kruunu'
+  name: 'Ääretön kruunu'
   stats:
   - '&7Pimeänäkö I'
   - '&7Johteen voima I'
@@ -544,7 +544,7 @@ INFINITY_CROWN:
 INFINITY_DISENCHANTER:
   description:
   - '&7Poistaa automaattisesti lumoukset esineistä kirjoihin'
-  name: '&bÄäretön lumouksenpoistaja'
+  name: 'Ääretön lumouksenpoistaja'
   stats:
   - '&8⇨ &e⚡ &7Nopeus: &b90x'
   - '&8⇨ &e⚡ &712,000 J käyttöä kohden'
@@ -553,7 +553,7 @@ INFINITY_DISENCHANTER:
 INFINITY_DUST_EXTRACTOR:
   description:
   - '&7Muuntaa mukulakiven pölyiksi'
-  name: '&bÄäretön &8pölynerotin'
+  name: 'Ääretön pölynerotin'
   stats:
   - '&8⇨ &e⚡ &7Nopeus: &b16x'
   - '&8⇨ &e⚡ &77,200 J/s'
@@ -562,7 +562,7 @@ INFINITY_DUST_EXTRACTOR:
 INFINITY_ENCHANTER:
   description:
   - '&7Lumoaa automaattisesti sisälle asetetut esineet'
-  name: '&bÄäretön lumoaja'
+  name: 'Ääretön lumoaja'
   stats:
   - '&8⇨ &e⚡ &7Nopeus: &b75x'
   - '&8⇨ &e⚡ &712,000 J käyttöä kohden'
@@ -571,7 +571,7 @@ INFINITY_ENCHANTER:
 INFINITY_FORGE:
   description:
   - '&7Käytetään äärettömien esineiden valmistukseen'
-  name: '&6Ääretön verstas'
+  name: 'Ääretön verstas'
   stats:
   - '&8⇨ &e⚡ &710,000,000 J esinettä kohden'
   type:
@@ -579,14 +579,14 @@ INFINITY_FORGE:
 INFINITY_INGOT_FORMER:
   description:
   - '&7Muovaa harkkoja pölyistä'
-  name: '&bÄäretön &8harkonmuovaaja'
+  name: 'Ääretön harkonmuovaaja'
   stats:
   - '&8⇨ &e⚡ &7Nopeus: &b16x'
   - '&8⇨ &e⚡ &77,200 J/s'
   type:
   - '&7&oKone'
 INFINITY_LEGGINGS:
-  name: '&bÄärettömät housut'
+  name: 'Äärettömät housut'
   stats:
   - '&7Kiirehdintä III'
   - '&7Uusiutuminen I'
@@ -598,7 +598,7 @@ INFINITY_LEGGINGS:
 INFINITY_MATRIX:
   description:
   - '&6Antaa rajattoman lentokyvyn'
-  name: '&fÄäretön matriisi'
+  name: 'Ääretön matriisi'
   stats:
   - '&bSielusidottu'
   type:
@@ -607,7 +607,7 @@ INFINITY_MATRIX:
   - '&7Napsauta oikealla kytkeäksesi päälle/pois ja lunastaaksesi'
   - '&7Kyyristy ja napsauta oikealla poistaaksesi omistajuuden'
 INFINITY_PICKAXE:
-  name: '&9Maailman rikkoja'
+  name: 'Maailman rikkoja'
   stats:
   - '&bSielusidottu'
   type:
@@ -615,7 +615,7 @@ INFINITY_PICKAXE:
 INFINITY_QUARRY:
   description:
   - '&7Louhii automaattisesti ylämaailman ja Netherin malmeja'
-  name: '&bÄäretön louhos'
+  name: 'Ääretön louhos'
   stats:
   - '&8⇨ &e⚡ &7Nopeus: &b64x'
   - '&8⇨ &e⚡ &736,000 J/s'
@@ -625,32 +625,32 @@ INFINITY_REACTOR:
   description:
   - '&7Tuottaa virtaa puristamalla'
   - '&7yhteen &8tyhjyys- &7ja &bäärettömyys&7harkkoja'
-  name: '&bÄäretön reaktori'
+  name: 'Ääretön reaktori'
   stats:
   - '&8⇨ &e⚡ &7120,000,000 J puskuri'
   - '&8⇨ &e⚡ &7120,000 J/s'
   type:
   - '&7&oGeneraattori'
 INFINITY_SHIELD:
-  name: '&bKosminen kilpi'
+  name: 'Kosminen kilpi'
   stats:
   - '&bSielusidottu'
   type:
   - '&7&oAse'
 INFINITY_SHOVEL:
-  name: '&aVuorensyöjä'
+  name: 'Vuorensyöjä'
   stats:
   - '&bSielusidottu'
   type:
   - '&7&oTyökalu'
 INFINITY_SINGULARITY:
-  name: '&bÄärettömyyssingulariteetti'
+  name: 'Äärettömyyssingulariteetti'
   type:
   - '&7&oResurssi'
 INFINITY_STORAGE:
   description:
   - '&7Varastoi suuria määriä yhtä esinetyyppiä'
-  name: '&bÄäretön &8varastoyksikkö'
+  name: 'Ääretön varastoyksikkö'
   stats:
   - '&6Kapasiteetti: &e1,600,000,000 &eesinettä'
   type:
@@ -658,7 +658,7 @@ INFINITY_STORAGE:
 INFINITY_TREE_GROWER:
   description:
   - '&7Kasvattaa, korjaa ja istuttaa puita automaattisesti'
-  name: '&bÄäretön &2puunkasvattaja'
+  name: 'Ääretön puunkasvattaja'
   stats:
   - '&8⇨ &e⚡ &7Nopeus: &b25x'
   - '&8⇨ &e⚡ &71,800 J/s'
@@ -667,7 +667,7 @@ INFINITY_TREE_GROWER:
 INFINITY_VIRTUAL_FARM:
   description:
   - '&7Kasvattaa, korjaa ja istuttaa viljelykasveja automaattisesti'
-  name: '&bÄäretön &avirtuaaliviljelmä'
+  name: 'Ääretön virtuaaliviljelmä'
   stats:
   - '&8⇨ &e⚡ &7Nopeus: &b25x'
   - '&8⇨ &e⚡ &7900 J/s'
@@ -676,14 +676,14 @@ INFINITY_VIRTUAL_FARM:
 INGOT_FORMER:
   description:
   - '&7Muovaa harkkoja pölyistä'
-  name: '&8Harkonmuovaaja'
+  name: 'Harkonmuovaaja'
   stats:
   - '&8⇨ &e⚡ &7Nopeus: &b1x'
   - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oKone'
 IRON_GOLEM_DATA_CARD:
-  name: '&bRautagolemin datakortti'
+  name: 'Rautagolemin datakortti'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
@@ -691,35 +691,35 @@ IRON_GOLEM_DATA_CARD:
   usage:
   - '&7Aseta mobisimulaatiokammioon aktivoidaksesi'
 IRON_SINGULARITY:
-  name: '&7Rautasingulariteetti'
+  name: 'Rautasingulariteetti'
   type:
   - '&7&oResurssi'
 LAPIS_SINGULARITY:
-  name: '&9Lapissingulariteetti'
+  name: 'Lapissingulariteetti'
   type:
   - '&7&oResurssi'
 LEAD_SINGULARITY:
-  name: '&8Lyijysingulariteetti'
+  name: 'Lyijysingulariteetti'
   type:
   - '&7&oResurssi'
 MACHINE_CIRCUIT:
-  name: '&6Konepiiri'
+  name: 'Konepiiri'
   type:
   - '&7&oKomponentti'
 MACHINE_CORE:
-  name: '&fKoneen ydin'
+  name: 'Koneen ydin'
   type:
   - '&7&oKomponentti'
 MACHINE_PLATE:
-  name: '&fKonelevy'
+  name: 'Konelevy'
   type:
   - '&7&oKomponentti'
 MAGIC_SINGULARITY:
-  name: '&dTaikasingulariteetti'
+  name: 'Taikasingulariteetti'
   type:
   - '&7&oResurssi'
 MAGMA_CUBE_DATA_CARD:
-  name: '&bMagmakuution datakortti'
+  name: 'Magmakuution datakortti'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
@@ -727,99 +727,99 @@ MAGMA_CUBE_DATA_CARD:
   usage:
   - '&7Aseta mobisimulaatiokammioon aktivoidaksesi'
 MAGNESIUM_SINGULARITY:
-  name: '&5Magnesiumsingulariteetti'
+  name: 'Magnesiumsingulariteetti'
   type:
   - '&7&oResurssi'
 MAGNONIUM:
-  name: '&5Magnonium'
+  name: 'Magnonium'
   type:
   - '&7&oResurssi'
 MAGSTEEL:
-  name: '&4Magteräs'
+  name: 'Magteräs'
   type:
   - '&7&oResurssi'
 MAGSTEEL_PLATE:
-  name: '&4Magteräslevy'
+  name: 'Magteräslevy'
   type:
   - '&7&oKomponentti'
 METAL_SINGULARITY:
-  name: '&8Metallisingulariteetti'
+  name: 'Metallisingulariteetti'
   type:
   - '&7&oResurssi'
 MOB_SIMULATION_CHAMBER:
   description:
   - '&7Aktivoi mobidatakorteilla'
-  name: '&8Mobisimulaatiokammio'
+  name: 'Mobisimulaatiokammio'
   stats:
   - '&8⇨ &e⚡ &715,000 J puskuri'
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oKone'
 MYTHRIL:
-  name: '&bMythril'
+  name: 'Mythril'
   type:
   - '&7&oResurssi'
 NETHERITE_SINGULARITY:
-  name: '&4Netheriittisingulariteetti'
+  name: 'Netheriittisingulariteetti'
   type:
   - '&7&oResurssi'
 POWERED_BEDROCK:
   description:
   - '&7Virroitettuna muuttuu peruskallioksi'
   - '&7Palautuu, kun virta katkeaa tai se rikotaan'
-  name: '&4Virroitettu peruskallio'
+  name: 'Virroitettu peruskallio'
   stats:
   - '&8⇨ &e⚡ &710,000 J/s'
   type:
   - '&7&oKone'
 QUARRY_OSCILLATOR_DIAMOND:
-  name: '&bTimanttioskillaattori'
+  name: 'Timanttioskillaattori'
   type:
   - '&7&oKomponentti'
   usage:
   - '&7Aseta louhokseen antaaksesi sille'
   - '&750.0% mahdollisuuden louhia tätä materiaalia'
 QUARRY_OSCILLATOR_EMERALD:
-  name: '&bSmaragdioskillaattori'
+  name: 'Smaragdioskillaattori'
   type:
   - '&7&oKomponentti'
   usage:
   - '&7Aseta louhokseen antaaksesi sille'
   - '&750.0% mahdollisuuden louhia tätä materiaalia'
 QUARRY_OSCILLATOR_LAPIS_LAZULI:
-  name: '&bLapis lazuli -oskillaattori'
+  name: 'Lapis lazuli -oskillaattori'
   type:
   - '&7&oKomponentti'
   usage:
   - '&7Aseta louhokseen antaaksesi sille'
   - '&750.0% mahdollisuuden louhia tätä materiaalia'
 QUARRY_OSCILLATOR_QUARTZ:
-  name: '&bKvartsioskillaattori'
+  name: 'Kvartsioskillaattori'
   type:
   - '&7&oKomponentti'
   usage:
   - '&7Aseta louhokseen antaaksesi sille'
   - '&750.0% mahdollisuuden louhia tätä materiaalia'
 QUARRY_OSCILLATOR_REDSTONE:
-  name: '&bPunakivioskillaattori'
+  name: 'Punakivioskillaattori'
   type:
   - '&7&oKomponentti'
   usage:
   - '&7Aseta louhokseen antaaksesi sille'
   - '&750.0% mahdollisuuden louhia tätä materiaalia'
 QUARTZ_SINGULARITY:
-  name: '&fKvartsisingulariteetti'
+  name: 'Kvartsisingulariteetti'
   type:
   - '&7&oResurssi'
 REDSTONE_SINGULARITY:
-  name: '&cPunakivisingulariteetti'
+  name: 'Punakivisingulariteetti'
   type:
   - '&7&oResurssi'
 REINFORCED_GEOTHERMAL_GENERATOR:
   description:
   - '&7Tuottaa suuria määriä energiaa'
   - '&7maailman lämmöstä'
-  name: '&fVahvistettu &cgeotermaaligeneraattori'
+  name: 'Vahvistettu geotermaaligeneraattori'
   stats:
   - '&8⇨ &e⚡ &721,000 J puskuri'
   - '&8⇨ &e⚡ &7210 J/s'
@@ -829,7 +829,7 @@ REINFORCED_HYDRO_GENERATOR:
   description:
   - '&7Tuottaa suuria määriä energiaa'
   - '&7veden liikkeestä'
-  name: '&fVahvistettu &9vesigeneraattori'
+  name: 'Vahvistettu vesigeneraattori'
   stats:
   - '&8⇨ &e⚡ &74,500 J puskuri'
   - '&8⇨ &e⚡ &745 J/s'
@@ -838,7 +838,7 @@ REINFORCED_HYDRO_GENERATOR:
 REINFORCED_STORAGE:
   description:
   - '&7Varastoi suuria määriä yhtä esinetyyppiä'
-  name: '&fVahvistettu &8varastoyksikkö'
+  name: 'Vahvistettu varastoyksikkö'
   stats:
   - '&6Kapasiteetti: &e102,400 &eesinettä'
   type:
@@ -846,7 +846,7 @@ REINFORCED_STORAGE:
 REINFORCED_STRAINER:
   description:
   - '&7Kerää materiaaleja virtaavasta vedestä'
-  name: '&fVahvistettu siivilä'
+  name: 'Vahvistettu siivilä'
   stats:
   - '&8⇨ &b⚡ &7Nopeus: &b20.0x'
   type:
@@ -854,13 +854,13 @@ REINFORCED_STRAINER:
 RESOURCE_SYNTHESIZER:
   description:
   - '&7Luo resursseja yhdistämällä 2 singulariteettia'
-  name: '&6Resurssisyntetisoija'
+  name: 'Resurssisyntetisoija'
   stats:
   - '&8⇨ &e⚡ &71,000,000 J käyttöä kohden'
   type:
   - '&7&oKone'
 SHEEP_DATA_CARD:
-  name: '&bLammasdatakortti'
+  name: 'Lammasdatakortti'
   stats:
   - '&8⇨ &e⚡ &775 J/s'
   type:
@@ -868,20 +868,20 @@ SHEEP_DATA_CARD:
   usage:
   - '&7Aseta mobisimulaatiokammioon aktivoidaksesi'
 SILVER_SINGULARITY:
-  name: '&7Hopeasingulariteetti'
+  name: 'Hopeasingulariteetti'
   type:
   - '&7&oResurssi'
 SINGULARITY_CONSTRUCTOR:
   description:
   - '&7Tiivistää suuria määriä resursseja'
-  name: '&fSingulariteettirakentaja'
+  name: 'Singulariteettirakentaja'
   stats:
   - '&8⇨ &e⚡ &7Nopeus: &b1x'
   - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oKone'
 SKELETON_DATA_CARD:
-  name: '&bLuurankodatakortti'
+  name: 'Luurankodatakortti'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
@@ -889,7 +889,7 @@ SKELETON_DATA_CARD:
   usage:
   - '&7Aseta mobisimulaatiokammioon aktivoidaksesi'
 SLIME_DATA_CARD:
-  name: '&bLimadatakortti'
+  name: 'Limadatakortti'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
@@ -897,7 +897,7 @@ SLIME_DATA_CARD:
   usage:
   - '&7Aseta mobisimulaatiokammioon aktivoidaksesi'
 SPIDER_DATA_CARD:
-  name: '&bHämähäkkidatakortti'
+  name: 'Hämähäkkidatakortti'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
@@ -907,7 +907,7 @@ SPIDER_DATA_CARD:
 STONEWORKS_FACTORY:
   description:
   - '&7Tuottaa mukulakiveä ja käsittelee sen erilaisiksi materiaaleiksi'
-  name: '&8Kivityötehdas'
+  name: 'Kivityötehdas'
   stats:
   - '&8⇨ &e⚡ &7240 J/s'
   type:
@@ -918,28 +918,28 @@ STORAGE_FORGE:
   description:
   - '&7Päivittää varastoyksiköiden tason'
   - '&7Säilyttää varastoidut esineet'
-  name: '&6Varastopaja'
+  name: 'Varastopaja'
   type:
   - '&7&oKone'
 STRAINER_BASE:
   description:
   - '&7Kerää hitaasti materiaaleja virtaavasta vedestä siivilän avulla'
   - '&7Täytyy olla veden täyttämä toimiakseen'
-  name: '&7Siivilän alusta'
+  name: 'Siivilän alusta'
   type:
   - '&7&oKone'
 TIN_SINGULARITY:
-  name: '&7Tinasingulariteetti'
+  name: 'Tinasingulariteetti'
   type:
   - '&7&oResurssi'
 TITANIUM:
-  name: '&7Titaani'
+  name: 'Titaani'
   type:
   - '&7&oResurssi'
 URANIUM_EXTRACTOR:
   description:
   - '&7Muuntaa mukulakiven uraaniksi'
-  name: '&aUraanierotin'
+  name: 'Uraanierotin'
   stats:
   - '&8⇨ &e⚡ &7240 J/s'
   type:
@@ -947,13 +947,13 @@ URANIUM_EXTRACTOR:
 VEIN_MINER_RUNE:
   description:
   - '&7Päivittää työkalun louhimaan tiettyjä materiaaleja suonittain'
-  name: '&bSuonilouhijariimu'
+  name: 'Suonilouhijariimu'
   type:
   - '&7&oGadgetti'
   usage:
   - '&ePudota&7 työkalun viereen päivittääksesi sen suonilouhijaksi'
 VILLAGER_DATA_CARD:
-  name: '&bKyläläisdatakortti'
+  name: 'Kyläläisdatakortti'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
@@ -963,13 +963,13 @@ VILLAGER_DATA_CARD:
 VOID_BIT:
   description:
   - '&7&oSe tuntuu... tyhjältä'
-  name: '&8Tyhjyysbitti'
+  name: 'Tyhjyysbitti'
   type:
   - '&7&oResurssi'
 VOID_CAPACITOR:
   description:
   - '&7Varastoi energiaverkon ylimääräisen energian'
-  name: '&8Tyhjyyskondensaattori'
+  name: 'Tyhjyyskondensaattori'
   stats:
   - '&8⇨ &e⚡ 16,000,000 &7J kapasiteetti'
   type:
@@ -977,13 +977,13 @@ VOID_CAPACITOR:
 VOID_DUST:
   description:
   - '&7&oSe alkaa saada muotoa...'
-  name: '&8Tyhjyyspöly'
+  name: 'Tyhjyyspöly'
   type:
   - '&7&oResurssi'
 VOID_HARVESTER:
   description:
   - '&7Korjaa hitaasti &8tyhjyys&7bittejä tyhjästä...'
-  name: '&8Tyhjyydenkorjaaja'
+  name: 'Tyhjyydenkorjaaja'
   stats:
   - '&8⇨ &e⚡ &7Nopeus: &b1x'
   - '&8⇨ &e⚡ &7120 J/s'
@@ -993,13 +993,13 @@ VOID_INGOT:
   description:
   - '&7&oKosmoksen tyhjyys'
   - '&7&okätesi kämmenellä'
-  name: '&8Tyhjyysharkko'
+  name: 'Tyhjyysharkko'
   type:
   - '&7&oResurssi'
 VOID_PANEL:
   description:
   - '&7Tuottaa energiaa pimeydestä'
-  name: '&8Tyhjyyspaneeli'
+  name: 'Tyhjyyspaneeli'
   stats:
   - '&8⇨ &e⚡ &7300,000 J puskuri'
   - '&8⇨ &e⚡ &73,000 J/s'
@@ -1008,7 +1008,7 @@ VOID_PANEL:
 VOID_QUARRY:
   description:
   - '&7Louhii automaattisesti ylämaailman ja Netherin malmeja'
-  name: '&8Tyhjyyslouhos'
+  name: 'Tyhjyyslouhos'
   stats:
   - '&8⇨ &e⚡ &7Nopeus: &b6x'
   - '&8⇨ &e⚡ &73,600 J/s'
@@ -1017,13 +1017,13 @@ VOID_QUARRY:
 VOID_STORAGE:
   description:
   - '&7Varastoi suuria määriä yhtä esinetyyppiä'
-  name: '&8Tyhjyyden &8varastoyksikkö'
+  name: 'Tyhjyyden varastoyksikkö'
   stats:
   - '&6Kapasiteetti: &e409,600 &eesinettä'
   type:
   - '&7&oKone'
 WITCH_DATA_CARD:
-  name: '&bNoitadatakortti'
+  name: 'Noitadatakortti'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
@@ -1031,7 +1031,7 @@ WITCH_DATA_CARD:
   usage:
   - '&7Aseta mobisimulaatiokammioon aktivoidaksesi'
 WITHER_DATA_CARD:
-  name: '&bWither-datakortti'
+  name: 'Wither-datakortti'
   stats:
   - '&8⇨ &e⚡ &74,500 J/s'
   type:
@@ -1039,7 +1039,7 @@ WITHER_DATA_CARD:
   usage:
   - '&7Aseta mobisimulaatiokammioon aktivoidaksesi'
 WITHER_SKELETON_DATA_CARD:
-  name: '&bWither-luurangon datakortti'
+  name: 'Wither-luurangon datakortti'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
@@ -1047,11 +1047,11 @@ WITHER_SKELETON_DATA_CARD:
   usage:
   - '&7Aseta mobisimulaatiokammioon aktivoidaksesi'
 ZINC_SINGULARITY:
-  name: '&7Sinkkisingulariteetti'
+  name: 'Sinkkisingulariteetti'
   type:
   - '&7&oResurssi'
 ZOMBIE_DATA_CARD:
-  name: '&bZombidatakortti'
+  name: 'Zombidatakortti'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:

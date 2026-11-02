@@ -2,7 +2,7 @@
 # Composed by LoreComposer in order: Type -> Description -> Stats -> Usage.
 
 ADVANCED_GEO_MINER:
-  name: "&cAdvanced &fGeoMiner"
+  name: 'Advanced GeoMiner'
   type:
     - "&7&oMachine"
   description:
@@ -12,7 +12,7 @@ ADVANCED_GEO_MINER:
     - "&8⇨ &e⚡ &7120 J/s"
 
 ADVANCED_SMELTERY:
-  name: "&cAdvanced &7Smeltery"
+  name: 'Advanced Smeltery'
   type:
     - "&7&oMachine"
   description:
@@ -22,7 +22,7 @@ ADVANCED_SMELTERY:
     - "&8⇨ &e⚡ &7240 J/s"
 
 ADVANCED_CHARGER:
-  name: "&cAdvanced Charger"
+  name: 'Advanced Charger'
   type:
     - "&7&oMachine"
   description:
@@ -32,7 +32,7 @@ ADVANCED_CHARGER:
     - "&8⇨ &e⚡ &7180 J/s"
 
 INFINITY_CHARGER:
-  name: "&bInfinity Charger"
+  name: 'Infinity Charger'
   type:
     - "&7&oMachine"
   description:
@@ -42,7 +42,7 @@ INFINITY_CHARGER:
     - "&8⇨ &e⚡ &760,000 J per use"
 
 ADVANCED_NETHER_STAR_REACTOR:
-  name: "&cAdvanced Nether Star Reactor"
+  name: 'Advanced Nether Star Reactor'
   type:
     - "&7&oGenerator"
   description:
@@ -55,7 +55,7 @@ ADVANCED_NETHER_STAR_REACTOR:
     - "&8⇨ &e⚡ &71,800 J/s"
 
 ADVANCED_ENCHANTER:
-  name: "&cAdvanced Enchanter"
+  name: 'Advanced Enchanter'
   type:
     - "&7&oMachine"
   description:
@@ -65,7 +65,7 @@ ADVANCED_ENCHANTER:
     - "&8⇨ &e⚡ &7180 J/s"
 
 ADVANCED_DISENCHANTER:
-  name: "&cAdvanced Disenchanter"
+  name: 'Advanced Disenchanter'
   type:
     - "&7&oMachine"
   description:
@@ -75,7 +75,7 @@ ADVANCED_DISENCHANTER:
     - "&8⇨ &e⚡ &7180 J/s"
 
 INFINITY_ENCHANTER:
-  name: "&bInfinity Enchanter"
+  name: 'Infinity Enchanter'
   type:
     - "&7&oMachine"
   description:
@@ -85,7 +85,7 @@ INFINITY_ENCHANTER:
     - "&8⇨ &e⚡ &712,000 J per use"
 
 INFINITY_DISENCHANTER:
-  name: "&bInfinity Disenchanter"
+  name: 'Infinity Disenchanter'
   type:
     - "&7&oMachine"
   description:
@@ -95,7 +95,7 @@ INFINITY_DISENCHANTER:
     - "&8⇨ &e⚡ &712,000 J per use"
 
 INFINITY_CAPACITOR:
-  name: "&bInfinite Capacitor"
+  name: 'Infinite Capacitor'
   type:
     - "&7&oComponent"
   description:
@@ -105,7 +105,7 @@ INFINITY_CAPACITOR:
     - "&8⇨ &e⚡ 2,000,000,000 &7J Capacity"
 
 VOID_CAPACITOR:
-  name: "&8Void Capacitor"
+  name: 'Void Capacitor'
   type:
     - "&7&oComponent"
   description:
@@ -114,7 +114,7 @@ VOID_CAPACITOR:
     - "&8⇨ &e⚡ 16,000,000 &7J Capacity"
 
 STRAINER_BASE:
-  name: "&7Strainer Base"
+  name: 'Strainer Base'
   type:
     - "&7&oMachine"
   description:
@@ -122,7 +122,7 @@ STRAINER_BASE:
     - "&7Must be waterlogged to function"
 
 ADVANCED_ANVIL:
-  name: "&cAdvanced Anvil"
+  name: 'Advanced Anvil'
   type:
     - "&7&oMachine"
   description:
@@ -132,7 +132,7 @@ ADVANCED_ANVIL:
     - "&8⇨ &e⚡ &7100,000 J per use"
 
 INFINITY_FORGE:
-  name: "&6Infinity Workbench"
+  name: 'Infinity Workbench'
   type:
     - "&7&oMachine"
   description:
@@ -141,12 +141,12 @@ INFINITY_FORGE:
     - "&8⇨ &e⚡ &710,000,000 J per item"
 
 ENDER_FLAME:
-  name: "&cEnder Flame"
+  name: 'Ender Flame'
   type:
     - "&7&oComponent"
 
 INFINITY_CROWN:
-  name: "&bInfinity Crown"
+  name: 'Infinity Crown'
   type:
     - "&7&oArmor"
   stats:
@@ -156,7 +156,7 @@ INFINITY_CROWN:
     - "&bSoulbound"
 
 INFINITY_CHESTPLATE:
-  name: "&bInfinity Chestplate"
+  name: 'Infinity Chestplate'
   type:
     - "&7&oArmor"
   stats:
@@ -167,7 +167,7 @@ INFINITY_CHESTPLATE:
     - "&bSoulbound"
 
 INFINITY_LEGGINGS:
-  name: "&bInfinity Leggings"
+  name: 'Infinity Leggings'
   type:
     - "&7&oArmor"
   stats:
@@ -178,7 +178,7 @@ INFINITY_LEGGINGS:
     - "&bSoulbound"
 
 INFINITY_BOOTS:
-  name: "&bInfinity Boots"
+  name: 'Infinity Boots'
   type:
     - "&7&oArmor"
   stats:
@@ -187,7 +187,7 @@ INFINITY_BOOTS:
     - "&bSoulbound"
 
 INFINITY_MATRIX:
-  name: "&fInfinity Matrix"
+  name: 'Infinity Matrix'
   type:
     - "&7&oGadget"
   description:
@@ -199,42 +199,42 @@ INFINITY_MATRIX:
     - "&7Crouch and Right-Click to remove ownership"
 
 INFINITY_SHIELD:
-  name: "&bCosmic Aegis"
+  name: 'Cosmic Aegis'
   type:
     - "&7&oWeapon"
   stats:
     - "&bSoulbound"
 
 INFINITY_BLADE:
-  name: "&bBlade of the Cosmos"
+  name: 'Blade of the Cosmos'
   type:
     - "&7&oWeapon"
   stats:
     - "&bSoulbound"
 
 INFINITY_PICKAXE:
-  name: "&9World Breaker"
+  name: 'World Breaker'
   type:
     - "&7&oTool"
   stats:
     - "&bSoulbound"
 
 INFINITY_AXE:
-  name: "&4Nature's Ruin"
+  name: 'Nature''s Ruin'
   type:
     - "&7&oTool"
   stats:
     - "&bSoulbound"
 
 INFINITY_SHOVEL:
-  name: "&aMountain Eater"
+  name: 'Mountain Eater'
   type:
     - "&7&oTool"
   stats:
     - "&bSoulbound"
 
 INFINITY_BOW:
-  name: "&6Sky Piercer"
+  name: 'Sky Piercer'
   type:
     - "&7&oWeapon"
   description:
@@ -243,7 +243,7 @@ INFINITY_BOW:
     - "&bSoulbound"
 
 VEIN_MINER_RUNE:
-  name: "&bVein Miner Rune"
+  name: 'Vein Miner Rune'
   type:
     - "&7&oGadget"
   description:
@@ -252,7 +252,7 @@ VEIN_MINER_RUNE:
     - "&eDrop&7 next to a tool to upgrade it into a Vein Miner"
 
 INFINITY_REACTOR:
-  name: "&bInfinity Reactor"
+  name: 'Infinity Reactor'
   type:
     - "&7&oGenerator"
   description:
@@ -263,7 +263,7 @@ INFINITY_REACTOR:
     - "&8⇨ &e⚡ &7120,000 J/s"
 
 HYDRO_GENERATOR:
-  name: "&9Hydro Generator"
+  name: 'Hydro Generator'
   type:
     - "&7&oGenerator"
   description:
@@ -273,7 +273,7 @@ HYDRO_GENERATOR:
     - "&8⇨ &e⚡ &75 J/s"
 
 REINFORCED_HYDRO_GENERATOR:
-  name: "&fReinforced &9Hydro Gen"
+  name: 'Reinforced Hydro Generator'
   type:
     - "&7&oGenerator"
   description:
@@ -284,7 +284,7 @@ REINFORCED_HYDRO_GENERATOR:
     - "&8⇨ &e⚡ &745 J/s"
 
 GEOTHERMAL_GENERATOR:
-  name: "&cGeothermal Generator"
+  name: 'Geothermal Generator'
   type:
     - "&7&oGenerator"
   description:
@@ -294,7 +294,7 @@ GEOTHERMAL_GENERATOR:
     - "&8⇨ &e⚡ &735 J/s"
 
 REINFORCED_GEOTHERMAL_GENERATOR:
-  name: "&fReinforced &cGeothermal Gen"
+  name: 'Reinforced Geothermal Generator'
   type:
     - "&7&oGenerator"
   description:
@@ -305,7 +305,7 @@ REINFORCED_GEOTHERMAL_GENERATOR:
     - "&8⇨ &e⚡ &7210 J/s"
 
 BASIC_PANEL:
-  name: "&9Basic Solar Panel"
+  name: 'Basic Solar Panel'
   type:
     - "&7&oGenerator"
   description:
@@ -315,7 +315,7 @@ BASIC_PANEL:
     - "&8⇨ &e⚡ &79 J/s"
 
 ADVANCED_PANEL:
-  name: "&cAdvanced Solar Panel"
+  name: 'Advanced Solar Panel'
   type:
     - "&7&oGenerator"
   description:
@@ -325,7 +325,7 @@ ADVANCED_PANEL:
     - "&8⇨ &e⚡ &7150 J/s"
 
 CELESTIAL_PANEL:
-  name: "&eCelestial Panel"
+  name: 'Celestial Panel'
   type:
     - "&7&oGenerator"
   description:
@@ -335,7 +335,7 @@ CELESTIAL_PANEL:
     - "&8⇨ &e⚡ &7750 J/s"
 
 VOID_PANEL:
-  name: "&8Void Panel"
+  name: 'Void Panel'
   type:
     - "&7&oGenerator"
   description:
@@ -345,7 +345,7 @@ VOID_PANEL:
     - "&8⇨ &e⚡ &73,000 J/s"
 
 INFINITE_PANEL:
-  name: "&bInfinity Panel"
+  name: 'Infinity Panel'
   type:
     - "&7&oGenerator"
   description:
@@ -355,7 +355,7 @@ INFINITE_PANEL:
     - "&8⇨ &e⚡ &760,000 J/s"
 
 COBBLE_PRESS:
-  name: "&8Cobble Press"
+  name: 'Cobble Press'
   type:
     - "&7&oMachine"
   description:
@@ -364,7 +364,7 @@ COBBLE_PRESS:
     - "&8⇨ &e⚡ &7120 J/s"
 
 RESOURCE_SYNTHESIZER:
-  name: "&6Resource Synthesizer"
+  name: 'Resource Synthesizer'
   type:
     - "&7&oMachine"
   description:
@@ -373,7 +373,7 @@ RESOURCE_SYNTHESIZER:
     - "&8⇨ &e⚡ &71,000,000 J per use"
 
 BASIC_VIRTUAL_FARM:
-  name: "&9Basic &aVirtual Farm"
+  name: 'Basic Virtual Farm'
   type:
     - "&7&oMachine"
   description:
@@ -383,7 +383,7 @@ BASIC_VIRTUAL_FARM:
     - "&8⇨ &e⚡ &718 J/s"
 
 ADVANCED_VIRTUAL_FARM:
-  name: "&cAdvanced &aVirtual Farm"
+  name: 'Advanced Virtual Farm'
   type:
     - "&7&oMachine"
   description:
@@ -393,7 +393,7 @@ ADVANCED_VIRTUAL_FARM:
     - "&8⇨ &e⚡ &790 J/s"
 
 INFINITY_VIRTUAL_FARM:
-  name: "&bInfinity &aVirtual Farm"
+  name: 'Infinity Virtual Farm'
   type:
     - "&7&oMachine"
   description:
@@ -403,7 +403,7 @@ INFINITY_VIRTUAL_FARM:
     - "&8⇨ &e⚡ &7900 J/s"
 
 BASIC_TREE_GROWER:
-  name: "&9Basic &2Tree Grower"
+  name: 'Basic Tree Grower'
   type:
     - "&7&oMachine"
   description:
@@ -413,7 +413,7 @@ BASIC_TREE_GROWER:
     - "&8⇨ &e⚡ &736 J/s"
 
 ADVANCED_TREE_GROWER:
-  name: "&cAdvanced &2Tree Grower"
+  name: 'Advanced Tree Grower'
   type:
     - "&7&oMachine"
   description:
@@ -423,7 +423,7 @@ ADVANCED_TREE_GROWER:
     - "&8⇨ &e⚡ &7180 J/s"
 
 INFINITY_TREE_GROWER:
-  name: "&bInfinity &2Tree Grower"
+  name: 'Infinity Tree Grower'
   type:
     - "&7&oMachine"
   description:
@@ -433,7 +433,7 @@ INFINITY_TREE_GROWER:
     - "&8⇨ &e⚡ &71,800 J/s"
 
 POWERED_BEDROCK:
-  name: "&4Powered Bedrock"
+  name: 'Powered Bedrock'
   type:
     - "&7&oMachine"
   description:
@@ -443,7 +443,7 @@ POWERED_BEDROCK:
     - "&8⇨ &e⚡ &710,000 J/s"
 
 GEO_QUARRY:
-  name: "&fGeo Quarry"
+  name: 'Geo Quarry'
   type:
     - "&7&oMachine"
   description:
@@ -452,7 +452,7 @@ GEO_QUARRY:
     - "&8⇨ &e⚡ &7450 J/s"
 
 EXTREME_FREEZER:
-  name: "&bExtreme Freezer"
+  name: 'Extreme Freezer'
   type:
     - "&7&oMachine"
   description:
@@ -461,7 +461,7 @@ EXTREME_FREEZER:
     - "&8⇨ &e⚡ &790 J/s"
 
 DUST_EXTRACTOR:
-  name: "&8Dust Extractor"
+  name: 'Dust Extractor'
   type:
     - "&7&oMachine"
   description:
@@ -471,7 +471,7 @@ DUST_EXTRACTOR:
     - "&8⇨ &e⚡ &7240 J/s"
 
 INFINITY_DUST_EXTRACTOR:
-  name: "&bInfinity &8Dust Extractor"
+  name: 'Infinity Dust Extractor'
   type:
     - "&7&oMachine"
   description:
@@ -481,7 +481,7 @@ INFINITY_DUST_EXTRACTOR:
     - "&8⇨ &e⚡ &77,200 J/s"
 
 INGOT_FORMER:
-  name: "&8Ingot Former"
+  name: 'Ingot Former'
   type:
     - "&7&oMachine"
   description:
@@ -491,7 +491,7 @@ INGOT_FORMER:
     - "&8⇨ &e⚡ &7240 J/s"
 
 INFINITY_INGOT_FORMER:
-  name: "&bInfinity &8Ingot Former"
+  name: 'Infinity Ingot Former'
   type:
     - "&7&oMachine"
   description:
@@ -501,7 +501,7 @@ INFINITY_INGOT_FORMER:
     - "&8⇨ &e⚡ &77,200 J/s"
 
 URANIUM_EXTRACTOR:
-  name: "&aUranium Extractor"
+  name: 'Uranium Extractor'
   type:
     - "&7&oMachine"
   description:
@@ -510,7 +510,7 @@ URANIUM_EXTRACTOR:
     - "&8⇨ &e⚡ &7240 J/s"
 
 DECOMPRESSOR:
-  name: "&7Decompressor"
+  name: 'Decompressor'
   type:
     - "&7&oMachine"
   description:
@@ -519,7 +519,7 @@ DECOMPRESSOR:
     - "&8⇨ &e⚡ &760 J/s"
 
 GEAR_TRANSFORMER:
-  name: "&7Gear Transformer"
+  name: 'Gear Transformer'
   type:
     - "&7&oMachine"
   description:
@@ -528,7 +528,7 @@ GEAR_TRANSFORMER:
     - "&8⇨ &e⚡ &712,000 J Per Use"
 
 BASIC_COBBLE_GEN:
-  name: "&9Basic &8Cobble Generator"
+  name: 'Basic Cobble Generator'
   type:
     - "&7&oMachine"
   description:
@@ -538,7 +538,7 @@ BASIC_COBBLE_GEN:
     - "&8⇨ &e⚡ &724 J/s"
 
 ADVANCED_COBBLE_GEN:
-  name: "&cAdvanced &8Cobble Generator"
+  name: 'Advanced Cobble Generator'
   type:
     - "&7&oMachine"
   description:
@@ -548,7 +548,7 @@ ADVANCED_COBBLE_GEN:
     - "&8⇨ &e⚡ &7120 J/s"
 
 INFINITY_COBBLE_GEN:
-  name: "&cInfinity &8Cobble Generator"
+  name: 'Infinity Cobble Generator'
   type:
     - "&7&oMachine"
   description:
@@ -558,7 +558,7 @@ INFINITY_COBBLE_GEN:
     - "&8⇨ &e⚡ &7800 J/s"
 
 BASIC_OBSIDIAN_GEN:
-  name: "&8Obsidian Generator"
+  name: 'Obsidian Generator'
   type:
     - "&7&oMachine"
   description:
@@ -568,7 +568,7 @@ BASIC_OBSIDIAN_GEN:
     - "&8⇨ &e⚡ &7240 J/s"
 
 SINGULARITY_CONSTRUCTOR:
-  name: "&fSingularity Constructor"
+  name: 'Singularity Constructor'
   type:
     - "&7&oMachine"
   description:
@@ -578,7 +578,7 @@ SINGULARITY_CONSTRUCTOR:
     - "&8⇨ &e⚡ &7120 J/s"
 
 INFINITY_CONSTRUCTOR:
-  name: "&bInfinity &fConstructor"
+  name: 'Infinity Constructor'
   type:
     - "&7&oMachine"
   description:
@@ -588,7 +588,7 @@ INFINITY_CONSTRUCTOR:
     - "&8⇨ &e⚡ &71,200 J/s"
 
 STONEWORKS_FACTORY:
-  name: "&8Stoneworks Factory"
+  name: 'Stoneworks Factory'
   type:
     - "&7&oMachine"
   description:
@@ -599,7 +599,7 @@ STONEWORKS_FACTORY:
     - "&eClick&7 the choice slots to cycle between Smelting, Crushing, Compacting, and Transforming"
 
 VOID_HARVESTER:
-  name: "&8Void Harvester"
+  name: 'Void Harvester'
   type:
     - "&7&oMachine"
   description:
@@ -609,7 +609,7 @@ VOID_HARVESTER:
     - "&8⇨ &e⚡ &7120 J/s"
 
 INFINITE_VOID_HARVESTER:
-  name: "&bInfinite &8Void Harvester"
+  name: 'Infinite Void Harvester'
   type:
     - "&7&oMachine"
   description:
@@ -619,51 +619,51 @@ INFINITE_VOID_HARVESTER:
     - "&8⇨ &e⚡ &712,000 J/s"
 
 INFINITE_MACHINE_CIRCUIT:
-  name: "&bInfinite &6Machine Circuit"
+  name: 'Infinite Machine Circuit'
   type:
     - "&7&oComponent"
 
 INFINITE_MACHINE_CORE:
-  name: "&bInfinite Machine Core"
+  name: 'Infinite Machine Core'
   type:
     - "&7&oComponent"
 
 MAGSTEEL_PLATE:
-  name: "&4MagSteel Plate"
+  name: 'MagSteel Plate'
   type:
     - "&7&oComponent"
 
 MACHINE_PLATE:
-  name: "&fMachine Plate"
+  name: 'Machine Plate'
   type:
     - "&7&oComponent"
 
 MACHINE_CIRCUIT:
-  name: "&6Machine Circuit"
+  name: 'Machine Circuit'
   type:
     - "&7&oComponent"
 
 MACHINE_CORE:
-  name: "&fMachine Core"
+  name: 'Machine Core'
   type:
     - "&7&oComponent"
 
 VOID_BIT:
-  name: "&8Void Bit"
+  name: 'Void Bit'
   type:
     - "&7&oResource"
   description:
     - "&7&oIt feels... empty"
 
 VOID_DUST:
-  name: "&8Void Dust"
+  name: 'Void Dust'
   type:
     - "&7&oResource"
   description:
     - "&7&oIts starting to take form..."
 
 VOID_INGOT:
-  name: "&8Void Ingot"
+  name: 'Void Ingot'
   type:
     - "&7&oResource"
   description:
@@ -671,67 +671,67 @@ VOID_INGOT:
     - "&7&oin the palm of your hand"
 
 COMPRESSED_COBBLESTONE_1:
-  name: "&7Single Compressed Cobblestone"
+  name: 'Single Compressed Cobblestone'
   type:
     - "&7&oResource"
   stats:
     - "&89 cobblestone combined"
 
 COMPRESSED_COBBLESTONE_2:
-  name: "&7Double Compressed Cobblestone"
+  name: 'Double Compressed Cobblestone'
   type:
     - "&7&oResource"
   stats:
     - "&881 cobblestone combined"
 
 COMPRESSED_COBBLESTONE_3:
-  name: "&7Triple Compressed Cobblestone"
+  name: 'Triple Compressed Cobblestone'
   type:
     - "&7&oResource"
   stats:
     - "&8729 cobblestone combined"
 
 COMPRESSED_COBBLESTONE_4:
-  name: "&7Quadruple Compressed Cobblestone"
+  name: 'Quadruple Compressed Cobblestone'
   type:
     - "&7&oResource"
   stats:
     - "&86,561 cobblestone combined"
 
 COMPRESSED_COBBLESTONE_5:
-  name: "&7Quintuple Compressed Cobblestone"
+  name: 'Quintuple Compressed Cobblestone'
   type:
     - "&7&oResource"
   stats:
     - "&859,049 cobblestone combined"
 
 MAGSTEEL:
-  name: "&4MagSteel"
+  name: 'MagSteel'
   type:
     - "&7&oResource"
 
 MAGNONIUM:
-  name: "&5Magnonium"
+  name: 'Magnonium'
   type:
     - "&7&oResource"
 
 TITANIUM:
-  name: "&7Titanium"
+  name: 'Titanium'
   type:
     - "&7&oResource"
 
 MYTHRIL:
-  name: "&bMythril"
+  name: 'Mythril'
   type:
     - "&7&oResource"
 
 ADAMANTITE:
-  name: "&dAdamantite"
+  name: 'Adamantite'
   type:
     - "&7&oResource"
 
 INFINITE_INGOT:
-  name: "&bInfinity Ingot"
+  name: 'Infinity Ingot'
   type:
     - "&7&oResource"
   description:
@@ -739,119 +739,119 @@ INFINITE_INGOT:
     - "&7&oin the palm of your hand"
 
 FORTUNE_SINGULARITY:
-  name: "&6Fortune Singularity"
+  name: 'Fortune Singularity'
   type:
     - "&7&oResource"
 
 EARTH_SINGULARITY:
-  name: "&aEarth Singularity"
+  name: 'Earth Singularity'
   type:
     - "&7&oResource"
 
 METAL_SINGULARITY:
-  name: "&8Metal Singularity"
+  name: 'Metal Singularity'
   type:
     - "&7&oResource"
 
 MAGIC_SINGULARITY:
-  name: "&dMagic Singularity"
+  name: 'Magic Singularity'
   type:
     - "&7&oResource"
 
 END_ESSENCE:
-  name: "&5Ender Essence"
+  name: 'Ender Essence'
   type:
     - "&7&oResource"
   description:
     - "&8&oFrom the depths of the end..."
 
 COPPER_SINGULARITY:
-  name: "&6Copper Singularity"
+  name: 'Copper Singularity'
   type:
     - "&7&oResource"
 
 ZINC_SINGULARITY:
-  name: "&7Zinc Singularity"
+  name: 'Zinc Singularity'
   type:
     - "&7&oResource"
 
 TIN_SINGULARITY:
-  name: "&7Tin Singularity"
+  name: 'Tin Singularity'
   type:
     - "&7&oResource"
 
 ALUMINUM_SINGULARITY:
-  name: "&7Aluminum Singularity"
+  name: 'Aluminum Singularity'
   type:
     - "&7&oResource"
 
 SILVER_SINGULARITY:
-  name: "&7Silver Singularity"
+  name: 'Silver Singularity'
   type:
     - "&7&oResource"
 
 MAGNESIUM_SINGULARITY:
-  name: "&5Magnesium Singularity"
+  name: 'Magnesium Singularity'
   type:
     - "&7&oResource"
 
 LEAD_SINGULARITY:
-  name: "&8Lead Singularity"
+  name: 'Lead Singularity'
   type:
     - "&7&oResource"
 
 GOLD_SINGULARITY:
-  name: "&6Gold Singularity"
+  name: 'Gold Singularity'
   type:
     - "&7&oResource"
 
 IRON_SINGULARITY:
-  name: "&7Iron Singularity"
+  name: 'Iron Singularity'
   type:
     - "&7&oResource"
 
 DIAMOND_SINGULARITY:
-  name: "&bDiamond Singularity"
+  name: 'Diamond Singularity'
   type:
     - "&7&oResource"
 
 EMERALD_SINGULARITY:
-  name: "&aEmerald Singularity"
+  name: 'Emerald Singularity'
   type:
     - "&7&oResource"
 
 NETHERITE_SINGULARITY:
-  name: "&4Netherite Singularity"
+  name: 'Netherite Singularity'
   type:
     - "&7&oResource"
 
 COAL_SINGULARITY:
-  name: "&8Coal Singularity"
+  name: 'Coal Singularity'
   type:
     - "&7&oResource"
 
 REDSTONE_SINGULARITY:
-  name: "&cRedstone Singularity"
+  name: 'Redstone Singularity'
   type:
     - "&7&oResource"
 
 LAPIS_SINGULARITY:
-  name: "&9Lapis Singularity"
+  name: 'Lapis Singularity'
   type:
     - "&7&oResource"
 
 QUARTZ_SINGULARITY:
-  name: "&fQuartz Singularity"
+  name: 'Quartz Singularity'
   type:
     - "&7&oResource"
 
 INFINITY_SINGULARITY:
-  name: "&bInfinity Singularity"
+  name: 'Infinity Singularity'
   type:
     - "&7&oResource"
 
 BASIC_STRAINER:
-  name: "&9Basic Strainer"
+  name: 'Basic Strainer'
   type:
     - "&7&oComponent"
   description:
@@ -860,7 +860,7 @@ BASIC_STRAINER:
     - "&8⇨ &b⚡ &7Speed: &b1.0x"
 
 ADVANCED_STRAINER:
-  name: "&cAdvanced Strainer"
+  name: 'Advanced Strainer'
   type:
     - "&7&oComponent"
   description:
@@ -869,7 +869,7 @@ ADVANCED_STRAINER:
     - "&8⇨ &b⚡ &7Speed: &b4.0x"
 
 REINFORCED_STRAINER:
-  name: "&fReinforced Strainer"
+  name: 'Reinforced Strainer'
   type:
     - "&7&oComponent"
   description:
@@ -878,14 +878,14 @@ REINFORCED_STRAINER:
     - "&8⇨ &b⚡ &7Speed: &b20.0x"
 
 EMPTY_DATA_CARD:
-  name: "&8Empty Data Card"
+  name: 'Empty Data Card'
   type:
     - "&7&oComponent"
   usage:
     - "&7Infuse with a mob's items to fill"
 
 DATA_INFUSER:
-  name: "&8Mob Data Infuser"
+  name: 'Mob Data Infuser'
   type:
     - "&7&oMachine"
   description:
@@ -894,7 +894,7 @@ DATA_INFUSER:
     - "&8⇨ &e⚡ &720,000 J per use"
 
 MOB_SIMULATION_CHAMBER:
-  name: "&8Mob Simulation Chamber"
+  name: 'Mob Simulation Chamber'
   type:
     - "&7&oMachine"
   description:
@@ -904,7 +904,7 @@ MOB_SIMULATION_CHAMBER:
     - "&8⇨ &e⚡ &7150 J/s"
 
 BASIC_QUARRY:
-  name: "&9Basic Quarry"
+  name: 'Basic Quarry'
   type:
     - "&7&oMachine"
   description:
@@ -914,7 +914,7 @@ BASIC_QUARRY:
     - "&8⇨ &e⚡ &7300 J/s"
 
 ADVANCED_QUARRY:
-  name: "&cAdvanced Quarry"
+  name: 'Advanced Quarry'
   type:
     - "&7&oMachine"
   description:
@@ -924,7 +924,7 @@ ADVANCED_QUARRY:
     - "&8⇨ &e⚡ &7900 J/s"
 
 VOID_QUARRY:
-  name: "&8Void Quarry"
+  name: 'Void Quarry'
   type:
     - "&7&oMachine"
   description:
@@ -934,7 +934,7 @@ VOID_QUARRY:
     - "&8⇨ &e⚡ &73,600 J/s"
 
 INFINITY_QUARRY:
-  name: "&bInfinity Quarry"
+  name: 'Infinity Quarry'
   type:
     - "&7&oMachine"
   description:
@@ -944,7 +944,7 @@ INFINITY_QUARRY:
     - "&8⇨ &e⚡ &736,000 J/s"
 
 STORAGE_FORGE:
-  name: "&6Storage Forge"
+  name: 'Storage Forge'
   type:
     - "&7&oMachine"
   description:
@@ -952,7 +952,7 @@ STORAGE_FORGE:
     - "&7Retains stored items"
 
 BASIC_STORAGE:
-  name: "&9Basic &8Storage Unit"
+  name: 'Basic Storage Unit'
   type:
     - "&7&oMachine"
   description:
@@ -961,7 +961,7 @@ BASIC_STORAGE:
     - "&6Capacity: &e6,400 &eitems"
 
 ADVANCED_STORAGE:
-  name: "&cAdvanced &8Storage Unit"
+  name: 'Advanced Storage Unit'
   type:
     - "&7&oMachine"
   description:
@@ -970,7 +970,7 @@ ADVANCED_STORAGE:
     - "&6Capacity: &e25,600 &eitems"
 
 REINFORCED_STORAGE:
-  name: "&fReinforced &8Storage Unit"
+  name: 'Reinforced Storage Unit'
   type:
     - "&7&oMachine"
   description:
@@ -979,7 +979,7 @@ REINFORCED_STORAGE:
     - "&6Capacity: &e102,400 &eitems"
 
 VOID_STORAGE:
-  name: "&8Void &8Storage Unit"
+  name: 'Void Storage Unit'
   type:
     - "&7&oMachine"
   description:
@@ -988,7 +988,7 @@ VOID_STORAGE:
     - "&6Capacity: &e409,600 &eitems"
 
 INFINITY_STORAGE:
-  name: "&bInfinity &8Storage Unit"
+  name: 'Infinity Storage Unit'
   type:
     - "&7&oMachine"
   description:
@@ -997,7 +997,7 @@ INFINITY_STORAGE:
     - "&6Capacity: &e1,600,000,000 &eitems"
 
 ZOMBIE_DATA_CARD:
-  name: "&bZombie Data Card"
+  name: 'Zombie Data Card'
   type:
     - "&7&oComponent"
   stats:
@@ -1006,7 +1006,7 @@ ZOMBIE_DATA_CARD:
     - "&7Place in a mob simulation chamber to activate"
 
 SLIME_DATA_CARD:
-  name: "&bSlime Data Card"
+  name: 'Slime Data Card'
   type:
     - "&7&oComponent"
   stats:
@@ -1015,7 +1015,7 @@ SLIME_DATA_CARD:
     - "&7Place in a mob simulation chamber to activate"
 
 MAGMA_CUBE_DATA_CARD:
-  name: "&bMagma Cube Data Card"
+  name: 'Magma Cube Data Card'
   type:
     - "&7&oComponent"
   stats:
@@ -1024,7 +1024,7 @@ MAGMA_CUBE_DATA_CARD:
     - "&7Place in a mob simulation chamber to activate"
 
 COW_DATA_CARD:
-  name: "&bCow Data Card"
+  name: 'Cow Data Card'
   type:
     - "&7&oComponent"
   stats:
@@ -1033,7 +1033,7 @@ COW_DATA_CARD:
     - "&7Place in a mob simulation chamber to activate"
 
 SHEEP_DATA_CARD:
-  name: "&bSheep Data Card"
+  name: 'Sheep Data Card'
   type:
     - "&7&oComponent"
   stats:
@@ -1042,7 +1042,7 @@ SHEEP_DATA_CARD:
     - "&7Place in a mob simulation chamber to activate"
 
 SPIDER_DATA_CARD:
-  name: "&bSpider Data Card"
+  name: 'Spider Data Card'
   type:
     - "&7&oComponent"
   stats:
@@ -1051,7 +1051,7 @@ SPIDER_DATA_CARD:
     - "&7Place in a mob simulation chamber to activate"
 
 SKELETON_DATA_CARD:
-  name: "&bSkeleton Data Card"
+  name: 'Skeleton Data Card'
   type:
     - "&7&oComponent"
   stats:
@@ -1060,7 +1060,7 @@ SKELETON_DATA_CARD:
     - "&7Place in a mob simulation chamber to activate"
 
 WITHER_SKELETON_DATA_CARD:
-  name: "&bWither Skeleton Data Card"
+  name: 'Wither Skeleton Data Card'
   type:
     - "&7&oComponent"
   stats:
@@ -1069,7 +1069,7 @@ WITHER_SKELETON_DATA_CARD:
     - "&7Place in a mob simulation chamber to activate"
 
 ENDERMEN_DATA_CARD:
-  name: "&bEndermen Data Card"
+  name: 'Enderman Data Card'
   type:
     - "&7&oComponent"
   stats:
@@ -1078,7 +1078,7 @@ ENDERMEN_DATA_CARD:
     - "&7Place in a mob simulation chamber to activate"
 
 CREEPER_DATA_CARD:
-  name: "&bCreeper Data Card"
+  name: 'Creeper Data Card'
   type:
     - "&7&oComponent"
   stats:
@@ -1087,7 +1087,7 @@ CREEPER_DATA_CARD:
     - "&7Place in a mob simulation chamber to activate"
 
 GUARDIAN_DATA_CARD:
-  name: "&bGuardian Data Card"
+  name: 'Guardian Data Card'
   type:
     - "&7&oComponent"
   stats:
@@ -1096,7 +1096,7 @@ GUARDIAN_DATA_CARD:
     - "&7Place in a mob simulation chamber to activate"
 
 CHICKEN_DATA_CARD:
-  name: "&bChicken Data Card"
+  name: 'Chicken Data Card'
   type:
     - "&7&oComponent"
   stats:
@@ -1105,7 +1105,7 @@ CHICKEN_DATA_CARD:
     - "&7Place in a mob simulation chamber to activate"
 
 IRON_GOLEM_DATA_CARD:
-  name: "&bIron Golem Data Card"
+  name: 'Iron Golem Data Card'
   type:
     - "&7&oComponent"
   stats:
@@ -1114,7 +1114,7 @@ IRON_GOLEM_DATA_CARD:
     - "&7Place in a mob simulation chamber to activate"
 
 BLAZE_DATA_CARD:
-  name: "&bBlaze Data Card"
+  name: 'Blaze Data Card'
   type:
     - "&7&oComponent"
   stats:
@@ -1123,7 +1123,7 @@ BLAZE_DATA_CARD:
     - "&7Place in a mob simulation chamber to activate"
 
 WITHER_DATA_CARD:
-  name: "&bWither Data Card"
+  name: 'Wither Data Card'
   type:
     - "&7&oComponent"
   stats:
@@ -1132,7 +1132,7 @@ WITHER_DATA_CARD:
     - "&7Place in a mob simulation chamber to activate"
 
 ENDER_DRAGON_DATA_CARD:
-  name: "&bEnder Dragon Data Card"
+  name: 'Ender Dragon Data Card'
   type:
     - "&7&oComponent"
   stats:
@@ -1141,7 +1141,7 @@ ENDER_DRAGON_DATA_CARD:
     - "&7Place in a mob simulation chamber to activate"
 
 BEE_DATA_CARD:
-  name: "&bBee Data Card"
+  name: 'Bee Data Card'
   type:
     - "&7&oComponent"
   stats:
@@ -1150,7 +1150,7 @@ BEE_DATA_CARD:
     - "&7Place in a mob simulation chamber to activate"
 
 VILLAGER_DATA_CARD:
-  name: "&bVillager Data Card"
+  name: 'Villager Data Card'
   type:
     - "&7&oComponent"
   stats:
@@ -1159,7 +1159,7 @@ VILLAGER_DATA_CARD:
     - "&7Place in a mob simulation chamber to activate"
 
 WITCH_DATA_CARD:
-  name: "&bWitch Data Card"
+  name: 'Witch Data Card'
   type:
     - "&7&oComponent"
   stats:
@@ -1168,7 +1168,7 @@ WITCH_DATA_CARD:
     - "&7Place in a mob simulation chamber to activate"
 
 QUARRY_OSCILLATOR_REDSTONE:
-  name: "&bRedstone Oscillator"
+  name: 'Redstone Oscillator'
   type:
     - "&7&oComponent"
   usage:
@@ -1176,7 +1176,7 @@ QUARRY_OSCILLATOR_REDSTONE:
     - "&7a 50.0% chance of mining this material"
 
 QUARRY_OSCILLATOR_LAPIS_LAZULI:
-  name: "&bLapis Lazuli Oscillator"
+  name: 'Lapis Lazuli Oscillator'
   type:
     - "&7&oComponent"
   usage:
@@ -1184,7 +1184,7 @@ QUARRY_OSCILLATOR_LAPIS_LAZULI:
     - "&7a 50.0% chance of mining this material"
 
 QUARRY_OSCILLATOR_EMERALD:
-  name: "&bEmerald Oscillator"
+  name: 'Emerald Oscillator'
   type:
     - "&7&oComponent"
   usage:
@@ -1192,7 +1192,7 @@ QUARRY_OSCILLATOR_EMERALD:
     - "&7a 50.0% chance of mining this material"
 
 QUARRY_OSCILLATOR_DIAMOND:
-  name: "&bDiamond Oscillator"
+  name: 'Diamond Oscillator'
   type:
     - "&7&oComponent"
   usage:
@@ -1200,7 +1200,7 @@ QUARRY_OSCILLATOR_DIAMOND:
     - "&7a 50.0% chance of mining this material"
 
 QUARRY_OSCILLATOR_QUARTZ:
-  name: "&bQuartz Oscillator"
+  name: 'Quartz Oscillator'
   type:
     - "&7&oComponent"
   usage:

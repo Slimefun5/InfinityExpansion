@@ -1,12 +1,12 @@
 ADAMANTITE:
-  name: '&d아다만타이트'
+  name: '아다만타이트'
   type:
   - '&7&o자원'
 ADVANCED_ANVIL:
   description:
   - '&7도구와 장비의 마법부여를 합치고 때로는 등급을 올립니다'
   - '&bSlimefun 아이템에도 작동합니다'
-  name: '&c고급 모루'
+  name: '고급 모루'
   stats:
   - '&8⇨ &e⚡ &7사용당 100,000 J'
   type:
@@ -14,7 +14,7 @@ ADVANCED_ANVIL:
 ADVANCED_CHARGER:
   description:
   - '&7아이템을 빠르게 충전합니다'
-  name: '&c고급 충전기'
+  name: '고급 충전기'
   stats:
   - '&8⇨ &e⚡ &7속도: &b30x'
   - '&8⇨ &e⚡ &7180 J/s'
@@ -23,7 +23,7 @@ ADVANCED_CHARGER:
 ADVANCED_COBBLE_GEN:
   description:
   - '&7시간이 지나면서 자동으로 조약돌을 생성합니다'
-  name: '&c고급 &8조약돌 생성기'
+  name: '고급 조약돌 생성기'
   stats:
   - '&8⇨ &e⚡ &7속도: &b4x'
   - '&8⇨ &e⚡ &7120 J/s'
@@ -32,7 +32,7 @@ ADVANCED_COBBLE_GEN:
 ADVANCED_DISENCHANTER:
   description:
   - '&7아이템의 마법부여를 자동으로 책에 옮깁니다'
-  name: '&c고급 마법부여 해제기'
+  name: '고급 마법부여 해제기'
   stats:
   - '&8⇨ &e⚡ &7속도: &b5x'
   - '&8⇨ &e⚡ &7180 J/s'
@@ -41,7 +41,7 @@ ADVANCED_DISENCHANTER:
 ADVANCED_ENCHANTER:
   description:
   - '&7안에 넣은 아이템에 자동으로 마법부여합니다'
-  name: '&c고급 마법부여기'
+  name: '고급 마법부여기'
   stats:
   - '&8⇨ &e⚡ &7속도: &b5x'
   - '&8⇨ &e⚡ &7180 J/s'
@@ -50,7 +50,7 @@ ADVANCED_ENCHANTER:
 ADVANCED_GEO_MINER:
   description:
   - '&7더 빠른 지오 채굴기'
-  name: '&c고급 &f지오 채굴기'
+  name: '고급 지오 채굴기'
   stats:
   - '&8⇨ &e⚡ &7속도: &b4x'
   - '&8⇨ &e⚡ &7120 J/s'
@@ -62,7 +62,7 @@ ADVANCED_NETHER_STAR_REACTOR:
   - '&b반드시 물로 둘러싸여 있어야 합니다'
   - '&b반드시 네더 얼음 냉각 셀을 공급해야 합니다'
   - '&4근처 엔티티가 위더 효과를 받습니다'
-  name: '&c고급 네더의 별 원자로'
+  name: '고급 네더의 별 원자로'
   stats:
   - '&8⇨ &e⚡ &790,000 J 버퍼'
   - '&8⇨ &e⚡ &71,800 J/초'
@@ -71,7 +71,7 @@ ADVANCED_NETHER_STAR_REACTOR:
 ADVANCED_PANEL:
   description:
   - '&7태양에서 에너지를 생산합니다'
-  name: '&c고급 태양광 패널'
+  name: '고급 태양광 패널'
   stats:
   - '&8⇨ &e⚡ &715,000 J 버퍼'
   - '&8⇨ &e⚡ &7150 J/초'
@@ -80,7 +80,7 @@ ADVANCED_PANEL:
 ADVANCED_QUARRY:
   description:
   - '&7자동으로 오버월드와 네더 광석을 캡니다'
-  name: '&c고급 채석장'
+  name: '고급 채석장'
   stats:
   - '&8⇨ &e⚡ &7속도: &b2x'
   - '&8⇨ &e⚡ &7900 J/s'
@@ -89,7 +89,7 @@ ADVANCED_QUARRY:
 ADVANCED_SMELTERY:
   description:
   - '&7더 빠른 제련소'
-  name: '&c고급 &7제련소'
+  name: '고급 제련소'
   stats:
   - '&8⇨ &e⚡ &7속도: &b24x'
   - '&8⇨ &e⚡ &7240 J/s'
@@ -98,7 +98,7 @@ ADVANCED_SMELTERY:
 ADVANCED_STORAGE:
   description:
   - '&7단일 아이템 종류를 많은 양으로 저장합니다'
-  name: '&c고급 &8저장 유닛'
+  name: '고급 저장 유닛'
   stats:
   - '&6용량: &e25,600 &e아이템'
   type:
@@ -106,7 +106,7 @@ ADVANCED_STORAGE:
 ADVANCED_STRAINER:
   description:
   - '&7흐르는 물에서 재료를 모읍니다'
-  name: '&c고급 여과기'
+  name: '고급 여과기'
   stats:
   - '&8⇨ &b⚡ &7속도: &b4.0배'
   type:
@@ -114,7 +114,7 @@ ADVANCED_STRAINER:
 ADVANCED_TREE_GROWER:
   description:
   - '&7자동으로 나무를 키우고 수확하고 다시 심습니다'
-  name: '&c고급 &2나무 재배기'
+  name: '고급 나무 재배기'
   stats:
   - '&8⇨ &e⚡ &7속도: &b5x'
   - '&8⇨ &e⚡ &7180 J/s'
@@ -123,20 +123,20 @@ ADVANCED_TREE_GROWER:
 ADVANCED_VIRTUAL_FARM:
   description:
   - '&7자동으로 작물을 재배하고 수확하고 다시 심습니다'
-  name: '&c고급 &a가상 농장'
+  name: '고급 가상 농장'
   stats:
   - '&8⇨ &e⚡ &7속도: &b5x'
   - '&8⇨ &e⚡ &790 J/s'
   type:
   - '&7&o기계'
 ALUMINUM_SINGULARITY:
-  name: '&7알루미늄 특이점'
+  name: '알루미늄 특이점'
   type:
   - '&7&o자원'
 BASIC_COBBLE_GEN:
   description:
   - '&7시간이 지나면서 자동으로 조약돌을 생성합니다'
-  name: '&9기본 &8조약돌 생성기'
+  name: '기본 조약돌 생성기'
   stats:
   - '&8⇨ &e⚡ &7속도: &b1x'
   - '&8⇨ &e⚡ &724 J/s'
@@ -145,7 +145,7 @@ BASIC_COBBLE_GEN:
 BASIC_OBSIDIAN_GEN:
   description:
   - '&7시간이 지나면서 자동으로 흑요석을 생성합니다'
-  name: '&8흑요석 생성기'
+  name: '흑요석 생성기'
   stats:
   - '&8⇨ &e⚡ &7속도: &b1x'
   - '&8⇨ &e⚡ &7240 J/s'
@@ -154,7 +154,7 @@ BASIC_OBSIDIAN_GEN:
 BASIC_PANEL:
   description:
   - '&7태양에서 에너지를 생산합니다'
-  name: '&9기본 태양광 패널'
+  name: '기본 태양광 패널'
   stats:
   - '&8⇨ &e⚡ &7900 J 버퍼'
   - '&8⇨ &e⚡ &79 J/초'
@@ -163,7 +163,7 @@ BASIC_PANEL:
 BASIC_QUARRY:
   description:
   - '&7자동으로 오버월드 광석을 캡니다'
-  name: '&9기본 채석장'
+  name: '기본 채석장'
   stats:
   - '&8⇨ &e⚡ &7속도: &b1x'
   - '&8⇨ &e⚡ &7300 J/s'
@@ -172,7 +172,7 @@ BASIC_QUARRY:
 BASIC_STORAGE:
   description:
   - '&7단일 아이템 종류를 많은 양으로 저장합니다'
-  name: '&9기본 &8저장 유닛'
+  name: '기본 저장 유닛'
   stats:
   - '&6용량: &e6,400 &e아이템'
   type:
@@ -180,7 +180,7 @@ BASIC_STORAGE:
 BASIC_STRAINER:
   description:
   - '&7흐르는 물에서 재료를 모읍니다'
-  name: '&9기본 여과기'
+  name: '기본 여과기'
   stats:
   - '&8⇨ &b⚡ &7속도: &b1.0배'
   type:
@@ -188,7 +188,7 @@ BASIC_STRAINER:
 BASIC_TREE_GROWER:
   description:
   - '&7자동으로 나무를 키우고 수확하고 다시 심습니다'
-  name: '&9기본 &2나무 재배기'
+  name: '기본 나무 재배기'
   stats:
   - '&8⇨ &e⚡ &7속도: &b1x'
   - '&8⇨ &e⚡ &736 J/s'
@@ -197,14 +197,14 @@ BASIC_TREE_GROWER:
 BASIC_VIRTUAL_FARM:
   description:
   - '&7자동으로 작물을 재배하고 수확하고 다시 심습니다'
-  name: '&9기본 &a가상 농장'
+  name: '기본 가상 농장'
   stats:
   - '&8⇨ &e⚡ &7속도: &b1x'
   - '&8⇨ &e⚡ &718 J/s'
   type:
   - '&7&o기계'
 BEE_DATA_CARD:
-  name: '&b벌 데이터 카드'
+  name: '벌 데이터 카드'
   stats:
   - '&8⇨ &e⚡ &7150 J/초'
   type:
@@ -212,7 +212,7 @@ BEE_DATA_CARD:
   usage:
   - '&7몹 시뮬레이션 챔버에 넣으면 활성화됩니다'
 BLAZE_DATA_CARD:
-  name: '&b블레이즈 데이터 카드'
+  name: '블레이즈 데이터 카드'
   stats:
   - '&8⇨ &e⚡ &7600 J/초'
   type:
@@ -222,14 +222,14 @@ BLAZE_DATA_CARD:
 CELESTIAL_PANEL:
   description:
   - '&7태양에서 에너지를 생산합니다'
-  name: '&e천상의 패널'
+  name: '천상의 패널'
   stats:
   - '&8⇨ &e⚡ &775,000 J 버퍼'
   - '&8⇨ &e⚡ &7750 J/초'
   type:
   - '&7&o발전기'
 CHICKEN_DATA_CARD:
-  name: '&b닭 데이터 카드'
+  name: '닭 데이터 카드'
   stats:
   - '&8⇨ &e⚡ &775 J/초'
   type:
@@ -237,53 +237,53 @@ CHICKEN_DATA_CARD:
   usage:
   - '&7몹 시뮬레이션 챔버에 넣으면 활성화됩니다'
 COAL_SINGULARITY:
-  name: '&8석탄 특이점'
+  name: '석탄 특이점'
   type:
   - '&7&o자원'
 COBBLE_PRESS:
   description:
   - '&7조약돌을 더 효율적으로 압축합니다'
-  name: '&8조약돌 압축기'
+  name: '조약돌 압축기'
   stats:
   - '&8⇨ &e⚡ &7120 J/초'
   type:
   - '&7&o기계'
 COMPRESSED_COBBLESTONE_1:
-  name: '&7한 번 압축한 조약돌'
+  name: '한 번 압축한 조약돌'
   stats:
   - '&8조약돌 9개를 합친 것'
   type:
   - '&7&o자원'
 COMPRESSED_COBBLESTONE_2:
-  name: '&7두 번 압축한 조약돌'
+  name: '두 번 압축한 조약돌'
   stats:
   - '&8조약돌 81개를 합친 것'
   type:
   - '&7&o자원'
 COMPRESSED_COBBLESTONE_3:
-  name: '&7세 번 압축한 조약돌'
+  name: '세 번 압축한 조약돌'
   stats:
   - '&8조약돌 729개를 합친 것'
   type:
   - '&7&o자원'
 COMPRESSED_COBBLESTONE_4:
-  name: '&7네 번 압축한 조약돌'
+  name: '네 번 압축한 조약돌'
   stats:
   - '&8조약돌 6,561개를 합친 것'
   type:
   - '&7&o자원'
 COMPRESSED_COBBLESTONE_5:
-  name: '&7다섯 번 압축한 조약돌'
+  name: '다섯 번 압축한 조약돌'
   stats:
   - '&8조약돌 59,049개를 합친 것'
   type:
   - '&7&o자원'
 COPPER_SINGULARITY:
-  name: '&6구리 특이점'
+  name: '구리 특이점'
   type:
   - '&7&o자원'
 COW_DATA_CARD:
-  name: '&b소 데이터 카드'
+  name: '소 데이터 카드'
   stats:
   - '&8⇨ &e⚡ &775 J/초'
   type:
@@ -291,7 +291,7 @@ COW_DATA_CARD:
   usage:
   - '&7몹 시뮬레이션 챔버에 넣으면 활성화됩니다'
 CREEPER_DATA_CARD:
-  name: '&b크리퍼 데이터 카드'
+  name: '크리퍼 데이터 카드'
   stats:
   - '&8⇨ &e⚡ &7300 J/초'
   type:
@@ -301,7 +301,7 @@ CREEPER_DATA_CARD:
 DATA_INFUSER:
   description:
   - '&7빈 데이터 카드에 몹 아이템을 주입합니다'
-  name: '&8몹 데이터 주입기'
+  name: '몹 데이터 주입기'
   stats:
   - '&8⇨ &e⚡ &7사용당 20,000 J'
   type:
@@ -309,40 +309,40 @@ DATA_INFUSER:
 DECOMPRESSOR:
   description:
   - '&7블록을 기본 재료로 되돌립니다'
-  name: '&7압축 해제기'
+  name: '압축 해제기'
   stats:
   - '&8⇨ &e⚡ &760 J/초'
   type:
   - '&7&o기계'
 DIAMOND_SINGULARITY:
-  name: '&b다이아몬드 특이점'
+  name: '다이아몬드 특이점'
   type:
   - '&7&o자원'
 DUST_EXTRACTOR:
   description:
   - '&7조약돌을 가루로 변환합니다'
-  name: '&8가루 추출기'
+  name: '가루 추출기'
   stats:
   - '&8⇨ &e⚡ &7속도: &b1x'
   - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&o기계'
 EARTH_SINGULARITY:
-  name: '&a대지의 특이점'
+  name: '대지의 특이점'
   type:
   - '&7&o자원'
 EMERALD_SINGULARITY:
-  name: '&a에메랄드 특이점'
+  name: '에메랄드 특이점'
   type:
   - '&7&o자원'
 EMPTY_DATA_CARD:
-  name: '&8빈 데이터 카드'
+  name: '빈 데이터 카드'
   type:
   - '&7&o부품'
   usage:
   - '&7몹의 아이템을 주입하여 채우세요'
 ENDERMEN_DATA_CARD:
-  name: '&b엔더맨 데이터 카드'
+  name: '엔더맨 데이터 카드'
   stats:
   - '&8⇨ &e⚡ &7600 J/초'
   type:
@@ -350,7 +350,7 @@ ENDERMEN_DATA_CARD:
   usage:
   - '&7몹 시뮬레이션 챔버에 넣으면 활성화됩니다'
 ENDER_DRAGON_DATA_CARD:
-  name: '&b엔더 드래곤 데이터 카드'
+  name: '엔더 드래곤 데이터 카드'
   stats:
   - '&8⇨ &e⚡ &79,000 J/초'
   type:
@@ -358,31 +358,31 @@ ENDER_DRAGON_DATA_CARD:
   usage:
   - '&7몹 시뮬레이션 챔버에 넣으면 활성화됩니다'
 ENDER_FLAME:
-  name: '&c엔더 불꽃'
+  name: '엔더 불꽃'
   type:
   - '&7&o부품'
 END_ESSENCE:
   description:
   - '&8&o엔드의 심연에서...'
-  name: '&5엔더 정수'
+  name: '엔더 정수'
   type:
   - '&7&o자원'
 EXTREME_FREEZER:
   description:
   - '&7얼음을 냉각재로 변환합니다'
-  name: '&b극한 냉동기'
+  name: '극한 냉동기'
   stats:
   - '&8⇨ &e⚡ &790 J/초'
   type:
   - '&7&o기계'
 FORTUNE_SINGULARITY:
-  name: '&6행운의 특이점'
+  name: '행운의 특이점'
   type:
   - '&7&o자원'
 GEAR_TRANSFORMER:
   description:
   - '&7바닐라 도구와 장비의 재료를 바꿉니다'
-  name: '&7장비 변환기'
+  name: '장비 변환기'
   stats:
   - '&8⇨ &e⚡ &7사용당 12,000 J'
   type:
@@ -390,7 +390,7 @@ GEAR_TRANSFORMER:
 GEOTHERMAL_GENERATOR:
   description:
   - '&7월드의 열에서 에너지를 생산합니다'
-  name: '&c지열 발전기'
+  name: '지열 발전기'
   stats:
   - '&8⇨ &e⚡ &73,500 J 버퍼'
   - '&8⇨ &e⚡ &735 J/초'
@@ -399,17 +399,17 @@ GEOTHERMAL_GENERATOR:
 GEO_QUARRY:
   description:
   - '&7전력을 써서 공허에서 지오 자원을 천천히 수확합니다'
-  name: '&f지오 채석장'
+  name: '지오 채석장'
   stats:
   - '&8⇨ &e⚡ &7450 J/초'
   type:
   - '&7&o기계'
 GOLD_SINGULARITY:
-  name: '&6금 특이점'
+  name: '금 특이점'
   type:
   - '&7&o자원'
 GUARDIAN_DATA_CARD:
-  name: '&b가디언 데이터 카드'
+  name: '가디언 데이터 카드'
   stats:
   - '&8⇨ &e⚡ &7300 J/초'
   type:
@@ -419,7 +419,7 @@ GUARDIAN_DATA_CARD:
 HYDRO_GENERATOR:
   description:
   - '&7물의 움직임에서 에너지를 생산합니다'
-  name: '&9수력 발전기'
+  name: '수력 발전기'
   stats:
   - '&8⇨ &e⚡ &7500 J 버퍼'
   - '&8⇨ &e⚡ &75 J/초'
@@ -429,21 +429,21 @@ INFINITE_INGOT:
   description:
   - '&7&o우주의 분노'
   - '&7&o손바닥 안에'
-  name: '&b무한 주괴'
+  name: '무한 주괴'
   type:
   - '&7&o자원'
 INFINITE_MACHINE_CIRCUIT:
-  name: '&b무한 &6기계 회로'
+  name: '무한 기계 회로'
   type:
   - '&7&o부품'
 INFINITE_MACHINE_CORE:
-  name: '&b무한 기계 코어'
+  name: '무한 기계 코어'
   type:
   - '&7&o부품'
 INFINITE_PANEL:
   description:
   - '&7우주에서 에너지를 생산합니다'
-  name: '&b무한 패널'
+  name: '무한 패널'
   stats:
   - '&8⇨ &e⚡ &76,000,000 J 버퍼'
   - '&8⇨ &e⚡ &760,000 J/초'
@@ -452,26 +452,26 @@ INFINITE_PANEL:
 INFINITE_VOID_HARVESTER:
   description:
   - '&7무에서 &8공허 &7조각을 수확합니다...'
-  name: '&b무한 &8공허 수확기'
+  name: '무한 공허 수확기'
   stats:
   - '&8⇨ &e⚡ &7속도: &b64x'
   - '&8⇨ &e⚡ &712,000 J/s'
   type:
   - '&7&o기계'
 INFINITY_AXE:
-  name: '&4자연의 파멸'
+  name: '자연의 파멸'
   stats:
   - '&b영혼 결속'
   type:
   - '&7&o도구'
 INFINITY_BLADE:
-  name: '&b우주의 검'
+  name: '우주의 검'
   stats:
   - '&b영혼 결속'
   type:
   - '&7&o무기'
 INFINITY_BOOTS:
-  name: '&b무한의 부츠'
+  name: '무한의 부츠'
   stats:
   - '&7신속 III'
   - '&7돌고래의 우아함 I'
@@ -481,7 +481,7 @@ INFINITY_BOOTS:
 INFINITY_BOW:
   description:
   - '&7맞으면 적을 둔화시키고 혼란에 빠뜨리는 폭발 화살을 발사합니다'
-  name: '&6하늘을 뚫는 활'
+  name: '하늘을 뚫는 활'
   stats:
   - '&b영혼 결속'
   type:
@@ -490,7 +490,7 @@ INFINITY_CAPACITOR:
   description:
   - '&c&o한 에너지 네트워크에'
   - '&c&o1개 넘게 쓰지 마세요'
-  name: '&b무한 축전기'
+  name: '무한 축전기'
   stats:
   - '&8⇨ &e⚡ 2,000,000,000 &7J 용량'
   type:
@@ -498,14 +498,14 @@ INFINITY_CAPACITOR:
 INFINITY_CHARGER:
   description:
   - '&7아이템을 즉시 충전합니다'
-  name: '&b무한 충전기'
+  name: '무한 충전기'
   stats:
   - '&8⇨ &e⚡ &7속도: &b6000x'
   - '&8⇨ &e⚡ &7사용당 60,000 J'
   type:
   - '&7&o기계'
 INFINITY_CHESTPLATE:
-  name: '&b무한의 흉갑'
+  name: '무한의 흉갑'
   stats:
   - '&7힘 II'
   - '&7저항 I'
@@ -517,7 +517,7 @@ INFINITY_CHESTPLATE:
 INFINITY_COBBLE_GEN:
   description:
   - '&7시간이 지나면서 자동으로 조약돌을 생성합니다'
-  name: '&c무한 &8조약돌 생성기'
+  name: '무한 조약돌 생성기'
   stats:
   - '&8⇨ &e⚡ &7속도: &b64x'
   - '&8⇨ &e⚡ &7800 J/s'
@@ -526,14 +526,14 @@ INFINITY_COBBLE_GEN:
 INFINITY_CONSTRUCTOR:
   description:
   - '&7많은 양의 자원을 빠르게 압축합니다'
-  name: '&b무한 &f구성기'
+  name: '무한 구성기'
   stats:
   - '&8⇨ &e⚡ &7속도: &b64x'
   - '&8⇨ &e⚡ &71,200 J/s'
   type:
   - '&7&o기계'
 INFINITY_CROWN:
-  name: '&b무한의 왕관'
+  name: '무한의 왕관'
   stats:
   - '&7야간 투시 I'
   - '&7전달체의 힘 I'
@@ -544,7 +544,7 @@ INFINITY_CROWN:
 INFINITY_DISENCHANTER:
   description:
   - '&7아이템의 마법부여를 자동으로 책에 옮깁니다'
-  name: '&b무한 마법부여 해제기'
+  name: '무한 마법부여 해제기'
   stats:
   - '&8⇨ &e⚡ &7속도: &b90x'
   - '&8⇨ &e⚡ &7사용당 12,000 J'
@@ -553,7 +553,7 @@ INFINITY_DISENCHANTER:
 INFINITY_DUST_EXTRACTOR:
   description:
   - '&7조약돌을 가루로 변환합니다'
-  name: '&b무한 &8가루 추출기'
+  name: '무한 가루 추출기'
   stats:
   - '&8⇨ &e⚡ &7속도: &b16x'
   - '&8⇨ &e⚡ &77,200 J/s'
@@ -562,7 +562,7 @@ INFINITY_DUST_EXTRACTOR:
 INFINITY_ENCHANTER:
   description:
   - '&7안에 넣은 아이템에 자동으로 마법부여합니다'
-  name: '&b무한 마법부여기'
+  name: '무한 마법부여기'
   stats:
   - '&8⇨ &e⚡ &7속도: &b75x'
   - '&8⇨ &e⚡ &7사용당 12,000 J'
@@ -571,7 +571,7 @@ INFINITY_ENCHANTER:
 INFINITY_FORGE:
   description:
   - '&7무한 아이템을 제작하는 데 쓰입니다'
-  name: '&6무한 작업대'
+  name: '무한 작업대'
   stats:
   - '&8⇨ &e⚡ &7아이템당 10,000,000 J'
   type:
@@ -579,14 +579,14 @@ INFINITY_FORGE:
 INFINITY_INGOT_FORMER:
   description:
   - '&7가루로 주괴를 만듭니다'
-  name: '&b무한 &8주괴 성형기'
+  name: '무한 주괴 성형기'
   stats:
   - '&8⇨ &e⚡ &7속도: &b16x'
   - '&8⇨ &e⚡ &77,200 J/s'
   type:
   - '&7&o기계'
 INFINITY_LEGGINGS:
-  name: '&b무한의 바지'
+  name: '무한의 바지'
   stats:
   - '&7성급함 III'
   - '&7재생 I'
@@ -598,7 +598,7 @@ INFINITY_LEGGINGS:
 INFINITY_MATRIX:
   description:
   - '&6무한한 비행을 부여합니다'
-  name: '&f무한 행렬'
+  name: '무한 행렬'
   stats:
   - '&b영혼 결속'
   type:
@@ -607,7 +607,7 @@ INFINITY_MATRIX:
   - '&7우클릭하여 켜거나 끄고 소유권 획득'
   - '&7웅크리고 우클릭하여 소유권 해제'
 INFINITY_PICKAXE:
-  name: '&9세계 파괴자'
+  name: '세계 파괴자'
   stats:
   - '&b영혼 결속'
   type:
@@ -615,7 +615,7 @@ INFINITY_PICKAXE:
 INFINITY_QUARRY:
   description:
   - '&7자동으로 오버월드와 네더 광석을 캡니다'
-  name: '&b무한 채석장'
+  name: '무한 채석장'
   stats:
   - '&8⇨ &e⚡ &7속도: &b64x'
   - '&8⇨ &e⚡ &736,000 J/s'
@@ -625,32 +625,32 @@ INFINITY_REACTOR:
   description:
   - '&7압축을 통해 전력을 생산합니다:'
   - '&7대상은 &8공허 &7및 &b무한 &7주괴'
-  name: '&b무한 원자로'
+  name: '무한 원자로'
   stats:
   - '&8⇨ &e⚡ &7120,000,000 J 버퍼'
   - '&8⇨ &e⚡ &7120,000 J/초'
   type:
   - '&7&o발전기'
 INFINITY_SHIELD:
-  name: '&b우주의 수호 방패'
+  name: '우주의 수호 방패'
   stats:
   - '&b영혼 결속'
   type:
   - '&7&o무기'
 INFINITY_SHOVEL:
-  name: '&a산을 먹는 자'
+  name: '산을 먹는 자'
   stats:
   - '&b영혼 결속'
   type:
   - '&7&o도구'
 INFINITY_SINGULARITY:
-  name: '&b무한 특이점'
+  name: '무한 특이점'
   type:
   - '&7&o자원'
 INFINITY_STORAGE:
   description:
   - '&7단일 아이템 종류를 많은 양으로 저장합니다'
-  name: '&b무한 &8저장 유닛'
+  name: '무한 저장 유닛'
   stats:
   - '&6용량: &e1,600,000,000 &e아이템'
   type:
@@ -658,7 +658,7 @@ INFINITY_STORAGE:
 INFINITY_TREE_GROWER:
   description:
   - '&7자동으로 나무를 키우고 수확하고 다시 심습니다'
-  name: '&b무한 &2나무 재배기'
+  name: '무한 나무 재배기'
   stats:
   - '&8⇨ &e⚡ &7속도: &b25x'
   - '&8⇨ &e⚡ &71,800 J/s'
@@ -667,7 +667,7 @@ INFINITY_TREE_GROWER:
 INFINITY_VIRTUAL_FARM:
   description:
   - '&7자동으로 작물을 재배하고 수확하고 다시 심습니다'
-  name: '&b무한 &a가상 농장'
+  name: '무한 가상 농장'
   stats:
   - '&8⇨ &e⚡ &7속도: &b25x'
   - '&8⇨ &e⚡ &7900 J/s'
@@ -676,14 +676,14 @@ INFINITY_VIRTUAL_FARM:
 INGOT_FORMER:
   description:
   - '&7가루로 주괴를 만듭니다'
-  name: '&8주괴 성형기'
+  name: '주괴 성형기'
   stats:
   - '&8⇨ &e⚡ &7속도: &b1x'
   - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&o기계'
 IRON_GOLEM_DATA_CARD:
-  name: '&b철 골렘 데이터 카드'
+  name: '철 골렘 데이터 카드'
   stats:
   - '&8⇨ &e⚡ &7600 J/초'
   type:
@@ -691,35 +691,35 @@ IRON_GOLEM_DATA_CARD:
   usage:
   - '&7몹 시뮬레이션 챔버에 넣으면 활성화됩니다'
 IRON_SINGULARITY:
-  name: '&7철 특이점'
+  name: '철 특이점'
   type:
   - '&7&o자원'
 LAPIS_SINGULARITY:
-  name: '&9청금석 특이점'
+  name: '청금석 특이점'
   type:
   - '&7&o자원'
 LEAD_SINGULARITY:
-  name: '&8납 특이점'
+  name: '납 특이점'
   type:
   - '&7&o자원'
 MACHINE_CIRCUIT:
-  name: '&6기계 회로'
+  name: '기계 회로'
   type:
   - '&7&o부품'
 MACHINE_CORE:
-  name: '&f기계 코어'
+  name: '기계 코어'
   type:
   - '&7&o부품'
 MACHINE_PLATE:
-  name: '&f기계 판'
+  name: '기계 판'
   type:
   - '&7&o부품'
 MAGIC_SINGULARITY:
-  name: '&d마법 특이점'
+  name: '마법 특이점'
   type:
   - '&7&o자원'
 MAGMA_CUBE_DATA_CARD:
-  name: '&b마그마 큐브 데이터 카드'
+  name: '마그마 큐브 데이터 카드'
   stats:
   - '&8⇨ &e⚡ &7150 J/초'
   type:
@@ -727,99 +727,99 @@ MAGMA_CUBE_DATA_CARD:
   usage:
   - '&7몹 시뮬레이션 챔버에 넣으면 활성화됩니다'
 MAGNESIUM_SINGULARITY:
-  name: '&5마그네슘 특이점'
+  name: '마그네슘 특이점'
   type:
   - '&7&o자원'
 MAGNONIUM:
-  name: '&5마그노늄'
+  name: '마그노늄'
   type:
   - '&7&o자원'
 MAGSTEEL:
-  name: '&4마그강철'
+  name: '마그강철'
   type:
   - '&7&o자원'
 MAGSTEEL_PLATE:
-  name: '&4마그강철 판'
+  name: '마그강철 판'
   type:
   - '&7&o부품'
 METAL_SINGULARITY:
-  name: '&8금속 특이점'
+  name: '금속 특이점'
   type:
   - '&7&o자원'
 MOB_SIMULATION_CHAMBER:
   description:
   - '&7몹 데이터 카드로 활성화하세요'
-  name: '&8몹 시뮬레이션 챔버'
+  name: '몹 시뮬레이션 챔버'
   stats:
   - '&8⇨ &e⚡ &715,000 J 버퍼'
   - '&8⇨ &e⚡ &7150 J/초'
   type:
   - '&7&o기계'
 MYTHRIL:
-  name: '&b미스릴'
+  name: '미스릴'
   type:
   - '&7&o자원'
 NETHERITE_SINGULARITY:
-  name: '&4네더라이트 특이점'
+  name: '네더라이트 특이점'
   type:
   - '&7&o자원'
 POWERED_BEDROCK:
   description:
   - '&7전력이 들어오면 기반암으로 변합니다'
   - '&7전력이 끊기거나 파괴되면 되돌아갑니다'
-  name: '&4전력 공급 기반암'
+  name: '전력 공급 기반암'
   stats:
   - '&8⇨ &e⚡ &710,000 J/초'
   type:
   - '&7&o기계'
 QUARRY_OSCILLATOR_DIAMOND:
-  name: '&b다이아몬드 발진기'
+  name: '다이아몬드 발진기'
   type:
   - '&7&o부품'
   usage:
   - '&7채석장에 넣으면 이 재료를'
   - '&750.0% 확률로 캐게 됩니다'
 QUARRY_OSCILLATOR_EMERALD:
-  name: '&b에메랄드 발진기'
+  name: '에메랄드 발진기'
   type:
   - '&7&o부품'
   usage:
   - '&7채석장에 넣으면 이 재료를'
   - '&750.0% 확률로 캐게 됩니다'
 QUARRY_OSCILLATOR_LAPIS_LAZULI:
-  name: '&b청금석 발진기'
+  name: '청금석 발진기'
   type:
   - '&7&o부품'
   usage:
   - '&7채석장에 넣으면 이 재료를'
   - '&750.0% 확률로 캐게 됩니다'
 QUARRY_OSCILLATOR_QUARTZ:
-  name: '&b석영 발진기'
+  name: '석영 발진기'
   type:
   - '&7&o부품'
   usage:
   - '&7채석장에 넣으면 이 재료를'
   - '&750.0% 확률로 캐게 됩니다'
 QUARRY_OSCILLATOR_REDSTONE:
-  name: '&b레드스톤 발진기'
+  name: '레드스톤 발진기'
   type:
   - '&7&o부품'
   usage:
   - '&7채석장에 넣으면 이 재료를'
   - '&750.0% 확률로 캐게 됩니다'
 QUARTZ_SINGULARITY:
-  name: '&f석영 특이점'
+  name: '석영 특이점'
   type:
   - '&7&o자원'
 REDSTONE_SINGULARITY:
-  name: '&c레드스톤 특이점'
+  name: '레드스톤 특이점'
   type:
   - '&7&o자원'
 REINFORCED_GEOTHERMAL_GENERATOR:
   description:
   - '&7많은 양의 에너지를 생산합니다'
   - '&7월드의 열에서'
-  name: '&f강화 &c지열 발전기'
+  name: '강화 지열 발전기'
   stats:
   - '&8⇨ &e⚡ &721,000 J 버퍼'
   - '&8⇨ &e⚡ &7210 J/초'
@@ -829,7 +829,7 @@ REINFORCED_HYDRO_GENERATOR:
   description:
   - '&7많은 양의 에너지를 생산합니다'
   - '&7물의 움직임에서'
-  name: '&f강화 &9수력 발전기'
+  name: '강화 수력 발전기'
   stats:
   - '&8⇨ &e⚡ &74,500 J 버퍼'
   - '&8⇨ &e⚡ &745 J/초'
@@ -838,7 +838,7 @@ REINFORCED_HYDRO_GENERATOR:
 REINFORCED_STORAGE:
   description:
   - '&7단일 아이템 종류를 많은 양으로 저장합니다'
-  name: '&f강화 &8저장 유닛'
+  name: '강화 저장 유닛'
   stats:
   - '&6용량: &e102,400 &e아이템'
   type:
@@ -846,7 +846,7 @@ REINFORCED_STORAGE:
 REINFORCED_STRAINER:
   description:
   - '&7흐르는 물에서 재료를 모읍니다'
-  name: '&f강화 여과기'
+  name: '강화 여과기'
   stats:
   - '&8⇨ &b⚡ &7속도: &b20.0배'
   type:
@@ -854,13 +854,13 @@ REINFORCED_STRAINER:
 RESOURCE_SYNTHESIZER:
   description:
   - '&7특이점 2개를 합쳐 자원을 만듭니다'
-  name: '&6자원 합성기'
+  name: '자원 합성기'
   stats:
   - '&8⇨ &e⚡ &7사용당 1,000,000 J'
   type:
   - '&7&o기계'
 SHEEP_DATA_CARD:
-  name: '&b양 데이터 카드'
+  name: '양 데이터 카드'
   stats:
   - '&8⇨ &e⚡ &775 J/초'
   type:
@@ -868,20 +868,20 @@ SHEEP_DATA_CARD:
   usage:
   - '&7몹 시뮬레이션 챔버에 넣으면 활성화됩니다'
 SILVER_SINGULARITY:
-  name: '&7은 특이점'
+  name: '은 특이점'
   type:
   - '&7&o자원'
 SINGULARITY_CONSTRUCTOR:
   description:
   - '&7많은 양의 자원을 압축합니다'
-  name: '&f특이점 구성기'
+  name: '특이점 구성기'
   stats:
   - '&8⇨ &e⚡ &7속도: &b1x'
   - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&o기계'
 SKELETON_DATA_CARD:
-  name: '&b스켈레톤 데이터 카드'
+  name: '스켈레톤 데이터 카드'
   stats:
   - '&8⇨ &e⚡ &7300 J/초'
   type:
@@ -889,7 +889,7 @@ SKELETON_DATA_CARD:
   usage:
   - '&7몹 시뮬레이션 챔버에 넣으면 활성화됩니다'
 SLIME_DATA_CARD:
-  name: '&b슬라임 데이터 카드'
+  name: '슬라임 데이터 카드'
   stats:
   - '&8⇨ &e⚡ &7150 J/초'
   type:
@@ -897,7 +897,7 @@ SLIME_DATA_CARD:
   usage:
   - '&7몹 시뮬레이션 챔버에 넣으면 활성화됩니다'
 SPIDER_DATA_CARD:
-  name: '&b거미 데이터 카드'
+  name: '거미 데이터 카드'
   stats:
   - '&8⇨ &e⚡ &7300 J/초'
   type:
@@ -907,7 +907,7 @@ SPIDER_DATA_CARD:
 STONEWORKS_FACTORY:
   description:
   - '&7조약돌을 생성해 여러 재료로 가공합니다'
-  name: '&8석재 공장'
+  name: '석재 공장'
   stats:
   - '&8⇨ &e⚡ &7240 J/초'
   type:
@@ -918,28 +918,28 @@ STORAGE_FORGE:
   description:
   - '&7저장 유닛의 티어를 올립니다'
   - '&7저장된 아이템은 그대로 남습니다'
-  name: '&6저장소 제작소'
+  name: '저장소 제작소'
   type:
   - '&7&o기계'
 STRAINER_BASE:
   description:
   - '&7여과기로 흐르는 물에서 재료를 천천히 모읍니다'
   - '&7작동하려면 물에 잠겨 있어야 합니다'
-  name: '&7여과기 받침대'
+  name: '여과기 받침대'
   type:
   - '&7&o기계'
 TIN_SINGULARITY:
-  name: '&7주석 특이점'
+  name: '주석 특이점'
   type:
   - '&7&o자원'
 TITANIUM:
-  name: '&7티타늄'
+  name: '티타늄'
   type:
   - '&7&o자원'
 URANIUM_EXTRACTOR:
   description:
   - '&7조약돌을 우라늄으로 변환합니다'
-  name: '&a우라늄 추출기'
+  name: '우라늄 추출기'
   stats:
   - '&8⇨ &e⚡ &7240 J/초'
   type:
@@ -947,13 +947,13 @@ URANIUM_EXTRACTOR:
 VEIN_MINER_RUNE:
   description:
   - '&7도구가 특정 재료를 광맥째로 캐도록 업그레이드합니다'
-  name: '&b광맥 채굴 룬'
+  name: '광맥 채굴 룬'
   type:
   - '&7&o장치'
   usage:
   - '&e버리기&7 를 도구 옆에서 하여 광맥 채굴기로 업그레이드'
 VILLAGER_DATA_CARD:
-  name: '&b주민 데이터 카드'
+  name: '주민 데이터 카드'
   stats:
   - '&8⇨ &e⚡ &7150 J/초'
   type:
@@ -963,13 +963,13 @@ VILLAGER_DATA_CARD:
 VOID_BIT:
   description:
   - '&7&o텅 빈 느낌이 듭니다'
-  name: '&8공허 조각'
+  name: '공허 조각'
   type:
   - '&7&o자원'
 VOID_CAPACITOR:
   description:
   - '&7에너지 네트워크의 남는 에너지를 저장합니다'
-  name: '&8공허 축전기'
+  name: '공허 축전기'
   stats:
   - '&8⇨ &e⚡ 16,000,000 &7J 용량'
   type:
@@ -977,13 +977,13 @@ VOID_CAPACITOR:
 VOID_DUST:
   description:
   - '&7&o형태를 갖추기 시작합니다...'
-  name: '&8공허 가루'
+  name: '공허 가루'
   type:
   - '&7&o자원'
 VOID_HARVESTER:
   description:
   - '&7무에서 &8공허 &7조각을 천천히 수확합니다...'
-  name: '&8공허 수확기'
+  name: '공허 수확기'
   stats:
   - '&8⇨ &e⚡ &7속도: &b1x'
   - '&8⇨ &e⚡ &7120 J/s'
@@ -993,13 +993,13 @@ VOID_INGOT:
   description:
   - '&7&o우주의 공허함이'
   - '&7&o손바닥 안에'
-  name: '&8공허 주괴'
+  name: '공허 주괴'
   type:
   - '&7&o자원'
 VOID_PANEL:
   description:
   - '&7어둠에서 에너지를 생산합니다'
-  name: '&8공허 패널'
+  name: '공허 패널'
   stats:
   - '&8⇨ &e⚡ &7300,000 J 버퍼'
   - '&8⇨ &e⚡ &73,000 J/초'
@@ -1008,7 +1008,7 @@ VOID_PANEL:
 VOID_QUARRY:
   description:
   - '&7자동으로 오버월드와 네더 광석을 캡니다'
-  name: '&8공허 채석장'
+  name: '공허 채석장'
   stats:
   - '&8⇨ &e⚡ &7속도: &b6x'
   - '&8⇨ &e⚡ &73,600 J/s'
@@ -1017,13 +1017,13 @@ VOID_QUARRY:
 VOID_STORAGE:
   description:
   - '&7단일 아이템 종류를 많은 양으로 저장합니다'
-  name: '&8공허 &8저장 유닛'
+  name: '공허 저장 유닛'
   stats:
   - '&6용량: &e409,600 &e아이템'
   type:
   - '&7&o기계'
 WITCH_DATA_CARD:
-  name: '&b마녀 데이터 카드'
+  name: '마녀 데이터 카드'
   stats:
   - '&8⇨ &e⚡ &7600 J/초'
   type:
@@ -1031,7 +1031,7 @@ WITCH_DATA_CARD:
   usage:
   - '&7몹 시뮬레이션 챔버에 넣으면 활성화됩니다'
 WITHER_DATA_CARD:
-  name: '&b위더 데이터 카드'
+  name: '위더 데이터 카드'
   stats:
   - '&8⇨ &e⚡ &74,500 J/초'
   type:
@@ -1039,7 +1039,7 @@ WITHER_DATA_CARD:
   usage:
   - '&7몹 시뮬레이션 챔버에 넣으면 활성화됩니다'
 WITHER_SKELETON_DATA_CARD:
-  name: '&b위더 스켈레톤 데이터 카드'
+  name: '위더 스켈레톤 데이터 카드'
   stats:
   - '&8⇨ &e⚡ &7600 J/초'
   type:
@@ -1047,11 +1047,11 @@ WITHER_SKELETON_DATA_CARD:
   usage:
   - '&7몹 시뮬레이션 챔버에 넣으면 활성화됩니다'
 ZINC_SINGULARITY:
-  name: '&7아연 특이점'
+  name: '아연 특이점'
   type:
   - '&7&o자원'
 ZOMBIE_DATA_CARD:
-  name: '&b좀비 데이터 카드'
+  name: '좀비 데이터 카드'
   stats:
   - '&8⇨ &e⚡ &7300 J/초'
   type:

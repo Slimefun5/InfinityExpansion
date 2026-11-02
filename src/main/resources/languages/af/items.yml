@@ -1,12 +1,12 @@
 ADAMANTITE:
-  name: '&dAdamantiet'
+  name: 'Adamantiet'
   type:
   - '&7&oHulpbron'
 ADVANCED_ANVIL:
   description:
   - '&7Kombineer die betowerings van werktuie en uitrusting en gradeer hulle soms op'
   - '&bWerk met Slimefun-items'
-  name: '&cGevorderde Aambeeld'
+  name: 'Gevorderde Aambeeld'
   stats:
   - '&8⇨ &e⚡ &7100,000 J per gebruik'
   type:
@@ -14,7 +14,7 @@ ADVANCED_ANVIL:
 ADVANCED_CHARGER:
   description:
   - '&7Laai items vinnig'
-  name: '&cGevorderde Laaier'
+  name: 'Gevorderde Laaier'
   stats:
   - '&8⇨ &e⚡ &7Spoed: &b30x'
   - '&8⇨ &e⚡ &7180 J/s'
@@ -23,7 +23,7 @@ ADVANCED_CHARGER:
 ADVANCED_COBBLE_GEN:
   description:
   - '&7Genereer mettertyd outomaties rolklip'
-  name: '&cGevorderde &8Rolklipgenerator'
+  name: 'Gevorderde Rolklipgenerator'
   stats:
   - '&8⇨ &e⚡ &7Spoed: &b4x'
   - '&8⇨ &e⚡ &7120 J/s'
@@ -32,7 +32,7 @@ ADVANCED_COBBLE_GEN:
 ADVANCED_DISENCHANTER:
   description:
   - '&7Verwyder betowerings outomaties van items af na boeke toe'
-  name: '&cGevorderde Ontbetowerder'
+  name: 'Gevorderde Ontbetowerder'
   stats:
   - '&8⇨ &e⚡ &7Spoed: &b5x'
   - '&8⇨ &e⚡ &7180 J/s'
@@ -41,7 +41,7 @@ ADVANCED_DISENCHANTER:
 ADVANCED_ENCHANTER:
   description:
   - '&7Betower outomaties items wat binne-in geplaas word'
-  name: '&cGevorderde Betowerder'
+  name: 'Gevorderde Betowerder'
   stats:
   - '&8⇨ &e⚡ &7Spoed: &b5x'
   - '&8⇨ &e⚡ &7180 J/s'
@@ -50,7 +50,7 @@ ADVANCED_ENCHANTER:
 ADVANCED_GEO_MINER:
   description:
   - '&7''n Vinniger geo-myner'
-  name: '&cGevorderde &fGeoMyner'
+  name: 'Gevorderde GeoMyner'
   stats:
   - '&8⇨ &e⚡ &7Spoed: &b4x'
   - '&8⇨ &e⚡ &7120 J/s'
@@ -62,7 +62,7 @@ ADVANCED_NETHER_STAR_REACTOR:
   - '&bMoet deur Water omring wees'
   - '&bMoet van Netherys-verkoelerselle voorsien word'
   - '&4Gee die Wither-effek aan nabygeleë Entiteite'
-  name: '&cGevorderde Netherster-reaktor'
+  name: 'Gevorderde Netherster-reaktor'
   stats:
   - '&8⇨ &e⚡ &790,000 J Buffer'
   - '&8⇨ &e⚡ &71,800 J/s'
@@ -71,7 +71,7 @@ ADVANCED_NETHER_STAR_REACTOR:
 ADVANCED_PANEL:
   description:
   - '&7Genereer energie uit die son'
-  name: '&cGevorderde Sonpaneel'
+  name: 'Gevorderde Sonpaneel'
   stats:
   - '&8⇨ &e⚡ &715,000 J Buffer'
   - '&8⇨ &e⚡ &7150 J/s'
@@ -80,7 +80,7 @@ ADVANCED_PANEL:
 ADVANCED_QUARRY:
   description:
   - '&7Myn outomaties bowewêreld- en nether-ertse'
-  name: '&cGevorderde Steengroef'
+  name: 'Gevorderde Steengroef'
   stats:
   - '&8⇨ &e⚡ &7Spoed: &b2x'
   - '&8⇨ &e⚡ &7900 J/s'
@@ -89,7 +89,7 @@ ADVANCED_QUARRY:
 ADVANCED_SMELTERY:
   description:
   - '&7''n Vinniger smeltery'
-  name: '&cGevorderde &7Smeltery'
+  name: 'Gevorderde Smeltery'
   stats:
   - '&8⇨ &e⚡ &7Spoed: &b24x'
   - '&8⇨ &e⚡ &7240 J/s'
@@ -98,7 +98,7 @@ ADVANCED_SMELTERY:
 ADVANCED_STORAGE:
   description:
   - '&7Stoor groot hoeveelhede van ''n enkele itemtipe'
-  name: '&cGevorderde &8Bergingseenheid'
+  name: 'Gevorderde Bergingseenheid'
   stats:
   - '&6Kapasiteit: &e25,600 &eitems'
   type:
@@ -106,7 +106,7 @@ ADVANCED_STORAGE:
 ADVANCED_STRAINER:
   description:
   - '&7Versamel materiale uit vloeiende water'
-  name: '&cGevorderde Sif'
+  name: 'Gevorderde Sif'
   stats:
   - '&8⇨ &b⚡ &7Spoed: &b4.0x'
   type:
@@ -114,7 +114,7 @@ ADVANCED_STRAINER:
 ADVANCED_TREE_GROWER:
   description:
   - '&7Groei, oes en herplant bome outomaties'
-  name: '&cGevorderde &2Boomkweker'
+  name: 'Gevorderde Boomkweker'
   stats:
   - '&8⇨ &e⚡ &7Spoed: &b5x'
   - '&8⇨ &e⚡ &7180 J/s'
@@ -123,20 +123,20 @@ ADVANCED_TREE_GROWER:
 ADVANCED_VIRTUAL_FARM:
   description:
   - '&7Groei, oes en herplant gewasse outomaties'
-  name: '&cGevorderde &aVirtuele Plaas'
+  name: 'Gevorderde Virtuele Plaas'
   stats:
   - '&8⇨ &e⚡ &7Spoed: &b5x'
   - '&8⇨ &e⚡ &790 J/s'
   type:
   - '&7&oMasjien'
 ALUMINUM_SINGULARITY:
-  name: '&7Aluminiumsingulariteit'
+  name: 'Aluminiumsingulariteit'
   type:
   - '&7&oHulpbron'
 BASIC_COBBLE_GEN:
   description:
   - '&7Genereer mettertyd outomaties rolklip'
-  name: '&9Basiese &8Rolklipgenerator'
+  name: 'Basiese Rolklipgenerator'
   stats:
   - '&8⇨ &e⚡ &7Spoed: &b1x'
   - '&8⇨ &e⚡ &724 J/s'
@@ -145,7 +145,7 @@ BASIC_COBBLE_GEN:
 BASIC_OBSIDIAN_GEN:
   description:
   - '&7Genereer mettertyd outomaties obsidiaan'
-  name: '&8Obsidiaangenerator'
+  name: 'Obsidiaangenerator'
   stats:
   - '&8⇨ &e⚡ &7Spoed: &b1x'
   - '&8⇨ &e⚡ &7240 J/s'
@@ -154,7 +154,7 @@ BASIC_OBSIDIAN_GEN:
 BASIC_PANEL:
   description:
   - '&7Genereer energie uit die son'
-  name: '&9Basiese Sonpaneel'
+  name: 'Basiese Sonpaneel'
   stats:
   - '&8⇨ &e⚡ &7900 J Buffer'
   - '&8⇨ &e⚡ &79 J/s'
@@ -163,7 +163,7 @@ BASIC_PANEL:
 BASIC_QUARRY:
   description:
   - '&7Myn outomaties bowewêreld-ertse'
-  name: '&9Basiese Steengroef'
+  name: 'Basiese Steengroef'
   stats:
   - '&8⇨ &e⚡ &7Spoed: &b1x'
   - '&8⇨ &e⚡ &7300 J/s'
@@ -172,7 +172,7 @@ BASIC_QUARRY:
 BASIC_STORAGE:
   description:
   - '&7Stoor groot hoeveelhede van ''n enkele itemtipe'
-  name: '&9Basiese &8Bergingseenheid'
+  name: 'Basiese Bergingseenheid'
   stats:
   - '&6Kapasiteit: &e6,400 &eitems'
   type:
@@ -180,7 +180,7 @@ BASIC_STORAGE:
 BASIC_STRAINER:
   description:
   - '&7Versamel materiale uit vloeiende water'
-  name: '&9Basiese Sif'
+  name: 'Basiese Sif'
   stats:
   - '&8⇨ &b⚡ &7Spoed: &b1.0x'
   type:
@@ -188,7 +188,7 @@ BASIC_STRAINER:
 BASIC_TREE_GROWER:
   description:
   - '&7Groei, oes en herplant bome outomaties'
-  name: '&9Basiese &2Boomkweker'
+  name: 'Basiese Boomkweker'
   stats:
   - '&8⇨ &e⚡ &7Spoed: &b1x'
   - '&8⇨ &e⚡ &736 J/s'
@@ -197,14 +197,14 @@ BASIC_TREE_GROWER:
 BASIC_VIRTUAL_FARM:
   description:
   - '&7Groei, oes en herplant gewasse outomaties'
-  name: '&9Basiese &aVirtuele Plaas'
+  name: 'Basiese Virtuele Plaas'
   stats:
   - '&8⇨ &e⚡ &7Spoed: &b1x'
   - '&8⇨ &e⚡ &718 J/s'
   type:
   - '&7&oMasjien'
 BEE_DATA_CARD:
-  name: '&bBy-datakaart'
+  name: 'By-datakaart'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
@@ -212,7 +212,7 @@ BEE_DATA_CARD:
   usage:
   - '&7Plaas in ''n mob-simulasiekamer om te aktiveer'
 BLAZE_DATA_CARD:
-  name: '&bBlaze-datakaart'
+  name: 'Blaze-datakaart'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
@@ -222,14 +222,14 @@ BLAZE_DATA_CARD:
 CELESTIAL_PANEL:
   description:
   - '&7Genereer energie uit die son'
-  name: '&eHemelse Paneel'
+  name: 'Hemelse Paneel'
   stats:
   - '&8⇨ &e⚡ &775,000 J Buffer'
   - '&8⇨ &e⚡ &7750 J/s'
   type:
   - '&7&oKragopwekker'
 CHICKEN_DATA_CARD:
-  name: '&bHoender-datakaart'
+  name: 'Hoender-datakaart'
   stats:
   - '&8⇨ &e⚡ &775 J/s'
   type:
@@ -237,53 +237,53 @@ CHICKEN_DATA_CARD:
   usage:
   - '&7Plaas in ''n mob-simulasiekamer om te aktiveer'
 COAL_SINGULARITY:
-  name: '&8Steenkoolsingulariteit'
+  name: 'Steenkoolsingulariteit'
   type:
   - '&7&oHulpbron'
 COBBLE_PRESS:
   description:
   - '&7Pers rolklip doeltreffender saam'
-  name: '&8Rolklippers'
+  name: 'Rolklippers'
   stats:
   - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oMasjien'
 COMPRESSED_COBBLESTONE_1:
-  name: '&7Enkel Saamgeperste Rolklip'
+  name: 'Enkel Saamgeperste Rolklip'
   stats:
   - '&89 rolklip gekombineer'
   type:
   - '&7&oHulpbron'
 COMPRESSED_COBBLESTONE_2:
-  name: '&7Dubbel Saamgeperste Rolklip'
+  name: 'Dubbel Saamgeperste Rolklip'
   stats:
   - '&881 rolklip gekombineer'
   type:
   - '&7&oHulpbron'
 COMPRESSED_COBBLESTONE_3:
-  name: '&7Drievoudig Saamgeperste Rolklip'
+  name: 'Drievoudig Saamgeperste Rolklip'
   stats:
   - '&8729 rolklip gekombineer'
   type:
   - '&7&oHulpbron'
 COMPRESSED_COBBLESTONE_4:
-  name: '&7Viervoudig Saamgeperste Rolklip'
+  name: 'Viervoudig Saamgeperste Rolklip'
   stats:
   - '&86,561 rolklip gekombineer'
   type:
   - '&7&oHulpbron'
 COMPRESSED_COBBLESTONE_5:
-  name: '&7Vyfvoudig Saamgeperste Rolklip'
+  name: 'Vyfvoudig Saamgeperste Rolklip'
   stats:
   - '&859,049 rolklip gekombineer'
   type:
   - '&7&oHulpbron'
 COPPER_SINGULARITY:
-  name: '&6Kopersingulariteit'
+  name: 'Kopersingulariteit'
   type:
   - '&7&oHulpbron'
 COW_DATA_CARD:
-  name: '&bKoei-datakaart'
+  name: 'Koei-datakaart'
   stats:
   - '&8⇨ &e⚡ &775 J/s'
   type:
@@ -291,7 +291,7 @@ COW_DATA_CARD:
   usage:
   - '&7Plaas in ''n mob-simulasiekamer om te aktiveer'
 CREEPER_DATA_CARD:
-  name: '&bCreeper-datakaart'
+  name: 'Creeper-datakaart'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
@@ -301,7 +301,7 @@ CREEPER_DATA_CARD:
 DATA_INFUSER:
   description:
   - '&7Deurdrenk leë datakaarte met mob-items'
-  name: '&8Mob-datadeurdrenker'
+  name: 'Mob-datadeurdrenker'
   stats:
   - '&8⇨ &e⚡ &720,000 J per gebruik'
   type:
@@ -309,40 +309,40 @@ DATA_INFUSER:
 DECOMPRESSOR:
   description:
   - '&7Herlei blokke tot hul basismateriaal'
-  name: '&7Ontperser'
+  name: 'Ontperser'
   stats:
   - '&8⇨ &e⚡ &760 J/s'
   type:
   - '&7&oMasjien'
 DIAMOND_SINGULARITY:
-  name: '&bDiamantsingulariteit'
+  name: 'Diamantsingulariteit'
   type:
   - '&7&oHulpbron'
 DUST_EXTRACTOR:
   description:
   - '&7Omskep rolklip in stowwe'
-  name: '&8Stofonttrekker'
+  name: 'Stofonttrekker'
   stats:
   - '&8⇨ &e⚡ &7Spoed: &b1x'
   - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oMasjien'
 EARTH_SINGULARITY:
-  name: '&aAardsingulariteit'
+  name: 'Aardsingulariteit'
   type:
   - '&7&oHulpbron'
 EMERALD_SINGULARITY:
-  name: '&aSmaragsingulariteit'
+  name: 'Smaragsingulariteit'
   type:
   - '&7&oHulpbron'
 EMPTY_DATA_CARD:
-  name: '&8Leë Datakaart'
+  name: 'Leë Datakaart'
   type:
   - '&7&oKomponent'
   usage:
   - '&7Deurdrenk met ''n mob se items om dit te vul'
 ENDERMEN_DATA_CARD:
-  name: '&bEnderman-datakaart'
+  name: 'Enderman-datakaart'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
@@ -350,7 +350,7 @@ ENDERMEN_DATA_CARD:
   usage:
   - '&7Plaas in ''n mob-simulasiekamer om te aktiveer'
 ENDER_DRAGON_DATA_CARD:
-  name: '&bEnderdraak-datakaart'
+  name: 'Enderdraak-datakaart'
   stats:
   - '&8⇨ &e⚡ &79,000 J/s'
   type:
@@ -358,31 +358,31 @@ ENDER_DRAGON_DATA_CARD:
   usage:
   - '&7Plaas in ''n mob-simulasiekamer om te aktiveer'
 ENDER_FLAME:
-  name: '&cEndervlam'
+  name: 'Endervlam'
   type:
   - '&7&oKomponent'
 END_ESSENCE:
   description:
   - '&8&oUit die dieptes van die End...'
-  name: '&5Enderessens'
+  name: 'Enderessens'
   type:
   - '&7&oHulpbron'
 EXTREME_FREEZER:
   description:
   - '&7Omskep ys in verkoeler'
-  name: '&bEkstreme Vrieser'
+  name: 'Ekstreme Vrieser'
   stats:
   - '&8⇨ &e⚡ &790 J/s'
   type:
   - '&7&oMasjien'
 FORTUNE_SINGULARITY:
-  name: '&6Fortuinsingulariteit'
+  name: 'Fortuinsingulariteit'
   type:
   - '&7&oHulpbron'
 GEAR_TRANSFORMER:
   description:
   - '&7Verander die materiaal van standaard werktuie en uitrusting'
-  name: '&7Uitrustingomvormer'
+  name: 'Uitrustingomvormer'
   stats:
   - '&8⇨ &e⚡ &712,000 J Per Gebruik'
   type:
@@ -390,7 +390,7 @@ GEAR_TRANSFORMER:
 GEOTHERMAL_GENERATOR:
   description:
   - '&7Genereer energie uit die hitte van die wêreld'
-  name: '&cGeotermiese Generator'
+  name: 'Geotermiese Generator'
   stats:
   - '&8⇨ &e⚡ &73,500 J Buffer'
   - '&8⇨ &e⚡ &735 J/s'
@@ -399,17 +399,17 @@ GEOTHERMAL_GENERATOR:
 GEO_QUARRY:
   description:
   - '&7Oes stadig geohulpbronne uit die leegte met krag'
-  name: '&fGeosteengroef'
+  name: 'Geosteengroef'
   stats:
   - '&8⇨ &e⚡ &7450 J/s'
   type:
   - '&7&oMasjien'
 GOLD_SINGULARITY:
-  name: '&6Goudsingulariteit'
+  name: 'Goudsingulariteit'
   type:
   - '&7&oHulpbron'
 GUARDIAN_DATA_CARD:
-  name: '&bWagter-datakaart'
+  name: 'Wagter-datakaart'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
@@ -419,7 +419,7 @@ GUARDIAN_DATA_CARD:
 HYDRO_GENERATOR:
   description:
   - '&7Genereer energie uit die beweging van water'
-  name: '&9Hidrogenerator'
+  name: 'Hidrogenerator'
   stats:
   - '&8⇨ &e⚡ &7500 J Buffer'
   - '&8⇨ &e⚡ &75 J/s'
@@ -429,21 +429,21 @@ INFINITE_INGOT:
   description:
   - '&7&oDie woede van die kosmos'
   - '&7&oin die palm van jou hand'
-  name: '&bOneindigheidstaaf'
+  name: 'Oneindigheidstaaf'
   type:
   - '&7&oHulpbron'
 INFINITE_MACHINE_CIRCUIT:
-  name: '&bOneindige &6Masjienstroombaan'
+  name: 'Oneindige Masjienstroombaan'
   type:
   - '&7&oKomponent'
 INFINITE_MACHINE_CORE:
-  name: '&bOneindige Masjienkern'
+  name: 'Oneindige Masjienkern'
   type:
   - '&7&oKomponent'
 INFINITE_PANEL:
   description:
   - '&7Genereer energie uit die kosmos'
-  name: '&bOneindigheidspaneel'
+  name: 'Oneindigheidspaneel'
   stats:
   - '&8⇨ &e⚡ &76,000,000 J Buffer'
   - '&8⇨ &e⚡ &760,000 J/s'
@@ -452,26 +452,26 @@ INFINITE_PANEL:
 INFINITE_VOID_HARVESTER:
   description:
   - '&7Oes &8Leegte&7brokkies uit niks...'
-  name: '&bOneindige &8Leegtestroper'
+  name: 'Oneindige Leegtestroper'
   stats:
   - '&8⇨ &e⚡ &7Spoed: &b64x'
   - '&8⇨ &e⚡ &712,000 J/s'
   type:
   - '&7&oMasjien'
 INFINITY_AXE:
-  name: '&4Verderf van die Natuur'
+  name: 'Verderf van die Natuur'
   stats:
   - '&bSielgebonde'
   type:
   - '&7&oGereedskap'
 INFINITY_BLADE:
-  name: '&bLem van die Kosmos'
+  name: 'Lem van die Kosmos'
   stats:
   - '&bSielgebonde'
   type:
   - '&7&oWapen'
 INFINITY_BOOTS:
-  name: '&bOneindigheidstewels'
+  name: 'Oneindigheidstewels'
   stats:
   - '&7Spoed III'
   - '&7Dolfyngenade I'
@@ -481,7 +481,7 @@ INFINITY_BOOTS:
 INFINITY_BOW:
   description:
   - '&7Skiet plofbare pyle wat vyande met die trefslag vertraag en verwar'
-  name: '&6Hemelboorder'
+  name: 'Hemelboorder'
   stats:
   - '&bSielgebonde'
   type:
@@ -490,7 +490,7 @@ INFINITY_CAPACITOR:
   description:
   - '&c&oMoenie meer as'
   - '&c&o1 per energienetwerk gebruik nie'
-  name: '&bOneindige Kapasitor'
+  name: 'Oneindige Kapasitor'
   stats:
   - '&8⇨ &e⚡ 2,000,000,000 &7J Kapasiteit'
   type:
@@ -498,14 +498,14 @@ INFINITY_CAPACITOR:
 INFINITY_CHARGER:
   description:
   - '&7Laai items onmiddellik'
-  name: '&bOneindigheidslaaier'
+  name: 'Oneindigheidslaaier'
   stats:
   - '&8⇨ &e⚡ &7Spoed: &b6000x'
   - '&8⇨ &e⚡ &760,000 J per gebruik'
   type:
   - '&7&oMasjien'
 INFINITY_CHESTPLATE:
-  name: '&bOneindigheidsborsplaat'
+  name: 'Oneindigheidsborsplaat'
   stats:
   - '&7Krag II'
   - '&7Weerstand I'
@@ -517,7 +517,7 @@ INFINITY_CHESTPLATE:
 INFINITY_COBBLE_GEN:
   description:
   - '&7Genereer mettertyd outomaties rolklip'
-  name: '&cOneindige &8Rolklipgenerator'
+  name: 'Oneindige Rolklipgenerator'
   stats:
   - '&8⇨ &e⚡ &7Spoed: &b64x'
   - '&8⇨ &e⚡ &7800 J/s'
@@ -526,14 +526,14 @@ INFINITY_COBBLE_GEN:
 INFINITY_CONSTRUCTOR:
   description:
   - '&7Verdig groot hoeveelhede hulpbronne vinnig'
-  name: '&bOneindige &fKonstrukteur'
+  name: 'Oneindige Konstrukteur'
   stats:
   - '&8⇨ &e⚡ &7Spoed: &b64x'
   - '&8⇨ &e⚡ &71,200 J/s'
   type:
   - '&7&oMasjien'
 INFINITY_CROWN:
-  name: '&bOneindigheidskroon'
+  name: 'Oneindigheidskroon'
   stats:
   - '&7Naggesig I'
   - '&7Geleikrag I'
@@ -544,7 +544,7 @@ INFINITY_CROWN:
 INFINITY_DISENCHANTER:
   description:
   - '&7Verwyder betowerings outomaties van items af na boeke toe'
-  name: '&bOneindigheidsontbetowerder'
+  name: 'Oneindigheidsontbetowerder'
   stats:
   - '&8⇨ &e⚡ &7Spoed: &b90x'
   - '&8⇨ &e⚡ &712,000 J per gebruik'
@@ -553,7 +553,7 @@ INFINITY_DISENCHANTER:
 INFINITY_DUST_EXTRACTOR:
   description:
   - '&7Omskep rolklip in stowwe'
-  name: '&bOneindige &8Stofonttrekker'
+  name: 'Oneindige Stofonttrekker'
   stats:
   - '&8⇨ &e⚡ &7Spoed: &b16x'
   - '&8⇨ &e⚡ &77,200 J/s'
@@ -562,7 +562,7 @@ INFINITY_DUST_EXTRACTOR:
 INFINITY_ENCHANTER:
   description:
   - '&7Betower outomaties items wat binne-in geplaas word'
-  name: '&bOneindigheidsbetowerder'
+  name: 'Oneindigheidsbetowerder'
   stats:
   - '&8⇨ &e⚡ &7Spoed: &b75x'
   - '&8⇨ &e⚡ &712,000 J per gebruik'
@@ -571,7 +571,7 @@ INFINITY_ENCHANTER:
 INFINITY_FORGE:
   description:
   - '&7Word gebruik om oneindigheidsitems te vervaardig'
-  name: '&6Oneindigheidswerkbank'
+  name: 'Oneindigheidswerkbank'
   stats:
   - '&8⇨ &e⚡ &710,000,000 J per item'
   type:
@@ -579,14 +579,14 @@ INFINITY_FORGE:
 INFINITY_INGOT_FORMER:
   description:
   - '&7Vorm stawe uit stowwe'
-  name: '&bOneindige &8Staafvormer'
+  name: 'Oneindige Staafvormer'
   stats:
   - '&8⇨ &e⚡ &7Spoed: &b16x'
   - '&8⇨ &e⚡ &77,200 J/s'
   type:
   - '&7&oMasjien'
 INFINITY_LEGGINGS:
-  name: '&bOneindigheidsbeenbeskermers'
+  name: 'Oneindigheidsbeenbeskermers'
   stats:
   - '&7Haas III'
   - '&7Herstel I'
@@ -598,7 +598,7 @@ INFINITY_LEGGINGS:
 INFINITY_MATRIX:
   description:
   - '&6Gee Onbeperkte Vlug'
-  name: '&fOneindigheidsmatriks'
+  name: 'Oneindigheidsmatriks'
   stats:
   - '&bSielgebonde'
   type:
@@ -607,7 +607,7 @@ INFINITY_MATRIX:
   - '&7Regsklik om te aktiveer/deaktiveer en op te eis'
   - '&7Hurk en Regsklik om eienaarskap te verwyder'
 INFINITY_PICKAXE:
-  name: '&9Wêreldbreker'
+  name: 'Wêreldbreker'
   stats:
   - '&bSielgebonde'
   type:
@@ -615,7 +615,7 @@ INFINITY_PICKAXE:
 INFINITY_QUARRY:
   description:
   - '&7Myn outomaties bowewêreld- en nether-ertse'
-  name: '&bOneindigheidsteengroef'
+  name: 'Oneindigheidsteengroef'
   stats:
   - '&8⇨ &e⚡ &7Spoed: &b64x'
   - '&8⇨ &e⚡ &736,000 J/s'
@@ -625,32 +625,32 @@ INFINITY_REACTOR:
   description:
   - '&7Genereer krag deur die saampersing'
   - '&7van &8Leegte&7- en &bOneindigheid&7stawe'
-  name: '&bOneindigheidsreaktor'
+  name: 'Oneindigheidsreaktor'
   stats:
   - '&8⇨ &e⚡ &7120,000,000 J Buffer'
   - '&8⇨ &e⚡ &7120,000 J/s'
   type:
   - '&7&oKragopwekker'
 INFINITY_SHIELD:
-  name: '&bKosmiese Aegis'
+  name: 'Kosmiese Aegis'
   stats:
   - '&bSielgebonde'
   type:
   - '&7&oWapen'
 INFINITY_SHOVEL:
-  name: '&aBergvreter'
+  name: 'Bergvreter'
   stats:
   - '&bSielgebonde'
   type:
   - '&7&oGereedskap'
 INFINITY_SINGULARITY:
-  name: '&bOneindigheidsingulariteit'
+  name: 'Oneindigheidsingulariteit'
   type:
   - '&7&oHulpbron'
 INFINITY_STORAGE:
   description:
   - '&7Stoor groot hoeveelhede van ''n enkele itemtipe'
-  name: '&bOneindige &8Bergingseenheid'
+  name: 'Oneindige Bergingseenheid'
   stats:
   - '&6Kapasiteit: &e1,600,000,000 &eitems'
   type:
@@ -658,7 +658,7 @@ INFINITY_STORAGE:
 INFINITY_TREE_GROWER:
   description:
   - '&7Groei, oes en herplant bome outomaties'
-  name: '&bOneindige &2Boomkweker'
+  name: 'Oneindige Boomkweker'
   stats:
   - '&8⇨ &e⚡ &7Spoed: &b25x'
   - '&8⇨ &e⚡ &71,800 J/s'
@@ -667,7 +667,7 @@ INFINITY_TREE_GROWER:
 INFINITY_VIRTUAL_FARM:
   description:
   - '&7Groei, oes en herplant gewasse outomaties'
-  name: '&bOneindige &aVirtuele Plaas'
+  name: 'Oneindige Virtuele Plaas'
   stats:
   - '&8⇨ &e⚡ &7Spoed: &b25x'
   - '&8⇨ &e⚡ &7900 J/s'
@@ -676,14 +676,14 @@ INFINITY_VIRTUAL_FARM:
 INGOT_FORMER:
   description:
   - '&7Vorm stawe uit stowwe'
-  name: '&8Staafvormer'
+  name: 'Staafvormer'
   stats:
   - '&8⇨ &e⚡ &7Spoed: &b1x'
   - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&oMasjien'
 IRON_GOLEM_DATA_CARD:
-  name: '&bYstergolem-datakaart'
+  name: 'Ystergolem-datakaart'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
@@ -691,35 +691,35 @@ IRON_GOLEM_DATA_CARD:
   usage:
   - '&7Plaas in ''n mob-simulasiekamer om te aktiveer'
 IRON_SINGULARITY:
-  name: '&7Ystersingulariteit'
+  name: 'Ystersingulariteit'
   type:
   - '&7&oHulpbron'
 LAPIS_SINGULARITY:
-  name: '&9Lapissingulariteit'
+  name: 'Lapissingulariteit'
   type:
   - '&7&oHulpbron'
 LEAD_SINGULARITY:
-  name: '&8Loodsingulariteit'
+  name: 'Loodsingulariteit'
   type:
   - '&7&oHulpbron'
 MACHINE_CIRCUIT:
-  name: '&6Masjienstroombaan'
+  name: 'Masjienstroombaan'
   type:
   - '&7&oKomponent'
 MACHINE_CORE:
-  name: '&fMasjienkern'
+  name: 'Masjienkern'
   type:
   - '&7&oKomponent'
 MACHINE_PLATE:
-  name: '&fMasjienplaat'
+  name: 'Masjienplaat'
   type:
   - '&7&oKomponent'
 MAGIC_SINGULARITY:
-  name: '&dTowersingulariteit'
+  name: 'Towersingulariteit'
   type:
   - '&7&oHulpbron'
 MAGMA_CUBE_DATA_CARD:
-  name: '&bMagmakubus-datakaart'
+  name: 'Magmakubus-datakaart'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
@@ -727,99 +727,99 @@ MAGMA_CUBE_DATA_CARD:
   usage:
   - '&7Plaas in ''n mob-simulasiekamer om te aktiveer'
 MAGNESIUM_SINGULARITY:
-  name: '&5Magnesiumsingulariteit'
+  name: 'Magnesiumsingulariteit'
   type:
   - '&7&oHulpbron'
 MAGNONIUM:
-  name: '&5Magnonium'
+  name: 'Magnonium'
   type:
   - '&7&oHulpbron'
 MAGSTEEL:
-  name: '&4MagSteel'
+  name: 'MagSteel'
   type:
   - '&7&oHulpbron'
 MAGSTEEL_PLATE:
-  name: '&4MagSteel-plaat'
+  name: 'MagSteel-plaat'
   type:
   - '&7&oKomponent'
 METAL_SINGULARITY:
-  name: '&8Metaalsingulariteit'
+  name: 'Metaalsingulariteit'
   type:
   - '&7&oHulpbron'
 MOB_SIMULATION_CHAMBER:
   description:
   - '&7Gebruik mob-datakaarte om te aktiveer'
-  name: '&8Mob-simulasiekamer'
+  name: 'Mob-simulasiekamer'
   stats:
   - '&8⇨ &e⚡ &715,000 J Buffer'
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&oMasjien'
 MYTHRIL:
-  name: '&bMythril'
+  name: 'Mythril'
   type:
   - '&7&oHulpbron'
 NETHERITE_SINGULARITY:
-  name: '&4Netherietsingulariteit'
+  name: 'Netherietsingulariteit'
   type:
   - '&7&oHulpbron'
 POWERED_BEDROCK:
   description:
   - '&7Wanneer dit krag kry, verander dit in ''n grondrots'
   - '&7Keer terug sodra die krag af is of dit gebreek word'
-  name: '&4Aangedrewe Grondrots'
+  name: 'Aangedrewe Grondrots'
   stats:
   - '&8⇨ &e⚡ &710,000 J/s'
   type:
   - '&7&oMasjien'
 QUARRY_OSCILLATOR_DIAMOND:
-  name: '&bDiamantossillator'
+  name: 'Diamantossillator'
   type:
   - '&7&oKomponent'
   usage:
   - '&7Sit in ''n steengroef om dit ''n'
   - '&750.0% kans te gee om hierdie materiaal te myn'
 QUARRY_OSCILLATOR_EMERALD:
-  name: '&bSmaragossillator'
+  name: 'Smaragossillator'
   type:
   - '&7&oKomponent'
   usage:
   - '&7Sit in ''n steengroef om dit ''n'
   - '&750.0% kans te gee om hierdie materiaal te myn'
 QUARRY_OSCILLATOR_LAPIS_LAZULI:
-  name: '&bLapis Lazuli-ossillator'
+  name: 'Lapis Lazuli-ossillator'
   type:
   - '&7&oKomponent'
   usage:
   - '&7Sit in ''n steengroef om dit ''n'
   - '&750.0% kans te gee om hierdie materiaal te myn'
 QUARRY_OSCILLATOR_QUARTZ:
-  name: '&bKwartsossillator'
+  name: 'Kwartsossillator'
   type:
   - '&7&oKomponent'
   usage:
   - '&7Sit in ''n steengroef om dit ''n'
   - '&750.0% kans te gee om hierdie materiaal te myn'
 QUARRY_OSCILLATOR_REDSTONE:
-  name: '&bRooiklipossillator'
+  name: 'Rooiklipossillator'
   type:
   - '&7&oKomponent'
   usage:
   - '&7Sit in ''n steengroef om dit ''n'
   - '&750.0% kans te gee om hierdie materiaal te myn'
 QUARTZ_SINGULARITY:
-  name: '&fKwartssingulariteit'
+  name: 'Kwartssingulariteit'
   type:
   - '&7&oHulpbron'
 REDSTONE_SINGULARITY:
-  name: '&cRooiklipsingulariteit'
+  name: 'Rooiklipsingulariteit'
   type:
   - '&7&oHulpbron'
 REINFORCED_GEOTHERMAL_GENERATOR:
   description:
   - '&7Genereer groot hoeveelhede energie'
   - '&7uit die hitte van die wêreld'
-  name: '&fVersterkte &cGeotermiese Gen'
+  name: 'Versterkte Geotermiese Gen'
   stats:
   - '&8⇨ &e⚡ &721,000 J Buffer'
   - '&8⇨ &e⚡ &7210 J/s'
@@ -829,7 +829,7 @@ REINFORCED_HYDRO_GENERATOR:
   description:
   - '&7Genereer groot hoeveelhede energie'
   - '&7uit die beweging van water'
-  name: '&fVersterkte &9Hidrogen'
+  name: 'Versterkte Hidrogen'
   stats:
   - '&8⇨ &e⚡ &74,500 J Buffer'
   - '&8⇨ &e⚡ &745 J/s'
@@ -838,7 +838,7 @@ REINFORCED_HYDRO_GENERATOR:
 REINFORCED_STORAGE:
   description:
   - '&7Stoor groot hoeveelhede van ''n enkele itemtipe'
-  name: '&fVersterkte &8Bergingseenheid'
+  name: 'Versterkte Bergingseenheid'
   stats:
   - '&6Kapasiteit: &e102,400 &eitems'
   type:
@@ -846,7 +846,7 @@ REINFORCED_STORAGE:
 REINFORCED_STRAINER:
   description:
   - '&7Versamel materiale uit vloeiende water'
-  name: '&fVersterkte Sif'
+  name: 'Versterkte Sif'
   stats:
   - '&8⇨ &b⚡ &7Spoed: &b20.0x'
   type:
@@ -854,13 +854,13 @@ REINFORCED_STRAINER:
 RESOURCE_SYNTHESIZER:
   description:
   - '&7Skep hulpbronne deur 2 Singulariteite te kombineer'
-  name: '&6Hulpbronsintetiseerder'
+  name: 'Hulpbronsintetiseerder'
   stats:
   - '&8⇨ &e⚡ &71,000,000 J per gebruik'
   type:
   - '&7&oMasjien'
 SHEEP_DATA_CARD:
-  name: '&bSkaap-datakaart'
+  name: 'Skaap-datakaart'
   stats:
   - '&8⇨ &e⚡ &775 J/s'
   type:
@@ -868,20 +868,20 @@ SHEEP_DATA_CARD:
   usage:
   - '&7Plaas in ''n mob-simulasiekamer om te aktiveer'
 SILVER_SINGULARITY:
-  name: '&7Silwersingulariteit'
+  name: 'Silwersingulariteit'
   type:
   - '&7&oHulpbron'
 SINGULARITY_CONSTRUCTOR:
   description:
   - '&7Verdig groot hoeveelhede hulpbronne'
-  name: '&fSingulariteitskonstrukteur'
+  name: 'Singulariteitskonstrukteur'
   stats:
   - '&8⇨ &e⚡ &7Spoed: &b1x'
   - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&oMasjien'
 SKELETON_DATA_CARD:
-  name: '&bGeraamte-datakaart'
+  name: 'Geraamte-datakaart'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
@@ -889,7 +889,7 @@ SKELETON_DATA_CARD:
   usage:
   - '&7Plaas in ''n mob-simulasiekamer om te aktiveer'
 SLIME_DATA_CARD:
-  name: '&bSlym-datakaart'
+  name: 'Slym-datakaart'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
@@ -897,7 +897,7 @@ SLIME_DATA_CARD:
   usage:
   - '&7Plaas in ''n mob-simulasiekamer om te aktiveer'
 SPIDER_DATA_CARD:
-  name: '&bSpinnekop-datakaart'
+  name: 'Spinnekop-datakaart'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
@@ -907,7 +907,7 @@ SPIDER_DATA_CARD:
 STONEWORKS_FACTORY:
   description:
   - '&7Genereer rolklip en verwerk dit tot verskeie materiale'
-  name: '&8Klipwerkefabriek'
+  name: 'Klipwerkefabriek'
   stats:
   - '&8⇨ &e⚡ &7240 J/s'
   type:
@@ -918,28 +918,28 @@ STORAGE_FORGE:
   description:
   - '&7Gradeer die vlak van Bergingseenhede op'
   - '&7Behou gestoorde items'
-  name: '&6Bergingsmidse'
+  name: 'Bergingsmidse'
   type:
   - '&7&oMasjien'
 STRAINER_BASE:
   description:
   - '&7Versamel stadig materiale uit vloeiende water met ''n Sif'
   - '&7Moet met water gevul wees om te werk'
-  name: '&7Sifbasis'
+  name: 'Sifbasis'
   type:
   - '&7&oMasjien'
 TIN_SINGULARITY:
-  name: '&7Tinsingulariteit'
+  name: 'Tinsingulariteit'
   type:
   - '&7&oHulpbron'
 TITANIUM:
-  name: '&7Titaan'
+  name: 'Titaan'
   type:
   - '&7&oHulpbron'
 URANIUM_EXTRACTOR:
   description:
   - '&7Omskep rolklip in uraan'
-  name: '&aUraanonttrekker'
+  name: 'Uraanonttrekker'
   stats:
   - '&8⇨ &e⚡ &7240 J/s'
   type:
@@ -947,13 +947,13 @@ URANIUM_EXTRACTOR:
 VEIN_MINER_RUNE:
   description:
   - '&7Gradeer ''n werktuig op om sekere materiale in are te myn'
-  name: '&bAarmynerrune'
+  name: 'Aarmynerrune'
   type:
   - '&7&oToestel'
   usage:
   - '&eLaat val&7 langs ''n werktuig om dit tot ''n Aarmyner op te gradeer'
 VILLAGER_DATA_CARD:
-  name: '&bDorpenaar-datakaart'
+  name: 'Dorpenaar-datakaart'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
@@ -963,13 +963,13 @@ VILLAGER_DATA_CARD:
 VOID_BIT:
   description:
   - '&7&oDit voel... leeg'
-  name: '&8Leegtebrokkie'
+  name: 'Leegtebrokkie'
   type:
   - '&7&oHulpbron'
 VOID_CAPACITOR:
   description:
   - '&7Stoor oortollige energie vir ''n energienetwerk'
-  name: '&8Leegtekapasitor'
+  name: 'Leegtekapasitor'
   stats:
   - '&8⇨ &e⚡ 16,000,000 &7J Kapasiteit'
   type:
@@ -977,13 +977,13 @@ VOID_CAPACITOR:
 VOID_DUST:
   description:
   - '&7&oDit begin vorm aanneem...'
-  name: '&8Leegtestof'
+  name: 'Leegtestof'
   type:
   - '&7&oHulpbron'
 VOID_HARVESTER:
   description:
   - '&7Oes stadig &8Leegte&7brokkies uit niks...'
-  name: '&8Leegtestroper'
+  name: 'Leegtestroper'
   stats:
   - '&8⇨ &e⚡ &7Spoed: &b1x'
   - '&8⇨ &e⚡ &7120 J/s'
@@ -993,13 +993,13 @@ VOID_INGOT:
   description:
   - '&7&oDie leegheid van die kosmos'
   - '&7&oin die palm van jou hand'
-  name: '&8Leegtestaaf'
+  name: 'Leegtestaaf'
   type:
   - '&7&oHulpbron'
 VOID_PANEL:
   description:
   - '&7Genereer energie uit duisternis'
-  name: '&8Leegtepaneel'
+  name: 'Leegtepaneel'
   stats:
   - '&8⇨ &e⚡ &7300,000 J Buffer'
   - '&8⇨ &e⚡ &73,000 J/s'
@@ -1008,7 +1008,7 @@ VOID_PANEL:
 VOID_QUARRY:
   description:
   - '&7Myn outomaties bowewêreld- en nether-ertse'
-  name: '&8Leegtesteengroef'
+  name: 'Leegtesteengroef'
   stats:
   - '&8⇨ &e⚡ &7Spoed: &b6x'
   - '&8⇨ &e⚡ &73,600 J/s'
@@ -1017,13 +1017,13 @@ VOID_QUARRY:
 VOID_STORAGE:
   description:
   - '&7Stoor groot hoeveelhede van ''n enkele itemtipe'
-  name: '&8Leegte&8bergingseenheid'
+  name: 'Leegtebergingseenheid'
   stats:
   - '&6Kapasiteit: &e409,600 &eitems'
   type:
   - '&7&oMasjien'
 WITCH_DATA_CARD:
-  name: '&bHeks-datakaart'
+  name: 'Heks-datakaart'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
@@ -1031,7 +1031,7 @@ WITCH_DATA_CARD:
   usage:
   - '&7Plaas in ''n mob-simulasiekamer om te aktiveer'
 WITHER_DATA_CARD:
-  name: '&bWither-datakaart'
+  name: 'Wither-datakaart'
   stats:
   - '&8⇨ &e⚡ &74,500 J/s'
   type:
@@ -1039,7 +1039,7 @@ WITHER_DATA_CARD:
   usage:
   - '&7Plaas in ''n mob-simulasiekamer om te aktiveer'
 WITHER_SKELETON_DATA_CARD:
-  name: '&bWither-geraamte-datakaart'
+  name: 'Wither-geraamte-datakaart'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
@@ -1047,11 +1047,11 @@ WITHER_SKELETON_DATA_CARD:
   usage:
   - '&7Plaas in ''n mob-simulasiekamer om te aktiveer'
 ZINC_SINGULARITY:
-  name: '&7Sinksingulariteit'
+  name: 'Sinksingulariteit'
   type:
   - '&7&oHulpbron'
 ZOMBIE_DATA_CARD:
-  name: '&bZombie-datakaart'
+  name: 'Zombie-datakaart'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:

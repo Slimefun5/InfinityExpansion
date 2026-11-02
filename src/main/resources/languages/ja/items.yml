@@ -1,12 +1,12 @@
 ADAMANTITE:
-  name: '&dアダマンタイト'
+  name: 'アダマンタイト'
   type:
   - '&7&o資源'
 ADVANCED_ANVIL:
   description:
   - '&7道具や防具のエンチャントを合成し、時々グレードアップさせる'
   - '&bSlimefunのアイテムにも対応'
-  name: '&cアドバンス金床'
+  name: 'アドバンス金床'
   stats:
   - '&8⇨ &e⚡ &71回につき100,000 J'
   type:
@@ -14,7 +14,7 @@ ADVANCED_ANVIL:
 ADVANCED_CHARGER:
   description:
   - '&7アイテムを素早く充電する'
-  name: '&cアドバンスチャージャー'
+  name: 'アドバンスチャージャー'
   stats:
   - '&8⇨ &e⚡ &7速度: &b30x'
   - '&8⇨ &e⚡ &7180 J/s'
@@ -23,7 +23,7 @@ ADVANCED_CHARGER:
 ADVANCED_COBBLE_GEN:
   description:
   - '&7時間経過で自動的に丸石を生成する'
-  name: '&cアドバンス &8丸石ジェネレーター'
+  name: 'アドバンス 丸石ジェネレーター'
   stats:
   - '&8⇨ &e⚡ &7速度: &b4x'
   - '&8⇨ &e⚡ &7120 J/s'
@@ -32,7 +32,7 @@ ADVANCED_COBBLE_GEN:
 ADVANCED_DISENCHANTER:
   description:
   - '&7アイテムのエンチャントを自動的に外して本にする'
-  name: '&cアドバンスディスエンチャンター'
+  name: 'アドバンスディスエンチャンター'
   stats:
   - '&8⇨ &e⚡ &7速度: &b5x'
   - '&8⇨ &e⚡ &7180 J/s'
@@ -41,7 +41,7 @@ ADVANCED_DISENCHANTER:
 ADVANCED_ENCHANTER:
   description:
   - '&7内部に入れたアイテムを自動的にエンチャントする'
-  name: '&cアドバンスエンチャンター'
+  name: 'アドバンスエンチャンター'
   stats:
   - '&8⇨ &e⚡ &7速度: &b5x'
   - '&8⇨ &e⚡ &7180 J/s'
@@ -50,7 +50,7 @@ ADVANCED_ENCHANTER:
 ADVANCED_GEO_MINER:
   description:
   - '&7より高速なジオマイナー'
-  name: '&cアドバンス &fジオマイナー'
+  name: 'アドバンス ジオマイナー'
   stats:
   - '&8⇨ &e⚡ &7速度: &b4x'
   - '&8⇨ &e⚡ &7120 J/s'
@@ -62,7 +62,7 @@ ADVANCED_NETHER_STAR_REACTOR:
   - '&b周囲を水で囲む必要がある'
   - '&bネザーアイス冷却セルの供給が必要'
   - '&4近くのエンティティをウィザー状態にする'
-  name: '&cアドバンスネザースターリアクター'
+  name: 'アドバンスネザースターリアクター'
   stats:
   - '&8⇨ &e⚡ &790,000 J バッファ'
   - '&8⇨ &e⚡ &71,800 J/s'
@@ -71,7 +71,7 @@ ADVANCED_NETHER_STAR_REACTOR:
 ADVANCED_PANEL:
   description:
   - '&7太陽からエネルギーを生成する'
-  name: '&cアドバンスソーラーパネル'
+  name: 'アドバンスソーラーパネル'
   stats:
   - '&8⇨ &e⚡ &715,000 J バッファ'
   - '&8⇨ &e⚡ &7150 J/s'
@@ -80,7 +80,7 @@ ADVANCED_PANEL:
 ADVANCED_QUARRY:
   description:
   - '&7地上とネザーの鉱石を自動的に採掘する'
-  name: '&cアドバンス採石機'
+  name: 'アドバンス採石機'
   stats:
   - '&8⇨ &e⚡ &7速度: &b2x'
   - '&8⇨ &e⚡ &7900 J/s'
@@ -89,7 +89,7 @@ ADVANCED_QUARRY:
 ADVANCED_SMELTERY:
   description:
   - '&7より高速な精錬所'
-  name: '&cアドバンス &7精錬所'
+  name: 'アドバンス 精錬所'
   stats:
   - '&8⇨ &e⚡ &7速度: &b24x'
   - '&8⇨ &e⚡ &7240 J/s'
@@ -98,7 +98,7 @@ ADVANCED_SMELTERY:
 ADVANCED_STORAGE:
   description:
   - '&7単一のアイテムを大量に保管する'
-  name: '&cアドバンス &8ストレージユニット'
+  name: 'アドバンス ストレージユニット'
   stats:
   - '&6容量: &e25,600 &e個'
   type:
@@ -106,7 +106,7 @@ ADVANCED_STORAGE:
 ADVANCED_STRAINER:
   description:
   - '&7流水から素材を回収する'
-  name: '&cアドバンスストレーナー'
+  name: 'アドバンスストレーナー'
   stats:
   - '&8⇨ &b⚡ &7速度: &b4.0x'
   type:
@@ -114,7 +114,7 @@ ADVANCED_STRAINER:
 ADVANCED_TREE_GROWER:
   description:
   - '&7木を自動的に成長させ、収穫し、植え直す'
-  name: '&cアドバンス &2植林機'
+  name: 'アドバンス 植林機'
   stats:
   - '&8⇨ &e⚡ &7速度: &b5x'
   - '&8⇨ &e⚡ &7180 J/s'
@@ -123,20 +123,20 @@ ADVANCED_TREE_GROWER:
 ADVANCED_VIRTUAL_FARM:
   description:
   - '&7作物を自動的に成長させ、収穫し、植え直す'
-  name: '&cアドバンス &aバーチャルファーム'
+  name: 'アドバンス バーチャルファーム'
   stats:
   - '&8⇨ &e⚡ &7速度: &b5x'
   - '&8⇨ &e⚡ &790 J/s'
   type:
   - '&7&o機械'
 ALUMINUM_SINGULARITY:
-  name: '&7アルミニウムシンギュラリティ'
+  name: 'アルミニウムシンギュラリティ'
   type:
   - '&7&o資源'
 BASIC_COBBLE_GEN:
   description:
   - '&7時間経過で自動的に丸石を生成する'
-  name: '&9ベーシック &8丸石ジェネレーター'
+  name: 'ベーシック 丸石ジェネレーター'
   stats:
   - '&8⇨ &e⚡ &7速度: &b1x'
   - '&8⇨ &e⚡ &724 J/s'
@@ -145,7 +145,7 @@ BASIC_COBBLE_GEN:
 BASIC_OBSIDIAN_GEN:
   description:
   - '&7時間経過で自動的に黒曜石を生成する'
-  name: '&8黒曜石ジェネレーター'
+  name: '黒曜石ジェネレーター'
   stats:
   - '&8⇨ &e⚡ &7速度: &b1x'
   - '&8⇨ &e⚡ &7240 J/s'
@@ -154,7 +154,7 @@ BASIC_OBSIDIAN_GEN:
 BASIC_PANEL:
   description:
   - '&7太陽からエネルギーを生成する'
-  name: '&9ベーシックソーラーパネル'
+  name: 'ベーシックソーラーパネル'
   stats:
   - '&8⇨ &e⚡ &7900 J バッファ'
   - '&8⇨ &e⚡ &79 J/s'
@@ -163,7 +163,7 @@ BASIC_PANEL:
 BASIC_QUARRY:
   description:
   - '&7地上の鉱石を自動的に採掘する'
-  name: '&9ベーシック採石機'
+  name: 'ベーシック採石機'
   stats:
   - '&8⇨ &e⚡ &7速度: &b1x'
   - '&8⇨ &e⚡ &7300 J/s'
@@ -172,7 +172,7 @@ BASIC_QUARRY:
 BASIC_STORAGE:
   description:
   - '&7単一のアイテムを大量に保管する'
-  name: '&9ベーシック &8ストレージユニット'
+  name: 'ベーシック ストレージユニット'
   stats:
   - '&6容量: &e6,400 &e個'
   type:
@@ -180,7 +180,7 @@ BASIC_STORAGE:
 BASIC_STRAINER:
   description:
   - '&7流水から素材を回収する'
-  name: '&9ベーシックストレーナー'
+  name: 'ベーシックストレーナー'
   stats:
   - '&8⇨ &b⚡ &7速度: &b1.0x'
   type:
@@ -188,7 +188,7 @@ BASIC_STRAINER:
 BASIC_TREE_GROWER:
   description:
   - '&7木を自動的に成長させ、収穫し、植え直す'
-  name: '&9ベーシック &2植林機'
+  name: 'ベーシック 植林機'
   stats:
   - '&8⇨ &e⚡ &7速度: &b1x'
   - '&8⇨ &e⚡ &736 J/s'
@@ -197,14 +197,14 @@ BASIC_TREE_GROWER:
 BASIC_VIRTUAL_FARM:
   description:
   - '&7作物を自動的に成長させ、収穫し、植え直す'
-  name: '&9ベーシック &aバーチャルファーム'
+  name: 'ベーシック バーチャルファーム'
   stats:
   - '&8⇨ &e⚡ &7速度: &b1x'
   - '&8⇨ &e⚡ &718 J/s'
   type:
   - '&7&o機械'
 BEE_DATA_CARD:
-  name: '&bハチのデータカード'
+  name: 'ハチのデータカード'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
@@ -212,7 +212,7 @@ BEE_DATA_CARD:
   usage:
   - '&7モブシミュレーションチェンバーに設置して起動'
 BLAZE_DATA_CARD:
-  name: '&bブレイズのデータカード'
+  name: 'ブレイズのデータカード'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
@@ -222,14 +222,14 @@ BLAZE_DATA_CARD:
 CELESTIAL_PANEL:
   description:
   - '&7太陽からエネルギーを生成する'
-  name: '&eセレスティアルパネル'
+  name: 'セレスティアルパネル'
   stats:
   - '&8⇨ &e⚡ &775,000 J バッファ'
   - '&8⇨ &e⚡ &7750 J/s'
   type:
   - '&7&o発電機'
 CHICKEN_DATA_CARD:
-  name: '&bニワトリのデータカード'
+  name: 'ニワトリのデータカード'
   stats:
   - '&8⇨ &e⚡ &775 J/s'
   type:
@@ -237,53 +237,53 @@ CHICKEN_DATA_CARD:
   usage:
   - '&7モブシミュレーションチェンバーに設置して起動'
 COAL_SINGULARITY:
-  name: '&8石炭シンギュラリティ'
+  name: '石炭シンギュラリティ'
   type:
   - '&7&o資源'
 COBBLE_PRESS:
   description:
   - '&7丸石をより効率的に圧縮する'
-  name: '&8丸石プレス'
+  name: '丸石プレス'
   stats:
   - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&o機械'
 COMPRESSED_COBBLESTONE_1:
-  name: '&7一重圧縮丸石'
+  name: '一重圧縮丸石'
   stats:
   - '&8丸石9個分に相当'
   type:
   - '&7&o資源'
 COMPRESSED_COBBLESTONE_2:
-  name: '&7二重圧縮丸石'
+  name: '二重圧縮丸石'
   stats:
   - '&8丸石81個分に相当'
   type:
   - '&7&o資源'
 COMPRESSED_COBBLESTONE_3:
-  name: '&7三重圧縮丸石'
+  name: '三重圧縮丸石'
   stats:
   - '&8丸石729個分に相当'
   type:
   - '&7&o資源'
 COMPRESSED_COBBLESTONE_4:
-  name: '&7四重圧縮丸石'
+  name: '四重圧縮丸石'
   stats:
   - '&8丸石6,561個分に相当'
   type:
   - '&7&o資源'
 COMPRESSED_COBBLESTONE_5:
-  name: '&7五重圧縮丸石'
+  name: '五重圧縮丸石'
   stats:
   - '&8丸石59,049個分に相当'
   type:
   - '&7&o資源'
 COPPER_SINGULARITY:
-  name: '&6銅シンギュラリティ'
+  name: '銅シンギュラリティ'
   type:
   - '&7&o資源'
 COW_DATA_CARD:
-  name: '&bウシのデータカード'
+  name: 'ウシのデータカード'
   stats:
   - '&8⇨ &e⚡ &775 J/s'
   type:
@@ -291,7 +291,7 @@ COW_DATA_CARD:
   usage:
   - '&7モブシミュレーションチェンバーに設置して起動'
 CREEPER_DATA_CARD:
-  name: '&bクリーパーのデータカード'
+  name: 'クリーパーのデータカード'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
@@ -301,7 +301,7 @@ CREEPER_DATA_CARD:
 DATA_INFUSER:
   description:
   - '&7空のデータカードにモブのアイテムを注入する'
-  name: '&8モブデータインフューザー'
+  name: 'モブデータインフューザー'
   stats:
   - '&8⇨ &e⚡ &71回につき20,000 J'
   type:
@@ -309,40 +309,40 @@ DATA_INFUSER:
 DECOMPRESSOR:
   description:
   - '&7ブロックを元の素材に還元する'
-  name: '&7デコンプレッサー'
+  name: 'デコンプレッサー'
   stats:
   - '&8⇨ &e⚡ &760 J/s'
   type:
   - '&7&o機械'
 DIAMOND_SINGULARITY:
-  name: '&bダイヤモンドシンギュラリティ'
+  name: 'ダイヤモンドシンギュラリティ'
   type:
   - '&7&o資源'
 DUST_EXTRACTOR:
   description:
   - '&7丸石をダストに変換する'
-  name: '&8ダスト抽出機'
+  name: 'ダスト抽出機'
   stats:
   - '&8⇨ &e⚡ &7速度: &b1x'
   - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&o機械'
 EARTH_SINGULARITY:
-  name: '&a大地シンギュラリティ'
+  name: '大地シンギュラリティ'
   type:
   - '&7&o資源'
 EMERALD_SINGULARITY:
-  name: '&aエメラルドシンギュラリティ'
+  name: 'エメラルドシンギュラリティ'
   type:
   - '&7&o資源'
 EMPTY_DATA_CARD:
-  name: '&8空のデータカード'
+  name: '空のデータカード'
   type:
   - '&7&o部品'
   usage:
   - '&7モブのアイテムを注入して満たす'
 ENDERMEN_DATA_CARD:
-  name: '&bエンダーマンのデータカード'
+  name: 'エンダーマンのデータカード'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
@@ -350,7 +350,7 @@ ENDERMEN_DATA_CARD:
   usage:
   - '&7モブシミュレーションチェンバーに設置して起動'
 ENDER_DRAGON_DATA_CARD:
-  name: '&bエンダードラゴンのデータカード'
+  name: 'エンダードラゴンのデータカード'
   stats:
   - '&8⇨ &e⚡ &79,000 J/s'
   type:
@@ -358,31 +358,31 @@ ENDER_DRAGON_DATA_CARD:
   usage:
   - '&7モブシミュレーションチェンバーに設置して起動'
 ENDER_FLAME:
-  name: '&cエンダーフレイム'
+  name: 'エンダーフレイム'
   type:
   - '&7&o部品'
 END_ESSENCE:
   description:
   - '&8&oジ・エンドの深淵より...'
-  name: '&5エンダーエッセンス'
+  name: 'エンダーエッセンス'
   type:
   - '&7&o資源'
 EXTREME_FREEZER:
   description:
   - '&7氷を冷却材に変換する'
-  name: '&bエクストリームフリーザー'
+  name: 'エクストリームフリーザー'
   stats:
   - '&8⇨ &e⚡ &790 J/s'
   type:
   - '&7&o機械'
 FORTUNE_SINGULARITY:
-  name: '&6フォーチュンシンギュラリティ'
+  name: 'フォーチュンシンギュラリティ'
   type:
   - '&7&o資源'
 GEAR_TRANSFORMER:
   description:
   - '&7バニラの道具や防具の素材を変更する'
-  name: '&7ギアトランスフォーマー'
+  name: 'ギアトランスフォーマー'
   stats:
   - '&8⇨ &e⚡ &71回につき12,000 J'
   type:
@@ -390,7 +390,7 @@ GEAR_TRANSFORMER:
 GEOTHERMAL_GENERATOR:
   description:
   - '&7世界の熱からエネルギーを生成する'
-  name: '&cジオサーマル発電機'
+  name: 'ジオサーマル発電機'
   stats:
   - '&8⇨ &e⚡ &73,500 J バッファ'
   - '&8⇨ &e⚡ &735 J/s'
@@ -399,17 +399,17 @@ GEOTHERMAL_GENERATOR:
 GEO_QUARRY:
   description:
   - '&7ヴォイドから電力を使ってジオ資源をゆっくり採取する'
-  name: '&fジオクオリー'
+  name: 'ジオクオリー'
   stats:
   - '&8⇨ &e⚡ &7450 J/s'
   type:
   - '&7&o機械'
 GOLD_SINGULARITY:
-  name: '&6金シンギュラリティ'
+  name: '金シンギュラリティ'
   type:
   - '&7&o資源'
 GUARDIAN_DATA_CARD:
-  name: '&bガーディアンのデータカード'
+  name: 'ガーディアンのデータカード'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
@@ -419,7 +419,7 @@ GUARDIAN_DATA_CARD:
 HYDRO_GENERATOR:
   description:
   - '&7水の流れからエネルギーを生成する'
-  name: '&9水力発電機'
+  name: '水力発電機'
   stats:
   - '&8⇨ &e⚡ &7500 J バッファ'
   - '&8⇨ &e⚡ &75 J/s'
@@ -429,21 +429,21 @@ INFINITE_INGOT:
   description:
   - '&7&oコスモスの猛威が'
   - '&7&oその手のひらに'
-  name: '&bインフィニティインゴット'
+  name: 'インフィニティインゴット'
   type:
   - '&7&o資源'
 INFINITE_MACHINE_CIRCUIT:
-  name: '&bインフィニティ &6マシン回路'
+  name: 'インフィニティ マシン回路'
   type:
   - '&7&o部品'
 INFINITE_MACHINE_CORE:
-  name: '&bインフィニティマシンコア'
+  name: 'インフィニティマシンコア'
   type:
   - '&7&o部品'
 INFINITE_PANEL:
   description:
   - '&7コスモスからエネルギーを生成する'
-  name: '&bインフィニティパネル'
+  name: 'インフィニティパネル'
   stats:
   - '&8⇨ &e⚡ &76,000,000 J バッファ'
   - '&8⇨ &e⚡ &760,000 J/s'
@@ -452,26 +452,26 @@ INFINITE_PANEL:
 INFINITE_VOID_HARVESTER:
   description:
   - '&7無から&8ヴォイド&7ビットを採取する'
-  name: '&bインフィニティ &8ヴォイドハーベスター'
+  name: 'インフィニティ ヴォイドハーベスター'
   stats:
   - '&8⇨ &e⚡ &7速度: &b64x'
   - '&8⇨ &e⚡ &712,000 J/s'
   type:
   - '&7&o機械'
 INFINITY_AXE:
-  name: '&4自然の破滅'
+  name: '自然の破滅'
   stats:
   - '&bソウルバウンド'
   type:
   - '&7&o道具'
 INFINITY_BLADE:
-  name: '&b宇宙の刃'
+  name: '宇宙の刃'
   stats:
   - '&bソウルバウンド'
   type:
   - '&7&o武器'
 INFINITY_BOOTS:
-  name: '&bインフィニティブーツ'
+  name: 'インフィニティブーツ'
   stats:
   - '&7移動速度上昇 III'
   - '&7イルカの好意 I'
@@ -481,7 +481,7 @@ INFINITY_BOOTS:
 INFINITY_BOW:
   description:
   - '&7命中すると敵を減速させ混乱させる爆発矢を放つ'
-  name: '&6天空を穿つ者'
+  name: '天空を穿つ者'
   stats:
   - '&bソウルバウンド'
   type:
@@ -490,7 +490,7 @@ INFINITY_CAPACITOR:
   description:
   - '&c&oエネルギーネットワーク1つにつき'
   - '&c&o1個より多く使用しないこと'
-  name: '&bインフィニティキャパシター'
+  name: 'インフィニティキャパシター'
   stats:
   - '&8⇨ &e⚡ 2,000,000,000 &7J 容量'
   type:
@@ -498,14 +498,14 @@ INFINITY_CAPACITOR:
 INFINITY_CHARGER:
   description:
   - '&7アイテムを瞬時に充電する'
-  name: '&bインフィニティチャージャー'
+  name: 'インフィニティチャージャー'
   stats:
   - '&8⇨ &e⚡ &7速度: &b6000x'
   - '&8⇨ &e⚡ &71回につき60,000 J'
   type:
   - '&7&o機械'
 INFINITY_CHESTPLATE:
-  name: '&bインフィニティチェストプレート'
+  name: 'インフィニティチェストプレート'
   stats:
   - '&7攻撃力上昇 II'
   - '&7耐性 I'
@@ -517,7 +517,7 @@ INFINITY_CHESTPLATE:
 INFINITY_COBBLE_GEN:
   description:
   - '&7時間経過で自動的に丸石を生成する'
-  name: '&cインフィニティ &8丸石ジェネレーター'
+  name: 'インフィニティ 丸石ジェネレーター'
   stats:
   - '&8⇨ &e⚡ &7速度: &b64x'
   - '&8⇨ &e⚡ &7800 J/s'
@@ -526,14 +526,14 @@ INFINITY_COBBLE_GEN:
 INFINITY_CONSTRUCTOR:
   description:
   - '&7大量の資源を素早く凝縮する'
-  name: '&bインフィニティ &fコンストラクター'
+  name: 'インフィニティ コンストラクター'
   stats:
   - '&8⇨ &e⚡ &7速度: &b64x'
   - '&8⇨ &e⚡ &71,200 J/s'
   type:
   - '&7&o機械'
 INFINITY_CROWN:
-  name: '&bインフィニティクラウン'
+  name: 'インフィニティクラウン'
   stats:
   - '&7暗視 I'
   - '&7コンジットパワー I'
@@ -544,7 +544,7 @@ INFINITY_CROWN:
 INFINITY_DISENCHANTER:
   description:
   - '&7アイテムのエンチャントを自動的に外して本にする'
-  name: '&bインフィニティディスエンチャンター'
+  name: 'インフィニティディスエンチャンター'
   stats:
   - '&8⇨ &e⚡ &7速度: &b90x'
   - '&8⇨ &e⚡ &71回につき12,000 J'
@@ -553,7 +553,7 @@ INFINITY_DISENCHANTER:
 INFINITY_DUST_EXTRACTOR:
   description:
   - '&7丸石をダストに変換する'
-  name: '&bインフィニティ &8ダスト抽出機'
+  name: 'インフィニティ ダスト抽出機'
   stats:
   - '&8⇨ &e⚡ &7速度: &b16x'
   - '&8⇨ &e⚡ &77,200 J/s'
@@ -562,7 +562,7 @@ INFINITY_DUST_EXTRACTOR:
 INFINITY_ENCHANTER:
   description:
   - '&7内部に入れたアイテムを自動的にエンチャントする'
-  name: '&bインフィニティエンチャンター'
+  name: 'インフィニティエンチャンター'
   stats:
   - '&8⇨ &e⚡ &7速度: &b75x'
   - '&8⇨ &e⚡ &71回につき12,000 J'
@@ -571,7 +571,7 @@ INFINITY_ENCHANTER:
 INFINITY_FORGE:
   description:
   - '&7インフィニティアイテムを作成するのに使う'
-  name: '&6インフィニティ工作台'
+  name: 'インフィニティ工作台'
   stats:
   - '&8⇨ &e⚡ &7アイテム1個につき10,000,000 J'
   type:
@@ -579,14 +579,14 @@ INFINITY_FORGE:
 INFINITY_INGOT_FORMER:
   description:
   - '&7ダストからインゴットを成形する'
-  name: '&bインフィニティ &8インゴット成形機'
+  name: 'インフィニティ インゴット成形機'
   stats:
   - '&8⇨ &e⚡ &7速度: &b16x'
   - '&8⇨ &e⚡ &77,200 J/s'
   type:
   - '&7&o機械'
 INFINITY_LEGGINGS:
-  name: '&bインフィニティレギンス'
+  name: 'インフィニティレギンス'
   stats:
   - '&7採掘速度上昇 III'
   - '&7再生能力 I'
@@ -598,7 +598,7 @@ INFINITY_LEGGINGS:
 INFINITY_MATRIX:
   description:
   - '&6無制限飛行を付与する'
-  name: '&fインフィニティマトリックス'
+  name: 'インフィニティマトリックス'
   stats:
   - '&bソウルバウンド'
   type:
@@ -607,7 +607,7 @@ INFINITY_MATRIX:
   - '&7右クリックで有効/無効の切り替えと所有権の取得'
   - '&7しゃがみながら右クリックで所有権を解除'
 INFINITY_PICKAXE:
-  name: '&9ワールドブレイカー'
+  name: 'ワールドブレイカー'
   stats:
   - '&bソウルバウンド'
   type:
@@ -615,7 +615,7 @@ INFINITY_PICKAXE:
 INFINITY_QUARRY:
   description:
   - '&7地上とネザーの鉱石を自動的に採掘する'
-  name: '&bインフィニティ採石機'
+  name: 'インフィニティ採石機'
   stats:
   - '&8⇨ &e⚡ &7速度: &b64x'
   - '&8⇨ &e⚡ &736,000 J/s'
@@ -625,32 +625,32 @@ INFINITY_REACTOR:
   description:
   - '&7電力を生成する'
   - '&7&8ヴォイド&7と&bインフィニティ&7インゴットの圧縮によって'
-  name: '&bインフィニティリアクター'
+  name: 'インフィニティリアクター'
   stats:
   - '&8⇨ &e⚡ &7120,000,000 J バッファ'
   - '&8⇨ &e⚡ &7120,000 J/s'
   type:
   - '&7&o発電機'
 INFINITY_SHIELD:
-  name: '&bコズミックイージス'
+  name: 'コズミックイージス'
   stats:
   - '&bソウルバウンド'
   type:
   - '&7&o武器'
 INFINITY_SHOVEL:
-  name: '&a山喰らい'
+  name: '山喰らい'
   stats:
   - '&bソウルバウンド'
   type:
   - '&7&o道具'
 INFINITY_SINGULARITY:
-  name: '&bインフィニティシンギュラリティ'
+  name: 'インフィニティシンギュラリティ'
   type:
   - '&7&o資源'
 INFINITY_STORAGE:
   description:
   - '&7単一のアイテムを大量に保管する'
-  name: '&bインフィニティ &8ストレージユニット'
+  name: 'インフィニティ ストレージユニット'
   stats:
   - '&6容量: &e1,600,000,000 &e個'
   type:
@@ -658,7 +658,7 @@ INFINITY_STORAGE:
 INFINITY_TREE_GROWER:
   description:
   - '&7木を自動的に成長させ、収穫し、植え直す'
-  name: '&bインフィニティ &2植林機'
+  name: 'インフィニティ 植林機'
   stats:
   - '&8⇨ &e⚡ &7速度: &b25x'
   - '&8⇨ &e⚡ &71,800 J/s'
@@ -667,7 +667,7 @@ INFINITY_TREE_GROWER:
 INFINITY_VIRTUAL_FARM:
   description:
   - '&7作物を自動的に成長させ、収穫し、植え直す'
-  name: '&bインフィニティ &aバーチャルファーム'
+  name: 'インフィニティ バーチャルファーム'
   stats:
   - '&8⇨ &e⚡ &7速度: &b25x'
   - '&8⇨ &e⚡ &7900 J/s'
@@ -676,14 +676,14 @@ INFINITY_VIRTUAL_FARM:
 INGOT_FORMER:
   description:
   - '&7ダストからインゴットを成形する'
-  name: '&8インゴット成形機'
+  name: 'インゴット成形機'
   stats:
   - '&8⇨ &e⚡ &7速度: &b1x'
   - '&8⇨ &e⚡ &7240 J/s'
   type:
   - '&7&o機械'
 IRON_GOLEM_DATA_CARD:
-  name: '&bアイアンゴーレムのデータカード'
+  name: 'アイアンゴーレムのデータカード'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
@@ -691,35 +691,35 @@ IRON_GOLEM_DATA_CARD:
   usage:
   - '&7モブシミュレーションチェンバーに設置して起動'
 IRON_SINGULARITY:
-  name: '&7鉄シンギュラリティ'
+  name: '鉄シンギュラリティ'
   type:
   - '&7&o資源'
 LAPIS_SINGULARITY:
-  name: '&9ラピスラズリシンギュラリティ'
+  name: 'ラピスラズリシンギュラリティ'
   type:
   - '&7&o資源'
 LEAD_SINGULARITY:
-  name: '&8鉛シンギュラリティ'
+  name: '鉛シンギュラリティ'
   type:
   - '&7&o資源'
 MACHINE_CIRCUIT:
-  name: '&6マシン回路'
+  name: 'マシン回路'
   type:
   - '&7&o部品'
 MACHINE_CORE:
-  name: '&fマシンコア'
+  name: 'マシンコア'
   type:
   - '&7&o部品'
 MACHINE_PLATE:
-  name: '&fマシンプレート'
+  name: 'マシンプレート'
   type:
   - '&7&o部品'
 MAGIC_SINGULARITY:
-  name: '&d魔法シンギュラリティ'
+  name: '魔法シンギュラリティ'
   type:
   - '&7&o資源'
 MAGMA_CUBE_DATA_CARD:
-  name: '&bマグマキューブのデータカード'
+  name: 'マグマキューブのデータカード'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
@@ -727,99 +727,99 @@ MAGMA_CUBE_DATA_CARD:
   usage:
   - '&7モブシミュレーションチェンバーに設置して起動'
 MAGNESIUM_SINGULARITY:
-  name: '&5マグネシウムシンギュラリティ'
+  name: 'マグネシウムシンギュラリティ'
   type:
   - '&7&o資源'
 MAGNONIUM:
-  name: '&5マグノニウム'
+  name: 'マグノニウム'
   type:
   - '&7&o資源'
 MAGSTEEL:
-  name: '&4マグスチール'
+  name: 'マグスチール'
   type:
   - '&7&o資源'
 MAGSTEEL_PLATE:
-  name: '&4マグスチールプレート'
+  name: 'マグスチールプレート'
   type:
   - '&7&o部品'
 METAL_SINGULARITY:
-  name: '&8メタルシンギュラリティ'
+  name: 'メタルシンギュラリティ'
   type:
   - '&7&o資源'
 MOB_SIMULATION_CHAMBER:
   description:
   - '&7モブデータカードを使って起動する'
-  name: '&8モブシミュレーションチェンバー'
+  name: 'モブシミュレーションチェンバー'
   stats:
   - '&8⇨ &e⚡ &715,000 J バッファ'
   - '&8⇨ &e⚡ &7150 J/s'
   type:
   - '&7&o機械'
 MYTHRIL:
-  name: '&bミスリル'
+  name: 'ミスリル'
   type:
   - '&7&o資源'
 NETHERITE_SINGULARITY:
-  name: '&4ネザライトシンギュラリティ'
+  name: 'ネザライトシンギュラリティ'
   type:
   - '&7&o資源'
 POWERED_BEDROCK:
   description:
   - '&7通電すると岩盤に変化する'
   - '&7通電が止まるか破壊されると元に戻る'
-  name: '&4パワードベッドロック'
+  name: 'パワードベッドロック'
   stats:
   - '&8⇨ &e⚡ &710,000 J/s'
   type:
   - '&7&o機械'
 QUARRY_OSCILLATOR_DIAMOND:
-  name: '&bダイヤモンドオシレーター'
+  name: 'ダイヤモンドオシレーター'
   type:
   - '&7&o部品'
   usage:
   - '&7採石機に設置すると'
   - '&7この素材を採掘する確率が50.0%になる'
 QUARRY_OSCILLATOR_EMERALD:
-  name: '&bエメラルドオシレーター'
+  name: 'エメラルドオシレーター'
   type:
   - '&7&o部品'
   usage:
   - '&7採石機に設置すると'
   - '&7この素材を採掘する確率が50.0%になる'
 QUARRY_OSCILLATOR_LAPIS_LAZULI:
-  name: '&bラピスラズリオシレーター'
+  name: 'ラピスラズリオシレーター'
   type:
   - '&7&o部品'
   usage:
   - '&7採石機に設置すると'
   - '&7この素材を採掘する確率が50.0%になる'
 QUARRY_OSCILLATOR_QUARTZ:
-  name: '&bクォーツオシレーター'
+  name: 'クォーツオシレーター'
   type:
   - '&7&o部品'
   usage:
   - '&7採石機に設置すると'
   - '&7この素材を採掘する確率が50.0%になる'
 QUARRY_OSCILLATOR_REDSTONE:
-  name: '&bレッドストーンオシレーター'
+  name: 'レッドストーンオシレーター'
   type:
   - '&7&o部品'
   usage:
   - '&7採石機に設置すると'
   - '&7この素材を採掘する確率が50.0%になる'
 QUARTZ_SINGULARITY:
-  name: '&fクォーツシンギュラリティ'
+  name: 'クォーツシンギュラリティ'
   type:
   - '&7&o資源'
 REDSTONE_SINGULARITY:
-  name: '&cレッドストーンシンギュラリティ'
+  name: 'レッドストーンシンギュラリティ'
   type:
   - '&7&o資源'
 REINFORCED_GEOTHERMAL_GENERATOR:
   description:
   - '&7世界の熱から'
   - '&7大量のエネルギーを生成する'
-  name: '&fリインフォース &cジオサーマル発電機'
+  name: 'リインフォース ジオサーマル発電機'
   stats:
   - '&8⇨ &e⚡ &721,000 J バッファ'
   - '&8⇨ &e⚡ &7210 J/s'
@@ -829,7 +829,7 @@ REINFORCED_HYDRO_GENERATOR:
   description:
   - '&7水の流れから'
   - '&7大量のエネルギーを生成する'
-  name: '&fリインフォース &9水力発電機'
+  name: 'リインフォース 水力発電機'
   stats:
   - '&8⇨ &e⚡ &74,500 J バッファ'
   - '&8⇨ &e⚡ &745 J/s'
@@ -838,7 +838,7 @@ REINFORCED_HYDRO_GENERATOR:
 REINFORCED_STORAGE:
   description:
   - '&7単一のアイテムを大量に保管する'
-  name: '&fリインフォース &8ストレージユニット'
+  name: 'リインフォース ストレージユニット'
   stats:
   - '&6容量: &e102,400 &e個'
   type:
@@ -846,7 +846,7 @@ REINFORCED_STORAGE:
 REINFORCED_STRAINER:
   description:
   - '&7流水から素材を回収する'
-  name: '&fリインフォースストレーナー'
+  name: 'リインフォースストレーナー'
   stats:
   - '&8⇨ &b⚡ &7速度: &b20.0x'
   type:
@@ -854,13 +854,13 @@ REINFORCED_STRAINER:
 RESOURCE_SYNTHESIZER:
   description:
   - '&7シンギュラリティ2個を組み合わせて資源を作る'
-  name: '&6リソースシンセサイザー'
+  name: 'リソースシンセサイザー'
   stats:
   - '&8⇨ &e⚡ &71回につき1,000,000 J'
   type:
   - '&7&o機械'
 SHEEP_DATA_CARD:
-  name: '&bヒツジのデータカード'
+  name: 'ヒツジのデータカード'
   stats:
   - '&8⇨ &e⚡ &775 J/s'
   type:
@@ -868,20 +868,20 @@ SHEEP_DATA_CARD:
   usage:
   - '&7モブシミュレーションチェンバーに設置して起動'
 SILVER_SINGULARITY:
-  name: '&7銀シンギュラリティ'
+  name: '銀シンギュラリティ'
   type:
   - '&7&o資源'
 SINGULARITY_CONSTRUCTOR:
   description:
   - '&7大量の資源を凝縮する'
-  name: '&fシンギュラリティコンストラクター'
+  name: 'シンギュラリティコンストラクター'
   stats:
   - '&8⇨ &e⚡ &7速度: &b1x'
   - '&8⇨ &e⚡ &7120 J/s'
   type:
   - '&7&o機械'
 SKELETON_DATA_CARD:
-  name: '&bスケルトンのデータカード'
+  name: 'スケルトンのデータカード'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
@@ -889,7 +889,7 @@ SKELETON_DATA_CARD:
   usage:
   - '&7モブシミュレーションチェンバーに設置して起動'
 SLIME_DATA_CARD:
-  name: '&bスライムのデータカード'
+  name: 'スライムのデータカード'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
@@ -897,7 +897,7 @@ SLIME_DATA_CARD:
   usage:
   - '&7モブシミュレーションチェンバーに設置して起動'
 SPIDER_DATA_CARD:
-  name: '&bクモのデータカード'
+  name: 'クモのデータカード'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
@@ -907,7 +907,7 @@ SPIDER_DATA_CARD:
 STONEWORKS_FACTORY:
   description:
   - '&7丸石を生成し、さまざまな素材に加工する'
-  name: '&8ストーンワークスファクトリー'
+  name: 'ストーンワークスファクトリー'
   stats:
   - '&8⇨ &e⚡ &7240 J/s'
   type:
@@ -918,28 +918,28 @@ STORAGE_FORGE:
   description:
   - '&7ストレージユニットのティアをアップグレードする'
   - '&7保管済みのアイテムはそのまま保持される'
-  name: '&6ストレージフォージ'
+  name: 'ストレージフォージ'
   type:
   - '&7&o機械'
 STRAINER_BASE:
   description:
   - '&7ストレーナーを使い、流水から素材をゆっくり回収する'
   - '&7機能させるには水源に浸す必要がある'
-  name: '&7ストレーナーベース'
+  name: 'ストレーナーベース'
   type:
   - '&7&o機械'
 TIN_SINGULARITY:
-  name: '&7スズシンギュラリティ'
+  name: 'スズシンギュラリティ'
   type:
   - '&7&o資源'
 TITANIUM:
-  name: '&7チタン'
+  name: 'チタン'
   type:
   - '&7&o資源'
 URANIUM_EXTRACTOR:
   description:
   - '&7丸石をウランに変換する'
-  name: '&aウラン抽出機'
+  name: 'ウラン抽出機'
   stats:
   - '&8⇨ &e⚡ &7240 J/s'
   type:
@@ -947,13 +947,13 @@ URANIUM_EXTRACTOR:
 VEIN_MINER_RUNE:
   description:
   - '&7道具をアップグレードし、特定の素材を連続採掘できるようにする'
-  name: '&bヴェインマイナールーン'
+  name: 'ヴェインマイナールーン'
   type:
   - '&7&oガジェット'
   usage:
   - '&eドロップ&7で道具の隣に置くとヴェインマイナーにアップグレードされる'
 VILLAGER_DATA_CARD:
-  name: '&b村人のデータカード'
+  name: '村人のデータカード'
   stats:
   - '&8⇨ &e⚡ &7150 J/s'
   type:
@@ -963,13 +963,13 @@ VILLAGER_DATA_CARD:
 VOID_BIT:
   description:
   - '&7&oどこか空虚な感じがする...'
-  name: '&8ヴォイドビット'
+  name: 'ヴォイドビット'
   type:
   - '&7&o資源'
 VOID_CAPACITOR:
   description:
   - '&7エネルギーネットワークの余剰電力を蓄える'
-  name: '&8ヴォイドキャパシター'
+  name: 'ヴォイドキャパシター'
   stats:
   - '&8⇨ &e⚡ 16,000,000 &7J 容量'
   type:
@@ -977,13 +977,13 @@ VOID_CAPACITOR:
 VOID_DUST:
   description:
   - '&7&o少しずつ形になり始めている...'
-  name: '&8ヴォイドダスト'
+  name: 'ヴォイドダスト'
   type:
   - '&7&o資源'
 VOID_HARVESTER:
   description:
   - '&7無から&8ヴォイド&7ビットをゆっくり採取する'
-  name: '&8ヴォイドハーベスター'
+  name: 'ヴォイドハーベスター'
   stats:
   - '&8⇨ &e⚡ &7速度: &b1x'
   - '&8⇨ &e⚡ &7120 J/s'
@@ -993,13 +993,13 @@ VOID_INGOT:
   description:
   - '&7&oコスモスの虚無が'
   - '&7&oその手のひらに'
-  name: '&8ヴォイドインゴット'
+  name: 'ヴォイドインゴット'
   type:
   - '&7&o資源'
 VOID_PANEL:
   description:
   - '&7闇からエネルギーを生成する'
-  name: '&8ヴォイドパネル'
+  name: 'ヴォイドパネル'
   stats:
   - '&8⇨ &e⚡ &7300,000 J バッファ'
   - '&8⇨ &e⚡ &73,000 J/s'
@@ -1008,7 +1008,7 @@ VOID_PANEL:
 VOID_QUARRY:
   description:
   - '&7地上とネザーの鉱石を自動的に採掘する'
-  name: '&8ヴォイド採石機'
+  name: 'ヴォイド採石機'
   stats:
   - '&8⇨ &e⚡ &7速度: &b6x'
   - '&8⇨ &e⚡ &73,600 J/s'
@@ -1017,13 +1017,13 @@ VOID_QUARRY:
 VOID_STORAGE:
   description:
   - '&7単一のアイテムを大量に保管する'
-  name: '&8ヴォイド &8ストレージユニット'
+  name: 'ヴォイド ストレージユニット'
   stats:
   - '&6容量: &e409,600 &e個'
   type:
   - '&7&o機械'
 WITCH_DATA_CARD:
-  name: '&b魔女のデータカード'
+  name: '魔女のデータカード'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
@@ -1031,7 +1031,7 @@ WITCH_DATA_CARD:
   usage:
   - '&7モブシミュレーションチェンバーに設置して起動'
 WITHER_DATA_CARD:
-  name: '&bウィザーのデータカード'
+  name: 'ウィザーのデータカード'
   stats:
   - '&8⇨ &e⚡ &74,500 J/s'
   type:
@@ -1039,7 +1039,7 @@ WITHER_DATA_CARD:
   usage:
   - '&7モブシミュレーションチェンバーに設置して起動'
 WITHER_SKELETON_DATA_CARD:
-  name: '&bウィザースケルトンのデータカード'
+  name: 'ウィザースケルトンのデータカード'
   stats:
   - '&8⇨ &e⚡ &7600 J/s'
   type:
@@ -1047,11 +1047,11 @@ WITHER_SKELETON_DATA_CARD:
   usage:
   - '&7モブシミュレーションチェンバーに設置して起動'
 ZINC_SINGULARITY:
-  name: '&7亜鉛シンギュラリティ'
+  name: '亜鉛シンギュラリティ'
   type:
   - '&7&o資源'
 ZOMBIE_DATA_CARD:
-  name: '&bゾンビのデータカード'
+  name: 'ゾンビのデータカード'
   stats:
   - '&8⇨ &e⚡ &7300 J/s'
   type:
